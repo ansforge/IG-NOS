@@ -1,13 +1,23 @@
-Cet exemple d'Implementation Guide (IG) très simplifié sert de base pour le développement de nouveaux guides d'implémentation. La démarche d'élaboration d'un nouvel IG est expliquée dans le [wiki de ce repo](https://github.com/ansforge/FIG_ans-ig-sample/wiki). 
-Le README ci-dessous constitue un template à adapter et compléter pour chaque projet.
+![Logo_LEF_CI-SIS](https://user-images.githubusercontent.com/48218773/227532484-eff82649-4e42-49c6-966a-dc3ea78cf59c.png)
 
 # Contexte
-
+En cours de contruction
 ## Contexte métier du projet
-[A COMPLETER : doit contenir la description fonctionnelle du projet destinée à un profil non technique]
+Les nomenclatures des objets de santé (NOS) sont indissociables du Modèle des Objets de Santé (MOS) et sont mises à disposition du secteur santé-social par l’agence du numérique en santé.
+
+Les NOS reposent sur un système de codification (code et libellé) des éléments structurés du MOS (catégorie d'établissement, profession, etc.).
 
 ## Contexte technique du projet
-[A COMPLETER : doit expliquer brièvement quelles ressources / profils sont utilisés, exemple implémentation où IG est utilisé]
+Les NOS sont découpées en trois familles :
+
+* **Les terminologies de référence (TRE)** sont des nomenclatures officielles créées et maintenues 
+
+
+* **Les jeux de valeurs (JDV)** sont des nomenclatures constituées de codes extraits d’une ou plusieurs TRE. Un jeu de valeurs est créé à des fins applicatives.
+Par exemple avec les JDV du répertoire opérationnel des ressources (ROR) ou bien du cadre d’interopérabilité des systèmes d’information de santé (CI-SIS).
+
+* **Les tables d'association (ASS)** sont des tables assurant la correspondance entre les codes issus d'au moins deux TRE.
+Par exemple, la codification des secteurs d'activité dans le répertoire ADELI est remplacée par une codification RPPS. Cette migration nécessite de créer une table associant les codes de secteurs d’activité ADELI à ceux des secteurs d’activité RPPS.
 
 # CI/CD
 Les workflows associés à ce repository (.github/workflows) permettent : 
@@ -16,9 +26,8 @@ Les workflows associés à ce repository (.github/workflows) permettent :
 * De publier les pages : https://ansforge.github.io/{nom du repo}/ig/{nom de la branche}
 
 # Notes
-Ce repo "sample IG ANS" a été créé à partir du repo "sample-ig" de l'organisation GitHub FHIR : https://github.com/FHIR/sample-ig.
+Ce repo  a été créé à partir du repo "sample-ig" de l'organisation GitHub FHIR : https://github.com/FHIR/sample-ig.
 
-[A COMPLETER: notes supplémentaires pour le lecteur de la spec]
 Un commentaire ? Une remarque ? Utilisez les GitHub [issues](https://docs.github.com/fr/issues) pour indiquer vos propositions d'amélioration et de correction.
 
 ## Acronymes
@@ -28,4 +37,3 @@ Un commentaire ? Une remarque ? Utilisez les GitHub [issues](https://docs.github
 * FIG : FHIR Implementation Guide
 * HL7 : Health Level Seven
 
-[A COMPLETER : acronymes utilisés dans le cadre de ce projet]
