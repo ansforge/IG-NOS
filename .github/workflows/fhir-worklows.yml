@@ -15,34 +15,16 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # Install .NET runtime
-      - name: Setup .NET Core SDK
-        uses: actions/setup-dotnet@v2
+      - name: Get Test
+        uses: actions/checkout@main
         with:
-          dotnet-version: '6.x.x'
-      
-      # Install Java runtime (only needed if you want to run the offical HL7 Java validator)
-      - name: Setup Java JDK
-        uses: actions/setup-java@v3
-        with:
-          distribution: 'microsoft'
-          java-version: '17'    
-      - name : firely 
-        run : dotnet tool install --global Firely.Terminal --version 3.0.0
-        
-      - name: Check Firely Terminal Version
-        run: |
-          CHECK_FIRELY_TERMINAL_VERSION=$(fhir -v | tr '\n' ' ') # Print everything in a single line
-          echo "FIRELY_TERMINAL_VERSION: $CHECK_FIRELY_TERMINAL_VERSION"
-        
-      - name: Run bake  ans.annuaire.fhir.r4
-        run: |
-          fhir install ans.annuaire.fhir.r4 0.2.0
-          fhir bake --package ans.annuaire.fhir.r4
-      - name: Run bake hl7.fhir.fr.core
-        run: |
-          fhir install hl7.fhir.fr.core 1.1.0
-          fhir bake --package hl7.fhir.fr.core
+          repository: ansforge/IG-NOS@template
+          path: template
+
+ 
+ 
+ 
+
           
       # Persist the FHIR Package Cache between runners.
       # Doc: https://confluence.hl7.org/display/FHIR/FHIR+Package+Cache
