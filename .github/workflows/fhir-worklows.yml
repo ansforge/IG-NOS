@@ -2,7 +2,6 @@ name: ghpages
 
 on:
   workflow_call:
-  push:  
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -63,7 +62,7 @@ jobs:
           sudo gem install jekyll
       # Builds the HTML page for the IG.
       - name: 🏃‍♂️ Run IG Publisher
-        run : java -Xmx8192m -jar publisher.jar publisher -ig .  -publish https://github.io/
+        run : java -Xmx8g -jar publisher.jar publisher -ig .  -publish https://github.io/
 
       - name: Get branch names
         id: branch-name
