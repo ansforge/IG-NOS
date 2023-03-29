@@ -4,7 +4,8 @@ on:
   workflow_call:
   push:
 
-
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 
 # The following jobs are equal for all IGs and can be moved to a common composite-action if 'uses'-support is added, see:
