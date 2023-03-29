@@ -68,7 +68,8 @@ jobs:
         id: branch-name
         uses: tj-actions/branch-names@v4.3
         
-        
+      - name: Re-Run jekyll
+        run : jekyll build --destination "/home/runner/work/IG-NOS/IG-NOS/output" --source  "/home/runner/work/IG-NOS/IG-NOS/temp/pages"
           
       
         
