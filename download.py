@@ -1,7 +1,7 @@
 import os,re,shutil
 import fileinput
 
-dir_path = 'data/poc_python/page'
+dir_path = '/home/runner/work/IG-NOS/IG-NOS/temp/pages'
 
 # boucler sur toutes les pages
 def create_TRE_from_Template(textToReplace):
