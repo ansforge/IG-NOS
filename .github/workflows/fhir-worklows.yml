@@ -78,7 +78,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest
       - name: Test with pytest
-        run: pytest download.py
+        run: python download.py
         
       - name: Re-Run jekyll
         run : jekyll build --destination "/home/runner/work/IG-NOS/IG-NOS/output" --source  "/home/runner/work/IG-NOS/IG-NOS/temp/pages"
