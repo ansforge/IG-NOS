@@ -68,6 +68,18 @@ jobs:
         id: branch-name
         uses: tj-actions/branch-names@v4.3
         
+      - name: Setup Python # Set Python version
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      # Install pip and pytest
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+      - name: Test with pytest
+        run: pytest download.py
+        
       - name: Re-Run jekyll
         run : jekyll build --destination "/home/runner/work/IG-NOS/IG-NOS/output" --source  "/home/runner/work/IG-NOS/IG-NOS/temp/pages"
           
