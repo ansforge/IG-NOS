@@ -82,7 +82,10 @@ jobs:
         
       - name: Re-Run jekyll
         run : jekyll build --destination "/home/runner/work/IG-NOS/IG-NOS/output" --source  "/home/runner/work/IG-NOS/IG-NOS/temp/pages"
-  
+      
+      - name: Create directory NOS
+        run :   mkdir -p /home/runner/work/IG-NOS/IG-NOS/output/nos
+     
       - name: Copy NOS JDV
         run : cp  -a /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV/.  /home/runner/work/IG-NOS/IG-NOS/output/nos/.  
       - name: Copy NOS TRE
