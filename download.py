@@ -5,14 +5,14 @@ dir_path = '/home/runner/work/IG-NOS/IG-NOS/temp/pages'
 
 # boucler sur toutes les pages
 def create_TRE_from_Template(textToReplace):
-    shutil.copy('./template_nos/IG-template-Nos/includes/template.download.html',
+    shutil.copy('./template_nos/includes/template.download.html',
                 'data/poc_python/page_created/'+'CodeSystem-'+textToReplace+'.download.html')
     for line in fileinput.input('data/poc_python/page_created/'+'CodeSystem-'+textToReplace+'.download.html',
                                 inplace=True):
         print(line.replace('to_replace', textToReplace), end='')
 
 def create_JDV_from_Template(textToReplace):
-    shutil.copy('./template_nos/IG-template-Nos/includes/template.download.html',
+    shutil.copy('./template_nos/includes/template.download.html',
                 'data/poc_python/page_created/'+'ValueSet-'+textToReplace+'.download.html')
     for line in fileinput.input('data/poc_python/page_created/'+'ValueSet-'+textToReplace+'.download.html',
                                 inplace=True):
