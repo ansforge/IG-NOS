@@ -87,9 +87,9 @@ jobs:
         run :   mkdir -p /home/runner/work/IG-NOS/IG-NOS/output/nos
      
       - name: Copy NOS JDV
-        run : cp  -a /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV/.  /home/runner/work/IG-NOS/IG-NOS/output/nos/.  
+        run : cp   /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV/.  /home/runner/work/IG-NOS/IG-NOS/output/nos/.  
       - name: Copy NOS TRE
-        run : cp  -a /home/runner/work/IG-NOS/IG-NOS/input/NOS/TRE/.  /home/runner/work/IG-NOS/IG-NOS/output/nos/.        
+        run : cp   /home/runner/work/IG-NOS/IG-NOS/input/NOS/TRE/.  /home/runner/work/IG-NOS/IG-NOS/output/nos/.        
         
       # Publishes the HTML page to a seperate branch in order to host it using GitHub-Pages.
       # This will overwrite the currently published HTML page.
