@@ -34,7 +34,7 @@ jobs:
         run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/NOS/ASS/*.pdf
 
       - name:  ZIP ALL .xml
-        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-Fichiers_Publics-Versions_xml_svs.zip  /home/runner/work/IG-NOS/IG-NOS/input/NOS/ASS/*.xml /home/runner/work/IG-NOS/IG-NOS/input/NOS/TRE/*.xml /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV/*.xml
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-Fichiers_Publics-Versions_xml_svs.zip  /home/runner/work/IG-NOS/IG-NOS/input/NOS/ASS/*.xml /home/runner/work/IG-NOS/IG-NOS/input/NOS/TRE/*.xml /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV/*.xml -x "*FHIR*"
   
       - name:  ZIP ALL NOS FHIR XML
         run :  zip /home/runner/work/IG-NOS/IG-NOS/output/nos-fichiers_publics-versions_xml_fhir.zip   /home/runner/work/IG-NOS/IG-NOS/input/NOS/ASS/*FHIR.xml /home/runner/work/IG-NOS/IG-NOS/input/NOS/TRE/*FHIR.xml /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV/*FHIR.xml
