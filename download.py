@@ -17,7 +17,7 @@ def create_JDV_from_Template(textToReplace):
                 '/home/runner/work/IG-NOS/IG-NOS/temp/pages/'+'ValueSet-'+textToReplace+'.download.html')
     for line in fileinput.input('/home/runner/work/IG-NOS/IG-NOS/temp/pages/'+'ValueSet-'+textToReplace+'.download.html',
                                 inplace=True):
-        print(line.replace('header_to_replace', textToReplace), end='').replace('to_replace', textToReplace.replace("JDV-","JDV_"))
+        print(line.replace('header_to_replace', textToReplace).replace('to_replace', textToReplace.replace("JDV-","JDV_")), end='')
 
         
 
