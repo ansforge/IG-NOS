@@ -27,7 +27,7 @@ jobs:
         run :   mkdir -p /home/runner/work/IG-NOS/IG-NOS/output/nos
      
       - name: Copy NOS JDV
-        run : cp   /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV/*  /home/runner/work/IG-NOS/IG-NOS/output/nos/.   
+        run :  rsync -av --progress /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV  /home/runner/work/IG-NOS/IG-NOS/output/nos --exclude /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV/fhir
 
           
       # Persist the FHIR Package Cache between runners.
