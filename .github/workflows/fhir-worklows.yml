@@ -115,7 +115,12 @@ jobs:
         run :  zip /home/runner/work/IG-NOS/IG-NOS/output/nos-fichiers_publics-versions_xml_fhir.zip   /home/runner/work/IG-NOS/IG-NOS/input/NOS/ASS/*FHIR.json /home/runner/work/IG-NOS/IG-NOS/input/NOS/TRE/*FHIR.json /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV/*FHIR.json
 
       - name:  ZIP ALL ASS
-        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/os-fichiers_publics-versions_ass.zip   /home/runner/work/IG-NOS/IG-NOS/input/NOS/ASS/*
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/nos-fichiers_publics-versions_ass.zip   /home/runner/work/IG-NOS/IG-NOS/input/NOS/ASS/*
+     
+      - name:  ZIP JDV CI-SIS
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-Jeux_de_Valeurs_CI-SIS.zip  /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV/*CISIS*
+
+
 
       # Publishes the HTML page to a seperate branch in order to host it using GitHub-Pages.
       # This will overwrite the currently published HTML page.
