@@ -9,14 +9,14 @@ def create_TRE_from_Template(textToReplace):
                 '/home/runner/work/IG-NOS/IG-NOS/temp/pages/'+'CodeSystem-'+textToReplace+'.download.html')
     for line in fileinput.input('/home/runner/work/IG-NOS/IG-NOS/temp/pages/'+'CodeSystem-'+textToReplace+'.download.html',
                                 inplace=True):
-        print(line.replace('to_replace', textToReplace), end='')
+        print(line.replace('to_replace', textToReplace.replace("TRE-","TRE_"), end='')
 
 def create_JDV_from_Template(textToReplace):
     shutil.copy('./template_nos/includes/template.download.html',
                 '/home/runner/work/IG-NOS/IG-NOS/temp/pages/'+'ValueSet-'+textToReplace+'.download.html')
     for line in fileinput.input('/home/runner/work/IG-NOS/IG-NOS/temp/pages/'+'ValueSet-'+textToReplace+'.download.html',
                                 inplace=True):
-        print(line.replace('to_replace', textToReplace), end='')
+        print(line.replace('to_replace', textToReplace.replace("JDV-","JDV_")), end='')
 
 
 for filename in os.listdir(dir_path):
