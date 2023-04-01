@@ -5,7 +5,7 @@ Par exemple, la codification des secteurs d'activité dans le répertoire ADELI 
 
 ### Ensemble des associations
 
-la liste des associations sont les suivantes: 
+La liste des associations sont les suivantes: 
 
 * ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS	 
 * ASS_A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS	 
