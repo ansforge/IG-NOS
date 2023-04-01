@@ -7,7 +7,7 @@ Ensemble des documents à télécharger  :
 * [NOS-Fichiers_Publics_TRE_ASS-Versions_pdf (ZIP)](NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip) 
 * [Ensemble des NOS au format CSV (.tabs) (ZIP)](NOS-Fichiers_Publics.zip) 
 * [Ensemble des NOS au format XML/SVS (ZIP)](NOS-Fichiers_Publics-Versions_xml_svs.zip) 
-* [Schéma XML de l'extension SVS des NOS (ZIP)](xsd-svs-etendu-nos.zip) 
+* [Schéma XML de l'extension SVS des NOS (ZIP)](attach/xsd-svs-etendu-nos.zip) 
 * [Ensemble des NOS au format JSON/FHIR (ZIP)](NOS-Fichiers_Publics-Versions_json_fhir.zip) 
 * [Ensemble des NOS au format XML/FHIR (ZIP)](nos-fichiers_publics-versions_xml_fhir.zip) 
 * [Correspondance entre les ressources FHIR et les NOS (PDF)](Correspondances%20RessourcesFHIR-NOS_0.pdf)
