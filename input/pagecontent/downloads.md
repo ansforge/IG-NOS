@@ -19,7 +19,7 @@ Ensemble des documents à télécharger  :
 
 
 
-### Guide d'implémenation : Téléchargements et usage
+### Guide d'implémentation : Téléchargements et usage
 
 L'implementation guide contient un package [téléchargeable ici](package.tgz) permettant de valider les instances par rapport aux profils qu'il contient.
 
