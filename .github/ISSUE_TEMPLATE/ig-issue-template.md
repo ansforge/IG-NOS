@@ -9,6 +9,8 @@ assignees: ''
 
 # Description du problème
 
+# Page•s concernée•s
+
 
 # Fichier•s concerné•s
 
