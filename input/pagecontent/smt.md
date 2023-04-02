@@ -12,7 +12,6 @@ Notre espace de publication des terminologies de santé regroupe, à travers un 
 * Un SPARQL (SPARQL Protocol and RDF Query Language), langage informatique normalisé servant à rechercher les terminologies indexées dans le SMT. 
 * Un service d’aide à la recherche des terminologies et des concepts s’y référant.
 
-### Qu'est-ce que le Serveur Multi-Terminologies?
 #### Une diffusion standardisée des terminologies de santé.
 Il existe une grande quantité de termes spécifiques au secteur sanitaire et social. La mise en commun des ressources sémantiques par le biais de notre serveur informatique va dans le sens de la dématérialisation des pratiques de santé. Une terminologie unique est ainsi nécessaire à la coordination des soins, à la recherche médicale ou encore à la gestion économique d’un établissement de santé.
 #### Un point d’entrée unique et institutionnel à destination de tous.
