@@ -1,3 +1,6 @@
+### Consultez le catalogues des terminologies
+[Lien vers le SMT ](https://smt.esante.gouv.fr/catalogue-des-terminologies/)
+
 ### Qu'est-ce que le Serveur Multi-Terminologies?
 
 L’Agence du numérique en Santé (ANS) est chargée de l'application de la politique de e-santé en France. Cette démarche est à mettre en lien avec le volet numérique du Ségur de la Santé. Afin de garantir les droits des usagers, nous définissons le cadre et les règles qui garantissent la sécurité et l’interopérabilité de nos systèmes d’information de santé.
@@ -23,5 +26,4 @@ L’hébergement et la gestion de l’ensemble des terminologies sont réunies a
 L’Agence du Numérique en Santé veille à l’administration et à la publication des terminologies. Elle assure le suivi et l’amélioration continue du SMT en mettant en place l’organisation des certifications et des labels destinés aux logiciels métiers auxquels ont recours les institutions.
 Elle s’appuie aussi sur des critères d’évaluation précis et spécifiques à la terminologie.
 
-### Consultez le catalogues des terminologies
-[Lien vers le SMT ](https://smt.esante.gouv.fr/catalogue-des-terminologies/)
+
