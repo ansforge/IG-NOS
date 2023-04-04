@@ -94,6 +94,21 @@ jobs:
       - name: Install zip
         uses: montudor/action-zip@v1
 
+      - name:  1 ZIP JDV PDF
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-jdv-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/JDV_*.pdf        
+        
+      - name:  1 ZIP JDV SVS
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-jdv-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/JDV_*.xml  -x "*FHIR*"   
+        
+      - name:  1 ZIP JDV FHIR JSON
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-jdv-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/JDV_*-FHIR.json     
+        
+      - name:  1 ZIP JDV FHIR XML
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-jdv-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/JDV_*-FHIR.xml         
+        
+      - name:  1 ZIP JDV FHIR tabs
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-jdv-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/JDV_*.tabs 
+        
         
       - name:  ZIP JDV PDF
         run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-Fichiers_Publics_JDV-Versions_pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV/*.pdf
