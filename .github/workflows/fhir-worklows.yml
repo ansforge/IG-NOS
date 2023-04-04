@@ -98,47 +98,47 @@ jobs:
         run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-jdv-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/JDV_*.pdf        
         
       - name:  1 ZIP JDV SVS
-        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-jdv-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/JDV_*.xml  -x "*FHIR*"   
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-jdv-svs.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/JDV_*.xml  -x "*FHIR*"   
         
       - name:  1 ZIP JDV FHIR JSON
-        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-jdv-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/JDV_*-FHIR.json     
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-jdv-fhir-json.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/JDV_*-FHIR.json     
         
       - name:  1 ZIP JDV FHIR XML
-        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-jdv-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/JDV_*-FHIR.xml         
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-jdv-fhir-xml.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/JDV_*-FHIR.xml         
         
       - name:  1 ZIP JDV FHIR tabs
-        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-jdv-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/JDV_*.tabs 
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-jdv-tabs.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/JDV_*.tabs 
         
       - name:  2 ZIP TRE PDF
         run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-tre-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/TRE_*.pdf        
         
       - name:  2 ZIP TRE SVS
-        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-tre-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/TRE*.xml  -x "*FHIR*"   
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-tre-svs.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/TRE*.xml  -x "*FHIR*"   
         
       - name:  2 ZIP TRE FHIR JSON
-        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-tre-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/TRE*-FHIR.json     
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-tre-fhir-json.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/TRE*-FHIR.json     
         
       - name:  2 ZIP TRE FHIR XML
-        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-tre-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/TRE*-FHIR.xml         
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-tre-fhir-xml.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/TRE*-FHIR.xml         
         
       - name:  2 ZIP TRE FHIR tabs
-        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-tre-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/TRE*.tabs 
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-tre-tabs.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/TRE*.tabs 
         
     
       - name:  3 ZIP ASS PDF
         run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-ass-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/ASS_*.pdf        
         
-      - name:  2 ZIP ASS SVS
-        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-ass-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/ASS*.xml  -x "*FHIR*"   
+      - name:  3 ZIP ASS SVS
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-ass-svs.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/ASS*.xml  -x "*FHIR*"   
         
-      - name:  2 ZIP ASS FHIR JSON
-        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-ass-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/ASS*-FHIR.json     
+      - name:  3 ZIP ASS FHIR JSON
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-ass-fhir-json.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/ASS*-FHIR.json     
         
-      - name:  2 ZIP ASS FHIR XML
-        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-ass-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/ASS*-FHIR.xml         
+      - name:  3 ZIP ASS FHIR XML
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-ass-fhir-xml.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/ASS*-FHIR.xml         
         
-      - name:  2 ZIP ASS FHIR tabs
-        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-ass-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/ASS*.tabs     
+      - name:  3 ZIP ASS FHIR tabs
+        run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-ass-tabs.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/ASS*.tabs     
     
         
       - name:  ZIP JDV PDF
