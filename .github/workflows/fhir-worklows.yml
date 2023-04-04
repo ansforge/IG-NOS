@@ -110,7 +110,7 @@ jobs:
         run :  zip -rj /home/runner/work/IG-NOS/IG-NOS/output/nos/NOS-jdv-tabs.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/JDV_*.tabs 
         
       - name:  2 ZIP TRE PDF
-        run :  zip -rj /home/runner/work/IG-NOS/IG-NOS/output/nos/nos/NOS-tre-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/TRE_*.pdf        
+        run :  zip -rj /home/runner/work/IG-NOS/IG-NOS/output/nos/NOS-tre-pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/TRE_*.pdf        
         
       - name:  2 ZIP TRE SVS
         run :  zip -rj /home/runner/work/IG-NOS/IG-NOS/output/nos/NOS-tre-svs.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/TRE*.xml  -x "*FHIR*"   
