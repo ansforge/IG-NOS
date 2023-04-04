@@ -141,30 +141,20 @@ jobs:
         run :  zip -rj /home/runner/work/IG-NOS/IG-NOS/output/nos/NOS-ass-tabs.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/ASS*.tabs     
     
         
-      #- name:  ZIP JDV PDF
-      #  run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-Fichiers_Publics_JDV-Versions_pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/JDV_*.pdf
-     
-      #- name:  ZIP ASS PDF
-      #  run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/ASS_*.pdf
+      - name:  ZIP Ensemble des NOS au format CSV 
+        run :  zip -rj /home/runner/work/IG-NOS/IG-NOS/output/nos/NOS-Fichiers_Publics.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/*.tabs  
+ 
+      - name:  ZIP Ensemble des NOS au format XML/SVS 
+        run :  zip -rj /home/runner/work/IG-NOS/IG-NOS/output/nos/NOS-Fichiers_Publics-Versions_xml_svs.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/*.xml  -x "*FHIR*"    
 
-      #- name:  ZIP ALL .xml
-      #  run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-Fichiers_Publics-Versions_xml_svs.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/*.xml x "*FHIR*"
+      - name:  ZIP Ensemble des NOS au format JSON/FHIR (ZIP)
+        run :  zip -rj /home/runner/work/IG-NOS/IG-NOS/output/nos/NOS-Fichiers_Publics-Versions_json_fhir.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/*-FHIR.json    
 
-      #- name:  ZIP ALL .tabs
-       # run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-Fichiers_Publics.zip  /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/*.tabs
+      - name:  ZIP Ensemble des NOS au format XML/FHIR (ZIP)
+        run :  zip -rj /home/runner/work/IG-NOS/IG-NOS/output/nos/Nos-fichiers_publics-versions_xml_fhir.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/*-FHIR.xml   
 
-      #- name:  ZIP ALL NOS FHIR XML
-      #  run :  zip /home/runner/work/IG-NOS/IG-NOS/output/nos-fichiers_publics-versions_xml_fhir.zip  /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/*FHIR.xml 
-        
-      #- name:  ZIP ALL NOS FHIR json
-      #  run :  zip /home/runner/work/IG-NOS/IG-NOS/output/nos-fichiers_publics-versions_json_fhir.zip   /home/runner/work/IG-NOS/IG-NOS/images/NOS/*FHIR.json 
-
-      #- name:  ZIP ALL ASS
-      #  run :  zip /home/runner/work/IG-NOS/IG-NOS/output/nos-fichiers_publics-versions_ass.zip   /home/runner/work/IG-NOS/IG-NOS/images/NOS/ASS_*
-     
-      #- name:  ZIP JDV CI-SIS
-       # run :  zip /home/runner/work/IG-NOS/IG-NOS/output/NOS-Jeux_de_Valeurs_CI-SIS.zip  /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/*CISIS*
-
+      - name:  ZIP Jeux de valeurs du CI-SIS (ZIP
+        run :  zip -rj /home/runner/work/IG-NOS/IG-NOS/output/nos/Nos-fichiers_publics-versions_xml_fhir.zip /home/runner/work/IG-NOS/IG-NOS/input/images/NOS/*CISIS*  
 
 
 
