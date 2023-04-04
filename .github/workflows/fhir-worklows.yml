@@ -82,14 +82,14 @@ jobs:
       - name: Create directory NOS
         run :   mkdir -p /home/runner/work/IG-NOS/IG-NOS/output/nos
      
-      - name: Copy NOS JDV
-        run :  rsync -a --progress /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV/  /home/runner/work/IG-NOS/IG-NOS/output/nos --exclude /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV/fhir
+      #- name: Copy NOS JDV
+      #  run :  rsync -a --progress /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV/  /home/runner/work/IG-NOS/IG-NOS/output/nos --exclude /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV/fhir
 
-      - name: Copy NOS TRE
-        run :  rsync -a --progress /home/runner/work/IG-NOS/IG-NOS/input/NOS/TRE/  /home/runner/work/IG-NOS/IG-NOS/output/nos --exclude /home/runner/work/IG-NOS/IG-NOS/input/NOS/TRE/fhir
+      #- name: Copy NOS TRE
+      #  run :  rsync -a --progress /home/runner/work/IG-NOS/IG-NOS/input/NOS/TRE/  /home/runner/work/IG-NOS/IG-NOS/output/nos --exclude /home/runner/work/IG-NOS/IG-NOS/input/NOS/TRE/fhir
         
-      - name: Copy NOS ASS
-        run :  rsync -a --progress /home/runner/work/IG-NOS/IG-NOS/input/NOS/ASS/  /home/runner/work/IG-NOS/IG-NOS/output/nos --exclude /home/runner/work/IG-NOS/IG-NOS/input/NOS/ASS/fhir
+      #- name: Copy NOS ASS
+      #  run :  rsync -a --progress /home/runner/work/IG-NOS/IG-NOS/input/NOS/ASS/  /home/runner/work/IG-NOS/IG-NOS/output/nos --exclude /home/runner/work/IG-NOS/IG-NOS/input/NOS/ASS/fhir
 
       - name: Install zip
         uses: montudor/action-zip@v1
