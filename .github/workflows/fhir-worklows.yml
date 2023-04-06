@@ -58,7 +58,7 @@ jobs:
           sudo gem install jekyll
       # Builds the HTML page for the IG.
       - name: 🏃‍♂️ Run IG Publisher
-        run : java -Xmx7g -jar publisher.jar publisher -ig .  -publish https://github.io/ -tx
+        run : java -Xmx7g -jar publisher.jar publisher -ig .  -publish https://ansforge.github.io/IG-NOS/ig/main/ -tx
 
       - name: Get branch names
         id: branch-name
