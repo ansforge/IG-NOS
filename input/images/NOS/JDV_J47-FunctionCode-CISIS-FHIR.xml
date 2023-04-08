@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J47-FunctionCode-CISIS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2018-03-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J47-FunctionCode-CISIS/FHIR/JDV-J47-FunctionCode-CISIS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.124"/>
+  </identifier>
+  <version value="20230331120000"/>
+  <name value="JDV_J47-FunctionCode-CISIS"/>
+  <status value="active"/>
+  <date value="2023-03-31T12:00:00+01:00"/>
+  <description value="Jeux de valeurs des Rôles fonctionnels HL7 et CI-SIS"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge"/>
+      <concept>
+        <code value="CORRE"/>
+        <display value="Correspondant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.2.280"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="PRELV"/>
+        <display value="Préleveur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.2.280"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R259-HL7ParticipationFunction/FHIR/TRE-R259-HL7ParticipationFunction"/>
+      <concept>
+        <code value="ADMPHYS"/>
+        <display value="Responsable de l'admission"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.88"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ATTPHYS"/>
+        <display value="Référent - Responsable du patient dans la structure de soins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.88"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DISPHYS"/>
+        <display value="Responsable de la sortie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.88"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="PCP"/>
+        <display value="Médecin traitant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.88"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"/>
+      <concept>
+        <code value="353"/>
+        <display value="Membre de l'équipe de soins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

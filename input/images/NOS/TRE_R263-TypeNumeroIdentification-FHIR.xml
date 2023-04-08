@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R263-TypeNumeroIdentification"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2018-04-27T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R263-TypeNumeroIdentification/FHIR/TRE-R263-TypeNumeroIdentification"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.3.57"/>
+  </identifier>
+  <version value="20200424120000"/>
+  <name value="TRE_R263-TypeNumeroIdentification"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <description value="Type de numéro d'identification"/>
+  <content value="complete"/>
+  <concept>
+    <code value="01"/>
+    <display value="NIR"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="NIR"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="NIR"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Numéro de sécurité sociale du conjoint du patient ou d'un parent"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="No SS conjoint ou parent"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Numéro de sécurité sociale du conjoint du patient ou d'un parent"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="SINUS"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="SINUS"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="SINUS"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="04"/>
+    <display value="NIP/IPP"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="NIP/IPP"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="NIP/IPP"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="05"/>
+    <display value="Numéro de séjour hospitalier"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="No de séjour hospitalier"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Numéro de séjour hospitalier"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="06"/>
+    <display value="Numéro d'identification provisoire"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="No Identification provisoire"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Numéro d'identification provisoire"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="07"/>
+    <display value="Autre"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Autre"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Autre"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

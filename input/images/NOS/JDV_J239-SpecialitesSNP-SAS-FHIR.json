@@ -1,0 +1,349 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J239-SpecialitesSNP-SAS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2023-02-17T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J23-SpecialitesSNP-SAS/FHIR/JDV-J239-SpecialitesSNP-SAS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.4.104"
+    }
+  ],
+  "version": "20230217120000",
+  "name": "JDV_J239-SpecialitesSNP-SAS",
+  "status": "active",
+  "date": "2023-02-17T12:00:00+01:00",
+  "description": "Professions de santé participant au Service d'Accès aux Soins",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale",
+        "concept": [
+          {
+            "code": "SM03",
+            "display": "Biologie médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          },
+          {
+            "code": "SM04",
+            "display": "Cardio et Maladies vasculaires",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          },
+          {
+            "code": "SM15",
+            "display": "Dermatologie, Vénéréologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          },
+          {
+            "code": "SM16",
+            "display": "Endocrinologie, Métabolisme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          },
+          {
+            "code": "SM19",
+            "display": "Gynécologie médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          },
+          {
+            "code": "SM20",
+            "display": "Gynécologie-obstétrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          },
+          {
+            "code": "SM21",
+            "display": "Hématologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          },
+          {
+            "code": "SM32",
+            "display": "Neurologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          },
+          {
+            "code": "SM36",
+            "display": "Oncologie, opt médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          },
+          {
+            "code": "SM38",
+            "display": "Ophtalmologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          },
+          {
+            "code": "SM39",
+            "display": "ORL",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          },
+          {
+            "code": "SM40",
+            "display": "Pédiatrie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          },
+          {
+            "code": "SM42",
+            "display": "Psychiatrie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          },
+          {
+            "code": "SM43",
+            "display": "Psychiatrie, opt enfant et ado",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          },
+          {
+            "code": "SM44",
+            "display": "Radio-diagnostic",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          },
+          {
+            "code": "SM54",
+            "display": "Médecine générale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          },
+          {
+            "code": "SM57",
+            "display": "Allergologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.28"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+        "concept": [
+          {
+            "code": "40",
+            "display": "Chirurgien-Dentiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "50",
+            "display": "Sage-Femme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "60",
+            "display": "Infirmier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "69",
+            "display": "Infirmier psychiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "70",
+            "display": "Masseur-Kinésithérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "80",
+            "display": "Pédicure-Podologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "83",
+            "display": "Orthopédiste-Orthésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "91",
+            "display": "Orthophoniste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "92",
+            "display": "Orthoptiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

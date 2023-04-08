@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R313-CISP2"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-04-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R313-CISP2/FHIR/TRE-R313-CISP2"/>
+  <identifier>
+    <value value="urn:oid:2.16.840.1.113883.6.139"/>
+  </identifier>
+  <version value="20210528120000"/>
+  <name value="TRE_R313-CISP2"/>
+  <status value="active"/>
+  <date value="2021-05-28T12:00:00+01:00"/>
+  <description value="International Classification of Primary Care (ICPC), second edition Classification internationale des soins primaires version 2"/>
+  <content value="complete"/>
+  <concept>
+    <code value="A05"/>
+    <display value="Lors d'un malaise"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Lors d'un malaise"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Lors d'un malaise"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-04-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-04-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>
