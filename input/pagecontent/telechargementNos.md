@@ -1,6 +1,6 @@
-### Téléchargement (NOS)
 
-#### Documents à télécharger 
+
+### Documents à télécharger 
 
 * [Plaquette de présentation (PDF)](attach/Plaquette%20NOS%20V2.9.pdf)
 * [Schéma XML de l'extension SVS des NOS (ZIP)](attach/xsd-svs-etendu-nos.zip) 
@@ -9,7 +9,7 @@
 * [Conventions de nommage et de structure des nomenclatures et des tables (PDF)](attach/NOS_ConventionNOS_V2.0.pdf) 
 * [Calendrier de génération mensuelle du MOS et des NOS (PDF)](attach/CalendrierGénération%20MOS%26NOS.pdf) 
 
-#### ZIP des NOS
+### ZIP des NOS
 
 * [Ensemble des NOS au format CSV (.tabs) (ZIP)](nos/NOS-Fichiers_Publics.zip) 
 * [Ensemble des NOS au format XML/SVS (ZIP)](nos/NOS-Fichiers_Publics-Versions_xml_svs.zip) 
