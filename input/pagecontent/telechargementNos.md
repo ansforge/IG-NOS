@@ -11,11 +11,11 @@
 
 ### ZIP des NOS
 
-* [Ensemble des NOS au format CSV (.tabs) (ZIP)](nos/NOS-Fichiers_Publics.zip) 
-* [Ensemble des NOS au format XML/SVS (ZIP)](nos/NOS-Fichiers_Publics-Versions_xml_svs.zip) 
-* [Ensemble des NOS au format JSON/FHIR (ZIP)](nos/NOS-Fichiers_Publics-Versions_json_fhir.zip) 
-* [Ensemble des NOS au format XML/FHIR (ZIP)](nos/Nos-fichiers_publics-versions_xml_fhir.zip) 
-* [Jeux de valeurs du CI-SIS (ZIP)](nos/NOS-Jeux_de_Valeurs_CI-SIS.zip)
+* [Ensemble des NOS au format CSV (.tabs) (ZIP)](NOS/NOS-Fichiers_Publics.zip) 
+* [Ensemble des NOS au format XML/SVS (ZIP)](NOS/NOS-Fichiers_Publics-Versions_xml_svs.zip) 
+* [Ensemble des NOS au format JSON/FHIR (ZIP)](NOS/NOS-Fichiers_Publics-Versions_json_fhir.zip) 
+* [Ensemble des NOS au format XML/FHIR (ZIP)](NOS/Nos-fichiers_publics-versions_xml_fhir.zip) 
+* [Jeux de valeurs du CI-SIS (ZIP)](NOS/NOS-Jeux_de_Valeurs_CI-SIS.zip)
 
 
 
