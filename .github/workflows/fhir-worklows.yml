@@ -57,8 +57,6 @@ jobs:
         id: branch-name
         uses: tj-actions/branch-names@v4.3
 
-      - name: Install modules
-        run: npm install -g fsh-sushi
       - name: Build and test with Rake        
         run: |
           /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
