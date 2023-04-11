@@ -20,7 +20,9 @@ jobs:
         with:
           repository: ansforge/IG-template-Nos
           path: template_nos
-
+      - name:  1 ZIP JDV PDF
+        run :  zip -rj ./output/NOS/NOS-jdv-pdf.zip ./input/images/NOS/JDV_*.pdf
+        
       - uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
