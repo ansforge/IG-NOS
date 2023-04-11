@@ -20,8 +20,6 @@ jobs:
         with:
           repository: ansforge/IG-template-Nos
           path: template_nos
-      - name:  1 ZIP JDV PDF
-        run :  zip -rj ./output/NOS/NOS-jdv-pdf.zip ./input/images/NOS/JDV_*.pdf
         
       - uses: actions/setup-java@v3
         with:
@@ -85,8 +83,8 @@ jobs:
         run : jekyll build --destination "./output" --source  "./temp/pages"
       
 
-      - name: Install zip
-        uses: montudor/action-zip@v1
+      #- name: Install zip
+      #  uses: montudor/action-zip@v1
 
       - name:  1 ZIP JDV PDF
         run :  zip -rj ./output/NOS/NOS-jdv-pdf.zip ./input/images/NOS/JDV_*.pdf        
