@@ -1,10 +1,88 @@
-name: Workflow Release
+name: Release FHIR
 
 on:
   workflow_call:
-      
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+
 jobs:
-  Call-Fhir-Workflows :
-    uses: ansforge/FIG_ans.workflows/.github/workflows/release2.yml@main
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get IG-website-release
+        uses: actions/checkout@main
+        with:
+          repository: ansforge/IG-website-release
+          ref: M-Priour-test-release
+          path: IG-website-release
+  
+      - name: Init        
+        run: |
+          cd  IG-website-release
+          git submodule update --init --recursive
+          
+          
+      - uses: actions/checkout@v3
+        with:      
+          path: igRepo
+
+      - uses: actions/checkout@v3
+        with:      
+          path: igRepo
+          
+
+      
+
+        
+
+          
+      # Persist the FHIR Package Cache between runners.
+      # Doc: https://confluence.hl7.org/display/FHIR/FHIR+Package+Cache
+      - name: 🗂️ Cache FHIR Packages
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.fhir/packages
+          key: fhir-packages
+
+      - name: Install modules
+        run: npm install -g fsh-sushi
+      - name: Run sushi
+        run: sushi igRepo
+        
+      # Persist the IG Publisher input-cache between runners.
+      # Doc: https://build.fhir.org/ig/FHIR/ig-guidance/using-templates.html#igroot-input-cache
+      - name: 🗂️ Cache IG Publisher input-cache
+        uses: actions/cache@v2
+        with:
+          path: |
+            igs/${{ env.IG }}/input-cache
+          key: ig-publisher-input-cache           
+
+      # Downloads the newest version of the IG Publisher, this could probable be cached.
+      - name: 📥 Download IG Publisher
+        run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar
+        
+  
+      - name: Build and test with Rake        
+        run: |
+          sudo apt-get install ruby-full
+          sudo gem install jekyll
+      # Builds the HTML page for the IG.
+      #- name: 🏃‍♂️ Run IG Publisher
+      #  run : java -Xmx8192m -jar publisher.jar publisher -ig igRepo/.  
+        
+      - name: 🏃‍♂️ Run  Publisher to release
+        run :   java -jar publisher.jar -go-publish  -source igRepo  -web  ./IG-website-release/www/ig/ -registry ./IG-website-release/ig-registry/fhir-ig-list.json -history ./IG-website-release/fhir-ig-history-template -templates ./IG-website-release/templates -temp ./tmp    
+        
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}         
+        with:
+          source-directory: IG-website-release/
+          destination-github-username: 'AUTO'
+          destination-repository-name: 'ansforge/IG-website-release'
+          target-branch: M-Priour-test-release
+          
+        
