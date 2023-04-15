@@ -75,7 +75,7 @@ jobs:
       - name: 🏃‍♂️ Run  Publisher to release
         run :   java -jar publisher.jar -go-publish  -source igRepo  -web  ./IG-website-release/www/ig/ -registry ./IG-website-release/ig-registry/fhir-ig-list.json -history ./IG-website-release/fhir-ig-history-template -templates ./IG-website-release/templates    
         
-      - name: Pushes to another repository
+      - name: Commit change
         run: |
           cd  IG-website-release
           git config user.name github-actions
@@ -83,4 +83,12 @@ jobs:
           git add -A 
           git commit -m updated
           git push origin M-Priour-test-release
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: M-Priour-test-release  
+          directory: IG-website-release
+          repository : ansforge/IG-website-release
         
