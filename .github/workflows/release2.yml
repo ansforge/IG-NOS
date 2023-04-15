@@ -76,13 +76,10 @@ jobs:
         run :   java -jar publisher.jar -go-publish  -source igRepo  -web  ./IG-website-release/www/ig/ -registry ./IG-website-release/ig-registry/fhir-ig-list.json -history ./IG-website-release/fhir-ig-history-template -templates ./IG-website-release/templates    
         
       - name: Pushes to another repository
-        uses: cpina/github-action-push-to-another-repository@main
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}         
-        with:
-          source-directory: IG-website-release/
-          destination-github-username: 'AUTO'
-          destination-repository-name: 'ansforge/IG-website-release'
-          target-branch: M-Priour-test-release
-          
+        run: |
+          cd  IG-website-release
+          git config user.name github-actions
+          git config user.email github-actions@esante.gouv.de
+          git commit -m updated
+          git push
         
