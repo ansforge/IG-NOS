@@ -12,6 +12,7 @@ jobs:
       - name: Get IG-website-release
         uses: actions/checkout@main
         with:
+          persist-credentials: false
           repository: M-Priour/IG-website-release-test
           path: IG-website-release
   
