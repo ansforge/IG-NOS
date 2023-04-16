@@ -7,7 +7,7 @@ on:
 
 jobs:
   release:
-    runs-on: ubuntu-latest
+    runs-on: 	macos-latest
     steps:
       - name: Get IG-website-release
         uses: actions/checkout@main
@@ -69,7 +69,10 @@ jobs:
             igs/${{ env.IG }}/input-cache
           key: ig-publisher-input-cache      
           
-
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
 
       # Downloads the newest version of the IG Publisher, this could probable be cached.
       - name: 📥 Download IG Publisher
@@ -78,14 +81,14 @@ jobs:
   
       - name: Build and test with Rake        
         run: |
-          sudo apt-get install ruby-full
           sudo gem install jekyll
+          
       # Builds the HTML page for the IG.
       - name: 🏃‍♂️ Run IG Publisher
-        run : java -Xmx8192m -jar publisher.jar publisher -ig igRepo/.  
+        run : java -Xmx10g  -jar publisher.jar publisher -ig igRepo/.  
         
       - name: 🏃‍♂️ Run  Publisher to release
-        run :   java -jar publisher.jar -go-publish  -source igRepo  -web  ./IG-website-release/www/ig/ -registry ./IG-website-release/ig-registry/fhir-ig-list.json -history ./IG-website-release/fhir-ig-history-template -templates ./IG-website-release/templates    
+        run :   java -Xmx10g  -jar publisher.jar -go-publish  -source igRepo  -web  ./IG-website-release/www/ig/ -registry ./IG-website-release/ig-registry/fhir-ig-list.json -history ./IG-website-release/fhir-ig-history-template -templates ./IG-website-release/templates    
         
       - name: Setup Python # Set Python version
         uses: actions/setup-python@v4
