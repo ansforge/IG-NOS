@@ -38,7 +38,14 @@ jobs:
         with:
           path: igRepo/publication-request.json 
 
-          
+      - name: get version
+        id: version
+        uses: notiz-dev/github-action-json-property@release
+        with: 
+          path: igRepo/publication-request.json 
+          prop_path: 'version'
+      - run: echo ${{steps.version.outputs.prop}}          
+      
       # Persist the FHIR Package Cache between runners.
       # Doc: https://confluence.hl7.org/display/FHIR/FHIR+Package+Cache
       - name: 🗂️ Cache FHIR Packages
@@ -60,7 +67,9 @@ jobs:
         with:
           path: |
             igs/${{ env.IG }}/input-cache
-          key: ig-publisher-input-cache           
+          key: ig-publisher-input-cache      
+          
+
 
       # Downloads the newest version of the IG Publisher, this could probable be cached.
       - name: 📥 Download IG Publisher
