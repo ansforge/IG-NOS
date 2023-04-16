@@ -132,7 +132,7 @@ jobs:
         run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-tre-fhir-json.zip igRepo/input/images/NOS/TRE*-FHIR.json     
         
       - name:  2 ZIP TRE FHIR XML
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}NOS/NOS-tre-fhir-xml.zip igRepo/input/images/NOS/TRE*-FHIR.xml         
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-tre-fhir-xml.zip igRepo/input/images/NOS/TRE*-FHIR.xml         
         
       - name:  2 ZIP TRE FHIR tabs
         run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-tre-tabs.zip igRepo/input/images/NOS/TRE*.tabs 
@@ -148,7 +148,7 @@ jobs:
         run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-ass-fhir-json.zip .igRepo/input/images/NOS/ASS*-FHIR.json     
         
       - name:  3 ZIP ASS FHIR XML
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}t/NOS/NOS-ass-fhir-xml.zip igRepo/input/images/NOS/ASS*-FHIR.xml         
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-ass-fhir-xml.zip igRepo/input/images/NOS/ASS*-FHIR.xml         
         
       - name:  3 ZIP ASS FHIR tabs
         run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-ass-tabs.zip igRepo/input/images/NOS/ASS*.tabs     
