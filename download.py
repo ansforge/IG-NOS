@@ -2,7 +2,7 @@ import os,re,shutil
 import fileinput
 import sys
 
-dir_path =  sys.argv[0] 
+dir_path =  sys.argv[1] 
 
 # boucler sur toutes les pages
 def create_TRE_from_Template(textToReplace):
