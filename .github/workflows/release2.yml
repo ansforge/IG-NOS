@@ -88,7 +88,8 @@ jobs:
         run : java -Xmx10g  -jar publisher.jar publisher -ig igRepo/.  
         
       - name: 🏃‍♂️ Run  Publisher to release
-        run :   java -Xmx10g  -jar publisher.jar -go-publish  -source igRepo  -web  ./IG-website-release/www/ig/ -registry ./IG-website-release/ig-registry/fhir-ig-list.json -history ./IG-website-release/fhir-ig-history-template -templates ./IG-website-release/templates    
+        run :   java -Xmx10g  -jar publisher.jar -go-publish  -source igRepo  -web  ./IG-website-release/www/ig/ -registry ./IG-website-release/ig-registry/fhir-ig-list.json -history ./IG-website-release/fhir-ig-history-template -templates ./IG-website-release/templates -temp /tmp
+    
         
       - name: Setup Python # Set Python version
         uses: actions/setup-python@v4
