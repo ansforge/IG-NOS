@@ -85,7 +85,7 @@ jobs:
           
       # Builds the HTML page for the IG.
       - name: 🏃‍♂️ Run IG Publisher
-        run : java -Xmx10g  -jar publisher.jar publisher -ig igRepo/.  
+        run : java -Xmx10g  -jar publisher.jar publisher -ig igRepo/.  -temp /tmp
         
       - name: 🏃‍♂️ Run  Publisher to release
         run :   java -Xmx10g  -jar publisher.jar -go-publish  -source igRepo  -web  ./IG-website-release/www/ig/ -registry ./IG-website-release/ig-registry/fhir-ig-list.json -history ./IG-website-release/fhir-ig-history-template -templates ./IG-website-release/templates -temp /tmp
