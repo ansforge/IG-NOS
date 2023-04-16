@@ -93,13 +93,13 @@ jobs:
           python-version: '3.10' 
 
       - name: Run script python
-        run: python igRepo/download.py '/tmp/ans.fr.nos#${{ steps.publicationRequest.outputs.version }}/temp/pages/' './template_nos/includes/template.download.html'
+        run: python igRepo/download.py '/tmp/ans.fr.nos#${{steps.version.outputs.prop}}/temp/pages/' './template_nos/includes/template.download.html'
         
           
       - name: Re-Run jekyll
         run : |
           cd  IG-website-release
-          jekyll build --destination "./www/ig/nos/${{ steps.publicationRequest.outputs.version }}/" --source  "/tmp/ans.fr.nos#${{ steps.publicationRequest.outputs.version }}/temp/pages"
+          jekyll build --destination "./www/ig/nos/${{steps.version.outputs.prop}}/" --source  "/tmp/ans.fr.nos#${{steps.version.outputs.prop}}/temp/pages"
         
  
   
