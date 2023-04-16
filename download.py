@@ -8,7 +8,7 @@ dir_path =  sys.argv[1]
 def create_TRE_from_Template(textToReplace):
     shutil.copy('./template_nos/includes/template.download.html',
                 dir_path +'CodeSystem-'+textToReplace+'.download.html')
-    for line in fileinput.input(dir_path '+'CodeSystem-'+textToReplace+'.download.html',
+    for line in fileinput.input(dir_path +'CodeSystem-'+textToReplace+'.download.html',
                                 inplace=True):
         print(line.replace('header_to_replace', textToReplace).replace('to_replace', textToReplace.replace("TRE-","TRE_")), end='')
         
