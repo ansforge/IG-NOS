@@ -116,7 +116,7 @@ jobs:
         run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-jdv-fhir-json.zip igRepo/input/images/NOS/JDV_*-FHIR.json     
         
       - name:  1 ZIP JDV FHIR XML
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-jdv-fhir-xml.zip igRepo/igRepo/input/images/NOS/JDV_*-FHIR.xml         
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-jdv-fhir-xml.zip igRepo/input/images/NOS/JDV_*-FHIR.xml         
         
       - name:  1 ZIP JDV FHIR tabs
         run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-jdv-tabs.zip igRepo/input/images/NOS/JDV_*.tabs 
