@@ -84,17 +84,13 @@ jobs:
           python-version: '3.10' 
 
       - name: Run script python
-        run: python igRepo/download.py '/tmp/ans.fr.nos#0.1.0/temp/pages/' '/home/runner/work/IG-NOS/IG-NOS/template_nos/includes/template.download.html'
+        run: python igRepo/download.py '/tmp/ans.fr.nos#${{ steps.publicationRequest.outputs.version }}/temp/pages/' './template_nos/includes/template.download.html'
         
-      - name: Liste des repertoires
-        run : |
-          cd  /tmp/ans.fr.nos#0.1.0/temp/pages
-          ls -a
           
       - name: Re-Run jekyll
         run : |
           cd  IG-website-release
-          jekyll build --destination "./www/ig/nos/0.1.0/" --source  "/tmp/ans.fr.nos#0.1.0/temp/pages"
+          jekyll build --destination "./www/ig/nos/${{ steps.publicationRequest.outputs.version }}/" --source  "/tmp/ans.fr.nos#${{ steps.publicationRequest.outputs.version }}/temp/pages"
         
  
   
@@ -104,7 +100,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@esante.gouv.de
           git add -A 
-          git commit -m updated
+          git commit -m updated ${{ steps.publicationRequest.outputs.version }}
           
       - name: Push changes
         uses: ad-m/github-push-action@master
