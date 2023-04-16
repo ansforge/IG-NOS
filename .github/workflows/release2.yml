@@ -84,7 +84,7 @@ jobs:
           python-version: '3.10' 
 
       - name: Run script python
-        run: python igRepo/download.py '/tmp/ans.fr.nos#0.1.0/temp/pages' './template_nos/includes/template.download.html'
+        run: python igRepo/download.py '/tmp/ans.fr.nos#0.1.0/temp/pages' '/home/runner/work/IG-NOS/IG-NOS/template_nos/includes/template.download.html'
         
       - name: Liste des repertoires
         run : |
