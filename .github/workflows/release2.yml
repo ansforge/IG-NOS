@@ -91,7 +91,11 @@ jobs:
           cd  IG-website-release
           jekyll build --destination "./www/ig/nos/0.1.0/" --source  "/tmp/ans.fr.nos#0.1.0/temp/pages"
         
-        
+      - name: Liste des repertoires
+        run : |
+          cd  /tmp/ans.fr.nos#0.1.0/temp/pages
+          ls -a
+  
       - name: Commit change
         run: |
           cd  IG-website-release
