@@ -74,6 +74,11 @@ jobs:
       - name: Run script python
         run: python download.py './temp/pages/'
         
+      - name: Liste des repertoires
+        run : |
+          cd  temp/pages/
+          ls -a
+          
       - name: Re-Run jekyll
         run : jekyll build --destination "./output" --source  "./temp/pages"
       
