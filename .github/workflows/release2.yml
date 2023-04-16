@@ -145,7 +145,7 @@ jobs:
         run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-ass-svs.zip igRepo/input/images/NOS/ASS*.xml  -x "*FHIR*"   
         
       - name:  3 ZIP ASS FHIR JSON
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-ass-fhir-json.zip .igRepo/input/images/NOS/ASS*-FHIR.json     
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-ass-fhir-json.zip igRepo/input/images/NOS/ASS*-FHIR.json     
         
       - name:  3 ZIP ASS FHIR XML
         run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-ass-fhir-xml.zip igRepo/input/images/NOS/ASS*-FHIR.xml         
