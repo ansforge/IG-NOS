@@ -107,63 +107,63 @@ jobs:
         run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-jdv-pdf.zip igRepo/input/images/NOS/JDV_*.pdf        
         
       - name:  1 ZIP JDV SVS
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-jdv-svs.zip ./igRepo/input/images/NOS/JDV_*.xml  -x "*FHIR*"   
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-jdv-svs.zip igRepo/input/images/NOS/JDV_*.xml  -x "*FHIR*"   
         
       - name:  1 ZIP JDV FHIR JSON
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-jdv-fhir-json.zip ./igRepo/input/images/NOS/JDV_*-FHIR.json     
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-jdv-fhir-json.zip igRepo/input/images/NOS/JDV_*-FHIR.json     
         
       - name:  1 ZIP JDV FHIR XML
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-jdv-fhir-xml.zip ./igRepo/igRepo/input/images/NOS/JDV_*-FHIR.xml         
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-jdv-fhir-xml.zip igRepo/igRepo/input/images/NOS/JDV_*-FHIR.xml         
         
       - name:  1 ZIP JDV FHIR tabs
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-jdv-tabs.zip ./igRepo/input/images/NOS/JDV_*.tabs 
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-jdv-tabs.zip igRepo/input/images/NOS/JDV_*.tabs 
         
       - name:  2 ZIP TRE PDF
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-tre-pdf.zip ./igRepo/input/images/NOS/TRE_*.pdf        
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-tre-pdf.zip igRepo/input/images/NOS/TRE_*.pdf        
         
       - name:  2 ZIP TRE SVS
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-tre-svs.zip ./igRepo/input/images/NOS/TRE*.xml  -x "*FHIR*"   
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-tre-svs.zip igRepo/input/images/NOS/TRE*.xml  -x "*FHIR*"   
         
       - name:  2 ZIP TRE FHIR JSON
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-tre-fhir-json.zip ./igRepo/input/images/NOS/TRE*-FHIR.json     
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-tre-fhir-json.zip igRepo/input/images/NOS/TRE*-FHIR.json     
         
       - name:  2 ZIP TRE FHIR XML
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}NOS/NOS-tre-fhir-xml.zip ./igRepo/input/images/NOS/TRE*-FHIR.xml         
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}NOS/NOS-tre-fhir-xml.zip igRepo/input/images/NOS/TRE*-FHIR.xml         
         
       - name:  2 ZIP TRE FHIR tabs
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-tre-tabs.zip ./igRepo/input/images/NOS/TRE*.tabs 
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-tre-tabs.zip igRepo/input/images/NOS/TRE*.tabs 
         
     
       - name:  3 ZIP ASS PDF
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-ass-pdf.zip ./igRepo/input/images/NOS/ASS_*.pdf        
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-ass-pdf.zip igRepo/input/images/NOS/ASS_*.pdf        
         
       - name:  3 ZIP ASS SVS
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-ass-svs.zip ./igRepo/input/images/NOS/ASS*.xml  -x "*FHIR*"   
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-ass-svs.zip igRepo/input/images/NOS/ASS*.xml  -x "*FHIR*"   
         
       - name:  3 ZIP ASS FHIR JSON
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-ass-fhir-json.zip ./igRepo/input/images/NOS/ASS*-FHIR.json     
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-ass-fhir-json.zip .igRepo/input/images/NOS/ASS*-FHIR.json     
         
       - name:  3 ZIP ASS FHIR XML
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}t/NOS/NOS-ass-fhir-xml.zip ./igRepo/input/images/NOS/ASS*-FHIR.xml         
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}t/NOS/NOS-ass-fhir-xml.zip igRepo/input/images/NOS/ASS*-FHIR.xml         
         
       - name:  3 ZIP ASS FHIR tabs
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-ass-tabs.zip ./igRepo/input/images/NOS/ASS*.tabs     
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-ass-tabs.zip igRepo/input/images/NOS/ASS*.tabs     
     
         
       - name:  ZIP Ensemble des NOS au format CSV 
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-Fichiers_Publics.zip ./igRepo/input/images/NOS/*.tabs  
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-Fichiers_Publics.zip igRepo/input/images/NOS/*.tabs  
  
       - name:  ZIP Ensemble des NOS au format XML/SVS 
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-Fichiers_Publics-Versions_xml_svs.zip ./igRepo/input/images/NOS/*.xml  -x "*FHIR*"    
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-Fichiers_Publics-Versions_xml_svs.zip igRepo/input/images/NOS/*.xml  -x "*FHIR*"    
 
       - name:  ZIP Ensemble des NOS au format JSON/FHIR (ZIP)
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-Fichiers_Publics-Versions_json_fhir.zip ./igRepo/input/images/NOS/*-FHIR.json    
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-Fichiers_Publics-Versions_json_fhir.zip igRepo/input/images/NOS/*-FHIR.json    
 
       - name:  ZIP Ensemble des NOS au format XML/FHIR (ZIP)
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/Nos-fichiers_publics-versions_xml_fhir.zip ./igRepo/input/images/NOS/*-FHIR.xml   
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/Nos-fichiers_publics-versions_xml_fhir.zip igRepo/input/images/NOS/*-FHIR.xml   
 
       - name:  ZIP Jeux de valeurs du CI-SIS (ZIP
-        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-Jeux_de_Valeurs_CI-SIS.zip ./igRepo/input/images/NOS/*CISIS*  
+        run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-Jeux_de_Valeurs_CI-SIS.zip igRepo/input/images/NOS/*CISIS*  
         
   
       - name: Commit change
