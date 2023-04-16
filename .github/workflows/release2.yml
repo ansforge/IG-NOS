@@ -32,7 +32,11 @@ jobs:
           repository: ansforge/IG-template-Nos
           path: template_nos
           
-
+      - name: Get values from the publication-request.json
+        id: publicationRequest
+        uses: RadovanPelka/github-action-json@main
+        with:
+          path: igRepo/publication-request.json 
 
           
       # Persist the FHIR Package Cache between runners.
