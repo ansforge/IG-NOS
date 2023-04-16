@@ -26,14 +26,13 @@ jobs:
         with:      
           path: igRepo
 
-      - uses: actions/checkout@v3
-        with:      
-          path: igRepo
+      - name: Get Template
+        uses: actions/checkout@main
+        with:
+          repository: ansforge/IG-template-Nos
+          path: template_nos
           
 
-      
-
-        
 
           
       # Persist the FHIR Package Cache between runners.
@@ -74,6 +73,20 @@ jobs:
         
       - name: 🏃‍♂️ Run  Publisher to release
         run :   java -jar publisher.jar -go-publish  -source igRepo  -web  ./IG-website-release/www/ig/ -registry ./IG-website-release/ig-registry/fhir-ig-list.json -history ./IG-website-release/fhir-ig-history-template -templates ./IG-website-release/templates    
+        
+      - name: Setup Python # Set Python version
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' 
+
+      - name: Run script python
+        run: python download.py
+        
+      - name: Re-Run jekyll
+        run : |
+          cd  IG-website-release
+          jekyll build --destination "./www/ig/nos/0.1.0/" --source  "/tmp/ans.fr.nos#0.1.0/temp/pages"
+        
         
       - name: Commit change
         run: |
