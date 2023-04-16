@@ -9,7 +9,6 @@ file_template = sys.argv[2]
 def create_TRE_from_Template(textToReplace):
     shutil.copy(file_template,
                 dir_path +'CodeSystem-'+textToReplace+'.download.html')
-    print(dir_path +'CodeSystem-'+textToReplace+'.download.html')
     for line in fileinput.input(dir_path +'CodeSystem-'+textToReplace+'.download.html',
                                 inplace=True):
         print(line.replace('header_to_replace', textToReplace).replace('to_replace', textToReplace.replace("TRE-","TRE_")), end='')
