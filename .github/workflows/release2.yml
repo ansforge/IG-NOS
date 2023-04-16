@@ -108,7 +108,7 @@ jobs:
       - name: Re-Run jekyll
         run : |
           cd  IG-website-release
-          jekyll build --destination "./www/ig/nos/${{steps.version.outputs.prop}}/" --source  "/tmp/ans.fr.nos#${{steps.version.outputs.prop}}/temp/pages"
+          jekyll build --destination "./www/ig/nos/${{steps.version.outputs.prop}}/" --source  $TMPDIR"/ans.fr.nos#${{steps.version.outputs.prop}}/temp/pages"
         
 
  
