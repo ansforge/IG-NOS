@@ -72,7 +72,7 @@ jobs:
           python-version: '3.10' 
 
       - name: Run script python
-        run: python download.py './temp/pages/'
+        run: python download.py './temp/pages/' './template_nos/includes/template.download.html'
         
       - name: Liste des repertoires
         run : |
