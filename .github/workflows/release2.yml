@@ -170,9 +170,9 @@ jobs:
         run: |
           cd  IG-website-release
           git config user.name github-actions
-          git config user.email github-actions@esante.gouv.de
+          git config user.email github-actions@esante.gouv.fr
           git add -A 
-          git commit -m updated ${{ steps.publicationRequest.outputs.version }}
+          git commit -m updated 
           
       - name: Push changes
         uses: ad-m/github-push-action@master
