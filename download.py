@@ -7,16 +7,16 @@ dir_path =  sys.argv[1]
 # boucler sur toutes les pages
 def create_TRE_from_Template(textToReplace):
     shutil.copy('./template_nos/includes/template.download.html',
-                './temp/pages/'+'CodeSystem-'+textToReplace+'.download.html')
-    for line in fileinput.input('./temp/pages/'+'CodeSystem-'+textToReplace+'.download.html',
+                dir_path +'CodeSystem-'+textToReplace+'.download.html')
+    for line in fileinput.input(dir_path '+'CodeSystem-'+textToReplace+'.download.html',
                                 inplace=True):
         print(line.replace('header_to_replace', textToReplace).replace('to_replace', textToReplace.replace("TRE-","TRE_")), end='')
         
 
 def create_JDV_from_Template(textToReplace):
     shutil.copy('./template_nos/includes/template.download.html',
-                './temp/pages/'+'ValueSet-'+textToReplace+'.download.html')
-    for line in fileinput.input('./temp/pages/'+'ValueSet-'+textToReplace+'.download.html',
+                dir_path +'ValueSet-'+textToReplace+'.download.html')
+    for line in fileinput.input(dir_path +'ValueSet-'+textToReplace+'.download.html',
                                 inplace=True):
         print(line.replace('header_to_replace', textToReplace).replace('to_replace', textToReplace.replace("JDV-","JDV_")).replace('CodeSystem', 'ValueSet'), end='')
 
