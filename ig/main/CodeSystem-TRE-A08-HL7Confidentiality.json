@@ -1,0 +1,122 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "TRE-A08-HL7Confidentiality",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_A08-HL7Confidentiality/FHIR/TRE-A08-HL7Confidentiality</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"TRE-A08-HL7Confidentiality-N\"> </a></td><td>Normal</td></tr><tr><td style=\"white-space:nowrap\">R<a name=\"TRE-A08-HL7Confidentiality-R\"> </a></td><td>Restreint</td></tr><tr><td style=\"white-space:nowrap\">V<a name=\"TRE-A08-HL7Confidentiality-V\"> </a></td><td>Très restreint</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2016-05-19T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_A08-HL7Confidentiality/FHIR/TRE-A08-HL7Confidentiality",
+  "identifier" : [{
+    "value" : "urn:oid:2.16.840.1.113883.5.25"
+  }],
+  "version" : "1.1.0",
+  "name" : "TRE_A08-HL7Confidentiality",
+  "status" : "active",
+  "date" : "2020-04-24T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "HL7 confidentiality",
+  "content" : "complete",
+  "concept" : [{
+    "code" : "N",
+    "display" : "Normal",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Normal"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Normal"
+    },
+    {
+      "use" : {
+        "code" : "DescriptionMetier"
+      },
+      "value" : "Y"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "R",
+    "display" : "Restreint",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Restreint"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Restreint"
+    },
+    {
+      "use" : {
+        "code" : "DescriptionMetier"
+      },
+      "value" : "Y"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "V",
+    "display" : "Très restreint",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Très restreint"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Très restreint"
+    },
+    {
+      "use" : {
+        "code" : "DescriptionMetier"
+      },
+      "value" : "Y"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
+    }]
+  }]
+}

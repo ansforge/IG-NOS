@@ -1,0 +1,4525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J17-ActiviteOperationnelle-ROR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>001</td><td>Addictologie comportementale (sans substance)</td></tr><tr><td>003</td><td>Alcoologie</td></tr><tr><td>004</td><td>Algologie et Médecine de la douleur</td></tr><tr><td>005</td><td>Allergologie</td></tr><tr><td>006</td><td>Andrologie</td></tr><tr><td>007</td><td>Anesthésie</td></tr><tr><td>009</td><td>Biochimie</td></tr><tr><td>010</td><td>Biologie du développement et de la reproduction</td></tr><tr><td>013</td><td>Cardiologie générale</td></tr><tr><td>014</td><td>Cardiologie interventionnelle</td></tr><tr><td>015</td><td>Centre antipoison et de toxicovigilance (CAPTV)</td></tr><tr><td>016</td><td>Chirurgie cervico-faciale et Oto-rhino-laryngologie (ORL)</td></tr><tr><td>017</td><td>Chirurgie de l'obésité (bariatrique)</td></tr><tr><td>018</td><td>Chirurgie cardiaque et gros vaisseaux (cardio-vasculaire)</td></tr><tr><td>022</td><td>Chirurgie gynécologique</td></tr><tr><td>023</td><td>Chirurgie maxillo-faciale</td></tr><tr><td>025</td><td>Chirurgie orthopédique et traumatologique</td></tr><tr><td>030</td><td>Chirurgie thoracique et pulmonaire</td></tr><tr><td>031</td><td>Urologie</td></tr><tr><td>032</td><td>Chirurgie vasculaire et endovasculaire</td></tr><tr><td>033</td><td>Chirurgie viscérale et digestive</td></tr><tr><td>035</td><td>Coordination hospitalière de prélèvement d'organes et de tissus</td></tr><tr><td>037</td><td>Dermatologie</td></tr><tr><td>038</td><td>Dermatologie esthétique et cosmétique</td></tr><tr><td>039</td><td>Diabétologie</td></tr><tr><td>040</td><td>Diététique et Nutrition</td></tr><tr><td>041</td><td>Endocrinologie</td></tr><tr><td>042</td><td>Epidémiologie</td></tr><tr><td>044</td><td>Foetopathologie et Embryopathologie</td></tr><tr><td>046</td><td>Gastro-entérologie</td></tr><tr><td>048</td><td>Génétique chromosomique et moléculaire</td></tr><tr><td>049</td><td>Génétique médicale et clinique</td></tr><tr><td>050</td><td>Gériatrie, Gérontologie</td></tr><tr><td>051</td><td>Géronto-psychiatrie</td></tr><tr><td>052</td><td>Gestion de crise, plan blanc</td></tr><tr><td>053</td><td>Gynécologie médicale</td></tr><tr><td>055</td><td>Hématologie</td></tr><tr><td>056</td><td>Hématologie biologique</td></tr><tr><td>058</td><td>Hémodialyse en urgence</td></tr><tr><td>059</td><td>Hémodialyse chronique</td></tr><tr><td>062</td><td>Hépatologie</td></tr><tr><td>063</td><td>Hygiène, prévention, contrôle des infections associées aux soins</td></tr><tr><td>064</td><td>Hygiène hospitalière</td></tr><tr><td>067</td><td>Imagerie par échographie</td></tr><tr><td>068</td><td>Imagerie par IRM</td></tr><tr><td>069</td><td>Imagerie par radiologie conventionnelle</td></tr><tr><td>070</td><td>Imagerie par scanner (TDM)</td></tr><tr><td>071</td><td>Immuno-hématologie</td></tr><tr><td>072</td><td>Immunologie biologique</td></tr><tr><td>073</td><td>Immunologie clinique</td></tr><tr><td>075</td><td>Information médicale (DIM)</td></tr><tr><td>076</td><td>Soins palliatifs avec lits identifiés de soins palliatifs (LISP)</td></tr><tr><td>077</td><td>Maladies infectieuses, parasitaires et tropicales</td></tr><tr><td>080</td><td>Médecine de la reproduction</td></tr><tr><td>081</td><td>Médecine du sport</td></tr><tr><td>082</td><td>Médecine du travail (pathologie professionnelle)</td></tr><tr><td>083</td><td>Médecine polyvalente</td></tr><tr><td>084</td><td>Médecine hyperbare</td></tr><tr><td>085</td><td>Médecine interne</td></tr><tr><td>086</td><td>Médecine légale</td></tr><tr><td>087</td><td>Médecine nucléaire</td></tr><tr><td>088</td><td>Médecine pédiatrique</td></tr><tr><td>089</td><td>Médecine pénitentiaire</td></tr><tr><td>090</td><td>Médecine physique et de réadaptation</td></tr><tr><td>091</td><td>Médecine vasculaire (Angiologie, Phlébologie)</td></tr><tr><td>093</td><td>Microbiologie</td></tr><tr><td>094</td><td>Néonatologie</td></tr><tr><td>095</td><td>Néphrologie</td></tr><tr><td>096</td><td>Neurochirurgie</td></tr><tr><td>097</td><td>Neurologie</td></tr><tr><td>098</td><td>Neurologie vasculaire</td></tr><tr><td>099</td><td>Médecine de l'obésité</td></tr><tr><td>100</td><td>Obstétrique</td></tr><tr><td>101</td><td>Odontologie (dentaire)</td></tr><tr><td>102</td><td>Oncologie-cancérologie</td></tr><tr><td>103</td><td>Ophtalmologie</td></tr><tr><td>104</td><td>Orthodontie ou orthopédie dento-faciale</td></tr><tr><td>105</td><td>Orthogénie</td></tr><tr><td>106</td><td>Orthoptie</td></tr><tr><td>110</td><td>Pharmacologie</td></tr><tr><td>111</td><td>Pharmacovigilance</td></tr><tr><td>114</td><td>Pneumologie</td></tr><tr><td>115</td><td>Suivi post urgences</td></tr><tr><td>117</td><td>Proctologie</td></tr><tr><td>118</td><td>Protection maternelle et infantile (PMI)</td></tr><tr><td>120</td><td>Radiologie interventionnelle</td></tr><tr><td>121</td><td>Réanimation spécialisée brûlés</td></tr><tr><td>122</td><td>Réanimation chirurgicale</td></tr><tr><td>123</td><td>Réanimation spécialisée chirurgie cardiaque et gros vaisseaux</td></tr><tr><td>124</td><td>Réanimation spécialisée chirurgie thoracique et pulmonaire</td></tr><tr><td>125</td><td>Réanimation spécialisée chirurgie viscérale et digestive</td></tr><tr><td>126</td><td>Réanimation médicale</td></tr><tr><td>127</td><td>Réanimation médico-chirurgicale (polyvalente)</td></tr><tr><td>128</td><td>Réanimation spécialisée néonatale</td></tr><tr><td>129</td><td>Réanimation spécialisée neurochirurgicale</td></tr><tr><td>130</td><td>Réanimation spécialisée pédiatrique</td></tr><tr><td>131</td><td>Rhumatologie</td></tr><tr><td>132</td><td>Rythmologie</td></tr><tr><td>133</td><td>Rythmologie interventionnelle</td></tr><tr><td>135</td><td>Sexologie</td></tr><tr><td>136</td><td>SMUR primaire</td></tr><tr><td>137</td><td>Stomatologie</td></tr><tr><td>138</td><td>Surveillance post-interventionnelle SSPI (réveil)</td></tr><tr><td>139</td><td>Tabacologie</td></tr><tr><td>142</td><td>Toxicologie</td></tr><tr><td>145</td><td>Traumatologie</td></tr><tr><td>147</td><td>Urgences Médico-Psychologiques (CUMP)</td></tr><tr><td>148</td><td>Urgences spécialisées cardiologiques</td></tr><tr><td>152</td><td>Urgences spécialisées Médico-Judiciaires (UMJ)</td></tr><tr><td>154</td><td>Urgences spécialisées ophtalmologiques</td></tr><tr><td>156</td><td>Urgences spécialisées Oto-Rhino-Laryngologiques (ORL)</td></tr><tr><td>157</td><td>Urgences polyvalentes</td></tr><tr><td>158</td><td>Urgences spécialisées psychiatriques</td></tr><tr><td>159</td><td>Urgences spécialisées traumatologiques</td></tr><tr><td>160</td><td>Urgences vitales (SAUV - déchocage)</td></tr><tr><td>161</td><td>Vaccinations</td></tr><tr><td>162</td><td>Evaluation et suivi des Infections Sexuellement Transmissibles (IST)</td></tr><tr><td>163</td><td>Anatomie et Cytologie pathologique</td></tr><tr><td>164</td><td>Traitement médical des cancers (chimiothérapie, immunothérapie, thérapie ciblée)</td></tr><tr><td>167</td><td>Curiethérapie</td></tr><tr><td>168</td><td>Radiothérapie</td></tr><tr><td>169</td><td>Scintigraphie</td></tr><tr><td>170</td><td>Soins palliatifs</td></tr><tr><td>172</td><td>Réadaptation polyvalente</td></tr><tr><td>175</td><td>Brûlologie</td></tr><tr><td>177</td><td>Chirurgie reconstructrice</td></tr><tr><td>178</td><td>Chirurgie plastique et esthétique</td></tr><tr><td>179</td><td>Médecine aéronautique et aérospatiale</td></tr><tr><td>180</td><td>Médecine d'altitude (médecine de montagne)</td></tr><tr><td>182</td><td>Evaluation et traitement de la mucoviscidose</td></tr><tr><td>183</td><td>Traitement neurochirurgical de la douleur</td></tr><tr><td>184</td><td>Neurochirurgie vasculaire</td></tr><tr><td>186</td><td>Oncologie neurologique (cancérologie)</td></tr><tr><td>187</td><td>Oncogériatrie (cancérologie)</td></tr><tr><td>188</td><td>Oncologie dermatologique (cancérologie)</td></tr><tr><td>189</td><td>Oncologie digestive et viscérale (cancérologie)</td></tr><tr><td>190</td><td>Oncologie gynécologique (cancérologie)</td></tr><tr><td>191</td><td>Oncologie hématologique (cancérologie)</td></tr><tr><td>192</td><td>Oncologie oto-rhino-laryngologique (ORL) et cervico-faciale (cancérologie)</td></tr><tr><td>193</td><td>Oncologie pneumologique (cancérologie)</td></tr><tr><td>195</td><td>Oncologie sénologique (cancer du sein) (cancérologie)</td></tr><tr><td>196</td><td>Oncologie urologique (cancérologie)</td></tr><tr><td>197</td><td>Ostéopathie</td></tr><tr><td>198</td><td>Parodontologie</td></tr><tr><td>199</td><td>Chirurgie orale</td></tr><tr><td>200</td><td>Orthophonie</td></tr><tr><td>201</td><td>Podologie</td></tr><tr><td>202</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Appareil Digestif</td></tr><tr><td>203</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Appareil Respiratoire et Autres Thorax</td></tr><tr><td>204</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Glandes Endocrines</td></tr><tr><td>205</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Hématologie</td></tr><tr><td>206</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Oeil</td></tr><tr><td>207</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Organes génitaux féminins</td></tr><tr><td>208</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Organes génitaux masculins</td></tr><tr><td>209</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Os et tissus mous et myélome</td></tr><tr><td>210</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Peau</td></tr><tr><td>211</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Sein</td></tr><tr><td>212</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Système Nerveux</td></tr><tr><td>214</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Voies Aéro-Digestives Supérieures (VADS)</td></tr><tr><td>215</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Voies urinaires</td></tr><tr><td>216</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Cancers rares</td></tr><tr><td>217</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Douleur</td></tr><tr><td>218</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Métastase osseuse</td></tr><tr><td>219</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Oncogénétique</td></tr><tr><td>220</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Oncogériatrie</td></tr><tr><td>221</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Oncologie médicale</td></tr><tr><td>222</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Préservation de la fertilité</td></tr><tr><td>223</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Radiologie interventionnelle</td></tr><tr><td>224</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Soins de support général</td></tr><tr><td>225</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Soins palliatifs</td></tr><tr><td>226</td><td>Expertise des infections osteo-articulaires complexes (CRIOA, CRIOAC)</td></tr><tr><td>227</td><td>Pédopsychiatrie infanto-juvénile</td></tr><tr><td>228</td><td>Pédopsychiatrie des adolescents et jeunes adultes</td></tr><tr><td>229</td><td>Psychiatrie adulte</td></tr><tr><td>230</td><td>Psychiatrie périnatale</td></tr><tr><td>231</td><td>Soins de réhabilitation psycho-sociale</td></tr><tr><td>232</td><td>Bilan expert</td></tr><tr><td>233</td><td>Réadaptation des affections de l'appareil locomoteur</td></tr><tr><td>234</td><td>Réadaptation des affections du système nerveux</td></tr><tr><td>235</td><td>Réadaptation des affections cardio-vasculaires</td></tr><tr><td>236</td><td>Réadaptation des affections respiratoires</td></tr><tr><td>237</td><td>Réadaptation des affections endocrino-métaboliques et nutrition</td></tr><tr><td>238</td><td>Réadaptation des affections onco-hématologiques</td></tr><tr><td>239</td><td>Réadaptation des brulés</td></tr><tr><td>240</td><td>Réadaptation des affections liées aux conduites addictives</td></tr><tr><td>241</td><td>Réadaptation des affections des personnes âgées polypathologiques, dépendantes ou à risque de dépendance</td></tr><tr><td>242</td><td>Soins de Suite et de Réadaptation (SSR) polyvalent, reconnaissance affections onco-hématologiques</td></tr><tr><td>243</td><td>Réadaptation des affections néphrologiques</td></tr><tr><td>244</td><td>Réadaptation Post-Réanimation (SRPR)</td></tr><tr><td>245</td><td>Réadaptation des personnes en état de conscience altérée</td></tr><tr><td>246</td><td>Réadaptation cognitivo-comportementale (UCC)</td></tr><tr><td>247</td><td>Réadaptation des déficiences visuelles</td></tr><tr><td>248</td><td>Réadaptation des déficiences auditives</td></tr><tr><td>249</td><td>Urgences pédiatriques</td></tr><tr><td>250</td><td>Urgences spécialisées céphalées</td></tr><tr><td>251</td><td>Urgences spécialisées dermatologiques</td></tr><tr><td>252</td><td>Urgences spécialisées endocrinologiques</td></tr><tr><td>253</td><td>Urgences spécialisées hématologiques</td></tr><tr><td>254</td><td>Urgences spécialisées néphrologiques</td></tr><tr><td>255</td><td>Urgences spécialisées hépato-gastro-entérologiques</td></tr><tr><td>256</td><td>Urgences spécialisées neuro-vasculaires</td></tr><tr><td>257</td><td>Urgences spécialisées odontologiques (dentaires)</td></tr><tr><td>258</td><td>Urgences spécialisées main</td></tr><tr><td>259</td><td>Urgences spécialisées gynécologiques</td></tr><tr><td>260</td><td>Urgences spécialisées obstétricales</td></tr><tr><td>261</td><td>Urgences spécialisées maxillo-faciales</td></tr><tr><td>262</td><td>Urgences spécialisées stomatologiques</td></tr><tr><td>263</td><td>Urgences spécialisées oncologiques</td></tr><tr><td>264</td><td>Urgences spécialisées chirurgicales viscérales et digestives</td></tr><tr><td>265</td><td>Urgences spécialisées infectieuses</td></tr><tr><td>266</td><td>Urgences spécialisées urologiques</td></tr><tr><td>267</td><td>Urgences spécialisées neuro-chirurgicales</td></tr><tr><td>268</td><td>Transfert inter-hospitalier (TIH SMUR)</td></tr><tr><td>269</td><td>Transfert infirmier inter-hospitalier (TIIH SMUR)</td></tr><tr><td>270</td><td>SMUR pédiatrique</td></tr><tr><td>271</td><td>Evacuation sanitaire (EVASAN)</td></tr><tr><td>272</td><td>Régulation médicale libérale (CRRA)</td></tr><tr><td>273</td><td>Régulation médicale hospitalière (CRRA)</td></tr><tr><td>274</td><td>Régulation médicale maritime (CRRA)</td></tr><tr><td>275</td><td>Régulation médicale en montagne (CRRA)</td></tr><tr><td>276</td><td>Régulation médicale pédiatrique (CRRA)</td></tr><tr><td>277</td><td>Régulation psychiatrique</td></tr><tr><td>278</td><td>Régulation des transferts in utero</td></tr><tr><td>279</td><td>Oncologie pédiatrique (cancérologie)</td></tr><tr><td>280</td><td>Chirurgie dermatologique</td></tr><tr><td>281</td><td>Chirurgie carcinologique</td></tr><tr><td>282</td><td>Périnatalité (suivi de grossesse)</td></tr><tr><td>283</td><td>Rééducation - réadaptation</td></tr><tr><td>284</td><td>Evaluation et traitement de la drépanocytose</td></tr><tr><td>285</td><td>Soins médicaux somatiques</td></tr><tr><td>287</td><td>Soins techniques infirmiers</td></tr><tr><td>288</td><td>Soins d'hygiène médicalisés</td></tr><tr><td>289</td><td>Suivi psychologique</td></tr><tr><td>290</td><td>Réadaptation des fonctions du langage et de la communication</td></tr><tr><td>291</td><td>Rééducation et réadaptation pour la mobilité</td></tr><tr><td>292</td><td>Réadaptation des fonctions cognitives</td></tr><tr><td>293</td><td>Accompagnements pour les actes de la vie quotidienne (AVQ)</td></tr><tr><td>294</td><td>Accompagnements pour la communication</td></tr><tr><td>295</td><td>Accompagnements pour les relations avec autrui</td></tr><tr><td>296</td><td>Accompagnements pour prendre des décisions adaptées</td></tr><tr><td>297</td><td>Accompagnements pour la sécurité</td></tr><tr><td>298</td><td>Accompagnements pour vivre dans un logement</td></tr><tr><td>299</td><td>Accompagnements pour accomplir les activités domestiques</td></tr><tr><td>300</td><td>Accompagnements à la scolarisation</td></tr><tr><td>301</td><td>Enseignement et/ou formation</td></tr><tr><td>302</td><td>Accompagnements pour préparer sa vie professionnelle</td></tr><tr><td>303</td><td>Accompagnements à la recherche d'un emploi</td></tr><tr><td>304</td><td>Activité professionnelle adaptée</td></tr><tr><td>305</td><td>Accompagnements dans l'activité professionnelle</td></tr><tr><td>306</td><td>Activités visant la stimulation cognitivo-comportementale</td></tr><tr><td>307</td><td>Organisation d'activités péri-scolaires-péri-professionnelles</td></tr><tr><td>308</td><td>Accompagnements à la parentalité</td></tr><tr><td>309</td><td>Accompagnements à la vie affective et sexuelle</td></tr><tr><td>310</td><td>Accompagnements pour l'exercice des mandats électoraux, la représentation des pairs</td></tr><tr><td>311</td><td>Accompagnements pour la pair aidance</td></tr><tr><td>312</td><td>Accompagnements pour créer ou maintenir le lien social et éviter l'isolement</td></tr><tr><td>313</td><td>Accompagnements à des activités sociales, culturelles, sportives et de loisirs</td></tr><tr><td>314</td><td>Activités de bien-être</td></tr><tr><td>315</td><td>Soins socio-esthétiques</td></tr><tr><td>316</td><td>Apprentissage et accompagnements à la conduite de véhicule (voiture,...)</td></tr><tr><td>317</td><td>Informer, évaluer, accompagner et orienter pour l'ouverture des droits et l'accès aux prestations pour l'aidé et l'aidant</td></tr><tr><td>318</td><td>Apprentissage et-ou aide à la gestion du budget</td></tr><tr><td>319</td><td>Conseils et accompagnements dans les démarches afin de mobiliser les mesures de protection adaptées</td></tr><tr><td>320</td><td>Mettre en oeuvre les mesures de protection juridiques</td></tr><tr><td>322</td><td>Prestation de restauration</td></tr><tr><td>323</td><td>Entretien du linge par l'établissement</td></tr><tr><td>324</td><td>Organisation du transport de la personne</td></tr><tr><td>325</td><td>Soutien et aide aux aidants</td></tr><tr><td>326</td><td>Formation des aidants</td></tr><tr><td>330</td><td>Promouvoir et sensibiliser aux activités physiques adaptées</td></tr><tr><td>332</td><td>Préparation et reconstitution centralisée des médicaments cytotoxiques (UPC, URC)</td></tr><tr><td>333</td><td>Soins de longue durée (SLD)</td></tr><tr><td>334</td><td>Activité de prévention</td></tr><tr><td>335</td><td>Coordination de parcours complexes</td></tr><tr><td>336</td><td>Education thérapeutique</td></tr><tr><td>337</td><td>Régulation médicale néonatale (CRRA)</td></tr><tr><td>338</td><td>Neuroradiologie</td></tr><tr><td>339</td><td>Kinésithérapie</td></tr><tr><td>340</td><td>Coordination plan de soins</td></tr><tr><td>341</td><td>Coordination plan d'aide</td></tr><tr><td>342</td><td>Accompagnement vie familiale</td></tr><tr><td>343</td><td>Exploration fonctionnelle respiratoire (EFR) pléthysmographie, gaz du sang</td></tr><tr><td>344</td><td>Exploration fonctionnelle cardiaque</td></tr><tr><td>345</td><td>Exploration fonctionnelle vasculaire</td></tr><tr><td>346</td><td>Exploration fonctionnelle neurologique</td></tr><tr><td>347</td><td>Exploration fonctionnelle ORL</td></tr><tr><td>348</td><td>Exploration fonctionnelle digestive</td></tr><tr><td>349</td><td>Exploration fonctionnelle urologique</td></tr><tr><td>350</td><td>Exploration fonctionnelle ophtalmologique</td></tr><tr><td>351</td><td>Soins intensifs médico-chirurgicaux (polyvalent)</td></tr><tr><td>352</td><td>Soins intensifs chirurgicaux</td></tr><tr><td>353</td><td>Soins intensifs médicaux</td></tr><tr><td>354</td><td>Soins intensifs spécialisés cardiologie (USIC)</td></tr><tr><td>355</td><td>Soins intensifs spécialisés en psychiatrie</td></tr><tr><td>356</td><td>Soins intensifs spécialisés neurologie vasculaire (USINV)</td></tr><tr><td>357</td><td>Soins intensifs spécialisés pneumologie</td></tr><tr><td>359</td><td>Soins intensifs spécialisés brûlés</td></tr><tr><td>360</td><td>Soins intensifs spécialisés cancérologie oncologie</td></tr><tr><td>361</td><td>Soins intensifs spécialisés hématologie</td></tr><tr><td>362</td><td>Soins intensifs spécialisés chirurgie cardiaque et gros vaisseaux</td></tr><tr><td>363</td><td>Soins intensifs spécialisés chirurgie thoracique et pulmonaire</td></tr><tr><td>364</td><td>Soins intensifs spécialisés chirurgie urologique</td></tr><tr><td>365</td><td>Soins intensifs spécialisés chirurgie viscérale et digestive</td></tr><tr><td>366</td><td>Soins intensifs spécialisés gynécologie obstétrique</td></tr><tr><td>367</td><td>Soins intensifs spécialisés-gastro-entérologie (USIG)</td></tr><tr><td>368</td><td>Soins intensifs spécialisés maladies infectieuses, parasitaires et tropicales</td></tr><tr><td>369</td><td>Soins intensifs spécialisés néonatalogique</td></tr><tr><td>370</td><td>Soins intensifs spécialisés pédiatrique</td></tr><tr><td>371</td><td>Soins intensifs spécialisés néphrologique</td></tr><tr><td>372</td><td>Soins intensifs spécialisés neurochirurgicaux</td></tr><tr><td>373</td><td>Surveillance continue médico-chirurgicale (polyvalente)</td></tr><tr><td>374</td><td>Surveillance continue chirurgicale</td></tr><tr><td>375</td><td>Surveillance continue médicale</td></tr><tr><td>376</td><td>Surveillance continue spécialisée cardiologie</td></tr><tr><td>377</td><td>Surveillance continue spécialisée neurochirurgie</td></tr><tr><td>378</td><td>Surveillance continue spécialisée pneumologie</td></tr><tr><td>379</td><td>Surveillance continue spécialisée brûlés</td></tr><tr><td>380</td><td>Surveillance continue spécialisée cancérologie oncologie</td></tr><tr><td>381</td><td>Surveillance continue spécialisée chirurgie cardiaque et gros vaisseaux</td></tr><tr><td>382</td><td>Surveillance continue spécialisée chirurgie thoracique et pulmonaire</td></tr><tr><td>383</td><td>Surveillance continue spécialisée chirurgie urologique</td></tr><tr><td>384</td><td>Surveillance continue spécialisée chirurgie viscérale et digestive</td></tr><tr><td>385</td><td>Surveillance continue spécialisée gynécologie obstétrique</td></tr><tr><td>386</td><td>Surveillance continue spécialisée hépato-gastro-entérologie</td></tr><tr><td>387</td><td>Surveillance continue spécialisée néphrologique</td></tr><tr><td>388</td><td>Surveillance continue spécialisée neurologique</td></tr><tr><td>389</td><td>Surveillance continue spécialisée chirurgie maxillo-faciale et stomatologie</td></tr><tr><td>390</td><td>Surveillance continue spécialisée chirurgie orthopédique et traumatologie</td></tr><tr><td>391</td><td>Surveillance continue spécialisée pédiatrique</td></tr><tr><td>392</td><td>Hébergement temporaire d'urgence</td></tr><tr><td>393</td><td>Hébergement temporaire en sortie d'hospitalisation</td></tr><tr><td>394</td><td>Relayage (type baluchonnage)</td></tr><tr><td>395</td><td>Préparation hospitalière</td></tr><tr><td>396</td><td>Préparation pour essais cliniques</td></tr><tr><td>397</td><td>Pharmacie à Usage Intérieur (PUI)</td></tr><tr><td>398</td><td>Stérilisation des dispositifs médicaux</td></tr><tr><td>399</td><td>Préparation des médicaments radiopharmaceutiques</td></tr><tr><td>400</td><td>Vente de médicaments au public (rétrocession hospitalière)</td></tr><tr><td>401</td><td>Evaluation du logement et préconisation d'adaptation pour le maintien à domicile</td></tr><tr><td>402</td><td>Accompagnement à l'autonomie pour la mobilité et les déplacements</td></tr><tr><td>403</td><td>Apprentissage de l'autonomie pour la vie courante</td></tr><tr><td>404</td><td>Addictologie avec substance(s)</td></tr><tr><td>408</td><td>Chambre mortuaire</td></tr><tr><td>409</td><td>Oncologie endocrinienne et thyroïdienne</td></tr><tr><td>410</td><td>Oncologie os et tissus mous</td></tr><tr><td>411</td><td>Oncologie métastases osseuses</td></tr><tr><td>412</td><td>Onco-génétique</td></tr><tr><td>413</td><td>Exploration et suivi complexe en oncologie et hématologie</td></tr><tr><td>414</td><td>Soins de support en oncologie et hématologie</td></tr><tr><td>416</td><td>Soins Prolongés Complexes (USPC)</td></tr><tr><td>417</td><td>Kinésithérapie Spécialisée Neurologie</td></tr><tr><td>418</td><td>Kinésithérapie Spécialisée Orthopédie</td></tr><tr><td>419</td><td>Kinésithérapie Spécialisée Respiratoire</td></tr><tr><td>420</td><td>Kinésithérapie Spécialisée Cardiologie</td></tr><tr><td>421</td><td>Kinésithérapie Spécialisée Périnéologie</td></tr><tr><td>422</td><td>Kinésithérapie Spécialisée Vasculaire</td></tr><tr><td>423</td><td>Kinésithérapie Spécialisée ORL</td></tr><tr><td>424</td><td>Kinésithérapie Spécialisée Rhumatologie</td></tr><tr><td>425</td><td>Kinésithérapie Spécialisée Traumatologie</td></tr><tr><td>426</td><td>Kinésithérapie Spécialisée Dermatologie</td></tr><tr><td>427</td><td>Kinésithérapie Spécialisée du sport</td></tr><tr><td>428</td><td>Kinésithérapie Spécialisée Gériatrie</td></tr><tr><td>429</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Oncologie pédiatrique</td></tr><tr><td>431</td><td>Endoscopie broncho-pulmonaire diagnostic</td></tr><tr><td>432</td><td>Endoscopie broncho-pulmonaire interventionnelle</td></tr><tr><td>433</td><td>Médecine Transfusionnelle et hémovigilance</td></tr><tr><td>434</td><td>Elaboration du plan d'aide</td></tr><tr><td>435</td><td>Expertise médicale (évaluation de préjudice)</td></tr><tr><td>436</td><td>Chirurgie du rachis</td></tr><tr><td>437</td><td>Médecine générale</td></tr><tr><td>438</td><td>Accompagnement dans le cadre d'un dispositif d'emploi accompagné (DEA)</td></tr><tr><td>439</td><td>Gynécologie endocrinienne</td></tr><tr><td>440</td><td>Chirurgie intracrânienne</td></tr><tr><td>441</td><td>Médecine bucco-dentaire</td></tr><tr><td>442</td><td>Chirurgie dentaire</td></tr><tr><td>443</td><td>Pédodontie ou odontologie pédiatrique</td></tr><tr><td>444</td><td>Endodontie</td></tr><tr><td>445</td><td>Biologie moléculaire sur prélèvement Anapath</td></tr><tr><td>446</td><td>Cytopathologie</td></tr><tr><td>447</td><td>Histopathologie</td></tr><tr><td>448</td><td>Dépistage et diagnostic liés à un trouble ou retard du développement</td></tr><tr><td>449</td><td>Appui et coopération auprès des acteurs de l'enseignement</td></tr><tr><td>450</td><td>Accompagnement à la réduction des risques en addictologie</td></tr><tr><td>451</td><td>Exploration et prise en charge des troubles du sommeil</td></tr><tr><td>452</td><td>Exploration des troubles psycho-comportementaux et cognitifs</td></tr><tr><td>453</td><td>Médecine de l'adolescent</td></tr><tr><td>454</td><td>Radiologie polyvalente générale</td></tr><tr><td>455</td><td>Médecine thermale</td></tr><tr><td>457</td><td>Réunion de Concertation Pluridisciplinaire (RCP) Rhumatismes Inflammatoires Chroniques (RIC), maladies auto-immunes et biothérapies en rhumatologie</td></tr><tr><td>465</td><td>Réadaptation des fonctions sexuelles et de la reproduction</td></tr><tr><td>466</td><td>Chirurgie des varices</td></tr><tr><td>467</td><td>Chirurgie orthopédique et traumatologique spécialisée main</td></tr><tr><td>468</td><td>Chirurgie orthopédique et traumatologique spécialisée membres inférieurs</td></tr><tr><td>469</td><td>Chirurgie orthopédique et traumatologique spécialisée membres supérieurs (sauf la main)</td></tr><tr><td>470</td><td>Chirurgie orthopédique et traumatologique spécialisée tumeur</td></tr><tr><td>471</td><td>Orientation vers un médecin traitant acceptant de nouveaux patients</td></tr><tr><td>472</td><td>Veille et prévention de la récidive suicidaire</td></tr><tr><td>473</td><td>Chirurgie carcinologique des tumeurs ORL et des voies aéro-digestives supérieures</td></tr><tr><td>474</td><td>Chirurgie carcinologique digestive et viscérale</td></tr><tr><td>475</td><td>Coordination de soins non-programmés</td></tr><tr><td>476</td><td>Exploration fonctionnelle de l'audition</td></tr><tr><td>477</td><td>Exploration fonctionnelle de la voix et de la déglutition</td></tr><tr><td>478</td><td>Exploration fonctionnelle des vertiges (audio vestibulaire)</td></tr><tr><td>479</td><td>Explorations fonctionnelles endocrinologie, diabétologie, métabolisme et nutrition</td></tr><tr><td>480</td><td>Médecine du sommeil</td></tr><tr><td>481</td><td>Médecine générale à orientation Allergologie</td></tr><tr><td>482</td><td>Médecine générale à orientation Andrologie</td></tr><tr><td>483</td><td>Médecine générale à orientation Diabétologie</td></tr><tr><td>484</td><td>Médecine générale à orientation Gériatrie, Gérontologie</td></tr><tr><td>485</td><td>Médecine générale à orientation Gynécologie médicale</td></tr><tr><td>486</td><td>Médecine générale à orientation Maladies infectieuses, parasitaires et tropicales</td></tr><tr><td>487</td><td>Médecine générale à orientation Médecine pédiatrique</td></tr><tr><td>488</td><td>Médecine générale à orientation Médecine vasculaire (Angiologie, Phlébologie)</td></tr><tr><td>489</td><td>Médecine générale à orientation Oncogériatrie (cancérologie)</td></tr><tr><td>490</td><td>Médecine générale à orientation Pathologies osseuses médicales</td></tr><tr><td>491</td><td>Médecine gériatrique aiguë</td></tr><tr><td>492</td><td>Neuroradiologie interventionnelle</td></tr><tr><td>493</td><td>Psychomotricité</td></tr><tr><td>494</td><td>Radiologie abdominale et digestive</td></tr><tr><td>495</td><td>Radiologie cardio-vasculaire</td></tr><tr><td>496</td><td>Radiologie gynécologique</td></tr><tr><td>497</td><td>Radiologie interventionnelle musculosquelettique</td></tr><tr><td>498</td><td>Radiologie interventionnelle oncologique</td></tr><tr><td>499</td><td>Radiologie interventionnelle pédiatrique</td></tr><tr><td>500</td><td>Radiologie interventionnelle vasculaire</td></tr><tr><td>501</td><td>Radiologie musculo-squelettique</td></tr><tr><td>502</td><td>Radiologie ORL et maxillo-faciale</td></tr><tr><td>503</td><td>Radiologie prénatale et pédiatrique</td></tr><tr><td>504</td><td>Radiologie sénologique (dont mammographie)</td></tr><tr><td>505</td><td>Radiologie thoracique</td></tr><tr><td>506</td><td>Transplantation d'organe</td></tr><tr><td>507</td><td>Uro-Radiologie</td></tr><tr><td>508</td><td>Exploration fonctionnelle de l'exercice et du sport</td></tr><tr><td>509</td><td>Traumatologie de l'activité physique et du sport</td></tr><tr><td>510</td><td>Échographie gynécologique et obstétricale (dont échographie de grossesse)</td></tr><tr><td>511</td><td>Accueil et hébergement spécialisé</td></tr><tr><td>512</td><td>Accueil et orientation des victimes de violences sexuelles</td></tr><tr><td>513</td><td>Réadaptation locomotrice des patients amputés</td></tr><tr><td>514</td><td>Réadaptation PREcoce Post-Aiguë Cardiologique (PREPAC)</td></tr><tr><td>515</td><td>Réadaptation PREcoce Post-Aiguë Respiratoire (PREPAR)</td></tr><tr><td>516</td><td>Réadaptation neuro-orthopédique</td></tr><tr><td>517</td><td>Réadaptation PREcoce Post-Aiguë Neurologique (PREPAN)</td></tr><tr><td>518</td><td>Réadaptation des troubles cognitifs et comportementaux des patients cérébro-lésés</td></tr><tr><td>519</td><td>Réadaptation des lésions médullaires</td></tr><tr><td>520</td><td>Réadaptation de l'obésité</td></tr><tr><td>521</td><td>Réadaptation des troubles cognitifs sévères liés à une conduite addictive</td></tr><tr><td>522</td><td>Réadaptation pédiatrique spécialisée polyhandicap</td></tr><tr><td>523</td><td>Réadaptation des affections oncologiques</td></tr><tr><td>524</td><td>Réadaptation spécialisée troubles du langage et des apprentissages</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2016-09-01T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.5"/>
+  </identifier>
+  <version value="1.1.0"/>
+  <name value="JDV_J17-ActiviteOperationnelle-ROR"/>
+  <status value="active"/>
+  <date value="2023-01-27T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Activité Operationnelle - ROR"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"/>
+      <concept>
+        <code value="001"/>
+        <display value="Addictologie comportementale (sans substance)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="003"/>
+        <display value="Alcoologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="004"/>
+        <display value="Algologie et Médecine de la douleur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="005"/>
+        <display value="Allergologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="006"/>
+        <display value="Andrologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="007"/>
+        <display value="Anesthésie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="009"/>
+        <display value="Biochimie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="010"/>
+        <display value="Biologie du développement et de la reproduction"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="013"/>
+        <display value="Cardiologie générale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="014"/>
+        <display value="Cardiologie interventionnelle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="015"/>
+        <display value="Centre antipoison et de toxicovigilance (CAPTV)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="016"/>
+        <display value="Chirurgie cervico-faciale et Oto-rhino-laryngologie (ORL)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="017"/>
+        <display value="Chirurgie de l'obésité (bariatrique)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="018"/>
+        <display value="Chirurgie cardiaque et gros vaisseaux (cardio-vasculaire)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="022"/>
+        <display value="Chirurgie gynécologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="023"/>
+        <display value="Chirurgie maxillo-faciale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="025"/>
+        <display value="Chirurgie orthopédique et traumatologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="030"/>
+        <display value="Chirurgie thoracique et pulmonaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="031"/>
+        <display value="Urologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="032"/>
+        <display value="Chirurgie vasculaire et endovasculaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="033"/>
+        <display value="Chirurgie viscérale et digestive"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="035"/>
+        <display value="Coordination hospitalière de prélèvement d'organes et de tissus"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="037"/>
+        <display value="Dermatologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="038"/>
+        <display value="Dermatologie esthétique et cosmétique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="039"/>
+        <display value="Diabétologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="040"/>
+        <display value="Diététique et Nutrition"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="041"/>
+        <display value="Endocrinologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="042"/>
+        <display value="Epidémiologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="044"/>
+        <display value="Foetopathologie et Embryopathologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="046"/>
+        <display value="Gastro-entérologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="048"/>
+        <display value="Génétique chromosomique et moléculaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="049"/>
+        <display value="Génétique médicale et clinique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="050"/>
+        <display value="Gériatrie, Gérontologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="051"/>
+        <display value="Géronto-psychiatrie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="052"/>
+        <display value="Gestion de crise, plan blanc"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="053"/>
+        <display value="Gynécologie médicale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="055"/>
+        <display value="Hématologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="056"/>
+        <display value="Hématologie biologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="058"/>
+        <display value="Hémodialyse en urgence"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="059"/>
+        <display value="Hémodialyse chronique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="062"/>
+        <display value="Hépatologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="063"/>
+        <display value="Hygiène, prévention, contrôle des infections associées aux soins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="064"/>
+        <display value="Hygiène hospitalière"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="067"/>
+        <display value="Imagerie par échographie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="068"/>
+        <display value="Imagerie par IRM"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="069"/>
+        <display value="Imagerie par radiologie conventionnelle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="070"/>
+        <display value="Imagerie par scanner (TDM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="071"/>
+        <display value="Immuno-hématologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="072"/>
+        <display value="Immunologie biologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="073"/>
+        <display value="Immunologie clinique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="075"/>
+        <display value="Information médicale (DIM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="076"/>
+        <display value="Soins palliatifs avec lits identifiés de soins palliatifs (LISP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="077"/>
+        <display value="Maladies infectieuses, parasitaires et tropicales"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="080"/>
+        <display value="Médecine de la reproduction"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="081"/>
+        <display value="Médecine du sport"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="082"/>
+        <display value="Médecine du travail (pathologie professionnelle)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="083"/>
+        <display value="Médecine polyvalente"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="084"/>
+        <display value="Médecine hyperbare"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="085"/>
+        <display value="Médecine interne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="086"/>
+        <display value="Médecine légale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="087"/>
+        <display value="Médecine nucléaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="088"/>
+        <display value="Médecine pédiatrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="089"/>
+        <display value="Médecine pénitentiaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="090"/>
+        <display value="Médecine physique et de réadaptation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="091"/>
+        <display value="Médecine vasculaire (Angiologie, Phlébologie)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="093"/>
+        <display value="Microbiologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="094"/>
+        <display value="Néonatologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="095"/>
+        <display value="Néphrologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="096"/>
+        <display value="Neurochirurgie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="097"/>
+        <display value="Neurologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="098"/>
+        <display value="Neurologie vasculaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="099"/>
+        <display value="Médecine de l'obésité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="100"/>
+        <display value="Obstétrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="101"/>
+        <display value="Odontologie (dentaire)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="102"/>
+        <display value="Oncologie-cancérologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="103"/>
+        <display value="Ophtalmologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="104"/>
+        <display value="Orthodontie ou orthopédie dento-faciale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="105"/>
+        <display value="Orthogénie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="106"/>
+        <display value="Orthoptie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="110"/>
+        <display value="Pharmacologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="111"/>
+        <display value="Pharmacovigilance"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="114"/>
+        <display value="Pneumologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="115"/>
+        <display value="Suivi post urgences"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="117"/>
+        <display value="Proctologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="118"/>
+        <display value="Protection maternelle et infantile (PMI)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="120"/>
+        <display value="Radiologie interventionnelle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="121"/>
+        <display value="Réanimation spécialisée brûlés"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="122"/>
+        <display value="Réanimation chirurgicale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="123"/>
+        <display value="Réanimation spécialisée chirurgie cardiaque et gros vaisseaux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="124"/>
+        <display value="Réanimation spécialisée chirurgie thoracique et pulmonaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="125"/>
+        <display value="Réanimation spécialisée chirurgie viscérale et digestive"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="126"/>
+        <display value="Réanimation médicale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="127"/>
+        <display value="Réanimation médico-chirurgicale (polyvalente)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="128"/>
+        <display value="Réanimation spécialisée néonatale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="129"/>
+        <display value="Réanimation spécialisée neurochirurgicale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="130"/>
+        <display value="Réanimation spécialisée pédiatrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="131"/>
+        <display value="Rhumatologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="132"/>
+        <display value="Rythmologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="133"/>
+        <display value="Rythmologie interventionnelle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="135"/>
+        <display value="Sexologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="136"/>
+        <display value="SMUR primaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="137"/>
+        <display value="Stomatologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="138"/>
+        <display value="Surveillance post-interventionnelle SSPI (réveil)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="139"/>
+        <display value="Tabacologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="142"/>
+        <display value="Toxicologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="145"/>
+        <display value="Traumatologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="147"/>
+        <display value="Urgences Médico-Psychologiques (CUMP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="148"/>
+        <display value="Urgences spécialisées cardiologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="152"/>
+        <display value="Urgences spécialisées Médico-Judiciaires (UMJ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="154"/>
+        <display value="Urgences spécialisées ophtalmologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="156"/>
+        <display value="Urgences spécialisées Oto-Rhino-Laryngologiques (ORL)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="157"/>
+        <display value="Urgences polyvalentes"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="158"/>
+        <display value="Urgences spécialisées psychiatriques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="159"/>
+        <display value="Urgences spécialisées traumatologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="160"/>
+        <display value="Urgences vitales (SAUV - déchocage)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="161"/>
+        <display value="Vaccinations"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="162"/>
+        <display value="Evaluation et suivi des Infections Sexuellement Transmissibles (IST)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="163"/>
+        <display value="Anatomie et Cytologie pathologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="164"/>
+        <display value="Traitement médical des cancers (chimiothérapie, immunothérapie, thérapie ciblée)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="167"/>
+        <display value="Curiethérapie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="168"/>
+        <display value="Radiothérapie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="169"/>
+        <display value="Scintigraphie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="170"/>
+        <display value="Soins palliatifs"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="172"/>
+        <display value="Réadaptation polyvalente"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="175"/>
+        <display value="Brûlologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="177"/>
+        <display value="Chirurgie reconstructrice"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="178"/>
+        <display value="Chirurgie plastique et esthétique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="179"/>
+        <display value="Médecine aéronautique et aérospatiale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="180"/>
+        <display value="Médecine d'altitude (médecine de montagne)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="182"/>
+        <display value="Evaluation et traitement de la mucoviscidose"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="183"/>
+        <display value="Traitement neurochirurgical de la douleur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="184"/>
+        <display value="Neurochirurgie vasculaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="186"/>
+        <display value="Oncologie neurologique (cancérologie)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="187"/>
+        <display value="Oncogériatrie (cancérologie)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="188"/>
+        <display value="Oncologie dermatologique (cancérologie)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="189"/>
+        <display value="Oncologie digestive et viscérale (cancérologie)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="190"/>
+        <display value="Oncologie gynécologique (cancérologie)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="191"/>
+        <display value="Oncologie hématologique (cancérologie)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="192"/>
+        <display value="Oncologie oto-rhino-laryngologique (ORL) et cervico-faciale (cancérologie)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="193"/>
+        <display value="Oncologie pneumologique (cancérologie)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="195"/>
+        <display value="Oncologie sénologique (cancer du sein) (cancérologie)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="196"/>
+        <display value="Oncologie urologique (cancérologie)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="197"/>
+        <display value="Ostéopathie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="198"/>
+        <display value="Parodontologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="199"/>
+        <display value="Chirurgie orale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="200"/>
+        <display value="Orthophonie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="201"/>
+        <display value="Podologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="202"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Appareil Digestif"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="203"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Appareil Respiratoire et Autres Thorax"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="204"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Glandes Endocrines"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="205"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Hématologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="206"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Oeil"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="207"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Organes génitaux féminins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="208"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Organes génitaux masculins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="209"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Os et tissus mous et myélome"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="210"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Peau"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="211"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Sein"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="212"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Système Nerveux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="214"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Voies Aéro-Digestives Supérieures (VADS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="215"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Voies urinaires"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="216"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Cancers rares"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="217"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Douleur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="218"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Métastase osseuse"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="219"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Oncogénétique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="220"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Oncogériatrie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="221"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Oncologie médicale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="222"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Préservation de la fertilité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="223"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Radiologie interventionnelle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="224"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Soins de support général"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="225"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Soins palliatifs"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="226"/>
+        <display value="Expertise des infections osteo-articulaires complexes (CRIOA, CRIOAC)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="227"/>
+        <display value="Pédopsychiatrie infanto-juvénile"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="228"/>
+        <display value="Pédopsychiatrie des adolescents et jeunes adultes"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="229"/>
+        <display value="Psychiatrie adulte"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="230"/>
+        <display value="Psychiatrie périnatale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="231"/>
+        <display value="Soins de réhabilitation psycho-sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="232"/>
+        <display value="Bilan expert"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="233"/>
+        <display value="Réadaptation des affections de l'appareil locomoteur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="234"/>
+        <display value="Réadaptation des affections du système nerveux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="235"/>
+        <display value="Réadaptation des affections cardio-vasculaires"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="236"/>
+        <display value="Réadaptation des affections respiratoires"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="237"/>
+        <display value="Réadaptation des affections endocrino-métaboliques et nutrition"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="238"/>
+        <display value="Réadaptation des affections onco-hématologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="239"/>
+        <display value="Réadaptation des brulés"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="240"/>
+        <display value="Réadaptation des affections liées aux conduites addictives"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="241"/>
+        <display value="Réadaptation des affections des personnes âgées polypathologiques, dépendantes ou à risque de dépendance"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="242"/>
+        <display value="Soins de Suite et de Réadaptation (SSR) polyvalent, reconnaissance affections onco-hématologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="243"/>
+        <display value="Réadaptation des affections néphrologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="244"/>
+        <display value="Réadaptation Post-Réanimation (SRPR)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="245"/>
+        <display value="Réadaptation des personnes en état de conscience altérée"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="246"/>
+        <display value="Réadaptation cognitivo-comportementale (UCC)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="247"/>
+        <display value="Réadaptation des déficiences visuelles"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="248"/>
+        <display value="Réadaptation des déficiences auditives"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="249"/>
+        <display value="Urgences pédiatriques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="250"/>
+        <display value="Urgences spécialisées céphalées"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="251"/>
+        <display value="Urgences spécialisées dermatologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="252"/>
+        <display value="Urgences spécialisées endocrinologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="253"/>
+        <display value="Urgences spécialisées hématologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="254"/>
+        <display value="Urgences spécialisées néphrologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="255"/>
+        <display value="Urgences spécialisées hépato-gastro-entérologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="256"/>
+        <display value="Urgences spécialisées neuro-vasculaires"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="257"/>
+        <display value="Urgences spécialisées odontologiques (dentaires)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="258"/>
+        <display value="Urgences spécialisées main"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="259"/>
+        <display value="Urgences spécialisées gynécologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="260"/>
+        <display value="Urgences spécialisées obstétricales"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="261"/>
+        <display value="Urgences spécialisées maxillo-faciales"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="262"/>
+        <display value="Urgences spécialisées stomatologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="263"/>
+        <display value="Urgences spécialisées oncologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="264"/>
+        <display value="Urgences spécialisées chirurgicales viscérales et digestives"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="265"/>
+        <display value="Urgences spécialisées infectieuses"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="266"/>
+        <display value="Urgences spécialisées urologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="267"/>
+        <display value="Urgences spécialisées neuro-chirurgicales"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="268"/>
+        <display value="Transfert inter-hospitalier (TIH SMUR)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="269"/>
+        <display value="Transfert infirmier inter-hospitalier (TIIH SMUR)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="270"/>
+        <display value="SMUR pédiatrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="271"/>
+        <display value="Evacuation sanitaire (EVASAN)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="272"/>
+        <display value="Régulation médicale libérale (CRRA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="273"/>
+        <display value="Régulation médicale hospitalière (CRRA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="274"/>
+        <display value="Régulation médicale maritime (CRRA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="275"/>
+        <display value="Régulation médicale en montagne (CRRA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="276"/>
+        <display value="Régulation médicale pédiatrique (CRRA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="277"/>
+        <display value="Régulation psychiatrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="278"/>
+        <display value="Régulation des transferts in utero"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="279"/>
+        <display value="Oncologie pédiatrique (cancérologie)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="280"/>
+        <display value="Chirurgie dermatologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="281"/>
+        <display value="Chirurgie carcinologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="282"/>
+        <display value="Périnatalité (suivi de grossesse)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="283"/>
+        <display value="Rééducation - réadaptation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="284"/>
+        <display value="Evaluation et traitement de la drépanocytose"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="285"/>
+        <display value="Soins médicaux somatiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="287"/>
+        <display value="Soins techniques infirmiers"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="288"/>
+        <display value="Soins d'hygiène médicalisés"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="289"/>
+        <display value="Suivi psychologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="290"/>
+        <display value="Réadaptation des fonctions du langage et de la communication"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="291"/>
+        <display value="Rééducation et réadaptation pour la mobilité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="292"/>
+        <display value="Réadaptation des fonctions cognitives"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="293"/>
+        <display value="Accompagnements pour les actes de la vie quotidienne (AVQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="294"/>
+        <display value="Accompagnements pour la communication"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="295"/>
+        <display value="Accompagnements pour les relations avec autrui"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="296"/>
+        <display value="Accompagnements pour prendre des décisions adaptées"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="297"/>
+        <display value="Accompagnements pour la sécurité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="298"/>
+        <display value="Accompagnements pour vivre dans un logement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="299"/>
+        <display value="Accompagnements pour accomplir les activités domestiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="300"/>
+        <display value="Accompagnements à la scolarisation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="301"/>
+        <display value="Enseignement et/ou formation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="302"/>
+        <display value="Accompagnements pour préparer sa vie professionnelle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="303"/>
+        <display value="Accompagnements à la recherche d'un emploi"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="304"/>
+        <display value="Activité professionnelle adaptée"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="305"/>
+        <display value="Accompagnements dans l'activité professionnelle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="306"/>
+        <display value="Activités visant la stimulation cognitivo-comportementale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="307"/>
+        <display value="Organisation d'activités péri-scolaires-péri-professionnelles"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="308"/>
+        <display value="Accompagnements à la parentalité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="309"/>
+        <display value="Accompagnements à la vie affective et sexuelle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="310"/>
+        <display value="Accompagnements pour l'exercice des mandats électoraux, la représentation des pairs"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="311"/>
+        <display value="Accompagnements pour la pair aidance"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="312"/>
+        <display value="Accompagnements pour créer ou maintenir le lien social et éviter l'isolement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="313"/>
+        <display value="Accompagnements à des activités sociales, culturelles, sportives et de loisirs"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="314"/>
+        <display value="Activités de bien-être"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="315"/>
+        <display value="Soins socio-esthétiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="316"/>
+        <display value="Apprentissage et accompagnements à la conduite de véhicule (voiture,...)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="317"/>
+        <display value="Informer, évaluer, accompagner et orienter pour l'ouverture des droits et l'accès aux prestations pour l'aidé et l'aidant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="318"/>
+        <display value="Apprentissage et-ou aide à la gestion du budget"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="319"/>
+        <display value="Conseils et accompagnements dans les démarches afin de mobiliser les mesures de protection adaptées"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="320"/>
+        <display value="Mettre en oeuvre les mesures de protection juridiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="322"/>
+        <display value="Prestation de restauration"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="323"/>
+        <display value="Entretien du linge par l'établissement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="324"/>
+        <display value="Organisation du transport de la personne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="325"/>
+        <display value="Soutien et aide aux aidants"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="326"/>
+        <display value="Formation des aidants"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="330"/>
+        <display value="Promouvoir et sensibiliser aux activités physiques adaptées"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="332"/>
+        <display value="Préparation et reconstitution centralisée des médicaments cytotoxiques (UPC, URC)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="333"/>
+        <display value="Soins de longue durée (SLD)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="334"/>
+        <display value="Activité de prévention"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="335"/>
+        <display value="Coordination de parcours complexes"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="336"/>
+        <display value="Education thérapeutique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="337"/>
+        <display value="Régulation médicale néonatale (CRRA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="338"/>
+        <display value="Neuroradiologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="339"/>
+        <display value="Kinésithérapie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="340"/>
+        <display value="Coordination plan de soins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="341"/>
+        <display value="Coordination plan d'aide"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="342"/>
+        <display value="Accompagnement vie familiale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="343"/>
+        <display value="Exploration fonctionnelle respiratoire (EFR) pléthysmographie, gaz du sang"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="344"/>
+        <display value="Exploration fonctionnelle cardiaque"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="345"/>
+        <display value="Exploration fonctionnelle vasculaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="346"/>
+        <display value="Exploration fonctionnelle neurologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="347"/>
+        <display value="Exploration fonctionnelle ORL"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="348"/>
+        <display value="Exploration fonctionnelle digestive"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="349"/>
+        <display value="Exploration fonctionnelle urologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="350"/>
+        <display value="Exploration fonctionnelle ophtalmologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="351"/>
+        <display value="Soins intensifs médico-chirurgicaux (polyvalent)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="352"/>
+        <display value="Soins intensifs chirurgicaux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="353"/>
+        <display value="Soins intensifs médicaux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="354"/>
+        <display value="Soins intensifs spécialisés cardiologie (USIC)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="355"/>
+        <display value="Soins intensifs spécialisés en psychiatrie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="356"/>
+        <display value="Soins intensifs spécialisés neurologie vasculaire (USINV)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="357"/>
+        <display value="Soins intensifs spécialisés pneumologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="359"/>
+        <display value="Soins intensifs spécialisés brûlés"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="360"/>
+        <display value="Soins intensifs spécialisés cancérologie oncologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="361"/>
+        <display value="Soins intensifs spécialisés hématologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="362"/>
+        <display value="Soins intensifs spécialisés chirurgie cardiaque et gros vaisseaux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="363"/>
+        <display value="Soins intensifs spécialisés chirurgie thoracique et pulmonaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="364"/>
+        <display value="Soins intensifs spécialisés chirurgie urologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="365"/>
+        <display value="Soins intensifs spécialisés chirurgie viscérale et digestive"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="366"/>
+        <display value="Soins intensifs spécialisés gynécologie obstétrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="367"/>
+        <display value="Soins intensifs spécialisés-gastro-entérologie (USIG)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="368"/>
+        <display value="Soins intensifs spécialisés maladies infectieuses, parasitaires et tropicales"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="369"/>
+        <display value="Soins intensifs spécialisés néonatalogique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="370"/>
+        <display value="Soins intensifs spécialisés pédiatrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="371"/>
+        <display value="Soins intensifs spécialisés néphrologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="372"/>
+        <display value="Soins intensifs spécialisés neurochirurgicaux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="373"/>
+        <display value="Surveillance continue médico-chirurgicale (polyvalente)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="374"/>
+        <display value="Surveillance continue chirurgicale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="375"/>
+        <display value="Surveillance continue médicale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="376"/>
+        <display value="Surveillance continue spécialisée cardiologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="377"/>
+        <display value="Surveillance continue spécialisée neurochirurgie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="378"/>
+        <display value="Surveillance continue spécialisée pneumologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="379"/>
+        <display value="Surveillance continue spécialisée brûlés"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="380"/>
+        <display value="Surveillance continue spécialisée cancérologie oncologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="381"/>
+        <display value="Surveillance continue spécialisée chirurgie cardiaque et gros vaisseaux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="382"/>
+        <display value="Surveillance continue spécialisée chirurgie thoracique et pulmonaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="383"/>
+        <display value="Surveillance continue spécialisée chirurgie urologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="384"/>
+        <display value="Surveillance continue spécialisée chirurgie viscérale et digestive"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="385"/>
+        <display value="Surveillance continue spécialisée gynécologie obstétrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="386"/>
+        <display value="Surveillance continue spécialisée hépato-gastro-entérologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="387"/>
+        <display value="Surveillance continue spécialisée néphrologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="388"/>
+        <display value="Surveillance continue spécialisée neurologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="389"/>
+        <display value="Surveillance continue spécialisée chirurgie maxillo-faciale et stomatologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="390"/>
+        <display value="Surveillance continue spécialisée chirurgie orthopédique et traumatologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="391"/>
+        <display value="Surveillance continue spécialisée pédiatrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="392"/>
+        <display value="Hébergement temporaire d'urgence"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="393"/>
+        <display value="Hébergement temporaire en sortie d'hospitalisation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="394"/>
+        <display value="Relayage (type baluchonnage)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="395"/>
+        <display value="Préparation hospitalière"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="396"/>
+        <display value="Préparation pour essais cliniques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="397"/>
+        <display value="Pharmacie à Usage Intérieur (PUI)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="398"/>
+        <display value="Stérilisation des dispositifs médicaux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="399"/>
+        <display value="Préparation des médicaments radiopharmaceutiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="400"/>
+        <display value="Vente de médicaments au public (rétrocession hospitalière)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="401"/>
+        <display value="Evaluation du logement et préconisation d'adaptation pour le maintien à domicile"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="402"/>
+        <display value="Accompagnement à l'autonomie pour la mobilité et les déplacements"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="403"/>
+        <display value="Apprentissage de l'autonomie pour la vie courante"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="404"/>
+        <display value="Addictologie avec substance(s)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="408"/>
+        <display value="Chambre mortuaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="409"/>
+        <display value="Oncologie endocrinienne et thyroïdienne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="410"/>
+        <display value="Oncologie os et tissus mous"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="411"/>
+        <display value="Oncologie métastases osseuses"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="412"/>
+        <display value="Onco-génétique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="413"/>
+        <display value="Exploration et suivi complexe en oncologie et hématologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="414"/>
+        <display value="Soins de support en oncologie et hématologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="416"/>
+        <display value="Soins Prolongés Complexes (USPC)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="417"/>
+        <display value="Kinésithérapie Spécialisée Neurologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="418"/>
+        <display value="Kinésithérapie Spécialisée Orthopédie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="419"/>
+        <display value="Kinésithérapie Spécialisée Respiratoire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="420"/>
+        <display value="Kinésithérapie Spécialisée Cardiologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="421"/>
+        <display value="Kinésithérapie Spécialisée Périnéologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="422"/>
+        <display value="Kinésithérapie Spécialisée Vasculaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="423"/>
+        <display value="Kinésithérapie Spécialisée ORL"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="424"/>
+        <display value="Kinésithérapie Spécialisée Rhumatologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="425"/>
+        <display value="Kinésithérapie Spécialisée Traumatologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="426"/>
+        <display value="Kinésithérapie Spécialisée Dermatologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="427"/>
+        <display value="Kinésithérapie Spécialisée du sport"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="428"/>
+        <display value="Kinésithérapie Spécialisée Gériatrie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="429"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Oncologie pédiatrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="431"/>
+        <display value="Endoscopie broncho-pulmonaire diagnostic"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="432"/>
+        <display value="Endoscopie broncho-pulmonaire interventionnelle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="433"/>
+        <display value="Médecine Transfusionnelle et hémovigilance"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="434"/>
+        <display value="Elaboration du plan d'aide"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="435"/>
+        <display value="Expertise médicale (évaluation de préjudice)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="436"/>
+        <display value="Chirurgie du rachis"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="437"/>
+        <display value="Médecine générale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="438"/>
+        <display value="Accompagnement dans le cadre d'un dispositif d'emploi accompagné (DEA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="439"/>
+        <display value="Gynécologie endocrinienne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="440"/>
+        <display value="Chirurgie intracrânienne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="441"/>
+        <display value="Médecine bucco-dentaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="442"/>
+        <display value="Chirurgie dentaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="443"/>
+        <display value="Pédodontie ou odontologie pédiatrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="444"/>
+        <display value="Endodontie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="445"/>
+        <display value="Biologie moléculaire sur prélèvement Anapath"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="446"/>
+        <display value="Cytopathologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="447"/>
+        <display value="Histopathologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="448"/>
+        <display value="Dépistage et diagnostic liés à un trouble ou retard du développement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="449"/>
+        <display value="Appui et coopération auprès des acteurs de l'enseignement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="450"/>
+        <display value="Accompagnement à la réduction des risques en addictologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="451"/>
+        <display value="Exploration et prise en charge des troubles du sommeil"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="452"/>
+        <display value="Exploration des troubles psycho-comportementaux et cognitifs"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="453"/>
+        <display value="Médecine de l'adolescent"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="454"/>
+        <display value="Radiologie polyvalente générale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="455"/>
+        <display value="Médecine thermale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="457"/>
+        <display value="Réunion de Concertation Pluridisciplinaire (RCP) Rhumatismes Inflammatoires Chroniques (RIC), maladies auto-immunes et biothérapies en rhumatologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="465"/>
+        <display value="Réadaptation des fonctions sexuelles et de la reproduction"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="466"/>
+        <display value="Chirurgie des varices"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="467"/>
+        <display value="Chirurgie orthopédique et traumatologique spécialisée main"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="468"/>
+        <display value="Chirurgie orthopédique et traumatologique spécialisée membres inférieurs"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="469"/>
+        <display value="Chirurgie orthopédique et traumatologique spécialisée membres supérieurs (sauf la main)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="470"/>
+        <display value="Chirurgie orthopédique et traumatologique spécialisée tumeur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="471"/>
+        <display value="Orientation vers un médecin traitant acceptant de nouveaux patients"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="472"/>
+        <display value="Veille et prévention de la récidive suicidaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="473"/>
+        <display value="Chirurgie carcinologique des tumeurs ORL et des voies aéro-digestives supérieures"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="474"/>
+        <display value="Chirurgie carcinologique digestive et viscérale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="475"/>
+        <display value="Coordination de soins non-programmés"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="476"/>
+        <display value="Exploration fonctionnelle de l'audition"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="477"/>
+        <display value="Exploration fonctionnelle de la voix et de la déglutition"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="478"/>
+        <display value="Exploration fonctionnelle des vertiges (audio vestibulaire)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="479"/>
+        <display value="Explorations fonctionnelles endocrinologie, diabétologie, métabolisme et nutrition"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="480"/>
+        <display value="Médecine du sommeil"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="481"/>
+        <display value="Médecine générale à orientation Allergologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="482"/>
+        <display value="Médecine générale à orientation Andrologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="483"/>
+        <display value="Médecine générale à orientation Diabétologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="484"/>
+        <display value="Médecine générale à orientation Gériatrie, Gérontologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="485"/>
+        <display value="Médecine générale à orientation Gynécologie médicale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="486"/>
+        <display value="Médecine générale à orientation Maladies infectieuses, parasitaires et tropicales"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="487"/>
+        <display value="Médecine générale à orientation Médecine pédiatrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="488"/>
+        <display value="Médecine générale à orientation Médecine vasculaire (Angiologie, Phlébologie)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="489"/>
+        <display value="Médecine générale à orientation Oncogériatrie (cancérologie)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="490"/>
+        <display value="Médecine générale à orientation Pathologies osseuses médicales"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="491"/>
+        <display value="Médecine gériatrique aiguë"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="492"/>
+        <display value="Neuroradiologie interventionnelle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="493"/>
+        <display value="Psychomotricité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="494"/>
+        <display value="Radiologie abdominale et digestive"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="495"/>
+        <display value="Radiologie cardio-vasculaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="496"/>
+        <display value="Radiologie gynécologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="497"/>
+        <display value="Radiologie interventionnelle musculosquelettique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="498"/>
+        <display value="Radiologie interventionnelle oncologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="499"/>
+        <display value="Radiologie interventionnelle pédiatrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="500"/>
+        <display value="Radiologie interventionnelle vasculaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="501"/>
+        <display value="Radiologie musculo-squelettique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="502"/>
+        <display value="Radiologie ORL et maxillo-faciale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="503"/>
+        <display value="Radiologie prénatale et pédiatrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="504"/>
+        <display value="Radiologie sénologique (dont mammographie)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="505"/>
+        <display value="Radiologie thoracique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="506"/>
+        <display value="Transplantation d'organe"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="507"/>
+        <display value="Uro-Radiologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="508"/>
+        <display value="Exploration fonctionnelle de l'exercice et du sport"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="509"/>
+        <display value="Traumatologie de l'activité physique et du sport"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="510"/>
+        <display value="Échographie gynécologique et obstétricale (dont échographie de grossesse)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="511"/>
+        <display value="Accueil et hébergement spécialisé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="512"/>
+        <display value="Accueil et orientation des victimes de violences sexuelles"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="513"/>
+        <display value="Réadaptation locomotrice des patients amputés"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="514"/>
+        <display value="Réadaptation PREcoce Post-Aiguë Cardiologique (PREPAC)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="515"/>
+        <display value="Réadaptation PREcoce Post-Aiguë Respiratoire (PREPAR)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="516"/>
+        <display value="Réadaptation neuro-orthopédique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="517"/>
+        <display value="Réadaptation PREcoce Post-Aiguë Neurologique (PREPAN)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="518"/>
+        <display value="Réadaptation des troubles cognitifs et comportementaux des patients cérébro-lésés"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="519"/>
+        <display value="Réadaptation des lésions médullaires"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="520"/>
+        <display value="Réadaptation de l'obésité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="521"/>
+        <display value="Réadaptation des troubles cognitifs sévères liés à une conduite addictive"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="522"/>
+        <display value="Réadaptation pédiatrique spécialisée polyhandicap"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="523"/>
+        <display value="Réadaptation des affections oncologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="524"/>
+        <display value="Réadaptation spécialisée troubles du langage et des apprentissages"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.12"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

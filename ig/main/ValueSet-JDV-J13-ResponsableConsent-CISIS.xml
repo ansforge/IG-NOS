@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J13-ResponsableConsent-CISIS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>MTH</td><td>Mère</td></tr><tr><td>FTH</td><td>Père</td></tr><tr><td>STPMTH</td><td>Belle-mère - épouse du père ou de la mère</td></tr><tr><td>STPFTH</td><td>Beau-père - époux du père ou de la mère</td></tr><tr><td>GRMTH</td><td>Grand-mère</td></tr><tr><td>GRFTH</td><td>Grand-père</td></tr><tr><td>GGRMTH</td><td>Arrière-grand-mère</td></tr><tr><td>GGRFTH</td><td>Arrière-grand-père</td></tr><tr><td>DAU</td><td>Fille biologique</td></tr><tr><td>SON</td><td>Fils biologique</td></tr><tr><td>BRO</td><td>Frère</td></tr><tr><td>SIS</td><td>Soeur</td></tr><tr><td>GRNDDAU</td><td>Petite-fille</td></tr><tr><td>GRNDSO</td><td>Petit-fils</td></tr><tr><td>UNCLE</td><td>Oncle</td></tr><tr><td>AUNT</td><td>Tante</td></tr><tr><td>SPS</td><td>Epoux ou épouse</td></tr><tr><td>DOMPART</td><td>Concubin(e) ou partenaire PACS</td></tr><tr><td>EXT</td><td>Autre membre de la famille sans lien génétique direct</td></tr><tr><td>RESPRSN</td><td>Responsable légal non membre de la famille</td></tr><tr><td>DAUC</td><td>Fille</td></tr><tr><td>SONC</td><td>Fils</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R219-AutreResponsableConsent/FHIR/TRE-R219-AutreResponsableConsent</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>PATIENT</td><td>Patient</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2016-09-01T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J13-ResponsableConsent-CISIS/FHIR/JDV-J13-ResponsableConsent-CISIS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.23"/>
+  </identifier>
+  <version value="1.1.0"/>
+  <name value="JDV_J13-ResponsableConsent-CISIS"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Responsable consentement - CI-SIS"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode"/>
+      <concept>
+        <code value="MTH"/>
+        <display value="Mère"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FTH"/>
+        <display value="Père"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="STPMTH"/>
+        <display value="Belle-mère - épouse du père ou de la mère"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="STPFTH"/>
+        <display value="Beau-père - époux du père ou de la mère"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GRMTH"/>
+        <display value="Grand-mère"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GRFTH"/>
+        <display value="Grand-père"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GGRMTH"/>
+        <display value="Arrière-grand-mère"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GGRFTH"/>
+        <display value="Arrière-grand-père"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DAU"/>
+        <display value="Fille biologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SON"/>
+        <display value="Fils biologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="BRO"/>
+        <display value="Frère"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SIS"/>
+        <display value="Soeur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GRNDDAU"/>
+        <display value="Petite-fille"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GRNDSO"/>
+        <display value="Petit-fils"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="UNCLE"/>
+        <display value="Oncle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="AUNT"/>
+        <display value="Tante"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SPS"/>
+        <display value="Epoux ou épouse"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DOMPART"/>
+        <display value="Concubin(e) ou partenaire PACS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="EXT"/>
+        <display value="Autre membre de la famille sans lien génétique direct"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="RESPRSN"/>
+        <display value="Responsable légal non membre de la famille"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DAUC"/>
+        <display value="Fille"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SONC"/>
+        <display value="Fils"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R219-AutreResponsableConsent/FHIR/TRE-R219-AutreResponsableConsent"/>
+      <concept>
+        <code value="PATIENT"/>
+        <display value="Patient"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.320"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

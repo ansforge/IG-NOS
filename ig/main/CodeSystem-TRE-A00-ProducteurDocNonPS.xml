@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-A00-ProducteurDocNonPS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">ALIM_AM<a name="TRE-A00-ProducteurDocNonPS-ALIM_AM"> </a></td><td>Alimentation auto à partir du SI de l'Ass Maladie</td></tr><tr><td style="white-space:nowrap">DISPOSITIF<a name="TRE-A00-ProducteurDocNonPS-DISPOSITIF"> </a></td><td>Dispositif médical</td></tr><tr><td style="white-space:nowrap">EXP_PATIENT<a name="TRE-A00-ProducteurDocNonPS-EXP_PATIENT"> </a></td><td>Expression personnelle du patient</td></tr><tr><td style="white-space:nowrap">SECRETARIAT_MEDICAL<a name="TRE-A00-ProducteurDocNonPS-SECRETARIAT_MEDICAL"> </a></td><td>Secrétariat médical</td></tr><tr><td style="white-space:nowrap">AUTOMATE<a name="TRE-A00-ProducteurDocNonPS-AUTOMATE"> </a></td><td>Automate</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2010-11-04T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.4.6"/>
+  </identifier>
+  <version value="1.1.0"/>
+  <name value="TRE_A00-ProducteurDocNonPS"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Producteur de document non PS"/>
+  <content value="complete"/>
+  <concept>
+    <code value="ALIM_AM"/>
+    <display value="Alimentation auto à partir du SI de l'Ass Maladie"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Alim auto à partir du SI-AM"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Alimentation automatique à partir du Système d'Information de l'Assurance Maladie"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="DISPOSITIF"/>
+    <display value="Dispositif médical"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Dispositif médical"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Dispositif médical"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2010-11-04T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2010-11-04T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="EXP_PATIENT"/>
+    <display value="Expression personnelle du patient"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Expres perso patient"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Expression personnelle du patient"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2010-11-04T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2010-11-04T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="SECRETARIAT_MEDICAL"/>
+    <display value="Secrétariat médical"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Secrétariat médical"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Secrétariat médical"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2010-11-04T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2010-11-04T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="AUTOMATE"/>
+    <display value="Automate"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Automate"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Automate"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-04-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

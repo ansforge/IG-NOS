@@ -1,0 +1,1280 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J18-EquipementSpecifique-ROR> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J18-EquipementSpecifique-ROR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>003</td><td>Angioscope</td></tr><tr><td>005</td><td>Autotransfuseur</td></tr><tr><td>009</td><td>Chambre à pression négative</td></tr><tr><td>010</td><td>Chambre à pression positive (chambre stérile)</td></tr><tr><td>017</td><td>Coronaroscanner</td></tr><tr><td>021</td><td>Echographe transportable</td></tr><tr><td>030</td><td>Echographe 3D</td></tr><tr><td>040</td><td>Ergocycle</td></tr><tr><td>041</td><td>Ergorameur</td></tr><tr><td>047</td><td>Holter tensionnel</td></tr><tr><td>051</td><td>Impédance masse graisseuse</td></tr><tr><td>052</td><td>IRM obésité diamètre de 70 cm - bariatrique</td></tr><tr><td>054</td><td>IRM corps entier</td></tr><tr><td>056</td><td>Laboratoire du sommeil (polysomnographe)</td></tr><tr><td>064</td><td>Planche à massage cardiaque automatique</td></tr><tr><td>065</td><td>Polysomnographe portatif</td></tr><tr><td>068</td><td>Réaction en chaîne par polymérase (PCR)</td></tr><tr><td>069</td><td>Robot opératoire pour chirurgie robot assistée</td></tr><tr><td>071</td><td>Spectromètre de masse</td></tr><tr><td>072</td><td>Table de bloc opératoire obésité (poids supérieur à 250 kg) - bariatrique</td></tr><tr><td>083</td><td>Table de radiologie obésité (poids entre 150 et 250 kg) - bariatrique</td></tr><tr><td>084</td><td>Table de radiologie obésité (poids supérieur à 250 kg) - bariatrique</td></tr><tr><td>085</td><td>Scanner (TDM) obésité diamètre de 80 cm - bariatrique</td></tr><tr><td>086</td><td>Scanner (TDM) obésité champ ouvert - bariatrique</td></tr><tr><td>087</td><td>IRM à champ ouvert</td></tr><tr><td>088</td><td>Table de bloc opératoire obésité (poids entre 150 et 250 kg) - bariatrique</td></tr><tr><td>089</td><td>Lit d'hospitalisation obésité (poids entre 250 et 350 kg) - bariatrique</td></tr><tr><td>090</td><td>Lit d'hospitalisation obésité (poids entre 350 et 450 kg) - bariatrique</td></tr><tr><td>091</td><td>Brancard obésité (poids entre 180 et 250 kg) - bariatrique</td></tr><tr><td>092</td><td>Brancard obésité (poids entre 250 et 350 kg) - bariatrique</td></tr><tr><td>093</td><td>ECMO transportable</td></tr><tr><td>094</td><td>Mammographe</td></tr><tr><td>095</td><td>Laboratoire microbiologie P3</td></tr><tr><td>096</td><td>Laboratoire microbiologie P4</td></tr><tr><td>097</td><td>Chambre d'isolement et de contention</td></tr><tr><td>098</td><td>Bassin thérapeutique pour balnéothérapie (&lt;20m2)</td></tr><tr><td>099</td><td>Piscine pour balnéothérapie (&gt;20m2)</td></tr><tr><td>100</td><td>Salle aménagée pour la thérapie systémique</td></tr><tr><td>101</td><td>Salle de stimulation multi-sensorielle</td></tr><tr><td>102</td><td>Appareil d'isocinétisme</td></tr><tr><td>103</td><td>Assistant robotisé à la marche</td></tr><tr><td>104</td><td>Assistant robotisé des membres supérieurs et de la préhension</td></tr><tr><td>106</td><td>Laboratoire d'analyse tridimensionnelle du mouvement, de la marche</td></tr><tr><td>107</td><td>Salle de réanimation avec scopes, défibrillateur, matériel d'intubation et de ventilation assistée</td></tr><tr><td>108</td><td>Hotte à flux laminaire</td></tr><tr><td>109</td><td>Equipement de rééducation pour obésité massive</td></tr><tr><td>110</td><td>Studio pré-greffe et post-greffe</td></tr><tr><td>111</td><td>Douche filiforme pour brûlés</td></tr><tr><td>112</td><td>Equipement pour monitorage par télémétrie</td></tr><tr><td>113</td><td>Prises d'oxygène en salle de rééducation</td></tr><tr><td>114</td><td>Locaux adaptés à la désorientation temporo-spatiale</td></tr><tr><td>115</td><td>Prises d'oxygène dans les chambres</td></tr><tr><td>116</td><td>Appartement pour mise en situation d'autonomie</td></tr><tr><td>118</td><td>Monitoring cardiaque portatif</td></tr><tr><td>119</td><td>Plateau technique neuropsycho cognitif</td></tr><tr><td>120</td><td>Plateau de simulation de conduite automobile</td></tr><tr><td>121</td><td>Véhicules adaptés à la conduite en situation de handicap</td></tr><tr><td>122</td><td>Mur d'escalade</td></tr><tr><td>123</td><td>Chambre domotisée</td></tr><tr><td>124</td><td>Atelier de confection de prothèses</td></tr><tr><td>125</td><td>Gymnase</td></tr><tr><td>126</td><td>Cuisine thérapeutique et éducative</td></tr><tr><td>127</td><td>Système de traction halo-crânienne</td></tr><tr><td>128</td><td>Plateforme multitest équilibre</td></tr><tr><td>129</td><td>Plateau d'analyse informatisée du rachis</td></tr><tr><td>130</td><td>Chambre et locaux sécurisés permettant la prise en charge des personnes à risque suicidaire</td></tr><tr><td>131</td><td>Module fixe de décontamination</td></tr><tr><td>132</td><td>Module transportable de décontamination</td></tr><tr><td>134</td><td>Appareil de biologie délocalisé</td></tr><tr><td>135</td><td>Incubateur de transport</td></tr><tr><td>136</td><td>Respirateur néonatal et pédiatrique de transport</td></tr><tr><td>137</td><td>Chambre carcérale</td></tr><tr><td>138</td><td>PSM1 (Poste Sanitaire Mobile niveau 1)</td></tr><tr><td>139</td><td>PSM2 (Poste Sanitaire Mobile niveau 2)</td></tr><tr><td>140</td><td>PSM3 (Poste Sanitaire Mobile niveau 3)</td></tr><tr><td>141</td><td>Poste médical avancé (PMA)</td></tr><tr><td>142</td><td>Appareil de mesure de la glycémie capillaire</td></tr><tr><td>144</td><td>Système EOS</td></tr><tr><td>145</td><td>Salle physiologique (salle nature accouchement)</td></tr><tr><td>146</td><td>Cabine d'audiologie</td></tr><tr><td>147</td><td>Espace de calme-retrait, d'apaisement</td></tr><tr><td>148</td><td>Jardin pédagogique et-ou thérapeutique</td></tr><tr><td>149</td><td>Ferme pédagogique et-ou thérapeutique</td></tr><tr><td>150</td><td>Plateau ou salle de rééducation</td></tr><tr><td>152</td><td>Equipement de géolocalisation des personnes vulnérables</td></tr><tr><td>153</td><td>Equipement de télémédecine (chariot, cabine)</td></tr><tr><td>154</td><td>Chambre à double flux</td></tr><tr><td>155</td><td>Rails de transfert</td></tr><tr><td>156</td><td>Moniteur multiparamétrique</td></tr><tr><td>157</td><td>Systèmes corporels d'alerte sans fil</td></tr><tr><td>158</td><td>Fauteuil rotatoire</td></tr><tr><td>159</td><td>Plateforme verticale subjective</td></tr><tr><td>160</td><td>Appartement domotisé pour mise en situation d'autonomie</td></tr><tr><td>161</td><td>Caisson hyperbare occupation simple</td></tr><tr><td>162</td><td>Caisson hyperbare occupation multiple patient intubé</td></tr><tr><td>163</td><td>Caisson hyperbare occupation multiple patient non intubé</td></tr><tr><td>164</td><td>Cabine de cryothérapie</td></tr><tr><td>165</td><td>PCA ou autre injecteur automatique d'antalgiques</td></tr><tr><td>166</td><td>PCR multiplex (Film array)</td></tr><tr><td>167</td><td>Séquenceurs haut débit (NGS)</td></tr><tr><td>168</td><td>Cytomètre de flux</td></tr><tr><td>169</td><td>Atelier de confection d'orthèse</td></tr><tr><td>170</td><td>Atelier de confection aide technique</td></tr><tr><td>173</td><td>SNP Array</td></tr><tr><td>174</td><td>CGH Array</td></tr><tr><td>175</td><td>Spectromètre de masse haute résolution</td></tr><tr><td>176</td><td>Chromatographe haute performance en phase liquide</td></tr><tr><td>177</td><td>Chromatographe en phase gazeuse</td></tr><tr><td>178</td><td>Agrégomètre optique</td></tr><tr><td>179</td><td>Véhicules adaptés au transport de personnes à mobilité réduite</td></tr><tr><td>180</td><td>Pupillomètre</td></tr><tr><td>181</td><td>Accélérateur réchauffeur de sang</td></tr><tr><td>183</td><td>Equipement d'oxygénothérapie de déambulation</td></tr><tr><td>184</td><td>Dispositif de réadaptation à la marche par allègement du poids du corps (anti-gravité)</td></tr><tr><td>185</td><td>PSM pédiatriques (Poste Sanitaire Mobile)</td></tr><tr><td>186</td><td>Lit fluidisé</td></tr><tr><td>187</td><td>Table réfrigérée</td></tr><tr><td>188</td><td>Case réfrigérée</td></tr><tr><td>189</td><td>Table de coronarographie obésité (poids entre 150 et 250 kg) - bariatrique</td></tr><tr><td>190</td><td>Table de coronarographie obésité (poids entre 250 et 350 kg) - bariatrique</td></tr><tr><td>191</td><td>Table de coronarographie obésité (poids entre 350 et 450 kg) - bariatrique</td></tr><tr><td>192</td><td>Arthromoteurs (genoux, épaules, coudes)</td></tr><tr><td>193</td><td>Appareils de renforcement musculaire</td></tr><tr><td>194</td><td>Appareil d'ondes de choc pour traitement non invasif</td></tr><tr><td>195</td><td>Appareil de massage par vacuo-aspiration</td></tr><tr><td>196</td><td>Absorptiomètre obésité 70-80 cm (densitomètre bariatrique)</td></tr><tr><td>197</td><td>Fauteuil obésité (poids entre 250 et 350 kg) bariatrique</td></tr><tr><td>198</td><td>Holter tensionnel bariatrique</td></tr><tr><td>199</td><td>Appareil d'imagerie volumétrique par faisceau conique (CBCT)</td></tr><tr><td>200</td><td>Fauteuil dentaire adapté au handicap moteur</td></tr><tr><td>201</td><td>Laser rétinien</td></tr><tr><td>202</td><td>Laser Yag ophtalmologique</td></tr><tr><td>203</td><td>Atelier intégré d'appareillage</td></tr><tr><td>204</td><td>Imagerie par fluorescence</td></tr><tr><td>205</td><td>Ultrason de haute intensité (HIFU)</td></tr><tr><td>206</td><td>Dispositif mobile de traitement d'air</td></tr><tr><td>207</td><td>Défibrillateur semi-automatique</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.4.6" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J18-EquipementSpecifique-ROR"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2022-10-28T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Equipement spécifique - ROR"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "003" ] ;
+         fhir:display [ fhir:v "Angioscope" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "005" ] ;
+         fhir:display [ fhir:v "Autotransfuseur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "009" ] ;
+         fhir:display [ fhir:v "Chambre à pression négative" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "010" ] ;
+         fhir:display [ fhir:v "Chambre à pression positive (chambre stérile)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "017" ] ;
+         fhir:display [ fhir:v "Coronaroscanner" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "021" ] ;
+         fhir:display [ fhir:v "Echographe transportable" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "030" ] ;
+         fhir:display [ fhir:v "Echographe 3D" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "040" ] ;
+         fhir:display [ fhir:v "Ergocycle" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "041" ] ;
+         fhir:display [ fhir:v "Ergorameur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "047" ] ;
+         fhir:display [ fhir:v "Holter tensionnel" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "051" ] ;
+         fhir:display [ fhir:v "Impédance masse graisseuse" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "052" ] ;
+         fhir:display [ fhir:v "IRM obésité diamètre de 70 cm - bariatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "054" ] ;
+         fhir:display [ fhir:v "IRM corps entier" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "056" ] ;
+         fhir:display [ fhir:v "Laboratoire du sommeil (polysomnographe)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "064" ] ;
+         fhir:display [ fhir:v "Planche à massage cardiaque automatique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "065" ] ;
+         fhir:display [ fhir:v "Polysomnographe portatif" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "068" ] ;
+         fhir:display [ fhir:v "Réaction en chaîne par polymérase (PCR)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "069" ] ;
+         fhir:display [ fhir:v "Robot opératoire pour chirurgie robot assistée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "071" ] ;
+         fhir:display [ fhir:v "Spectromètre de masse" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "072" ] ;
+         fhir:display [ fhir:v "Table de bloc opératoire obésité (poids supérieur à 250 kg) - bariatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "083" ] ;
+         fhir:display [ fhir:v "Table de radiologie obésité (poids entre 150 et 250 kg) - bariatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "084" ] ;
+         fhir:display [ fhir:v "Table de radiologie obésité (poids supérieur à 250 kg) - bariatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "085" ] ;
+         fhir:display [ fhir:v "Scanner (TDM) obésité diamètre de 80 cm - bariatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "086" ] ;
+         fhir:display [ fhir:v "Scanner (TDM) obésité champ ouvert - bariatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "087" ] ;
+         fhir:display [ fhir:v "IRM à champ ouvert" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "088" ] ;
+         fhir:display [ fhir:v "Table de bloc opératoire obésité (poids entre 150 et 250 kg) - bariatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "089" ] ;
+         fhir:display [ fhir:v "Lit d'hospitalisation obésité (poids entre 250 et 350 kg) - bariatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "090" ] ;
+         fhir:display [ fhir:v "Lit d'hospitalisation obésité (poids entre 350 et 450 kg) - bariatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "091" ] ;
+         fhir:display [ fhir:v "Brancard obésité (poids entre 180 et 250 kg) - bariatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "092" ] ;
+         fhir:display [ fhir:v "Brancard obésité (poids entre 250 et 350 kg) - bariatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "093" ] ;
+         fhir:display [ fhir:v "ECMO transportable" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "094" ] ;
+         fhir:display [ fhir:v "Mammographe" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "095" ] ;
+         fhir:display [ fhir:v "Laboratoire microbiologie P3" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "096" ] ;
+         fhir:display [ fhir:v "Laboratoire microbiologie P4" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "097" ] ;
+         fhir:display [ fhir:v "Chambre d'isolement et de contention" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "098" ] ;
+         fhir:display [ fhir:v "Bassin thérapeutique pour balnéothérapie (<20m2)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "099" ] ;
+         fhir:display [ fhir:v "Piscine pour balnéothérapie (>20m2)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "100" ] ;
+         fhir:display [ fhir:v "Salle aménagée pour la thérapie systémique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "101" ] ;
+         fhir:display [ fhir:v "Salle de stimulation multi-sensorielle" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "102" ] ;
+         fhir:display [ fhir:v "Appareil d'isocinétisme" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "103" ] ;
+         fhir:display [ fhir:v "Assistant robotisé à la marche" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "104" ] ;
+         fhir:display [ fhir:v "Assistant robotisé des membres supérieurs et de la préhension" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "106" ] ;
+         fhir:display [ fhir:v "Laboratoire d'analyse tridimensionnelle du mouvement, de la marche" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "107" ] ;
+         fhir:display [ fhir:v "Salle de réanimation avec scopes, défibrillateur, matériel d'intubation et de ventilation assistée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "108" ] ;
+         fhir:display [ fhir:v "Hotte à flux laminaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "109" ] ;
+         fhir:display [ fhir:v "Equipement de rééducation pour obésité massive" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "110" ] ;
+         fhir:display [ fhir:v "Studio pré-greffe et post-greffe" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "111" ] ;
+         fhir:display [ fhir:v "Douche filiforme pour brûlés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "112" ] ;
+         fhir:display [ fhir:v "Equipement pour monitorage par télémétrie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "113" ] ;
+         fhir:display [ fhir:v "Prises d'oxygène en salle de rééducation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "114" ] ;
+         fhir:display [ fhir:v "Locaux adaptés à la désorientation temporo-spatiale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "115" ] ;
+         fhir:display [ fhir:v "Prises d'oxygène dans les chambres" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "116" ] ;
+         fhir:display [ fhir:v "Appartement pour mise en situation d'autonomie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "118" ] ;
+         fhir:display [ fhir:v "Monitoring cardiaque portatif" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "119" ] ;
+         fhir:display [ fhir:v "Plateau technique neuropsycho cognitif" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "120" ] ;
+         fhir:display [ fhir:v "Plateau de simulation de conduite automobile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "121" ] ;
+         fhir:display [ fhir:v "Véhicules adaptés à la conduite en situation de handicap" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "122" ] ;
+         fhir:display [ fhir:v "Mur d'escalade" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "123" ] ;
+         fhir:display [ fhir:v "Chambre domotisée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "124" ] ;
+         fhir:display [ fhir:v "Atelier de confection de prothèses" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "125" ] ;
+         fhir:display [ fhir:v "Gymnase" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "126" ] ;
+         fhir:display [ fhir:v "Cuisine thérapeutique et éducative" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "127" ] ;
+         fhir:display [ fhir:v "Système de traction halo-crânienne" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "128" ] ;
+         fhir:display [ fhir:v "Plateforme multitest équilibre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "129" ] ;
+         fhir:display [ fhir:v "Plateau d'analyse informatisée du rachis" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "130" ] ;
+         fhir:display [ fhir:v "Chambre et locaux sécurisés permettant la prise en charge des personnes à risque suicidaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "131" ] ;
+         fhir:display [ fhir:v "Module fixe de décontamination" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "132" ] ;
+         fhir:display [ fhir:v "Module transportable de décontamination" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "134" ] ;
+         fhir:display [ fhir:v "Appareil de biologie délocalisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "135" ] ;
+         fhir:display [ fhir:v "Incubateur de transport" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "136" ] ;
+         fhir:display [ fhir:v "Respirateur néonatal et pédiatrique de transport" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "137" ] ;
+         fhir:display [ fhir:v "Chambre carcérale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "138" ] ;
+         fhir:display [ fhir:v "PSM1 (Poste Sanitaire Mobile niveau 1)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "139" ] ;
+         fhir:display [ fhir:v "PSM2 (Poste Sanitaire Mobile niveau 2)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "140" ] ;
+         fhir:display [ fhir:v "PSM3 (Poste Sanitaire Mobile niveau 3)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "141" ] ;
+         fhir:display [ fhir:v "Poste médical avancé (PMA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "142" ] ;
+         fhir:display [ fhir:v "Appareil de mesure de la glycémie capillaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "144" ] ;
+         fhir:display [ fhir:v "Système EOS" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "145" ] ;
+         fhir:display [ fhir:v "Salle physiologique (salle nature accouchement)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "146" ] ;
+         fhir:display [ fhir:v "Cabine d'audiologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "147" ] ;
+         fhir:display [ fhir:v "Espace de calme-retrait, d'apaisement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "148" ] ;
+         fhir:display [ fhir:v "Jardin pédagogique et-ou thérapeutique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "149" ] ;
+         fhir:display [ fhir:v "Ferme pédagogique et-ou thérapeutique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "150" ] ;
+         fhir:display [ fhir:v "Plateau ou salle de rééducation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "152" ] ;
+         fhir:display [ fhir:v "Equipement de géolocalisation des personnes vulnérables" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "153" ] ;
+         fhir:display [ fhir:v "Equipement de télémédecine (chariot, cabine)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "154" ] ;
+         fhir:display [ fhir:v "Chambre à double flux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "155" ] ;
+         fhir:display [ fhir:v "Rails de transfert" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "156" ] ;
+         fhir:display [ fhir:v "Moniteur multiparamétrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "157" ] ;
+         fhir:display [ fhir:v "Systèmes corporels d'alerte sans fil" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "158" ] ;
+         fhir:display [ fhir:v "Fauteuil rotatoire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "159" ] ;
+         fhir:display [ fhir:v "Plateforme verticale subjective" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "160" ] ;
+         fhir:display [ fhir:v "Appartement domotisé pour mise en situation d'autonomie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "161" ] ;
+         fhir:display [ fhir:v "Caisson hyperbare occupation simple" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "162" ] ;
+         fhir:display [ fhir:v "Caisson hyperbare occupation multiple patient intubé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "163" ] ;
+         fhir:display [ fhir:v "Caisson hyperbare occupation multiple patient non intubé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "164" ] ;
+         fhir:display [ fhir:v "Cabine de cryothérapie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "165" ] ;
+         fhir:display [ fhir:v "PCA ou autre injecteur automatique d'antalgiques" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "166" ] ;
+         fhir:display [ fhir:v "PCR multiplex (Film array)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "167" ] ;
+         fhir:display [ fhir:v "Séquenceurs haut débit (NGS)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "168" ] ;
+         fhir:display [ fhir:v "Cytomètre de flux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "169" ] ;
+         fhir:display [ fhir:v "Atelier de confection d'orthèse" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "170" ] ;
+         fhir:display [ fhir:v "Atelier de confection aide technique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "173" ] ;
+         fhir:display [ fhir:v "SNP Array" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "174" ] ;
+         fhir:display [ fhir:v "CGH Array" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "175" ] ;
+         fhir:display [ fhir:v "Spectromètre de masse haute résolution" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "176" ] ;
+         fhir:display [ fhir:v "Chromatographe haute performance en phase liquide" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "177" ] ;
+         fhir:display [ fhir:v "Chromatographe en phase gazeuse" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "178" ] ;
+         fhir:display [ fhir:v "Agrégomètre optique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "179" ] ;
+         fhir:display [ fhir:v "Véhicules adaptés au transport de personnes à mobilité réduite" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "180" ] ;
+         fhir:display [ fhir:v "Pupillomètre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "181" ] ;
+         fhir:display [ fhir:v "Accélérateur réchauffeur de sang" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "183" ] ;
+         fhir:display [ fhir:v "Equipement d'oxygénothérapie de déambulation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "184" ] ;
+         fhir:display [ fhir:v "Dispositif de réadaptation à la marche par allègement du poids du corps (anti-gravité)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "185" ] ;
+         fhir:display [ fhir:v "PSM pédiatriques (Poste Sanitaire Mobile)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "186" ] ;
+         fhir:display [ fhir:v "Lit fluidisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "187" ] ;
+         fhir:display [ fhir:v "Table réfrigérée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "188" ] ;
+         fhir:display [ fhir:v "Case réfrigérée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "189" ] ;
+         fhir:display [ fhir:v "Table de coronarographie obésité (poids entre 150 et 250 kg) - bariatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "190" ] ;
+         fhir:display [ fhir:v "Table de coronarographie obésité (poids entre 250 et 350 kg) - bariatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "191" ] ;
+         fhir:display [ fhir:v "Table de coronarographie obésité (poids entre 350 et 450 kg) - bariatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "192" ] ;
+         fhir:display [ fhir:v "Arthromoteurs (genoux, épaules, coudes)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "193" ] ;
+         fhir:display [ fhir:v "Appareils de renforcement musculaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "194" ] ;
+         fhir:display [ fhir:v "Appareil d'ondes de choc pour traitement non invasif" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "195" ] ;
+         fhir:display [ fhir:v "Appareil de massage par vacuo-aspiration" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "196" ] ;
+         fhir:display [ fhir:v "Absorptiomètre obésité 70-80 cm (densitomètre bariatrique)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "197" ] ;
+         fhir:display [ fhir:v "Fauteuil obésité (poids entre 250 et 350 kg) bariatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "198" ] ;
+         fhir:display [ fhir:v "Holter tensionnel bariatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "199" ] ;
+         fhir:display [ fhir:v "Appareil d'imagerie volumétrique par faisceau conique (CBCT)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "200" ] ;
+         fhir:display [ fhir:v "Fauteuil dentaire adapté au handicap moteur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "201" ] ;
+         fhir:display [ fhir:v "Laser rétinien" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "202" ] ;
+         fhir:display [ fhir:v "Laser Yag ophtalmologique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "203" ] ;
+         fhir:display [ fhir:v "Atelier intégré d'appareillage" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "204" ] ;
+         fhir:display [ fhir:v "Imagerie par fluorescence" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "205" ] ;
+         fhir:display [ fhir:v "Ultrason de haute intensité (HIFU)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "206" ] ;
+         fhir:display [ fhir:v "Dispositif mobile de traitement d'air" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "207" ] ;
+         fhir:display [ fhir:v "Défibrillateur semi-automatique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ANS.FR.NOS\JDV_J05-SubjectRole-CISIS - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style-ans.css"/>
+    <link rel="stylesheet" href="assets/css/style-add-ans.css"/>
+
+    <!-- CSS only -->
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"11.5"}
+    h3,h4,h5,h6{--heading-prefix:"11.5"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+<div id="family-nav">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+  </div>
+  <div id="ans-nav">
+    <a id="hl7-logo" no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
+  </div>
+        <div id="ans-nav">
+          <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Nomenclature des Objets de Santé (NOS)</span>
+            <br/>
+            <span style="display:inline-block;">1.1.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Accueil</a>
+  </li>
+  <li>
+    <a href="tre.html">Terminologies de référence (TRE)</a>
+  </li>
+  <li>
+    <a href="jdv.html">Jeux de valeurs (JDV)</a>
+  </li>
+  <li>
+    <a href="ass.html">Association (ASS)</a>
+  </li>
+  <li>
+    <a href="smt.html">Terminologie</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Ressources
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="telechargementNos.html">Téléchargement (NOS)</a>
+      </li>
+      <li>
+        <a href="securite.html">Sécurité</a>
+      </li>
+      <li>
+        <a href="downloads.html">Téléchargements et usage</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html">Spécifications FHIR </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://esante.gouv.fr/">Site de l&apos;ANS </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="about.html">A propos de ce guide</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>JDV_J05-SubjectRole-CISIS</b></li>
+
+          <span style="float:right;">
+
+            <a href="ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.ttl.html">&lt;prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ValueSet-JDV-J05-SubjectRole-CISIS.xml.html">next&gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+  
+    <li>
+      <a href="ValueSet-JDV-J05-SubjectRole-CISIS.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-JDV-J05-SubjectRole-CISIS.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-JDV-J05-SubjectRole-CISIS.ttl.html">TTL</a>
+    </li>
+  
+ 
+  
+    <li class="">
+      <a href="ValueSet-JDV-J05-SubjectRole-CISIS.download.html">Téléchargement</a>
+    </li>
+  
+   
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: JDV_J05-SubjectRole-CISIS
+
+  </h2>
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">1.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS|1.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2023-02-17
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">JDV_J05-SubjectRole-CISIS</span></td>
+    </tr>
+
+    <tr>
+      <td colspan="5">
+        <i>Other Identifiers:</i> id: urn:oid:1.2.250.1.213.1.1.5.470
+      </td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>subjectRole CI-SIS</p>
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<p>This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</p>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="CodeSystem-TRE-A00-ProducteurDocNonPS.html"><code>https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-ALIM_AM">ALIM_AM</a></td><td>Alimentation automatique à partir du Système d'Information de l'Assurance Maladie</td></tr><tr><td><a href="CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-DISPOSITIF">DISPOSITIF</a></td><td>Dispositif médical</td></tr><tr><td><a href="CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-EXP_PATIENT">EXP_PATIENT</a></td><td>Expression personnelle du patient</td></tr><tr><td><a href="CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-SECRETARIAT_MEDICAL">SECRETARIAT_MEDICAL</a></td><td>Secrétariat médical</td></tr><tr><td><a href="CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-AUTOMATE">AUTOMATE</a></td><td>Automate</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>10</td><td>Médecin</td></tr><tr><td>21</td><td>Pharmacien</td></tr><tr><td>26</td><td>Audioprothésiste</td></tr><tr><td>28</td><td>Opticien-Lunetier</td></tr><tr><td>31</td><td>Assistant dentaire</td></tr><tr><td>32</td><td>Physicien médical</td></tr><tr><td>35</td><td>Aide-soignant</td></tr><tr><td>36</td><td>Ambulancier</td></tr><tr><td>37</td><td>Auxiliaire de puériculture</td></tr><tr><td>38</td><td>Préparateur en pharmacie hospitalière</td></tr><tr><td>39</td><td>Préparateur en pharmacie (officine)</td></tr><tr><td>40</td><td>Chirurgien-Dentiste</td></tr><tr><td>50</td><td>Sage-Femme</td></tr><tr><td>60</td><td>Infirmier</td></tr><tr><td>69</td><td>Infirmier psychiatrique</td></tr><tr><td>70</td><td>Masseur-Kinésithérapeute</td></tr><tr><td>80</td><td>Pédicure-Podologue</td></tr><tr><td>81</td><td>Orthoprothésiste</td></tr><tr><td>82</td><td>Podo-Orthésiste</td></tr><tr><td>83</td><td>Orthopédiste-Orthésiste</td></tr><tr><td>84</td><td>Oculariste</td></tr><tr><td>85</td><td>Epithésiste</td></tr><tr><td>86</td><td>Technicien de laboratoire médical</td></tr><tr><td>91</td><td>Orthophoniste</td></tr><tr><td>92</td><td>Orthoptiste</td></tr><tr><td>94</td><td>Ergothérapeute</td></tr><tr><td>95</td><td>Diététicien</td></tr><tr><td>96</td><td>Psychomotricien</td></tr><tr><td>98</td><td>Manipulateur ERM</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>71</td><td>Ostéopathe</td></tr><tr><td>72</td><td>Psychothérapeute</td></tr><tr><td>73</td><td>Chiropracteur</td></tr><tr><td>93</td><td>Psychologue</td></tr><tr><td>97</td><td>Conseiller en génétique</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>41</td><td>Assistant de service social</td></tr><tr><td>42</td><td>Auxiliaire de vie sociale</td></tr><tr><td>43</td><td>Technicien de l'intervention sociale et familiale</td></tr><tr><td>44</td><td>Conseiller en économie sociale et familiale</td></tr><tr><td>45</td><td>Médiateur familial</td></tr><tr><td>46</td><td>Assistant familial</td></tr><tr><td>47</td><td>Aide médico-psychologique (AMP)</td></tr><tr><td>48</td><td>Moniteur éducateur</td></tr><tr><td>49</td><td>Educateur de jeunes enfants</td></tr><tr><td>51</td><td>Educateur spécialisé</td></tr><tr><td>52</td><td>Educateur technique spécialisé</td></tr><tr><td>53</td><td>Accompagnant éducatif et social</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>99</td><td>Acteur caractérisé par son rôle</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>10</td><td>Médecin en formation</td></tr><tr><td>21</td><td>Pharmacien en formation</td></tr><tr><td>40</td><td>Chirurgien-Dentiste en formation</td></tr><tr><td>50</td><td>Sage-Femme en formation</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>SCD01</td><td>Orthopédie dento-faciale (SCD)</td></tr><tr><td>SCD02</td><td>Chirurgie orale (SCD)</td></tr><tr><td>SCD03</td><td>Médecine bucco-dentaire (SCD)</td></tr><tr><td>PAC00</td><td>Qualifié Praticien Adjoint Contractuel (PAC)</td></tr><tr><td>SM01</td><td>Anatomie et cytologie pathologiques (SM)</td></tr><tr><td>SM02</td><td>Anesthésie-réanimation (SM)</td></tr><tr><td>SM03</td><td>Biologie médicale (SM)</td></tr><tr><td>SM04</td><td>Cardiologie et maladies vasculaires (SM)</td></tr><tr><td>SM05</td><td>Chirurgie générale (SM)</td></tr><tr><td>SM06</td><td>Chirurgie maxillo-faciale (SM)</td></tr><tr><td>SM07</td><td>Chirurgie maxillo-faciale et stomatologie (SM)</td></tr><tr><td>SM08</td><td>Chirurgie orthopédique et traumatologie (SM)</td></tr><tr><td>SM09</td><td>Chirurgie infantile (SM)</td></tr><tr><td>SM10</td><td>Chirurgie plastique reconstructrice et esthétique (SM)</td></tr><tr><td>SM11</td><td>Chirurgie thoracique et cardio-vasculaire (SM)</td></tr><tr><td>SM12</td><td>Chirurgie urologique (SM)</td></tr><tr><td>SM13</td><td>Chirurgie vasculaire (SM)</td></tr><tr><td>SM14</td><td>Chirurgie viscérale et digestive (SM)</td></tr><tr><td>SM15</td><td>Dermatologie et vénéréologie (SM)</td></tr><tr><td>SM16</td><td>Endocrinologie et métabolisme (SM)</td></tr><tr><td>SM17</td><td>Génétique médicale (SM)</td></tr><tr><td>SM18</td><td>Gériatrie (SM)</td></tr><tr><td>SM19</td><td>Gynécologie médicale (SM)</td></tr><tr><td>SM20</td><td>Gynécologie-obstétrique (SM)</td></tr><tr><td>SM21</td><td>Hématologie (SM)</td></tr><tr><td>SM22</td><td>Hématologie option Maladie du sang (SM)</td></tr><tr><td>SM23</td><td>Hématologie option Onco-hématologie (SM)</td></tr><tr><td>SM24</td><td>Gastro-entérologie et hépatologie (SM)</td></tr><tr><td>SM25</td><td>Médecine du travail (SM)</td></tr><tr><td>SM26</td><td>Qualifié en médecine générale (SM)</td></tr><tr><td>SM27</td><td>Médecine interne (SM)</td></tr><tr><td>SM28</td><td>Médecine nucléaire (SM)</td></tr><tr><td>SM29</td><td>Médecine physique et réadaptation (SM)</td></tr><tr><td>SM30</td><td>Néphrologie (SM)</td></tr><tr><td>SM31</td><td>Neuro-chirurgie (SM)</td></tr><tr><td>SM32</td><td>Neurologie (SM)</td></tr><tr><td>SM33</td><td>Neuro-psychiatrie (SM)</td></tr><tr><td>SM34</td><td>ORL et chirurgie cervico-faciale (SM)</td></tr><tr><td>SM35</td><td>Oncologie option onco-hématologie (SM)</td></tr><tr><td>SM36</td><td>Oncologie option médicale (SM)</td></tr><tr><td>SM37</td><td>Oncologie option radiothérapie (SM)</td></tr><tr><td>SM38</td><td>Ophtalmologie (SM)</td></tr><tr><td>SM39</td><td>Oto-rhino-laryngologie (SM)</td></tr><tr><td>SM40</td><td>Pédiatrie (SM)</td></tr><tr><td>SM41</td><td>Pneumologie (SM)</td></tr><tr><td>SM42</td><td>Psychiatrie (SM)</td></tr><tr><td>SM43</td><td>Psychiatrie option enfant et adolescent (SM)</td></tr><tr><td>SM44</td><td>Radiodiagnostic (SM)</td></tr><tr><td>SM45</td><td>Radiothérapie (SM)</td></tr><tr><td>SM46</td><td>Médecine intensive-réanimation (SM)</td></tr><tr><td>SM47</td><td>Recherche médicale (SM)</td></tr><tr><td>SM48</td><td>Rhumatologie (SM)</td></tr><tr><td>SM49</td><td>Santé publique et médecine sociale (SM)</td></tr><tr><td>SM50</td><td>Stomatologie (SM)</td></tr><tr><td>SM51</td><td>Gynéco-obstétrique et Gynéco médicale option Gynéco-obst. (SM)</td></tr><tr><td>SM52</td><td>Gynéco-obstétrique et Gynéco médicale option Gynéco-médicale (SM)</td></tr><tr><td>SM53</td><td>Spécialiste en médecine générale (SM)</td></tr><tr><td>SM54</td><td>Médecine générale (SM)</td></tr><tr><td>SM55</td><td>Radiodiagnostic et radiothérapie (SM)</td></tr><tr><td>SM56</td><td>Chirurgie orale (SM)</td></tr><tr><td>SM57</td><td>Allergologie (SM)</td></tr><tr><td>SM58</td><td>Maladies infectieuses et tropicales (SM)</td></tr><tr><td>SM59</td><td>Médecine d'urgence (SM)</td></tr><tr><td>SM60</td><td>Médecine légale et expertises médicales (SM)</td></tr><tr><td>SM61</td><td>Médecine vasculaire (SM)</td></tr><tr><td>SM62</td><td>Endocrinologie, diabétologie, nutrition (SM)</td></tr><tr><td>SM63</td><td>Biologie médicale option biologie générale (SM)</td></tr><tr><td>SM64</td><td>Biologie médicale option médecine moléculaire, génétique et pharmacologie (SM)</td></tr><tr><td>SM65</td><td>Biologie médicale option hématologie et immunologie (SM)</td></tr><tr><td>SM66</td><td>Biologie médicale option agents infectieux (SM)</td></tr><tr><td>SM67</td><td>Biologie médicale option biologie de la reproduction (SM)</td></tr><tr><td>SM68</td><td>Chirurgie maxillo-faciale (réforme 2017) (SM)</td></tr><tr><td>SM69</td><td>Chirurgie pédiatrique option chirurgie viscérale pédiatrique (SM)</td></tr><tr><td>SM70</td><td>Chirurgie pédiatrique option orthopédie pédiatrique (SM)</td></tr><tr><td>SM71</td><td>Hématologie (réforme 2017) (SM)</td></tr><tr><td>SM72</td><td>Médecine interne et immunologie clinique (SM)</td></tr><tr><td>CEX22</td><td>Gynécologie médicale et obstétrique (CEX)</td></tr><tr><td>CEX24</td><td>Gynécologie médicale (CEX)</td></tr><tr><td>CEX26</td><td>Obstétrique (CEX)</td></tr><tr><td>CEX64</td><td>Urologie (CEX)</td></tr><tr><td>SCH01</td><td>Anatomie et cytologie pathologiques (SCH)</td></tr><tr><td>SCH02</td><td>Anesthésie-réanimation (SCH)</td></tr><tr><td>SCH03</td><td>Bactériologie-virologie, hygiène hospitalière (SCH)</td></tr><tr><td>SCH04</td><td>Biochimie (SCH)</td></tr><tr><td>SCH05</td><td>Biologie cellulaire, histologie, biologie du développement et de la reproduction (SCH)</td></tr><tr><td>SCH06</td><td>Biologie médicale (SCH)</td></tr><tr><td>SCH07</td><td>Biophysique (SCH)</td></tr><tr><td>SCH08</td><td>Oncologie médicale (SCH)</td></tr><tr><td>SCH09</td><td>Cardiologie et maladies vasculaires (SCH)</td></tr><tr><td>SCH10</td><td>Chirurgie générale (SCH)</td></tr><tr><td>SCH11</td><td>Chirurgie viscérale et digestive (SCH)</td></tr><tr><td>SCH12</td><td>Chirurgie infantile (SCH)</td></tr><tr><td>SCH13</td><td>Chirurgie maxillo-faciale (SCH)</td></tr><tr><td>SCH14</td><td>Chirurgie orthopédique et traumatologique (SCH)</td></tr><tr><td>SCH15</td><td>Chirurgie plastique reconstructrice et esthétique (SCH)</td></tr><tr><td>SCH16</td><td>Chirurgie thoracique et cardio-vasculaire (SCH)</td></tr><tr><td>SCH17</td><td>Chirurgie urologique (SCH)</td></tr><tr><td>SCH18</td><td>Chirurgie vasculaire (SCH)</td></tr><tr><td>SCH19</td><td>Dermatologie et vénéréologie (SCH)</td></tr><tr><td>SCH20</td><td>Endocrinologie et métabolisme (SCH)</td></tr><tr><td>SCH21</td><td>Santé publique (SCH)</td></tr><tr><td>SCH22</td><td>Explorations fonctionnelles (SCH)</td></tr><tr><td>SCH23</td><td>Gastro-entérologie et hépatologie (SCH)</td></tr><tr><td>SCH24</td><td>Génétique (SCH)</td></tr><tr><td>SCH25</td><td>Génétique médicale (SCH)</td></tr><tr><td>SCH26</td><td>Gynécologie et obstétrique (SCH)</td></tr><tr><td>SCH27</td><td>Hématologie biologique (SCH)</td></tr><tr><td>SCH28</td><td>Hématologie clinique (SCH)</td></tr><tr><td>SCH29</td><td>Hémobiologie-transfusion (SCH)</td></tr><tr><td>SCH30</td><td>Hygiène hospitalière (SCH)</td></tr><tr><td>SCH31</td><td>Immunologie biologique (SCH)</td></tr><tr><td>SCH32</td><td>Immunologie clinique (SCH)</td></tr><tr><td>SCH33</td><td>Maladies infectieuses, maladies tropicales (SCH)</td></tr><tr><td>SCH34</td><td>Médecine de la reproduction et gynécologie médicale (SCH)</td></tr><tr><td>SCH35</td><td>Médecine du travail (SCH)</td></tr><tr><td>SCH36</td><td>Médecine d'urgence (SCH)</td></tr><tr><td>SCH37</td><td>Médecine générale (SCH)</td></tr><tr><td>SCH38</td><td>Gériatrie (SCH)</td></tr><tr><td>SCH39</td><td>Médecine interne (SCH)</td></tr><tr><td>SCH40</td><td>Médecine légale (SCH)</td></tr><tr><td>SCH41</td><td>Médecine nucléaire (SCH)</td></tr><tr><td>SCH42</td><td>Médecine physique et de réadaptation (SCH)</td></tr><tr><td>SCH43</td><td>Néphrologie (SCH)</td></tr><tr><td>SCH44</td><td>Neurochirurgie (SCH)</td></tr><tr><td>SCH45</td><td>Neurologie (SCH)</td></tr><tr><td>SCH46</td><td>Odontologie polyvalente (SCH)</td></tr><tr><td>SCH47</td><td>Ophtalmologie (SCH)</td></tr><tr><td>SCH48</td><td>Oto-rhino-laryngologie (SCH)</td></tr><tr><td>SCH49</td><td>Parasitologie (SCH)</td></tr><tr><td>SCH50</td><td>Pédiatrie (SCH)</td></tr><tr><td>SCH51</td><td>Pharmacie polyvalente et pharmacie hospitalière (SCH)</td></tr><tr><td>SCH52</td><td>Pharmacologie clinique et toxicologie (SCH)</td></tr><tr><td>SCH53</td><td>Pneumologie (SCH)</td></tr><tr><td>SCH54</td><td>Psychiatrie polyvalente (SCH)</td></tr><tr><td>SCH55</td><td>Radiologie (SCH)</td></tr><tr><td>SCH56</td><td>Oncologie radiothérapique (SCH)</td></tr><tr><td>SCH57</td><td>Réanimation médicale (SCH)</td></tr><tr><td>SCH58</td><td>Rhumatologie (SCH)</td></tr><tr><td>SCH59</td><td>Stomatologie (SCH)</td></tr><tr><td>SCH60</td><td>Toxicologie et pharmacologie (SCH)</td></tr><tr><td>SI01</td><td>Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)</td></tr><tr><td>SI02</td><td>Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)</td></tr><tr><td>SI03</td><td>Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)</td></tr><tr><td>SI04</td><td>Exercice infirmier en pratique avancée santé mentale (SI)</td></tr><tr><td>SI05</td><td>Exercice infirmier en pratique avancée urgences</td></tr><tr><td>C01</td><td>Anatomie et cytologie pathologiques humaines (C)</td></tr><tr><td>C03</td><td>Anesthésie-réanimation (C)</td></tr><tr><td>C05</td><td>Médecine appliquée aux sports (C)</td></tr><tr><td>C07</td><td>Cardiologie (C)</td></tr><tr><td>C09</td><td>Chirurgie plastique reconstructrice et esthétique (C)</td></tr><tr><td>C10</td><td>Chirurgie maxillo-faciale (C)</td></tr><tr><td>C11</td><td>Chirurgie thoracique (C)</td></tr><tr><td>C12</td><td>Chirurgie orthopédique (C)</td></tr><tr><td>C13</td><td>Urologie (C)</td></tr><tr><td>C15</td><td>Dermato-vénéréologie (C)</td></tr><tr><td>C20</td><td>Hémobiologie (C)</td></tr><tr><td>C23</td><td>Gynécologie médicale et obstétrique (C)</td></tr><tr><td>C25</td><td>Gynécologie médicale (C)</td></tr><tr><td>C27</td><td>Obstétrique (C)</td></tr><tr><td>C29</td><td>Maladies de l'appareil digestif (C)</td></tr><tr><td>C30</td><td>Néphrologie (C)</td></tr><tr><td>C31</td><td>Médecine exotique (C)</td></tr><tr><td>C33</td><td>Allergologie (C)</td></tr><tr><td>C34</td><td>Angéiologie (C)</td></tr><tr><td>C35</td><td>Cancérologie (C)</td></tr><tr><td>C36</td><td>Diabétologie-nutrition (C)</td></tr><tr><td>C37</td><td>Endocrinologie (C)</td></tr><tr><td>C38</td><td>Maladies du sang (C)</td></tr><tr><td>C39</td><td>Réanimation (C)</td></tr><tr><td>C40</td><td>Médecine légale (C)</td></tr><tr><td>C41</td><td>Médecine du travail (C)</td></tr><tr><td>C43</td><td>Neurologie (C)</td></tr><tr><td>C45</td><td>Neuro-chirurgie (C)</td></tr><tr><td>C47</td><td>Neuro-psychiatrie (C)</td></tr><tr><td>C51</td><td>Pédiatrie (C)</td></tr><tr><td>C52</td><td>Phoniatrie (C)</td></tr><tr><td>C54</td><td>Pneumologie (C)</td></tr><tr><td>C57</td><td>Psychiatrie (C)</td></tr><tr><td>C58</td><td>Psychiatrie option enfant et adolescent (C)</td></tr><tr><td>C60</td><td>Médecine physique et réadaptation (C)</td></tr><tr><td>C62</td><td>Rhumatologie (C)</td></tr><tr><td>C68</td><td>Chirurgie pédiatrique (C)</td></tr><tr><td>C69</td><td>Médecine nucléaire (C)</td></tr><tr><td>C71</td><td>Médecine thermale (C)</td></tr><tr><td>C72</td><td>Génétique médicale (C)</td></tr><tr><td>C75</td><td>Endocrinologie maladies métaboliques (C)</td></tr><tr><td>C76</td><td>Orthopédie dento-maxillo-faciale (C)</td></tr><tr><td>C83</td><td>Chirurgie de la face et du cou (C)</td></tr><tr><td>CAPA01</td><td>Addictologie clinique (CAPA)</td></tr><tr><td>CAPA02</td><td>Aide médicale urgente (CAPA)</td></tr><tr><td>CAPA03</td><td>Allergologie (CAPA)</td></tr><tr><td>CAPA04</td><td>Angéiologie (CAPA)</td></tr><tr><td>CAPA05</td><td>Evaluation et traitement de la douleur (CAPA)</td></tr><tr><td>CAPA06</td><td>Gérontologie (CAPA)</td></tr><tr><td>CAPA07</td><td>Hydrologie et climatologie médicales (CAPA)</td></tr><tr><td>CAPA08</td><td>Médecine aérospatiale (CAPA)</td></tr><tr><td>CAPA09</td><td>Médecine de catastrophe (CAPA)</td></tr><tr><td>CAPA10</td><td>Médecine et biologie du sport (CAPA)</td></tr><tr><td>CAPA11</td><td>Médecine de santé au travail et prévention des risques professionnels (CAPA)</td></tr><tr><td>CAPA12</td><td>Médecine pénitentiaire (CAPA)</td></tr><tr><td>CAPA13</td><td>Médecine tropicale (CAPA)</td></tr><tr><td>CAPA14</td><td>Pratiques médico-judiciaires (CAPA)</td></tr><tr><td>CAPA15</td><td>Technologie transfusionnelle (CAPA)</td></tr><tr><td>CAPA16</td><td>Toxicomanies et alcoologies (CAPA)</td></tr><tr><td>DSM200</td><td>Addictologie (DNQ)</td></tr><tr><td>DSM201</td><td>Allergologie et Immunologie clinique (DNQ)</td></tr><tr><td>DSM202</td><td>Andrologie (DNQ)</td></tr><tr><td>DSM203</td><td>Biochimie hormonale et métabolique (DNQ)</td></tr><tr><td>DSM204</td><td>Biologie des agents infectieux (DNQ)</td></tr><tr><td>DSM205</td><td>Biologie moléculaire (DNQ)</td></tr><tr><td>DSM206</td><td>Cancérologie (DNQ)</td></tr><tr><td>DSM207</td><td>Chirurgie de la face et du cou (DNQ)</td></tr><tr><td>DSM208</td><td>Chirurgie plastique et reconstructrice (DNQ)</td></tr><tr><td>DSM209</td><td>Chirurgie vasculaire (DNQ)</td></tr><tr><td>DSM210</td><td>Cytogénétique humaine (DNQ)</td></tr><tr><td>DSM211</td><td>Dermatopathologie (DNQ)</td></tr><tr><td>DSM212</td><td>Foetopathologie (DNQ)</td></tr><tr><td>DSM213</td><td>Gériatrie (DNQ)</td></tr><tr><td>DSM214</td><td>Hématologie biologique (DNQ)</td></tr><tr><td>DSM215</td><td>Hématologie maladies du sang (DNQ)</td></tr><tr><td>DSM216</td><td>Hémobiologie-transfusion (DNQ)</td></tr><tr><td>DSM217</td><td>Immunologie et Immunopathologie (DNQ)</td></tr><tr><td>DSM218</td><td>Médecine de la reproduction (DNQ)</td></tr><tr><td>DSM219</td><td>Médecine du sport (DNQ)</td></tr><tr><td>DSM220</td><td>Médecine d'urgence (DNQ)</td></tr><tr><td>DSM221</td><td>Médecine légale et Expertises médicales (DNQ)</td></tr><tr><td>DSM222</td><td>Médecine nucléaire (DNQ)</td></tr><tr><td>DSM223</td><td>Médecine vasculaire (DNQ)</td></tr><tr><td>DSM224</td><td>Néonatalogie (DNQ)</td></tr><tr><td>DSM225</td><td>Neuropathologie (DNQ)</td></tr><tr><td>DSM226</td><td>Nutrition (DNQ)</td></tr><tr><td>DSM227</td><td>Orthopédie dento-maxillo-faciale (DNQ)</td></tr><tr><td>DSM228</td><td>Pathologie infectieuse et tropicale, clinique et biologique (DNQ)</td></tr><tr><td>DSM229</td><td>Pharmacocinétique et Métabolisme des médicaments (DNQ)</td></tr><tr><td>DSM230</td><td>Pharmacologie clinique et Evaluation des thérapeutiques (DNQ)</td></tr><tr><td>DSM231</td><td>Psychiatrie de l'enfant et de l'adolescent (DNQ)</td></tr><tr><td>DSM232</td><td>Radiopharmacie et radiobiologie (DNQ)</td></tr><tr><td>DSM233</td><td>Réanimation médicale (DNQ)</td></tr><tr><td>DSM234</td><td>Toxicologie biologique (DNQ)</td></tr><tr><td>DSM235</td><td>Médecine de la douleur et Médecine palliative (DNQ)</td></tr><tr><td>DSM236</td><td>Cancérologie, option Traitements médicaux des cancers (DNQ)</td></tr><tr><td>DSM237</td><td>Cancérologie, option Chirurgie cancérologique (DNQ)</td></tr><tr><td>DSM238</td><td>Cancérologie, option Réseaux de cancérologie (DNQ)</td></tr><tr><td>DSM239</td><td>Cancérologie, option Biologie cancérologie (DNQ)</td></tr><tr><td>DSM240</td><td>Cancérologie, option Imagerie cancérologie (DNQ)</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>A</td><td>Pharmacien titulaire d'officine</td></tr><tr><td>B</td><td>Pharmacien d'entreprise - industrie</td></tr><tr><td>C</td><td>Pharmacien d'entreprise - distribution</td></tr><tr><td>D</td><td>Pharmacien adjoint, remplaçant ou gérant</td></tr><tr><td>DA</td><td>Pharmacien adjoint</td></tr><tr><td>DM</td><td>Pharmacien mutualiste ou minier</td></tr><tr><td>E</td><td>Pharmacien d'Outre-Mer</td></tr><tr><td>EA</td><td>Pharmacien titulaire d'officine - OM</td></tr><tr><td>EB</td><td>Pharmacien d'entreprise - industrie - OM</td></tr><tr><td>EC</td><td>Pharmacien d'entreprise - distribution - OM</td></tr><tr><td>ED</td><td>Pharmacien adjoint - OM</td></tr><tr><td>EG</td><td>Pharmacien biologiste - OM</td></tr><tr><td>EH</td><td>Pharmacien d'établissement de santé - OM</td></tr><tr><td>G</td><td>Pharmacien biologiste</td></tr><tr><td>H</td><td>Pharmacien d'établissement de santé</td></tr><tr><td>M</td><td>Pharmacien militaire</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>GENR01</td><td>Activité de soin et de pharmacie</td></tr><tr><td>GENR02</td><td>Activité de soins ou de pharmacien en tant que remplaçant</td></tr><tr><td>GENR03</td><td>Remplacement dans une activité de soins</td></tr><tr><td>GENR04</td><td>Activité non soignante</td></tr><tr><td>GENR06</td><td>Délégation de responsabilité pour continuité de service</td></tr><tr><td>GENR08</td><td>Activité de coordination et d'orientation</td></tr><tr><td>GENR09</td><td>Activité de professionnel du secteur social et médico-social exerçant des fonctions administratives ou d'appui à l'organisation de l'accompagnement</td></tr><tr><td>GENR10</td><td>Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement à la vie sociale, professionnelle et éducative</td></tr><tr><td>GENR11</td><td>Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement au soin</td></tr><tr><td>GENR12</td><td>Activité de professionnel du social et médico-social exerçant des fonctions d'encadrement et d'organisation de l'accompagnement</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>FON-01</td><td>Titulaire de cabinet</td></tr><tr><td>FON-02</td><td>Associé dans une société d'exercice (SEL ou SCP)</td></tr><tr><td>FON-03</td><td>Titulaire d'officine</td></tr><tr><td>FON-04</td><td>Remplaçant du titulaire d'officine</td></tr><tr><td>FON-05</td><td>Adjoint</td></tr><tr><td>FON-07</td><td>Gérant après décès</td></tr><tr><td>FON-09</td><td>Responsable d'établissement</td></tr><tr><td>FON-15</td><td>Directeur de laboratoire</td></tr><tr><td>FON-16</td><td>Directeur-adjoint de laboratoire</td></tr><tr><td>FON-17</td><td>Collaborateur</td></tr><tr><td>FON-18</td><td>Assistant</td></tr><tr><td>FON-19</td><td>Praticien Conseil</td></tr><tr><td>FON-21</td><td>Médecin scolaire</td></tr><tr><td>FON-22</td><td>Remplaçant, intérimaire, intermittent</td></tr><tr><td>FON-23</td><td>Gérant</td></tr><tr><td>FON-24</td><td>Médecin de santé publique</td></tr><tr><td>FON-29</td><td>Médecin du travail</td></tr><tr><td>FON-32</td><td>Régulateur libéral</td></tr><tr><td>FON-33</td><td>Salarié en poste fixe</td></tr><tr><td>FON-36</td><td>Délégué</td></tr><tr><td>FON-37</td><td>Gérant de pharmacie à usage intérieur (PUI)</td></tr><tr><td>FON-39</td><td>Exercice en PMI</td></tr><tr><td>FON-40</td><td>Biologiste responsable</td></tr><tr><td>FON-41</td><td>Biologiste médical</td></tr><tr><td>FON-42</td><td>Assistant collaborateur</td></tr><tr><td>FON-43</td><td>Cadre de santé</td></tr><tr><td>FON-45</td><td>Directeur des soins</td></tr><tr><td>FON-46</td><td>Enseignant salarié</td></tr><tr><td>FON-47</td><td>Etudiant remplaçant, adjoint</td></tr><tr><td>FON-48</td><td>Interne</td></tr><tr><td>FON-49</td><td>Pharmacien responsable Bonnes Pratiques de Dispensation d'Oxygène</td></tr><tr><td>FON-50</td><td>Pharmacien adjoint Bonnes Pratiques de Dispensation d'Oxygène</td></tr><tr><td>FON-51</td><td>Remplacement partiel</td></tr><tr><td>FON-52</td><td>Etudiant militaire</td></tr><tr><td>FON-53</td><td>Médecin assistant</td></tr><tr><td>FON-54</td><td>Permanence des soins</td></tr><tr><td>FON-55</td><td>Participation libérale aux missions de service public d'un établissement de santé</td></tr><tr><td>FON-56</td><td>Intervention libérale dans le cadre d'un GCS</td></tr><tr><td>FON-57</td><td>Docteur junior</td></tr><tr><td>FON-AU</td><td>Fonction non définie</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>300</td><td>Assistant de service social (PAERPA)</td></tr><tr><td>301</td><td>Coordination territoriale d'appui (PAERPA)</td></tr><tr><td>302</td><td>Aide et accompagnement à domicile (PAERPA)</td></tr><tr><td>303</td><td>Avocat participant aux processus de soins sans consentement (eSSS)</td></tr><tr><td>304</td><td>Assistant de service social (Expérimentation MAIA)</td></tr><tr><td>305</td><td>Psychologue (Expérimentation MAIA)</td></tr><tr><td>306</td><td>Psychothérapeute (Expérimentation MAIA)</td></tr><tr><td>307</td><td>Mandataire judiciaire à la protection des majeurs (MJPM)</td></tr><tr><td>308</td><td>Pilote MAIA</td></tr><tr><td>309</td><td>Gestionnaire de cas MAIA</td></tr><tr><td>310</td><td>Equipe médico-sociale APA</td></tr><tr><td>311</td><td>Autre acteur mettant en oeuvre la méthode MAIA</td></tr><tr><td>312</td><td>Autre professionnel</td></tr><tr><td>313</td><td>Aide-soignant</td></tr><tr><td>314</td><td>Ambulancier</td></tr><tr><td>315</td><td>Auxiliaire de puériculture</td></tr><tr><td>316</td><td>Préparateur en pharmacie hospitalière</td></tr><tr><td>317</td><td>Préparateur en pharmacie (officine)</td></tr><tr><td>318</td><td>Auxiliaire de vie sociale</td></tr><tr><td>319</td><td>Technicien de l'intervention sociale et familiale</td></tr><tr><td>320</td><td>Conseiller en économie sociale et familiale</td></tr><tr><td>321</td><td>Médiateur familial</td></tr><tr><td>322</td><td>Assistant familial</td></tr><tr><td>323</td><td>Aide médico-psychologique (AMP)</td></tr><tr><td>324</td><td>Moniteur éducateur</td></tr><tr><td>325</td><td>Educateur de jeunes enfants</td></tr><tr><td>326</td><td>Educateur spécialisé</td></tr><tr><td>327</td><td>Educateur technique spécialisé</td></tr><tr><td>328</td><td>Accompagnant éducatif et social</td></tr><tr><td>329</td><td>Conseiller en génétique</td></tr><tr><td>350</td><td>Aide à domicile</td></tr><tr><td>351</td><td>Assistant(e) maternel(le)</td></tr><tr><td>352</td><td>Autre salarié de la structure sociale</td></tr></table></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <p><span style="color: maroon; font-weight: bold" title="Publication Tooling Error: [Unable to expand imported value set: Cannot invoke &quot;org.hl7.fhir.r5.terminologies.TerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)&quot; because &quot;this.txClient&quot; is null, Cannot invoke &quot;org.hl7.fhir.r5.terminologies.TerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)&quot; because &quot;this.txClient&quot; is null]">No Expansion for this valueset (not supported by Publication Tooling<!-- [Unable to expand imported value set: Cannot invoke &quot;org.hl7.fhir.r5.terminologies.TerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)&quot; because &quot;this.txClient&quot; is null, Cannot invoke &quot;org.hl7.fhir.r5.terminologies.TerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)&quot; because &quot;this.txClient&quot; is null] -->)</span></p>
+
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:left">&#xA0;
+
+                <a href="ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.ttl.html">&lt;prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:right">&#xA0;
+
+                <a href="ValueSet-JDV-J05-SubjectRole-CISIS.xml.html">next&gt;</a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.nos#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 17, 2023 15:50+0000">2023-04-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                  | <a style="color: #81BEF7" target="_blank" href="https://interop.esante.gouv.fr/ig/nos/history.html">Version History</a> | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/IG-NOS/issues/new">New Issue</a>
+                
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+
+  <!-- Ajout ANS -->
+  <script src="assets/js/app.js" type="text/javascript"> </script>
+  <script src="assets/js/vendor.js" type="text/javascript"> </script>
+    <script type="text/javascript" src="assets/js/addNos.js"> </script>
+  <!-- Fin ajout ANS -->
+
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+  
+    
+  
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+
+
+  <!-- AJOUT ANS -->
+
+<footer class="footer footer-principal" role="contentinfo">
+  <div class="footer__region1">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4 text-center text-md-left">
+          <div class="logos">        
+            <div class="logo logo--0">
+              <a href="https://solidarites-sante.gouv.fr" title="Ministère des Solidarités et de la Santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+                
+                <img src="assets/images/logo-ministere.svg" alt="Ministère des Solidarités et de la Santé" width="133" height="77" loading="lazy" />
+                
+              </a>
+            </div>
+        
+            <div class="logo logo--1">
+              <a href="https://esante.gouv.fr/" title="Agence du numérique en santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+                
+                <img src="assets/images/logo-ANS-footer.svg" alt="Agence du numérique en santé" width="106" height="74" loading="lazy" />
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 text-center text-md-left">
+          <p class="footer__title">Agence du Numérique en Santé</p>
+          <p>2-10 Rue d'Oradour-sur-Glane 75015 Paris</p>
+
+          <!-- <div class="m-social">
+            <ul class="m-social__list">        
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://www.linkedin.com/company/agence-du-numerique-en-sante/" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-linkedin" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#linkedin"></use></svg>
+                  </div>
+                  <span class="sr-only">linkedin</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://twitter.com/esante_gouv_fr" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-twitter" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#twitter"></use></svg>
+                  </div>
+                  <span class="sr-only">twitter</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://www.youtube.com/channel/UCd1zuSaU5cE1lRCpwv_HSMA" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-youtube" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#youtube"></use></svg>
+                  </div>
+                  <span class="sr-only">youtube</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://esante.gouv.fr/rss.xml" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-rss" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#rss"></use></svg>
+                  </div>
+                  <span class="sr-only">rss</span>
+                </a>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+        
+        <div class="col-6 col-lg-4">
+          <ul class="footer-list">
+            <li class="footer-list__item footer-list__item--hasIcon">
+              <a href="mailto:ci-sis@esante.gouv.fr" class="mailto-link">
+                <svg class="svg-icon svg-angle-right" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#angle-right"></use></svg>Contact</a>
+              </li>
+              <!-- <li class="footer-list__item">
+                <a href="https://interop-pprod.esante.gouv.fr/ci-sis-specifications/wp-content/uploads/CGU_espace_de_tests_v1.1.pdf" class="file-link">Mentions légales</a>
+              </li>
+               -->
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <!-- <div class="footer__region2">
+      <div class="container">
+        <div class="footer-contentinfo">
+          <ul class="footer-list footer-list--inline">
+
+          </ul>
+        </div>
+      </div>
+    </div> -->
+  </footer>
+  </body>
+</html>
+

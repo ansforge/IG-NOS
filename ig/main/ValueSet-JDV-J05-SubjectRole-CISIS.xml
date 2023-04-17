@@ -1,0 +1,4065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J05-SubjectRole-CISIS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="CodeSystem-TRE-A00-ProducteurDocNonPS.html"><code>https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-ALIM_AM">ALIM_AM</a></td><td>Alimentation automatique à partir du Système d'Information de l'Assurance Maladie</td></tr><tr><td><a href="CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-DISPOSITIF">DISPOSITIF</a></td><td>Dispositif médical</td></tr><tr><td><a href="CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-EXP_PATIENT">EXP_PATIENT</a></td><td>Expression personnelle du patient</td></tr><tr><td><a href="CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-SECRETARIAT_MEDICAL">SECRETARIAT_MEDICAL</a></td><td>Secrétariat médical</td></tr><tr><td><a href="CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-AUTOMATE">AUTOMATE</a></td><td>Automate</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>10</td><td>Médecin</td></tr><tr><td>21</td><td>Pharmacien</td></tr><tr><td>26</td><td>Audioprothésiste</td></tr><tr><td>28</td><td>Opticien-Lunetier</td></tr><tr><td>31</td><td>Assistant dentaire</td></tr><tr><td>32</td><td>Physicien médical</td></tr><tr><td>35</td><td>Aide-soignant</td></tr><tr><td>36</td><td>Ambulancier</td></tr><tr><td>37</td><td>Auxiliaire de puériculture</td></tr><tr><td>38</td><td>Préparateur en pharmacie hospitalière</td></tr><tr><td>39</td><td>Préparateur en pharmacie (officine)</td></tr><tr><td>40</td><td>Chirurgien-Dentiste</td></tr><tr><td>50</td><td>Sage-Femme</td></tr><tr><td>60</td><td>Infirmier</td></tr><tr><td>69</td><td>Infirmier psychiatrique</td></tr><tr><td>70</td><td>Masseur-Kinésithérapeute</td></tr><tr><td>80</td><td>Pédicure-Podologue</td></tr><tr><td>81</td><td>Orthoprothésiste</td></tr><tr><td>82</td><td>Podo-Orthésiste</td></tr><tr><td>83</td><td>Orthopédiste-Orthésiste</td></tr><tr><td>84</td><td>Oculariste</td></tr><tr><td>85</td><td>Epithésiste</td></tr><tr><td>86</td><td>Technicien de laboratoire médical</td></tr><tr><td>91</td><td>Orthophoniste</td></tr><tr><td>92</td><td>Orthoptiste</td></tr><tr><td>94</td><td>Ergothérapeute</td></tr><tr><td>95</td><td>Diététicien</td></tr><tr><td>96</td><td>Psychomotricien</td></tr><tr><td>98</td><td>Manipulateur ERM</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>71</td><td>Ostéopathe</td></tr><tr><td>72</td><td>Psychothérapeute</td></tr><tr><td>73</td><td>Chiropracteur</td></tr><tr><td>93</td><td>Psychologue</td></tr><tr><td>97</td><td>Conseiller en génétique</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>41</td><td>Assistant de service social</td></tr><tr><td>42</td><td>Auxiliaire de vie sociale</td></tr><tr><td>43</td><td>Technicien de l'intervention sociale et familiale</td></tr><tr><td>44</td><td>Conseiller en économie sociale et familiale</td></tr><tr><td>45</td><td>Médiateur familial</td></tr><tr><td>46</td><td>Assistant familial</td></tr><tr><td>47</td><td>Aide médico-psychologique (AMP)</td></tr><tr><td>48</td><td>Moniteur éducateur</td></tr><tr><td>49</td><td>Educateur de jeunes enfants</td></tr><tr><td>51</td><td>Educateur spécialisé</td></tr><tr><td>52</td><td>Educateur technique spécialisé</td></tr><tr><td>53</td><td>Accompagnant éducatif et social</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>99</td><td>Acteur caractérisé par son rôle</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>10</td><td>Médecin en formation</td></tr><tr><td>21</td><td>Pharmacien en formation</td></tr><tr><td>40</td><td>Chirurgien-Dentiste en formation</td></tr><tr><td>50</td><td>Sage-Femme en formation</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>SCD01</td><td>Orthopédie dento-faciale (SCD)</td></tr><tr><td>SCD02</td><td>Chirurgie orale (SCD)</td></tr><tr><td>SCD03</td><td>Médecine bucco-dentaire (SCD)</td></tr><tr><td>PAC00</td><td>Qualifié Praticien Adjoint Contractuel (PAC)</td></tr><tr><td>SM01</td><td>Anatomie et cytologie pathologiques (SM)</td></tr><tr><td>SM02</td><td>Anesthésie-réanimation (SM)</td></tr><tr><td>SM03</td><td>Biologie médicale (SM)</td></tr><tr><td>SM04</td><td>Cardiologie et maladies vasculaires (SM)</td></tr><tr><td>SM05</td><td>Chirurgie générale (SM)</td></tr><tr><td>SM06</td><td>Chirurgie maxillo-faciale (SM)</td></tr><tr><td>SM07</td><td>Chirurgie maxillo-faciale et stomatologie (SM)</td></tr><tr><td>SM08</td><td>Chirurgie orthopédique et traumatologie (SM)</td></tr><tr><td>SM09</td><td>Chirurgie infantile (SM)</td></tr><tr><td>SM10</td><td>Chirurgie plastique reconstructrice et esthétique (SM)</td></tr><tr><td>SM11</td><td>Chirurgie thoracique et cardio-vasculaire (SM)</td></tr><tr><td>SM12</td><td>Chirurgie urologique (SM)</td></tr><tr><td>SM13</td><td>Chirurgie vasculaire (SM)</td></tr><tr><td>SM14</td><td>Chirurgie viscérale et digestive (SM)</td></tr><tr><td>SM15</td><td>Dermatologie et vénéréologie (SM)</td></tr><tr><td>SM16</td><td>Endocrinologie et métabolisme (SM)</td></tr><tr><td>SM17</td><td>Génétique médicale (SM)</td></tr><tr><td>SM18</td><td>Gériatrie (SM)</td></tr><tr><td>SM19</td><td>Gynécologie médicale (SM)</td></tr><tr><td>SM20</td><td>Gynécologie-obstétrique (SM)</td></tr><tr><td>SM21</td><td>Hématologie (SM)</td></tr><tr><td>SM22</td><td>Hématologie option Maladie du sang (SM)</td></tr><tr><td>SM23</td><td>Hématologie option Onco-hématologie (SM)</td></tr><tr><td>SM24</td><td>Gastro-entérologie et hépatologie (SM)</td></tr><tr><td>SM25</td><td>Médecine du travail (SM)</td></tr><tr><td>SM26</td><td>Qualifié en médecine générale (SM)</td></tr><tr><td>SM27</td><td>Médecine interne (SM)</td></tr><tr><td>SM28</td><td>Médecine nucléaire (SM)</td></tr><tr><td>SM29</td><td>Médecine physique et réadaptation (SM)</td></tr><tr><td>SM30</td><td>Néphrologie (SM)</td></tr><tr><td>SM31</td><td>Neuro-chirurgie (SM)</td></tr><tr><td>SM32</td><td>Neurologie (SM)</td></tr><tr><td>SM33</td><td>Neuro-psychiatrie (SM)</td></tr><tr><td>SM34</td><td>ORL et chirurgie cervico-faciale (SM)</td></tr><tr><td>SM35</td><td>Oncologie option onco-hématologie (SM)</td></tr><tr><td>SM36</td><td>Oncologie option médicale (SM)</td></tr><tr><td>SM37</td><td>Oncologie option radiothérapie (SM)</td></tr><tr><td>SM38</td><td>Ophtalmologie (SM)</td></tr><tr><td>SM39</td><td>Oto-rhino-laryngologie (SM)</td></tr><tr><td>SM40</td><td>Pédiatrie (SM)</td></tr><tr><td>SM41</td><td>Pneumologie (SM)</td></tr><tr><td>SM42</td><td>Psychiatrie (SM)</td></tr><tr><td>SM43</td><td>Psychiatrie option enfant et adolescent (SM)</td></tr><tr><td>SM44</td><td>Radiodiagnostic (SM)</td></tr><tr><td>SM45</td><td>Radiothérapie (SM)</td></tr><tr><td>SM46</td><td>Médecine intensive-réanimation (SM)</td></tr><tr><td>SM47</td><td>Recherche médicale (SM)</td></tr><tr><td>SM48</td><td>Rhumatologie (SM)</td></tr><tr><td>SM49</td><td>Santé publique et médecine sociale (SM)</td></tr><tr><td>SM50</td><td>Stomatologie (SM)</td></tr><tr><td>SM51</td><td>Gynéco-obstétrique et Gynéco médicale option Gynéco-obst. (SM)</td></tr><tr><td>SM52</td><td>Gynéco-obstétrique et Gynéco médicale option Gynéco-médicale (SM)</td></tr><tr><td>SM53</td><td>Spécialiste en médecine générale (SM)</td></tr><tr><td>SM54</td><td>Médecine générale (SM)</td></tr><tr><td>SM55</td><td>Radiodiagnostic et radiothérapie (SM)</td></tr><tr><td>SM56</td><td>Chirurgie orale (SM)</td></tr><tr><td>SM57</td><td>Allergologie (SM)</td></tr><tr><td>SM58</td><td>Maladies infectieuses et tropicales (SM)</td></tr><tr><td>SM59</td><td>Médecine d'urgence (SM)</td></tr><tr><td>SM60</td><td>Médecine légale et expertises médicales (SM)</td></tr><tr><td>SM61</td><td>Médecine vasculaire (SM)</td></tr><tr><td>SM62</td><td>Endocrinologie, diabétologie, nutrition (SM)</td></tr><tr><td>SM63</td><td>Biologie médicale option biologie générale (SM)</td></tr><tr><td>SM64</td><td>Biologie médicale option médecine moléculaire, génétique et pharmacologie (SM)</td></tr><tr><td>SM65</td><td>Biologie médicale option hématologie et immunologie (SM)</td></tr><tr><td>SM66</td><td>Biologie médicale option agents infectieux (SM)</td></tr><tr><td>SM67</td><td>Biologie médicale option biologie de la reproduction (SM)</td></tr><tr><td>SM68</td><td>Chirurgie maxillo-faciale (réforme 2017) (SM)</td></tr><tr><td>SM69</td><td>Chirurgie pédiatrique option chirurgie viscérale pédiatrique (SM)</td></tr><tr><td>SM70</td><td>Chirurgie pédiatrique option orthopédie pédiatrique (SM)</td></tr><tr><td>SM71</td><td>Hématologie (réforme 2017) (SM)</td></tr><tr><td>SM72</td><td>Médecine interne et immunologie clinique (SM)</td></tr><tr><td>CEX22</td><td>Gynécologie médicale et obstétrique (CEX)</td></tr><tr><td>CEX24</td><td>Gynécologie médicale (CEX)</td></tr><tr><td>CEX26</td><td>Obstétrique (CEX)</td></tr><tr><td>CEX64</td><td>Urologie (CEX)</td></tr><tr><td>SCH01</td><td>Anatomie et cytologie pathologiques (SCH)</td></tr><tr><td>SCH02</td><td>Anesthésie-réanimation (SCH)</td></tr><tr><td>SCH03</td><td>Bactériologie-virologie, hygiène hospitalière (SCH)</td></tr><tr><td>SCH04</td><td>Biochimie (SCH)</td></tr><tr><td>SCH05</td><td>Biologie cellulaire, histologie, biologie du développement et de la reproduction (SCH)</td></tr><tr><td>SCH06</td><td>Biologie médicale (SCH)</td></tr><tr><td>SCH07</td><td>Biophysique (SCH)</td></tr><tr><td>SCH08</td><td>Oncologie médicale (SCH)</td></tr><tr><td>SCH09</td><td>Cardiologie et maladies vasculaires (SCH)</td></tr><tr><td>SCH10</td><td>Chirurgie générale (SCH)</td></tr><tr><td>SCH11</td><td>Chirurgie viscérale et digestive (SCH)</td></tr><tr><td>SCH12</td><td>Chirurgie infantile (SCH)</td></tr><tr><td>SCH13</td><td>Chirurgie maxillo-faciale (SCH)</td></tr><tr><td>SCH14</td><td>Chirurgie orthopédique et traumatologique (SCH)</td></tr><tr><td>SCH15</td><td>Chirurgie plastique reconstructrice et esthétique (SCH)</td></tr><tr><td>SCH16</td><td>Chirurgie thoracique et cardio-vasculaire (SCH)</td></tr><tr><td>SCH17</td><td>Chirurgie urologique (SCH)</td></tr><tr><td>SCH18</td><td>Chirurgie vasculaire (SCH)</td></tr><tr><td>SCH19</td><td>Dermatologie et vénéréologie (SCH)</td></tr><tr><td>SCH20</td><td>Endocrinologie et métabolisme (SCH)</td></tr><tr><td>SCH21</td><td>Santé publique (SCH)</td></tr><tr><td>SCH22</td><td>Explorations fonctionnelles (SCH)</td></tr><tr><td>SCH23</td><td>Gastro-entérologie et hépatologie (SCH)</td></tr><tr><td>SCH24</td><td>Génétique (SCH)</td></tr><tr><td>SCH25</td><td>Génétique médicale (SCH)</td></tr><tr><td>SCH26</td><td>Gynécologie et obstétrique (SCH)</td></tr><tr><td>SCH27</td><td>Hématologie biologique (SCH)</td></tr><tr><td>SCH28</td><td>Hématologie clinique (SCH)</td></tr><tr><td>SCH29</td><td>Hémobiologie-transfusion (SCH)</td></tr><tr><td>SCH30</td><td>Hygiène hospitalière (SCH)</td></tr><tr><td>SCH31</td><td>Immunologie biologique (SCH)</td></tr><tr><td>SCH32</td><td>Immunologie clinique (SCH)</td></tr><tr><td>SCH33</td><td>Maladies infectieuses, maladies tropicales (SCH)</td></tr><tr><td>SCH34</td><td>Médecine de la reproduction et gynécologie médicale (SCH)</td></tr><tr><td>SCH35</td><td>Médecine du travail (SCH)</td></tr><tr><td>SCH36</td><td>Médecine d'urgence (SCH)</td></tr><tr><td>SCH37</td><td>Médecine générale (SCH)</td></tr><tr><td>SCH38</td><td>Gériatrie (SCH)</td></tr><tr><td>SCH39</td><td>Médecine interne (SCH)</td></tr><tr><td>SCH40</td><td>Médecine légale (SCH)</td></tr><tr><td>SCH41</td><td>Médecine nucléaire (SCH)</td></tr><tr><td>SCH42</td><td>Médecine physique et de réadaptation (SCH)</td></tr><tr><td>SCH43</td><td>Néphrologie (SCH)</td></tr><tr><td>SCH44</td><td>Neurochirurgie (SCH)</td></tr><tr><td>SCH45</td><td>Neurologie (SCH)</td></tr><tr><td>SCH46</td><td>Odontologie polyvalente (SCH)</td></tr><tr><td>SCH47</td><td>Ophtalmologie (SCH)</td></tr><tr><td>SCH48</td><td>Oto-rhino-laryngologie (SCH)</td></tr><tr><td>SCH49</td><td>Parasitologie (SCH)</td></tr><tr><td>SCH50</td><td>Pédiatrie (SCH)</td></tr><tr><td>SCH51</td><td>Pharmacie polyvalente et pharmacie hospitalière (SCH)</td></tr><tr><td>SCH52</td><td>Pharmacologie clinique et toxicologie (SCH)</td></tr><tr><td>SCH53</td><td>Pneumologie (SCH)</td></tr><tr><td>SCH54</td><td>Psychiatrie polyvalente (SCH)</td></tr><tr><td>SCH55</td><td>Radiologie (SCH)</td></tr><tr><td>SCH56</td><td>Oncologie radiothérapique (SCH)</td></tr><tr><td>SCH57</td><td>Réanimation médicale (SCH)</td></tr><tr><td>SCH58</td><td>Rhumatologie (SCH)</td></tr><tr><td>SCH59</td><td>Stomatologie (SCH)</td></tr><tr><td>SCH60</td><td>Toxicologie et pharmacologie (SCH)</td></tr><tr><td>SI01</td><td>Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)</td></tr><tr><td>SI02</td><td>Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)</td></tr><tr><td>SI03</td><td>Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)</td></tr><tr><td>SI04</td><td>Exercice infirmier en pratique avancée santé mentale (SI)</td></tr><tr><td>SI05</td><td>Exercice infirmier en pratique avancée urgences</td></tr><tr><td>C01</td><td>Anatomie et cytologie pathologiques humaines (C)</td></tr><tr><td>C03</td><td>Anesthésie-réanimation (C)</td></tr><tr><td>C05</td><td>Médecine appliquée aux sports (C)</td></tr><tr><td>C07</td><td>Cardiologie (C)</td></tr><tr><td>C09</td><td>Chirurgie plastique reconstructrice et esthétique (C)</td></tr><tr><td>C10</td><td>Chirurgie maxillo-faciale (C)</td></tr><tr><td>C11</td><td>Chirurgie thoracique (C)</td></tr><tr><td>C12</td><td>Chirurgie orthopédique (C)</td></tr><tr><td>C13</td><td>Urologie (C)</td></tr><tr><td>C15</td><td>Dermato-vénéréologie (C)</td></tr><tr><td>C20</td><td>Hémobiologie (C)</td></tr><tr><td>C23</td><td>Gynécologie médicale et obstétrique (C)</td></tr><tr><td>C25</td><td>Gynécologie médicale (C)</td></tr><tr><td>C27</td><td>Obstétrique (C)</td></tr><tr><td>C29</td><td>Maladies de l'appareil digestif (C)</td></tr><tr><td>C30</td><td>Néphrologie (C)</td></tr><tr><td>C31</td><td>Médecine exotique (C)</td></tr><tr><td>C33</td><td>Allergologie (C)</td></tr><tr><td>C34</td><td>Angéiologie (C)</td></tr><tr><td>C35</td><td>Cancérologie (C)</td></tr><tr><td>C36</td><td>Diabétologie-nutrition (C)</td></tr><tr><td>C37</td><td>Endocrinologie (C)</td></tr><tr><td>C38</td><td>Maladies du sang (C)</td></tr><tr><td>C39</td><td>Réanimation (C)</td></tr><tr><td>C40</td><td>Médecine légale (C)</td></tr><tr><td>C41</td><td>Médecine du travail (C)</td></tr><tr><td>C43</td><td>Neurologie (C)</td></tr><tr><td>C45</td><td>Neuro-chirurgie (C)</td></tr><tr><td>C47</td><td>Neuro-psychiatrie (C)</td></tr><tr><td>C51</td><td>Pédiatrie (C)</td></tr><tr><td>C52</td><td>Phoniatrie (C)</td></tr><tr><td>C54</td><td>Pneumologie (C)</td></tr><tr><td>C57</td><td>Psychiatrie (C)</td></tr><tr><td>C58</td><td>Psychiatrie option enfant et adolescent (C)</td></tr><tr><td>C60</td><td>Médecine physique et réadaptation (C)</td></tr><tr><td>C62</td><td>Rhumatologie (C)</td></tr><tr><td>C68</td><td>Chirurgie pédiatrique (C)</td></tr><tr><td>C69</td><td>Médecine nucléaire (C)</td></tr><tr><td>C71</td><td>Médecine thermale (C)</td></tr><tr><td>C72</td><td>Génétique médicale (C)</td></tr><tr><td>C75</td><td>Endocrinologie maladies métaboliques (C)</td></tr><tr><td>C76</td><td>Orthopédie dento-maxillo-faciale (C)</td></tr><tr><td>C83</td><td>Chirurgie de la face et du cou (C)</td></tr><tr><td>CAPA01</td><td>Addictologie clinique (CAPA)</td></tr><tr><td>CAPA02</td><td>Aide médicale urgente (CAPA)</td></tr><tr><td>CAPA03</td><td>Allergologie (CAPA)</td></tr><tr><td>CAPA04</td><td>Angéiologie (CAPA)</td></tr><tr><td>CAPA05</td><td>Evaluation et traitement de la douleur (CAPA)</td></tr><tr><td>CAPA06</td><td>Gérontologie (CAPA)</td></tr><tr><td>CAPA07</td><td>Hydrologie et climatologie médicales (CAPA)</td></tr><tr><td>CAPA08</td><td>Médecine aérospatiale (CAPA)</td></tr><tr><td>CAPA09</td><td>Médecine de catastrophe (CAPA)</td></tr><tr><td>CAPA10</td><td>Médecine et biologie du sport (CAPA)</td></tr><tr><td>CAPA11</td><td>Médecine de santé au travail et prévention des risques professionnels (CAPA)</td></tr><tr><td>CAPA12</td><td>Médecine pénitentiaire (CAPA)</td></tr><tr><td>CAPA13</td><td>Médecine tropicale (CAPA)</td></tr><tr><td>CAPA14</td><td>Pratiques médico-judiciaires (CAPA)</td></tr><tr><td>CAPA15</td><td>Technologie transfusionnelle (CAPA)</td></tr><tr><td>CAPA16</td><td>Toxicomanies et alcoologies (CAPA)</td></tr><tr><td>DSM200</td><td>Addictologie (DNQ)</td></tr><tr><td>DSM201</td><td>Allergologie et Immunologie clinique (DNQ)</td></tr><tr><td>DSM202</td><td>Andrologie (DNQ)</td></tr><tr><td>DSM203</td><td>Biochimie hormonale et métabolique (DNQ)</td></tr><tr><td>DSM204</td><td>Biologie des agents infectieux (DNQ)</td></tr><tr><td>DSM205</td><td>Biologie moléculaire (DNQ)</td></tr><tr><td>DSM206</td><td>Cancérologie (DNQ)</td></tr><tr><td>DSM207</td><td>Chirurgie de la face et du cou (DNQ)</td></tr><tr><td>DSM208</td><td>Chirurgie plastique et reconstructrice (DNQ)</td></tr><tr><td>DSM209</td><td>Chirurgie vasculaire (DNQ)</td></tr><tr><td>DSM210</td><td>Cytogénétique humaine (DNQ)</td></tr><tr><td>DSM211</td><td>Dermatopathologie (DNQ)</td></tr><tr><td>DSM212</td><td>Foetopathologie (DNQ)</td></tr><tr><td>DSM213</td><td>Gériatrie (DNQ)</td></tr><tr><td>DSM214</td><td>Hématologie biologique (DNQ)</td></tr><tr><td>DSM215</td><td>Hématologie maladies du sang (DNQ)</td></tr><tr><td>DSM216</td><td>Hémobiologie-transfusion (DNQ)</td></tr><tr><td>DSM217</td><td>Immunologie et Immunopathologie (DNQ)</td></tr><tr><td>DSM218</td><td>Médecine de la reproduction (DNQ)</td></tr><tr><td>DSM219</td><td>Médecine du sport (DNQ)</td></tr><tr><td>DSM220</td><td>Médecine d'urgence (DNQ)</td></tr><tr><td>DSM221</td><td>Médecine légale et Expertises médicales (DNQ)</td></tr><tr><td>DSM222</td><td>Médecine nucléaire (DNQ)</td></tr><tr><td>DSM223</td><td>Médecine vasculaire (DNQ)</td></tr><tr><td>DSM224</td><td>Néonatalogie (DNQ)</td></tr><tr><td>DSM225</td><td>Neuropathologie (DNQ)</td></tr><tr><td>DSM226</td><td>Nutrition (DNQ)</td></tr><tr><td>DSM227</td><td>Orthopédie dento-maxillo-faciale (DNQ)</td></tr><tr><td>DSM228</td><td>Pathologie infectieuse et tropicale, clinique et biologique (DNQ)</td></tr><tr><td>DSM229</td><td>Pharmacocinétique et Métabolisme des médicaments (DNQ)</td></tr><tr><td>DSM230</td><td>Pharmacologie clinique et Evaluation des thérapeutiques (DNQ)</td></tr><tr><td>DSM231</td><td>Psychiatrie de l'enfant et de l'adolescent (DNQ)</td></tr><tr><td>DSM232</td><td>Radiopharmacie et radiobiologie (DNQ)</td></tr><tr><td>DSM233</td><td>Réanimation médicale (DNQ)</td></tr><tr><td>DSM234</td><td>Toxicologie biologique (DNQ)</td></tr><tr><td>DSM235</td><td>Médecine de la douleur et Médecine palliative (DNQ)</td></tr><tr><td>DSM236</td><td>Cancérologie, option Traitements médicaux des cancers (DNQ)</td></tr><tr><td>DSM237</td><td>Cancérologie, option Chirurgie cancérologique (DNQ)</td></tr><tr><td>DSM238</td><td>Cancérologie, option Réseaux de cancérologie (DNQ)</td></tr><tr><td>DSM239</td><td>Cancérologie, option Biologie cancérologie (DNQ)</td></tr><tr><td>DSM240</td><td>Cancérologie, option Imagerie cancérologie (DNQ)</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>A</td><td>Pharmacien titulaire d'officine</td></tr><tr><td>B</td><td>Pharmacien d'entreprise - industrie</td></tr><tr><td>C</td><td>Pharmacien d'entreprise - distribution</td></tr><tr><td>D</td><td>Pharmacien adjoint, remplaçant ou gérant</td></tr><tr><td>DA</td><td>Pharmacien adjoint</td></tr><tr><td>DM</td><td>Pharmacien mutualiste ou minier</td></tr><tr><td>E</td><td>Pharmacien d'Outre-Mer</td></tr><tr><td>EA</td><td>Pharmacien titulaire d'officine - OM</td></tr><tr><td>EB</td><td>Pharmacien d'entreprise - industrie - OM</td></tr><tr><td>EC</td><td>Pharmacien d'entreprise - distribution - OM</td></tr><tr><td>ED</td><td>Pharmacien adjoint - OM</td></tr><tr><td>EG</td><td>Pharmacien biologiste - OM</td></tr><tr><td>EH</td><td>Pharmacien d'établissement de santé - OM</td></tr><tr><td>G</td><td>Pharmacien biologiste</td></tr><tr><td>H</td><td>Pharmacien d'établissement de santé</td></tr><tr><td>M</td><td>Pharmacien militaire</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>GENR01</td><td>Activité de soin et de pharmacie</td></tr><tr><td>GENR02</td><td>Activité de soins ou de pharmacien en tant que remplaçant</td></tr><tr><td>GENR03</td><td>Remplacement dans une activité de soins</td></tr><tr><td>GENR04</td><td>Activité non soignante</td></tr><tr><td>GENR06</td><td>Délégation de responsabilité pour continuité de service</td></tr><tr><td>GENR08</td><td>Activité de coordination et d'orientation</td></tr><tr><td>GENR09</td><td>Activité de professionnel du secteur social et médico-social exerçant des fonctions administratives ou d'appui à l'organisation de l'accompagnement</td></tr><tr><td>GENR10</td><td>Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement à la vie sociale, professionnelle et éducative</td></tr><tr><td>GENR11</td><td>Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement au soin</td></tr><tr><td>GENR12</td><td>Activité de professionnel du social et médico-social exerçant des fonctions d'encadrement et d'organisation de l'accompagnement</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>FON-01</td><td>Titulaire de cabinet</td></tr><tr><td>FON-02</td><td>Associé dans une société d'exercice (SEL ou SCP)</td></tr><tr><td>FON-03</td><td>Titulaire d'officine</td></tr><tr><td>FON-04</td><td>Remplaçant du titulaire d'officine</td></tr><tr><td>FON-05</td><td>Adjoint</td></tr><tr><td>FON-07</td><td>Gérant après décès</td></tr><tr><td>FON-09</td><td>Responsable d'établissement</td></tr><tr><td>FON-15</td><td>Directeur de laboratoire</td></tr><tr><td>FON-16</td><td>Directeur-adjoint de laboratoire</td></tr><tr><td>FON-17</td><td>Collaborateur</td></tr><tr><td>FON-18</td><td>Assistant</td></tr><tr><td>FON-19</td><td>Praticien Conseil</td></tr><tr><td>FON-21</td><td>Médecin scolaire</td></tr><tr><td>FON-22</td><td>Remplaçant, intérimaire, intermittent</td></tr><tr><td>FON-23</td><td>Gérant</td></tr><tr><td>FON-24</td><td>Médecin de santé publique</td></tr><tr><td>FON-29</td><td>Médecin du travail</td></tr><tr><td>FON-32</td><td>Régulateur libéral</td></tr><tr><td>FON-33</td><td>Salarié en poste fixe</td></tr><tr><td>FON-36</td><td>Délégué</td></tr><tr><td>FON-37</td><td>Gérant de pharmacie à usage intérieur (PUI)</td></tr><tr><td>FON-39</td><td>Exercice en PMI</td></tr><tr><td>FON-40</td><td>Biologiste responsable</td></tr><tr><td>FON-41</td><td>Biologiste médical</td></tr><tr><td>FON-42</td><td>Assistant collaborateur</td></tr><tr><td>FON-43</td><td>Cadre de santé</td></tr><tr><td>FON-45</td><td>Directeur des soins</td></tr><tr><td>FON-46</td><td>Enseignant salarié</td></tr><tr><td>FON-47</td><td>Etudiant remplaçant, adjoint</td></tr><tr><td>FON-48</td><td>Interne</td></tr><tr><td>FON-49</td><td>Pharmacien responsable Bonnes Pratiques de Dispensation d'Oxygène</td></tr><tr><td>FON-50</td><td>Pharmacien adjoint Bonnes Pratiques de Dispensation d'Oxygène</td></tr><tr><td>FON-51</td><td>Remplacement partiel</td></tr><tr><td>FON-52</td><td>Etudiant militaire</td></tr><tr><td>FON-53</td><td>Médecin assistant</td></tr><tr><td>FON-54</td><td>Permanence des soins</td></tr><tr><td>FON-55</td><td>Participation libérale aux missions de service public d'un établissement de santé</td></tr><tr><td>FON-56</td><td>Intervention libérale dans le cadre d'un GCS</td></tr><tr><td>FON-57</td><td>Docteur junior</td></tr><tr><td>FON-AU</td><td>Fonction non définie</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>300</td><td>Assistant de service social (PAERPA)</td></tr><tr><td>301</td><td>Coordination territoriale d'appui (PAERPA)</td></tr><tr><td>302</td><td>Aide et accompagnement à domicile (PAERPA)</td></tr><tr><td>303</td><td>Avocat participant aux processus de soins sans consentement (eSSS)</td></tr><tr><td>304</td><td>Assistant de service social (Expérimentation MAIA)</td></tr><tr><td>305</td><td>Psychologue (Expérimentation MAIA)</td></tr><tr><td>306</td><td>Psychothérapeute (Expérimentation MAIA)</td></tr><tr><td>307</td><td>Mandataire judiciaire à la protection des majeurs (MJPM)</td></tr><tr><td>308</td><td>Pilote MAIA</td></tr><tr><td>309</td><td>Gestionnaire de cas MAIA</td></tr><tr><td>310</td><td>Equipe médico-sociale APA</td></tr><tr><td>311</td><td>Autre acteur mettant en oeuvre la méthode MAIA</td></tr><tr><td>312</td><td>Autre professionnel</td></tr><tr><td>313</td><td>Aide-soignant</td></tr><tr><td>314</td><td>Ambulancier</td></tr><tr><td>315</td><td>Auxiliaire de puériculture</td></tr><tr><td>316</td><td>Préparateur en pharmacie hospitalière</td></tr><tr><td>317</td><td>Préparateur en pharmacie (officine)</td></tr><tr><td>318</td><td>Auxiliaire de vie sociale</td></tr><tr><td>319</td><td>Technicien de l'intervention sociale et familiale</td></tr><tr><td>320</td><td>Conseiller en économie sociale et familiale</td></tr><tr><td>321</td><td>Médiateur familial</td></tr><tr><td>322</td><td>Assistant familial</td></tr><tr><td>323</td><td>Aide médico-psychologique (AMP)</td></tr><tr><td>324</td><td>Moniteur éducateur</td></tr><tr><td>325</td><td>Educateur de jeunes enfants</td></tr><tr><td>326</td><td>Educateur spécialisé</td></tr><tr><td>327</td><td>Educateur technique spécialisé</td></tr><tr><td>328</td><td>Accompagnant éducatif et social</td></tr><tr><td>329</td><td>Conseiller en génétique</td></tr><tr><td>350</td><td>Aide à domicile</td></tr><tr><td>351</td><td>Assistant(e) maternel(le)</td></tr><tr><td>352</td><td>Autre salarié de la structure sociale</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2012-10-06T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.470"/>
+  </identifier>
+  <version value="1.1.0"/>
+  <name value="JDV_J05-SubjectRole-CISIS"/>
+  <status value="active"/>
+  <date value="2023-02-17T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="subjectRole CI-SIS"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS"/>
+      <concept>
+        <code value="ALIM_AM"/>
+        <display value="Alimentation automatique à partir du Système d'Information de l'Assurance Maladie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DISPOSITIF"/>
+        <display value="Dispositif médical"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="EXP_PATIENT"/>
+        <display value="Expression personnelle du patient"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SECRETARIAT_MEDICAL"/>
+        <display value="Secrétariat médical"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="AUTOMATE"/>
+        <display value="Automate"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.6"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"/>
+      <concept>
+        <code value="10"/>
+        <display value="Médecin"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="21"/>
+        <display value="Pharmacien"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="26"/>
+        <display value="Audioprothésiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="28"/>
+        <display value="Opticien-Lunetier"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="31"/>
+        <display value="Assistant dentaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="32"/>
+        <display value="Physicien médical"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="35"/>
+        <display value="Aide-soignant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="36"/>
+        <display value="Ambulancier"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="37"/>
+        <display value="Auxiliaire de puériculture"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="38"/>
+        <display value="Préparateur en pharmacie hospitalière"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="39"/>
+        <display value="Préparateur en pharmacie (officine)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="40"/>
+        <display value="Chirurgien-Dentiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="50"/>
+        <display value="Sage-Femme"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="60"/>
+        <display value="Infirmier"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="69"/>
+        <display value="Infirmier psychiatrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="70"/>
+        <display value="Masseur-Kinésithérapeute"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="80"/>
+        <display value="Pédicure-Podologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="81"/>
+        <display value="Orthoprothésiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="82"/>
+        <display value="Podo-Orthésiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="83"/>
+        <display value="Orthopédiste-Orthésiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="84"/>
+        <display value="Oculariste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="85"/>
+        <display value="Epithésiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="86"/>
+        <display value="Technicien de laboratoire médical"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="91"/>
+        <display value="Orthophoniste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="92"/>
+        <display value="Orthoptiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="94"/>
+        <display value="Ergothérapeute"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="95"/>
+        <display value="Diététicien"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="96"/>
+        <display value="Psychomotricien"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="98"/>
+        <display value="Manipulateur ERM"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"/>
+      <concept>
+        <code value="71"/>
+        <display value="Ostéopathe"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.109"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="72"/>
+        <display value="Psychothérapeute"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.109"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="73"/>
+        <display value="Chiropracteur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.109"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="93"/>
+        <display value="Psychologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.109"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="97"/>
+        <display value="Conseiller en génétique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.109"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial"/>
+      <concept>
+        <code value="41"/>
+        <display value="Assistant de service social"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="42"/>
+        <display value="Auxiliaire de vie sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="43"/>
+        <display value="Technicien de l'intervention sociale et familiale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="44"/>
+        <display value="Conseiller en économie sociale et familiale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="45"/>
+        <display value="Médiateur familial"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="46"/>
+        <display value="Assistant familial"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="47"/>
+        <display value="Aide médico-psychologique (AMP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="48"/>
+        <display value="Moniteur éducateur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="49"/>
+        <display value="Educateur de jeunes enfants"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="51"/>
+        <display value="Educateur spécialisé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="52"/>
+        <display value="Educateur technique spécialisé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="53"/>
+        <display value="Accompagnant éducatif et social"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession"/>
+      <concept>
+        <code value="99"/>
+        <display value="Acteur caractérisé par son rôle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.140"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation"/>
+      <concept>
+        <code value="10"/>
+        <display value="Médecin en formation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.8"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="21"/>
+        <display value="Pharmacien en formation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.8"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="40"/>
+        <display value="Chirurgien-Dentiste en formation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.8"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="50"/>
+        <display value="Sage-Femme en formation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.8"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS"/>
+      <concept>
+        <code value="SCD01"/>
+        <display value="Orthopédie dento-faciale (SCD)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCD02"/>
+        <display value="Chirurgie orale (SCD)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCD03"/>
+        <display value="Médecine bucco-dentaire (SCD)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="PAC00"/>
+        <display value="Qualifié Praticien Adjoint Contractuel (PAC)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM01"/>
+        <display value="Anatomie et cytologie pathologiques (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM02"/>
+        <display value="Anesthésie-réanimation (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM03"/>
+        <display value="Biologie médicale (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM04"/>
+        <display value="Cardiologie et maladies vasculaires (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM05"/>
+        <display value="Chirurgie générale (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM06"/>
+        <display value="Chirurgie maxillo-faciale (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM07"/>
+        <display value="Chirurgie maxillo-faciale et stomatologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM08"/>
+        <display value="Chirurgie orthopédique et traumatologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM09"/>
+        <display value="Chirurgie infantile (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM10"/>
+        <display value="Chirurgie plastique reconstructrice et esthétique (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM11"/>
+        <display value="Chirurgie thoracique et cardio-vasculaire (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM12"/>
+        <display value="Chirurgie urologique (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM13"/>
+        <display value="Chirurgie vasculaire (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM14"/>
+        <display value="Chirurgie viscérale et digestive (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM15"/>
+        <display value="Dermatologie et vénéréologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM16"/>
+        <display value="Endocrinologie et métabolisme (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM17"/>
+        <display value="Génétique médicale (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM18"/>
+        <display value="Gériatrie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM19"/>
+        <display value="Gynécologie médicale (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM20"/>
+        <display value="Gynécologie-obstétrique (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM21"/>
+        <display value="Hématologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM22"/>
+        <display value="Hématologie option Maladie du sang (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM23"/>
+        <display value="Hématologie option Onco-hématologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM24"/>
+        <display value="Gastro-entérologie et hépatologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM25"/>
+        <display value="Médecine du travail (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM26"/>
+        <display value="Qualifié en médecine générale (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM27"/>
+        <display value="Médecine interne (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM28"/>
+        <display value="Médecine nucléaire (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM29"/>
+        <display value="Médecine physique et réadaptation (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM30"/>
+        <display value="Néphrologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM31"/>
+        <display value="Neuro-chirurgie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM32"/>
+        <display value="Neurologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM33"/>
+        <display value="Neuro-psychiatrie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM34"/>
+        <display value="ORL et chirurgie cervico-faciale (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM35"/>
+        <display value="Oncologie option onco-hématologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM36"/>
+        <display value="Oncologie option médicale (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM37"/>
+        <display value="Oncologie option radiothérapie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM38"/>
+        <display value="Ophtalmologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM39"/>
+        <display value="Oto-rhino-laryngologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM40"/>
+        <display value="Pédiatrie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM41"/>
+        <display value="Pneumologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM42"/>
+        <display value="Psychiatrie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM43"/>
+        <display value="Psychiatrie option enfant et adolescent (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM44"/>
+        <display value="Radiodiagnostic (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM45"/>
+        <display value="Radiothérapie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM46"/>
+        <display value="Médecine intensive-réanimation (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM47"/>
+        <display value="Recherche médicale (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM48"/>
+        <display value="Rhumatologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM49"/>
+        <display value="Santé publique et médecine sociale (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM50"/>
+        <display value="Stomatologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM51"/>
+        <display value="Gynéco-obstétrique et Gynéco médicale option Gynéco-obst. (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM52"/>
+        <display value="Gynéco-obstétrique et Gynéco médicale option Gynéco-médicale (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM53"/>
+        <display value="Spécialiste en médecine générale (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM54"/>
+        <display value="Médecine générale (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM55"/>
+        <display value="Radiodiagnostic et radiothérapie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM56"/>
+        <display value="Chirurgie orale (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM57"/>
+        <display value="Allergologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM58"/>
+        <display value="Maladies infectieuses et tropicales (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM59"/>
+        <display value="Médecine d'urgence (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM60"/>
+        <display value="Médecine légale et expertises médicales (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM61"/>
+        <display value="Médecine vasculaire (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM62"/>
+        <display value="Endocrinologie, diabétologie, nutrition (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM63"/>
+        <display value="Biologie médicale option biologie générale (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM64"/>
+        <display value="Biologie médicale option médecine moléculaire, génétique et pharmacologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM65"/>
+        <display value="Biologie médicale option hématologie et immunologie (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM66"/>
+        <display value="Biologie médicale option agents infectieux (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM67"/>
+        <display value="Biologie médicale option biologie de la reproduction (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM68"/>
+        <display value="Chirurgie maxillo-faciale (réforme 2017) (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM69"/>
+        <display value="Chirurgie pédiatrique option chirurgie viscérale pédiatrique (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM70"/>
+        <display value="Chirurgie pédiatrique option orthopédie pédiatrique (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM71"/>
+        <display value="Hématologie (réforme 2017) (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SM72"/>
+        <display value="Médecine interne et immunologie clinique (SM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CEX22"/>
+        <display value="Gynécologie médicale et obstétrique (CEX)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CEX24"/>
+        <display value="Gynécologie médicale (CEX)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CEX26"/>
+        <display value="Obstétrique (CEX)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CEX64"/>
+        <display value="Urologie (CEX)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH01"/>
+        <display value="Anatomie et cytologie pathologiques (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH02"/>
+        <display value="Anesthésie-réanimation (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH03"/>
+        <display value="Bactériologie-virologie, hygiène hospitalière (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH04"/>
+        <display value="Biochimie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH05"/>
+        <display value="Biologie cellulaire, histologie, biologie du développement et de la reproduction (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH06"/>
+        <display value="Biologie médicale (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH07"/>
+        <display value="Biophysique (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH08"/>
+        <display value="Oncologie médicale (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH09"/>
+        <display value="Cardiologie et maladies vasculaires (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH10"/>
+        <display value="Chirurgie générale (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH11"/>
+        <display value="Chirurgie viscérale et digestive (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH12"/>
+        <display value="Chirurgie infantile (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH13"/>
+        <display value="Chirurgie maxillo-faciale (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH14"/>
+        <display value="Chirurgie orthopédique et traumatologique (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH15"/>
+        <display value="Chirurgie plastique reconstructrice et esthétique (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH16"/>
+        <display value="Chirurgie thoracique et cardio-vasculaire (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH17"/>
+        <display value="Chirurgie urologique (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH18"/>
+        <display value="Chirurgie vasculaire (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH19"/>
+        <display value="Dermatologie et vénéréologie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH20"/>
+        <display value="Endocrinologie et métabolisme (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH21"/>
+        <display value="Santé publique (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH22"/>
+        <display value="Explorations fonctionnelles (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH23"/>
+        <display value="Gastro-entérologie et hépatologie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH24"/>
+        <display value="Génétique (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH25"/>
+        <display value="Génétique médicale (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH26"/>
+        <display value="Gynécologie et obstétrique (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH27"/>
+        <display value="Hématologie biologique (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH28"/>
+        <display value="Hématologie clinique (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH29"/>
+        <display value="Hémobiologie-transfusion (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH30"/>
+        <display value="Hygiène hospitalière (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH31"/>
+        <display value="Immunologie biologique (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH32"/>
+        <display value="Immunologie clinique (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH33"/>
+        <display value="Maladies infectieuses, maladies tropicales (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH34"/>
+        <display value="Médecine de la reproduction et gynécologie médicale (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH35"/>
+        <display value="Médecine du travail (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH36"/>
+        <display value="Médecine d'urgence (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH37"/>
+        <display value="Médecine générale (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH38"/>
+        <display value="Gériatrie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH39"/>
+        <display value="Médecine interne (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH40"/>
+        <display value="Médecine légale (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH41"/>
+        <display value="Médecine nucléaire (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH42"/>
+        <display value="Médecine physique et de réadaptation (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH43"/>
+        <display value="Néphrologie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH44"/>
+        <display value="Neurochirurgie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH45"/>
+        <display value="Neurologie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH46"/>
+        <display value="Odontologie polyvalente (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH47"/>
+        <display value="Ophtalmologie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH48"/>
+        <display value="Oto-rhino-laryngologie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH49"/>
+        <display value="Parasitologie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH50"/>
+        <display value="Pédiatrie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH51"/>
+        <display value="Pharmacie polyvalente et pharmacie hospitalière (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH52"/>
+        <display value="Pharmacologie clinique et toxicologie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH53"/>
+        <display value="Pneumologie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH54"/>
+        <display value="Psychiatrie polyvalente (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH55"/>
+        <display value="Radiologie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH56"/>
+        <display value="Oncologie radiothérapique (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH57"/>
+        <display value="Réanimation médicale (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH58"/>
+        <display value="Rhumatologie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH59"/>
+        <display value="Stomatologie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SCH60"/>
+        <display value="Toxicologie et pharmacologie (SCH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SI01"/>
+        <display value="Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SI02"/>
+        <display value="Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SI03"/>
+        <display value="Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SI04"/>
+        <display value="Exercice infirmier en pratique avancée santé mentale (SI)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SI05"/>
+        <display value="Exercice infirmier en pratique avancée urgences"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C01"/>
+        <display value="Anatomie et cytologie pathologiques humaines (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C03"/>
+        <display value="Anesthésie-réanimation (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C05"/>
+        <display value="Médecine appliquée aux sports (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C07"/>
+        <display value="Cardiologie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C09"/>
+        <display value="Chirurgie plastique reconstructrice et esthétique (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C10"/>
+        <display value="Chirurgie maxillo-faciale (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C11"/>
+        <display value="Chirurgie thoracique (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C12"/>
+        <display value="Chirurgie orthopédique (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C13"/>
+        <display value="Urologie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C15"/>
+        <display value="Dermato-vénéréologie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C20"/>
+        <display value="Hémobiologie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C23"/>
+        <display value="Gynécologie médicale et obstétrique (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C25"/>
+        <display value="Gynécologie médicale (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C27"/>
+        <display value="Obstétrique (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C29"/>
+        <display value="Maladies de l'appareil digestif (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C30"/>
+        <display value="Néphrologie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C31"/>
+        <display value="Médecine exotique (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C33"/>
+        <display value="Allergologie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C34"/>
+        <display value="Angéiologie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C35"/>
+        <display value="Cancérologie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C36"/>
+        <display value="Diabétologie-nutrition (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C37"/>
+        <display value="Endocrinologie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C38"/>
+        <display value="Maladies du sang (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C39"/>
+        <display value="Réanimation (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C40"/>
+        <display value="Médecine légale (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C41"/>
+        <display value="Médecine du travail (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C43"/>
+        <display value="Neurologie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C45"/>
+        <display value="Neuro-chirurgie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C47"/>
+        <display value="Neuro-psychiatrie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C51"/>
+        <display value="Pédiatrie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C52"/>
+        <display value="Phoniatrie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C54"/>
+        <display value="Pneumologie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C57"/>
+        <display value="Psychiatrie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C58"/>
+        <display value="Psychiatrie option enfant et adolescent (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C60"/>
+        <display value="Médecine physique et réadaptation (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C62"/>
+        <display value="Rhumatologie (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C68"/>
+        <display value="Chirurgie pédiatrique (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C69"/>
+        <display value="Médecine nucléaire (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C71"/>
+        <display value="Médecine thermale (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C72"/>
+        <display value="Génétique médicale (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C75"/>
+        <display value="Endocrinologie maladies métaboliques (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C76"/>
+        <display value="Orthopédie dento-maxillo-faciale (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C83"/>
+        <display value="Chirurgie de la face et du cou (C)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAPA01"/>
+        <display value="Addictologie clinique (CAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAPA02"/>
+        <display value="Aide médicale urgente (CAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAPA03"/>
+        <display value="Allergologie (CAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAPA04"/>
+        <display value="Angéiologie (CAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAPA05"/>
+        <display value="Evaluation et traitement de la douleur (CAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAPA06"/>
+        <display value="Gérontologie (CAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAPA07"/>
+        <display value="Hydrologie et climatologie médicales (CAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAPA08"/>
+        <display value="Médecine aérospatiale (CAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAPA09"/>
+        <display value="Médecine de catastrophe (CAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAPA10"/>
+        <display value="Médecine et biologie du sport (CAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAPA11"/>
+        <display value="Médecine de santé au travail et prévention des risques professionnels (CAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAPA12"/>
+        <display value="Médecine pénitentiaire (CAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAPA13"/>
+        <display value="Médecine tropicale (CAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAPA14"/>
+        <display value="Pratiques médico-judiciaires (CAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAPA15"/>
+        <display value="Technologie transfusionnelle (CAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAPA16"/>
+        <display value="Toxicomanies et alcoologies (CAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM200"/>
+        <display value="Addictologie (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM201"/>
+        <display value="Allergologie et Immunologie clinique (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM202"/>
+        <display value="Andrologie (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM203"/>
+        <display value="Biochimie hormonale et métabolique (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM204"/>
+        <display value="Biologie des agents infectieux (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM205"/>
+        <display value="Biologie moléculaire (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM206"/>
+        <display value="Cancérologie (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM207"/>
+        <display value="Chirurgie de la face et du cou (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM208"/>
+        <display value="Chirurgie plastique et reconstructrice (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM209"/>
+        <display value="Chirurgie vasculaire (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM210"/>
+        <display value="Cytogénétique humaine (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM211"/>
+        <display value="Dermatopathologie (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM212"/>
+        <display value="Foetopathologie (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM213"/>
+        <display value="Gériatrie (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM214"/>
+        <display value="Hématologie biologique (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM215"/>
+        <display value="Hématologie maladies du sang (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM216"/>
+        <display value="Hémobiologie-transfusion (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM217"/>
+        <display value="Immunologie et Immunopathologie (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM218"/>
+        <display value="Médecine de la reproduction (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM219"/>
+        <display value="Médecine du sport (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM220"/>
+        <display value="Médecine d'urgence (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM221"/>
+        <display value="Médecine légale et Expertises médicales (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM222"/>
+        <display value="Médecine nucléaire (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM223"/>
+        <display value="Médecine vasculaire (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM224"/>
+        <display value="Néonatalogie (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM225"/>
+        <display value="Neuropathologie (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM226"/>
+        <display value="Nutrition (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM227"/>
+        <display value="Orthopédie dento-maxillo-faciale (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM228"/>
+        <display value="Pathologie infectieuse et tropicale, clinique et biologique (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM229"/>
+        <display value="Pharmacocinétique et Métabolisme des médicaments (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM230"/>
+        <display value="Pharmacologie clinique et Evaluation des thérapeutiques (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM231"/>
+        <display value="Psychiatrie de l'enfant et de l'adolescent (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM232"/>
+        <display value="Radiopharmacie et radiobiologie (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM233"/>
+        <display value="Réanimation médicale (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM234"/>
+        <display value="Toxicologie biologique (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM235"/>
+        <display value="Médecine de la douleur et Médecine palliative (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM236"/>
+        <display value="Cancérologie, option Traitements médicaux des cancers (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM237"/>
+        <display value="Cancérologie, option Chirurgie cancérologique (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM238"/>
+        <display value="Cancérologie, option Réseaux de cancérologie (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM239"/>
+        <display value="Cancérologie, option Biologie cancérologie (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DSM240"/>
+        <display value="Cancérologie, option Imagerie cancérologie (DNQ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.5"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP"/>
+      <concept>
+        <code value="A"/>
+        <display value="Pharmacien titulaire d'officine"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="B"/>
+        <display value="Pharmacien d'entreprise - industrie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="Pharmacien d'entreprise - distribution"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="Pharmacien adjoint, remplaçant ou gérant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DA"/>
+        <display value="Pharmacien adjoint"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DM"/>
+        <display value="Pharmacien mutualiste ou minier"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="E"/>
+        <display value="Pharmacien d'Outre-Mer"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="EA"/>
+        <display value="Pharmacien titulaire d'officine - OM"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="EB"/>
+        <display value="Pharmacien d'entreprise - industrie - OM"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="EC"/>
+        <display value="Pharmacien d'entreprise - distribution - OM"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ED"/>
+        <display value="Pharmacien adjoint - OM"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="EG"/>
+        <display value="Pharmacien biologiste - OM"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="EH"/>
+        <display value="Pharmacien d'établissement de santé - OM"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="G"/>
+        <display value="Pharmacien biologiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="H"/>
+        <display value="Pharmacien d'établissement de santé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="M"/>
+        <display value="Pharmacien militaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.6"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite"/>
+      <concept>
+        <code value="GENR01"/>
+        <display value="Activité de soin et de pharmacie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GENR02"/>
+        <display value="Activité de soins ou de pharmacien en tant que remplaçant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GENR03"/>
+        <display value="Remplacement dans une activité de soins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GENR04"/>
+        <display value="Activité non soignante"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GENR06"/>
+        <display value="Délégation de responsabilité pour continuité de service"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GENR08"/>
+        <display value="Activité de coordination et d'orientation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GENR09"/>
+        <display value="Activité de professionnel du secteur social et médico-social exerçant des fonctions administratives ou d'appui à l'organisation de l'accompagnement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GENR10"/>
+        <display value="Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement à la vie sociale, professionnelle et éducative"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GENR11"/>
+        <display value="Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement au soin"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GENR12"/>
+        <display value="Activité de professionnel du social et médico-social exerçant des fonctions d'encadrement et d'organisation de l'accompagnement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction"/>
+      <concept>
+        <code value="FON-01"/>
+        <display value="Titulaire de cabinet"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-02"/>
+        <display value="Associé dans une société d'exercice (SEL ou SCP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-03"/>
+        <display value="Titulaire d'officine"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-04"/>
+        <display value="Remplaçant du titulaire d'officine"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-05"/>
+        <display value="Adjoint"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-07"/>
+        <display value="Gérant après décès"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-09"/>
+        <display value="Responsable d'établissement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-15"/>
+        <display value="Directeur de laboratoire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-16"/>
+        <display value="Directeur-adjoint de laboratoire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-17"/>
+        <display value="Collaborateur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-18"/>
+        <display value="Assistant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-19"/>
+        <display value="Praticien Conseil"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-21"/>
+        <display value="Médecin scolaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-22"/>
+        <display value="Remplaçant, intérimaire, intermittent"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-23"/>
+        <display value="Gérant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-24"/>
+        <display value="Médecin de santé publique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-29"/>
+        <display value="Médecin du travail"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-32"/>
+        <display value="Régulateur libéral"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-33"/>
+        <display value="Salarié en poste fixe"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-36"/>
+        <display value="Délégué"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-37"/>
+        <display value="Gérant de pharmacie à usage intérieur (PUI)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-39"/>
+        <display value="Exercice en PMI"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-40"/>
+        <display value="Biologiste responsable"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-41"/>
+        <display value="Biologiste médical"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-42"/>
+        <display value="Assistant collaborateur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-43"/>
+        <display value="Cadre de santé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-45"/>
+        <display value="Directeur des soins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-46"/>
+        <display value="Enseignant salarié"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-47"/>
+        <display value="Etudiant remplaçant, adjoint"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-48"/>
+        <display value="Interne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-49"/>
+        <display value="Pharmacien responsable Bonnes Pratiques de Dispensation d'Oxygène"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-50"/>
+        <display value="Pharmacien adjoint Bonnes Pratiques de Dispensation d'Oxygène"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-51"/>
+        <display value="Remplacement partiel"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-52"/>
+        <display value="Etudiant militaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-53"/>
+        <display value="Médecin assistant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-54"/>
+        <display value="Permanence des soins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-55"/>
+        <display value="Participation libérale aux missions de service public d'un établissement de santé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-56"/>
+        <display value="Intervention libérale dans le cadre d'un GCS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-57"/>
+        <display value="Docteur junior"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-AU"/>
+        <display value="Fonction non définie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"/>
+      <concept>
+        <code value="300"/>
+        <display value="Assistant de service social (PAERPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="301"/>
+        <display value="Coordination territoriale d'appui (PAERPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="302"/>
+        <display value="Aide et accompagnement à domicile (PAERPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="303"/>
+        <display value="Avocat participant aux processus de soins sans consentement (eSSS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="304"/>
+        <display value="Assistant de service social (Expérimentation MAIA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="305"/>
+        <display value="Psychologue (Expérimentation MAIA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="306"/>
+        <display value="Psychothérapeute (Expérimentation MAIA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="307"/>
+        <display value="Mandataire judiciaire à la protection des majeurs (MJPM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="308"/>
+        <display value="Pilote MAIA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="309"/>
+        <display value="Gestionnaire de cas MAIA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="310"/>
+        <display value="Equipe médico-sociale APA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="311"/>
+        <display value="Autre acteur mettant en oeuvre la méthode MAIA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="312"/>
+        <display value="Autre professionnel"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="313"/>
+        <display value="Aide-soignant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="314"/>
+        <display value="Ambulancier"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="315"/>
+        <display value="Auxiliaire de puériculture"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="316"/>
+        <display value="Préparateur en pharmacie hospitalière"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="317"/>
+        <display value="Préparateur en pharmacie (officine)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="318"/>
+        <display value="Auxiliaire de vie sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="319"/>
+        <display value="Technicien de l'intervention sociale et familiale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="320"/>
+        <display value="Conseiller en économie sociale et familiale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="321"/>
+        <display value="Médiateur familial"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="322"/>
+        <display value="Assistant familial"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="323"/>
+        <display value="Aide médico-psychologique (AMP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="324"/>
+        <display value="Moniteur éducateur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="325"/>
+        <display value="Educateur de jeunes enfants"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="326"/>
+        <display value="Educateur spécialisé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="327"/>
+        <display value="Educateur technique spécialisé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="328"/>
+        <display value="Accompagnant éducatif et social"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="329"/>
+        <display value="Conseiller en génétique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="350"/>
+        <display value="Aide à domicile"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="351"/>
+        <display value="Assistant(e) maternel(le)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="352"/>
+        <display value="Autre salarié de la structure sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>
