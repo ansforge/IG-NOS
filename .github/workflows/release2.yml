@@ -182,6 +182,7 @@ jobs:
           git config user.email github-actions@esante.gouv.fr
           git add -A 
           git commit -m updated 
+          git reset *full-ig.zip*
           
       - name: Push changes
         uses: ad-m/github-push-action@master
