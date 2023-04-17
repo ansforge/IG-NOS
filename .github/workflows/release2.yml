@@ -177,7 +177,7 @@ jobs:
       - name: Minify
         run : |
           brew install tdewolff/tap/minify
-          minify -r IG-website-release
+          minify  IG-website-release
   
       - name: Commit change
         run: |
