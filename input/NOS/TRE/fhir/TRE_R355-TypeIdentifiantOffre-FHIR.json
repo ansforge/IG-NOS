@@ -1,0 +1,82 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R355-TypeIdentifiantOffre",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2023-03-31T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R355-TypeIdentifiantOffre/FHIR/TRE-R355-TypeIdentifiantOffre",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.245"
+    }
+  ],
+  "version": "20230331120000",
+  "name": "TRE_R355-TypeIdentifiantOffre",
+  "status": "active",
+  "date": "2023-03-31T12:00:00+01:00",
+  "description": "Type d'identifiant de l’offre",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "35",
+      "display": "Identifiant fonctionnel de l'offre connu par l’instance ROR",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RORR_offreID"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Identifiant fonctionnel de l'offre connu par l’instance ROR"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "display": "Identifiant interne de l'offre connu par l’instance ROR",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RORR_T_OffreID"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Identifiant interne de l'offre connu par l’instance ROR"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

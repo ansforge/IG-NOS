@@ -1,0 +1,1694 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J186-ProfessionRessource-ROR",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2023-03-31T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J18-ProfessionRessource-ROR.tabs/FHIR/JDV-J186-ProfessionRessource-ROR",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.4.19"
+    }
+  ],
+  "version": "20230331120000",
+  "name": "JDV_J186-ProfessionRessource-ROR",
+  "status": "active",
+  "date": "2023-03-31T12:00:00+01:00",
+  "description": "Profession Ressource des offres dans le ROR  ",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+        "concept": [
+          {
+            "code": "10",
+            "display": "Médecin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "21",
+            "display": "Pharmacien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "26",
+            "display": "Audioprothésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "28",
+            "display": "Opticien-Lunetier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "31",
+            "display": "Assistant dentaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "32",
+            "display": "Physicien médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "35",
+            "display": "Aide-soignant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "36",
+            "display": "Ambulancier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "37",
+            "display": "Auxiliaire de puériculture",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "38",
+            "display": "Préparateur en pharmacie hospitalière",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "39",
+            "display": "Préparateur en pharmacie (officine)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "40",
+            "display": "Chirurgien-Dentiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "50",
+            "display": "Sage-Femme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "60",
+            "display": "Infirmier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "69",
+            "display": "Infirmier psychiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "70",
+            "display": "Masseur-Kinésithérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "80",
+            "display": "Pédicure-Podologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "81",
+            "display": "Orthoprothésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "82",
+            "display": "Podo-Orthésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "83",
+            "display": "Orthopédiste-Orthésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "84",
+            "display": "Oculariste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "85",
+            "display": "Epithésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "86",
+            "display": "Technicien de laboratoire médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "91",
+            "display": "Orthophoniste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "92",
+            "display": "Orthoptiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "94",
+            "display": "Ergothérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "95",
+            "display": "Diététicien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "96",
+            "display": "Psychomotricien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "98",
+            "display": "Manipulateur ERM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial",
+        "concept": [
+          {
+            "code": "41",
+            "display": "Assistant de service social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "42",
+            "display": "Auxiliaire de vie sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "43",
+            "display": "Technicien de l'intervention sociale et familiale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "44",
+            "display": "Conseiller en économie sociale et familiale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "45",
+            "display": "Médiateur familial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "46",
+            "display": "Assistant familial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "47",
+            "display": "Aide médico-psychologique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "48",
+            "display": "Moniteur éducateur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "49",
+            "display": "Educateur de jeunes enfants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "51",
+            "display": "Educateur spécialisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "52",
+            "display": "Educateur technique spécialisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          },
+          {
+            "code": "53",
+            "display": "Accompagnant éducatif et social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+        "concept": [
+          {
+            "code": "350",
+            "display": "Aide à domicile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "351",
+            "display": "Assistant(e) maternel(le)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire",
+        "concept": [
+          {
+            "code": "407",
+            "display": "Tatoueur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.110"
+              }
+            ]
+          },
+          {
+            "code": "408",
+            "display": "Perceur corporel",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.110"
+              }
+            ]
+          },
+          {
+            "code": "409",
+            "display": "Maquilleur permanent",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.110"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
+        "concept": [
+          {
+            "code": "71",
+            "display": "Ostéopathe",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.109"
+              }
+            ]
+          },
+          {
+            "code": "72",
+            "display": "Psychothérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.109"
+              }
+            ]
+          },
+          {
+            "code": "73",
+            "display": "Chiropracteur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.109"
+              }
+            ]
+          },
+          {
+            "code": "93",
+            "display": "Psychologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.109"
+              }
+            ]
+          },
+          {
+            "code": "97",
+            "display": "Conseiller en génétique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.109"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation",
+        "concept": [
+          {
+            "code": "10",
+            "display": "Médecin en formation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.8"
+              }
+            ]
+          },
+          {
+            "code": "21",
+            "display": "Pharmacien en formation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.8"
+              }
+            ]
+          },
+          {
+            "code": "40",
+            "display": "Chirurgien-dentiste en formation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.8"
+              }
+            ]
+          },
+          {
+            "code": "50",
+            "display": "Sage-Femme en formation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource",
+        "concept": [
+          {
+            "code": "04",
+            "display": "Art-thérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "05",
+            "display": "Neuropsychologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "08",
+            "display": "Médiateur de santé pair ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "10",
+            "display": "Socio-esthéticienne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "11",
+            "display": "Enseignant du 1er degré",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "12",
+            "display": "Enseignant du 2nd degré",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "13",
+            "display": "Enseignant du supérieur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "14",
+            "display": "Puéricultrice",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "17",
+            "display": "Aide humaine en milieu scolaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "19",
+            "display": "Médecin coordonnateur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "20",
+            "display": "Infirmier coordonnateur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "21",
+            "display": "Phoniatre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "22",
+            "display": "Audio phonologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "23",
+            "display": "Ingénieur en analyse du mouvement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "24",
+            "display": "Psychologue clinicien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "25",
+            "display": "Animateur socio-culturel",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "26",
+            "display": "Moniteur d'atelier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "38",
+            "display": "Enseignant en Activité Physique Adaptée (EAPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "39",
+            "display": "Accompagnant des Élèves en Situation de Handicap (AESH)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "43",
+            "display": "Pédopsychiatre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "44",
+            "display": "Veilleur de nuit",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "45",
+            "display": "Assistant(e) de soins en gérontologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "47",
+            "display": "Aide médico psychologique (AMP)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "50",
+            "display": "Avéjiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "51",
+            "display": "Instructeur en locomotion ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "52",
+            "display": "Educateur sportif",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "53",
+            "display": "Conseiller en insertion professionnelle ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "54",
+            "display": "Coordonnateur et gestionnaire de parcours handicap ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "55",
+            "display": "Neuropédiatre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "56",
+            "display": "Psychopédagogue ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "61",
+            "display": "Allergologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "63",
+            "display": "Cardiologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "64",
+            "display": "Chercheur médical",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "65",
+            "display": "Chirurgien digestif",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "66",
+            "display": "Chirurgien général",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "67",
+            "display": "Chirurgien maxillo-facial",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "69",
+            "display": "Chirurgien oral",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "70",
+            "display": "Chirurgien orthopédiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "71",
+            "display": "Chirurgien pédiatrique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "72",
+            "display": "Chirurgien plastique, plasticien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "73",
+            "display": "Chirurgien thoracique et cardiaque",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "74",
+            "display": "Chirurgien urologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "75",
+            "display": "Chirurgien vasculaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "76",
+            "display": "Dentiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "77",
+            "display": "Dermatologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "78",
+            "display": "Endocrinologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "79",
+            "display": "Gastro-entérologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "80",
+            "display": "Généticien médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "81",
+            "display": "Gériatre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "82",
+            "display": "Gynécologue ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "83",
+            "display": "Gynéco-obstétricien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "84",
+            "display": "Hématologue ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "85",
+            "display": "Infectiologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "86",
+            "display": "Infirmier en pratique avancée (IPA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "87",
+            "display": "Médecin anesthésiste-réanimateur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "90",
+            "display": "Médecin généraliste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "91",
+            "display": "Médecin interniste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "92",
+            "display": "Médecin légiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "93",
+            "display": "Médecin nucléaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "94",
+            "display": "Médecin rééducateur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "95",
+            "display": "Médecin vasculaire ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "96",
+            "display": "Néphrologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "97",
+            "display": "Neurochirurgien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "98",
+            "display": "Neurologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "99",
+            "display": "Neuro-psychiatre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "100",
+            "display": "Onco-hématologue ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "101",
+            "display": "Oncologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "102",
+            "display": "Ophtalmologue ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "103",
+            "display": "ORL",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "104",
+            "display": "Pathologiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "105",
+            "display": "Pédiatre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "106",
+            "display": "Pédopsychiatre ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "107",
+            "display": "Pneumologue ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "108",
+            "display": "Psychiatre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "109",
+            "display": "Radiologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "110",
+            "display": "Radiologue et radiothérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "111",
+            "display": "Radiothérapeute ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "112",
+            "display": "Réanimateur intensiviste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "113",
+            "display": "Rhumatologue ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "114",
+            "display": "Stomatologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          },
+          {
+            "code": "115",
+            "display": "Urgentiste ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.246"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

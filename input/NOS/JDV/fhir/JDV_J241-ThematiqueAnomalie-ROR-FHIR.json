@@ -1,0 +1,104 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J241-ThematiqueAnomalie-ROR",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2023-03-31T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J241-ThematiqueAnomalie-ROR/FHIR/JDV-J241-ThematiqueAnomalie-ROR",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.4.106"
+    }
+  ],
+  "version": "20230331120000",
+  "name": "JDV_J241-ThematiqueAnomalie-ROR",
+  "status": "active",
+  "date": "2023-03-31T12:00:00+01:00",
+  "description": "Thématique caractérisant une anomalie de donnée ROR",
+  "compose": {
+    "include": [
+      {
+        "system": "",
+        "concept": [
+          {
+            "code": "01",
+            "display": "Complétude",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.240     "
+              }
+            ]
+          },
+          {
+            "code": "02",
+            "display": "Exhaustivité",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.240     "
+              }
+            ]
+          },
+          {
+            "code": "03",
+            "display": "Cohérence",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.240     "
+              }
+            ]
+          },
+          {
+            "code": "04",
+            "display": "Récence",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.240     "
+              }
+            ]
+          },
+          {
+            "code": "05",
+            "display": "Structuration",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.240     "
+              }
+            ]
+          },
+          {
+            "code": "06",
+            "display": "Exactitude",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.240     "
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

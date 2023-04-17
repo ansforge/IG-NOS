@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R286-TypeFermeture"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2019-01-25T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.136"/>
+  </identifier>
+  <version value="20200424120000"/>
+  <name value="TRE_R286-TypeFermeture"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <description value="Type de fermeture, codes provenant du FINESS pour les EJ et EG"/>
+  <content value="complete"/>
+  <concept>
+    <code value="DEF"/>
+    <display value="Définitive"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Définitive"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Définitive"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-01-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-01-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ERR"/>
+    <display value="Erreur"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Erreur"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Erreur"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-01-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-01-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDI"/>
+    <display value="Non défini"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Non défini"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Non défini"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-01-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-01-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CHP"/>
+    <display value="Sortie du champ FINESS"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Sortie du champ FINESS"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Sortie du champ FINESS"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-01-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-01-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="EML"/>
+    <display value="Ancienne autorisation fonctionnement EML"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Anc autor fonct EML"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Ancienne autorisation fonctionnement EML"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-01-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-01-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PRO"/>
+    <display value="Provisoire"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Provisoire"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Provisoire"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-01-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-01-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

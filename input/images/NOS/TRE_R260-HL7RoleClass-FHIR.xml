@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R260-HL7RoleClass"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2018-03-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass"/>
+  <identifier>
+    <value value="urn:oid:2.16.840.1.113883.5.110"/>
+  </identifier>
+  <version value="20210326120000"/>
+  <name value="TRE_R260-HL7RoleClass"/>
+  <status value="active"/>
+  <date value="2021-03-26T12:00:00+01:00"/>
+  <description value="Rôle de la personne point de contact auprès d'une autre personne repris de la terminologie HL7 v3 RoleClass (https://www.hl7.org/fhir/v3/RoleClass/cs.html)"/>
+  <content value="complete"/>
+  <concept>
+    <code value="ECON"/>
+    <display value="Entité à contacter en cas d'urgence"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ECON"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Entité à contacter en cas d'urgence"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="GUARD"/>
+    <display value="Responsable légal"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="GUARD"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Responsable légal"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="QUAL"/>
+    <display value="Personne de confiance"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="QUAL"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Personne de confiance"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="POLHOLD"/>
+    <display value="Assuré ouvrant droit"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="POLHOLD"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Assuré ouvrant droit"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CON"/>
+    <display value="Informateur"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="CON"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Informateur"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CAREGIVER"/>
+    <display value="Aidant"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="CAREGIVER"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Aidant"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-10-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-10-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PAT"/>
+    <display value="Patient"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="PAT"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Patient"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-10-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-10-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PROV"/>
+    <display value="Professionnel de santé"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="PROV"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Professionnel de santé"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-03-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-03-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="AGNT"/>
+    <display value="Professionnel caractérisé par son rôle"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="AGNT"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Professionnel caractérisé par son rôle"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-03-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-03-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>
