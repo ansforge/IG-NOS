@@ -174,11 +174,11 @@ jobs:
       - name:  ZIP Jeux de valeurs du CI-SIS (ZIP
         run :  zip -rj IG-website-release/www/ig/nos/${{steps.version.outputs.prop}}/NOS/NOS-Jeux_de_Valeurs_CI-SIS.zip igRepo/input/images/NOS/*CISIS*  
 
-      - name: Auto Minify
-        uses: nizarmah/auto-minify@v2.1
-        with:
-          directory: 'IG-website-release'
-          overwrite: true
+      #- name: Auto Minify
+      #  uses: nizarmah/auto-minify@v2.1
+      #  with:
+      #    directory: 'IG-website-release'
+      #    overwrite: true
 
   
       - name: Commit change
