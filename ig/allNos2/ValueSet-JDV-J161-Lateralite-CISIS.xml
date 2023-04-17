@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J161-Lateralite-CISIS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="CodeSystem-TRE-R307-NCIT.html"><code>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C25228">C25228</a></td><td>Droit</td></tr><tr><td><a href="CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C25229">C25229</a></td><td>Gauche</td></tr><tr><td><a href="CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C13332">C13332</a></td><td>Bilatéral</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R308-TA-ASIP/FHIR/TRE-R308-TA-ASIP</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>GEN-242</td><td>Non applicable</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-04-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J161-Lateralite-CISIS/FHIR/JDV-J161-Lateralite-CISIS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.616"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="JDV_J161-Lateralite-CISIS"/>
+  <status value="active"/>
+  <date value="2021-04-30T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="JDV pour spécifier la latéralité"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+      <concept>
+        <code value="C25228"/>
+        <display value="Droit"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C25229"/>
+        <display value="Gauche"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C13332"/>
+        <display value="Bilatéral"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R308-TA-ASIP/FHIR/TRE-R308-TA-ASIP"/>
+      <concept>
+        <code value="GEN-242"/>
+        <display value="Non applicable"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.322"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

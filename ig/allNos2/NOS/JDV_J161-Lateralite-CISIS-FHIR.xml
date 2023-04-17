@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J161-Lateralite-CISIS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-04-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J161-Lateralite-CISIS/FHIR/JDV-J161-Lateralite-CISIS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.616"/>
+  </identifier>
+  <version value="20210430120000"/>
+  <name value="JDV_J161-Lateralite-CISIS"/>
+  <status value="active"/>
+  <date value="2021-04-30T12:00:00+01:00"/>
+  <description value="JDV pour spécifier la latéralité"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+      <concept>
+        <code value="C25228"/>
+        <display value="Droit"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C25229"/>
+        <display value="Gauche"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C13332"/>
+        <display value="Bilatéral"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R308-TA-ASIP/FHIR/TRE-R308-TA-ASIP"/>
+      <concept>
+        <code value="GEN-242"/>
+        <display value="Non applicable"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.322"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

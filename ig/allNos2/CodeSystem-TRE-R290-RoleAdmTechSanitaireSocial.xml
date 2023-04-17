@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R290-RoleAdmTechSanitaireSocial"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_R290-RoleAdmTechSanitaireSocial/FHIR/TRE-R290-RoleAdmTechSanitaireSocial</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">NUM<a name="TRE-R290-RoleAdmTechSanitaireSocial-NUM"> </a></td><td>Numérisateur de document de santé</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2019-04-26T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R290-RoleAdmTechSanitaireSocial/FHIR/TRE-R290-RoleAdmTechSanitaireSocial"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.139"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="TRE_R290-RoleAdmTechSanitaireSocial"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Rôle administratif et-ou technique des domaines sanitaire et social"/>
+  <content value="complete"/>
+  <concept>
+    <code value="NUM"/>
+    <display value="Numérisateur de document de santé"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Numérisateur document santé"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Numérisateur de document de santé"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-04-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

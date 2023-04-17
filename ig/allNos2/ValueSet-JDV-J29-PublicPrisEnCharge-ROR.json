@@ -1,0 +1,125 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "JDV-J29-PublicPrisEnCharge-ROR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R239-PublicPrisEnCharge.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R239-PublicPrisEnCharge.html#TRE-R239-PublicPrisEnCharge-01\">01</a></td><td>Personnes âgées en perte d'autonomie (PA) et aidants</td></tr><tr><td><a href=\"CodeSystem-TRE-R239-PublicPrisEnCharge.html#TRE-R239-PublicPrisEnCharge-02\">02</a></td><td>Personnes en situation de handicap (PH) et aidants</td></tr><tr><td><a href=\"CodeSystem-TRE-R239-PublicPrisEnCharge.html#TRE-R239-PublicPrisEnCharge-03\">03</a></td><td>Personnes âgées autonomes</td></tr><tr><td><a href=\"CodeSystem-TRE-R239-PublicPrisEnCharge.html#TRE-R239-PublicPrisEnCharge-04\">04</a></td><td>Personnes souffrant d'addictions</td></tr><tr><td><a href=\"CodeSystem-TRE-R239-PublicPrisEnCharge.html#TRE-R239-PublicPrisEnCharge-05\">05</a></td><td>Personnes handicapées vieillissantes</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/JDV_J29-PublicPrisEnCharge-ROR/FHIR/JDV-J29-PublicPrisEnCharge-ROR</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>06</td><td>Personnes en situation de précarité</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R240-TemporaliteAccueil.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R240-TemporaliteAccueil/FHIR/TRE-R240-TemporaliteAccueil</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R240-TemporaliteAccueil.html#TRE-R240-TemporaliteAccueil-07\">07</a></td><td>Tout public</td></tr></table></li><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/JDV_J30-TemporaliteAccueil-ROR/FHIR/JDV-J30-TemporaliteAccueil-ROR</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>08</td><td>Etudiants</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2017-10-13T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/JDV_J29-PublicPrisEnCharge-ROR/FHIR/JDV-J29-PublicPrisEnCharge-ROR",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.3.3.30"
+  }],
+  "version" : "0.1.0",
+  "name" : "JDV_J29-PublicPrisEnCharge-ROR",
+  "status" : "active",
+  "date" : "2023-01-27T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Public pris en charge - ROR",
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge",
+      "concept" : [{
+        "code" : "01",
+        "display" : "Personnes âgées en perte d'autonomie (PA) et aidants",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.29"
+        }]
+      },
+      {
+        "code" : "02",
+        "display" : "Personnes en situation de handicap (PH) et aidants",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.29"
+        }]
+      },
+      {
+        "code" : "03",
+        "display" : "Personnes âgées autonomes",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.29"
+        }]
+      },
+      {
+        "code" : "04",
+        "display" : "Personnes souffrant d'addictions",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.29"
+        }]
+      },
+      {
+        "code" : "05",
+        "display" : "Personnes handicapées vieillissantes",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.29"
+        }]
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/JDV_J29-PublicPrisEnCharge-ROR/FHIR/JDV-J29-PublicPrisEnCharge-ROR",
+      "concept" : [{
+        "code" : "06",
+        "display" : "Personnes en situation de précarité",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.30"
+        }]
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R240-TemporaliteAccueil/FHIR/TRE-R240-TemporaliteAccueil",
+      "concept" : [{
+        "code" : "07",
+        "display" : "Tout public",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.31"
+        }]
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/JDV_J30-TemporaliteAccueil-ROR/FHIR/JDV-J30-TemporaliteAccueil-ROR",
+      "concept" : [{
+        "code" : "08",
+        "display" : "Etudiants",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.32"
+        }]
+      }]
+    }]
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-G07-TypeIdentifiantStructure",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2010-11-04T00:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_G07-TypeIdentifiantStructure/FHIR/TRE-G07-TypeIdentifiantStructure",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.71.1.2.14"
+    }
+  ],
+  "version": "20230331120000",
+  "name": "TRE_G07-TypeIdentifiantStructure",
+  "status": "active",
+  "date": "2023-03-31T12:00:00+01:00",
+  "description": "Type d'identifiant de structure",
+  "content": "complete",
+  "property": [
+    {
+      "code": "dateValid",
+      "description": "date de validité d'un code concept",
+      "type": "dateTime"
+    },
+    {
+      "code": "dateMaj",
+      "description": "Date de mise à jour d'un code concept",
+      "type": "dateTime"
+    },
+    {
+      "code": "dateFin",
+      "description": "Date de fin d'exploitation d'un code concept",
+      "type": "dateTime"
+    }
+  "concept": [
+    {
+      "code": "0",
+      "display": "Id Cabinet ADELI",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Id Cabinet ADELI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Id Cabinet ADELI"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "display": "FINESS",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "FINESS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "FINESS"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "SIREN",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "SIREN"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "SIREN"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "SIRET",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "SIRET"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "SIRET"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "display": "Id Cabinet RPPS",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Id Cabinet RPPS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Id Cabinet RPPS"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2010-11-04T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "display": "FINESS EJ (entité juridique)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "FINESS EJ"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "FINESS EJ (entité juridique)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2013-04-30T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "display": "FINESS EG (établissement géographique)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "FINESS EG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "FINESS EG (établissement géographique)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2013-04-30T00:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2016-09-01T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "40",
+      "display": "Identifiant national de structure",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ID NAT STRUCT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Identifiant national de structure"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "41",
+      "display": "Identifiant interne de l'établissement connu par l’instance ROR",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RORR_T_EGID"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Identifiant interne de l'établissement connu par l’instance ROR"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

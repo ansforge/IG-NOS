@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-A09-DICOMuidRegistry"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2016-09-01T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry"/>
+  <identifier>
+    <value value="urn:oid:1.2.840.10008.2.6.1"/>
+  </identifier>
+  <version value="20220624120000"/>
+  <name value="TRE_A09-DICOMuidRegistry"/>
+  <status value="active"/>
+  <date value="2022-06-24T12:00:00+01:00"/>
+  <description value="DICOM UID Registry"/>
+  <content value="complete"/>
+  <concept>
+    <code value="urn:ihe:rad:1.2.840.10008.5.1.4.1.1.88.59"/>
+    <display value="Format des références d'objets d'imagerie selon profil IHE RAD XDS-I"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Format profil IHE RAD XDS-I"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Format des références d'objets d'imagerie selon profil IHE RAD XDS-I"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2017-10-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2017-10-13T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1.2.840.10008.5.1.4.1.1.88.59"/>
+    <display value="Document de Référence d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Ref Imagerie IHE RAD XDS-I"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Document de Référence d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-06-24T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

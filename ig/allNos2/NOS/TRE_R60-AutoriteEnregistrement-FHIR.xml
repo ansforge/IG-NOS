@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R60-AutoriteEnregistrement"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2016-02-02T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.57"/>
+  </identifier>
+  <version value="20220429120000"/>
+  <name value="TRE_R60-AutoriteEnregistrement"/>
+  <status value="active"/>
+  <date value="2022-04-29T12:00:00+01:00"/>
+  <description value="Autorité d'enregistrement"/>
+  <content value="complete"/>
+  <concept>
+    <code value="ARS-01"/>
+    <display value="ARS-01 : Guadeloupe"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Guadeloupe"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-01 : Guadeloupe"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-02"/>
+    <display value="ARS-02 : Martinique"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Martinique"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-02 : Martinique"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-03"/>
+    <display value="ARS-03 : Guyane"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Guyane"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-03 : Guyane"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-04"/>
+    <display value="ARS-04 : Océan Indien (La Réunion et Mayotte)"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Océan Indien"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-04 : Océan Indien (La Réunion et Mayotte)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-11"/>
+    <display value="ARS-11 : Ile-de-France"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Ile-de-France"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-11 : Ile-de-France"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-21"/>
+    <display value="ARS-21 : Champagne-Ardenne"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Champagne-Ardenne"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-21 : Champagne-Ardenne"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-22"/>
+    <display value="ARS-22 : Picardie"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Picardie"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-22 : Picardie"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-23"/>
+    <display value="ARS-23 : Haute-Normandie"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Haute-Normandie"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-23 : Haute-Normandie"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-24"/>
+    <display value="ARS-24 : Centre-Val-de-Loire"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Centre-Val-de-Loire"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-24 : Centre-Val-de-Loire"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-25"/>
+    <display value="ARS-25 : Basse-Normandie"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Basse-Normandie"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-25 : Basse-Normandie"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-26"/>
+    <display value="ARS-26 : Bourgogne"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Bourgogne"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-26 : Bourgogne"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-27"/>
+    <display value="ARS-27 : Bourgogne-Franche-Comté"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Bourgogne-Franche-Comté"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-27 : Bourgogne-Franche-Comté"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-28"/>
+    <display value="ARS-28 : Normandie"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Normandie"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-28 : Normandie"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-31"/>
+    <display value="ARS-31 : Nord-Pas-de-Calais"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Nord-Pas-de-Calais"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-31 : Nord-Pas-de-Calais"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-32"/>
+    <display value="ARS-32 : Hauts-de-France"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Hauts-de-France"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-32 : Hauts-de-France"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-41"/>
+    <display value="ARS-41 : Lorraine"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Lorraine"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-41 : Lorraine"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-42"/>
+    <display value="ARS-42 : Alsace"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Alsace"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-42 : Alsace"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-43"/>
+    <display value="ARS-43 : Franche-Comté"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Franche-Comté"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-43 : Franche-Comté"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-44"/>
+    <display value="ARS-44 : Grand-Est"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Grand-Est"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-44 : Grand-Est"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-52"/>
+    <display value="ARS-52 : Pays de la Loire"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Pays de la Loire"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-52 : Pays de la Loire"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-53"/>
+    <display value="ARS-53 : Bretagne"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Bretagne"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-53 : Bretagne"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-54"/>
+    <display value="ARS-54 : Poitou-Charentes"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Poitou-Charentes"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-54 : Poitou-Charentes"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-72"/>
+    <display value="ARS-72 : Aquitaine"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Aquitaine"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-72 : Aquitaine"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-73"/>
+    <display value="ARS-73 : Midi-Pyrénées"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Midi-Pyrénées"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-73 : Midi-Pyrénées"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-74"/>
+    <display value="ARS-74 : Limousin"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Limousin"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-74 : Limousin"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-75"/>
+    <display value="ARS-75 : Nouvelle-Aquitaine"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Nouvelle-Aquitaine"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-75 : Nouvelle-Aquitaine"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-76"/>
+    <display value="ARS-76 : Occitanie"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Occitanie"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-76 : Occitanie"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-82"/>
+    <display value="ARS-82 : Rhône-Alpes"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Rhône-Alpes"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-82 : Rhône-Alpes"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-83"/>
+    <display value="ARS-83 : Auvergne"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Auvergne"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-83 : Auvergne"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-84"/>
+    <display value="ARS-84 : Auvergne-Rhône-Alpes"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Auvergne-Rhône-Alpes"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-84 : Auvergne-Rhône-Alpes"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-91"/>
+    <display value="ARS-91 : Languedoc-Roussillon"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Languedoc-Roussillon"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-91 : Languedoc-Roussillon"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-93"/>
+    <display value="ARS-93 : Provence-Alpes-Côte d'Azur"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS PACA"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-93 : Provence-Alpes-Côte d'Azur"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ARS-94"/>
+    <display value="ARS-94 : Corse"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ARS Corse"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="ARS-94 : Corse"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="AT-975"/>
+    <display value="ATS de Saint-Pierre-Et-Miquelon"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ATS Saint-Pierre-Et-Miquelon"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Agence territoriale de santé (ATS) de Saint-Pierre-Et-Miquelon"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-04-29T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-04-29T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CNOM"/>
+    <display value="Ordre des médecins"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="CNOM"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Ordre des médecins"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2007-07-25T15:04:41+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2007-07-25T15:04:41+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CNOMK"/>
+    <display value="Ordre des masseurs-kinésithérapeutes"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="CNOMK"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Ordre des masseurs-kinésithérapeutes"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CNOP"/>
+    <display value="Ordre des pharmaciens"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="CNOP"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Ordre des pharmaciens"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2007-07-25T15:04:41+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2007-07-25T15:04:41+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CNOPP"/>
+    <display value="Ordre des pédicures-podologues"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="CNOPP"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Ordre des pédicures-podologues"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CNOSF"/>
+    <display value="Ordre des sages-femmes"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="CNOSF"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Ordre des sages-femmes"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2007-07-25T15:04:41+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2007-07-25T15:04:41+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ENREG"/>
+    <display value="Enregistrement par les AE locales (Structures)"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ENREG"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Enregistrement par les AE locales (Structures)"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="DescriptionMetier"/>
+      </use>
+      <value value="Code et libellé pour l'application ENREG en tant que application  déléguée pour l'enregistrement des professionnels à rôle par les  autorités d'enregistrement locales"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ONCD"/>
+    <display value="Ordre des chirurgiens-dentistes"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ONCD"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Ordre des chirurgiens-dentistes"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2007-07-25T15:04:41+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2007-07-25T15:04:41+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ONI"/>
+    <display value="Ordre des infirmiers"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ONI"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Ordre des infirmiers"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="SSA"/>
+    <display value="Service de santé des armées"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="SSA"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Service de santé des armées"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-08-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-08-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

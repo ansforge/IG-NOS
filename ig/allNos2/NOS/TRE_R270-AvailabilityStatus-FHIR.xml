@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R270-AvailabilityStatus"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2018-06-29T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R270-AvailabilityStatus/FHIR/TRE-R270-AvailabilityStatus"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.4.342"/>
+  </identifier>
+  <version value="20200424120000"/>
+  <name value="TRE_R270-AvailabilityStatus"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <description value="Statut de l'objet"/>
+  <content value="complete"/>
+  <concept>
+    <code value="urn:asip:ci-sis:2010:StatusType:Archived"/>
+    <display value="Version archivée et à jour"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Archivé"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Version archivée et à jour"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-06-29T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-06-29T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="urn:asip:ci-sis:2010:StatusType:Deleted"/>
+    <display value="Version dépubliée"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Supprimé"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Version dépubliée"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-06-29T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-06-29T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

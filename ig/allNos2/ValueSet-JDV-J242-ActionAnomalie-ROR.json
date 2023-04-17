@@ -1,0 +1,65 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "JDV-J242-ActionAnomalie-ROR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Import all the codes that are contained in </li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2023-03-31T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/JDV_J242-ActionAnomalie-ROR/FHIR/JDV-J242-ActionAnomalie-ROR",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.3.4.107"
+  }],
+  "version" : "0.1.0",
+  "name" : "JDV_J242-ActionAnomalie-ROR",
+  "status" : "active",
+  "date" : "2023-03-31T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Action attendue dans le cadre de la gestion d’une anomalie de donnée dans le ROR",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "AJO",
+        "display" : "Ajout",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.239     "
+        }]
+      },
+      {
+        "code" : "COR",
+        "display" : "Correction",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.239     "
+        }]
+      },
+      {
+        "code" : "SUP",
+        "display" : "Suppression",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.239     "
+        }]
+      }]
+    }]
+  }
+}

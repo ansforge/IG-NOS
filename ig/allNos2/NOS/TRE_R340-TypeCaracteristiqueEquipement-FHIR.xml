@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R340-TypeCaracteristiqueEquipement"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2022-09-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R340-TypeCaracteristiqueEquipement.tabs/FHIR/TRE-R340-TypeCaracteristiqueEquipement"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.3.223"/>
+  </identifier>
+  <version value="20220930120000"/>
+  <name value="TRE_R340-TypeCaracteristiqueEquipement"/>
+  <status value="active"/>
+  <date value="2022-09-30T12:00:00+01:00"/>
+  <description value="Type de caractéristique de l'équipement"/>
+  <content value="complete"/>
+  <concept>
+    <code value="001"/>
+    <display value="Poids maximum"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Poids max"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Poids maximum"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="DescriptionMetier"/>
+      </use>
+      <value value="Poids maximum supporté par l'équipement"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="002"/>
+    <display value="Diamètre maximum"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Diamètre max"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Diamètre maximum"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="DescriptionMetier"/>
+      </use>
+      <value value="Diamètre maximum autorisé par l'équipement"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

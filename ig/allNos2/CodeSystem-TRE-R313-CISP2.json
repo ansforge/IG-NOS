@@ -1,0 +1,56 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "TRE-R313-CISP2",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_R313-CISP2/FHIR/TRE-R313-CISP2</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">A05<a name=\"TRE-R313-CISP2-A05\"> </a></td><td>Lors d'un malaise</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-04-30T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R313-CISP2/FHIR/TRE-R313-CISP2",
+  "identifier" : [{
+    "value" : "urn:oid:2.16.840.1.113883.6.139"
+  }],
+  "version" : "0.1.0",
+  "name" : "TRE_R313-CISP2",
+  "status" : "active",
+  "date" : "2021-05-28T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "International Classification of Primary Care (ICPC), second edition Classification internationale des soins primaires version 2",
+  "content" : "complete",
+  "concept" : [{
+    "code" : "A05",
+    "display" : "Lors d'un malaise",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Lors d'un malaise"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Lors d'un malaise"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-04-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-04-30T12:00:00+01:00"
+    }]
+  }]
+}

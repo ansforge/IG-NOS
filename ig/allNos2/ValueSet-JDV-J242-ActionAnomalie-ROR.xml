@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J242-ActionAnomalie-ROR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Import all the codes that are contained in </li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2023-03-31T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J242-ActionAnomalie-ROR/FHIR/JDV-J242-ActionAnomalie-ROR"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.107"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="JDV_J242-ActionAnomalie-ROR"/>
+  <status value="active"/>
+  <date value="2023-03-31T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Action attendue dans le cadre de la gestion d’une anomalie de donnée dans le ROR"/>
+  <compose>
+    <include>
+      <concept>
+        <code value="AJO"/>
+        <display value="Ajout"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.239     "/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="COR"/>
+        <display value="Correction"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.239     "/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SUP"/>
+        <display value="Suppression"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.239     "/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

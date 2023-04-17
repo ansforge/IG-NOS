@@ -1,0 +1,106 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R310-CIM10> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R310-CIM10"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_R310-CIM10/FHIR/TRE-R310-CIM10</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">E10<a name=\"TRE-R310-CIM10-E10\"> </a></td><td>Diabète type 1</td></tr><tr><td style=\"white-space:nowrap\">O24.4<a name=\"TRE-R310-CIM10-O24.464\"> </a></td><td>Diabète de grossesse</td></tr><tr><td style=\"white-space:nowrap\">E14<a name=\"TRE-R310-CIM10-E14\"> </a></td><td>Autres types de diabète sucré</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R310-CIM10/FHIR/TRE-R310-CIM10"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.3" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R310-CIM10"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2021-05-28T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Classification Internationale des maladies (CIM) International Classification of Diseases revision 10 (ICD 10)"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "E10" ] ;
+     fhir:display [ fhir:v "Diabète type 1" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Diabète type 1" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diabète type 1" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "O24.4" ] ;
+     fhir:display [ fhir:v "Diabète de grossesse" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Diabète de grossesse" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diabète de grossesse" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "E14" ] ;
+     fhir:display [ fhir:v "Autres types de diabète sucré" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Autres types de diabète sucré" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autres types de diabète sucré" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

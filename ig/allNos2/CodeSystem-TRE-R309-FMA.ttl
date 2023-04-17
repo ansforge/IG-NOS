@@ -1,0 +1,211 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R309-FMA> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R309-FMA"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_R309-FMA/FHIR/TRE-R309-FMA</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">24890<a name=\"TRE-R309-FMA-24890\"> </a></td><td>Bras</td></tr><tr><td style=\"white-space:nowrap\">24922<a name=\"TRE-R309-FMA-24922\"> </a></td><td>Poignet</td></tr><tr><td style=\"white-space:nowrap\">14544<a name=\"TRE-R309-FMA-14544\"> </a></td><td>Rectum</td></tr><tr><td style=\"white-space:nowrap\">49184<a name=\"TRE-R309-FMA-49184\"> </a></td><td>Bouche</td></tr><tr><td style=\"white-space:nowrap\">52780<a name=\"TRE-R309-FMA-52780\"> </a></td><td>Oreille</td></tr><tr><td style=\"white-space:nowrap\">24864<a name=\"TRE-R309-FMA-24864\"> </a></td><td>Aisselle</td></tr><tr><td style=\"white-space:nowrap\">46450<a name=\"TRE-R309-FMA-46450\"> </a></td><td>Tempe</td></tr><tr><td style=\"white-space:nowrap\">63864<a name=\"TRE-R309-FMA-63864\"> </a></td><td>Front</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R309-FMA/FHIR/TRE-R309-FMA"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.119" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R309-FMA"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2021-05-28T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Foundational Model of Anatomy (FMA) ontology"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "24890" ] ;
+     fhir:display [ fhir:v "Bras" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Bras" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Bras" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "24922" ] ;
+     fhir:display [ fhir:v "Poignet" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Poignet" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Poignet" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "14544" ] ;
+     fhir:display [ fhir:v "Rectum" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Rectum" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Rectum" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "49184" ] ;
+     fhir:display [ fhir:v "Bouche" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Bouche" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Bouche" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "52780" ] ;
+     fhir:display [ fhir:v "Oreille" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Oreille" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Oreille" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "24864" ] ;
+     fhir:display [ fhir:v "Aisselle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Aisselle" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Aisselle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "46450" ] ;
+     fhir:display [ fhir:v "Tempe" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Tempe" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Tempe" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "63864" ] ;
+     fhir:display [ fhir:v "Front" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Front" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Front" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

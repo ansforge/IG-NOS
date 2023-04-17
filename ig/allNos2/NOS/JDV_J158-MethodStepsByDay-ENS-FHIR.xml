@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J158-MethodStepsByDay-ENS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-04-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J158-MethodStepsByDay-ENS/FHIR/JDV-J158-MethodStepsByDay-ENS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.613"/>
+  </identifier>
+  <version value="20210528120000"/>
+  <name value="JDV_J158-MethodStepsByDay-ENS"/>
+  <status value="active"/>
+  <date value="2021-05-28T12:00:00+01:00"/>
+  <description value="JDV pour la méthode de la mesure de nombre de pas par jour"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+      <concept>
+        <code value="C88165"/>
+        <display value="Podomètre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C153216"/>
+        <display value="Objet connecté"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C156877"/>
+        <display value="Application smartphone"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

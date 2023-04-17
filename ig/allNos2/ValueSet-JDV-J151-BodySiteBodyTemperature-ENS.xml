@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J151-BodySiteBodyTemperature-ENS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="CodeSystem-TRE-R309-FMA.html"><code>https://mos.esante.gouv.fr/NOS/TRE_R309-FMA/FHIR/TRE-R309-FMA</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-TRE-R309-FMA.html#TRE-R309-FMA-14544">14544</a></td><td>Rectum</td></tr><tr><td><a href="CodeSystem-TRE-R309-FMA.html#TRE-R309-FMA-49184">49184</a></td><td>Bouche</td></tr><tr><td><a href="CodeSystem-TRE-R309-FMA.html#TRE-R309-FMA-52780">52780</a></td><td>Oreille</td></tr><tr><td><a href="CodeSystem-TRE-R309-FMA.html#TRE-R309-FMA-24864">24864</a></td><td>Aisselle</td></tr><tr><td><a href="CodeSystem-TRE-R309-FMA.html#TRE-R309-FMA-46450">46450</a></td><td>Tempe</td></tr><tr><td><a href="CodeSystem-TRE-R309-FMA.html#TRE-R309-FMA-63864">63864</a></td><td>Front</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-04-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J151-BodySiteBodyTemperature-ENS/FHIR/JDV-J151-BodySiteBodyTemperature-ENS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.606"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="JDV_J151-BodySiteBodyTemperature-ENS"/>
+  <status value="active"/>
+  <date value="2021-04-30T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="JDV de localisation de la mesure de la température"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R309-FMA/FHIR/TRE-R309-FMA"/>
+      <concept>
+        <code value="14544"/>
+        <display value="Rectum"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.119"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="49184"/>
+        <display value="Bouche"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.119"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="52780"/>
+        <display value="Oreille"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.119"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="24864"/>
+        <display value="Aisselle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.119"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="46450"/>
+        <display value="Tempe"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.119"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="63864"/>
+        <display value="Front"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.119"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

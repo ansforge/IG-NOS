@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R297-AgregatDisciplineEnseignNiv3"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_R297-AgregatDisciplineEnseignNiv3/FHIR/TRE-R297-AgregatDisciplineEnseignNiv3</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">2210<a name="TRE-R297-AgregatDisciplineEnseignNiv3-2210"> </a></td><td>Formation des Personnels Sanitaires</td></tr><tr><td style="white-space:nowrap">2220<a name="TRE-R297-AgregatDisciplineEnseignNiv3-2220"> </a></td><td>Formation des Personnels Sociaux</td></tr><tr><td style="white-space:nowrap">2230<a name="TRE-R297-AgregatDisciplineEnseignNiv3-2230"> </a></td><td>Formation des Personnels Administratifs San. et Soc</td></tr><tr><td style="white-space:nowrap">2240<a name="TRE-R297-AgregatDisciplineEnseignNiv3-2240"> </a></td><td>Formation de cadre de santé</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2020-06-26T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R297-AgregatDisciplineEnseignNiv3/FHIR/TRE-R297-AgregatDisciplineEnseignNiv3"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.197"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="TRE_R297-AgregatDisciplineEnseignNiv3"/>
+  <status value="active"/>
+  <date value="2020-06-26T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Agrégats de disciplines pour l'enseignement niveau 3"/>
+  <content value="complete"/>
+  <concept>
+    <code value="2210"/>
+    <display value="Formation des Personnels Sanitaires"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Formation Personnels Sanit."/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Formation des Personnels Sanitaires"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2220"/>
+    <display value="Formation des Personnels Sociaux"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Formation Personnels Soc."/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Formation des Personnels Sociaux"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2230"/>
+    <display value="Formation des Personnels Administratifs San. et Soc"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Form.Person.Admin.San.Soc."/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Formation des Personnels Administratifs San. et Soc"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2240"/>
+    <display value="Formation de cadre de santé"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Formation de cadre de santé"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Formation de cadre de santé"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-G11-NatureQualificationADELI"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_G11-NatureQualificationADELI/FHIR/TRE-G11-NatureQualificationADELI</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">00<a name="TRE-G11-NatureQualificationADELI-00"> </a></td><td>Spécialité de concours hospitalier (SCH)</td></tr><tr><td style="white-space:nowrap">01<a name="TRE-G11-NatureQualificationADELI-01"> </a></td><td>Spécialité ordinale (SM)</td></tr><tr><td style="white-space:nowrap">02<a name="TRE-G11-NatureQualificationADELI-02"> </a></td><td>Compétence (C)</td></tr><tr><td style="white-space:nowrap">03<a name="TRE-G11-NatureQualificationADELI-03"> </a></td><td>Qualifié généraliste</td></tr><tr><td style="white-space:nowrap">04<a name="TRE-G11-NatureQualificationADELI-04"> </a></td><td>Compétence exclusive (CEX)</td></tr><tr><td style="white-space:nowrap">05<a name="TRE-G11-NatureQualificationADELI-05"> </a></td><td>Concours hospitalier</td></tr><tr><td style="white-space:nowrap">07<a name="TRE-G11-NatureQualificationADELI-07"> </a></td><td>DESC non qualifiant (DNQ)</td></tr><tr><td style="white-space:nowrap">08<a name="TRE-G11-NatureQualificationADELI-08"> </a></td><td>Capacité (CAPA)</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2015-12-28T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_G11-NatureQualificationADELI/FHIR/TRE-G11-NatureQualificationADELI"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.71.1.2.17"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="TRE_G11-NatureQualificationADELI"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Nature de qualification ADELI"/>
+  <content value="complete"/>
+  <concept>
+    <code value="00"/>
+    <display value="Spécialité de concours hospitalier (SCH)"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Spéc. concours hosp."/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Spécialité de concours hospitalier (SCH)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2000-12-13T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-04-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="01"/>
+    <display value="Spécialité ordinale (SM)"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Spécialité"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Spécialité ordinale (SM)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2000-12-13T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-04-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Compétence (C)"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Compétence"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Compétence (C)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2000-12-13T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-04-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="Qualifié généraliste"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Qual. généraliste"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Qualifié généraliste"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2000-12-13T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-04-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="04"/>
+    <display value="Compétence exclusive (CEX)"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Comp. exclusive"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Compétence exclusive (CEX)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2000-12-13T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-04-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="05"/>
+    <display value="Concours hospitalier"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Concours hosp."/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Concours hospitalier"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2000-12-13T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2016-04-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-04-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="07"/>
+    <display value="DESC non qualifiant (DNQ)"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="DNQ"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="DESC non qualifiant (DNQ)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2000-12-13T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="08"/>
+    <display value="Capacité (CAPA)"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Capacité"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Capacité (CAPA)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2000-12-13T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-04-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

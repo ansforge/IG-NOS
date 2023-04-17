@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J126-SecteurActivite-ENREG"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2020-11-27T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J126-SecteurActivite-ENREG/FHIR/JDV-J126-SecteurActivite-ENREG"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.212"/>
+  </identifier>
+  <version value="20230331120000"/>
+  <name value="JDV_J126-SecteurActivite-ENREG"/>
+  <status value="active"/>
+  <date value="2023-03-31T12:00:00+01:00"/>
+  <description value="Table des Secteur d'activité des structures Siret uniquement utilisé par ENREG pour enregistrer les structures absentes des référentiels de l'ANS."/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"/>
+      <concept>
+        <code value="SA09"/>
+        <display value="Exercice en société"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA10"/>
+        <display value="Transporteur sanitaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA13"/>
+        <display value="Prévention et soins en entreprise"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA14"/>
+        <display value="Etablissements scolaires, universitaires et de formation hors champ FINESS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA19"/>
+        <display value="Etablissements FINESS de formation aux professions sanitaires et sociales"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA22"/>
+        <display value="Recherche"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA23"/>
+        <display value="Assurance privée"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA24"/>
+        <display value="Organisme de sécurité sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA26"/>
+        <display value="Ministère ou Service déconcentré"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA27"/>
+        <display value="Collectivité territoriale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA28"/>
+        <display value="Association ou organisme humanitaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA31"/>
+        <display value="Répartition et Distribution de médicaments et dispositifs médicaux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA32"/>
+        <display value="Fabrication, Exploitation et Importation de médicaments et dispositifs médicaux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA35"/>
+        <display value="Para-pharmacie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA42"/>
+        <display value="Appareillage médical"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA43"/>
+        <display value="Secteur non défini"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA44"/>
+        <display value="Recrutement ou Gestion RH"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA45"/>
+        <display value="Communication, Marketing, Consulting, Média"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA46"/>
+        <display value="Fabrication, Exploitation, Importation, Répartition, Distribution médicaments et dispositifs médicaux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA47"/>
+        <display value="Incendie et secours"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA48"/>
+        <display value="Entreprise industrielle et tertiaire hors industrie pharmaceutique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA49"/>
+        <display value="Entité Outre-Mer"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA50"/>
+        <display value="Permanence de soins ambulatoires hors cabinet"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA51"/>
+        <display value="Structure de coopération avec autorisation de soins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA52"/>
+        <display value="Maison de santé ou Pôle de santé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA53"/>
+        <display value="Siège administratif d'un établissement de santé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA54"/>
+        <display value="Centre de dépistage et de prévention"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA57"/>
+        <display value="Structure de coopération avec mission de coordination de soins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA58"/>
+        <display value="Entreprise de taxis"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"/>
+      <concept>
+        <code value="SA62 "/>
+        <display value="Ordre professionnel de santé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4 "/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

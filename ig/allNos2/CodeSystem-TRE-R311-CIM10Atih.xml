@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R311-CIM10Atih"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_R311-CIM10Atih/FHIR/TRE-R311-CIM10Atih</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">E11.x0<a name="TRE-R311-CIM10Atih-E11.46x0"> </a></td><td>Diabète type 2 insulinotraité</td></tr><tr><td style="white-space:nowrap">E11.x8<a name="TRE-R311-CIM10Atih-E11.46x8"> </a></td><td>Diabète type 2 non insulinotraité</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-04-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R311-CIM10Atih/FHIR/TRE-R311-CIM10Atih"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.2.67"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="TRE_R311-CIM10Atih"/>
+  <status value="active"/>
+  <date value="2021-05-28T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="CIM-10 FR à usage PMSI"/>
+  <content value="complete"/>
+  <concept>
+    <code value="E11.x0"/>
+    <display value="Diabète type 2 insulinotraité"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Diabète type 2 insulinotraité"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Diabète type 2 insulinotraité"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-04-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-04-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="E11.x8"/>
+    <display value="Diabète type 2 non insulinotraité"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Diabète type 2 non insulinot."/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Diabète type 2 non insulinotraité"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-04-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-04-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

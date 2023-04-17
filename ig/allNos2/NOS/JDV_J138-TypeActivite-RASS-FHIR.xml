@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J138-TypeActivite-RASS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2020-11-27T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J138-TypeActivite-RASS/FHIR/JDV-J138-TypeActivite-RASS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.224"/>
+  </identifier>
+  <version value="20211126120000"/>
+  <name value="JDV_J138-TypeActivite-RASS"/>
+  <status value="active"/>
+  <date value="2021-11-26T12:00:00+01:00"/>
+  <description value="Type d'activité dans le RASS"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite"/>
+      <concept>
+        <code value="01"/>
+        <display value="Administration"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="03"/>
+        <display value="Hospitalisation Complète"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="04"/>
+        <display value="Hospitalisation de Jour"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="07"/>
+        <display value="Consultation Soins Externes"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="08"/>
+        <display value="Bloc Opératoire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="09"/>
+        <display value="Unité Médico-Technique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="Hébergement Complet Internat"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="12"/>
+        <display value="Hébergement de Nuit Regroupé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="13"/>
+        <display value="Semi-Internat"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="14"/>
+        <display value="Externat"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="15"/>
+        <display value="Placement Famille d'Accueil"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="16"/>
+        <display value="Prestation en milieu ordinaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="17"/>
+        <display value="Internat de Semaine"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="18"/>
+        <display value="Hébergement de Nuit Eclaté"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="19"/>
+        <display value="Traitement et Cure Ambulatoire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20"/>
+        <display value="Hospitalisation de Semaine"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="21"/>
+        <display value="Accueil de Jour (sans distinction entre semi-internat et externat)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="22"/>
+        <display value="Accueil de Nuit"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="25"/>
+        <display value="Accueil Temporaire Week-End Vacances"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="26"/>
+        <display value="Examens de Biologie Médicale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="27"/>
+        <display value="Accueil modulable/séquentiel"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="28"/>
+        <display value="Consultation Soins Dentaires"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="30"/>
+        <display value="Stockage Organes et Produits Humains"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="31"/>
+        <display value="Transport de Malades"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="33"/>
+        <display value="Recherche"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="34"/>
+        <display value="Enseignement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="37"/>
+        <display value="Accueil et prise en charge en appartement thérapeutique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="40"/>
+        <display value="Accueil temporaire avec hébergement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="41"/>
+        <display value="Permanence téléphonique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="42"/>
+        <display value="Equipe mobile de rue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="43"/>
+        <display value="Tous modes d'accueil avec hébergement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="44"/>
+        <display value="Accueil temporaire de jour"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="45"/>
+        <display value="Accueil temporaire (avec et sans hébergement)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="46"/>
+        <display value="Tous modes d'accueil (avec et sans hébergement)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="47"/>
+        <display value="Accueil de jour et accompagnement en milieu ordinaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="48"/>
+        <display value="Tous modes d'accueil et d'accompagnement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="50"/>
+        <display value="Protection Juridique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="51"/>
+        <display value="Aide Judiciaire à la Gestion du Budget Familial"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="52"/>
+        <display value="Accompagnement Social Personnalisé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="53"/>
+        <display value="Information des Tuteurs Familiaux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="60"/>
+        <display value="Consultations et actes"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="97"/>
+        <display value="Type d'activité indifferencié"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.2"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

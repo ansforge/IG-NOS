@@ -1,0 +1,55 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "JDV-J228-TypeCaracteristiqueEquipement-ROR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Import all the codes that are contained in </li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-08-26T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/JDV_J228-TypeCaracteristiqueEquipement-ROR/FHIR/JDV-J228-TypeCaracteristiqueEquipement-ROR",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.3.4.60"
+  }],
+  "version" : "0.1.0",
+  "name" : "JDV_J228-TypeCaracteristiqueEquipement-ROR",
+  "status" : "active",
+  "date" : "2022-08-26T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Type de caractéristique équipement",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "001",
+        "display" : "Poids maximum",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.223"
+        }]
+      },
+      {
+        "code" : "002",
+        "display" : "Diamètre maximum",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.223"
+        }]
+      }]
+    }]
+  }
+}

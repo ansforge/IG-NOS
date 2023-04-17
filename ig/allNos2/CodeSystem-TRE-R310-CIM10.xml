@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R310-CIM10"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_R310-CIM10/FHIR/TRE-R310-CIM10</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">E10<a name="TRE-R310-CIM10-E10"> </a></td><td>Diabète type 1</td></tr><tr><td style="white-space:nowrap">O24.4<a name="TRE-R310-CIM10-O24.464"> </a></td><td>Diabète de grossesse</td></tr><tr><td style="white-space:nowrap">E14<a name="TRE-R310-CIM10-E14"> </a></td><td>Autres types de diabète sucré</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-04-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R310-CIM10/FHIR/TRE-R310-CIM10"/>
+  <identifier>
+    <value value="urn:oid:2.16.840.1.113883.6.3"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="TRE_R310-CIM10"/>
+  <status value="active"/>
+  <date value="2021-05-28T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Classification Internationale des maladies (CIM) International Classification of Diseases revision 10 (ICD 10)"/>
+  <content value="complete"/>
+  <concept>
+    <code value="E10"/>
+    <display value="Diabète type 1"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Diabète type 1"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Diabète type 1"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-04-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-04-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="O24.4"/>
+    <display value="Diabète de grossesse"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Diabète de grossesse"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Diabète de grossesse"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-04-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-04-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="E14"/>
+    <display value="Autres types de diabète sucré"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Autres types de diabète sucré"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Autres types de diabète sucré"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-04-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-04-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

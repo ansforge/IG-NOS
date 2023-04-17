@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J241-ThematiqueAnomalie-ROR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Import all the codes that are contained in </li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2023-03-31T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J241-ThematiqueAnomalie-ROR/FHIR/JDV-J241-ThematiqueAnomalie-ROR"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.106"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="JDV_J241-ThematiqueAnomalie-ROR"/>
+  <status value="active"/>
+  <date value="2023-03-31T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Thématique caractérisant une anomalie de donnée ROR"/>
+  <compose>
+    <include>
+      <concept>
+        <code value="01"/>
+        <display value="Complétude"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.240     "/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="02"/>
+        <display value="Exhaustivité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.240     "/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="03"/>
+        <display value="Cohérence"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.240     "/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="04"/>
+        <display value="Récence"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.240     "/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="05"/>
+        <display value="Structuration"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.240     "/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="06"/>
+        <display value="Exactitude"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.240     "/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R258-RelationPriseCharge"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2018-03-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.4.2.280"/>
+  </identifier>
+  <version value="20201217120000"/>
+  <name value="TRE_R258-RelationPriseCharge"/>
+  <status value="active"/>
+  <date value="2020-12-17T12:00:00+01:00"/>
+  <description value="Relation dans la prise en charge du patient"/>
+  <content value="complete"/>
+  <concept>
+    <code value="CORRE"/>
+    <display value="Correspondant"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Correspondant"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Correspondant"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="MES"/>
+    <display value="Membre de l'équipe de soins"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Membre de l'équipe de soins"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Membre de l'équipe de soins"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2019-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-04-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NUM"/>
+    <display value="Numérisateur du document de santé"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Numérisateur document santé"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Numérisateur du document de santé"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-01-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2019-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-04-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PRELV"/>
+    <display value="Préleveur"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Préleveur"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Préleveur"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2020-12-17T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2020-12-17T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

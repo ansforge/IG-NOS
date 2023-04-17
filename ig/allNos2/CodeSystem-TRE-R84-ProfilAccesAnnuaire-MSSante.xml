@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R84-ProfilAccesAnnuaire-MSSante"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_R84-ProfilAccesAnnuaire-MSSante/FHIR/TRE-R84-ProfilAccesAnnuaire-MSSante</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">OPER<a name="TRE-R84-ProfilAccesAnnuaire-MSSante-OPER"> </a></td><td>Opérateur MSSanté</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2013-07-25T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R84-ProfilAccesAnnuaire-MSSante/FHIR/TRE-R84-ProfilAccesAnnuaire-MSSante"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.9.1.1"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="TRE_R84-ProfilAccesAnnuaire-MSSante"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Profil d'accès à l'annuaire MSSante"/>
+  <content value="complete"/>
+  <concept>
+    <code value="OPER"/>
+    <display value="Opérateur MSSanté"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Opérateur MSSanté"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Opérateur MSSanté"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2013-07-25T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2013-07-25T00:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

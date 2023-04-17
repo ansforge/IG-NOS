@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R266-FamilleActiviteOperationnelleHorsSerafin"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_R266-FamilleActiviteOperationnelleHorsSerafin/FHIR/TRE-R266-FamilleActiviteOperationnelleHorsSerafin</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">01<a name="TRE-R266-FamilleActiviteOperationnelleHorsSerafin-01"> </a></td><td>Accompagnement des aidants</td></tr><tr><td style="white-space:nowrap">02<a name="TRE-R266-FamilleActiviteOperationnelleHorsSerafin-02"> </a></td><td>Prévention et éducation thérapeutique</td></tr><tr><td style="white-space:nowrap">03<a name="TRE-R266-FamilleActiviteOperationnelleHorsSerafin-03"> </a></td><td>Prévention des violences</td></tr><tr><td style="white-space:nowrap">04<a name="TRE-R266-FamilleActiviteOperationnelleHorsSerafin-04"> </a></td><td>Hébergement et logement</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2018-05-31T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R266-FamilleActiviteOperationnelleHorsSerafin/FHIR/TRE-R266-FamilleActiviteOperationnelleHorsSerafin"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.3.61"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="TRE_R266-FamilleActiviteOperationnelleHorsSerafin"/>
+  <status value="active"/>
+  <date value="2023-01-27T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Familles activités opérationnelles hors Serafin"/>
+  <content value="complete"/>
+  <concept>
+    <code value="01"/>
+    <display value="Accompagnement des aidants"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Accompagnement des aidants"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Accompagnement des aidants"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-05-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-05-31T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Prévention et éducation thérapeutique"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Prévention et éduc thérap"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Prévention et éducation thérapeutique"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-05-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-05-31T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="Prévention des violences"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Prévention des violences"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Prévention des violences"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-01-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-01-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="04"/>
+    <display value="Hébergement et logement"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Hébergement et logement"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Hébergement et logement"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-01-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-01-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

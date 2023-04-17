@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R329-NatureCapacite"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">01<a name="TRE-R329-NatureCapacite-01"> </a></td><td>Lit</td></tr><tr><td style="white-space:nowrap">02<a name="TRE-R329-NatureCapacite-02"> </a></td><td>Place</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2022-05-27T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.3.212"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="TRE_R329-NatureCapacite"/>
+  <status value="active"/>
+  <date value="2022-05-27T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Permet d'indiquer si la capacité est exprimée en lits ou en places"/>
+  <content value="complete"/>
+  <concept>
+    <code value="01"/>
+    <display value="Lit"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Lit"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Lit"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Place"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Place"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Place"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,104 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "TRE-R90-TypeAE",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_R90-TypeAE/FHIR/TRE-R90-TypeAE</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R90-TypeAE-01\"> </a></td><td>Ordre</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R90-TypeAE-02\"> </a></td><td>ARS</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R90-TypeAE-03\"> </a></td><td>Structure</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2016-03-22T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R90-TypeAE/FHIR/TRE-R90-TypeAE",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.74"
+  }],
+  "version" : "0.1.0",
+  "name" : "TRE_R90-TypeAE",
+  "status" : "active",
+  "date" : "2020-04-24T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Type Autorité d'enregistrement",
+  "content" : "complete",
+  "concept" : [{
+    "code" : "01",
+    "display" : "Ordre",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Ordre"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Ordre"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "02",
+    "display" : "ARS",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "ARS"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "ARS"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "03",
+    "display" : "Structure",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Structure"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Structure"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    }]
+  }]
+}

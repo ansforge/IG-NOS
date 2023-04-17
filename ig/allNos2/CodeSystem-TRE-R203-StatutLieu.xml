@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R203-StatutLieu"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_R203-StatutLieu/FHIR/TRE-R203-StatutLieu</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="TRE-R203-StatutLieu-1"> </a></td><td>Fermé définitivement</td></tr><tr><td style="white-space:nowrap">2<a name="TRE-R203-StatutLieu-2"> </a></td><td>Fermé temporairement</td></tr><tr><td style="white-space:nowrap">3<a name="TRE-R203-StatutLieu-3"> </a></td><td>Opérationnel</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2015-03-25T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R203-StatutLieu/FHIR/TRE-R203-StatutLieu"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.3.4"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="TRE_R203-StatutLieu"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Statut lieu"/>
+  <content value="complete"/>
+  <concept>
+    <code value="1"/>
+    <display value="Fermé définitivement"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="FD"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Fermé définitivement"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-03-25T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2015-03-25T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Fermé temporairement"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="FT"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Fermé temporairement"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-03-25T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2015-03-25T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Opérationnel"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="OP"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Opérationnel"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-03-25T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2015-03-25T00:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,84 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "TRE-R291-AutreProfession",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">950<a name=\"TRE-R291-AutreProfession-950\"> </a></td><td>Acteur caractérisé par son rôle</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"TRE-R291-AutreProfession-99\"> </a></td><td>Acteur caractérisé par son rôle</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2019-07-05T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.140"
+  }],
+  "version" : "0.1.0",
+  "name" : "TRE_R291-AutreProfession",
+  "status" : "active",
+  "date" : "2020-05-29T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Liste de professionnels non membres d'une profession réglementée",
+  "content" : "complete",
+  "concept" : [{
+    "code" : "950",
+    "display" : "Acteur caractérisé par son rôle",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Acteur caractérisé par rôle"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Acteur caractérisé par son rôle"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-07-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "99",
+    "display" : "Acteur caractérisé par son rôle",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Acteur caractérisé par rôle"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Acteur caractérisé par son rôle"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-07-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    }]
+  }]
+}

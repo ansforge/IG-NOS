@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R336-TypeCrise"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2022-05-27T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R336-TypeCrise/FHIR/TRE-R336-TypeCrise"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.3.219"/>
+  </identifier>
+  <version value="20220527120000"/>
+  <name value="TRE_R336-TypeCrise"/>
+  <status value="active"/>
+  <date value="2022-05-27T12:00:00+01:00"/>
+  <description value="Permet d'indiquer le type de crise qui permet de mobiliser le nombre de lits supplémentaires décrits"/>
+  <content value="complete"/>
+  <concept>
+    <code value="01"/>
+    <display value="PMIE 1"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="PMIE 1"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="PMIE 1"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Situation sanitaire Exceptionnelle (SSE) (Plan blanc)"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="SSE (Plan blanc)"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Situation sanitaire Exceptionnelle (SSE) (Plan blanc)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

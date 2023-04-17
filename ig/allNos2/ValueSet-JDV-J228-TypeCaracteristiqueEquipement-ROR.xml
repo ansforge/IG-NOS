@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J228-TypeCaracteristiqueEquipement-ROR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Import all the codes that are contained in </li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2022-08-26T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J228-TypeCaracteristiqueEquipement-ROR/FHIR/JDV-J228-TypeCaracteristiqueEquipement-ROR"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.60"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="JDV_J228-TypeCaracteristiqueEquipement-ROR"/>
+  <status value="active"/>
+  <date value="2022-08-26T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Type de caractéristique équipement"/>
+  <compose>
+    <include>
+      <concept>
+        <code value="001"/>
+        <display value="Poids maximum"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.223"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="002"/>
+        <display value="Diamètre maximum"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.223"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

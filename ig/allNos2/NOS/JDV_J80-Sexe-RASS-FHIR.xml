@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J80-Sexe-RASS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2019-08-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J80-Sexe-RASS/FHIR/JDV-J80-Sexe-RASS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.148"/>
+  </identifier>
+  <version value="20200424120000"/>
+  <name value="JDV_J80-Sexe-RASS"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <description value="Sexe des professionnels du RASS"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe"/>
+      <concept>
+        <code value="U"/>
+        <display value="Inconnu"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.53"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="F"/>
+        <display value="Féminin"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.53"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="M"/>
+        <display value="Masculin"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.53"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="O"/>
+        <display value="Autre sexe (ni masculin, ni féminin)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.53"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

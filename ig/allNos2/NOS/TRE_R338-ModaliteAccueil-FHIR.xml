@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R338-ModaliteAccueil"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2022-09-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.3.221"/>
+  </identifier>
+  <version value="20230217120000"/>
+  <name value="TRE_R338-ModaliteAccueil"/>
+  <status value="active"/>
+  <date value="2023-02-17T12:00:00+01:00"/>
+  <description value="Modalités d'accueil"/>
+  <content value="complete"/>
+  <concept>
+    <code value="01"/>
+    <display value="Accueil séquentiel accepté"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Accueil séquentiel accepté"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Accueil séquentiel accepté"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Prise en charge directe SMUR"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Prise en charge directe SMUR"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Prise en charge directe SMUR"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="Consultation en présentiel"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Consultation en présentiel"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Consultation en présentiel"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="04"/>
+    <display value="Téléconsultation"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Téléconsultation"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Téléconsultation"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="05"/>
+    <display value="Visite à domicile"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Visite à domicile"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Visite à domicile"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="06"/>
+    <display value="Prise en charge sans rendez-vous"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Prise en charge sans RDV"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Prise en charge sans rendez-vous"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="07"/>
+    <display value="Accueil anonyme"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Accueil anonyme"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Accueil anonyme"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="08"/>
+    <display value="Accueil réservé aux femmes"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Accueil réservé aux femmes"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Accueil réservé aux femmes"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="09"/>
+    <display value="Participation aux gardes/astreintes"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="gardes/astreintes"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Participation aux gardes/astreintes"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-09-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="Téléexpertise en moins de 24h"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Téléexpertise - de 24h"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Téléexpertise en moins de 24h"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-02-17T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-02-17T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <display value="Téléexpertise en moins de 7 jours"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Téléexpertise - de 7 jours"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Téléexpertise en moins de 7 jours"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-02-17T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-02-17T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <display value="Téléexpertise en plus de 7 jours"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Téléexpertise + de 7 jours"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Téléexpertise en plus de 7 jours"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-02-17T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-02-17T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J116-GenreActivite-ENREG"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2020-05-29T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J116-GenreActivite-ENREG/FHIR/JDV-J116-GenreActivite-ENREG"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.187"/>
+  </identifier>
+  <version value="20220624120000"/>
+  <name value="JDV_J116-GenreActivite-ENREG"/>
+  <status value="active"/>
+  <date value="2022-06-24T12:00:00+01:00"/>
+  <description value="Genre d'activité pour ENREG"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite"/>
+      <concept>
+        <code value="GENR01"/>
+        <display value="Activité de soin et de pharmacie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GENR08"/>
+        <display value="Coordination et orientation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GENR09"/>
+        <display value="Administratif ou appui à l'organisation de l'accompagnement social/médico-social"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GENR10"/>
+        <display value="Accompagnement social/médico-social à la vie sociale, professionnelle, éducative"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GENR11"/>
+        <display value="Accompagnement social/médico-social au soin"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GENR12"/>
+        <display value="Encadrement et organisation de l'accompagnement social/médico-social"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

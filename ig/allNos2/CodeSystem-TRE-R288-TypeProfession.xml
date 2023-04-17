@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R288-TypeProfession"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_R288-TypeProfession/FHIR/TRE-R288-TypeProfession</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">P01<a name="TRE-R288-TypeProfession-P01"> </a></td><td>Professionnel de santé</td></tr><tr><td style="white-space:nowrap">P02<a name="TRE-R288-TypeProfession-P02"> </a></td><td>Usager de titre professionnel</td></tr><tr><td style="white-space:nowrap">P03<a name="TRE-R288-TypeProfession-P03"> </a></td><td>Professionnel soumis à agrément</td></tr><tr><td style="white-space:nowrap">P04<a name="TRE-R288-TypeProfession-P04"> </a></td><td>Professionnel en formation</td></tr><tr><td style="white-space:nowrap">P05<a name="TRE-R288-TypeProfession-P05"> </a></td><td>Professionnel du social</td></tr><tr><td style="white-space:nowrap">P06<a name="TRE-R288-TypeProfession-P06"> </a></td><td>Autre profession</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2019-03-29T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R288-TypeProfession/FHIR/TRE-R288-TypeProfession"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.137"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="TRE_R288-TypeProfession"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Type de profession"/>
+  <content value="complete"/>
+  <concept>
+    <code value="P01"/>
+    <display value="Professionnel de santé"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="PS"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Professionnel de santé (PS)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-03-29T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-03-29T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="P02"/>
+    <display value="Usager de titre professionnel"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Usager de titre"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Usager de titre professionnel"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-03-29T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-03-29T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="P03"/>
+    <display value="Professionnel soumis à agrément"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Prof soumis à agrément"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Professionnel soumis à agrément"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-03-29T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-03-29T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="P04"/>
+    <display value="Professionnel en formation"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="PF"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Professionnel en formation (PF)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-03-29T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-03-29T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="P05"/>
+    <display value="Professionnel du social"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Professionnel du social"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Professionnel du social"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-03-29T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-03-29T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="P06"/>
+    <display value="Autre profession"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Autre profession"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Autre profession"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-07-05T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-07-05T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

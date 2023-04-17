@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R335-TypeSourceCapacite"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2022-05-27T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R335-TypeSourceCapacite/FHIR/TRE-R335-TypeSourceCapacite"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.3.218"/>
+  </identifier>
+  <version value="20220527120000"/>
+  <name value="TRE_R335-TypeSourceCapacite"/>
+  <status value="active"/>
+  <date value="2022-05-27T12:00:00+01:00"/>
+  <description value="Permet d'indiquer quel type de source est à l'origine de l'information de capacité"/>
+  <content value="complete"/>
+  <concept>
+    <code value="01"/>
+    <display value="Saisie manuelle"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Saisie manuelle"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Saisie manuelle"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Bed management"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Bed management"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Bed management"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="Gestion administrative du malade (GAM)"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="GAM"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Gestion administrative du malade (GAM)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="04"/>
+    <display value="Dossier patient informatisé (DPI)"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="DPI"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Dossier patient informatisé (DPI)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

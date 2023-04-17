@@ -1,0 +1,80 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "TRE-G13-OrientationParticuliere",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_G13-OrientationParticuliere/FHIR/TRE-G13-OrientationParticuliere</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">80<a name=\"TRE-G13-OrientationParticuliere-80\"> </a></td><td>Homéopathie</td></tr><tr><td style=\"white-space:nowrap\">81<a name=\"TRE-G13-OrientationParticuliere-81\"> </a></td><td>Acupuncture</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2013-06-28T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_G13-OrientationParticuliere/FHIR/TRE-G13-OrientationParticuliere",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.2.31"
+  }],
+  "version" : "0.1.0",
+  "name" : "TRE_G13-OrientationParticuliere",
+  "status" : "active",
+  "date" : "2020-04-24T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Orientation particulière",
+  "content" : "complete",
+  "concept" : [{
+    "code" : "80",
+    "display" : "Homéopathie",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Homéopathie"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Homéopathie"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-27T17:03:14+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "81",
+    "display" : "Acupuncture",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Acupuncture"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Acupuncture"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-27T17:03:14+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    }]
+  }]
+}

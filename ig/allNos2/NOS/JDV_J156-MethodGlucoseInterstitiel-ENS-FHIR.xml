@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J156-MethodGlucoseInterstitiel-ENS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-04-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J156-MethodGlucoseInterstitiel-ENS/FHIR/JDV-J156-MethodGlucoseInterstitiel-ENS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.611"/>
+  </identifier>
+  <version value="20210430120000"/>
+  <name value="JDV_J156-MethodGlucoseInterstitiel-ENS"/>
+  <status value="active"/>
+  <date value="2021-04-30T12:00:00+01:00"/>
+  <description value="JDV pour la méthode de mesure du glucose interstitiel"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+      <concept>
+        <code value="C159776"/>
+        <display value="Capteur de glucose"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

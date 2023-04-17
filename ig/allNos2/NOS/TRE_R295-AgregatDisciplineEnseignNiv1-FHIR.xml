@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R295-AgregatDisciplineEnseignNiv1"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod">
+    <valuePeriod>
+      <start value="2020-06-26T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R295-AgregatDisciplineEnseignNiv1/FHIR/TRE-R295-AgregatDisciplineEnseignNiv1"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.195"/>
+  </identifier>
+  <version value="20200626120000"/>
+  <name value="TRE_R295-AgregatDisciplineEnseignNiv1"/>
+  <status value="active"/>
+  <date value="2020-06-26T12:00:00+01:00"/>
+  <description value="Agrégats de disciplines pour l'enseignement niveau 1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="2000"/>
+    <display value="Disciplines d'enseignement"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Disciplines d'enseignement"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Disciplines d'enseignement"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,277 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J227-NiveauExpertise-ROR",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2022-08-26T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J227-NiveauExpertise-ROR/FHIR/JDV-J227-NiveauExpertise-ROR",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.4.59"
+    }
+  ],
+  "version": "20230217120000",
+  "name": "JDV_J227-NiveauExpertise-ROR",
+  "status": "active",
+  "date": "2023-02-17T12:00:00+01:00",
+  "description": "Type de maternité",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R253-TypeMaternite/FHIR/TRE-R253-TypeMaternite",
+        "concept": [
+          {
+            "code": "01",
+            "display": "Maternité de type 1",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.52"
+              }
+            ]
+          },
+          {
+            "code": "02",
+            "display": "Maternité de type 2A",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.52"
+              }
+            ]
+          },
+          {
+            "code": "03",
+            "display": "Maternité de type 2B",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.52"
+              }
+            ]
+          },
+          {
+            "code": "04",
+            "display": "Maternité de type 3",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.52"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise",
+        "concept": [
+          {
+            "code": "10",
+            "display": "Centre de référence labellisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.228"
+              }
+            ]
+          },
+          {
+            "code": "11",
+            "display": "Centre de compétences labellisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.228"
+              }
+            ]
+          },
+          {
+            "code": "12",
+            "display": "Structure spécialisée labellisée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.228"
+              }
+            ]
+          },
+          {
+            "code": "13",
+            "display": "SMR Labellisé soins dédiées aux personnes en état de conscience altérée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.228"
+              }
+            ]
+          },
+          {
+            "code": "14",
+            "display": "SMR Labellisé patients amputés, appareillés ou non",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.228"
+              }
+            ]
+          },
+          {
+            "code": "15",
+            "display": "SMR Labellisé affections cardio-vasculaires spécialisé réadaptation PREcoce Post-Aiguë Cardiologique (PREPAC)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.228"
+              }
+            ]
+          },
+          {
+            "code": "16",
+            "display": "SMR Labellisé affections respiratoires spécialisé réadaptation PREcoce Post-Aiguë Respiratoire (PREPAR)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.228"
+              }
+            ]
+          },
+          {
+            "code": "17",
+            "display": "SMR Labellisé affections du système nerveux spécialisé neuro-orthopédique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.228"
+              }
+            ]
+          },
+          {
+            "code": "18",
+            "display": "SMR Labellisé affections du système nerveux spécialisé réadaptation post-réanimation (SRPR)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.228"
+              }
+            ]
+          },
+          {
+            "code": "19",
+            "display": "SMR Labellisé affections du système nerveux spécialisé réadaptation PREcoce Post-Aiguë Neurologique (PREPAN)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.228"
+              }
+            ]
+          },
+          {
+            "code": "20",
+            "display": "SMR Labellisé affections du système nerveux spécialisé troubles cognitifs et comportementaux des patients cérébro-lésés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.228"
+              }
+            ]
+          },
+          {
+            "code": "21",
+            "display": "SMR Labellisé affections du système nerveux spécialisé lésions médullaires",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.228"
+              }
+            ]
+          },
+          {
+            "code": "22",
+            "display": "SMR Labellisé affections endocrino-métaboliques et nutrition spécialisé obésités complexes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.228"
+              }
+            ]
+          },
+          {
+            "code": "23",
+            "display": "SMR Labellisé spécialisé troubles cognitifs sévères liés à une conduite addictive",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.228"
+              }
+            ]
+          },
+          {
+            "code": "24",
+            "display": "SMR Labellisé prise en charge du polyhandicap",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.228"
+              }
+            ]
+          },
+          {
+            "code": "25",
+            "display": "SMR Labellisé prise en charge des troubles du langage et des apprentissages",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.228"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

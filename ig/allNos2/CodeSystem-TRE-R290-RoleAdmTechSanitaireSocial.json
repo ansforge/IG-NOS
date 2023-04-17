@@ -1,0 +1,56 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "TRE-R290-RoleAdmTechSanitaireSocial",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://mos.esante.gouv.fr/NOS/TRE_R290-RoleAdmTechSanitaireSocial/FHIR/TRE-R290-RoleAdmTechSanitaireSocial</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">NUM<a name=\"TRE-R290-RoleAdmTechSanitaireSocial-NUM\"> </a></td><td>Numérisateur de document de santé</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2019-04-26T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R290-RoleAdmTechSanitaireSocial/FHIR/TRE-R290-RoleAdmTechSanitaireSocial",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.139"
+  }],
+  "version" : "0.1.0",
+  "name" : "TRE_R290-RoleAdmTechSanitaireSocial",
+  "status" : "active",
+  "date" : "2020-04-24T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Rôle administratif et-ou technique des domaines sanitaire et social",
+  "content" : "complete",
+  "concept" : [{
+    "code" : "NUM",
+    "display" : "Numérisateur de document de santé",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Numérisateur document santé"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Numérisateur de document de santé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-04-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-04-26T12:00:00+01:00"
+    }]
+  }]
+}
