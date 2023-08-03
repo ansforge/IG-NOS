@@ -2,8 +2,8 @@
   "resourceType": "CodeSystem",
   "id": "TRE-R227-ChampActivite",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2023-07-18T13:34:45.154+00:00",
+    "versionId": "3",
+    "lastUpdated": "2023-08-02T12:13:10.473+00:00",
     "profile": [ "http://hl7.org/fhir/StructureDefinition/shareablecodesystem" ]
   },
   "extension": [ {
@@ -17,11 +17,11 @@
     "system": "urn:ietf:rfc:3986",
     "value": "urn:oid:1.2.250.1.213.3.3.17"
   } ],
-  "version": "20230718120000",
+  "version": "20230802150000",
   "name": "TRE_R227_ChampActivite",
   "status": "active",
   "experimental": false,
-  "date": "2023-07-18T12:00:00-00:00",
+  "date": "2023-08-02T12:00:00-00:00",
   "publisher": "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description": "Champ d'activité",
   "caseSensitive": false,
@@ -38,6 +38,10 @@
     "code": "dateFin",
     "description": "Date de fin d'exploitation d'un code concept",
     "type": "dateTime"
+  }, {
+    "code": "006-Consignes-DAC",
+    "description": "Propriété en lien avec la génération de la fiche de peupelement 006-Consignes-DAC du ROR",
+    "type": "boolean"
   } ],
   "concept": [ {
     "code": "01",
@@ -112,6 +116,9 @@
     }, {
       "code": "dateMaj",
       "valueDateTime": "2017-10-13T12:00:00+01:00"
+    }, {
+      "code": "006-Consignes-DAC",
+      "valueBoolean": true
     } ]
   }, {
     "code": "05",
