@@ -22,17 +22,17 @@
   "status": "active",
   "experimental": false,
   "date": "2023-07-18T12:00:00-00:00",
-  "publisher": "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description": "Liste de types d'évènement",
+  "publisher": "Agence du NumÃ©rique en SantÃ© (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description": "Liste de types d'Ã©vÃ¨nement",
   "caseSensitive": false,
   "content": "complete",
   "property": [ {
     "code": "dateValid",
-    "description": "date de validité d'un code concept",
+    "description": "date de validitÃ© d'un code concept",
     "type": "dateTime"
   }, {
     "code": "dateMaj",
-    "description": "Date de mise à jour d'un code concept",
+    "description": "Date de mise Ã  jour d'un code concept",
     "type": "dateTime"
   }, {
     "code": "dateFin",
@@ -41,7 +41,7 @@
   } ],
   "concept": [ {
     "code": "ADM",
-    "display": "Admission d'un patient dans un établissement de santé",
+    "display": "Admission d'un patient dans un Ã©tablissement de santÃ©",
     "property": [ {
       "code": "dateValid",
       "valueDateTime": "2018-03-30T12:00:00+01:00"
@@ -51,7 +51,7 @@
     } ]
   }, {
     "code": "AUT",
-    "display": "Autorisation de paiement de la facture des dispositifs médicaux",
+    "display": "Autorisation de paiement de la facture des dispositifs mÃ©dicaux",
     "property": [ {
       "code": "dateValid",
       "valueDateTime": "2020-08-28T12:00:00+01:00"
@@ -61,13 +61,13 @@
     } ]
   }, {
     "code": "CDM",
-    "display": "Commande de dispositifs médicaux",
+    "display": "Commande de dispositifs mÃ©dicaux",
     "designation": [ {
       "use": {
         "system": "http://snomed.info/sct",
         "code": "900000000000013009"
       },
-      "value": "Commande de dispositifs médicaux de l'établissement de santé auprès d'un fabricant"
+      "value": "Commande de dispositifs mÃ©dicaux de l'Ã©tablissement de santÃ© auprÃ¨s d'un fabricant"
     } ],
     "property": [ {
       "code": "dateValid",
@@ -78,13 +78,13 @@
     } ]
   }, {
     "code": "DEL",
-    "display": "Délivrance des dispositifs médicaux",
+    "display": "DÃ©livrance des dispositifs mÃ©dicaux",
     "designation": [ {
       "use": {
         "system": "http://snomed.info/sct",
         "code": "900000000000013009"
       },
-      "value": "Délivrance des dispositifs médicaux au service en charge de la pose chez le patient"
+      "value": "DÃ©livrance des dispositifs mÃ©dicaux au service en charge de la pose chez le patient"
     } ],
     "property": [ {
       "code": "dateValid",
@@ -95,7 +95,7 @@
     } ]
   }, {
     "code": "DEM",
-    "display": "Demande de dispositifs médicaux à la pharmacie de l'établissement de santé",
+    "display": "Demande de dispositifs mÃ©dicaux Ã  la pharmacie de l'Ã©tablissement de santÃ©",
     "property": [ {
       "code": "dateValid",
       "valueDateTime": "2020-08-28T12:00:00+01:00"
@@ -105,7 +105,7 @@
     } ]
   }, {
     "code": "DOC",
-    "display": "Dépôt de document pour un patient",
+    "display": "DÃ©pÃ´t de document pour un patient",
     "property": [ {
       "code": "dateValid",
       "valueDateTime": "2018-03-30T12:00:00+01:00"
@@ -115,7 +115,7 @@
     } ]
   }, {
     "code": "ECH",
-    "display": "Echec de pose du dispositif médical",
+    "display": "Echec de pose du dispositif mÃ©dical",
     "property": [ {
       "code": "dateValid",
       "valueDateTime": "2019-12-13T12:00:00+01:00"
@@ -125,7 +125,7 @@
     } ]
   }, {
     "code": "ESD",
-    "display": "Entrée de stock des dispositifs médicaux au sein de l'établissement de santé",
+    "display": "EntrÃ©e de stock des dispositifs mÃ©dicaux au sein de l'Ã©tablissement de santÃ©",
     "property": [ {
       "code": "dateValid",
       "valueDateTime": "2019-12-13T12:00:00+01:00"
@@ -135,13 +135,13 @@
     } ]
   }, {
     "code": "NCO",
-    "display": "DM non-conforme, avec un risque inacceptable pour la santé et la sécurité",
+    "display": "DM non-conforme, avec un risque inacceptable pour la santÃ© et la sÃ©curitÃ©",
     "designation": [ {
       "use": {
         "system": "http://snomed.info/sct",
         "code": "900000000000013009"
       },
-      "value": "Dispositif médical non-conforme, présentant un risque inacceptable pour la santé et la sécurité"
+      "value": "Dispositif mÃ©dical non-conforme, prÃ©sentant un risque inacceptable pour la santÃ© et la sÃ©curitÃ©"
     } ],
     "property": [ {
       "code": "dateValid",
@@ -152,7 +152,7 @@
     } ]
   }, {
     "code": "NOT",
-    "display": "Création d'une note pour un patient dans le cahier de liaison",
+    "display": "CrÃ©ation d'une note pour un patient dans le cahier de liaison",
     "property": [ {
       "code": "dateValid",
       "valueDateTime": "2018-03-30T12:00:00+01:00"
@@ -162,7 +162,7 @@
     } ]
   }, {
     "code": "NRE",
-    "display": "Réception non valide du dispositif médical par l'établissement de santé",
+    "display": "RÃ©ception non valide du dispositif mÃ©dical par l'Ã©tablissement de santÃ©",
     "property": [ {
       "code": "dateValid",
       "valueDateTime": "2020-08-28T12:00:00+01:00"
@@ -172,13 +172,13 @@
     } ]
   }, {
     "code": "NREC",
-    "display": "Réception NOK du DM par l'établissement de santé ou le service utilisateur",
+    "display": "RÃ©ception NOK du DM par l'Ã©tablissement de santÃ© ou le service utilisateur",
     "designation": [ {
       "use": {
         "system": "http://snomed.info/sct",
         "code": "900000000000013009"
       },
-      "value": "Réception non valide d'un dispositif médical par l'établissement de santé ou le service utilisateur"
+      "value": "RÃ©ception non valide d'un dispositif mÃ©dical par l'Ã©tablissement de santÃ© ou le service utilisateur"
     } ],
     "property": [ {
       "code": "dateValid",
@@ -192,7 +192,7 @@
     } ]
   }, {
     "code": "PER",
-    "display": "Dispositif médical périmé",
+    "display": "Dispositif mÃ©dical pÃ©rimÃ©",
     "property": [ {
       "code": "dateValid",
       "valueDateTime": "2019-12-13T12:00:00+01:00"
@@ -202,7 +202,7 @@
     } ]
   }, {
     "code": "POS",
-    "display": "Pose du dispositif médical",
+    "display": "Pose du dispositif mÃ©dical",
     "property": [ {
       "code": "dateValid",
       "valueDateTime": "2019-12-13T12:00:00+01:00"
@@ -212,13 +212,13 @@
     } ]
   }, {
     "code": "REA",
-    "display": "Demande de réassort en DM",
+    "display": "Demande de rÃ©assort en DM",
     "designation": [ {
       "use": {
         "system": "http://snomed.info/sct",
         "code": "900000000000013009"
       },
-      "value": "Demande de réassort en dispositifs médicaux"
+      "value": "Demande de rÃ©assort en dispositifs mÃ©dicaux"
     } ],
     "property": [ {
       "code": "dateValid",
@@ -229,7 +229,7 @@
     } ]
   }, {
     "code": "REC",
-    "display": "Réception valide du dispositif médical par l'établissement de santé",
+    "display": "RÃ©ception valide du dispositif mÃ©dical par l'Ã©tablissement de santÃ©",
     "property": [ {
       "code": "dateValid",
       "valueDateTime": "2019-12-13T12:00:00+01:00"
@@ -239,13 +239,13 @@
     } ]
   }, {
     "code": "REP",
-    "display": "Réponse de la pharmacie au service responsable de la demande",
+    "display": "RÃ©ponse de la pharmacie au service responsable de la demande",
     "designation": [ {
       "use": {
         "system": "http://snomed.info/sct",
         "code": "900000000000013009"
       },
-      "value": "Réponse de la pharmacie de l'établissement de santé au service responsable de la demande"
+      "value": "RÃ©ponse de la pharmacie de l'Ã©tablissement de santÃ© au service responsable de la demande"
     } ],
     "property": [ {
       "code": "dateValid",
@@ -256,7 +256,7 @@
     } ]
   }, {
     "code": "SDM",
-    "display": "Suppression de la demande de dispositif médicaux",
+    "display": "Suppression de la demande de dispositif mÃ©dicaux",
     "property": [ {
       "code": "dateValid",
       "valueDateTime": "2020-08-28T12:00:00+01:00"
@@ -266,7 +266,7 @@
     } ]
   }, {
     "code": "SOR",
-    "display": "Sortie d'un patient de l'établissement de santé",
+    "display": "Sortie d'un patient de l'Ã©tablissement de santÃ©",
     "property": [ {
       "code": "dateValid",
       "valueDateTime": "2018-03-30T12:00:00+01:00"
@@ -276,7 +276,7 @@
     } ]
   }, {
     "code": "SSD",
-    "display": "Sortie de stock des dispositifs médicaux",
+    "display": "Sortie de stock des dispositifs mÃ©dicaux",
     "property": [ {
       "code": "dateValid",
       "valueDateTime": "2019-12-13T12:00:00+01:00"
@@ -286,7 +286,7 @@
     } ]
   }, {
     "code": "TRA",
-    "display": "Transport des dispositifs médicaux",
+    "display": "Transport des dispositifs mÃ©dicaux",
     "property": [ {
       "code": "dateValid",
       "valueDateTime": "2020-08-28T12:00:00+01:00"
