@@ -64,23 +64,6 @@ jobs:
       - name: 🏃‍♂️ Run IG Publisher
         run : java -Xmx10g -jar publisher.jar publisher -ig .  -publish https://ansforge.github.io/IG-NOS/ig/${{ steps.branch-name.outputs.current_branch }}/ -tx
 
-
-        
-      - name: Setup Python # Set Python version
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10' 
-
-      - name: Run script python
-        run: python download.py './temp/pages/' './template_nos/includes/template.download.html'
-        
-      - name: Liste des repertoires
-        run : |
-          cd  temp/pages/
-          ls -a
-          
-      - name: Re-Run jekyll
-        run : jekyll build --destination "./output" --source  "./temp/pages"
       
 
       #- name: Install zip
