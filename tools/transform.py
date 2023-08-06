@@ -21,8 +21,10 @@ with PySaxonProcessor(license=False) as proc:
             matchCS = re.match(r'CodeSystem-(.*)\.xml$', filename)
             if matchCS:
                 matchedValue = matchCS.group(1)
-                output = executable.transform_to_file(source_file=dir_path +"\\" +filename, stylesheet_file=xsl_file, output_file=dir_path+ "\\NOS\\" +'CodeSystem-'+matchedValue +"-svs.xml")
+                output = executable.transform_to_file(source_file=dir_path +"\\" +filename, stylesheet_file=xsl_file, output_file=dir_path+ "/NOS/" +'CodeSystem-'+matchedValue +"-svs.xml")
+                print(matchedValue)
             matchCS = re.match(r'ValueSet-(.*)\.xml$', filename)
             if matchCS:
                 matchedValue = matchCS.group(1)
-                output = executable.transform_to_file(source_file=dir_path +"\\" +filename, stylesheet_file=xsl_file, output_file=dir_path+ "\\NOS\\" +'ValueSet-'+matchedValue +"-svs.xml")    
+                output = executable.transform_to_file(source_file=dir_path +"\\" +filename, stylesheet_file=xsl_file, output_file=dir_path+ "/NOS/" +'ValueSet-'+matchedValue +"-svs.xml") 
+                print(matchedValue)
