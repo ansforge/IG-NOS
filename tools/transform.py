@@ -22,7 +22,7 @@ with PySaxonProcessor(license=False) as proc:
             if matchCS:
                 matchedValue = matchCS.group(1)
                 output = executable.transform_to_file(source_file=dir_path +"/" +filename, stylesheet_file=xsl_file + "/fhirCodeSystemtosvs.xslt", output_file=dir_path+ "/NOS/" +'CodeSystem-'+matchedValue +"-svs.xml")
-                 output = executable.transform_to_file(source_file=dir_path +"/" +filename, stylesheet_file=xsl_file + "/fhirCodeSystemtotabs.xslt", output_file=dir_path+ "/NOS/" +'CodeSystem-'+matchedValue +".tabs")
+                output = executable.transform_to_file(source_file=dir_path +"/" +filename, stylesheet_file=xsl_file + "/fhirCodeSystemtotabs.xslt", output_file=dir_path+ "/NOS/" +'CodeSystem-'+matchedValue +".tabs")
                 print(matchedValue)
             matchCS = re.match(r'ValueSet-(.*)\.xml$', filename)
             if matchCS:
