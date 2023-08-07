@@ -77,7 +77,7 @@ jobs:
         run :  zip -rj ./output/NOS/NOS-tre-fhir-xml.zip ./output/CodeSystem*.xml         
         
       - name:  2 ZIP TRE FHIR tabs
-        run :  zip -rj ./output/NOS/NOS-tre-tabs.zip ./output/NOS/images/NOS/CodeSystem*.tabs
+        run :  zip -rj ./output/NOS/NOS-tre-tabs.zip ./output/NOS/CodeSystem*.tabs
         
     
       - name:  3 ZIP ASS PDF
