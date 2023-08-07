@@ -37,6 +37,20 @@ jobs:
       - name: 🏃‍♂️ Run IG Publisher
         run : java -Xmx8192m -jar publisher.jar publisher -ig .  -publish https://github.io/
 
+
+      - name: Setup Python # Set Python version
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' 
+
+      - name: Install saxon
+        run : pip install saxonche
+
+      - name: Run script python
+        run: python ./tools/transform.py './output' './tools/xsl/fhirtosvs.xslt'
+
+
+
       - name: Get branch names
         id: branch-name
         uses: tj-actions/branch-names@v4.3
