@@ -14,19 +14,29 @@
             <ValueSet displayName="{/f:ValueSet/f:name/@value}" 
                 id="{substring-after(/f:ValueSet/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:')}" 
                 version="{/f:ValueSet/f:version/@value}"
-                dateFin=""
+                dateFin="{/f:ValueSet/f:extension/f:valuePeriod/f:end/@value}"
                 dateMaj=""
-                datevalid=""
+                dateValid="{/f:ValueSet/f:extension/f:valuePeriod/f:start/@value}"
                 description=""
-                typeFichier=""
-                urlFichier=""
+                typeFichier="JDV"
+                urlFichier="{/f:ValueSet/f:url/@value}"
                 
                 >
-                <ConceptList xml:lang="en-US">
+                <ConceptList>
                     <xsl:for-each select='//f:concept'>
                         <xsl:variable name='system' select='$cs/codesystems/codesystem[@uri=current()/../f:system/@value]'/>
-                        <concept code='{f:code/@value}' displayName='{f:display/@value}'
-                            codeSystem='{$system/@oid}' codeSystemName='{$system/@name}'/>
+                        <concept 
+                            code='{f:code/@value}' 
+                            codeSystem='{../f:system/@value}' 
+                            codeSystemName='{$system/@name}'
+                            dateFin="{f:property/f:code[@value='dateFin']/../f:valueDateTime/@value}"
+                            dateMaj="{f:property/f:code[@value='dateMaj']/../f:valueDateTime/@value}"
+                            dateValid="{f:property/f:code[@value='dateValid']/../f:valueDateTime/@value}"
+                            displayName='{f:display/@value}'
+                            longDesignation=""
+                            shortDesignation=""
+                            descriptionMetier=""
+                            />
                     </xsl:for-each>
                 </ConceptList>
             </ValueSet>
