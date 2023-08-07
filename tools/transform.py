@@ -13,7 +13,7 @@ xsl_file = sys.argv[2]
 
 with PySaxonProcessor(license=False) as proc:
     xsltproc = proc.new_xslt30_processor()
-    executable = xsltproc.compile_stylesheet(stylesheet_file=xsl_file)
+    executable = xsltproc.compile_stylesheet(stylesheet_file=xsl_file + "/fhirCodeSystemtosvs.xslt")
     for filename in os.listdir(dir_path):
         # vérifier si c'est un fichier
         if os.path.isfile(os.path.join(dir_path, filename)):
