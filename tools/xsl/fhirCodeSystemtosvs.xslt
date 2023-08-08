@@ -15,7 +15,7 @@
                 id="{substring-after(/f:CodeSystem/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:')}" 
                 version="{/f:CodeSystem/f:version/@value}"
                 dateFin="{/f:CodeSystem/f:extension/f:valuePeriod/f:end/@value}"
-                dateMaj=""
+                dateMaj="{/f:CodeSystem/f:meta/f:lastUpdated/@value}"
                 dateValid="{/f:CodeSystem/f:extension/f:valuePeriod/f:start/@value}"
                 description=""
                 typeFichier="TRE"
@@ -27,15 +27,13 @@
                         <xsl:variable name='system' select='$cs/codesystems/codesystem[@uri=current()/../f:system/@value]'/>
                         <concept 
                             code='{f:code/@value}' 
-                            codeSystem='{$system/@oid}' 
-                            codeSystemName='{$system/@name}'
+                            codeSystem="{substring-after(//f:CodeSystem/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:')}" 
                             dateFin="{f:property/f:code[@value='dateFin']/../f:valueDateTime/@value}"
                             dateMaj="{f:property/f:code[@value='dateMaj']/../f:valueDateTime/@value}"
                             dateValid="{f:property/f:code[@value='dateValid']/../f:valueDateTime/@value}"
                             displayName='{f:display/@value}'
-                            longDesignation=""
-                            shortDesignation=""
-                            descriptionMetier=""
+                            longDesignation="{f:display/@value}"
+                            shortDesignation="{f:designation/f:use/f:code[@value='900000000000013009']/../../f:value/@value}"
                             />
                     </xsl:for-each>
                 </ConceptList>
