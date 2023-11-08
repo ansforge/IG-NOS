@@ -1,0 +1,56 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/r5/fhir-single.xsd">
+    
+    Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits d’une ou plusieurs TRE. Un jeu de valeurs est créé à des fins applicatives.
+    Par exemple avec les JDV du répertoire opérationnel des ressources (ROR) ou bien du cadre d’interopérabilité des systèmes d’information de santé (CI-SIS).
+    <br/>
+    <br/>
+
+
+    <ul class="nav nav-tabs">
+    <li ><a href="jdv.html">Ensemble des JDV</a></li>
+    <li  class="active"><a href="#" >NOS</a></li>
+    <li><a href="telechargement-jdv.html">Téléchargement</a></li>
+  </ul>
+      <p>      
+       Liste  des JDV du NOS "CISIS"
+          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%CISIS' %}
+      </p>
+      <p>      
+       Liste  des JDV du NOS "DMP"
+          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%DMP' %}
+      </p>    
+      <p>      
+       Liste  des JDV du NOS "RASS"
+          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%RASS' %}
+      </p>   
+      <p>      
+       Liste  des JDV du NOS "ENREG"
+          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and  url like '%ENREG' %}
+      </p>  
+      <p>      
+       Liste  des JDV du NOS "MDPH"
+          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%MDPH' %}
+      </p>      
+      <p>      
+       Liste  des JDV du NOS "ENS"
+          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ENS' %}
+      </p>  
+      <p>      
+       Liste  des JDV du NOS "ROR"
+          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ROR' %}
+      </p>      
+      <p>      
+       Liste  des JDV du NOS "EPARS"
+          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%EPARS' %}
+      </p>   
+       <p>      
+       Liste  des JDV du NOS "SAS"
+          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%SAS' %}
+      </p>      
+  </div>
+
+
+
+
+
+ 
