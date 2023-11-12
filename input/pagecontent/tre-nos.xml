@@ -13,48 +13,28 @@
     <li class="active"><a href="#" >NOS</a></li>
     <li><a href="telechargement-tre.html">Téléchargement</a></li>
   </ul>
-  <div class="accordion" id="accordionExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            CPS
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-            {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_G%' %}
-        </div>
-      </div>
-    </div>
+  
+      <p>
+          
+       Liste  des TRE du NOS "CPS"
+          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_G%' %}
+      </p>
 
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-            CI-SIS
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_A%' %}
-          </div>
-        </div>
-      </div>
-   
+      <p>
+          
+       Liste  des TRE du NOS "CI-SIS"
+          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_A%' %}
+      </p>    
 
-    
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-            RPPS
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_R%' %}
-        </div>
-      </div>
-    </div>
+      <p>
+          
+       Liste  des TRE du NOS "RPPS"
+          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_R%' %}
+      </p>   
 
-</div>
-   
+      <p>
+          
+       Liste  des TRE du NOS (autre)
+          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name not like 'TRE_R%'  and name not like 'TRE_A%' and name not like 'TRE_G%' %}
+      </p>       
   </div>
