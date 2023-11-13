@@ -67,7 +67,67 @@ jobs:
           unzip nos-fichiers_publics-versions_xml_fhir.zip -d ./input/images/NOS
           
            
-          
+      - name:  1 ZIP JDV PDF
+        run :  zip -rj ./output/NOS/NOS-jdv-pdf.zip ./input/images/NOS/JDV_*.pdf        
+        
+      - name:  1 ZIP JDV SVS
+        run :  zip -rj ./output/NOS/NOS-jdv-svs.zip ./input/images/NOS/JDV_*.xml  -x "*FHIR*"   
+        
+      - name:  1 ZIP JDV FHIR JSON
+        run :  zip -rj ./output/NOS/NOS-jdv-fhir-json.zip ./input/images/NOS/JDV_*-FHIR.json     
+        
+      - name:  1 ZIP JDV FHIR XML
+        run :  zip -rj ./output/NOS/NOS-jdv-fhir-xml.zip ./input/images/NOS/JDV_*-FHIR.xml         
+        
+      - name:  1 ZIP JDV FHIR tabs
+        run :  zip -rj ./output/NOS/NOS-jdv-tabs.zip ./input/images/NOS/JDV_*.tabs 
+        
+      - name:  2 ZIP TRE PDF
+        run :  zip -rj ./output/NOS/NOS-tre-pdf.zip ./input/images/NOS/TRE_*.pdf        
+        
+      - name:  2 ZIP TRE SVS
+        run :  zip -rj ./output/NOS/NOS-tre-svs.zip ./input/images/NOS/TRE*.xml  -x "*FHIR*"   
+        
+      - name:  2 ZIP TRE FHIR JSON
+        run :  zip -rj ./output/NOS/NOS-tre-fhir-json.zip ./input/images/NOS/TRE*-FHIR.json     
+        
+      - name:  2 ZIP TRE FHIR XML
+        run :  zip -rj ./output/NOS/NOS-tre-fhir-xml.zip ./input/images/NOS/TRE*-FHIR.xml         
+        
+      - name:  2 ZIP TRE FHIR tabs
+        run :  zip -rj ./output/NOS/NOS-tre-tabs.zip ./input/images/NOS/TRE*.tabs 
+        
+    
+      - name:  3 ZIP ASS PDF
+        run :  zip -rj ./output/NOS/NOS-ass-pdf.zip ./input/images/NOS/ASS_*.pdf        
+        
+      - name:  3 ZIP ASS SVS
+        run :  zip -rj ./output/NOS/NOS-ass-svs.zip ./input/images/NOS/ASS*.xml  -x "*FHIR*"   
+        
+      - name:  3 ZIP ASS FHIR JSON
+        run :  zip -rj ./output/NOS/NOS-ass-fhir-json.zip ./input/images/NOS/ASS*-FHIR.json     
+        
+      - name:  3 ZIP ASS FHIR XML
+        run :  zip -rj ./output/NOS/NOS-ass-fhir-xml.zip ./input/images/NOS/ASS*-FHIR.xml         
+        
+      - name:  3 ZIP ASS FHIR tabs
+        run :  zip -rj ./output/NOS/NOS-ass-tabs.zip ./input/images/NOS/ASS*.tabs     
+    
+        
+      - name:  ZIP Ensemble des NOS au format CSV 
+        run :  zip -rj ./output/NOS/NOS-Fichiers_Publics.zip ./input/images/NOS/*.tabs  
+ 
+      - name:  ZIP Ensemble des NOS au format XML/SVS 
+        run :  zip -rj ./output/NOS/NOS-Fichiers_Publics-Versions_xml_svs.zip ./input/images/NOS/*.xml  -x "*FHIR*"    
+
+      - name:  ZIP Ensemble des NOS au format JSON/FHIR (ZIP)
+        run :  zip -rj ./output/NOS/NOS-Fichiers_Publics-Versions_json_fhir.zip ./input/images/NOS/*-FHIR.json    
+
+      - name:  ZIP Ensemble des NOS au format XML/FHIR (ZIP)
+        run :  zip -rj ./output/NOS/Nos-fichiers_publics-versions_xml_fhir.zip ./input/images/NOS/*-FHIR.xml   
+
+      - name:  ZIP Jeux de valeurs du CI-SIS (ZIP
+        run :  zip -rj ./output/NOS/NOS-Jeux_de_Valeurs_CI-SIS.zip ./input/images/NOS/*CISIS*            
           
 
           
