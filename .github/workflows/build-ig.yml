@@ -32,15 +32,19 @@ jobs:
           
       - name: Get From site esante     
         run: |
+          #Creation des répertoires d'init
           mkdir ./input/ontoserver
           mkdir ./input/ontoserver/JDV
           mkdir ./input/ontoserver/TRE
           mkdir ./input/ontoserver/ASS
           mkdir ./input/ontoserver/NamingSystem
+          mkdir  ./input/images/NOS/
           mkdir ./input/NOS
+          #Recuperation des NOS en json
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics-Versions_json_fhir.zip
           unzip NOS-Fichiers_Publics-Versions_json_fhir.zip -d ./input/NOS
-          cp  NOS-Fichiers_Publics-Versions_json_fhir.zip ./input/images
+          cp  NOS-Fichiers_Publics-Versions_json_fhir.zip ./input/images/NOS
+          #Suppression des fichiers en erreur
           rm ./input/NOS/TRE_R13-Commune-FHIR.json
           rm ./input/NOS/ASS_X12-CommuneDeptRegionOM-FHIR.json
           rm ./input/NOS/JDV_J120-CommuneHistorisee-FHIR.json
@@ -49,12 +53,19 @@ jobs:
           rm ./input/NOS/ASS_X16-CorrespondanceType-Classe-DMP-FHIR.json
           rm ./input/NOS/JDV_J151-BodySiteBodyTemperature-ENS-FHIR.json
           rm ./input/NOS/ASS_*
+          #Recucperation des fichiers .tabs
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics.zip
-          cp  NOS-Fichiers_Publics.zip ./input/images
+          cp  NOS-Fichiers_Publics.zip ./input/images/NOS/
+          unzip NOS-Fichiers_Publics.zip -d ./input/images/NOS
+          #Recupération des fichiers SVS
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics-Versions_xml_svs.zip
-          cp  NOS-Fichiers_Publics-Versions_xml_svs.zip ./input/images
+          cp  NOS-Fichiers_Publics-Versions_xml_svs.zip ./input/images/NOS
+          unzip NOS-Fichiers_Publics-Versions_xml_svs.zip -d ./input/images/NOS
+          #Récupération des fichiers xml Fhir
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/nos-fichiers_publics-versions_xml_fhir.zip
-          cp  nos-fichiers_publics-versions_xml_fhir.zip ./input/images
+          cp  nos-fichiers_publics-versions_xml_fhir.zip ./input/images/NOS
+          unzip nos-fichiers_publics-versions_xml_fhir.zip -d ./input/images/NOS
+          
            
           
           
