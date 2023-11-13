@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J250-MotifStatutPersonnePriseChargeUnite"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2023-06-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J250-MotifStatutPersonnePriseChargeUnite/FHIR/JDV-J250-MotifStatutPersonnePriseChargeUnite"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.114"/>
+  </identifier>
+  <version value="20230922120000"/>
+  <name value="JDV_J250-MotifStatutPersonnePriseChargeUnite"/>
+  <status value="active"/>
+  <date value="2023-09-22T12:00:00+01:00"/>
+  <description value="Motif du statut de la personne prise en charge au sein d'une unité"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge"/>
+      <concept>
+        <code value="84"/>
+        <display value="Le demandeur ne remplit pas les exigences d'admission"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="85"/>
+        <display value="Volonté du demandeur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="87"/>
+        <display value="L'usager est admis dans un autre ESMS suite à un déménagement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="88"/>
+        <display value="Suite à la décision de la CDAPH"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="89"/>
+        <display value="L'usager ne souhaite plus être pris en charge par l'ESMS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="91"/>
+        <display value="L'usager est admis dans un autre ESMS suite à une réorientation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="92"/>
+        <display value="Amélioration notoire de la situation de l'usager"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="93"/>
+        <display value="Aggravation notoire de la situation de l'usager"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="95"/>
+        <display value="Annulation automatique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="98"/>
+        <display value="Fin de validité de la notification"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="100"/>
+        <display value="Volonté de l'usager"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="109"/>
+        <display value="Déménagement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="112"/>
+        <display value="Erreur d'utilisation du logiciel"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="124"/>
+        <display value="L'usager est décédé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="125"/>
+        <display value="L'usager a démissionné (ESAT)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="126"/>
+        <display value="L'usager est pris en charge par la sécurité sociale au titre de l'invalidité (ESAT)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="127"/>
+        <display value="L'usager a fait valoir ses droits à la retraite (ESAT)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="128"/>
+        <display value="L'usager est arrivé à la fin du contrat de prise en charge (SAVS/SAMSAH/SESSAD)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="135"/>
+        <display value="Fin de période d'essai"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="136"/>
+        <display value="Renouvellement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="146"/>
+        <display value="L'usager a pu entrer en apprentissage"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="147"/>
+        <display value="L'usager a pu se réinsérer en milieu ordinaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="157"/>
+        <display value="Hospitalisation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="158"/>
+        <display value="L'usager est admis dans un établissement pour personnes âgées"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="159"/>
+        <display value="Fin de formation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="172"/>
+        <display value="Changement de situation de l'usager"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="184"/>
+        <display value="L'usager est accueilli en famille d'accueil"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="204"/>
+        <display value="Fin de l'accueil temporaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="253"/>
+        <display value="L'usager est transféré dans une autre unité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.248"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

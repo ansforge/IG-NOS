@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-G04-NiveauResponsabiliteCPx"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2010-11-04T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_G04-NiveauResponsabiliteCPx/FHIR/TRE-G04-NiveauResponsabiliteCPx"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.71.1.2.12"/>
+  </identifier>
+  <version value="20200424120000"/>
+  <name value="TRE_G04-NiveauResponsabiliteCPx"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <description value="Niveau de responsabilité (CPx)"/>
+  <content value="complete"/>
+  <property>
+    <code value="dateValid"/>
+    <description value="Date de validité d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateMaj"/>
+    <description value="Date de mise à jour d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateFin"/>
+    <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <concept>
+    <code value="00"/>
+    <display value="Sans objet"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Sans objet"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Sans objet"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2010-11-04T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2010-11-04T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="01"/>
+    <display value="Responsable de la structure"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Responsable de la structure"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Responsable de la structure"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2010-11-04T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2010-11-04T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Assistant ou adjoint au responsable de la structure"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Assistant, adjoint resp struct"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Assistant ou adjoint au responsable de la structure"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2010-11-04T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

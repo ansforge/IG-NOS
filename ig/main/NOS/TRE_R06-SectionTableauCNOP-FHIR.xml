@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R06-SectionTableauCNOP"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2015-12-28T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R06-SectionTableauCNOP/FHIR/TRE-R06-SectionTableauCNOP"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.2.37"/>
+  </identifier>
+  <version value="20200424120000"/>
+  <name value="TRE_R06-SectionTableauCNOP"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <description value="Section du tableau de l'Ordre des Pharmaciens"/>
+  <content value="complete"/>
+  <property>
+    <code value="dateValid"/>
+    <description value="Date de validité d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateMaj"/>
+    <description value="Date de mise à jour d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateFin"/>
+    <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <concept>
+    <code value="A"/>
+    <display value="Pharmacien titulaire d'officine"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Pharmacien titulaire officine"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Pharmacien titulaire d'officine"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2007-07-25T15:04:42+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="B"/>
+    <display value="Pharmacien d'entreprise - industrie"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Pharmacien entreprise, indus"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Pharmacien d'entreprise - industrie"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2007-07-25T15:04:42+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="C"/>
+    <display value="Pharmacien d'entreprise - distribution"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Pharmacien entreprise, distrib"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Pharmacien d'entreprise - distribution"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2007-07-25T15:04:42+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="D"/>
+    <display value="Pharmacien adjoint, remplaçant ou gérant"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Pharmacien adjoint, divers"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Pharmacien adjoint, remplaçant ou gérant"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2007-07-25T15:04:42+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="E"/>
+    <display value="Pharmacien d'Outre-Mer"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Pharmacien d'Outre-Mer"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Pharmacien d'Outre-Mer"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2007-07-25T15:04:42+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="G"/>
+    <display value="Pharmacien biologiste"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Pharmacien biologiste"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Pharmacien biologiste"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2007-07-25T15:04:42+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="H"/>
+    <display value="Pharmacien d'établissement de santé"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Pharmacien d'étab de santé"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Pharmacien d'établissement de santé"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2007-07-25T15:04:42+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="M"/>
+    <display value="Pharmacien militaire"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Pharmacien militaire"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Pharmacien militaire"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2007-07-25T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

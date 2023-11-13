@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R278-FinessConvention"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2018-10-26T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.131"/>
+  </identifier>
+  <version value="20230127120000"/>
+  <name value="TRE_R278-FinessConvention"/>
+  <status value="active"/>
+  <date value="2023-01-27T12:00:00+01:00"/>
+  <description value="Convention du domaine social FINESS"/>
+  <content value="complete"/>
+  <property>
+    <code value="dateValid"/>
+    <description value="Date de validité d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateMaj"/>
+    <description value="Date de mise à jour d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateFin"/>
+    <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <concept>
+    <code value="ACI"/>
+    <display value="Contrat tripartie CPTS/AM/ARS pour rémunération ACI"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Contrat ACI"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Contrat tripartie CPTS/AM/ARS pour rémunération ACI"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="DescriptionMetier"/>
+      </use>
+      <value value="ACI pour Accord Conventionnel Interprofessionnel. Cette convention est associée aux établissements Communauté Professionnelle Territoriale de Santé (CPTS) ayant signé un contrat tripartite avec l'Assurance Maladie (AM) et l'Agence Régionale de Santé (ARS)."/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2020-05-29T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2020-05-29T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="APL"/>
+    <display value="Aide Personalisée au Logement"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="APL"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Aide Personalisée au Logement"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ASD"/>
+    <display value="Convention aide sociale départementale"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Aide sociale Dépt."/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Convention aide sociale départementale"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ASE"/>
+    <display value="Convention aide sociale Etat"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Aide sociale Etat"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Convention aide sociale Etat"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CPM"/>
+    <display value="Signature d'une Convention d'Objectifs et de Moyens (CPOM)"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="CPOM"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Signature d'une Convention d'Objectifs et de Moyens (CPOM)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CPP"/>
+    <display value="PFR Plateforme de répit financée par plusieurs financeurs"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="PFR financée multi"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="PFR Plateforme de répit financée par plusieurs financeurs"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CPU"/>
+    <display value="PFR Plateforme de répit financée par l'ARS uniquement"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="PFR financée ARS"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="PFR Plateforme de répit financée par l'ARS uniquement"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="DEA"/>
+    <display value="Dispositif d'emploi accompagné"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Emploi accompagné"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Dispositif d'emploi accompagné"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="DIT"/>
+    <display value="Dispositif intégré ITEP"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="DITEP"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Dispositif intégré ITEP"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="EMA"/>
+    <display value="Equipe mobile d'appui pour la scolarisation jeunes handicap"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="EMA"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Equipe mobile d'appui pour la scolarisation jeunes handicap"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2020-01-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2020-01-31T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="EX1"/>
+    <display value="Entrée dans l expérimentation de SPASAD seul"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Expé SPASAD seul"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Entrée dans l expérimentation de SPASAD seul"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="EX2"/>
+    <display value="Expérimentation SSIAD et/ou SAAD + SPASAD si GCSMS"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Expé Soins Aide GSMS"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Expérimentation SSIAD et/ou SAAD + SPASAD si GCSMS"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="EX3"/>
+    <display value="Expériment. SSIAD et/ou SAAD + SPASAD si conv. Coopé."/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Exp Soins Aide Ccoop"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Expériment. SSIAD et/ou SAAD + SPASAD si conv. Coopé."/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="HPR"/>
+    <display value="Hôpitaux de proximité"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Hôpitaux de prox."/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Hôpitaux de proximité"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-07-05T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="JUS"/>
+    <display value="Habilitation justice"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Habilitation Justice"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Habilitation justice"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="MIL"/>
+    <display value="Conv hôpitaux militaires"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Conv. Hôp. militaire"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Conv hôpitaux militaires"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PCO"/>
+    <display value="Plateforme coord. &amp; orientation pour enfants atteints de TND"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="PCO TND"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Plateforme coord. &amp; orientation pour enfants atteints de TND"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2020-01-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2020-01-31T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PAD"/>
+    <display value="Convention tripartite étab personnes âgées dépendantes"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="conv.EHPAD"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Convention tripartite étab personnes âgées dépendantes"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PAP"/>
+    <display value="Convention tripartie partielle étab pers âgées dépendantes"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="conv.EHPAD part."/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Convention tripartie partielle étab pers âgées dépendantes"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PCP"/>
+    <display value="Pôle de compétences et de prestations externalisées"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="PCPE"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Pôle de compétences et de prestations externalisées"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PEN"/>
+    <display value="Convention établissement pénitentiaire"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Etab. Pénitentiaire"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Convention établissement pénitentiaire"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="QAL"/>
+    <display value="Agrément Qualité"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Agrément Qualité"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Agrément Qualité"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="REL"/>
+    <display value="Equipe relais"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Equipe relais"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Equipe relais"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="RSE"/>
+    <display value="SAAD intervenant uniquement au sein de la résidence services"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Résidences services"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="SAAD intervenant uniquement au sein de la résidence services"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2019-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2019-04-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="RUR"/>
+    <display value="Maison d'Accueil Rurale pour Personnes Âgées (MARPA)"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="MARPA"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Maison d'Accueil Rurale pour Personnes Âgées (MARPA)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="SID"/>
+    <display value="Signature d'une convention de médicalisation avec un SSIAD"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Convention SSIAD"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Signature d'une convention de médicalisation avec un SSIAD"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-11-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="UEA"/>
+    <display value="Unité d'enseignement élémentaire autisme"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="UEEA"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Unité d'enseignement élémentaire autisme"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2020-01-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2020-01-31T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="UEE"/>
+    <display value="Unité d'enseignement externe hors UEM"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="UEE"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Unité d'enseignement externe hors UEM"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="UEM"/>
+    <display value="Unité d'enseignement en maternelle plan autisme"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="UEM Plan Autisme"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Unité d'enseignement en maternelle plan autisme"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="UNI"/>
+    <display value="Convention d'un CHR avec une Université"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Conv. CHR-Université"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Convention d'un CHR avec une Université"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-10-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="DIS"/>
+    <display value="Dispositif Article 51"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Dispositif Art. 51"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Dispositif Article 51"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-01-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-01-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

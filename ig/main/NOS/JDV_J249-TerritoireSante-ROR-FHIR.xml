@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J249-TerritoireSante-ROR"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2023-03-31T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J249-TerritoireSante-ROR/FHIR/JDV-J249-TerritoireSante-ROR"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.113"/>
+  </identifier>
+  <version value="20230331120000"/>
+  <name value="JDV_J249-TerritoireSante-ROR"/>
+  <status value="active"/>
+  <date value="2023-03-31T12:00:00+01:00"/>
+  <description value="Territoire de Santé (au sens ARS) en France - ROR"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R88-TerritoireSante/FHIR/TRE-R88-TerritoireSante"/>
+      <concept>
+        <code value="001"/>
+        <display value="Sud Yonne Haut-Nivernais"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="002"/>
+        <display value="Bourgogne méridionale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="011"/>
+        <display value="Centre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="012"/>
+        <display value="Sud Basse-Terre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="013"/>
+        <display value="Iles du nord"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="021"/>
+        <display value="Nord Caraïbe"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="022"/>
+        <display value="Nord Atlantique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="023"/>
+        <display value="Centre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="024"/>
+        <display value="Sud"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="031"/>
+        <display value="Guyane"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="041"/>
+        <display value="Territoire Ouest"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="042"/>
+        <display value="Territoire Nord-Est"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="043"/>
+        <display value="Territoire Sud"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="061"/>
+        <display value="Mayotte"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="111"/>
+        <display value="Essonne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="112"/>
+        <display value="Hauts-de-Seine"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="113"/>
+        <display value="Paris"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="114"/>
+        <display value="Seine-et-Marne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="115"/>
+        <display value="Seine-Saint-Denis"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="116"/>
+        <display value="Val-de-Marne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="117"/>
+        <display value="Val-d'Oise"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="118"/>
+        <display value="Yvelines"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="211"/>
+        <display value="Nord (51-08)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="212"/>
+        <display value="Sud (52-10)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="221"/>
+        <display value="Oise Est"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="222"/>
+        <display value="Oise Ouest"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="223"/>
+        <display value="Aisne Nord Haute Somme"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="224"/>
+        <display value="Somme"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="225"/>
+        <display value="Aisne Sud"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="231"/>
+        <display value="Rouen-Elbeuf"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="232"/>
+        <display value="Dieppe"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="233"/>
+        <display value="Le Havre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="234"/>
+        <display value="Evreux-Vernon"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="241"/>
+        <display value="Territoire Cher (18)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="242"/>
+        <display value="Territoire Eure et Loir (28)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="243"/>
+        <display value="Territoire Indre (36)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="244"/>
+        <display value="Territoire Indre et Loire (37)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="245"/>
+        <display value="Territoire Loir et Cher (41)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="246"/>
+        <display value="Territoire Loiret (45)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="251"/>
+        <display value="Calvados"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="252"/>
+        <display value="Manche"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="253"/>
+        <display value="Orne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="261"/>
+        <display value="Côte d'Or"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="262"/>
+        <display value="Nièvre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="263"/>
+        <display value="Saône et Loire Bresse-Morvan"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="264"/>
+        <display value="Nord Yonne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="311"/>
+        <display value="Artois"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="312"/>
+        <display value="Hainaut"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="313"/>
+        <display value="Littoral"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="314"/>
+        <display value="Métropole"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="321"/>
+        <display value="Aisne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="322"/>
+        <display value="Métropole Flandre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="323"/>
+        <display value="Hainaut"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="324"/>
+        <display value="Oise"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="325"/>
+        <display value="Pas de Calais"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="326"/>
+        <display value="Somme"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="411"/>
+        <display value="Meuse"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="412"/>
+        <display value="Meurthe-et-Moselle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="413"/>
+        <display value="Moselle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="414"/>
+        <display value="Vosges"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="421"/>
+        <display value="Haguenau"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="422"/>
+        <display value="Strasbourg"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="423"/>
+        <display value="Colmar"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="424"/>
+        <display value="Mulhouse"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="431"/>
+        <display value="Centre Franche-Comté"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="432"/>
+        <display value="Jura"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="433"/>
+        <display value="Haute-Saône"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="434"/>
+        <display value="Nord Franche-Comté"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="521"/>
+        <display value="Territoire 1 Loire-Atlantique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="522"/>
+        <display value="Territoire 2 Maine et Loire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="523"/>
+        <display value="Territoire 3 Mayenne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="524"/>
+        <display value="Territoire 4 Sarthe"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="525"/>
+        <display value="Territoire 5 Vendée"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="531"/>
+        <display value="Brest/Carhaix/Morlaix"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="532"/>
+        <display value="Quimper/Douarnenez/Pont l'Abbé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="533"/>
+        <display value="Lorient/Quimperlé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="534"/>
+        <display value="Vannes/Ploërmel/Malestroit"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="535"/>
+        <display value="Rennes/Fougères/Vitré/Redon"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="536"/>
+        <display value="Saint-Malo/Dinan"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="537"/>
+        <display value="Saint-Brieuc/Guingamp/Lannion"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="538"/>
+        <display value="Pontivy/Loudéac"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="541"/>
+        <display value="Charente"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="543"/>
+        <display value="Charente Maritime"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="544"/>
+        <display value="Deux-Sèvres"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="545"/>
+        <display value="Vienne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="721"/>
+        <display value="Dordogne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="722"/>
+        <display value="Gironde"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="723"/>
+        <display value="Landes"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="724"/>
+        <display value="Lot et Garonne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="725"/>
+        <display value="Navarre Côte Basque"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="726"/>
+        <display value="Béarn et Soule"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="727"/>
+        <display value="Pyrénées Atlantiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="731"/>
+        <display value="Ariège"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="732"/>
+        <display value="Aveyron"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="733"/>
+        <display value="Hte Garonne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="734"/>
+        <display value="Gers"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="735"/>
+        <display value="Lot"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="736"/>
+        <display value="Htes-Pyrénées"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="737"/>
+        <display value="Tarn"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="738"/>
+        <display value="Tarn et Garonne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="741"/>
+        <display value="Corrèze"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="742"/>
+        <display value="Creuse"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="743"/>
+        <display value="Haute Vienne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="821"/>
+        <display value="TS01 - Centre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="822"/>
+        <display value="TS02 - Est"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="823"/>
+        <display value="TS03 - Nord"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="824"/>
+        <display value="TS04 - Ouest"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="825"/>
+        <display value="TS05 - Sud"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="832"/>
+        <display value="Cantal"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="833"/>
+        <display value="Haute-Loire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="834"/>
+        <display value="Puy de Dôme"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="835"/>
+        <display value="Ain"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="836"/>
+        <display value="Allier-Puy-de-Dôme"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="837"/>
+        <display value="Drôme-Ardèche"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="838"/>
+        <display value="Haute-Savoie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="839"/>
+        <display value="Isère"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="840"/>
+        <display value="Loire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="841"/>
+        <display value="Rhône"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="842"/>
+        <display value="Savoie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="911"/>
+        <display value="Aude"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="912"/>
+        <display value="Gard"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="913"/>
+        <display value="Hérault"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="914"/>
+        <display value="Lozère"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="915"/>
+        <display value="Pyrénées Orientales"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="931"/>
+        <display value="Alpes de Haute Provence"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="932"/>
+        <display value="Alpes Maritimes"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="933"/>
+        <display value="Bouches du Rhône"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="934"/>
+        <display value="Hautes Alpes"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="935"/>
+        <display value="Var"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="936"/>
+        <display value="Vaucluse"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="941"/>
+        <display value="Corse Nord"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="942"/>
+        <display value="Corse Sud"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.104"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

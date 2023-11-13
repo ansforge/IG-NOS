@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J233-TypeDiplome-EPARS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2022-07-29T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J233-TypeDiplome-EPARS/FHIR/JDV-J233-TypeDiplome-EPARS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.244"/>
+  </identifier>
+  <version value="20220729120000"/>
+  <name value="JDV_J233-TypeDiplome-EPARS"/>
+  <status value="active"/>
+  <date value="2022-07-29T12:00:00+01:00"/>
+  <description value="Jeu de valeur intégrant les types de diplômes pour EPARS"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"/>
+      <concept>
+        <code value="DE"/>
+        <display value="Diplôme d'Etat français"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.36"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="AU"/>
+        <display value="Autre type de diplôme"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.36"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

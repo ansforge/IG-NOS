@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J15-ClasseAge-ROR"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2016-09-01T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J15-ClasseAge-ROR/FHIR/JDV-J15-ClasseAge-ROR"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.3"/>
+  </identifier>
+  <version value="20200424120000"/>
+  <name value="JDV_J15-ClasseAge-ROR"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <description value="Classe d'âge - ROR"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
+      <concept>
+        <code value="01"/>
+        <display value="Nouveau né, jusqu'à 28 jours"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.9"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="02"/>
+        <display value="Nourrisson, avant 2 ans"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.9"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="03"/>
+        <display value="Enfant, avant 12 ans"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.9"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="04"/>
+        <display value="Adolescent, avant 16 ans"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.9"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="05"/>
+        <display value="Jeune adulte, 16-21 ans"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.9"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="06"/>
+        <display value="Adulte, avant 65 ans"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.9"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="10"/>
+        <display value="Sénior, 65-75 ans"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.9"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="Sénior, 75 ans et plus"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.9"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J85-StatutInscription-RASS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2019-08-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J85-StatutInscription-RASS/FHIR/JDV-J85-StatutInscription-RASS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.153"/>
+  </identifier>
+  <version value="20200424120000"/>
+  <name value="JDV_J85-StatutInscription-RASS"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <description value="Statut avancement dossier de référencement personne du RASS auprès d'un ordre"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R33-StatutInscription/FHIR/TRE-R33-StatutInscription"/>
+      <concept>
+        <code value="D"/>
+        <display value="Définitif"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="Non inscrit"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Provisoire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="Transfert dossier"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.12"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

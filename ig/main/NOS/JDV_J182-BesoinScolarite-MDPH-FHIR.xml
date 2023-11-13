@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J182-BesoinScolarite-MDPH"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-09-24T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J182-BesoinScolarite-MDPH/FHIR/JDV-J182-BesoinScolarite-MDPH"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.17"/>
+  </identifier>
+  <version value="20210924120000"/>
+  <name value="JDV_J182-BesoinScolarite-MDPH"/>
+  <status value="active"/>
+  <date value="2021-09-24T12:00:00+01:00"/>
+  <description value="Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec les apprentissages"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R323-BesoinScolarite/FHIR/TRE-R323-BesoinScolarite"/>
+      <concept>
+        <code value="01"/>
+        <display value="Pour lire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.78"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="02"/>
+        <display value="Pour écrire, prendre des notes"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.78"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="03"/>
+        <display value="Pour calculer"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.78"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="04"/>
+        <display value="Pour comprendre, suivre les consignes"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.78"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="05"/>
+        <display value="Pour organiser, contrôler son travail"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.78"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="06"/>
+        <display value="Pour l'utilisation du matériel"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.78"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire"/>
+      <concept>
+        <code value="02"/>
+        <display value="Autre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.70"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

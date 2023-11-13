@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J180-BesoinEntretienPersonnel-MDPH"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-09-24T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J180-BesoinEntretienPersonnel-MDPH/FHIR/JDV-J180-BesoinEntretienPersonnel-MDPH"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.15"/>
+  </identifier>
+  <version value="20210924120000"/>
+  <name value="JDV_J180-BesoinEntretienPersonnel-MDPH"/>
+  <status value="active"/>
+  <date value="2021-09-24T12:00:00+01:00"/>
+  <description value="Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec l'entretien personnel"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R321-BesoinEntretienPersonnel/FHIR/TRE-R321-BesoinEntretienPersonnel"/>
+      <concept>
+        <code value="01"/>
+        <display value="Pour l'hygiène corporelle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.76"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="02"/>
+        <display value="Pour s'habiller"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.76"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="03"/>
+        <display value="Pour les repas"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.76"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="04"/>
+        <display value="Pour prendre soin de sa santé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.76"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire"/>
+      <concept>
+        <code value="02"/>
+        <display value="Autre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.70"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

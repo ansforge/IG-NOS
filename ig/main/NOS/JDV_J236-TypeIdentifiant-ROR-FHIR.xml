@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J236-TypeIdentifiant-ROR"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2023-03-31T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J236-TypeIdentifiant-ROR/FHIR/JDV-J236-TypeIdentifiant-ROR"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.110"/>
+  </identifier>
+  <version value="20231030120000"/>
+  <name value="JDV_J236-TypeIdentifiant-ROR"/>
+  <status value="active"/>
+  <date value="2023-10-30T12:00:00+01:00"/>
+  <description value="Types d'identifiants utilisés dans le ROR"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R345-TypeIdentifiantAutre/FHIR/TRE-R345-TypeIdentifiantAutre"/>
+      <concept>
+        <code value="42"/>
+        <display value="Identifiant fonctionnel de l'OI connu par l'instance ROR"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.229"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="43"/>
+        <display value="Identifiant interne de l'OI connu par l'instance ROR"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.229"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R355-TypeIdentifiantOffre/FHIR/TRE-R355-TypeIdentifiantOffre"/>
+      <concept>
+        <code value="35"/>
+        <display value="Identifiant fonctionnel de l'offre connu par l'instance ROR"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.245"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="36"/>
+        <display value="Identifiant interne de l'offre connu par l'instance ROR"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.245"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R354-TypeIdentifiantRessourceOperationnelle/FHIR/TRE-R354-TypeIdentifiantRessourceOperationnelle"/>
+      <concept>
+        <code value="25"/>
+        <display value="Identifiant du lieu de réalisation de l'offre connu par l'instance ROR"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.244"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="26"/>
+        <display value="Identifiant de la zone d'hébergement connu par l'établissement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.244"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne"/>
+      <concept>
+        <code value="30"/>
+        <display value="Identifiant de la situation opérationnelle connu par l'instance ROR"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.15"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_G07-TypeIdentifiantStructure/FHIR/TRE-G07-TypeIdentifiantStructure"/>
+      <concept>
+        <code value="40"/>
+        <display value="Identifiant national de structure"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.14"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="41"/>
+        <display value="Identifiant interne de l'établissement connu par l'instance ROR"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.14"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="0"/>
+        <display value="Id Cabinet ADELI"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.14"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1"/>
+        <display value="FINESS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.14"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="SIREN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.14"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3"/>
+        <display value="SIRET"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.14"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="4"/>
+        <display value="Id Cabinet RPPS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.14"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R355-TypeIdentifiantOffre"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2023-03-31T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R355-TypeIdentifiantOffre/FHIR/TRE-R355-TypeIdentifiantOffre"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.3.245"/>
+  </identifier>
+  <version value="20230331120000"/>
+  <name value="TRE_R355-TypeIdentifiantOffre"/>
+  <status value="active"/>
+  <date value="2023-03-31T12:00:00+01:00"/>
+  <description value="Type d'identifiant de l'offre"/>
+  <content value="complete"/>
+  <property>
+    <code value="dateValid"/>
+    <description value="Date de validité d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateMaj"/>
+    <description value="Date de mise à jour d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateFin"/>
+    <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <concept>
+    <code value="35"/>
+    <display value="Identifiant fonctionnel de l'offre connu par l'instance ROR"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="RORR_offreID"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Identifiant fonctionnel de l'offre connu par l'instance ROR"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="36"/>
+    <display value="Identifiant interne de l'offre connu par l'instance ROR"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="RORR_T_OffreID"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Identifiant interne de l'offre connu par l'instance ROR"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>
