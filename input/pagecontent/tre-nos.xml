@@ -13,28 +13,23 @@
     <li class="active"><a href="#" >NOS</a></li>
     <li><a href="telechargement-tre.html">Téléchargement</a></li>
   </ul>
-  
-      <p>
-          
-       Liste  des TRE du NOS "CPS"
-          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_G%' %}
-      </p>
-
-      <p>
-          
-       Liste  des TRE du NOS "CI-SIS"
-          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_A%' %}
-      </p>    
-
-      <p>
-          
-       Liste  des TRE du NOS "RPPS"
-          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_R%' %}
-      </p>   
-
-      <p>
-          
-       Liste  des TRE du NOS (autre)
-          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name not like 'TRE_R%'  and name not like 'TRE_A%' and name not like 'TRE_G%' %}
-      </p>       
+    <ul>
+        <li>
+            CPS 
+            {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_G%' %}
+        </li>
+        <li>
+            CI-SIS 
+            {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_A%' %}
+        </li>
+        <li>
+            RPPS
+            {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_R%' %}
+        </li>
+        <li>
+            Autres 
+            {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name not like 'TRE_R%'  and name not like 'TRE_A%' and name not like 'TRE_G%' %}
+        </li>   
+    </ul>
+ 
   </div>
