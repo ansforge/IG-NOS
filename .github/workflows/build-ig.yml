@@ -130,8 +130,8 @@ jobs:
       - name:  ZIP Ensemble des NOS au format JSON/FHIR (ZIP)
         run :  zip -rj ./input/images/NOS/NOS-Fichiers_Publics-Versions_json_fhir.zip ./input/images/NOS/*-FHIR.json    
 
-      - name:  ZIP Ensemble des NOS au format XML/FHIR (ZIP)
-        run :  zip -rj ./input/images/NOS/Nos-fichiers_publics-versions_xml_fhir.zip ./input/images/NOS/*-FHIR.xml   
+      #- name:  ZIP Ensemble des NOS au format XML/FHIR (ZIP)
+      #  run :  zip -rj ./input/images/NOS/Nos-fichiers_publics-versions_xml_fhir.zip ./input/images/NOS/*-FHIR.xml   
 
       - name:  ZIP Jeux de valeurs du CI-SIS (ZIP
         run :  zip -rj ./input/images/NOS/NOS-Jeux_de_Valeurs_CI-SIS.zip ./input/images/NOS/*CISIS*            
