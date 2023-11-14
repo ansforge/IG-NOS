@@ -4,7 +4,7 @@
 
 * [Plaquette de présentation (PDF)](attach/Plaquette%20NOS%20V2.9.pdf)
 * [Schéma XML de l'extension SVS des NOS (ZIP)](attach/xsd-svs-etendu-nos.zip) 
-* [Correspondance entre les ressources FHIR et les NOS (PDF)](Correspondances%20RessourcesFHIR-NOS_0.pdf)
+* [Correspondance entre les ressources FHIR et les NOS (PDF)](attach/Correspondances%20RessourcesFHIR-NOS_0.pdf)
 * [Historique des modifications dans les nomenclatures des objets de santé (NOS) (PDF)](attach/NOS-Historique_modifications.pdf)
 * [Conventions de nommage et de structure des nomenclatures et des tables (PDF)](attach/NOS_ConventionNOS_V2.0.pdf) 
 * [Calendrier de génération mensuelle du MOS et des NOS (PDF)](attach/CalendrierGénération%20MOS%26NOS.pdf) 
