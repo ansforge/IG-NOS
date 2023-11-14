@@ -187,5 +187,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
+          exclude_assets: '**full-ig.zip.zip,**CodeSystem-TRE-R13-CommuneOM.xml.html**'
           destination_dir: ig/${{ steps.branch-name.outputs.current_branch }}
           commit_message: ' ${{ github.event.head_commit.message }}'
