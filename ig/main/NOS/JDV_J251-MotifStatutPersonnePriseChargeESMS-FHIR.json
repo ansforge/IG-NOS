@@ -1,0 +1,320 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J251-MotifStatutPersonnePriseChargeESMS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2023-06-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J251-MotifStatutPersonnePriseChargeESMS/FHIR/JDV-J251-MotifStatutPersonnePriseChargeESMS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.4.115"
+    }
+  ],
+  "version": "20230922120000",
+  "name": "JDV_J251-MotifStatutPersonnePriseChargeESMS",
+  "status": "active",
+  "date": "2023-09-22T12:00:00+01:00",
+  "description": "Motif du statut de la personne prise en charge au sein d'un ESMS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge",
+        "concept": [
+          {
+            "code": "86",
+            "display": "Le plateau technique n'est pas adapté à la prise en charge de l'usager",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "109",
+            "display": "Déménagement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "112",
+            "display": "Erreur d'utilisation du logiciel",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "113",
+            "display": "Eloignement géographique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "114",
+            "display": "Les ressources de l'ESMS ne sont pas suffisantes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "115",
+            "display": "L'ESMS n'est pas adapté au projet de vie actuel de l'usager",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "116",
+            "display": "Le type de handicap ne relève pas de l'ESMS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "117",
+            "display": "La situation de l'usager a changé, l'ESMS n'est pas adapté",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "118",
+            "display": "L'usager ou son représentant légal refuse de s'inscrire dans l'ESMS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "119",
+            "display": "L'usager a été admis dans un autre ESMS, l'orientation n'est plus pertinente",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "120",
+            "display": "L'usager a déménagé, l'orientation n'est plus pertinente géographiquement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "121",
+            "display": "L'usager ou son représentant légal refuse d'adhérer au projet de vie de l'ESMS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "122",
+            "display": "L'âge de l'usager est incompatible",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "124",
+            "display": "L'usager est décédé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "127",
+            "display": "L'usager a fait valoir ses droits à la retraite (ESAT)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "148",
+            "display": "L'ESMS n'a pas réussi à joindre l'usager",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "150",
+            "display": "L'usager a pris contact avec l'ESMS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "151",
+            "display": "L'ESMS a pris contact avec l'usager",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "152",
+            "display": "L'usager a visité l'ESMS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "153",
+            "display": "L'ESMS a envoyé une documentation à l'usager",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "168",
+            "display": "Pour placer l'usager en liste d'attente",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "170",
+            "display": "Pour prendre en charge l'usager à temps adapté",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "173",
+            "display": "Une autre décision annule et remplace cette décision",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          },
+          {
+            "code": "174",
+            "display": "Décision clôturée par la MDPH",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.248"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,890 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J183-Diplome-EPARS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-11-26T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.240"
+    }
+  ],
+  "version": "20230331120000",
+  "name": "JDV_J183-Diplome-EPARS",
+  "status": "active",
+  "date": "2023-03-31T12:00:00+01:00",
+  "description": "Diplômes pour l'application EPARS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais",
+        "concept": [
+          {
+            "code": "DE28",
+            "display": "DE Assistant de Service Social",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
+              }
+            ]
+          },
+          {
+            "code": "DE29",
+            "display": "DE Audioprothésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
+              }
+            ]
+          },
+          {
+            "code": "DE30",
+            "display": "DE Ergothérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
+              }
+            ]
+          },
+          {
+            "code": "DE31",
+            "display": "DE Diététicien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
+              }
+            ]
+          },
+          {
+            "code": "DE32",
+            "display": "DE Psychomotricien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
+              }
+            ]
+          },
+          {
+            "code": "DE33",
+            "display": "DE Orthoprothésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
+              }
+            ]
+          },
+          {
+            "code": "DE34",
+            "display": "DE Podo-Orthésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
+              }
+            ]
+          },
+          {
+            "code": "DE35",
+            "display": "DE Orthopédiste-Orthésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
+              }
+            ]
+          },
+          {
+            "code": "DE36",
+            "display": "DE Oculariste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
+              }
+            ]
+          },
+          {
+            "code": "DE37",
+            "display": "DE Epithésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
+              }
+            ]
+          },
+          {
+            "code": "DE38",
+            "display": "DE Technicien Laboratoire Médical (DETLM ou DETAB)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
+              }
+            ]
+          },
+          {
+            "code": "DE39",
+            "display": "DE Manipulateur d'Electro-Radiologie médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
+        "concept": [
+          {
+            "code": "DIP319",
+            "display": "Titre d'assistant dentaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire",
+        "concept": [
+          {
+            "code": "DIP320",
+            "display": "DU/DIU Ostéopathe université médecine reconnu CNOM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.34"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
+        "concept": [
+          {
+            "code": "DIP321",
+            "display": "Diplôme d'Ostéopathe d'un établissement agréé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP322",
+            "display": "Master en Psychologie ou Psychanalyse",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP323",
+            "display": "Master mention psychologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP324",
+            "display": "Master mention psychologie clinique, psychopathologie et psychologie de la santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP325",
+            "display": "Master mention psychologie sociale, du travail et des organisations",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP326",
+            "display": "Master mention psychologie de l'éducation et de la formation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP327",
+            "display": "Master mention psychopathologie clinique psychanalytique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP328",
+            "display": "Master de Psychanalyse",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP329",
+            "display": "Diplôme de Chiropraxie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire",
+        "concept": [
+          {
+            "code": "DIP330",
+            "display": "DU Chiropraxie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.34"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
+        "concept": [
+          {
+            "code": "DIP331",
+            "display": "Certificat d'études acoustique prothèse auditive",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP332",
+            "display": "Examen professionnel d'Audio-Prothésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP333",
+            "display": "Diplôme d'Opticien-Lunetier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP334",
+            "display": "BTS Opticien-Lunetier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP335",
+            "display": "Brevet professionnel d'Opticien-Lunetier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP336",
+            "display": "Certificat d'études Ecole des métiers d'optique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP337",
+            "display": "Diplôme écoles nat prof section Optique-lunetterie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP338",
+            "display": "Titre ministres du commerce, économie et finances, enseignement sup et santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP339",
+            "display": "BTS Orthoprothésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP340",
+            "display": "BTS Prothésiste-Orthésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP341",
+            "display": "BTS Podo-Orthésiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP342",
+            "display": "Titre d'Orthopédiste-Orthésiste obtenu avant 2007",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP343",
+            "display": "Titre équivalent certification RNCP de technicien supérieur obtenu après 2007",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire",
+        "concept": [
+          {
+            "code": "DIP344",
+            "display": "DU ou DIU Orthopédie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.34"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
+        "concept": [
+          {
+            "code": "DIP345",
+            "display": "Titre équivalent certification RNCP Orthopédiste-Orthésiste obtenu après 2007",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire",
+        "concept": [
+          {
+            "code": "DIP346",
+            "display": "DU Prothèse Oculaire appliquée",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.34"
+              }
+            ]
+          },
+          {
+            "code": "DIP347",
+            "display": "DU Prothèse faciale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.34"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
+        "concept": [
+          {
+            "code": "DIP348",
+            "display": "Diplôme Technicien Laboratoire arrêté 21/10/1992",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP349",
+            "display": "Diplôme Technicien Laboratoire arrêté 04/11/1976",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP350",
+            "display": "BTS Analyses de biologie médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire",
+        "concept": [
+          {
+            "code": "DIP351",
+            "display": "DUT Génie biologique option analyses biologiques et biochimiques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.34"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
+        "concept": [
+          {
+            "code": "DIP352",
+            "display": "Diplôme de Technicien de Laboratoire arrêté du 21/10/92 sauf DETLM/DETAB,DUT,BTS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP353",
+            "display": "Certificat de Capacité d'Orthophoniste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP354",
+            "display": "Diplôme ou attestation MEN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP355",
+            "display": "Certificat de Capacité d'Orthoptiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP356",
+            "display": "Licence + Maîtrise + DESS en psychologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP357",
+            "display": "Licence + Maîtrise + diplôme annexe Décret 90-255",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP358",
+            "display": "Licence psychologie + Maîtrise psychologie + DEA psychologie + Attestation Stage",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP359",
+            "display": "Diplôme pour usage du titre de psychologue (alinéa 6 à 9 art 1 décret 90-255)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP360",
+            "display": "Usage restreint du titre de Psychologue (arrêté du 14/01/1993)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP361",
+            "display": "Licence psychologie + Master psychologie + Stage psychologie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP362",
+            "display": "Décision de Validation des Acquis de l'Expérience de Psychologue",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation",
+        "concept": [
+          {
+            "code": "DIP363",
+            "display": "Attestation de connaissances d'Ergothérapeute",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.27"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
+        "concept": [
+          {
+            "code": "DIP364",
+            "display": "BT ou BTS de Diététique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire",
+        "concept": [
+          {
+            "code": "DIP365",
+            "display": "DUT Biologie option diététique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.34"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation",
+        "concept": [
+          {
+            "code": "DIP366",
+            "display": "Attestation de connaissances de Psychomotricien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.27"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
+        "concept": [
+          {
+            "code": "DIP367",
+            "display": "DTS/BTS Manipulateur d'Electro-Radiologie médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          },
+          {
+            "code": "DIP368",
+            "display": "DTS imagerie médicale et radiologie thérapeutique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire",
+        "concept": [
+          {
+            "code": "DIP369",
+            "display": "BUT Biologie option diététique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.34"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation",
+        "concept": [
+          {
+            "code": "DIP370",
+            "display": "Attestation de connaissances de MER",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.27"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

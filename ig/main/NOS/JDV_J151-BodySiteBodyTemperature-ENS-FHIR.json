@@ -1,0 +1,155 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J151-BodySiteBodyTemperature-ENS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-04-30T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J151-BodySiteBodyTemperature-ENS/FHIR/JDV-J151-BodySiteBodyTemperature-ENS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.606"
+    }
+  ],
+  "version": "20230922120000",
+  "name": "JDV_J151-BodySiteBodyTemperature-ENS",
+  "status": "active",
+  "date": "2023-09-22T12:00:00+01:00",
+  "description": "JDV de localisation de la mesure de la température",
+  "compose": {
+    "include": [
+      {
+        "system": "",
+        "concept": [
+          {
+            "code": "34402009",
+            "display": "rectum",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.96"
+              }
+            ]
+          },
+          {
+            "code": "52795006",
+            "display": "front",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.96"
+              }
+            ]
+          },
+          {
+            "code": "91470000",
+            "display": "région axillaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.96"
+              }
+            ]
+          },
+          {
+            "code": "117590005",
+            "display": "oreille",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.96"
+              }
+            ]
+          },
+          {
+            "code": "123851003",
+            "display": "bouche",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.96"
+              }
+            ]
+          },
+          {
+            "code": "450721000",
+            "display": "région temporale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.96"
+              }
+            ]
+          }
+        ]
+      }
+      {
+        "system": "",
+        "concept": [
+          {
+            "code": "",
+            "display": "",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:"
+              }
+            ]
+          },
+          {
+            "code": "",
+            "display": "",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:"
+              }
+            ]
+          },
+          {
+            "code": "",
+            "display": "",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:"
+              }
+            ]
+          },
+          {
+            "code": "",
+            "display": "",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:"
+              }
+            ]
+          },
+    ]
+  }
+}

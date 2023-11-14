@@ -1,0 +1,272 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J171-TypeAutorisation-EPARS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2021-06-25T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.6.1.232"
+    }
+  ],
+  "version": "20230331120000",
+  "name": "JDV_J171-TypeAutorisation-EPARS",
+  "status": "active",
+  "date": "2023-03-31T12:00:00+01:00",
+  "description": "Types d'autorisation d'exercice pour EPARS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation",
+        "concept": [
+          {
+            "code": "AM01",
+            "display": "Autorisation de plein exercice",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM14",
+            "display": "Arrangement France-Québec (art L 4111-3-1 CSP)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM22",
+            "display": "Agrément Caisse Régionale d'Assurance Maladie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM23",
+            "display": "Agrément Ministère des anciens combattants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM24",
+            "display": "Exerce comme tech lab avant le 08/11/1976",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM25",
+            "display": "Exerce comme tech lab au 29/11/1997",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM26",
+            "display": "Exerce comme tech lab au 30/05/2013",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM27",
+            "display": "Autorisation d'exercice UE/EEE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM28",
+            "display": "Autorisation d'user du titre d'Ostéopathe",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM29",
+            "display": "Autorisation titre diététicien décision admin 86",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM30",
+            "display": "Autorisation titre diététicien emploi permanent 86",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM31",
+            "display": "Autorisation d'exercice de psychologue diplôme étranger",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM32",
+            "display": "Autorisation préfectorale d'exercice de psychologue décret 90-259",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM33",
+            "display": "Autorisation d'exercice de psychothérapeute pour médecin spécialisé psychiatrie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM34",
+            "display": "Autorisation d'exercice d'audioprothésiste médecin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM35",
+            "display": "Autorisation d'user du titre de Chiropraxie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM36",
+            "display": "Autorisation d'exercice d'épithésiste pour chirurgien-dentiste",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM37",
+            "display": "Autorisation épithésiste pour médecin stomatologue ou chirurgie maxillo-faciale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM38",
+            "display": "Arrêté de nomination de MER du Secteur Public",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM39",
+            "display": "Autorisation d'exercice psychothérapeute médecin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

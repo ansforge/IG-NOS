@@ -1,0 +1,211 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R350-ThematiqueAnomalie",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2023-03-31T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R350-ThematiqueAnomalie/FHIR/TRE-R350-ThematiqueAnomalie",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.240"
+    }
+  ],
+  "version": "20230331120000",
+  "name": "TRE_R350-ThematiqueAnomalie",
+  "status": "active",
+  "date": "2023-03-31T12:00:00+01:00",
+  "description": "Thématique caractérisant une anomalie",
+  "content": "complete",
+  "property": [
+    {
+      "code": "dateValid",
+      "description": "date de validité d'un code concept",
+      "type": "dateTime"
+    },
+    {
+      "code": "dateMaj",
+      "description": "Date de mise à jour d'un code concept",
+      "type": "dateTime"
+    },
+    {
+      "code": "dateFin",
+      "description": "Date de fin d'exploitation d'un code concept",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "code": "01",
+      "display": "Complétude",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Complétude"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Complétude"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Exhaustivité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Exhaustivité"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Exhaustivité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Cohérence",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Cohérence"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Cohérence"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "Récence",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Récence"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Récence"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "display": "Structuration",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Structuration"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Structuration"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "display": "Exactitude",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Exactitude"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Exactitude"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-03-31T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}
