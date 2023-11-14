@@ -54,27 +54,7 @@ jobs:
           rm ./input/NOS/ASS_X16-CorrespondanceType-Classe-DMP-FHIR.json
           rm ./input/NOS/JDV_J151-BodySiteBodyTemperature-ENS-FHIR.json
           rm ./input/NOS/ASS_*
-          #Recucperation des fichiers .tabs
-          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics.zip
-          cp  NOS-Fichiers_Publics.zip ./input/images/NOS/
-          unzip NOS-Fichiers_Publics.zip -d ./input/images/NOS
-          #Recupération des fichiers SVS
-          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics-Versions_xml_svs.zip
-          cp  NOS-Fichiers_Publics-Versions_xml_svs.zip ./input/images/NOS
-          unzip NOS-Fichiers_Publics-Versions_xml_svs.zip -d ./input/images/NOS
-          #Récupération des fichiers xml Fhir
-          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/nos-fichiers_publics-versions_xml_fhir.zip
-          cp  nos-fichiers_publics-versions_xml_fhir.zip ./input/images/NOS
-          unzip nos-fichiers_publics-versions_xml_fhir.zip -d ./input/images/NOS
-          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics_JDV-Versions_pdf.zip
-          cp  NOS-Fichiers_Publics_JDV-Versions_pdf.zip ./input/images/NOS
-          unzip NOS-Fichiers_Publics_JDV-Versions_pdf.zip -d ./input/images/NOS
-          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip
-          cp  NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip ./input/images/NOS
-          unzip NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip -d ./input/images/NOS          
-          
-           
-
+       
           
 
 
@@ -101,6 +81,30 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.10' 
+
+
+      - name: Get From site esante     
+        run: |
+          #Recucperation des fichiers .tabs
+          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics.zip
+          cp  NOS-Fichiers_Publics.zip ./input/images/NOS/
+          unzip NOS-Fichiers_Publics.zip -d ./input/images/NOS
+          #Recupération des fichiers SVS
+          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics-Versions_xml_svs.zip
+          cp  NOS-Fichiers_Publics-Versions_xml_svs.zip ./input/images/NOS
+          unzip NOS-Fichiers_Publics-Versions_xml_svs.zip -d ./input/images/NOS
+          #Récupération des fichiers xml Fhir
+          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/nos-fichiers_publics-versions_xml_fhir.zip
+          cp  nos-fichiers_publics-versions_xml_fhir.zip ./input/images/NOS
+          unzip nos-fichiers_publics-versions_xml_fhir.zip -d ./input/images/NOS
+          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics_JDV-Versions_pdf.zip
+          cp  NOS-Fichiers_Publics_JDV-Versions_pdf.zip ./input/images/NOS
+          unzip NOS-Fichiers_Publics_JDV-Versions_pdf.zip -d ./input/images/NOS
+          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip
+          cp  NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip ./input/images/NOS
+          unzip NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip -d ./input/images/NOS   
+
+
 
 
       - name: Run script python
