@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J145-MethodBodyWeight-ENS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-04-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J145-MethodBodyWeight-ENS/FHIR/JDV-J145-MethodBodyWeight-ENS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.600"/>
+  </identifier>
+  <version value="20230630120000"/>
+  <name value="JDV_J145-MethodBodyWeight-ENS"/>
+  <status value="active"/>
+  <date value="2023-06-30T12:00:00+01:00"/>
+  <description value="JDV pour la méthode de mesure du poids"/>
+  <compose>
+    <include>
+      <system value=""/>
+      <concept>
+        <code value="V030210"/>
+        <display value="PÈSE-PERSONNES (SAUF CEUX DE NÉONATALOGIE)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.68"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

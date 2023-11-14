@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J112-SexeAdministratif-ENREG"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2020-05-29T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J112-SexeAdministratif-ENREG/FHIR/JDV-J112-SexeAdministratif-ENREG"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.183"/>
+  </identifier>
+  <version value="20200529120000"/>
+  <name value="JDV_J112-SexeAdministratif-ENREG"/>
+  <status value="active"/>
+  <date value="2020-05-29T12:00:00+01:00"/>
+  <description value="Sexe administratif pour ENREG"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R10-SexeAdministratif/FHIR/TRE-R10-SexeAdministratif"/>
+      <concept>
+        <code value="F"/>
+        <display value="Féminin"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.27"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="M"/>
+        <display value="Masculin"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.27"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R241-AideFinanciere"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2017-10-13T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R241-AideFinanciere/FHIR/TRE-R241-AideFinanciere"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.3.33"/>
+  </identifier>
+  <version value="20200424120000"/>
+  <name value="TRE_R241-AideFinanciere"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <description value="Habilit. de l'EG permettant aux pers. accueillies d'avoir des aides financières"/>
+  <content value="complete"/>
+  <property>
+    <code value="dateValid"/>
+    <description value="Date de validité d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateMaj"/>
+    <description value="Date de mise à jour d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateFin"/>
+    <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <concept>
+    <code value="01"/>
+    <display value="Conventionné aides au logement"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Conventionné AL"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Conventionné aides au logement"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2017-10-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-01-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Habilité Aide Sociale"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Habilité Aide Sociale"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Habilité Aide Sociale"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2017-10-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2017-10-13T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="Allocation Personnalisée d'Autonomie (APA)"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="APA"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Allocation Personnalisée d'Autonomie (APA)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2017-10-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2018-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-01-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J191-TypeFermetureCapacite-ROR"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2022-05-27T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J191-TypeFermetureCapacite-ROR/FHIR/JDV-J191-TypeFermetureCapacite-ROR"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.24"/>
+  </identifier>
+  <version value="20220527120000"/>
+  <name value="JDV_J191-TypeFermetureCapacite-ROR"/>
+  <status value="active"/>
+  <date value="2022-05-27T12:00:00+01:00"/>
+  <description value="Permet d'indiquer dans le ROR le statut de lits fermés, afin d'identifier le nombre de lits fermés qui peuvent être réactivés en cas de besoin et le nombre de ceux qui ne peuvent pas l'être"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R333-TypeFermetureCapacite/FHIR/TRE-R333-TypeFermetureCapacite"/>
+      <concept>
+        <code value="01"/>
+        <display value="Réactivable"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.216"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="02"/>
+        <display value="Non réactivable"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.216"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="03"/>
+        <display value="Indéterminé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.216"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

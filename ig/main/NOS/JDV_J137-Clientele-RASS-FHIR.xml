@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J137-Clientele-RASS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2020-11-27T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J137-Clientele-RASS/FHIR/JDV-J137-Clientele-RASS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.223"/>
+  </identifier>
+  <version value="20211126120000"/>
+  <name value="JDV_J137-Clientele-RASS"/>
+  <status value="active"/>
+  <date value="2021-11-26T12:00:00+01:00"/>
+  <description value="Population prise en charge par l'établissement dans le cadre"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
+      <concept>
+        <code value="010"/>
+        <display value="Tous Types de Déficiences Pers.Handicap.(sans autre indic.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="011"/>
+        <display value="Handicap rare"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="040"/>
+        <display value="Aidants / aidés Personnes âgées"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="041"/>
+        <display value="Aidants / aidés Maladies chroniques invalidantes"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="042"/>
+        <display value="Aidants / aidés Tous types de handicap"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="043"/>
+        <display value="Aidants / aidés Troubles du spectre de l'autisme"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="117"/>
+        <display value="Déficience intellectuelle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="200"/>
+        <display value="Difficultés psychologiques avec troubles du comportement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="201"/>
+        <display value="Déficience Intermittente de la Conscience ycompris épilepsie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="206"/>
+        <display value="Handicap psychique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="207"/>
+        <display value="Handicap cognitif spécifique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="318"/>
+        <display value="Déficience auditive grave"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="324"/>
+        <display value="Déficience visuelle grave"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="414"/>
+        <display value="Déficience Motrice"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="430"/>
+        <display value="Personnes nécessitant prise en charge psycho soc et san SAI"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="431"/>
+        <display value="Affection Cardiaque"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="432"/>
+        <display value="Diabète"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="433"/>
+        <display value="Affection Respiratoire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="434"/>
+        <display value="Hémophilie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="435"/>
+        <display value="Insuffisance Rénale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="436"/>
+        <display value="Personnes Alzheimer ou maladies apparentées"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="437"/>
+        <display value="Troubles du spectre de l'autisme"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="438"/>
+        <display value="Cérébro lésés"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="439"/>
+        <display value="VIH VHC"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="440"/>
+        <display value="MND autres que Maladie Alzheimer et Maladies Apparentées"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="500"/>
+        <display value="Polyhandicap"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="511"/>
+        <display value="Surdi-Cécité avec ou sans troubles associés"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="620"/>
+        <display value="Epilepsie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="700"/>
+        <display value="Personnes Agées (Sans Autre Indication)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="701"/>
+        <display value="Personnes Agées Autonomes"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="702"/>
+        <display value="Personnes Handicapées vieillissantes"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="711"/>
+        <display value="Personnes Agées dépendantes"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="800"/>
+        <display value="Enfants, adolescents et jeunes majeurs ASE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="801"/>
+        <display value="Enfants ASE (0-6 ans)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="802"/>
+        <display value="Adolescents ASE (7-17 ans)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="803"/>
+        <display value="Jeunes Majeurs ASE (18-21 ans)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="804"/>
+        <display value="Enfants, adolescents et jeunes majeurs PJJ"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="805"/>
+        <display value="Jeunes et familles en risque d'inadaptation sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="806"/>
+        <display value="Personnes se présentant comme MNA en attente d'évaluation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="807"/>
+        <display value="Enfants et Adolescents avec difficultés sociales"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="808"/>
+        <display value="Enfants d'Age Préscolaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="809"/>
+        <display value="Autres Enfants, Adolescents"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="810"/>
+        <display value="Adultes en Difficulté d'Insertion Sociale (SAI)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="811"/>
+        <display value="Jeunes Adultes en Difficulté"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="812"/>
+        <display value="Femmes Seules en Difficulté"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="813"/>
+        <display value="Personnes en difficulté avec l'alcool"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="814"/>
+        <display value="Personnes consommant des substances psychoactives illicites"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="815"/>
+        <display value="Sortants d'Etablissement Hospitalier ou médico-social yc psy"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="816"/>
+        <display value="Prostituées avec ou sans Enfant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="817"/>
+        <display value="Vagabonds et ex-Détenus"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="818"/>
+        <display value="Inculpés sous Contrôle judiciaire et Condamnés Libres"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="819"/>
+        <display value="Autres Adultes en difficulté d'Insertion Sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="820"/>
+        <display value="Hommes seuls en difficulté"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="821"/>
+        <display value="Familles en Difficulté ou sans Logement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="822"/>
+        <display value="Personnes et Familles Rapatriées"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="823"/>
+        <display value="Familles Nomades"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="824"/>
+        <display value="Personnes seules en Difficulté avec Enfant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="825"/>
+        <display value="Travailleurs Migrants"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="826"/>
+        <display value="Jeunes Travailleurs"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="827"/>
+        <display value="Personnes et Familles Réfugiées"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="828"/>
+        <display value="Accompagnants (ou aidants)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="829"/>
+        <display value="Familles en difficulté et-ou femmes isolées"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="830"/>
+        <display value="Personnes et Familles Demandeurs d'Asile"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="831"/>
+        <display value="Femmes Victimes de Violence"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="832"/>
+        <display value="Personnes avec Problèmes Psychiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="833"/>
+        <display value="Pers.agée, Pers.handicapée, Etudiant, Jeune travailleur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="834"/>
+        <display value="Patients et accompagnants (ou aidants)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="835"/>
+        <display value="Parents en difficulté avec enfant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="836"/>
+        <display value="Personnes victimes de la Traite des Etres Humains (T.E.H.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="840"/>
+        <display value="Personnes sans Domicile"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="850"/>
+        <display value="Personnes souffrant d'addictions sans substances"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="851"/>
+        <display value="Personnes mésusant de médicaments"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="852"/>
+        <display value="Personnes en demande sevrage tabagique ou diminution tabac"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="853"/>
+        <display value="Personnes souffrant d'addictions (Sans Autre Indication)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="860"/>
+        <display value="Majeurs Protégés"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="861"/>
+        <display value="Adultes avec difficultés budgétaires"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="862"/>
+        <display value="Tuteurs Familiaux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="899"/>
+        <display value="Tous publics en difficulté"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="990"/>
+        <display value="Toute Population"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.132"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

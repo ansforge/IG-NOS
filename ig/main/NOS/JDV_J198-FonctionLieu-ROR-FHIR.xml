@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J198-FonctionLieu-ROR"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2022-09-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J198-FonctionLieu-ROR/FHIR/JDV-J198-FonctionLieu-ROR"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.30"/>
+  </identifier>
+  <version value="20220930120000"/>
+  <name value="JDV_J198-FonctionLieu-ROR"/>
+  <status value="active"/>
+  <date value="2022-09-30T12:00:00+01:00"/>
+  <description value="Destination d'usage du lieu pour le lieu de réalisation de l'offre."/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu"/>
+      <concept>
+        <code value="001"/>
+        <display value="Hébergement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.227"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

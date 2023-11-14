@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J23-TypeNoteCahierLiaison-CISIS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2017-10-13T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J23-TypeNoteCahierLiaison-CISIS/FHIR/JDV-J23-TypeNoteCahierLiaison-CISIS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.98"/>
+  </identifier>
+  <version value="20200424120000"/>
+  <name value="JDV_J23-TypeNoteCahierLiaison-CISIS"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <description value="Type de note du cahier de liaison - CI-SIS"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R234-TypeNote/FHIR/TRE-R234-TypeNote"/>
+      <concept>
+        <code value="DEM-AVIS"/>
+        <display value="Demande d'avis"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.334"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GEN"/>
+        <display value="Note générale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.334"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="INST"/>
+        <display value="Instruction"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.334"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="INTERV"/>
+        <display value="Note d'intervention"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.334"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="OBS"/>
+        <display value="Note d'observation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.334"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

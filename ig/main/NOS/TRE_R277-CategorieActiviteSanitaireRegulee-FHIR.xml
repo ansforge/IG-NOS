@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R277-CategorieActiviteSanitaireRegulee"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2018-07-27T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R277-CategorieActiviteSanitaireRegulee/FHIR/TRE-R277-CategorieActiviteSanitaireRegulee"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.129"/>
+  </identifier>
+  <version value="20201217120000"/>
+  <name value="TRE_R277-CategorieActiviteSanitaireRegulee"/>
+  <status value="active"/>
+  <date value="2020-12-17T12:00:00+01:00"/>
+  <description value="Types d'activités autorisées"/>
+  <content value="complete"/>
+  <property>
+    <code value="dateValid"/>
+    <description value="Date de validité d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateMaj"/>
+    <description value="Date de mise à jour d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateFin"/>
+    <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <concept>
+    <code value="01"/>
+    <display value="Activité de soins"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Activité de soins"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Activité de soins"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-07-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2020-12-17T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Activités de soins Soumises à Autorisation des DG d'ARS"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ASA"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Activités de soins Soumises à Autorisation des DG d'ARS"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-07-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2020-12-17T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="Activités de soins Soumises à Reconnaissance contractuelle"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ASR"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Activités de soins Soumises à Reconnaissance contractuelle"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-07-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2020-12-17T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

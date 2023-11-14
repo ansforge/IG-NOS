@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J100-FinessStatutJuridique-RASS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2019-08-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.168"/>
+  </identifier>
+  <version value="20200424120000"/>
+  <name value="JDV_J100-FinessStatutJuridique-RASS"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <description value="Statut juridique FINESS dans le RASS"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique"/>
+      <concept>
+        <code value="000"/>
+        <display value="En cours de vérification"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="01"/>
+        <display value="Etat"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="02"/>
+        <display value="Département"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="03"/>
+        <display value="Commune"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="04"/>
+        <display value="Région"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="05"/>
+        <display value="Territoire d'Outre Mer"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="06"/>
+        <display value="Autre Collectivité Territoriale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="07"/>
+        <display value="Métropole ou pôle métropolitain"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="08"/>
+        <display value="Centre Intercommunal d'Action Sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="10"/>
+        <display value="Etablissement Public National d'Hospitalisation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="Etablissement Public Départemental d'Hospitalisation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="12"/>
+        <display value="Etablissement Public Interdépartemental d'Hospitalisation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="13"/>
+        <display value="Etablissement Public Communal d'Hospitalisation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="14"/>
+        <display value="Etablissement Public Intercommunal d'Hospitalisation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="15"/>
+        <display value="Etablissement Public Régional d'Hospitalisation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="16"/>
+        <display value="Syndicat Inter Hospitalier"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="17"/>
+        <display value="Centre Communal d'Action Sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="18"/>
+        <display value="Etablissement Social et Médico-Social National"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="19"/>
+        <display value="Etablissement Social et Médico-Social Départemental"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20"/>
+        <display value="Etablissement Social et Médico-Social Interdépartemental"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="21"/>
+        <display value="Etablissement Social et Médico-Social Communal"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="22"/>
+        <display value="Etablissement Social et Médico-Social Intercommunal"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="23"/>
+        <display value="Etablissement Social et Médico-Social Régional"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="24"/>
+        <display value="Office Public d'H.L.M."/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="25"/>
+        <display value="Caisse des Ecoles"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="26"/>
+        <display value="Autre Etablissement Public à Caractère Administratif"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="27"/>
+        <display value="Etablissement Public à Caractère Industriel ou Commercial"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="28"/>
+        <display value="Groupement d'Intérêt Public (G.I.P.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="29"/>
+        <display value="Groupement de Coopération Sanitaire public"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="30"/>
+        <display value="Groupement de Coopération Sociale ou Médico-Sociale public"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="40"/>
+        <display value="Régime Général de Sécurité Sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="41"/>
+        <display value="Régime Spécial de Sécurité Sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="42"/>
+        <display value="Institution de Prévoyance"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="43"/>
+        <display value="Mutualité Sociale Agricole (M.S.A.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="44"/>
+        <display value="Régime Maladie des non Salariés non Agricole"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="45"/>
+        <display value="Régime Vieillesse Particulier"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="46"/>
+        <display value="Autre Régime de Prévoyance Sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="47"/>
+        <display value="Société Mutualiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="48"/>
+        <display value="Assurance Mutuelle Agricole"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="49"/>
+        <display value="Autre Organisme Mutualiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="50"/>
+        <display value="Comité d'Entreprise ou Comité d'Etablissement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="51"/>
+        <display value="Syndicat"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="52"/>
+        <display value="Syndicat de Propriétaires"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="60"/>
+        <display value="Association Loi 1901 non Reconnue d'Utilité Publique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="61"/>
+        <display value="Association Loi 1901 Reconnue d'Utilité Publique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="62"/>
+        <display value="Association de Droit Local"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="63"/>
+        <display value="Fondation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="64"/>
+        <display value="Congrégation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="65"/>
+        <display value="Autre Organisme Privé à But non Lucratif"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="66"/>
+        <display value="Groupement de Coopération Sociale ou Médico-Sociale privé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="70"/>
+        <display value="Personne Physique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="71"/>
+        <display value="Société en Nom Collectif (S.N.C.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="72"/>
+        <display value="Société A Responsabilité Limitée (S.A.R.L.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="73"/>
+        <display value="Société Anonyme (S.A.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="74"/>
+        <display value="Société Civile"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="75"/>
+        <display value="Autre Société"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="76"/>
+        <display value="Groupement d'Intérêt Economique (G.I.E.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="77"/>
+        <display value="Autre Organisme Privé à Caractère Commercial"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="78"/>
+        <display value="Entreprise Unipersonnelle Responsabilité Limitée (E.U.R.L.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="79"/>
+        <display value="Société Civile de Moyens (S.C.M.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="80"/>
+        <display value="Société Interprofessionnelle Soins Ambulatoires (S.I.S.A.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="85"/>
+        <display value="Soc. Exercice Libéral Responsabilité Limitée (S.E.L.A.R.L.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="86"/>
+        <display value="Société d'Exercice Libéral à Forme Anonyme (S.E.L.A.F.A.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="87"/>
+        <display value="Société Exercice Libéral Commandite par Actions (S.E.L.C.A.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="88"/>
+        <display value="Société Civile Professionnelle (S.C.P.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="89"/>
+        <display value="Groupement de Coopération Sanitaire Privé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="90"/>
+        <display value="Organisme de Droit Etranger"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="91"/>
+        <display value="Société Exercice Libéral par Actions Simplifiée (S.E.L.A.S.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="93"/>
+        <display value="Société en commandite"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="95"/>
+        <display value="Société par Actions Simplifiée (S.A.S.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="100"/>
+        <display value="Société d'exercice libéral à responsabilité limitée unipersonnelle (SELURL)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="101"/>
+        <display value="Société d'exercice libéral par actions simplifiée (SELAS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="102"/>
+        <display value="Société d'exercice libéral par actions simplifiée unipersonnelle (SELASU)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="103"/>
+        <display value="Société en commandite simple (SCS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="104"/>
+        <display value="Société en commandite par actions (SCA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="105"/>
+        <display value="Société par actions simplifiée (SAS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="106"/>
+        <display value="Société anonyme à directoire (SADI)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="107"/>
+        <display value="Société Anonyme à conseil d'administration (SACA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="110"/>
+        <display value="Société en participation (SEP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.44"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

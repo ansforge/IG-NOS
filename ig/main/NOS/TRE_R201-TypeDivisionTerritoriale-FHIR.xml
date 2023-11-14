@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R201-TypeDivisionTerritoriale"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2015-03-25T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R201-TypeDivisionTerritoriale/FHIR/TRE-R201-TypeDivisionTerritoriale"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.3.2"/>
+  </identifier>
+  <version value="20200424120000"/>
+  <name value="TRE_R201-TypeDivisionTerritoriale"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <description value="Type de division territoriale"/>
+  <content value="complete"/>
+  <property>
+    <code value="dateValid"/>
+    <description value="Date de validité d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateMaj"/>
+    <description value="Date de mise à jour d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateFin"/>
+    <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <concept>
+    <code value="1"/>
+    <display value="Région"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Région"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Région"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-03-25T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Département"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Département"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Département"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-03-25T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Commune"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Commune"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Commune"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-03-25T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Territoire de Santé"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Territoire de Santé"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Territoire de Santé"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-03-25T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Pays"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Pays"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Pays"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2015-03-25T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Zone de Défense"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Zone de Défense"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Zone de Défense"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

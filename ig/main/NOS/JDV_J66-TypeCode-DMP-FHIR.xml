@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J66-TypeCode-DMP"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2019-01-18T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J66-TypeCode-DMP/FHIR/JDV-J66-TypeCode-DMP"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.7"/>
+  </identifier>
+  <version value="20230922120000"/>
+  <name value="JDV_J66-TypeCode-DMP"/>
+  <status value="active"/>
+  <date value="2023-09-22T12:00:00+01:00"/>
+  <description value="Jeu de valeurs pour métadonnée typeCode DMP"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire"/>
+      <concept>
+        <code value="AUTORIS-SOINS"/>
+        <display value="Autorisation de soins et actes non usuels sanitaires"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ATTEST-RESID"/>
+        <display value="Attestation de résidence"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ATTEST-VITALE"/>
+        <display value="Attestation de carte vitale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ATTEST-ASS-COMPL"/>
+        <display value="Attestation assurance complémentaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ATTEST-HEBGT"/>
+        <display value="Attestation d'hébergement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="BIL_AUTO"/>
+        <display value="CR de bilan d'évaluation de la perte d'autonomie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CERT_DECL"/>
+        <display value="Certificat, déclaration"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DISP_AUT"/>
+        <display value="Dispensation (autre)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="EXPPAT_1"/>
+        <display value="Volontés et droits du patient"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="EXPPAT_2"/>
+        <display value="Autre document du patient"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="EXPPAT_3"/>
+        <display value="Directives anticipées"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="IMG-KOS"/>
+        <display value="Reference d'objets d'un examen d'imagerie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="PROT_ALD"/>
+        <display value="Protocole de soins ALD"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="REMB"/>
+        <display value="Données de remboursement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SYNTH"/>
+        <display value="Synthèse"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DOCPAT01"/>
+        <display value="Synthèse déposée par le patient"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DOCPAT02"/>
+        <display value="Traitement ou document de soins déposé par le patient"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DOCPAT03"/>
+        <display value="CR déposé par le patient"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DOCPAT04"/>
+        <display value="Imagerie déposée par le patient"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DOCPAT05"/>
+        <display value="CR de biologie déposé par le patient"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DOCPAT06"/>
+        <display value="CR de prévention déposé par le patient"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DOCPAT07"/>
+        <display value="Certificat déposé par le patient"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DOCPAT08"/>
+        <display value="Profil médical Mon espace santé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DOCPAT09"/>
+        <display value="Document administratif déposé par le patient"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="PRESC-BIO"/>
+        <display value="Prescription d'actes de biologie médicale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="PRESC-KINE"/>
+        <display value="Prescription d'actes de kinésithérapie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="PRESC-INF"/>
+        <display value="Prescription d'actes infirmiers"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="PRESC-PEDI"/>
+        <display value="Prescription d'actes de pédicurie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="PRESC-ORTHOPHO"/>
+        <display value="Prescription d'actes d'orthophonie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="PRESC-ORTHOPTIE"/>
+        <display value="Prescription d'actes d'orthoptie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc"/>
+      <concept>
+        <code value="11369-6"/>
+        <display value="Historique des vaccinations"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11488-4"/>
+        <display value="CR ou fiche de consultation ou de visite"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11490-0"/>
+        <display value="Lettre de liaison à la sortie d'un établissement de soins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11502-2"/>
+        <display value="CR d'examens biologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11505-5"/>
+        <display value="CR d'acte thérapeutique (autre)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11506-3"/>
+        <display value="CR ou fiche de suivi de soins par auxiliaire médical"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11526-1"/>
+        <display value="CR d'anatomie et de cytologie pathologiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="15507-7"/>
+        <display value="CR de passage aux urgences"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="15508-5"/>
+        <display value="CR d'accouchement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="18748-4"/>
+        <display value="CR d'imagerie médicale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="18761-7"/>
+        <display value="Note de transfert (dont lettre de liaison à l'entrée en établissement de soins)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="18776-5"/>
+        <display value="Plan personnalisé de soins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="34112-3"/>
+        <display value="CR hospitalier (séjour)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="34133-9"/>
+        <display value="Synthèse d'épisode de soins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="34749-2"/>
+        <display value="CR de consultation pré-anesthésique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="34794-8"/>
+        <display value="CR de réunion de concertation pluridisciplinaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="34842-5"/>
+        <display value="Grille d'évaluation médico-social"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="34874-8"/>
+        <display value="CR opératoire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="47420-5"/>
+        <display value="CR de bilan fonctionnel (par auxiliaire médical)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="52040-3"/>
+        <display value="Document encapsulant une image d'illustration non DICOM"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="51969-4"/>
+        <display value="CR de génétique moléculaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="55115-0"/>
+        <display value="Demande d'actes d'imagerie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="56445-0"/>
+        <display value="Bilan médicamenteux (Officine)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="57828-6"/>
+        <display value="Prescription (autre)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="57832-8"/>
+        <display value="Prescription de soins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="57833-6"/>
+        <display value="Prescription de produits de santé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="60591-5"/>
+        <display value="Synthèse du dossier médical"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="60593-1"/>
+        <display value="Dispensation médicamenteuse"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="61357-0"/>
+        <display value="Intervention pharmaceutique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="67851-6"/>
+        <display value="CR d'admission"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="68599-0"/>
+        <display value="Synthèse psychiatrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="68817-6"/>
+        <display value="Bilan de santé et de prévention de l'enfant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="70004-7"/>
+        <display value="CR d'acte diagnostique (autre)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="74207-2"/>
+        <display value="Dossier de liaison d'urgence"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="75468-9"/>
+        <display value="Renouvellement ordonnance par pharmacien correspondant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="75482-0"/>
+        <display value="CR d'acte thérapeutique à visée préventive"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="75492-9"/>
+        <display value="CR d'acte diagnostique à visée préventive ou de dépistage"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="75496-0"/>
+        <display value="Demande d'acte de télémédecine"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="77436-4"/>
+        <display value="CR d'anesthésie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="77604-7"/>
+        <display value="Planification thérapeutique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="78513-9"/>
+        <display value="CR de consultation en ophtalmologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="78601-2"/>
+        <display value="CR d'entretien pharmaceutique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="80565-5"/>
+        <display value="CR d'administration de médicaments"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="80788-3"/>
+        <display value="Projet personnalisé d'accompagnement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="80820-4"/>
+        <display value="Formulaire de conciliation médicamenteuse (Hôpital)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="83836-7"/>
+        <display value="Schéma dentaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="83901-9"/>
+        <display value="Bilan psychologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="83981-1"/>
+        <display value="Lettre de liaison à la sortie d'une structure sociale ou médico-sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="85208-7"/>
+        <display value="CR de télémédecine"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="86531-1"/>
+        <display value="Attestation de sortie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="87273-9"/>
+        <display value="Note de vaccination"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="88348-8"/>
+        <display value="Lettre de liaison d'entrée en structure sociale ou médico-sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="89601-9"/>
+        <display value="Certificat médical"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="93024-8"/>
+        <display value="CR de consultation pharmaceutique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="96173-0"/>
+        <display value="Attestation de dépistage"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="96874-3"/>
+        <display value="COVID-19 Attestation de vaccination"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_A12-NomenclatureASTM/FHIR/TRE-A12-NomenclatureASTM"/>
+      <concept>
+        <code value="E1762"/>
+        <display value="Full Document"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:ASTM"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

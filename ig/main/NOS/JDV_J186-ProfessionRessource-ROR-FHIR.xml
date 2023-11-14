@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J186-ProfessionRessource-ROR"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2023-03-31T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.19"/>
+  </identifier>
+  <version value="20231030120000"/>
+  <name value="JDV_J186-ProfessionRessource-ROR"/>
+  <status value="active"/>
+  <date value="2023-10-30T12:00:00+01:00"/>
+  <description value="Profession Ressource des offres dans le ROR"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"/>
+      <concept>
+        <code value="10"/>
+        <display value="Médecin"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="21"/>
+        <display value="Pharmacien"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="26"/>
+        <display value="Audioprothésiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="28"/>
+        <display value="Opticien-Lunetier"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="31"/>
+        <display value="Assistant dentaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="32"/>
+        <display value="Physicien médical"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="35"/>
+        <display value="Aide-soignant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="36"/>
+        <display value="Ambulancier"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="37"/>
+        <display value="Auxiliaire de puériculture"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="38"/>
+        <display value="Préparateur en pharmacie hospitalière"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="39"/>
+        <display value="Préparateur en pharmacie (officine)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="40"/>
+        <display value="Chirurgien-Dentiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="50"/>
+        <display value="Sage-Femme"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="60"/>
+        <display value="Infirmier"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="69"/>
+        <display value="Infirmier psychiatrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="70"/>
+        <display value="Masseur-Kinésithérapeute"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="80"/>
+        <display value="Pédicure-Podologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="81"/>
+        <display value="Orthoprothésiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="82"/>
+        <display value="Podo-Orthésiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="83"/>
+        <display value="Orthopédiste-Orthésiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="84"/>
+        <display value="Oculariste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="85"/>
+        <display value="Epithésiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="86"/>
+        <display value="Technicien de laboratoire médical"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="91"/>
+        <display value="Orthophoniste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="92"/>
+        <display value="Orthoptiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="94"/>
+        <display value="Ergothérapeute"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="95"/>
+        <display value="Diététicien"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="96"/>
+        <display value="Psychomotricien"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="98"/>
+        <display value="Manipulateur ERM"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial"/>
+      <concept>
+        <code value="41"/>
+        <display value="Assistant de service social"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="42"/>
+        <display value="Auxiliaire de vie sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="43"/>
+        <display value="Technicien de l'intervention sociale et familiale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="44"/>
+        <display value="Conseiller en économie sociale et familiale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="45"/>
+        <display value="Médiateur familial"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="46"/>
+        <display value="Assistant familial"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="47"/>
+        <display value="Aide médico-psychologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="48"/>
+        <display value="Moniteur éducateur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="49"/>
+        <display value="Educateur de jeunes enfants"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="51"/>
+        <display value="Educateur spécialisé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="52"/>
+        <display value="Educateur technique spécialisé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="53"/>
+        <display value="Accompagnant éducatif et social"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.4"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"/>
+      <concept>
+        <code value="350"/>
+        <display value="Aide à domicile"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="351"/>
+        <display value="Assistant(e) maternel(le)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire"/>
+      <concept>
+        <code value="407"/>
+        <display value="Tatoueur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.110"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="408"/>
+        <display value="Perceur corporel"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.110"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="409"/>
+        <display value="Maquilleur permanent"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.110"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"/>
+      <concept>
+        <code value="71"/>
+        <display value="Ostéopathe"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.109"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="72"/>
+        <display value="Psychothérapeute"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.109"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="73"/>
+        <display value="Chiropracteur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.109"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="93"/>
+        <display value="Psychologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.109"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="97"/>
+        <display value="Conseiller en génétique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.109"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation"/>
+      <concept>
+        <code value="10"/>
+        <display value="Médecin en formation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.8"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="21"/>
+        <display value="Pharmacien en formation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.8"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="40"/>
+        <display value="Chirurgien-Dentiste en formation "/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.8"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="50"/>
+        <display value="Sage-Femme en formation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.8"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource"/>
+      <concept>
+        <code value="04"/>
+        <display value="Art-thérapeute"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="05"/>
+        <display value="Neuropsychologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="08"/>
+        <display value="Médiateur de santé pair"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="10"/>
+        <display value="Socio-esthéticienne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="Enseignant du 1er degré"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="12"/>
+        <display value="Enseignant du 2nd degré"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="13"/>
+        <display value="Enseignant du supérieur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="14"/>
+        <display value="Puéricultrice"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="17"/>
+        <display value="Aide humaine en milieu scolaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="19"/>
+        <display value="Médecin coordonnateur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20"/>
+        <display value="Infirmier coordonnateur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="21"/>
+        <display value="Phoniatre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="22"/>
+        <display value="Audio phonologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="23"/>
+        <display value="Ingénieur en analyse du mouvement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="24"/>
+        <display value="Psychologue clinicien"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="25"/>
+        <display value="Animateur socio-culturel"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="26"/>
+        <display value="Moniteur d'atelier"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="38"/>
+        <display value="Enseignant en Activité Physique Adaptée (EAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="39"/>
+        <display value="Accompagnant des Élèves en Situation de Handicap (AESH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="43"/>
+        <display value="Pédopsychiatre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="44"/>
+        <display value="Veilleur de nuit"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="45"/>
+        <display value="Assistant(e) de soins en gérontologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="47"/>
+        <display value="Aide médico psychologique (AMP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="50"/>
+        <display value="Avéjiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="51"/>
+        <display value="Instructeur en locomotion"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="52"/>
+        <display value="Educateur sportif"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="53"/>
+        <display value="Conseiller en insertion professionnelle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="54"/>
+        <display value="Coordonnateur et gestionnaire de parcours handicap"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="55"/>
+        <display value="Neuropédiatre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="56"/>
+        <display value="Psychopédagogue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="59"/>
+        <display value="Tabacologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="60"/>
+        <display value="Addictologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="61"/>
+        <display value="Allergologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="63"/>
+        <display value="Cardiologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="64"/>
+        <display value="Chercheur médical"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="65"/>
+        <display value="Chirurgien digestif"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="66"/>
+        <display value="Chirurgien général"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="67"/>
+        <display value="Chirurgien maxillo-facial"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="69"/>
+        <display value="Chirurgien oral"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="70"/>
+        <display value="Chirurgien orthopédiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="71"/>
+        <display value="Chirurgien pédiatrique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="72"/>
+        <display value="Chirurgien plastique, plasticien"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="73"/>
+        <display value="Chirurgien thoracique et cardiaque"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="74"/>
+        <display value="Chirurgien urologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="75"/>
+        <display value="Chirurgien vasculaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="76"/>
+        <display value="Dentiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="77"/>
+        <display value="Dermatologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="78"/>
+        <display value="Endocrinologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="79"/>
+        <display value="Gastro-entérologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="80"/>
+        <display value="Généticien médicale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="81"/>
+        <display value="Gériatre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="82"/>
+        <display value="Gynécologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="83"/>
+        <display value="Gynéco-obstétricien"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="84"/>
+        <display value="Hématologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="85"/>
+        <display value="Infectiologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="86"/>
+        <display value="Infirmier en pratique avancée (IPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="87"/>
+        <display value="Médecin anesthésiste-réanimateur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="90"/>
+        <display value="Médecin généraliste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="91"/>
+        <display value="Médecin interniste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="92"/>
+        <display value="Médecin légiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="93"/>
+        <display value="Médecin nucléaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="94"/>
+        <display value="Médecin rééducateur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="95"/>
+        <display value="Médecin vasculaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="96"/>
+        <display value="Néphrologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="97"/>
+        <display value="Neurochirurgien"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="98"/>
+        <display value="Neurologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99"/>
+        <display value="Neuro-psychiatre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="100"/>
+        <display value="Onco-hématologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="101"/>
+        <display value="Oncologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="102"/>
+        <display value="Ophtalmologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="103"/>
+        <display value="ORL"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="104"/>
+        <display value="Pathologiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="105"/>
+        <display value="Pédiatre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="106"/>
+        <display value="Pédopsychiatre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="107"/>
+        <display value="Pneumologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="108"/>
+        <display value="Psychiatre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="109"/>
+        <display value="Radiologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="110"/>
+        <display value="Radiologue et radiothérapeute"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="111"/>
+        <display value="Radiothérapeute"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="112"/>
+        <display value="Réanimateur intensiviste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="113"/>
+        <display value="Rhumatologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="114"/>
+        <display value="Stomatologue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="115"/>
+        <display value="Urgentiste"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="116"/>
+        <display value="Biologiste médical"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="117"/>
+        <display value="Médecin du travail"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="118"/>
+        <display value="Médecin de santé public"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.246"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

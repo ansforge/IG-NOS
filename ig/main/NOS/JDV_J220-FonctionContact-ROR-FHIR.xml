@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J220-FonctionContact-ROR"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2022-08-26T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J220-FonctionContact-ROR/FHIR/JDV-J220-FonctionContact-ROR"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.52"/>
+  </identifier>
+  <version value="20230630120000"/>
+  <name value="JDV_J220-FonctionContact-ROR"/>
+  <status value="active"/>
+  <date value="2023-06-30T12:00:00+01:00"/>
+  <description value="Un titre, une position, une fonction de la personne contact dans l'organisation"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R251-FonctionContact/FHIR/TRE-R251-FonctionContact"/>
+      <concept>
+        <code value="01"/>
+        <display value="Directeur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="02"/>
+        <display value="Assistant social"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="03"/>
+        <display value="Cadre de santé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="04"/>
+        <display value="Médecin coordonnateur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="05"/>
+        <display value="Secrétaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="06"/>
+        <display value="Président de CME"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="07"/>
+        <display value="Référent PDSES"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="08"/>
+        <display value="Infirmier coordonnateur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="09"/>
+        <display value="Infirmier de liaison"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="10"/>
+        <display value="Chef de service"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="Chef de pôle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="12"/>
+        <display value="Référent ROR"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="13"/>
+        <display value="Référent outil d'orientation SMR"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="15"/>
+        <display value="Référent direction des services informatiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="16"/>
+        <display value="Médecin DIM"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="18"/>
+        <display value="Contact gestion de cas MAIA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="19"/>
+        <display value="Contact PTA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20"/>
+        <display value="Chef de service éducatif"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="21"/>
+        <display value="Coordonnateur CLIC"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="22"/>
+        <display value="Responsable d'unité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="23"/>
+        <display value="Spécialiste en hygiène prévention contrôle des Infections Associées aux Soins (IAS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="24"/>
+        <display value="Responsable du signalement des Infections Associées aux Soins (IAS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="25"/>
+        <display value="Référent en antibiothérapie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="26"/>
+        <display value="Coordonnateur de la gestion des risques associés aux soins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.48"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

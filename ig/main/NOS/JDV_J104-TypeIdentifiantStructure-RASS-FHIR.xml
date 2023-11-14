@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J104-TypeIdentifiantStructure-RASS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2019-08-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J104-TypeIdentifiantStructure-RASS/FHIR/JDV-J104-TypeIdentifiantStructure-RASS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.172"/>
+  </identifier>
+  <version value="20200424120000"/>
+  <name value="JDV_J104-TypeIdentifiantStructure-RASS"/>
+  <status value="active"/>
+  <date value="2020-04-24T12:00:00+01:00"/>
+  <description value="Type d'identifiant national de structure dans le RASS"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_G07-TypeIdentifiantStructure/FHIR/TRE-G07-TypeIdentifiantStructure"/>
+      <concept>
+        <code value="0"/>
+        <display value="Id Cabinet ADELI"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.14"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1"/>
+        <display value="FINESS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.14"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="SIREN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.14"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3"/>
+        <display value="SIRET"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.14"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="4"/>
+        <display value="Id Cabinet RPPS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.1.2.14"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J252-StatutPersonnePriseChargeESMS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2023-06-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J252-StatutPersonnePriseChargeESMS/FHIR/JDV-J252-StatutPersonnePriseChargeESMS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.116"/>
+  </identifier>
+  <version value="20230922120000"/>
+  <name value="JDV_J252-StatutPersonnePriseChargeESMS"/>
+  <status value="active"/>
+  <date value="2023-09-22T12:00:00+01:00"/>
+  <description value="Statut de la personne prise en charge au sein d'un ESMS"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R357-StatutPersonnePriseCharge/FHIR/TRE-R357-StatutPersonnePriseCharge"/>
+      <concept>
+        <code value="37"/>
+        <display value="Décision d'orientation annulée"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.247"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="39"/>
+        <display value="Notification envoyée"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.247"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="40"/>
+        <display value="Notification lue"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.247"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="41"/>
+        <display value="Contact effectué"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.247"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="42"/>
+        <display value="Liste d'attente. En cours d'analyse, demande d'admission reçue dans l'ESMS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.247"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="43"/>
+        <display value="Période d'essai en cours dans l'ESMS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.247"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="44"/>
+        <display value="Période d'essai non concluante dans l'ESMS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.247"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="45"/>
+        <display value="Admission impossible signalée"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.247"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="46"/>
+        <display value="Admission impossible entérinée"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.247"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="47"/>
+        <display value="Usager entré"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.247"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="48"/>
+        <display value="Usager sorti"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.247"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="49"/>
+        <display value="Notification annulée"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.247"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="51"/>
+        <display value="Demande de réorientation dans l'ESMS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.247"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="54"/>
+        <display value="Notification réactivée"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.247"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="71"/>
+        <display value="Liste d'attente. Admis dans l'ESMS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.247"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="72"/>
+        <display value="Liste d'attente. Admissible dans l'ESMS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.247"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

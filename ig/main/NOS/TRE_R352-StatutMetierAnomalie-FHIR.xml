@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R352-StatutMetierAnomalie"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2023-05-26T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R352-StatutMetierAnomalie/FHIR/TRE-R352-StatutMetierAnomalie"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.3.242"/>
+  </identifier>
+  <version value="20230922120000"/>
+  <name value="TRE_R352-StatutMetierAnomalie"/>
+  <status value="active"/>
+  <date value="2023-09-22T12:00:00+01:00"/>
+  <description value="Statut métier des anomalies"/>
+  <content value="complete"/>
+  <property>
+    <code value="dateValid"/>
+    <description value="Date de validité d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateMaj"/>
+    <description value="Date de mise à jour d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateFin"/>
+    <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <concept>
+    <code value="01"/>
+    <display value="Créé"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Créé"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Créé"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="À traiter"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="À traiter"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="À traiter"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-09-22T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="Annulé"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Annulé"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Annulé"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="04"/>
+    <display value="Bloqué (destinataire manquant)"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Bloqué (destinataire manquant)"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Bloqué (destinataire manquant)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="05"/>
+    <display value="Envoyé au destinataire"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Envoyé au destinataire"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Envoyé au destinataire"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="06"/>
+    <display value="Toléré temporairement"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Toléré temporairement"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Toléré temporairement"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="07"/>
+    <display value="Toléré définitivement"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Toléré définitivement"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Toléré définitivement"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="08"/>
+    <display value="Corrigé"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Corrigé"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Corrigé"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="09"/>
+    <display value="Refusé"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Refusé"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Refusé"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-09-22T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="À vérifier"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="À vérifier"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="À vérifier"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-05-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-09-22T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <display value="Bloqué (destinataire erroné)"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Bloqué (destinataire erroné)"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Bloqué (destinataire erroné)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-09-22T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-09-22T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

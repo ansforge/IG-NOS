@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R354-TypeIdentifiantRessourceOperationnelle"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2023-03-31T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R354-TypeIdentifiantRessourceOperationnelle/FHIR/TRE-R354-TypeIdentifiantRessourceOperationnelle"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.3.244"/>
+  </identifier>
+  <version value="20230331120000"/>
+  <name value="TRE_R354-TypeIdentifiantRessourceOperationnelle"/>
+  <status value="active"/>
+  <date value="2023-03-31T12:00:00+01:00"/>
+  <description value="Type d'identifiant des ressources opérationnelles"/>
+  <content value="complete"/>
+  <property>
+    <code value="dateValid"/>
+    <description value="Date de validité d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateMaj"/>
+    <description value="Date de mise à jour d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateFin"/>
+    <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <concept>
+    <code value="25"/>
+    <display value="Identifiant du lieu de réalisation de l'offre connu par l'instance ROR"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="RORR_PTSAI _LOCID"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Identifiant du lieu de réalisation de l'offre connu par l'instance ROR"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="26"/>
+    <display value="Identifiant de la zone d'hébergement connu par l'établissement"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="RORR_ETAB_ LOCID"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Identifiant de la zone d'hébergement connu par l'établissement"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

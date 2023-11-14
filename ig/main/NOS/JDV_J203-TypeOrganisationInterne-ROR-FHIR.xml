@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J203-TypeOrganisationInterne-ROR"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2022-08-26T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J203-TypeOrganisationInterne-ROR/FHIR/JDV-J203-TypeOrganisationInterne-ROR"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.35"/>
+  </identifier>
+  <version value="20230922120000"/>
+  <name value="JDV_J203-TypeOrganisationInterne-ROR"/>
+  <status value="active"/>
+  <date value="2023-09-22T12:00:00+01:00"/>
+  <description value="Type Organisation interne ou d’organization (FHIR)"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R207-TypeOrganisationInterne/FHIR/TRE-R207-TypeOrganisationInterne"/>
+      <concept>
+        <code value="1"/>
+        <display value="Pôle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.8"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="Structure interne ou Service"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.8"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3"/>
+        <display value="Unité fonctionnelle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.8"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="4"/>
+        <display value="Unité élémentaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.8"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R67-TypeStructure-EJ-EG/FHIR/TRE-R67-TypeStructure-EJ-EG"/>
+      <concept>
+        <code value="EJ"/>
+        <display value="Entité juridique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.62"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="EG"/>
+        <display value="Etablissement géographique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.62"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

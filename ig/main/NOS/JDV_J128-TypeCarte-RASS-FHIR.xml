@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J128-TypeCarte-RASS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2020-11-27T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J128-TypeCarte-RASS/FHIR/JDV-J128-TypeCarte-RASS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.214"/>
+  </identifier>
+  <version value="20201127120000"/>
+  <name value="JDV_J128-TypeCarte-RASS"/>
+  <status value="active"/>
+  <date value="2020-11-27T12:00:00+01:00"/>
+  <description value="Type de carte dans le RASS"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R87-TypeCarte/FHIR/TRE-R87-TypeCarte"/>
+      <concept>
+        <code value="CPA"/>
+        <display value="Carte de Personnel Autorisé (CDA/CPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.106"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CPE"/>
+        <display value="Carte de Personnel d'Etablissement de santé (CDE/CPE)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.106"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CPF"/>
+        <display value="Carte de Professionnel de Santé en Formation (CPF)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.106"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CPS"/>
+        <display value="Carte de Professionnel de Santé (CPS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.106"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>
