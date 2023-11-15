@@ -107,8 +107,8 @@ jobs:
 
 
 
-      - name: Run script python
-        run: python ./tools/transform.py './output' './tools/xsl'
+      #- name: Run script python
+      #  run: python ./tools/transform.py './output' './tools/xsl'
 
       - name:  1 ZIP JDV PDF
         run :  zip -rj ./output/NOS/NOS-jdv-pdf.zip ./output/NOS/JDV_*.pdf        
