@@ -105,7 +105,11 @@ jobs:
           unzip NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip -d ./output/NOS   
 
 
+      - name:  Rename TRE
+        run :  rename -v 's/TRE_/CodeSystem-TRE-/' 
 
+      - name:  Rename JDV
+        run :  rename -v 's/JDV_/ValueSet-JDV-/'         
 
       #- name: Run script python
       #  run: python ./tools/transform.py './output' './tools/xsl'
