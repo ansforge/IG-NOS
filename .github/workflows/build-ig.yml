@@ -29,7 +29,10 @@ jobs:
 
       - name: Install saxon
         run : pip install saxonche
-          
+        
+      - name: Install Renale
+        run : apt install rename        
+        
       - name: Get From site esante     
         run: |
           #Creation des répertoires d'init
