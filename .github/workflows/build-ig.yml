@@ -109,10 +109,10 @@ jobs:
 
 
       - name:  Rename TRE
-        run :  rename -v 's/TRE_/CodeSystem-TRE-/' 
+        run :  rename -v 's/TRE_/CodeSystem-TRE-/' *
 
       - name:  Rename JDV
-        run :  rename -v 's/JDV_/ValueSet-JDV-/'         
+        run :  rename -v 's/JDV_/ValueSet-JDV-/' *        
 
       #- name: Run script python
       #  run: python ./tools/transform.py './output' './tools/xsl'
