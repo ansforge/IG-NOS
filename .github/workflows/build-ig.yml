@@ -112,34 +112,34 @@ jobs:
 
 
       - name:  1 ZIP JDV PDF
-        run :  zip -rj ./output/NOS/NOS-jdv-pdf.zip ./output/NOS/JDV_*.pdf        
+        run :  zip -rj ./output/NOS/NOS-jdv-pdf.zip ./output/NOS/*JDV-*.pdf        
         
       - name:  1 ZIP JDV SVS
-        run :  zip -rj ./output/NOS/NOS-jdv-svs.zip ./output/NOS/JDV_*.xml  -x "*FHIR*"   
+        run :  zip -rj ./output/NOS/NOS-jdv-svs.zip ./output/NOS/*JDV-*.xml  -x "*FHIR*"   
         
       - name:  1 ZIP JDV FHIR JSON
-        run :  zip -rj ./output/NOS/NOS-jdv-fhir-json.zip ./output/NOS/JDV_*-FHIR.json     
+        run :  zip -rj ./output/NOS/NOS-jdv-fhir-json.zip ./output/NOS/*JDV-*-FHIR.json     
         
       - name:  1 ZIP JDV FHIR XML
-        run :  zip -rj ./output/NOS/NOS-jdv-fhir-xml.zip ./output/NOS/JDV_*-FHIR.xml         
+        run :  zip -rj ./output/NOS/NOS-jdv-fhir-xml.zip ./output/NOS/*JDV-*-FHIR.xml         
         
       - name:  1 ZIP JDV FHIR tabs
-        run :  zip -rj ./output/NOS/NOS-jdv-tabs.zip ./output/NOS/JDV_*.tabs 
+        run :  zip -rj ./output/NOS/NOS-jdv-tabs.zip ./output/NOS/*JDV-*.tabs 
         
       - name:  2 ZIP TRE PDF
-        run :  zip -rj ./output/NOS/NOS-tre-pdf.zip ./output/NOS/TRE_*.pdf        
+        run :  zip -rj ./output/NOS/NOS-tre-pdf.zip ./output/NOS/*TRE-*.pdf        
         
       - name:  2 ZIP TRE SVS
-        run :  zip -rj ./output/NOS/NOS-tre-svs.zip ./output/NOS/TRE*.xml  -x "*FHIR*"   
+        run :  zip -rj ./output/NOS/NOS-tre-svs.zip ./output/NOS/*TRE*.xml  -x "*FHIR*"   
         
       - name:  2 ZIP TRE FHIR JSON
-        run :  zip -rj ./output/NOS/NOS-tre-fhir-json.zip ./output/NOS/TRE*-FHIR.json     
+        run :  zip -rj ./output/NOS/NOS-tre-fhir-json.zip ./output/NOS/*TRE*-FHIR.json     
         
       - name:  2 ZIP TRE FHIR XML
-        run :  zip -rj ./output/NOS/NOS-tre-fhir-xml.zip ./output/NOS/TRE*-FHIR.xml         
+        run :  zip -rj ./output/NOS/NOS-tre-fhir-xml.zip ./output/NOS/*TRE*-FHIR.xml         
         
       - name:  2 ZIP TRE FHIR tabs
-        run :  zip -rj ./output/NOS/NOS-tre-tabs.zip ./output/NOS/TRE*.tabs 
+        run :  zip -rj ./output/NOS/NOS-tre-tabs.zip ./output/NOS/*TRE*.tabs 
         
     
       - name:  3 ZIP ASS PDF
