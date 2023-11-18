@@ -27,8 +27,6 @@ jobs:
         with:
           python-version: '3.10' 
 
-      - name: Install saxon
-        run : pip install saxonche
         
       - name: Install rename        
         run : sudo  apt install rename        
@@ -74,11 +72,6 @@ jobs:
         run : java -Xmx8192m -jar publisher.jar publisher -ig .  -publish https://github.io/
 
 
-      - name: Setup Python # Set Python version
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10' 
-
 
       - name: Get From site esante     
         run: |
@@ -112,13 +105,11 @@ jobs:
 
 
       - name:  Rename TRE
-        run :  rename -v 's/TRE_/CodeSystem-TRE-/' ./output/NOS 
+        run :  rename -v 's/TRE_/CodeSystem-TRE-/' ./output/NOS/*
 
       - name:  Rename JDV
-        run :  rename -v 's/JDV_/ValueSet-JDV-/' ./output/NOS         
+        run :  rename -v 's/JDV_/ValueSet-JDV-/' ./output/NOS/*       
 
-      #- name: Run script python
-      #  run: python ./tools/transform.py './output' './tools/xsl'
 
       - name:  1 ZIP JDV PDF
         run :  zip -rj ./output/NOS/NOS-jdv-pdf.zip ./output/NOS/JDV_*.pdf        
