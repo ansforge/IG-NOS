@@ -36,18 +36,12 @@ jobs:
       - name: Get From site esante     
         run: |
           #Creation des répertoires d'init
-          mkdir ./input/ontoserver
-          mkdir ./input/ontoserver/JDV
-          mkdir ./input/ontoserver/TRE
-          mkdir ./input/ontoserver/ASS
-          mkdir ./input/ontoserver/NamingSystem
           mkdir  ./input/images/NOS/
           mkdir ./input/NOS
           #Recuperation des NOS en json
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics-Versions_json_fhir.zip
           unzip NOS-Fichiers_Publics-Versions_json_fhir.zip -d ./input/NOS
-          unzip NOS-Fichiers_Publics-Versions_json_fhir.zip -d ./input/images/NOS
-          cp  NOS-Fichiers_Publics-Versions_json_fhir.zip ./input/images/NOS
+
           #Suppression des fichiers en erreur
           rm ./input/NOS/TRE_R13-Commune-FHIR.json
           rm ./input/NOS/ASS_X12-CommuneDeptRegionOM-FHIR.json
@@ -88,6 +82,8 @@ jobs:
 
       - name: Get From site esante     
         run: |
+          #unzip NOS-Fichiers_Publics-Versions_json_fhir.zip -d ./input/images/NOS
+          #cp  NOS-Fichiers_Publics-Versions_json_fhir.zip ./input/images/NOS        
           #Recucperation des fichiers .tabs
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics.zip
           cp  NOS-Fichiers_Publics.zip ./output/NOS/
@@ -109,10 +105,10 @@ jobs:
 
 
       - name:  Rename TRE
-        run :  rename -v 's/TRE_/CodeSystem-TRE-/' *
+        run :  rename -v 's/TRE_/CodeSystem-TRE-/' ./output/NOS 
 
       - name:  Rename JDV
-        run :  rename -v 's/JDV_/ValueSet-JDV-/' *        
+        run :  rename -v 's/JDV_/ValueSet-JDV-/' ./output/NOS         
 
       #- name: Run script python
       #  run: python ./tools/transform.py './output' './tools/xsl'
