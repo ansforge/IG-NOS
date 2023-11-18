@@ -36,7 +36,7 @@ jobs:
       - name: Get From site esante     
         run: |
           #Creation des répertoires d'init
-          mkdir  ./input/images/NOS/
+          #mkdir  ./input/images/NOS/
           mkdir ./input/NOS
           #Recuperation des NOS en json
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics-Versions_json_fhir.zip
