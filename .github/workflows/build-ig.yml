@@ -82,20 +82,27 @@ jobs:
 
       - name: Get From site esante     
         run: |
-          #unzip NOS-Fichiers_Publics-Versions_json_fhir.zip -d ./input/images/NOS
-          #cp  NOS-Fichiers_Publics-Versions_json_fhir.zip ./input/images/NOS        
+          #Recuperation des fichier .json
+          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics-Versions_json_fhir.zip
+          cp  NOS-Fichiers_Publics-Versions_json_fhir.zip ./output/NOS
+          unzip NOS-Fichiers_Publics-Versions_json_fhir.zip -d ./output/NOS          
+          
           #Recucperation des fichiers .tabs
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics.zip
           cp  NOS-Fichiers_Publics.zip ./output/NOS/
           unzip NOS-Fichiers_Publics.zip -d ./output/NOS
+
           #Recupération des fichiers SVS
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics-Versions_xml_svs.zip
           cp  NOS-Fichiers_Publics-Versions_xml_svs.zip ./output/NOS
           unzip NOS-Fichiers_Publics-Versions_xml_svs.zip -d ./output/NOS
-          #Récupération des fichiers xml Fhir
+
+          #Recupération des fichiers xml Fhir
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/nos-fichiers_publics-versions_xml_fhir.zip
           cp  nos-fichiers_publics-versions_xml_fhir.zip ./output/NOS
           unzip nos-fichiers_publics-versions_xml_fhir.zip -d ./output/NOS
+
+          #Recuperation des fichiers PDF
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics_JDV-Versions_pdf.zip
           cp  NOS-Fichiers_Publics_JDV-Versions_pdf.zip ./output/NOS
           unzip NOS-Fichiers_Publics_JDV-Versions_pdf.zip -d ./output/NOS
