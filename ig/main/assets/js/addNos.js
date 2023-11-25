@@ -24,6 +24,7 @@ $('#orig').find('table').each(function(indextable) {
 	firstTr.find('td').contents().unwrap().wrap('<th>')
 	$(this).prepend($('<thead></thead>').append(firstTr))
 	$(this).addClass("results"+indextable); 
+	  $(this).addClass("table-striped");
 
   $(".search"+indextable).keyup(function () {
     var searchTerm = $(".search"+indextable).val();
@@ -43,6 +44,11 @@ $('#orig').find('table').each(function(indextable) {
     $(this).attr('visible','true');
   });
 
+  if(searchSplit=="") {
+    $(".results"+indextable +" tbody tr").attr('visible','true');
+    $('.counter'+indextable).text("");
+  }
+
   var jobCount = $('.results'+indextable +' tbody tr[visible="true"]').length;
     $('.counter'+indextable).text(jobCount + ' item');
 
@@ -51,8 +57,6 @@ $('#orig').find('table').each(function(indextable) {
 		  });
 	
 });
-
-
 
      
 });
