@@ -236,6 +236,44 @@ Exemples d’usage :</p>
   </script>
   <script type="text/javascript">
    $(document).ready(function(){
+	
+$('#orig').find('table').each(function(index) { 
+
+	$('<div class="form-group pull-right"> <input type="text"  style="height:auto;font-size:12px" class="search form-control" placeholder="Recherche"></div><span class="counter pull-right"></span>').insertBefore($(this));	
+	firstTr = $(this).find('tr:first').remove()
+	firstTr.find('td').contents().unwrap().wrap('<th>')
+	$(this).prepend($('<thead></thead>').append(firstTr))
+	$(this).addClass("result"+index); 
+
+  $(".search").keyup(function () {
+    var searchTerm = $(".search"+index).val();
+    var listItem = $('.results'+index +' tbody').children('tr');
+    var searchSplit = searchTerm.replace(/ /g, "'):containsi('")
+    
+  $.extend($.expr[':'], {'containsi': function(elem, i, match, array){
+        return (elem.textContent || elem.innerText || '').toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;
+    }
+  });
+    
+  $(".results"+index +" tbody tr").not(":containsi('" + searchSplit + "')").each(function(e){
+    $(this).attr('visible','false');
+  });
+
+  $(".results"+index +" tbody tr:containsi('" + searchSplit + "')").each(function(e){
+    $(this).attr('visible','true');
+  });
+
+  var jobCount = $('.results'+index +' tbody tr[visible="true"]').length;
+    $('.counter').text(jobCount + ' item');
+
+  if(jobCount == '0') {$('.no-result').show();}
+    else {$('.no-result').hide();}
+		  });
+	
+});
+
+	   
+	   
 		$( "#Adownload" ).on( "click", function() {
 		  
 			$( "#orig" ).css("display", "none");
@@ -275,7 +313,7 @@ Exemples d’usage :</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Nov 25, 2023 15:12+0000">2023-11-25</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Nov 25, 2023 16:21+0000">2023-11-25</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
