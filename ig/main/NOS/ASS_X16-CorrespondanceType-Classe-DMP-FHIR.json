@@ -19,10 +19,10 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.587"
     }
   ],
-  "version": "20231030120000",
+  "version": "20231124120000",
   "name": "ASS_X16-CorrespondanceType-Classe-DMP",
   "status": "active",
-  "date": "2023-10-30T12:00:00+01:00",
+  "date": "2023-11-24T12:00:00+01:00",
   "description": "Correspondance entre types et classes de documents, restreinte aux codes des JDV_J66 et JDV_J57 du DMP",
   "group": [
     {
@@ -133,6 +133,15 @@
           "target": [
             {
               "code": "44",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "29274-8",
+          "target": [
+            {
+              "code": "10",
               "equivalence": "equivalent"
             }
           ]
@@ -264,6 +273,15 @@
           ]
         },
         {
+          "code": "59283-2",
+          "target": [
+            {
+              "code": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
           "code": "60591-5",
           "target": [
             {
@@ -331,6 +349,15 @@
           "target": [
             {
               "code": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "74465-6",
+          "target": [
+            {
+              "code": "90",
               "equivalence": "equivalent"
             }
           ]
@@ -532,9 +559,10 @@
               "equivalence": "equivalent"
             }
           ]
-          }
-          ]
-        },
+        }
+      ]
+    },
+    
     {
       "source": "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire",
       "target": "https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument",
@@ -809,8 +837,9 @@
             }
           ]
         }
-        ]
+      ]
     },
+    
     {
       "source": "https://mos.esante.gouv.fr/NOS/TRE_A12-NomenclatureASTM/FHIR/TRE-A12-NomenclatureASTM",
       "target": "https://mos.esante.gouv.fr/NOS/TRE_A10-NomenclatureURN/FHIR/TRE-A10-NomenclatureURN",

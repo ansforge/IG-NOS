@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.225"
     }
   ],
-  "version": "20201127120000",
+  "version": "20231124120000",
   "name": "JDV_J139-TypeBAL-RASS",
   "status": "active",
-  "date": "2020-11-27T12:00:00+01:00",
+  "date": "2023-11-24T12:00:00+01:00",
   "description": "Type de boîte aux lettres dans le RASS",
   "compose": {
     "include": [
@@ -52,6 +52,18 @@
           {
             "code": "APP",
             "display": "Boîte aux lettres applicative",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.55"
+              }
+            ]
+          },
+          {
+            "code": "CAB",
+            "display": "Boîte aux lettres cabinet",
             "designation": [
               {
                 "use": {

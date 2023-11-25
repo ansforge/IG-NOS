@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.200"
     }
   ],
-  "version": "20230728090000",
+  "version": "20231124120000",
   "name": "JDV_J121-RolePriseCharge-ENREG",
   "status": "active",
-  "date": "2023-07-28T09:00:00+01:00",
+  "date": "2023-11-24T12:00:00+01:00",
   "description": "Code des rôles et fonctions pour l'application ENREG",
   "compose": {
     "include": [
@@ -276,21 +276,28 @@
                 "value": "urn:oid:1.2.250.1.213.1.6.1.107"
               }
             ]
-          }
-        ]
-      },
-      {
-        "system": "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
-        "concept": [
+          },
           {
-            "code": "21",
-            "display": "Pharmacien",
+            "code": "333",
+            "display": "Responsable de secteur",
             "designation": [
               {
                 "use": {
                   "code": "OID"
                 },
-                "value": "urn:oid:1.2.250.1.71.1.2.7"
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "334",
+            "display": "Biologiste médical ni médecin ni pharmacien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
               }
             ]
           }

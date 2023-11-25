@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.6.1.225"/>
   </identifier>
-  <version value="20201127120000"/>
+  <version value="20231124120000"/>
   <name value="JDV_J139-TypeBAL-RASS"/>
   <status value="active"/>
-  <date value="2020-11-27T12:00:00+01:00"/>
+  <date value="2023-11-24T12:00:00+01:00"/>
   <description value="Type de boîte aux lettres dans le RASS"/>
   <compose>
     <include>
@@ -41,6 +41,16 @@
       <concept>
         <code value="APP"/>
         <display value="Boîte aux lettres applicative"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.55"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CAB"/>
+        <display value="Boîte aux lettres cabinet"/>
         <designation>
           <use>
             <code value="OID"/>

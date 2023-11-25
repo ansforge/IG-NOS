@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.6.1.200"/>
   </identifier>
-  <version value="20230728090000"/>
+  <version value="20231124120000"/>
   <name value="JDV_J121-RolePriseCharge-ENREG"/>
   <status value="active"/>
-  <date value="2023-07-28T09:00:00+01:00"/>
+  <date value="2023-11-24T12:00:00+01:00"/>
   <description value="Code des rôles et fonctions pour l'application ENREG"/>
   <compose>
     <include>
@@ -228,17 +228,24 @@
           <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
         </designation>
       </concept>
-    </include>
-    <include>
-      <system value="https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"/>
       <concept>
-        <code value="21"/>
-        <display value="Pharmacien"/>
+        <code value="333"/>
+        <display value="Responsable de secteur"/>
         <designation>
           <use>
             <code value="OID"/>
           </use>
-          <value value="urn:oid:1.2.250.1.71.1.2.7"/>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="334"/>
+        <display value="Biologiste médical ni médecin ni pharmacien"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
         </designation>
       </concept>
     </include>

@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.8"
     }
   ],
-  "version": "20230526120000",
+  "version": "20231124120000",
   "name": "JDV_J60-FormatCode-DMP",
   "status": "active",
-  "date": "2023-05-26T12:00:00+01:00",
+  "date": "2023-11-24T12:00:00+01:00",
   "description": "Jeu de valeurs pour métadonnée formatCode",
   "compose": {
     "include": [
@@ -556,6 +556,18 @@
           {
             "code": "urn:asip:ci-sis:vac-note:2021",
             "display": "Note de vaccination",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:ans:ci-sis:cse-mde:2023",
+            "display": "Mesures de signes vitaux",
             "designation": [
               {
                 "use": {
