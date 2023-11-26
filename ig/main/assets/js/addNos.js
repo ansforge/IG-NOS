@@ -1,4 +1,21 @@
 $(document).ready(function(){
+
+
+	$("#terminologit-search-content-valueset-cld").addClass("accordion-group");
+	//$("#terminologit-search-content-valueset-cld").attr("id","logical-definition-accordion-group");
+	var logicalDefHeading = $("#terminologit-search-content-valueset-cld").find("#logical-definition-cld");
+	$(logicalDefHeading).addClass("accordion-heading");
+	$(logicalDefHeading).append('<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#logical-definition-cld-collapse"><i class="gg-chevron-down"></i></a>');
+	$(logicalDefHeading).next().addClass("accordion-body collapse");
+	$(logicalDefHeading).next().attr('id', 'logical-definition-cld-collapse');
+
+	$('.gg-chevron-down').each(function () {
+		$(this).click(function () {
+			jQuery(this).toggleClass("rotate-toggle");
+		});
+	});
+
+	
      $(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
                 $('#back-to-top').fadeIn();
