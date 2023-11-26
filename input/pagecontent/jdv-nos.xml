@@ -11,45 +11,48 @@
     <li  class="active"><a href="#" >Ensemble des JDV par projet</a></li>
     <li><a href="telechargement-jdv.html">Téléchargement</a></li>
   </ul>
-  <ul>
-    <li>
-        CI-SIS 
-        {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%CISIS' %}
-    </li>
-    <li>
-        DMP 
-        {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%DMP' %}
-    </li>
-    <li>
-        RASS 
-        {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%RASS' %}
-    </li>   
-    <li>
-        ENREG 
-        {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ENREG' %}
-    </li>      
-    <li>
-        MDPH 
-        {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%MDPH' %}
-    </li>  
-    <li>
-        ENS 
-        {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ENS' %}
-    </li>  
-    <li>
-        ROR 
-        {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ROR' %}
-    </li>    
-    <li>
-        EPARS 
-        {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%EPARS' %}
-    </li>       
-    <li>
-        SAS 
-        {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%SAS' %}
-    </li>        
-  </ul>  
 
+        <br/>
+    <div id="orig">
+      <ul>
+        <li>
+            CI-SIS 
+            {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%CISIS' %}
+        </li>
+        <li>
+            DMP 
+            {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%DMP' %}
+        </li>
+        <li>
+            RASS 
+            {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%RASS' %}
+        </li>   
+        <li>
+            ENREG 
+            {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ENREG' %}
+        </li>      
+        <li>
+            MDPH 
+            {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%MDPH' %}
+        </li>  
+        <li>
+            ENS 
+            {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ENS' %}
+        </li>  
+        <li>
+            ROR 
+            {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ROR' %}
+        </li>    
+        <li>
+            EPARS 
+            {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%EPARS' %}
+        </li>       
+        <li>
+            SAS 
+            {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%SAS' %}
+        </li>        
+      </ul>  
+    </div>
   
   </div>
 
