@@ -14,119 +14,105 @@
 
         <br/>
     <div id="orig">
-      <ul>
-        <li>
-                <h3>
+
+
+        <div class="accord">
+              <h3 class="accordion-heading">
                     CI-SIS
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-cisis" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
-                </h3>    
-                <div class="accordion-body collapse" id="content-cisis">
-                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%CISIS' %}
-                </div>            
-             
-        </li>
-        <li>
-                <h3>
+                </h3>                  
+                       <div class="accordion-body collapse" id="content-cisis">               
+                      {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%CISIS' %}
+                    </div>  
+        </div>
+        
+        <div class="accord">
+              <h3 class="accordion-heading">
                     DMP
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-DMP" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
-                </h3>    
-                <div class="accordion-body collapse" id="content-DMP">
+                </h3>                  
+                       <div class="accordion-body collapse" id="content-DMP">               
                      {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%DMP' %}
-                </div>  
+                    </div>  
+        </div>
+        
 
-            
-            
-        </li>
 
-        <li>
-
-                <h3>
+        <div class="accord">
+              <h3 class="accordion-heading">
                     ENREG
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-ENREG" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
-                </h3>    
-                <div class="accordion-body collapse" id="content-ENREG">
+                </h3>                  
+                       <div class="accordion-body collapse" id="content-ENREG">               
                      {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ENREG' %}
-                </div>  
+                    </div>  
+        </div>
+            
             
 
-        </li>  
-        <li>
-
-                <h3>
+        <div class="accord">
+              <h3 class="accordion-heading">
                     ENS
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-ENS" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
-                </h3>    
-                <div class="accordion-body collapse" id="content-ENS">
+                </h3>                  
+                       <div class="accordion-body collapse" id="content-ENS">               
                      {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ENS' %}
-                </div>    
+                    </div>  
+        </div>
             
-
-        </li>
-
-        <li>
-                <h3>
+            
+        <div class="accord">
+              <h3 class="accordion-heading">
                     EPARS
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-EPARS" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
-                </h3>    
-                <div class="accordion-body collapse" id="content-EPARS">
+                </h3>                  
+                       <div class="accordion-body collapse" id="content-EPARS">               
                      {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%EPARS' %}
-                </div>                
-             
-        </li>            
-        <li>
-
-                <h3>
-                    MDPH
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-MDPH" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
-                </h3>    
-                <div class="accordion-body collapse" id="content-MDPH">
-                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%MDPH' %}
-                </div>              
-             
-        </li>  
-          
-        <li>
-                <h3>
-                    RASS
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-RASS" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
-                </h3>    
-                <div class="accordion-body collapse" id="content-RASS">
-                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%RASS' %}
-                </div>  
+                    </div>  
+        </div>
             
+
+
+         <div class="accord">
+              <h3 class="accordion-heading">
+                    MDPH
+                </h3>                  
+                       <div class="accordion-body collapse" id="content-MDPH">               
+                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%MDPH' %}
+                    </div>  
+        </div>
+                  
              
-        </li>   
+          <div class="accord">
+              <h3 class="accordion-heading">
+                    RASS
+                </h3>                  
+                       <div class="accordion-body collapse" id="content-RASS">               
+                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%RASS' %}
+                    </div>  
+        </div>  
+             
 
-        <li>
-
-                <h3>
+          <div class="accord">
+              <h3 class="accordion-heading">
                     ROR
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-ROR" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
-                </h3>    
-                <div class="accordion-body collapse" id="content-ROR">
+                </h3>                  
+                       <div class="accordion-body collapse" id="content-ROR">               
                      {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ROR' %}
-                </div>                
-        </li>    
+                    </div>  
+        </div>  
 
+           
+          <div class="accord">
+              <h3 class="accordion-heading">
+                    SAS
+                </h3>                  
+                       <div class="accordion-body collapse" id="content-SAS">               
+                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%SAS' %}
+                    </div>  
+        </div>  
           
   
 
 
 
-     
-        <li>
 
-                <h3>
-                    SAS
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-SAS" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
-                </h3>    
-                <div class="accordion-body collapse" id="content-SAS">
-                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%SAS' %}
-                </div>                    
-             
 
-        </li>        
-      </ul>  
     </div>
   
   </div>
