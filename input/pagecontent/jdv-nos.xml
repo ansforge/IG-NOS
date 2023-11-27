@@ -21,7 +21,7 @@
                     <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-cisis" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
                 </h3>    
                 <div class="accordion-body collapse" id="content-cisis">
-                     {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%CISIS' %}
+                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%CISIS' %}
                 </div>            
              
         </li>
@@ -31,7 +31,7 @@
                     <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-DMP" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
                 </h3>    
                 <div class="accordion-body collapse" id="content-DMP">
-                     {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%DMP' %}
+                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%DMP' %}
                 </div>  
 
             
@@ -45,7 +45,7 @@
                     <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-ENREG" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
                 </h3>    
                 <div class="accordion-body collapse" id="content-ENREG">
-                     {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ENREG' %}
+                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ENREG' %}
                 </div>  
             
 
@@ -57,7 +57,7 @@
                     <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-ENS" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
                 </h3>    
                 <div class="accordion-body collapse" id="content-ENS">
-                     {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ENS' %}
+                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ENS' %}
                 </div>    
             
 
@@ -69,7 +69,7 @@
                     <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-EPARS" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
                 </h3>    
                 <div class="accordion-body collapse" id="content-EPARS">
-                     {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%EPARS' %}
+                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%EPARS' %}
                 </div>                
              
         </li>            
@@ -80,7 +80,7 @@
                     <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-MDPH" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
                 </h3>    
                 <div class="accordion-body collapse" id="content-MDPH">
-                     {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%MDPH' %}
+                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%MDPH' %}
                 </div>              
              
         </li>  
@@ -91,7 +91,7 @@
                     <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-RASS" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
                 </h3>    
                 <div class="accordion-body collapse" id="content-RASS">
-                     {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%RASS' %}
+                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%RASS' %}
                 </div>  
             
              
@@ -104,7 +104,7 @@
                     <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-ROR" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
                 </h3>    
                 <div class="accordion-body collapse" id="content-ROR">
-                     {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ROR' %}
+                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%ROR' %}
                 </div>                
         </li>    
 
@@ -121,7 +121,7 @@
                     <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-SAS" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
                 </h3>    
                 <div class="accordion-body collapse" id="content-SAS">
-                     {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%SAS' %}
+                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%' and url like '%SAS' %}
                 </div>                    
              
 
