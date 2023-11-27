@@ -19,7 +19,7 @@
             <li>
                 <h3>
                     CPS
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-cps" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
+                    <a class="accordion-toggle collapsed" href="#content-cps"><i class="gg-chevron-down"></i></a> 
                 </h3>    
                 <div class="accordion-body collapse" id="content-cps">
                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_G%' %}
@@ -28,7 +28,7 @@
             <li>
                 <h3>
                     CI-SIS 
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-ci-sis" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
+                    <a class="accordion-toggle collapsed"  href="#content-ci-sis"><i class="gg-chevron-down"></i></a> 
                 </h3>                   
                  <div class="accordion-body collapse" id="content-ci-sis">              
                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_A%' %}
@@ -37,7 +37,7 @@
             <li>
                 <h3>
                     RPPS
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-rpps" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
+                    <a class="accordion-toggle collapsed"  href="#content-rpps" ><i class="gg-chevron-down"></i></a> 
                 </h3>     
                  <div class="accordion-body collapse" id="content-rpps">                     
                     {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_R%' %}
@@ -46,7 +46,7 @@
             <li>
                 <h3>
                     Autres
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-autres" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
+                    <a class="accordion-toggle collapsed"  href="#content-autres" ><i class="gg-chevron-down"></i></a> 
                 </h3>                  
                  <div class="accordion-body collapse" id="content-autres">                     
                     {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name not like 'TRE_R%'  and name not like 'TRE_A%' and name not like 'TRE_G%' %}
