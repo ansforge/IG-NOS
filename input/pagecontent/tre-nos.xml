@@ -15,6 +15,17 @@
   </ul>
     <br/>
     <div id="orig">
+
+        <div class="accord">
+              <h3 class="accordion-heading">
+                    CI-SIS 
+                </h3>                   
+                   <div class="accordion-body collapse" id="content-SIS">
+                    {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_A%' %}
+                    </div>  
+
+        </div>
+        
         <div class="accord">
 
               <h3 class="accordion-heading">
@@ -25,15 +36,7 @@
                 </div>        
                 
         </div>
-        <div class="accord">
-              <h3 class="accordion-heading">
-                    CI-SIS 
-                </h3>                   
-                   <div class="accordion-body collapse" id="content-SIS">
-                    {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_A%' %}
-                    </div>  
 
-        </div>
         <div class="accord">
               <h3 class="accordion-heading">
                     RPPS
