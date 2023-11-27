@@ -17,41 +17,42 @@
     <div id="orig">
         <ul>
             <li>
-                <h3>
-                    CPS
-                    <a class="accordion-toggle collapsed" href="#content-cps"><i class="gg-chevron-down"></i></a> 
-                </h3>    
-               <div class="accordion-body collapse" id="content-cps">
-                    {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_G%' %}
-              </div>   
 
+              <h3>
+                   CPS
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-CPS" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
+                </h3>    
+                <div class="accordion-body collapse" id="content-CPS">
+                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_G%' %}
+                </div>        
+                
             </li>
             <li>
                 <h3>
                     CI-SIS 
-                    <a class="accordion-toggle collapsed"  href="#content-ci-sis"><i class="gg-chevron-down"></i></a> 
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-SIS" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
                 </h3>                   
-      
+                   <div class="accordion-body collapse" id="content-SIS">
                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_A%' %}
-
+                    </div>  
             </li>
             <li>
                 <h3>
                     RPPS
-                    <a class="accordion-toggle collapsed"  href="#content-rpps" ><i class="gg-chevron-down"></i></a> 
+                     <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-RPPS" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
                 </h3>     
-                
+                      <div class="accordion-body collapse" id="content-RPPS">
                     {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_R%' %}
-
+                    </div>  
             </li>
             <li>
                 <h3>
                     Autres
-                    <a class="accordion-toggle collapsed"  href="#content-autres" ><i class="gg-chevron-down"></i></a> 
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" href="#content-Autres" aria-expanded="false"><i class="gg-chevron-down"></i></a> 
                 </h3>                  
-                
+                       <div class="accordion-body collapse" id="content-Autres">               
                     {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name not like 'TRE_R%'  and name not like 'TRE_A%' and name not like 'TRE_G%' %}
-
+                    </div>  
             </li>   
         </ul>
     </div>
