@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/NOS/ImplementationGuide/ans.fr.terminologie> a fhir:ImplementationGuide ;
+<https://interop.esante.gouv.fr/ig/NOS/ImplementationGuide/ans.fr.nos> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "ans.fr.terminologie"] ; # 
+  fhir:id [ fhir:v "ans.fr.nos"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NOS</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/NOS/ImplementationGuide/ans.fr.terminologie</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>\n</div></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NOS</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/NOS/ImplementationGuide/ans.fr.nos</pre><div><p>Les nomenclatures des objets de Sante</p>\n</div></div>"
   ] ; # 
-  fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/NOS/ImplementationGuide/ans.fr.terminologie"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/NOS/ImplementationGuide/ans.fr.nos"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.1.0"] ; # 
   fhir:name [ fhir:v "NOS"] ; # 
   fhir:title [ fhir:v "Nomenclatures des objets de santé (NOS)"] ; # 
@@ -26,8 +26,8 @@
        fhir:value [ fhir:v "https://esante.gouv.fr" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé"] ; # 
-  fhir:packageId [ fhir:v "ans.fr.terminologie"] ; # 
+  fhir:description [ fhir:v "Les nomenclatures des objets de Sante"] ; # 
+  fhir:packageId [ fhir:v "ans.fr.nos"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
   fhir:dependsOn ( [
