@@ -58,7 +58,7 @@ jobs:
 
           
       - name: ✔️ Run tests
-        run: java  -Xmx8192m  -jar validator_cli.jar  ./input/NOS/TRE* -recurse -output-style compact -output rapport.html
+        run: java  -Xmx8192m  -jar validator_cli.jar  ./input/NOS/TRE_R* -recurse -output-style compact -output rapport.html
         continue-on-error: true
 
       # Downloads the newest version of the IG Publisher, this could probable be cached.
