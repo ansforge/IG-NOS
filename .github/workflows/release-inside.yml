@@ -197,7 +197,7 @@ jobs:
         run :  zip -rj ./igRepo/output/NOS/NOS-Fichiers_Publics.zip ./igRepo/output/NOS/*.tabs  
  
       - name:  ZIP Ensemble des NOS au format XML/SVS 
-        run :  zip -rj ./igRepo/output/NOS/NOS-Fichiers_Publics-Versions_xml_svs.zip ./igRepo/output/NOS/*.xml  -x "*FHIR*"    
+        run :  zip -rj ./output/NOS/NOS-Fichiers_Publics-Versions_xml_svs.zip ./igRepo/output/NOS/*.xml  -x "*FHIR*"    
 
       - name:  ZIP Ensemble des NOS au format JSON/FHIR (ZIP)
         run :  zip -rj ./igRepo/output/NOS/NOS-Fichiers_Publics-Versions_json_fhir.zip ./igRepo/output/NOS/*-FHIR.json    
