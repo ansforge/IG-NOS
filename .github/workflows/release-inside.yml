@@ -181,7 +181,7 @@ jobs:
         run :  zip -rj ./igRepo/output/NOS/NOS-ass-pdf.zip ./igRepo/output/NOS/ASS_*.pdf        
         
       - name:  3 ZIP ASS SVS
-        run :  zip -rj ./igRepo/igRepo/output/NOS/NOS-ass-svs.zip ./igRepo/output/NOS/ASS*.xml  -x "*FHIR*"   
+        run :  zip -rj ./igRepo/output/NOS/NOS-ass-svs.zip ./igRepo/output/NOS/ASS*.xml  -x "*FHIR*"   
         
       - name:  3 ZIP ASS FHIR JSON
         run :  zip -rj ./igRepo/output/NOS/NOS-ass-fhir-json.zip ./igRepo/output/NOS/ASS*-FHIR.json     
