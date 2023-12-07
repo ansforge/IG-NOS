@@ -136,6 +136,9 @@ jobs:
           unzip NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip -d ./igRepo/output/NOS   
 
 
+      - name: Install rename        
+        run : sudo  apt install rename  
+
       - name:  Rename TRE
         run :  rename -v 's/TRE_/CodeSystem-TRE-/' ./igRepo/output/NOS/*
 
