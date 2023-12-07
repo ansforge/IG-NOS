@@ -27,6 +27,27 @@ jobs:
         with:      
           path: igRepo
 
+
+      - name: Get From site esante     
+        run: |
+          #Creation des répertoires d'init
+          #mkdir  ./igRepo/input/images/NOS/
+          mkdir ./igRepo/input/NOS
+          #Recuperation des NOS en json
+          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics-Versions_json_fhir.zip
+          unzip NOS-Fichiers_Publics-Versions_json_fhir.zip -d ./igRepo/input/NOS
+
+          #Suppression des fichiers en erreur
+          rm ./igRepo/input/NOS/TRE_R13-Commune-FHIR.json
+          rm ./igRepo/input/NOS/ASS_X12-CommuneDeptRegionOM-FHIR.json
+          rm ./igRepo/input/NOS/JDV_J120-CommuneHistorisee-FHIR.json
+          rm ./igRepo/input/NOS/JDV_J124-Commune-FHIR.json
+          #rm ./input/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS-FHIR.json
+          #rm ./input/NOS/ASS_X16-CorrespondanceType-Classe-DMP-FHIR.json
+          rm ./igRepo/input/NOS/JDV_J151-BodySiteBodyTemperature-ENS-FHIR.json
+          rm ./igRepo/input/NOS/ASS_* 
+
+
           
       # Install .NET runtime
       - name: Setup .NET Core SDK
@@ -83,6 +104,110 @@ jobs:
 
       - name: 🏃‍♂️ Run IG Publisher
         run : java -Xmx8192m -jar publisher.jar publisher -ig igRepo/.  
+
+      - name: Get From site esante     
+        run: |
+          #Recuperation des fichier .json
+          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics-Versions_json_fhir.zip
+          cp  NOS-Fichiers_Publics-Versions_json_fhir.zip ./igRepo/output/NOS
+          unzip NOS-Fichiers_Publics-Versions_json_fhir.zip -d ./igRepo/output/NOS          
+          
+          #Recucperation des fichiers .tabs
+          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics.zip
+          cp  NOS-Fichiers_Publics.zip ./igRepo/output/NOS/
+          unzip NOS-Fichiers_Publics.zip -d ./igRepo/output/NOS
+
+          #Recupération des fichiers SVS
+          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics-Versions_xml_svs.zip
+          cp  NOS-Fichiers_Publics-Versions_xml_svs.zip ./igRepo/output/NOS
+          unzip NOS-Fichiers_Publics-Versions_xml_svs.zip -d ./igRepo/output/NOS
+
+          #Recupération des fichiers xml Fhir
+          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/nos-fichiers_publics-versions_xml_fhir.zip
+          cp  nos-fichiers_publics-versions_xml_fhir.zip ./igRepo/output/NOS
+          unzip nos-fichiers_publics-versions_xml_fhir.zip -d ./igRepo/output/NOS
+
+          #Recuperation des fichiers PDF
+          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics_JDV-Versions_pdf.zip
+          cp  NOS-Fichiers_Publics_JDV-Versions_pdf.zip ./igRepo/output/NOS
+          unzip NOS-Fichiers_Publics_JDV-Versions_pdf.zip -d ./igRepo/output/NOS
+          wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip
+          cp  NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip ./igRepo/output/NOS
+          unzip NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip -d ./igRepo/output/NOS   
+
+
+      - name:  Rename TRE
+        run :  rename -v 's/TRE_/CodeSystem-TRE-/' ./igRepo/output/NOS/*
+
+      - name:  Rename JDV
+        run :  rename -v 's/JDV_/ValueSet-JDV-/' ./igRepo/output/NOS/*       
+
+
+      - name:  1 ZIP JDV PDF
+        run :  zip -rj ./output/NOS/NOS-jdv-pdf.zip ./igRepo/output/NOS/*JDV-*.pdf        
+        
+      - name:  1 ZIP JDV SVS
+        run :  zip -rj ./output/NOS/NOS-jdv-svs.zip ./igRepo/output/NOS/*JDV-*.xml  -x "*FHIR*"   
+        
+      - name:  1 ZIP JDV FHIR JSON
+        run :  zip -rj ./output/NOS/NOS-jdv-fhir-json.zip ./igRepo/output/NOS/*JDV-*-FHIR.json     
+        
+      - name:  1 ZIP JDV FHIR XML
+        run :  zip -rj ./output/NOS/NOS-jdv-fhir-xml.zip ./igRepo/output/NOS/*JDV-*-FHIR.xml         
+        
+      - name:  1 ZIP JDV FHIR tabs
+        run :  zip -rj ./output/NOS/NOS-jdv-tabs.zip ./igRepo/output/NOS/*JDV-*.tabs 
+        
+      - name:  2 ZIP TRE PDF
+        run :  zip -rj ./output/NOS/NOS-tre-pdf.zip ./igRepo/output/NOS/*TRE-*.pdf        
+        
+      - name:  2 ZIP TRE SVS
+        run :  zip -rj ./output/NOS/NOS-tre-svs.zip ./igRepo/output/NOS/*TRE*.xml  -x "*FHIR*"   
+        
+      - name:  2 ZIP TRE FHIR JSON
+        run :  zip -rj ./output/NOS/NOS-tre-fhir-json.zip ./igRepo/output/NOS/*TRE*-FHIR.json     
+        
+      - name:  2 ZIP TRE FHIR XML
+        run :  zip -rj ./output/NOS/NOS-tre-fhir-xml.zip ./igRepo/output/NOS/*TRE*-FHIR.xml         
+        
+      - name:  2 ZIP TRE FHIR tabs
+        run :  zip -rj ./output/NOS/NOS-tre-tabs.zip ./igRepo/output/NOS/*TRE*.tabs 
+        
+    
+      - name:  3 ZIP ASS PDF
+        run :  zip -rj ./output/NOS/NOS-ass-pdf.zip ./igRepo/output/NOS/ASS_*.pdf        
+        
+      - name:  3 ZIP ASS SVS
+        run :  zip -rj ./output/NOS/NOS-ass-svs.zip ./igRepo/output/NOS/ASS*.xml  -x "*FHIR*"   
+        
+      - name:  3 ZIP ASS FHIR JSON
+        run :  zip -rj ./output/NOS/NOS-ass-fhir-json.zip ./igRepo/output/NOS/ASS*-FHIR.json     
+        
+      - name:  3 ZIP ASS FHIR XML
+        run :  zip -rj ./output/NOS/NOS-ass-fhir-xml.zip ./igRepo/output/NOS/ASS*-FHIR.xml         
+        
+      - name:  3 ZIP ASS FHIR tabs
+        run :  zip -rj ./output/NOS/NOS-ass-tabs.zip ./igRepo/output/NOS/ASS*.tabs     
+    
+        
+      - name:  ZIP Ensemble des NOS au format CSV 
+        run :  zip -rj ./output/NOS/NOS-Fichiers_Publics.zip ./igRepo/output/NOS/*.tabs  
+ 
+      - name:  ZIP Ensemble des NOS au format XML/SVS 
+        run :  zip -rj ./output/NOS/NOS-Fichiers_Publics-Versions_xml_svs.zip ./igRepo/output/NOS/*.xml  -x "*FHIR*"    
+
+      - name:  ZIP Ensemble des NOS au format JSON/FHIR (ZIP)
+        run :  zip -rj ./output/NOS/NOS-Fichiers_Publics-Versions_json_fhir.zip ./igRepo/output/NOS/*-FHIR.json    
+
+      #- name:  ZIP Ensemble des NOS au format XML/FHIR (ZIP)
+      #  run :  zip -rj ./output/NOS/Nos-fichiers_publics-versions_xml_fhir.zip ./igRepo/output/NOS/*-FHIR.xml   
+
+      - name:  ZIP Jeux de valeurs du CI-SIS (ZIP
+        run :  zip -rj ./output/NOS/NOS-Jeux_de_Valeurs_CI-SIS.zip ./igRepo/output/NOS/*CISIS*            
+          
+
+
+
 
       # Builds the HTML page for the IG.
       - name: 🏃‍♂️ Generate package registry
