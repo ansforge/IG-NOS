@@ -19,10 +19,10 @@
       "value": "urn:oid:1.2.250.1.213.1.1.4.331"
     }
   ],
-  "version": "20230728090000",
+  "version": "20231215120000",
   "name": "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "status": "active",
-  "date": "2023-07-28T09:00:00+01:00",
+  "date": "2023-12-15T12:00:00+01:00",
   "description": "Correspondance entre modèles de doc CDA (templateID) et XDS formatCode - CISIS",
   "group": [
     {
@@ -433,6 +433,24 @@
               "equivalence": "equivalent"
             }
           ]
+        },
+        {
+          "code": "1.2.250.1.213.1.1.1.56",
+          "target": [
+            {
+              "code": "urn:asip:ci-sis:ppp:2023",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "1.2.250.1.213.1.1.1.58",
+          "target": [
+            {
+              "code": "urn:asip:ci-sis:export-dui:2023",
+              "equivalence": "equivalent"
+            }
+          ]
         }
       ]
     },
@@ -702,7 +720,7 @@
           ]
         }
       ]
-    }
+    },
     {
       "source": "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
       "target": "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode",

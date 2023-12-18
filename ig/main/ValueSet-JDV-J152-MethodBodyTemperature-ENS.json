@@ -3,7 +3,7 @@
   "id" : "JDV-J152-MethodBodyTemperature-ENS",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R306-CLADIMED.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R306-CLADIMED/FHIR/TRE-R306-CLADIMED</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R306-CLADIMED.html#TRE-R306-CLADIMED-K50BC10\">K50BC10</a></td><td>THERMOMETRE ELECTRONIQUE</td></tr><tr><td><a href=\"CodeSystem-TRE-R306-CLADIMED.html#TRE-R306-CLADIMED-K50BC03\">K50BC03</a></td><td>THERMOMETRE INFRAROUGE</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>https://webgate.ec.europa.eu/dyna2/emdn</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>V03010102</td><td>THERMOMÈTRES NUMÉRIQUES</td></tr><tr><td>V0301010202</td><td>THERMOMÈTRES NUMÉRIQUES - MESURE SANS CONTACT</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -18,7 +18,7 @@
   "version" : "1.1.0",
   "name" : "JDV_J152-MethodBodyTemperature-ENS",
   "status" : "active",
-  "date" : "2023-06-30T12:00:00+01:00",
+  "date" : "2023-12-15T12:00:00+01:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -30,25 +30,25 @@
   "description" : "JDV pour la méthode de la mesure de la température",
   "compose" : {
     "include" : [{
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R306-CLADIMED/FHIR/TRE-R306-CLADIMED",
+      "system" : "https://webgate.ec.europa.eu/dyna2/emdn",
       "concept" : [{
-        "code" : "K50BC10",
-        "display" : "THERMOMETRE ELECTRONIQUE",
+        "code" : "V03010102",
+        "display" : "THERMOMÈTRES NUMÉRIQUES",
         "designation" : [{
           "use" : {
             "code" : "OID"
           },
-          "value" : "urn:oid:1.2.250.1.213.2.65"
+          "value" : "urn:oid:1.2.250.1.213.2.68"
         }]
       },
       {
-        "code" : "K50BC03",
-        "display" : "THERMOMETRE INFRAROUGE",
+        "code" : "V0301010202",
+        "display" : "THERMOMÈTRES NUMÉRIQUES - MESURE SANS CONTACT",
         "designation" : [{
           "use" : {
             "code" : "OID"
           },
-          "value" : "urn:oid:1.2.250.1.213.2.65"
+          "value" : "urn:oid:1.2.250.1.213.2.68"
         }]
       }]
     }]

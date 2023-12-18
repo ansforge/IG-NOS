@@ -15,49 +15,49 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.613"
     }
   ],
-  "version": "20230922120000",
+  "version": "20231215120000",
   "name": "JDV_J158-MethodStepsByDay-ENS",
   "status": "active",
-  "date": "2023-09-22T12:00:00+01:00",
+  "date": "2023-12-15T12:00:00+01:00",
   "description": "JDV pour la méthode de la mesure de nombre de pas par jour",
   "compose": {
     "include": [
       {
-        "system": "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT",
+        "system": "https://webgate.ec.europa.eu/dyna2/emdn",
         "concept": [
           {
-            "code": "C88165",
-            "display": "podomètre",
+            "code": "Y210905",
+            "display": "INTERFACES DE CAPTEURS EXTERNES",
             "designation": [
               {
                 "use": {
                   "code": "OID"
                 },
-                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
+                "value": "urn:oid:1.2.250.1.213.2.68"
               }
             ]
           },
           {
-            "code": "C153216",
-            "display": "objet connecté",
+            "code": "Z120626",
+            "display": "SYSTÈMES D'ANALYSE DE LA DYNAMIQUE DU MOUVEMENT",
             "designation": [
               {
                 "use": {
                   "code": "OID"
                 },
-                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
+                "value": "urn:oid:1.2.250.1.213.2.68"
               }
             ]
           },
           {
-            "code": "C156877",
-            "display": "application pour smartphone",
+            "code": "Z12062692",
+            "display": "SYSTÈMES D'ANALYSE DE LA DYNAMIQUE DU MOUVEMENT - LOGICIELS QUALIFIÉS DM",
             "designation": [
               {
                 "use": {
                   "code": "OID"
                 },
-                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
+                "value": "urn:oid:1.2.250.1.213.2.68"
               }
             ]
           }

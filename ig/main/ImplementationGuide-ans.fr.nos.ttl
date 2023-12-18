@@ -2156,6 +2156,26 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J254-CategorieEtablissementESSMSPH> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J254-CategorieEtablissementESSMSPH" ]
+       ] ;
+       fhir:description [ fhir:v "Liste les catégories d’établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d’handicap" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J255-SurspecialiteTransversale-RPPS> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J255-SurspecialiteTransversale-RPPS" ]
+       ] ;
+       fhir:description [ fhir:v "Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST)" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J26-ModeGestion-ROR> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J26-ModeGestion-ROR" ]
        ] ;

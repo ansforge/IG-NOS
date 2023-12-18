@@ -1,0 +1,308 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J254-CategorieEtablissementESSMSPH",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2023-12-15T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J254-CategorieEtablissementESSMSPH/FHIR/JDV-J254-CategorieEtablissementESSMSPH",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.4.218"
+    }
+  ],
+  "version": "20231215120000",
+  "name": "JDV_J254-CategorieEtablissementESSMSPH",
+  "status": "active",
+  "date": "2023-12-15T12:00:00+01:00",
+  "description": "Liste les catégories d’établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d’handicap",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
+        "concept": [
+          {
+            "code": "182",
+            "display": "Service d'Éducation Spéciale et de Soins à Domicile",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "183",
+            "display": "Institut Médico-Educatif (I.M.E.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "186",
+            "display": "Institut Thérapeutique Éducatif et Pédagogique (I.T.E.P.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "188",
+            "display": "Etablissement pour Enfants ou Adolescents Polyhandicapés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "189",
+            "display": "Centre Médico-Psycho-Pédagogique (C.M.P.P.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "192",
+            "display": "Institut d'éducation motrice",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "194",
+            "display": "Institut pour Déficients Visuels",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "195",
+            "display": "Institut pour Déficients Auditifs",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "196",
+            "display": "Institut d'Education Sensorielle Sourd-Aveugle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "209",
+            "display": "Service autonomie aide et soins (SAAS)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "221",
+            "display": "Bureau d'Aide Psychologique Universitaire (B.A.P.U.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "238",
+            "display": "Centre d'Accueil Familial Spécialisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "255",
+            "display": "Maison d'Accueil Spécialisée (M.A.S.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "354",
+            "display": "Service de Soins Infirmiers A Domicile (S.S.I.A.D)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "390",
+            "display": "Etablissement d'Accueil Temporaire d'Enfants Handicapés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "395",
+            "display": "Etablissement d'Accueil Temporaire pour Adultes Handicapés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "396",
+            "display": "Foyer Hébergement Enfants et Adolescents Handicapés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "445",
+            "display": "Service d'accompagnement médico-social adultes handicapés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "446",
+            "display": "Service d'Accompagnement à la Vie Sociale (S.A.V.S.)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "448",
+            "display": "Etab.Acc.Médicalisé en tout ou partie personnes handicapées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "449",
+            "display": "Etab.Accueil Non Médicalisé pour personnes handicapées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "460",
+            "display": "Service autonomie aide (SAA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "640",
+            "display": "Service d’aide et d’accompagnement à domicile aux familles (SAADF)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

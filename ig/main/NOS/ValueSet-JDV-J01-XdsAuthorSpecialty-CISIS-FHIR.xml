@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.461"/>
   </identifier>
-  <version value="20231030120000"/>
+  <version value="20231215120000"/>
   <name value="JDV_J01-XdsAuthorSpecialty-CISIS"/>
   <status value="active"/>
-  <date value="2023-10-30T12:00:00+01:00"/>
+  <date value="2023-12-15T12:00:00+01:00"/>
   <description value="XDS authorSpecialty CI-SIS"/>
   <compose>
     <include>
@@ -71,6 +71,16 @@
       <concept>
         <code value="SNR"/>
         <display value="Service numérique référencé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.6"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="LOGICIEL_DUI"/>
+        <display value="Logiciel de Dossier Usager Informatisé"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -933,7 +943,7 @@
       </concept>
       <concept>
         <code value="G15_10/SM84"/>
-        <display value="Médecin - Neurologie option traitement interventionnel de l’ischémie cérébrale aigüe (SM)"/>
+        <display value="Médecin - Neurologie option traitement interventionnel de l'ischémie cérébrale aigüe (SM)"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -3733,6 +3743,26 @@
       <concept>
         <code value="331"/>
         <display value="Secrétaire médicale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="333"/>
+        <display value="Responsable de secteur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="334"/>
+        <display value="Biologiste médical ni médecin ni pharmacien"/>
         <designation>
           <use>
             <code value="OID"/>

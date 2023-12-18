@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.471"
     }
   ],
-  "version": "20231030120000",
+  "version": "20231215120000",
   "name": "JDV_J07-XdsTypeCode-CISIS",
   "status": "active",
-  "date": "2023-10-30T12:00:00+01:00",
+  "date": "2023-12-15T12:00:00+01:00",
   "description": "XDS typeCode CI-SIS",
   "compose": {
     "include": [
@@ -326,6 +326,18 @@
             ]
           },
           {
+            "code": "PRESC-AAT",
+            "display": "Prescription arrêt de travail",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
             "code": "PRESC-BIO",
             "display": "Prescription d'actes de biologie médicale",
             "designation": [
@@ -412,6 +424,18 @@
           {
             "code": "FICHE-CONTACTS",
             "display": "Fiche contacts",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.12"
+              }
+            ]
+          },
+          {
+            "code": "EXPORT_DUI",
+            "display": "Export du Dossier Usager Informatisé",
             "designation": [
               {
                 "use": {
@@ -1065,6 +1089,18 @@
           {
             "code": "83836-7",
             "display": "Schéma dentaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "83869-8",
+            "display": "Plan personnalisé de prévention",
             "designation": [
               {
                 "use": {

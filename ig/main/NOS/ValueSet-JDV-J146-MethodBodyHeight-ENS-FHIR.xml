@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.601"/>
   </identifier>
-  <version value="20230922120000"/>
+  <version value="20231215120000"/>
   <name value="JDV_J146-MethodBodyHeight-ENS"/>
   <status value="active"/>
-  <date value="2023-09-22T12:00:00+01:00"/>
+  <date value="2023-12-15T12:00:00+01:00"/>
   <description value="JDV pour la méthode de mesure de la taille"/>
   <compose>
     <include>
@@ -28,27 +28,27 @@
           <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
         </designation>
       </concept>
-      <concept>
-        <code value="C138178"/>
-        <display value="toise"/>
-        <designation>
-          <use>
-            <code value="OID"/>
-          </use>
-          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
-        </designation>
-      </concept>
     </include>
     <include>
-      <system value="https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP"/>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
       <concept>
-        <code value="MED-872"/>
-        <display value="Stadiomètre"/>
+        <code value="V030201"/>
+        <display value="TOISES"/>
         <designation>
           <use>
             <code value="OID"/>
           </use>
-          <value value="urn:oid:1.2.250.1.213.1.1.4.322"/>
+          <value value="urn:oid:1.2.250.1.213.2.68"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="V030209"/>
+        <display value="TOISES À USAGE CLINIQUE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.68"/>
         </designation>
       </concept>
     </include>

@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.471"/>
   </identifier>
-  <version value="20231030120000"/>
+  <version value="20231215120000"/>
   <name value="JDV_J07-XdsTypeCode-CISIS"/>
   <status value="active"/>
-  <date value="2023-10-30T12:00:00+01:00"/>
+  <date value="2023-12-15T12:00:00+01:00"/>
   <description value="XDS typeCode CI-SIS"/>
   <compose>
     <include>
@@ -269,6 +269,16 @@
         </designation>
       </concept>
       <concept>
+        <code value="PRESC-AAT"/>
+        <display value="Prescription arrêt de travail"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
         <code value="PRESC-BIO"/>
         <display value="Prescription d'actes de biologie médicale"/>
         <designation>
@@ -341,6 +351,16 @@
       <concept>
         <code value="FICHE-CONTACTS"/>
         <display value="Fiche contacts"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="EXPORT_DUI"/>
+        <display value="Export du Dossier Usager Informatisé"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -884,6 +904,16 @@
       <concept>
         <code value="83836-7"/>
         <display value="Schéma dentaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="83869-8"/>
+        <display value="Plan personnalisé de prévention"/>
         <designation>
           <use>
             <code value="OID"/>

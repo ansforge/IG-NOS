@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.470"/>
   </identifier>
-  <version value="20231124120000"/>
+  <version value="20231215120000"/>
   <name value="JDV_J05-SubjectRole-CISIS"/>
   <status value="active"/>
-  <date value="2023-11-24T12:00:00+01:00"/>
+  <date value="2023-12-15T12:00:00+01:00"/>
   <description value="subjectRole CI-SIS"/>
   <compose>
     <include>
@@ -1468,7 +1468,7 @@
       </concept>
       <concept>
         <code value="SM84"/>
-        <display value="Neurologie option traitement interventionnel de l’ischémie cérébrale aigüe (SM)"/>
+        <display value="Neurologie option traitement interventionnel de l'ischémie cérébrale aigüe (SM)"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -3552,6 +3552,16 @@
           <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
         </designation>
       </concept>
+      <concept>
+        <code value="GENR99"/>
+        <display value="Autre activité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction"/>
@@ -4271,6 +4281,26 @@
       <concept>
         <code value="332"/>
         <display value="Assistant médical"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="333"/>
+        <display value="Responsable de secteur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="334"/>
+        <display value="Biologiste médical ni médecin ni pharmacien"/>
         <designation>
           <use>
             <code value="OID"/>

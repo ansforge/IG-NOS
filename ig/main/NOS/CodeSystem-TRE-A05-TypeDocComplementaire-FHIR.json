@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.1.4.12"
     }
   ],
-  "version": "20231030120000",
+  "version": "20231215120000",
   "name": "TRE_A05-TypeDocComplementaire",
   "status": "active",
-  "date": "2023-10-30T12:00:00+01:00",
+  "date": "2023-12-15T12:00:00+01:00",
   "description": "Type de document en complément des nomenclatures internationales",
   "content": "complete",
   "property": [
@@ -878,6 +878,34 @@
       ]
     },
     {
+      "code": "PRESC-AAT",
+      "display": "Prescription arrêt de travail",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Prescription arrêt de travail"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Prescription arrêt de travail"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-12-15T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-12-15T12:00:00+01:00"
+        }
+      ]
+    },
+    {
       "code": "PRESC-BIO",
       "display": "Prescription d'actes de biologie médicale",
       "designation": [
@@ -1134,6 +1162,34 @@
         {
           "code": "dateMaj",
           "valueDateTime": "2023-10-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "EXPORT_DUI",
+      "display": "Export du Dossier Usager informatisé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Export DUI"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Export du Dossier Usager Informatisé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2023-12-15T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2023-12-15T12:00:00+01:00"
         }
       ]
     }

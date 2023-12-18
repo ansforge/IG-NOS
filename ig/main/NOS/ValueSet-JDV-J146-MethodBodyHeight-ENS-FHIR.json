@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.601"
     }
   ],
-  "version": "20230922120000",
+  "version": "20231215120000",
   "name": "JDV_J146-MethodBodyHeight-ENS",
   "status": "active",
-  "date": "2023-09-22T12:00:00+01:00",
+  "date": "2023-12-15T12:00:00+01:00",
   "description": "JDV pour la méthode de mesure de la taille",
   "compose": {
     "include": [
@@ -36,33 +36,33 @@
                 "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
               }
             ]
-          },
-          {
-            "code": "C138178",
-            "display": "toise",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
-              }
-            ]
           }
         ]
       },
       {
-        "system": "https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP",
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT",
         "concept": [
           {
-            "code": "MED-872",
-            "display": "Stadiomètre",
+            "code": "V030201",
+            "display": "TOISES",
             "designation": [
               {
                 "use": {
                   "code": "OID"
                 },
-                "value": "urn:oid:1.2.250.1.213.1.1.4.322"
+                "value": "urn:oid:1.2.250.1.213.2.68"
+              }
+            ]
+          },
+          {
+            "code": "V030209",
+            "display": "TOISES À USAGE CLINIQUE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.68"
               }
             ]
           }

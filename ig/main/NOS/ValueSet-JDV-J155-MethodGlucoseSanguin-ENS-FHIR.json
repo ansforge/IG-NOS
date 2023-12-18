@@ -15,37 +15,42 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.610"
     }
   ],
-  "version": "20230922120000",
+  "version": "20231215120000",
   "name": "JDV_J155-MethodGlucoseSanguin-ENS",
   "status": "active",
-  "date": "2023-09-22T12:00:00+01:00",
+  "date": "2023-12-15T12:00:00+01:00",
   "description": "JDV pour la méthode de mesure du glucose sanguin",
   "compose": {
     "include": [
       {
-        "system": "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT",
+        "system": "https://webgate.ec.europa.eu/dyna2/emdn",
         "concept": [
           {
-            "code": "C17610",
-            "display": "prélèvement de sang",
+            "code": "Z1204011501",
+            "display": "SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE",
             "designation": [
               {
                 "use": {
                   "code": "OID"
                 },
-                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
+                "value": "urn:oid:1.2.250.1.213.2.68"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
           {
-            "code": "C159776",
-            "display": "système de surveillance continue du glucose",
+            "code": "82078001",
+            "display": "prélèvement d'un échantillon sanguin pour le laboratoire",
             "designation": [
               {
                 "use": {
                   "code": "OID"
                 },
-                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
+                "value": "urn:oid:2.16.840.1.113883.6.96"
               }
             ]
           }

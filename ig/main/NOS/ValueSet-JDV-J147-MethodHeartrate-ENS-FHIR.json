@@ -15,83 +15,78 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.602"
     }
   ],
-  "version": "20230922120000",
+  "version": "20231215120000",
   "name": "JDV_J147-MethodHeartrate-ENS",
   "status": "active",
-  "date": "2023-09-22T12:00:00+01:00",
+  "date": "2023-12-15T12:00:00+01:00",
   "description": "JDV pour la méthode de mesure de fréquence cardiaque",
   "compose": {
     "include": [
       {
-        "system": "https://mos.esante.gouv.fr/NOS/TRE_R306-CLADIMED/FHIR/TRE-R306-CLADIMED",
+        "system": "https://webgate.ec.europa.eu/dyna2/emdn",
         "concept": [
           {
-            "code": "K50BF",
-            "display": "MESURE OXYMETRIE",
+            "code": "C0205",
+            "display": "DISPOSITIFS CARDIAQUES À VISÉE DIAGNOSTIQUE",
             "designation": [
               {
                 "use": {
                   "code": "OID"
                 },
-                "value": "urn:oid:1.2.250.1.213.2.65"
+                "value": "urn:oid:1.2.250.1.213.2.68"
               }
             ]
           },
           {
-            "code": "C56AB03",
-            "display": "TENSIOMETRE",
+            "code": "Y210905",
+            "display": "INTERFACES DE CAPTEURS EXTERNES",
             "designation": [
               {
                 "use": {
                   "code": "OID"
                 },
-                "value": "urn:oid:1.2.250.1.213.2.65"
+                "value": "urn:oid:1.2.250.1.213.2.68"
+              }
+            ]
+          },
+          {
+            "code": "Z12030205",
+            "display": "TENSIOMÈTRES NON INVASIFS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.68"
+              }
+            ]
+          },
+          {
+            "code": "Z1203020408",
+            "display": "OXYMÈTRES DE POULS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.68"
               }
             ]
           }
         ]
       },
       {
-        "system": "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT",
+        "system": "http://snomed.info/sct",
         "concept": [
           {
-            "code": "C153216",
-            "display": "objet connecté",
+            "code": "8499008",
+            "display": "pouls",
             "designation": [
               {
                 "use": {
                   "code": "OID"
                 },
-                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "system": "https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP",
-        "concept": [
-          {
-            "code": "MED-873",
-            "display": "Cardiofréquencemètre",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.1.4.322"
-              }
-            ]
-          },
-          {
-            "code": "MED-1244",
-            "display": "Estimation sans matériel (prise du pouls)",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.1.4.322"
+                "value": "urn:oid:2.16.840.1.113883.6.96"
               }
             ]
           }

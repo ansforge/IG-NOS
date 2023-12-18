@@ -777,7 +777,6 @@
       "title" : null,
       "description" : "JDV pour la méthode de mesure de la taille",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP",
         "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.601"],
@@ -791,9 +790,8 @@
       "title" : null,
       "description" : "JDV pour la méthode de mesure de fréquence cardiaque",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP",
-        "https://mos.esante.gouv.fr/NOS/TRE_R306-CLADIMED/FHIR/TRE-R306-CLADIMED",
-        "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"
+        "https://webgate.ec.europa.eu/dyna2/emdn",
+        "http://snomed.info/sct"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.602"],
       "sources" : ["1.2.250.1.213.1.1.5.602"]
@@ -841,10 +839,7 @@
       "name" : "JDV_J150-MethodBP-ENS",
       "title" : null,
       "description" : "JDV pour la méthode de mesure de la pression artérielle",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP",
-        "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"
-      ],
+      "systems" : ["https://webgate.ec.europa.eu/dyna2/emdn"],
       "oids" : ["1.2.250.1.213.1.1.5.605"],
       "sources" : ["1.2.250.1.213.1.1.5.605"]
     },
@@ -855,9 +850,7 @@
       "name" : "JDV_J152-MethodBodyTemperature-ENS",
       "title" : null,
       "description" : "JDV pour la méthode de la mesure de la température",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R306-CLADIMED/FHIR/TRE-R306-CLADIMED"
-      ],
+      "systems" : ["https://webgate.ec.europa.eu/dyna2/emdn"],
       "oids" : ["1.2.250.1.213.1.1.5.607"],
       "sources" : ["1.2.250.1.213.1.1.5.607"]
     },
@@ -898,7 +891,8 @@
       "title" : null,
       "description" : "JDV pour la méthode de mesure du glucose sanguin",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"
+        "https://webgate.ec.europa.eu/dyna2/emdn",
+        "http://snomed.info/sct"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.610"],
       "sources" : ["1.2.250.1.213.1.1.5.610"]
@@ -910,9 +904,7 @@
       "name" : "JDV_J156-MethodGlucoseInterstitiel-ENS",
       "title" : null,
       "description" : "JDV pour la méthode de mesure du glucose interstitiel",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"
-      ],
+      "systems" : ["https://webgate.ec.europa.eu/dyna2/emdn"],
       "oids" : ["1.2.250.1.213.1.1.5.611"],
       "sources" : ["1.2.250.1.213.1.1.5.611"]
     },
@@ -937,9 +929,7 @@
       "name" : "JDV_J158-MethodStepsByDay-ENS",
       "title" : null,
       "description" : "JDV pour la méthode de la mesure de nombre de pas par jour",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"
-      ],
+      "systems" : ["https://webgate.ec.europa.eu/dyna2/emdn"],
       "oids" : ["1.2.250.1.213.1.1.5.613"],
       "sources" : ["1.2.250.1.213.1.1.5.613"]
     },
@@ -2215,6 +2205,32 @@
       "sources" : ["1.2.250.1.213.3.4.117"]
     },
     {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J254-CategorieEtablissementESSMSPH/FHIR/JDV-J254-CategorieEtablissementESSMSPH",
+      "version" : "1.1.0",
+      "status" : "active",
+      "name" : "JDV_J254-CategorieEtablissementESSMSPH",
+      "title" : null,
+      "description" : "Liste les catégories d’établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d’handicap",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"
+      ],
+      "oids" : ["1.2.250.1.213.3.4.218"],
+      "sources" : ["1.2.250.1.213.3.4.218"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J255-SurspecialiteTransversale-RPPS/FHIR/JDV-J255-SurspecialiteTransversale-RPPS",
+      "version" : "1.1.0",
+      "status" : "active",
+      "name" : "JDV_J255-SurspecialiteTransversale-RPPS",
+      "title" : null,
+      "description" : "Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST)",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.282"],
+      "sources" : ["1.2.250.1.213.1.6.1.282"]
+    },
+    {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J26-ModeGestion-ROR/FHIR/JDV-J26-ModeGestion-ROR",
       "version" : "1.1.0",
       "status" : "active",
@@ -2834,8 +2850,6 @@
       "title" : null,
       "description" : "Type d'autorisation d'exercice pour accès à l'exercice de la profession du RASS",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais",
-        "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire",
         "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation"
       ],
       "oids" : ["1.2.250.1.213.1.6.1.143"],

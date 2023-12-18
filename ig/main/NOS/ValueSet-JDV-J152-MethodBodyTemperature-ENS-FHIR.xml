@@ -10,32 +10,32 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.607"/>
   </identifier>
-  <version value="20230630120000"/>
+  <version value="20231215120000"/>
   <name value="JDV_J152-MethodBodyTemperature-ENS"/>
   <status value="active"/>
-  <date value="2023-06-30T12:00:00+01:00"/>
+  <date value="2023-12-15T12:00:00+01:00"/>
   <description value="JDV pour la méthode de la mesure de la température"/>
   <compose>
     <include>
-      <system value="https://mos.esante.gouv.fr/NOS/TRE_R306-CLADIMED/FHIR/TRE-R306-CLADIMED"/>
+      <system value="https://webgate.ec.europa.eu/dyna2/emdn"/>
       <concept>
-        <code value="K50BC10"/>
-        <display value="THERMOMETRE ELECTRONIQUE"/>
+        <code value="V03010102"/>
+        <display value="THERMOMÈTRES NUMÉRIQUES"/>
         <designation>
           <use>
             <code value="OID"/>
           </use>
-          <value value="urn:oid:1.2.250.1.213.2.65"/>
+          <value value="urn:oid:1.2.250.1.213.2.68"/>
         </designation>
       </concept>
       <concept>
-        <code value="K50BC03"/>
-        <display value="THERMOMETRE INFRAROUGE"/>
+        <code value="V0301010202"/>
+        <display value="THERMOMÈTRES NUMÉRIQUES - MESURE SANS CONTACT"/>
         <designation>
           <use>
             <code value="OID"/>
           </use>
-          <value value="urn:oid:1.2.250.1.213.2.65"/>
+          <value value="urn:oid:1.2.250.1.213.2.68"/>
         </designation>
       </concept>
     </include>

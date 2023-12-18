@@ -219,7 +219,7 @@
         
           Active
           
-            as of 2023-09-22
+            as of 2023-12-15
           
         
       </td>
@@ -241,7 +241,7 @@
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">id</a>" : "JDV-J155-MethodGlucoseSanguin-ENS",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\"CodeSystem-TRE-R307-NCIT.html\"&gt;&lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT&lt;/code&gt;&lt;/a&gt;&lt;table class=\"none\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C17610\"&gt;C17610&lt;/a&gt;&lt;/td&gt;&lt;td&gt;prélèvement de sang&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C159776\"&gt;C159776&lt;/a&gt;&lt;/td&gt;&lt;td&gt;système de surveillance continue du glucose&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;This value set includes codes based on the following rules:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;code&gt;https://webgate.ec.europa.eu/dyna2/emdn&lt;/code&gt;&lt;table class=\"none\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Z1204011501&lt;/td&gt;&lt;td&gt;SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\"http://www.snomed.org/\"&gt;&lt;code&gt;http://snomed.info/sct&lt;/code&gt;&lt;/a&gt;&lt;table class=\"none\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://snomed.info/id/82078001\"&gt;82078001&lt;/a&gt;&lt;/td&gt;&lt;td&gt;prélèvement d'un échantillon sanguin pour le laboratoire&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.extension">extension</a>" : [
     {
@@ -260,7 +260,7 @@
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "1.1.0",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a>" : "JDV_J155-MethodGlucoseSanguin-ENS",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a>" : "active",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2023-09-22T12:00:00+01:00",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2023-12-15T12:00:00+01:00",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a>" : "ANS",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">contact</a>" : [
     {
@@ -277,29 +277,34 @@
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">compose</a>" : {
     "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">include</a>" : [
       {
-        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">system</a>" : "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">system</a>" : "https://webgate.ec.europa.eu/dyna2/emdn",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>" : [
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "C17610",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "prélèvement de sang",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "Z1204011501",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE",
             "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">designation</a>" : [
               {
                 "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">use</a>" : {
                   "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "OID"
                 },
-                "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "urn:oid:2.16.840.1.113883.3.26.1.1"
+                "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "urn:oid:1.2.250.1.213.2.68"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>" : [
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "C159776",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "système de surveillance continue du glucose",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "82078001",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "prélèvement d'un échantillon sanguin pour le laboratoire",
             "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">designation</a>" : [
               {
                 "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">use</a>" : {
                   "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "OID"
                 },
-                "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "urn:oid:2.16.840.1.113883.3.26.1.1"
+                "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">value</a>" : "urn:oid:2.16.840.1.113883.6.96"
               }
             ]
           }
@@ -319,21 +324,21 @@
 <table class="grid table table-bordered">
 	<tbody>
 		<tr>
-			<td><a name="l498">​</a><a href="./ValueSet-JDV-J155-MethodGlucoseSanguin-ENS.xslx">xlsx</a> </td>
+			<td><a name="l504">​</a><a href="./ValueSet-JDV-J155-MethodGlucoseSanguin-ENS.xslx">xlsx</a> </td>
 			<td> Fichier excel </td>
 		</tr>	
 	
 		<tr>
-			<td><a name="l509">​</a><a href="./NOS/ValueSet-JDV-J155-MethodGlucoseSanguin-ENS.tabs">csv</a> </td>
+			<td><a name="l515">​</a><a href="./NOS/ValueSet-JDV-J155-MethodGlucoseSanguin-ENS.tabs">csv</a> </td>
 			<td> Fichier csv </td>
 		</tr>
 		<tr>
-			<td><a name="l520">​</a><a href="./NOS/ValueSet-JDV-J155-MethodGlucoseSanguin-ENS.pdf" class="file-link">Pdf</a> </td>
+			<td><a name="l526">​</a><a href="./NOS/ValueSet-JDV-J155-MethodGlucoseSanguin-ENS.pdf" class="file-link">Pdf</a> </td>
 			<td> Fichier PDF </td>
 		</tr>	
 		
 		<tr>
-			<td><a name="l531">​</a><a href="./NOS/ValueSet-JDV-J155-MethodGlucoseSanguin-ENS-svs.xml">svs</a> </td>
+			<td><a name="l537">​</a><a href="./NOS/ValueSet-JDV-J155-MethodGlucoseSanguin-ENS-svs.xml">svs</a> </td>
 			<td>  Fichier xml (Sharing Value Sets) </td>
 		</tr>
 		<tr>
@@ -411,7 +416,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.nos#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Dec 17, 2023 15:13+0000">2023-12-17</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.nos#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 18, 2023 04:17+0000">2023-12-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

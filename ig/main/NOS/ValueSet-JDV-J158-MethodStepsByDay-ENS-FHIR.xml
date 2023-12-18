@@ -10,42 +10,42 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.613"/>
   </identifier>
-  <version value="20230922120000"/>
+  <version value="20231215120000"/>
   <name value="JDV_J158-MethodStepsByDay-ENS"/>
   <status value="active"/>
-  <date value="2023-09-22T12:00:00+01:00"/>
+  <date value="2023-12-15T12:00:00+01:00"/>
   <description value="JDV pour la méthode de la mesure de nombre de pas par jour"/>
   <compose>
     <include>
-      <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+      <system value="https://webgate.ec.europa.eu/dyna2/emdn"/>
       <concept>
-        <code value="C88165"/>
-        <display value="podomètre"/>
+        <code value="Y210905"/>
+        <display value="INTERFACES DE CAPTEURS EXTERNES"/>
         <designation>
           <use>
             <code value="OID"/>
           </use>
-          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+          <value value="urn:oid:1.2.250.1.213.2.68"/>
         </designation>
       </concept>
       <concept>
-        <code value="C153216"/>
-        <display value="objet connecté"/>
+        <code value="Z120626"/>
+        <display value="SYSTÈMES D'ANALYSE DE LA DYNAMIQUE DU MOUVEMENT"/>
         <designation>
           <use>
             <code value="OID"/>
           </use>
-          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+          <value value="urn:oid:1.2.250.1.213.2.68"/>
         </designation>
       </concept>
       <concept>
-        <code value="C156877"/>
-        <display value="application pour smartphone"/>
+        <code value="Z12062692"/>
+        <display value="SYSTÈMES D'ANALYSE DE LA DYNAMIQUE DU MOUVEMENT - LOGICIELS QUALIFIÉS DM"/>
         <designation>
           <use>
             <code value="OID"/>
           </use>
-          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+          <value value="urn:oid:1.2.250.1.213.2.68"/>
         </designation>
       </concept>
     </include>

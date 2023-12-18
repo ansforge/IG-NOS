@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.461"
     }
   ],
-  "version": "20231030120000",
+  "version": "20231215120000",
   "name": "JDV_J01-XdsAuthorSpecialty-CISIS",
   "status": "active",
-  "date": "2023-10-30T12:00:00+01:00",
+  "date": "2023-12-15T12:00:00+01:00",
   "description": "XDS authorSpecialty CI-SIS",
   "compose": {
     "include": [
@@ -88,6 +88,18 @@
           {
             "code": "SNR",
             "display": "Service numérique référencé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.6"
+              }
+            ]
+          },
+          {
+            "code": "LOGICIEL_DUI",
+            "display": "Logiciel de Dossier Usager Informatisé",
             "designation": [
               {
                 "use": {
@@ -1124,7 +1136,7 @@
           },
           {
             "code": "G15_10/SM84",
-            "display": "Médecin - Neurologie option traitement interventionnel de l’ischémie cérébrale aigüe (SM)",
+            "display": "Médecin - Neurologie option traitement interventionnel de l'ischémie cérébrale aigüe (SM)",
             "designation": [
               {
                 "use": {
@@ -4488,6 +4500,30 @@
           {
             "code": "331",
             "display": "Secrétaire médicale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "333",
+            "display": "Responsable de secteur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "334",
+            "display": "Biologiste médical ni médecin ni pharmacien",
             "designation": [
               {
                 "use": {
