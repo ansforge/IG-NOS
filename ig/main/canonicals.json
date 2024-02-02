@@ -203,13 +203,6 @@
     "name" : "JDV_J119-TypeActiviteLiberale-ENREG"
   },
   {
-    "id" : "JDV-J12-CiviliteTitre-CISIS",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J12-CiviliteTitre-CISIS/FHIR/JDV-J12-CiviliteTitre-CISIS",
-    "version" : "1.1.0",
-    "name" : "JDV_J12-CiviliteTitre-CISIS"
-  },
-  {
     "id" : "JDV-J121-RolePriseCharge-ENREG",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG",
@@ -1001,18 +994,18 @@
     "name" : "JDV_J229-ProfessionSante-ROR"
   },
   {
-    "id" : "JDV-J239-SpecialitesSNP-SAS",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J23-SpecialitesSNP-SAS/FHIR/JDV-J239-SpecialitesSNP-SAS",
-    "version" : "1.1.0",
-    "name" : "JDV_J239-SpecialitesSNP-SAS"
-  },
-  {
     "id" : "JDV-J23-TypeNoteCahierLiaison-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J23-TypeNoteCahierLiaison-CISIS/FHIR/JDV-J23-TypeNoteCahierLiaison-CISIS",
     "version" : "1.1.0",
     "name" : "JDV_J23-TypeNoteCahierLiaison-CISIS"
+  },
+  {
+    "id" : "JDV-J238-TypeOffre-ROR",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J23-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR",
+    "version" : "1.1.0",
+    "name" : "JDV_J238-TypeOffre-ROR"
   },
   {
     "id" : "JDV-J231-XdsTypesIdentifiantsReferenceId-DMP",
@@ -1059,9 +1052,16 @@
   {
     "id" : "JDV-J237-RegionOM-ROR",
     "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J237-RegionOM-ROR.tabs/FHIR/JDV-J237-RegionOM-ROR",
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J237-RegionOM-ROR/FHIR/JDV-J237-RegionOM-ROR",
     "version" : "1.1.0",
     "name" : "JDV_J237-RegionOM-ROR"
+  },
+  {
+    "id" : "JDV-J239-SpecialitesSNP-SAS",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J239-SpecialitesSNP-SAS/FHIR/JDV-J239-SpecialitesSNP-SAS",
+    "version" : "1.1.0",
+    "name" : "JDV_J239-SpecialitesSNP-SAS"
   },
   {
     "id" : "JDV-J24-ProfessionAuteurNote-CISIS",
@@ -1101,7 +1101,7 @@
   {
     "id" : "JDV-J246-Titre-CISIS",
     "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J246-Titre-CISIS.tabs/FHIR/JDV-J246-Titre-CISIS",
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J246-Titre-CISIS/FHIR/JDV-J246-Titre-CISIS",
     "version" : "1.1.0",
     "name" : "JDV_J246-Titre-CISIS"
   },
@@ -1167,6 +1167,27 @@
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J255-SurspecialiteTransversale-RPPS/FHIR/JDV-J255-SurspecialiteTransversale-RPPS",
     "version" : "1.1.0",
     "name" : "JDV_J255-SurspecialiteTransversale-RPPS"
+  },
+  {
+    "id" : "JDV-J256-Pays",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J256-Pays/FHIR/JDV-J256-Pays",
+    "version" : "1.1.0",
+    "name" : "JDV_J256-Pays"
+  },
+  {
+    "id" : "JDV-J257-Region",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J257-Region/FHIR/JDV-J257-Region",
+    "version" : "1.1.0",
+    "name" : "JDV_J257-Region"
+  },
+  {
+    "id" : "JDV-J258-Departement",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J258-Departement/FHIR/JDV-J258-Departement",
+    "version" : "1.1.0",
+    "name" : "JDV_J258-Departement"
   },
   {
     "id" : "JDV-J26-ModeGestion-ROR",
@@ -2791,13 +2812,6 @@
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R312-LPP/FHIR/TRE-R312-LPP",
     "version" : "1.1.0",
     "name" : "TRE_R312-LPP"
-  },
-  {
-    "id" : "TRE-R313-CISP2",
-    "type" : "CodeSystem",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R313-CISP2/FHIR/TRE-R313-CISP2",
-    "version" : "1.1.0",
-    "name" : "TRE_R313-CISP2"
   },
   {
     "id" : "TRE-R314-TypeCreneau",

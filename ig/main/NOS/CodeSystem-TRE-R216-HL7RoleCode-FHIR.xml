@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:2.16.840.1.113883.5.111"/>
   </identifier>
-  <version value="20231215120000"/>
+  <version value="20240126120000"/>
   <name value="TRE_R216-HL7RoleCode"/>
   <status value="active"/>
-  <date value="2023-12-15T12:00:00+01:00"/>
+  <date value="2024-01-26T12:00:00+01:00"/>
   <description value="HL7 roleCode"/>
   <content value="complete"/>
   <property>
@@ -1140,6 +1140,30 @@
     </property>
   </concept>
   <concept>
+    <code value="FMRSPS"/>
+    <display value="Ancien époux ou ancienne épouse"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Ancien époux - ancienne épouse"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Ancien époux ou ancienne épouse"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
     <code value="FTHFOST"/>
     <display value="Assistant familial - Famille d'accueil"/>
     <designation>
@@ -1689,6 +1713,30 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-01-31T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="SONINLAW"/>
+    <display value="Gendre"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Gendre"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Gendre"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>

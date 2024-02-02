@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.468"/>
   </identifier>
-  <version value="20200424120000"/>
+  <version value="20240126120000"/>
   <name value="JDV_J14-QualiteRepresentantLegal-CISIS"/>
   <status value="active"/>
-  <date value="2020-04-24T12:00:00+01:00"/>
+  <date value="2024-01-26T12:00:00+01:00"/>
   <description value="Qualité représentant légal - CI-SIS"/>
   <compose>
     <include>
@@ -91,26 +91,6 @@
       <concept>
         <code value="GGRFTH"/>
         <display value="Arrière-grand-père"/>
-        <designation>
-          <use>
-            <code value="OID"/>
-          </use>
-          <value value="urn:oid:2.16.840.1.113883.5.111"/>
-        </designation>
-      </concept>
-      <concept>
-        <code value="DAU"/>
-        <display value="Fille biologique"/>
-        <designation>
-          <use>
-            <code value="OID"/>
-          </use>
-          <value value="urn:oid:2.16.840.1.113883.5.111"/>
-        </designation>
-      </concept>
-      <concept>
-        <code value="SON"/>
-        <display value="Fils biologique"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -199,26 +179,6 @@
         </designation>
       </concept>
       <concept>
-        <code value="EXT"/>
-        <display value="Autre membre de la famille sans lien génétique direct"/>
-        <designation>
-          <use>
-            <code value="OID"/>
-          </use>
-          <value value="urn:oid:2.16.840.1.113883.5.111"/>
-        </designation>
-      </concept>
-      <concept>
-        <code value="RESPRSN"/>
-        <display value="Responsable légal non membre de la famille"/>
-        <designation>
-          <use>
-            <code value="OID"/>
-          </use>
-          <value value="urn:oid:2.16.840.1.113883.5.111"/>
-        </designation>
-      </concept>
-      <concept>
         <code value="DAUC"/>
         <display value="Fille"/>
         <designation>
@@ -231,6 +191,266 @@
       <concept>
         <code value="SONC"/>
         <display value="Fils"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FMRSPS"/>
+        <display value="Ancien époux ou ancienne épouse"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SONINLAW"/>
+        <display value="Gendre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ADOPTF"/>
+        <display value="Père adoptif"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ADOPTM"/>
+        <display value="Mère adoptive"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FTHFOST"/>
+        <display value="Assistant familial - Famille d'accueil"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="COUSN"/>
+        <display value="Cousin(e)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="BROINLAW"/>
+        <display value="Beau-frère"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CHILD"/>
+        <display value="Enfant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DAUINLAW"/>
+        <display value="Belle-fille"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FAMMEMB"/>
+        <display value="Autre membre de la famille"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FRND"/>
+        <display value="Autre proche"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FTHINLAW"/>
+        <display value="Beau-père"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HBRO"/>
+        <display value="Demi-frère"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GRFTH"/>
+        <display value="Grand-père"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HUSB"/>
+        <display value="Epoux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="MTHFOST"/>
+        <display value="Assistante familiale - Famille d'accueil"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="MTHINLAW"/>
+        <display value="Belle-mère"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="NEPHEW"/>
+        <display value="Neveu"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="NIECE"/>
+        <display value="Nièce"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SIGOTHR"/>
+        <display value="Conjoint"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SISINLAW"/>
+        <display value="Belle-soeur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="STPSIS"/>
+        <display value="Fille du beau-père ou de la belle-mère"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="STPSON"/>
+        <display value="Fils du conjoint, issu d'un mariage précédent"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="WIFE"/>
+        <display value="Epouse"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="STPDAU"/>
+        <display value="Fille du conjoint, issue d'un mariage précédent"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.111"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HSIS"/>
+        <display value="Demi-soeur"/>
         <designation>
           <use>
             <code value="OID"/>

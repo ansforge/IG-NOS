@@ -1,0 +1,2593 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J256-Pays",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2024-01-26T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J256-Pays/FHIR/JDV-J256-Pays",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.762"
+    }
+  ],
+  "version": "20240126120000",
+  "name": "JDV_J256-Pays",
+  "status": "active",
+  "date": "2024-01-26T12:00:00+01:00",
+  "description": "Tous les codes actifs de la nomenclature du COG INSEE pays auquel on ajoute le code applicatif \"non renseigné\"",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
+        "concept": [
+          {
+            "code": "99100",
+            "display": "FRANCE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99101",
+            "display": "DANEMARK",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99102",
+            "display": "ISLANDE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99103",
+            "display": "NORVEGE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99104",
+            "display": "SUEDE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99105",
+            "display": "FINLANDE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99106",
+            "display": "ESTONIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99107",
+            "display": "LETTONIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99108",
+            "display": "LITUANIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99109",
+            "display": "ALLEMAGNE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99110",
+            "display": "AUTRICHE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99111",
+            "display": "BULGARIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99112",
+            "display": "HONGRIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99113",
+            "display": "LIECHTENSTEIN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99114",
+            "display": "ROUMANIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99116",
+            "display": "TCHEQUIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99117",
+            "display": "SLOVAQUIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99118",
+            "display": "BOSNIE-HERZEGOVINE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99119",
+            "display": "CROATIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99120",
+            "display": "MONTENEGRO",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99121",
+            "display": "SERBIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99122",
+            "display": "POLOGNE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99123",
+            "display": "RUSSIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99125",
+            "display": "ALBANIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99126",
+            "display": "GRECE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99127",
+            "display": "ITALIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99128",
+            "display": "SAINT-MARIN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99129",
+            "display": "VATICAN, ou SAINT-SIEGE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99130",
+            "display": "ANDORRE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99131",
+            "display": "BELGIQUE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99132",
+            "display": "ROYAUME-UNI",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99133",
+            "display": "GIBRALTAR",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99134",
+            "display": "ESPAGNE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99135",
+            "display": "PAYS-BAS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99136",
+            "display": "IRLANDE, ou EIRE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99137",
+            "display": "LUXEMBOURG",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99138",
+            "display": "MONACO",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99139",
+            "display": "PORTUGAL",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99140",
+            "display": "SUISSE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99144",
+            "display": "MALTE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99145",
+            "display": "SLOVENIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99148",
+            "display": "BIELORUSSIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99151",
+            "display": "MOLDAVIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99155",
+            "display": "UKRAINE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99156",
+            "display": "MACEDOINE DU NORD",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99157",
+            "display": "KOSOVO",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99201",
+            "display": "ARABIE SAOUDITE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99203",
+            "display": "IRAQ",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99204",
+            "display": "IRAN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99205",
+            "display": "LIBAN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99206",
+            "display": "SYRIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99207",
+            "display": "ISRAEL",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99208",
+            "display": "TURQUIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99212",
+            "display": "AFGHANISTAN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99213",
+            "display": "PAKISTAN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99214",
+            "display": "BHOUTAN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99215",
+            "display": "NEPAL",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99216",
+            "display": "CHINE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99217",
+            "display": "JAPON",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99219",
+            "display": "THAILANDE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99220",
+            "display": "PHILIPPINES",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99222",
+            "display": "JORDANIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99223",
+            "display": "INDE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99224",
+            "display": "BIRMANIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99225",
+            "display": "BRUNEI",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99226",
+            "display": "SINGAPOUR",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99227",
+            "display": "MALAISIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99229",
+            "display": "MALDIVES",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99231",
+            "display": "INDONESIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99234",
+            "display": "CAMBODGE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99235",
+            "display": "SRI LANKA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99236",
+            "display": "TAIWAN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99238",
+            "display": "COREE (REPUBLIQUE POPULAIRE DEMOCRATIQUE DE)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99239",
+            "display": "COREE (REPUBLIQUE DE)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99240",
+            "display": "KOWEIT",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99241",
+            "display": "LAOS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99242",
+            "display": "MONGOLIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99243",
+            "display": "VIET NAM",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99246",
+            "display": "BANGLADESH",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99247",
+            "display": "EMIRATS ARABES UNIS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99248",
+            "display": "QATAR",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99249",
+            "display": "BAHREIN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99250",
+            "display": "OMAN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99251",
+            "display": "YEMEN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99252",
+            "display": "ARMENIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99253",
+            "display": "AZERBAIDJAN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99254",
+            "display": "CHYPRE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99255",
+            "display": "GEORGIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99256",
+            "display": "KAZAKHSTAN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99257",
+            "display": "KIRGHIZISTAN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99258",
+            "display": "OUZBEKISTAN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99259",
+            "display": "TADJIKISTAN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99260",
+            "display": "TURKMENISTAN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99261",
+            "display": "PALESTINE (Etat de)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99262",
+            "display": "TIMOR ORIENTAL",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99301",
+            "display": "EGYPTE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99302",
+            "display": "LIBERIA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99303",
+            "display": "AFRIQUE DU SUD",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99304",
+            "display": "GAMBIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99306",
+            "display": "SAINTE HELENE, ASCENSION ET TRISTAN DA CUNHA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99308",
+            "display": "OCEAN INDIEN (TERRITOIRE BRITANNIQUE DE L')",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99309",
+            "display": "TANZANIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99310",
+            "display": "ZIMBABWE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99311",
+            "display": "NAMIBIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99312",
+            "display": "CONGO (REPUBLIQUE DEMOCRATIQUE)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99313",
+            "display": "PROVINCES ESPAGNOLES D'AFRIQUE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99314",
+            "display": "GUINEE EQUATORIALE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99315",
+            "display": "ETHIOPIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99316",
+            "display": "LIBYE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99317",
+            "display": "ERYTHREE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99318",
+            "display": "SOMALIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99319",
+            "display": "ACORES, MADERE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99321",
+            "display": "BURUNDI",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99322",
+            "display": "CAMEROUN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99323",
+            "display": "CENTRAFRICAINE (REPUBLIQUE)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99324",
+            "display": "CONGO",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99326",
+            "display": "COTE D'IVOIRE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99327",
+            "display": "BENIN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99328",
+            "display": "GABON",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99329",
+            "display": "GHANA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99330",
+            "display": "GUINEE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99331",
+            "display": "BURKINA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99332",
+            "display": "KENYA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99333",
+            "display": "MADAGASCAR",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99334",
+            "display": "MALAWI",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99335",
+            "display": "MALI",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99336",
+            "display": "MAURITANIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99337",
+            "display": "NIGER",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99338",
+            "display": "NIGERIA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99339",
+            "display": "OUGANDA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99340",
+            "display": "RWANDA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99341",
+            "display": "SENEGAL",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99342",
+            "display": "SIERRA LEONE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99343",
+            "display": "SOUDAN",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99344",
+            "display": "TCHAD",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99345",
+            "display": "TOGO",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99346",
+            "display": "ZAMBIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99347",
+            "display": "BOTSWANA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99348",
+            "display": "LESOTHO",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99349",
+            "display": "SOUDAN DU SUD",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99350",
+            "display": "MAROC",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99351",
+            "display": "TUNISIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99352",
+            "display": "ALGERIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99389",
+            "display": "SAHARA OCCIDENTAL",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99390",
+            "display": "MAURICE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99391",
+            "display": "ESWATINI",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99392",
+            "display": "GUINEE-BISSAU",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99393",
+            "display": "MOZAMBIQUE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99394",
+            "display": "SAO TOME-ET-PRINCIPE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99395",
+            "display": "ANGOLA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99396",
+            "display": "CAP-VERT",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99397",
+            "display": "COMORES",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99398",
+            "display": "SEYCHELLES",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99399",
+            "display": "DJIBOUTI",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99401",
+            "display": "CANADA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99404",
+            "display": "ETATS-UNIS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99405",
+            "display": "MEXIQUE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99406",
+            "display": "COSTA RICA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99407",
+            "display": "CUBA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99408",
+            "display": "DOMINICAINE (REPUBLIQUE)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99409",
+            "display": "GUATEMALA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99410",
+            "display": "HAITI",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99411",
+            "display": "HONDURAS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99412",
+            "display": "NICARAGUA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99413",
+            "display": "PANAMA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99414",
+            "display": "EL SALVADOR",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99415",
+            "display": "ARGENTINE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99416",
+            "display": "BRESIL",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99417",
+            "display": "CHILI",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99418",
+            "display": "BOLIVIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99419",
+            "display": "COLOMBIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99420",
+            "display": "EQUATEUR",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99421",
+            "display": "PARAGUAY",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99422",
+            "display": "PEROU",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99423",
+            "display": "URUGUAY",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99424",
+            "display": "VENEZUELA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99425",
+            "display": "TERRITOIRES DU ROYAUME-UNI AUX ANTILLES",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99426",
+            "display": "JAMAIQUE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99427",
+            "display": "TERR. DU ROYAUME-UNI DANS L'ATLANTIQUE SUD",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99428",
+            "display": "GUYANA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99429",
+            "display": "BELIZE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99430",
+            "display": "GROENLAND",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99432",
+            "display": "TERR. DES ETATS-UNIS D'AMERIQUE EN AMERIQUE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99433",
+            "display": "TRINITE-ET-TOBAGO",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99434",
+            "display": "BARBADE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99435",
+            "display": "GRENADE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99436",
+            "display": "BAHAMAS",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99437",
+            "display": "SURINAME",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99438",
+            "display": "DOMINIQUE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99439",
+            "display": "SAINTE-LUCIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99440",
+            "display": "SAINT-VINCENT-ET-LES GRENADINES",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99441",
+            "display": "ANTIGUA-ET-BARBUDA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99442",
+            "display": "SAINT-CHRISTOPHE-ET-NIEVES",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99443",
+            "display": "BONAIRE, SAINT EUSTACHE ET SABA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99444",
+            "display": "CURAÇAO",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99445",
+            "display": "SAINT-MARTIN (PARTIE NEERLANDAISE)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99501",
+            "display": "AUSTRALIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99502",
+            "display": "NOUVELLE-ZELANDE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99503",
+            "display": "PITCAIRN (ILE)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99505",
+            "display": "TERR. DES ETATS-UNIS D'AMERIQUE EN OCEANIE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99506",
+            "display": "SAMOA OCCIDENTALES",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99507",
+            "display": "NAURU",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99508",
+            "display": "FIDJI",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99509",
+            "display": "TONGA",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99510",
+            "display": "PAPOUASIE-NOUVELLE-GUINEE",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99511",
+            "display": "TUVALU",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99512",
+            "display": "SALOMON (ILES)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99513",
+            "display": "KIRIBATI",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99514",
+            "display": "VANUATU",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99515",
+            "display": "MARSHALL (ILES)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99516",
+            "display": "MICRONESIE (ETATS FEDERES DE)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          },
+          {
+            "code": "99517",
+            "display": "PALAOS (ILES)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.2.24"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire",
+        "concept": [
+          {
+            "code": "01",
+            "display": "Non renseigné",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.70"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -701,15 +701,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/JDV-J12-CiviliteTitre-CISIS"/>
-      </reference>
-      <description value="Titre civilité - CI-SIS"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/JDV-J121-RolePriseCharge-ENREG"/>
       </reference>
       <description value="Code des rôles et fonctions pour l'application ENREG"/>
@@ -1799,6 +1790,15 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/JDV-J238-TypeOffre-ROR"/>
+      </reference>
+      <description value="Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/JDV-J239-SpecialitesSNP-SAS"/>
       </reference>
       <description value="Professions de santé participant au Service d'Accès aux Soins"/>
@@ -1937,6 +1937,33 @@
         <reference value="ValueSet/JDV-J255-SurspecialiteTransversale-RPPS"/>
       </reference>
       <description value="Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST)"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/JDV-J256-Pays"/>
+      </reference>
+      <description value="Tous les codes actifs de la nomenclature du COG INSEE pays auquel on ajoute le code applicatif &quot;non renseigné&quot;"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/JDV-J257-Region"/>
+      </reference>
+      <description value="Tous les codes actifs des régions et collectivités d'outre-mer actives + Monaco du COG INSEE"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/JDV-J258-Departement"/>
+      </reference>
+      <description value="Tous les codes actifs des départements et collectivités d'outre-mer actives + Monaco du COG INSEE"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2764,7 +2791,7 @@
       <reference>
         <reference value="CodeSystem/TRE-G09-DepartementOM"/>
       </reference>
-      <description value="Département (outre-mer et Monaco inclus)"/>
+      <description value="Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -3898,7 +3925,7 @@
       <reference>
         <reference value="CodeSystem/TRE-R30-RegionOM"/>
       </reference>
-      <description value="Région (outre-mer et Monaco inclus)"/>
+      <description value="Référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -4025,15 +4052,6 @@
         <reference value="CodeSystem/TRE-R312-LPP"/>
       </reference>
       <description value="Liste des produits et prestations remboursables par l'Assurance Maladie"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/TRE-R313-CISP2"/>
-      </reference>
-      <description value="International Classification of Primary Care (ICPC), second edition Classification internationale des soins primaires version 2"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

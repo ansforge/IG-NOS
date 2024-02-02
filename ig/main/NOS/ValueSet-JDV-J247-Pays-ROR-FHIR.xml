@@ -4,16 +4,17 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>
       <start value="2023-03-31T12:00:00+01:00"/>
+      <end value="2024-01-26T12:00:00+01:00"/>
     </valuePeriod>
   </extension>
   <url value="https://mos.esante.gouv.fr/NOS/JDV_J247-Pays-ROR/FHIR/JDV-J247-Pays-ROR"/>
   <identifier>
     <value value="urn:oid:1.2.250.1.213.3.4.111"/>
   </identifier>
-  <version value="20230331120000"/>
+  <version value="20240126120000"/>
   <name value="JDV_J247-Pays-ROR"/>
-  <status value="active"/>
-  <date value="2023-03-31T12:00:00+01:00"/>
+  <status value="retired"/>
+  <date value="2024-01-26T12:00:00+01:00"/>
   <description value="Référentiel des codes pays provenant du COG INSEE - ROR"/>
   <compose>
     <include>
@@ -2136,6 +2137,19 @@
             <code value="OID"/>
           </use>
           <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire"/>
+      <concept>
+        <code value="01"/>
+        <display value="Non renseigné"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.70"/>
         </designation>
       </concept>
     </include>

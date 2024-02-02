@@ -1,0 +1,2156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J256-Pays"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2024-01-26T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J256-Pays/FHIR/JDV-J256-Pays"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.762"/>
+  </identifier>
+  <version value="20240126120000"/>
+  <name value="JDV_J256-Pays"/>
+  <status value="active"/>
+  <date value="2024-01-26T12:00:00+01:00"/>
+  <description value="Tous les codes actifs de la nomenclature du COG INSEE pays auquel on ajoute le code applicatif &quot;non renseigné&quot;"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays"/>
+      <concept>
+        <code value="99100"/>
+        <display value="FRANCE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99101"/>
+        <display value="DANEMARK"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99102"/>
+        <display value="ISLANDE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99103"/>
+        <display value="NORVEGE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99104"/>
+        <display value="SUEDE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99105"/>
+        <display value="FINLANDE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99106"/>
+        <display value="ESTONIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99107"/>
+        <display value="LETTONIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99108"/>
+        <display value="LITUANIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99109"/>
+        <display value="ALLEMAGNE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99110"/>
+        <display value="AUTRICHE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99111"/>
+        <display value="BULGARIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99112"/>
+        <display value="HONGRIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99113"/>
+        <display value="LIECHTENSTEIN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99114"/>
+        <display value="ROUMANIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99116"/>
+        <display value="TCHEQUIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99117"/>
+        <display value="SLOVAQUIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99118"/>
+        <display value="BOSNIE-HERZEGOVINE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99119"/>
+        <display value="CROATIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99120"/>
+        <display value="MONTENEGRO"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99121"/>
+        <display value="SERBIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99122"/>
+        <display value="POLOGNE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99123"/>
+        <display value="RUSSIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99125"/>
+        <display value="ALBANIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99126"/>
+        <display value="GRECE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99127"/>
+        <display value="ITALIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99128"/>
+        <display value="SAINT-MARIN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99129"/>
+        <display value="VATICAN, ou SAINT-SIEGE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99130"/>
+        <display value="ANDORRE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99131"/>
+        <display value="BELGIQUE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99132"/>
+        <display value="ROYAUME-UNI"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99133"/>
+        <display value="GIBRALTAR"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99134"/>
+        <display value="ESPAGNE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99135"/>
+        <display value="PAYS-BAS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99136"/>
+        <display value="IRLANDE, ou EIRE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99137"/>
+        <display value="LUXEMBOURG"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99138"/>
+        <display value="MONACO"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99139"/>
+        <display value="PORTUGAL"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99140"/>
+        <display value="SUISSE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99144"/>
+        <display value="MALTE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99145"/>
+        <display value="SLOVENIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99148"/>
+        <display value="BIELORUSSIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99151"/>
+        <display value="MOLDAVIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99155"/>
+        <display value="UKRAINE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99156"/>
+        <display value="MACEDOINE DU NORD"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99157"/>
+        <display value="KOSOVO"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99201"/>
+        <display value="ARABIE SAOUDITE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99203"/>
+        <display value="IRAQ"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99204"/>
+        <display value="IRAN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99205"/>
+        <display value="LIBAN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99206"/>
+        <display value="SYRIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99207"/>
+        <display value="ISRAEL"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99208"/>
+        <display value="TURQUIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99212"/>
+        <display value="AFGHANISTAN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99213"/>
+        <display value="PAKISTAN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99214"/>
+        <display value="BHOUTAN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99215"/>
+        <display value="NEPAL"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99216"/>
+        <display value="CHINE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99217"/>
+        <display value="JAPON"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99219"/>
+        <display value="THAILANDE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99220"/>
+        <display value="PHILIPPINES"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99222"/>
+        <display value="JORDANIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99223"/>
+        <display value="INDE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99224"/>
+        <display value="BIRMANIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99225"/>
+        <display value="BRUNEI"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99226"/>
+        <display value="SINGAPOUR"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99227"/>
+        <display value="MALAISIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99229"/>
+        <display value="MALDIVES"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99231"/>
+        <display value="INDONESIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99234"/>
+        <display value="CAMBODGE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99235"/>
+        <display value="SRI LANKA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99236"/>
+        <display value="TAIWAN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99238"/>
+        <display value="COREE (REPUBLIQUE POPULAIRE DEMOCRATIQUE DE)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99239"/>
+        <display value="COREE (REPUBLIQUE DE)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99240"/>
+        <display value="KOWEIT"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99241"/>
+        <display value="LAOS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99242"/>
+        <display value="MONGOLIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99243"/>
+        <display value="VIET NAM"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99246"/>
+        <display value="BANGLADESH"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99247"/>
+        <display value="EMIRATS ARABES UNIS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99248"/>
+        <display value="QATAR"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99249"/>
+        <display value="BAHREIN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99250"/>
+        <display value="OMAN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99251"/>
+        <display value="YEMEN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99252"/>
+        <display value="ARMENIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99253"/>
+        <display value="AZERBAIDJAN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99254"/>
+        <display value="CHYPRE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99255"/>
+        <display value="GEORGIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99256"/>
+        <display value="KAZAKHSTAN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99257"/>
+        <display value="KIRGHIZISTAN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99258"/>
+        <display value="OUZBEKISTAN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99259"/>
+        <display value="TADJIKISTAN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99260"/>
+        <display value="TURKMENISTAN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99261"/>
+        <display value="PALESTINE (Etat de)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99262"/>
+        <display value="TIMOR ORIENTAL"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99301"/>
+        <display value="EGYPTE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99302"/>
+        <display value="LIBERIA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99303"/>
+        <display value="AFRIQUE DU SUD"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99304"/>
+        <display value="GAMBIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99306"/>
+        <display value="SAINTE HELENE, ASCENSION ET TRISTAN DA CUNHA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99308"/>
+        <display value="OCEAN INDIEN (TERRITOIRE BRITANNIQUE DE L')"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99309"/>
+        <display value="TANZANIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99310"/>
+        <display value="ZIMBABWE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99311"/>
+        <display value="NAMIBIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99312"/>
+        <display value="CONGO (REPUBLIQUE DEMOCRATIQUE)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99313"/>
+        <display value="PROVINCES ESPAGNOLES D'AFRIQUE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99314"/>
+        <display value="GUINEE EQUATORIALE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99315"/>
+        <display value="ETHIOPIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99316"/>
+        <display value="LIBYE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99317"/>
+        <display value="ERYTHREE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99318"/>
+        <display value="SOMALIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99319"/>
+        <display value="ACORES, MADERE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99321"/>
+        <display value="BURUNDI"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99322"/>
+        <display value="CAMEROUN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99323"/>
+        <display value="CENTRAFRICAINE (REPUBLIQUE)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99324"/>
+        <display value="CONGO"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99326"/>
+        <display value="COTE D'IVOIRE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99327"/>
+        <display value="BENIN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99328"/>
+        <display value="GABON"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99329"/>
+        <display value="GHANA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99330"/>
+        <display value="GUINEE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99331"/>
+        <display value="BURKINA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99332"/>
+        <display value="KENYA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99333"/>
+        <display value="MADAGASCAR"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99334"/>
+        <display value="MALAWI"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99335"/>
+        <display value="MALI"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99336"/>
+        <display value="MAURITANIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99337"/>
+        <display value="NIGER"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99338"/>
+        <display value="NIGERIA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99339"/>
+        <display value="OUGANDA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99340"/>
+        <display value="RWANDA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99341"/>
+        <display value="SENEGAL"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99342"/>
+        <display value="SIERRA LEONE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99343"/>
+        <display value="SOUDAN"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99344"/>
+        <display value="TCHAD"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99345"/>
+        <display value="TOGO"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99346"/>
+        <display value="ZAMBIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99347"/>
+        <display value="BOTSWANA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99348"/>
+        <display value="LESOTHO"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99349"/>
+        <display value="SOUDAN DU SUD"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99350"/>
+        <display value="MAROC"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99351"/>
+        <display value="TUNISIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99352"/>
+        <display value="ALGERIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99389"/>
+        <display value="SAHARA OCCIDENTAL"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99390"/>
+        <display value="MAURICE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99391"/>
+        <display value="ESWATINI"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99392"/>
+        <display value="GUINEE-BISSAU"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99393"/>
+        <display value="MOZAMBIQUE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99394"/>
+        <display value="SAO TOME-ET-PRINCIPE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99395"/>
+        <display value="ANGOLA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99396"/>
+        <display value="CAP-VERT"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99397"/>
+        <display value="COMORES"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99398"/>
+        <display value="SEYCHELLES"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99399"/>
+        <display value="DJIBOUTI"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99401"/>
+        <display value="CANADA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99404"/>
+        <display value="ETATS-UNIS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99405"/>
+        <display value="MEXIQUE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99406"/>
+        <display value="COSTA RICA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99407"/>
+        <display value="CUBA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99408"/>
+        <display value="DOMINICAINE (REPUBLIQUE)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99409"/>
+        <display value="GUATEMALA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99410"/>
+        <display value="HAITI"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99411"/>
+        <display value="HONDURAS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99412"/>
+        <display value="NICARAGUA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99413"/>
+        <display value="PANAMA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99414"/>
+        <display value="EL SALVADOR"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99415"/>
+        <display value="ARGENTINE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99416"/>
+        <display value="BRESIL"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99417"/>
+        <display value="CHILI"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99418"/>
+        <display value="BOLIVIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99419"/>
+        <display value="COLOMBIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99420"/>
+        <display value="EQUATEUR"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99421"/>
+        <display value="PARAGUAY"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99422"/>
+        <display value="PEROU"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99423"/>
+        <display value="URUGUAY"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99424"/>
+        <display value="VENEZUELA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99425"/>
+        <display value="TERRITOIRES DU ROYAUME-UNI AUX ANTILLES"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99426"/>
+        <display value="JAMAIQUE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99427"/>
+        <display value="TERR. DU ROYAUME-UNI DANS L'ATLANTIQUE SUD"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99428"/>
+        <display value="GUYANA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99429"/>
+        <display value="BELIZE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99430"/>
+        <display value="GROENLAND"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99432"/>
+        <display value="TERR. DES ETATS-UNIS D'AMERIQUE EN AMERIQUE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99433"/>
+        <display value="TRINITE-ET-TOBAGO"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99434"/>
+        <display value="BARBADE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99435"/>
+        <display value="GRENADE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99436"/>
+        <display value="BAHAMAS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99437"/>
+        <display value="SURINAME"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99438"/>
+        <display value="DOMINIQUE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99439"/>
+        <display value="SAINTE-LUCIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99440"/>
+        <display value="SAINT-VINCENT-ET-LES GRENADINES"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99441"/>
+        <display value="ANTIGUA-ET-BARBUDA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99442"/>
+        <display value="SAINT-CHRISTOPHE-ET-NIEVES"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99443"/>
+        <display value="BONAIRE, SAINT EUSTACHE ET SABA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99444"/>
+        <display value="CURAÇAO"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99445"/>
+        <display value="SAINT-MARTIN (PARTIE NEERLANDAISE)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99501"/>
+        <display value="AUSTRALIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99502"/>
+        <display value="NOUVELLE-ZELANDE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99503"/>
+        <display value="PITCAIRN (ILE)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99505"/>
+        <display value="TERR. DES ETATS-UNIS D'AMERIQUE EN OCEANIE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99506"/>
+        <display value="SAMOA OCCIDENTALES"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99507"/>
+        <display value="NAURU"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99508"/>
+        <display value="FIDJI"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99509"/>
+        <display value="TONGA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99510"/>
+        <display value="PAPOUASIE-NOUVELLE-GUINEE"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99511"/>
+        <display value="TUVALU"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99512"/>
+        <display value="SALOMON (ILES)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99513"/>
+        <display value="KIRIBATI"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99514"/>
+        <display value="VANUATU"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99515"/>
+        <display value="MARSHALL (ILES)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99516"/>
+        <display value="MICRONESIE (ETATS FEDERES DE)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99517"/>
+        <display value="PALAOS (ILES)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.2.24"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire"/>
+      <concept>
+        <code value="01"/>
+        <display value="Non renseigné"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.70"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

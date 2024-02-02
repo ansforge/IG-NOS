@@ -342,7 +342,7 @@
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J114-Pays-ENREG/FHIR/JDV-J114-Pays-ENREG",
       "version" : "1.1.0",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JDV_J114-Pays-ENREG",
       "title" : null,
       "description" : "Référentiel dérivé des pays provenant de la norme INSEE pour ENREG",
@@ -418,20 +418,6 @@
       "sources" : ["1.2.250.1.213.1.6.1.190"]
     },
     {
-      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J12-CiviliteTitre-CISIS/FHIR/JDV-J12-CiviliteTitre-CISIS",
-      "version" : "1.1.0",
-      "status" : "active",
-      "name" : "JDV_J12-CiviliteTitre-CISIS",
-      "title" : null,
-      "description" : "Titre civilité - CI-SIS",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R11-CiviliteExercice/FHIR/TRE-R11-CiviliteExercice",
-        "https://mos.esante.gouv.fr/NOS/TRE_R81-Civilite/FHIR/TRE-R81-Civilite"
-      ],
-      "oids" : ["1.2.250.1.213.1.1.5.24"],
-      "sources" : ["1.2.250.1.213.1.1.5.24"]
-    },
-    {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG",
       "version" : "1.1.0",
       "status" : "active",
@@ -460,7 +446,7 @@
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J123-Pays-MDPH/FHIR/JDV-J123-Pays-MDPH",
       "version" : "1.1.0",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JDV_J123-Pays-MDPH",
       "title" : null,
       "description" : "Toute la nomenclature des codes pays auquel on ajoute le code applicatif r \"non renseigné\"",
@@ -920,7 +906,7 @@
       "description" : "JDV pour caractériser le moment de la mesure de glucose",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc",
-        "https://mos.esante.gouv.fr/NOS/TRE_R313-CISP2/FHIR/TRE-R313-CISP2"
+        "https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.612"],
       "sources" : ["1.2.250.1.213.1.1.5.612"]
@@ -1043,7 +1029,7 @@
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J167-DepartementOM-EPARS/FHIR/JDV-J167-DepartementOM-EPARS",
       "version" : "1.1.0",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JDV_J167-DepartementOM-EPARS",
       "title" : null,
       "description" : "Département pour saisie dans EPARS",
@@ -1056,7 +1042,7 @@
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J168-Pays-EPARS/FHIR/JDV-J168-Pays-EPARS",
       "version" : "1.1.0",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JDV_J168-Pays-EPARS",
       "title" : null,
       "description" : "Pays pour EPARS",
@@ -1917,20 +1903,6 @@
       "sources" : ["1.2.250.1.213.3.4.61"]
     },
     {
-      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J23-SpecialitesSNP-SAS/FHIR/JDV-J239-SpecialitesSNP-SAS",
-      "version" : "1.1.0",
-      "status" : "active",
-      "name" : "JDV_J239-SpecialitesSNP-SAS",
-      "title" : null,
-      "description" : "Professions de santé participant au Service d'Accès aux Soins",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale",
-        "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"
-      ],
-      "oids" : ["1.2.250.1.213.3.4.104"],
-      "sources" : ["1.2.250.1.213.3.4.104"]
-    },
-    {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J23-TypeNoteCahierLiaison-CISIS/FHIR/JDV-J23-TypeNoteCahierLiaison-CISIS",
       "version" : "1.1.0",
       "status" : "active",
@@ -1942,6 +1914,19 @@
       ],
       "oids" : ["1.2.250.1.213.1.1.5.98"],
       "sources" : ["1.2.250.1.213.1.1.5.98"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J23-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR",
+      "version" : "1.1.0",
+      "status" : "active",
+      "name" : "JDV_J238-TypeOffre-ROR",
+      "title" : null,
+      "description" : "Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation"
+      ],
+      "oids" : ["1.2.250.1.213.3.4.65"],
+      "sources" : ["1.2.250.1.213.3.4.65"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J231-XdsTypesIdentifiantsReferenceId-DMP/FHIR/JDV-J231-XdsTypesIdentifiantsReferenceId-DMP",
@@ -2026,9 +2011,9 @@
       "sources" : ["1.2.250.1.213.3.4.110"]
     },
     {
-      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J237-RegionOM-ROR.tabs/FHIR/JDV-J237-RegionOM-ROR",
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J237-RegionOM-ROR/FHIR/JDV-J237-RegionOM-ROR",
       "version" : "1.1.0",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JDV_J237-RegionOM-ROR",
       "title" : null,
       "description" : "Région Outre-Mer et Monaco",
@@ -2037,6 +2022,20 @@
       ],
       "oids" : ["1.2.250.1.213.3.4.64"],
       "sources" : ["1.2.250.1.213.3.4.64"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J239-SpecialitesSNP-SAS/FHIR/JDV-J239-SpecialitesSNP-SAS",
+      "version" : "1.1.0",
+      "status" : "active",
+      "name" : "JDV_J239-SpecialitesSNP-SAS",
+      "title" : null,
+      "description" : "Professions de santé participant au Service d'Accès aux Soins",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale",
+        "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"
+      ],
+      "oids" : ["1.2.250.1.213.3.4.104"],
+      "sources" : ["1.2.250.1.213.3.4.104"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J24-ProfessionAuteurNote-CISIS/FHIR/JDV-J24-ProfessionAuteurNote-CISIS",
@@ -2105,7 +2104,7 @@
       "sources" : ["1.2.250.1.213.1.1.5.718"]
     },
     {
-      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J246-Titre-CISIS.tabs/FHIR/JDV-J246-Titre-CISIS",
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J246-Titre-CISIS/FHIR/JDV-J246-Titre-CISIS",
       "version" : "1.1.0",
       "status" : "active",
       "name" : "JDV_J246-Titre-CISIS",
@@ -2120,12 +2119,13 @@
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J247-Pays-ROR/FHIR/JDV-J247-Pays-ROR",
       "version" : "1.1.0",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JDV_J247-Pays-ROR",
       "title" : null,
       "description" : "Référentiel des codes pays provenant du COG INSEE - ROR",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays"
+        "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
+        "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire"
       ],
       "oids" : ["1.2.250.1.213.3.4.111"],
       "sources" : ["1.2.250.1.213.3.4.111"]
@@ -2133,7 +2133,7 @@
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J248-DepartementOM-ROR/FHIR/JDV-J248-DepartementOM-ROR",
       "version" : "1.1.0",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JDV_J248-DepartementOM-ROR",
       "title" : null,
       "description" : "Département (outre-mer et Monaco inclus) - ROR",
@@ -2233,6 +2233,46 @@
       ],
       "oids" : ["1.2.250.1.213.1.6.1.282"],
       "sources" : ["1.2.250.1.213.1.6.1.282"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J256-Pays/FHIR/JDV-J256-Pays",
+      "version" : "1.1.0",
+      "status" : "active",
+      "name" : "JDV_J256-Pays",
+      "title" : null,
+      "description" : "Tous les codes actifs de la nomenclature du COG INSEE pays auquel on ajoute le code applicatif \"non renseigné\"",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
+        "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.762"],
+      "sources" : ["1.2.250.1.213.1.1.5.762"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J257-Region/FHIR/JDV-J257-Region",
+      "version" : "1.1.0",
+      "status" : "active",
+      "name" : "JDV_J257-Region",
+      "title" : null,
+      "description" : "Tous les codes actifs des régions et collectivités d'outre-mer actives + Monaco du COG INSEE",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.763"],
+      "sources" : ["1.2.250.1.213.1.1.5.763"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J258-Departement/FHIR/JDV-J258-Departement",
+      "version" : "1.1.0",
+      "status" : "active",
+      "name" : "JDV_J258-Departement",
+      "title" : null,
+      "description" : "Tous les codes actifs des départements et collectivités d'outre-mer actives + Monaco du COG INSEE",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.764"],
+      "sources" : ["1.2.250.1.213.1.1.5.764"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J26-ModeGestion-ROR/FHIR/JDV-J26-ModeGestion-ROR",
@@ -2836,7 +2876,7 @@
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J74-Pays-RASS/FHIR/JDV-J74-Pays-RASS",
       "version" : "1.1.0",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JDV_J74-Pays-RASS",
       "title" : null,
       "description" : "Pays (codes INSEE) du RASS",
@@ -2966,7 +3006,7 @@
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J84-DepartementOM-RASS/FHIR/JDV-J84-DepartementOM-RASS",
       "version" : "1.1.0",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JDV_J84-DepartementOM-RASS",
       "title" : null,
       "description" : "Départements (outre-mer et Monaco inclus) pour le RASS",
@@ -3083,7 +3123,7 @@
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J93-RegionOM-RASS/FHIR/JDV-J93-RegionOM-RASS",
       "version" : "1.1.0",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JDV_J93-RegionOM-RASS",
       "title" : null,
       "description" : "Régions (outre-mer et Monaco inclus) dans le RASS",

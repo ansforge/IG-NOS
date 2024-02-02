@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J238-TypeOffre-ROR"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2024-01-26T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J23-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.65"/>
+  </identifier>
+  <version value="20240126120000"/>
+  <name value="JDV_J238-TypeOffre-ROR"/>
+  <status value="active"/>
+  <date value="2024-01-26T12:00:00+01:00"/>
+  <description value="Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation"/>
+      <concept>
+        <code value="01"/>
+        <display value="Appartement thérapeutique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="02"/>
+        <display value="Atelier thérapeutique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="03"/>
+        <display value="Cellule d'Urgences Médico-Psychologique (CUMP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="04"/>
+        <display value="Centre d'Accueil Permanent (CAP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="05"/>
+        <display value="Centre d'Accueil Thérapeutique à Temps Partiel (CATTP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="06"/>
+        <display value="Centre de crise"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="07"/>
+        <display value="Centre de post-cure"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="08"/>
+        <display value="Centre de Ressources Autisme (CRA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="09"/>
+        <display value="Centre Expert"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="10"/>
+        <display value="Centre Médico-Psychologique (CMP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="Hôpital De Jour (HDJ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="12"/>
+        <display value="Hôpital De Nuit (HDN)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="13"/>
+        <display value="Service d'Accueil Familial Thérapeutique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="14"/>
+        <display value="Service Médico-Psychologique Régional (SMPR)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="15"/>
+        <display value="Unité de Soins Intensifs Psychiatriques (USIP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="16"/>
+        <display value="Unité d'hospitalisation (hors HDJ)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="17"/>
+        <display value="Unité Hospitalière Spécialement Aménagé (UHSA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="18"/>
+        <display value="Unité Malade Difficile (UMD)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="19"/>
+        <display value="Unités Soins Etudes"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20"/>
+        <display value="Urgences"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="21"/>
+        <display value="Accueil ou hébergement pour personnes âgées dépendantes, sans spécificité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="22"/>
+        <display value="Accueil ou hébergement pour personnes âgées autonomes, sans spécificité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="23"/>
+        <display value="Accueil ou hébergement pour personnes âgées dépendantes, avec spécificité Unité d'Hébergement Renforcé (UHR)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="24"/>
+        <display value="Accueil ou hébergement pour personnes âgées dépendantes, avec spécificité Unité de vie protégée (UVP, Cantou,...)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="25"/>
+        <display value="Pôle d'activité de Soins Adaptés (PASA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="26"/>
+        <display value="Accueil ou hébergement pour personnes âgées dépendantes, avec spécificité Petites unités de vie (PUV)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="27"/>
+        <display value="Accueil ou hébergement pour personnes âgées autonomes, avec spécificité Maison d'accueil rural (MARPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="28"/>
+        <display value="Services Soins infirmiers à domicile (SSIAD)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="29"/>
+        <display value="Equipe spécialisée Alzheimer (ESA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="30"/>
+        <display value="Service d'aide et d'Accompagnement à Domicile (SAAD)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="31"/>
+        <display value="Service d'Accompagnement à la Vie Sociale (SAVS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="32"/>
+        <display value="Service d'accompagnement médico-social adultes handicapés (SAMSAH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="33"/>
+        <display value="Service de portage de repas à domicile"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="34"/>
+        <display value="Service de Téléassistance"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="35"/>
+        <display value="Foyer restaurant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="36"/>
+        <display value="Dispositif d'accueil familial"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="37"/>
+        <display value="Centre d'accueil familial spécialisé (CAFS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="38"/>
+        <display value="Plateforme d'accompagnement et de répit"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="39"/>
+        <display value="Foyer ou établissement d'accueil médicalisé (FAM ou EAM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="40"/>
+        <display value="Maison d'accueil spécialisé (MAS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="41"/>
+        <display value="Etablissement d'accueil non médicalisé (EANM) dont foyer de vie et foyer d'hébergement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="43"/>
+        <display value="Unité d'aide par le travail (ESAT)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="44"/>
+        <display value="Centre de rééducation professionnel (CRP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="45"/>
+        <display value="Unités évaluation réentraînement et d'orientation sociale et professionnel (UEROS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="46"/>
+        <display value="Établissements et Services de Pré-Orientation (ESPO)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="47"/>
+        <display value="Dispositif d'emploi accompagné"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="48"/>
+        <display value="Institut médico-éducatif (IME)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="49"/>
+        <display value="Institut d'éducation motrice (IEM)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="50"/>
+        <display value="Institut thérapeutique éducatif et pédagogique (ITEP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="51"/>
+        <display value="Etablissement pour enfant ou ado polyhandicapé (EEAP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="52"/>
+        <display value="Institut déficient visuel"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="53"/>
+        <display value="Institut déficient auditif"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="54"/>
+        <display value="Institut déficient Visuel et Auditif"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="55"/>
+        <display value="Unité d'enseignement interne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="56"/>
+        <display value="Unité d'enseignement externe"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="57"/>
+        <display value="Service d'accompagnement, Service d'Education Spécialisée de Soins à Domicile (SESSAD)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="58"/>
+        <display value="Service d'accompagnement, Service d'Accompagnement Familial et d'Education Précoce (SAFEP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="59"/>
+        <display value="Service d'accompagnement, Services de Soutien à l'Education Familiale et à la Scolarisation (SSEFIS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="60"/>
+        <display value="Service d'accompagnement, Service d'Aide à l'Acquisition de l'Autonomie et à l'Intégration Scolaire (S3AIS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="61"/>
+        <display value="Centre d'action médico-sociale précoce (CAMSP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="62"/>
+        <display value="Centre médico-psycho-pédagogique (CMPP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="63"/>
+        <display value="Jardin d'enfants spécialisé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="64"/>
+        <display value="Bureau d'Aide Psychologique Universitaire (B.A.P.U.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="65"/>
+        <display value="Pôles de compétences et de prestations externalisées (PCPE)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="66"/>
+        <display value="Equipe Relai Handicap rare"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="67"/>
+        <display value="Lieu de vie et d'accueil (hors ESMS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="68"/>
+        <display value="Unité d'hospitalisation fermée"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="69"/>
+        <display value="Consultation externe en établissement de santé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="70"/>
+        <display value="Unité d'intervention extra-hospitalière"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="71"/>
+        <display value="Equipe de liaison et de soins (intra-hospitalière)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="72"/>
+        <display value="Guichet d'accueil, écoute, conseil, orientation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="73"/>
+        <display value="Gestion de cas MAIA"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="74"/>
+        <display value="Logement inclusif"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="75"/>
+        <display value="Services Soins infirmiers à domicile renforcé (SSIAD renforcé)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="76"/>
+        <display value="Unité d'évaluation et de régulation des admissions en psychiatrie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="77"/>
+        <display value="Equipe Mobile Psychiatrie et Précarité (EMPP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="78"/>
+        <display value="Equipe Mobile Géronto-Psychiatrie (EMGP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="79"/>
+        <display value="Equipe Mobile Ambulatoire de Réadaptation Spécialisé (EARS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="80"/>
+        <display value="Centre de Soins, d'Accompagnement et de Prévention en Addictologie (CSAPA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="81"/>
+        <display value="Centre d'Accueil et d'Accompagnement à la Réduction des risques pour Usagers de Drogues (CAARUD)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="82"/>
+        <display value="Pharmacie à Usage Intérieur (PUI)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="83"/>
+        <display value="Chambre mortuaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="84"/>
+        <display value="Plateforme de Coordination et d'Orientation (PCO)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="85"/>
+        <display value="Equipe Mobile Autisme"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="86"/>
+        <display value="Consultation Jeune Consommateur (CJC)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="87"/>
+        <display value="Dispositif VigilanS"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="88"/>
+        <display value="Dispositif expérimental"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="89"/>
+        <display value="Centre de santé sexuelle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="90"/>
+        <display value="Equipe mobile de prévention du risque infectieux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="91"/>
+        <display value="Equipe opérationnelle d'hygiène (EOH)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="92"/>
+        <display value="Unité de soins non-programmés"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="93"/>
+        <display value="Lits halte soins santé (LHSS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="94"/>
+        <display value="Appartement de coordination thérapeutique (ACT)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="95"/>
+        <display value="Lits d'accueil médicalisés (L.A.M.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="96"/>
+        <display value="Etablissement d'accueil non médicalisé (EANM) - foyer d'hébergement (classique ou en milieu ouvert)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="97"/>
+        <display value="Etablissement d'accueil non médicalisé (EANM) - foyer de vie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="98"/>
+        <display value="Espaces de vie affective, relationnelle et sexuelle (EVARS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="99"/>
+        <display value="Maison de santé pluriprofessionnelle (MSP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="100"/>
+        <display value="Soins Médicaux et de Réadaptation (SMR) polyvalent"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="101"/>
+        <display value="Soins Médicaux et de Réadaptation (SMR) gériatrie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="102"/>
+        <display value="Soins Médicaux et de Réadaptation (SMR) locomoteur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="103"/>
+        <display value="Soins Médicaux et de Réadaptation (SMR) système nerveux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="104"/>
+        <display value="Soins Médicaux et de Réadaptation (SMR) cardio-vasculaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="105"/>
+        <display value="Soins Médicaux et de Réadaptation (SMR) pneumologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="106"/>
+        <display value="Soins Médicaux et de Réadaptation (SMR) système digestif, endocrinologie, diabétologie, nutrition"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="107"/>
+        <display value="Soins Médicaux et de Réadaptation (SMR) brûlés"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="108"/>
+        <display value="Soins Médicaux et de Réadaptation (SMR) conduites addictives"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="109"/>
+        <display value="Soins Médicaux et de Réadaptation (SMR) pédiatriques (enfants et adolescents)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="110"/>
+        <display value="Soins Médicaux et de Réadaptation (SMR) pédiatriques (jeunes enfants, enfants et adolescents)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="111"/>
+        <display value="Soins Médicaux et de Réadaptation (SMR) oncologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="112"/>
+        <display value="Soins Médicaux et de Réadaptation (SMR) oncologie et hématologie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="113"/>
+        <display value="Centre de Réhabilitation Psychosociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="114"/>
+        <display value="Centre Ressource pour les Intervenants auprès des Auteurs de Violences Sexuelles (CRIAVS)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="115"/>
+        <display value="Equipe Spécialisée de Soins Infirmiers Précarité (ESSIP)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="116"/>
+        <display value="Unité de chirurgie oncologique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="117"/>
+        <display value="Unité de radiothérapie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="118"/>
+        <display value="Unité de traitements médicamenteux systémiques du cancer"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="119"/>
+        <display value="Unité mère-enfant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="120"/>
+        <display value="Centre de recours Troubles du Comportement Alimentaire (TCA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="121"/>
+        <display value="Unité de réanimation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="122"/>
+        <display value="Unité de soins intensifs polyvalents (USIP) contiguë"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="123"/>
+        <display value="Unité de soins intensifs polyvalents (USIP) dérogatoire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="124"/>
+        <display value="Unité de soins intensifs (USI) de spécialité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.39"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

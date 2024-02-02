@@ -796,16 +796,6 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J12-CiviliteTitre-CISIS> ;
-         fhir:reference [ fhir:v "ValueSet/JDV-J12-CiviliteTitre-CISIS" ]
-       ] ;
-       fhir:description [ fhir:v "Titre civilité - CI-SIS" ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J121-RolePriseCharge-ENREG> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J121-RolePriseCharge-ENREG" ]
        ] ;
@@ -2016,6 +2006,16 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J238-TypeOffre-ROR> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J238-TypeOffre-ROR" ]
+       ] ;
+       fhir:description [ fhir:v "Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J239-SpecialitesSNP-SAS> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J239-SpecialitesSNP-SAS" ]
        ] ;
@@ -2170,6 +2170,36 @@
          fhir:reference [ fhir:v "ValueSet/JDV-J255-SurspecialiteTransversale-RPPS" ]
        ] ;
        fhir:description [ fhir:v "Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST)" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J256-Pays> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J256-Pays" ]
+       ] ;
+       fhir:description [ fhir:v "Tous les codes actifs de la nomenclature du COG INSEE pays auquel on ajoute le code applicatif \"non renseigné\"" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J257-Region> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J257-Region" ]
+       ] ;
+       fhir:description [ fhir:v "Tous les codes actifs des régions et collectivités d'outre-mer actives + Monaco du COG INSEE" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J258-Departement> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J258-Departement" ]
+       ] ;
+       fhir:description [ fhir:v "Tous les codes actifs des départements et collectivités d'outre-mer actives + Monaco du COG INSEE" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -3089,7 +3119,7 @@
          fhir:link <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-G09-DepartementOM> ;
          fhir:reference [ fhir:v "CodeSystem/TRE-G09-DepartementOM" ]
        ] ;
-       fhir:description [ fhir:v "Département (outre-mer et Monaco inclus)" ]
+       fhir:description [ fhir:v "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -4349,7 +4379,7 @@
          fhir:link <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R30-RegionOM> ;
          fhir:reference [ fhir:v "CodeSystem/TRE-R30-RegionOM" ]
        ] ;
-       fhir:description [ fhir:v "Région (outre-mer et Monaco inclus)" ]
+       fhir:description [ fhir:v "Référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -4490,16 +4520,6 @@
          fhir:reference [ fhir:v "CodeSystem/TRE-R312-LPP" ]
        ] ;
        fhir:description [ fhir:v "Liste des produits et prestations remboursables par l'Assurance Maladie" ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R313-CISP2> ;
-         fhir:reference [ fhir:v "CodeSystem/TRE-R313-CISP2" ]
-       ] ;
-       fhir:description [ fhir:v "International Classification of Primary Care (ICPC), second edition Classification internationale des soins primaires version 2" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

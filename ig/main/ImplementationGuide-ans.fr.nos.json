@@ -884,16 +884,6 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/JDV-J12-CiviliteTitre-CISIS"
-      },
-      "description" : "Titre civilité - CI-SIS"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/JDV-J121-RolePriseCharge-ENREG"
       },
       "description" : "Code des rôles et fonctions pour l'application ENREG"
@@ -2104,6 +2094,16 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/JDV-J238-TypeOffre-ROR"
+      },
+      "description" : "Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J239-SpecialitesSNP-SAS"
       },
       "description" : "Professions de santé participant au Service d'Accès aux Soins"
@@ -2257,6 +2257,36 @@
         "reference" : "ValueSet/JDV-J255-SurspecialiteTransversale-RPPS"
       },
       "description" : "Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J256-Pays"
+      },
+      "description" : "Tous les codes actifs de la nomenclature du COG INSEE pays auquel on ajoute le code applicatif \"non renseigné\""
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J257-Region"
+      },
+      "description" : "Tous les codes actifs des régions et collectivités d'outre-mer actives + Monaco du COG INSEE"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J258-Departement"
+      },
+      "description" : "Tous les codes actifs des départements et collectivités d'outre-mer actives + Monaco du COG INSEE"
     },
     {
       "extension" : [{
@@ -3176,7 +3206,7 @@
       "reference" : {
         "reference" : "CodeSystem/TRE-G09-DepartementOM"
       },
-      "description" : "Département (outre-mer et Monaco inclus)"
+      "description" : "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco"
     },
     {
       "extension" : [{
@@ -4436,7 +4466,7 @@
       "reference" : {
         "reference" : "CodeSystem/TRE-R30-RegionOM"
       },
-      "description" : "Région (outre-mer et Monaco inclus)"
+      "description" : "Référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco"
     },
     {
       "extension" : [{
@@ -4577,16 +4607,6 @@
         "reference" : "CodeSystem/TRE-R312-LPP"
       },
       "description" : "Liste des produits et prestations remboursables par l'Assurance Maladie"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/TRE-R313-CISP2"
-      },
-      "description" : "International Classification of Primary Care (ICPC), second edition Classification internationale des soins primaires version 2"
     },
     {
       "extension" : [{

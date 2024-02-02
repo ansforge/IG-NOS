@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.471"/>
   </identifier>
-  <version value="20231215120000"/>
+  <version value="20240126120000"/>
   <name value="JDV_J07-XdsTypeCode-CISIS"/>
   <status value="active"/>
-  <date value="2023-12-15T12:00:00+01:00"/>
+  <date value="2024-01-26T12:00:00+01:00"/>
   <description value="XDS typeCode CI-SIS"/>
   <compose>
     <include>
@@ -49,8 +49,8 @@
         </designation>
       </concept>
       <concept>
-        <code value="ATTEST-VITALE"/>
-        <display value="Attestation de carte vitale"/>
+        <code value="ATTEST-DROITS-AM"/>
+        <display value="Attestation de droits à l’assurance maladie"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -442,16 +442,6 @@
         </designation>
       </concept>
       <concept>
-        <code value="11526-1"/>
-        <display value="CR d'anatomie et de cytologie pathologiques"/>
-        <designation>
-          <use>
-            <code value="OID"/>
-          </use>
-          <value value="urn:oid:2.16.840.1.113883.6.1"/>
-        </designation>
-      </concept>
-      <concept>
         <code value="15507-7"/>
         <display value="CR de passage aux urgences"/>
         <designation>
@@ -664,6 +654,16 @@
       <concept>
         <code value="59283-2"/>
         <display value="CR d'examen de l'enfant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="60568-3"/>
+        <display value="CR d'anatomie et de cytologie pathologiques"/>
         <designation>
           <use>
             <code value="OID"/>

@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.471"
     }
   ],
-  "version": "20231215120000",
+  "version": "20240126120000",
   "name": "JDV_J07-XdsTypeCode-CISIS",
   "status": "active",
-  "date": "2023-12-15T12:00:00+01:00",
+  "date": "2024-01-26T12:00:00+01:00",
   "description": "XDS typeCode CI-SIS",
   "compose": {
     "include": [
@@ -62,8 +62,8 @@
             ]
           },
           {
-            "code": "ATTEST-VITALE",
-            "display": "Attestation de carte vitale",
+            "code": "ATTEST-DROITS-AM",
+            "display": "Attestation de droits à l’assurance maladie",
             "designation": [
               {
                 "use": {
@@ -535,18 +535,6 @@
             ]
           },
           {
-            "code": "11526-1",
-            "display": "CR d'anatomie et de cytologie pathologiques",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:2.16.840.1.113883.6.1"
-              }
-            ]
-          },
-          {
             "code": "15507-7",
             "display": "CR de passage aux urgences",
             "designation": [
@@ -801,6 +789,18 @@
           {
             "code": "59283-2",
             "display": "CR d'examen de l'enfant",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "60568-3",
+            "display": "CR d'anatomie et de cytologie pathologiques",
             "designation": [
               {
                 "use": {

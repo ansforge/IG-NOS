@@ -15,10 +15,10 @@
       "value": "urn:oid:2.16.840.1.113883.5.111"
     }
   ],
-  "version": "20231215120000",
+  "version": "20240126120000",
   "name": "TRE_R216-HL7RoleCode",
   "status": "active",
-  "date": "2023-12-15T12:00:00+01:00",
+  "date": "2024-01-26T12:00:00+01:00",
   "description": "HL7 roleCode",
   "content": "complete",
   "property": [
@@ -1332,6 +1332,34 @@
       ]
     },
     {
+      "code": "FMRSPS",
+      "display": "Ancien époux ou ancienne épouse",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Ancien époux - ancienne épouse"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Ancien époux ou ancienne épouse"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
       "code": "FTHFOST",
       "display": "Assistant familial - Famille d'accueil",
       "designation": [
@@ -1972,6 +2000,34 @@
         {
           "code": "dateMaj",
           "valueDateTime": "2020-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SONINLAW",
+      "display": "Gendre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Gendre"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Gendre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-01-26T12:00:00+01:00"
         }
       ]
     },
