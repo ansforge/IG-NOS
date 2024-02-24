@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.2"/>
   </identifier>
-  <version value="20230526120000"/>
+  <version value="20240223120000"/>
   <name value="JDV_J59-ContentTypeCode-DMP"/>
   <status value="active"/>
-  <date value="2023-05-26T12:00:00+01:00"/>
+  <date value="2024-02-23T12:00:00+01:00"/>
   <description value="Jeu de valeurs pour contentTypeCode"/>
   <compose>
     <include>
@@ -26,6 +26,19 @@
             <code value="OID"/>
           </use>
           <value value="urn:oid:1.2.250.1.213.1.1.4.6"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite"/>
+      <concept>
+        <code value="05"/>
+        <display value="Hospitalisation à domicile (au domicile du patient)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.128"/>
         </designation>
       </concept>
     </include>
@@ -53,7 +66,7 @@
       </concept>
       <concept>
         <code value="07"/>
-        <display value="Consultations, soins externes"/>
+        <display value="Consultations soins externes"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -193,7 +206,7 @@
       </concept>
       <concept>
         <code value="25"/>
-        <display value="Hébergement temporaire de week-end ou de vacances"/>
+        <display value="Accueil temporaire week-end ou vacances"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -363,7 +376,7 @@
       </concept>
       <concept>
         <code value="97"/>
-        <display value="Autre type d'activité"/>
+        <display value="Type d'activité indifférencié"/>
         <designation>
           <use>
             <code value="OID"/>

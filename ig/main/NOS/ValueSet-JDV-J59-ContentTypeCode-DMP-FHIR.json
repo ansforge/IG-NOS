@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.2"
     }
   ],
-  "version": "20230526120000",
+  "version": "20240223120000",
   "name": "JDV_J59-ContentTypeCode-DMP",
   "status": "active",
-  "date": "2023-05-26T12:00:00+01:00",
+  "date": "2024-02-23T12:00:00+01:00",
   "description": "Jeu de valeurs pour contentTypeCode",
   "compose": {
     "include": [
@@ -34,6 +34,23 @@
                   "code": "OID"
                 },
                 "value": "urn:oid:1.2.250.1.213.1.1.4.6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+        "concept": [
+          {
+            "code": "05",
+            "display": "Hospitalisation à domicile (au domicile du patient)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
               }
             ]
           }
@@ -68,7 +85,7 @@
           },
           {
             "code": "07",
-            "display": "Consultations, soins externes",
+            "display": "Consultations soins externes",
             "designation": [
               {
                 "use": {
@@ -236,7 +253,7 @@
           },
           {
             "code": "25",
-            "display": "Hébergement temporaire de week-end ou de vacances",
+            "display": "Accueil temporaire week-end ou vacances",
             "designation": [
               {
                 "use": {
@@ -440,7 +457,7 @@
           },
           {
             "code": "97",
-            "display": "Autre type d'activité",
+            "display": "Type d'activité indifférencié",
             "designation": [
               {
                 "use": {

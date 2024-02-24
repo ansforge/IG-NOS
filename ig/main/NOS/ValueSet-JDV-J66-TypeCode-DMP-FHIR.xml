@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.7"/>
   </identifier>
-  <version value="20231124120000"/>
+  <version value="20240223120000"/>
   <name value="JDV_J66-TypeCode-DMP"/>
   <status value="active"/>
-  <date value="2023-11-24T12:00:00+01:00"/>
+  <date value="2024-02-23T12:00:00+01:00"/>
   <description value="Jeu de valeurs pour métadonnée typeCode DMP"/>
   <compose>
     <include>
@@ -39,8 +39,8 @@
         </designation>
       </concept>
       <concept>
-        <code value="ATTEST-VITALE"/>
-        <display value="Attestation de carte vitale"/>
+        <code value="ATTEST-DROITS-AM"/>
+        <display value="Attestation de droits à l'assurance maladie"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -259,6 +259,16 @@
         </designation>
       </concept>
       <concept>
+        <code value="PRESC-AAT"/>
+        <display value="Prescription arrêt de travail"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.12"/>
+        </designation>
+      </concept>
+      <concept>
         <code value="PRESC-BIO"/>
         <display value="Prescription d'actes de biologie médicale"/>
         <designation>
@@ -382,16 +392,6 @@
         </designation>
       </concept>
       <concept>
-        <code value="11526-1"/>
-        <display value="CR d'anatomie et de cytologie pathologiques"/>
-        <designation>
-          <use>
-            <code value="OID"/>
-          </use>
-          <value value="urn:oid:2.16.840.1.113883.6.1"/>
-        </designation>
-      </concept>
-      <concept>
         <code value="15507-7"/>
         <display value="CR de passage aux urgences"/>
         <designation>
@@ -434,6 +434,16 @@
       <concept>
         <code value="18776-5"/>
         <display value="Plan personnalisé de soins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="28653-4"/>
+        <display value="Document du secteur social / médico-social"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -512,6 +522,16 @@
         </designation>
       </concept>
       <concept>
+        <code value="34875-5"/>
+        <display value="Évaluation postopératoire et note de suivi"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
         <code value="47420-5"/>
         <display value="CR de bilan fonctionnel (par auxiliaire médical)"/>
         <designation>
@@ -562,6 +582,36 @@
         </designation>
       </concept>
       <concept>
+        <code value="57057-2"/>
+        <display value="Synthèse Salle de Naissance Mère"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="57055-6"/>
+        <display value="Synthèse antepartum"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="57075-4"/>
+        <display value="Synthèse Salle de Naissance Enfant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
         <code value="57828-6"/>
         <display value="Prescription (autre)"/>
         <designation>
@@ -594,6 +644,26 @@
       <concept>
         <code value="59283-2"/>
         <display value="CR d'examen de l'enfant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="59284-0"/>
+        <display value="Attestation de consentement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="60568-3"/>
+        <display value="CR d'anatomie et de cytologie pathologiques"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -752,6 +822,16 @@
         </designation>
       </concept>
       <concept>
+        <code value="78489-2"/>
+        <display value="Synthèse Enfant en Maternité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
         <code value="78513-9"/>
         <display value="CR de consultation en ophtalmologie"/>
         <designation>
@@ -782,6 +862,16 @@
         </designation>
       </concept>
       <concept>
+        <code value="80771-9"/>
+        <display value="Projet d'accueil individualisé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
         <code value="80788-3"/>
         <display value="Projet personnalisé d'accompagnement"/>
         <designation>
@@ -804,6 +894,16 @@
       <concept>
         <code value="83836-7"/>
         <display value="Schéma dentaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="83869-8"/>
+        <display value="Plan personnalisé de prévention"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -872,6 +972,16 @@
         </designation>
       </concept>
       <concept>
+        <code value="89235-6"/>
+        <display value="Synthèse Suites de Couches Mère"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
         <code value="89601-9"/>
         <display value="Certificat médical"/>
         <designation>
@@ -884,6 +994,16 @@
       <concept>
         <code value="93024-8"/>
         <display value="CR de consultation pharmaceutique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="96349-6"/>
+        <display value="Lettre d'adressage"/>
         <designation>
           <use>
             <code value="OID"/>
