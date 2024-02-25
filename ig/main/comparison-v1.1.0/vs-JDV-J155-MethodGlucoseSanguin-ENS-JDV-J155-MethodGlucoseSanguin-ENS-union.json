@@ -1,0 +1,60 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5cdd1aab-5c70-4536-a8b7-ea96f2a4f66b-956",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5cdd1aab-5c70-4536-a8b7-ea96f2a4f66b-956",
+  "name" : "UnionJDV_J155-MethodGlucoseSanguin-ENSAndJDV_J155-MethodGlucoseSanguin-ENS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2024-02-25T15:13:37+00:00",
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT",
+      "concept" : [{
+        "code" : "C17610",
+        "display" : "prélèvement de sang",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.3.26.1.1"
+        }]
+      },
+      {
+        "code" : "C159776",
+        "display" : "système de surveillance continue du glucose",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.3.26.1.1"
+        }]
+      }]
+    },
+    {
+      "system" : "https://webgate.ec.europa.eu/dyna2/emdn",
+      "concept" : [{
+        "code" : "Z1204011501",
+        "display" : "SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.2.68"
+        }]
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "82078001",
+        "display" : "prélèvement d'un échantillon sanguin pour le laboratoire",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.6.96"
+        }]
+      }]
+    }]
+  }
+}

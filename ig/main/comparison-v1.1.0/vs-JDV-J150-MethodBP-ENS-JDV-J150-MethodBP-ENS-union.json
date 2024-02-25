@@ -1,0 +1,100 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5cdd1aab-5c70-4536-a8b7-ea96f2a4f66b-944",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5cdd1aab-5c70-4536-a8b7-ea96f2a4f66b-944",
+  "name" : "UnionJDV_J150-MethodBP-ENSAndJDV_J150-MethodBP-ENS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2024-02-25T15:13:37+00:00",
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT",
+      "concept" : [{
+        "code" : "C69319",
+        "display" : "moniteur de pression sanguine oscillométrique (tensiomètre automatique)",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.3.26.1.1"
+        }]
+      },
+      {
+        "code" : "C69318",
+        "display" : "moniteur de pression sanguine auscultatoire (tensiomètre manuel)",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.3.26.1.1"
+        }]
+      },
+      {
+        "code" : "C153216",
+        "display" : "objet connecté",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.3.26.1.1"
+        }]
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP",
+      "concept" : [{
+        "code" : "MED-875",
+        "display" : "MAPA : mesure automatisée de la pression artérielle",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
+        }]
+      }]
+    },
+    {
+      "system" : "https://webgate.ec.europa.eu/dyna2/emdn",
+      "concept" : [{
+        "code" : "Y210905",
+        "display" : "INTERFACES DE CAPTEURS EXTERNES",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.2.68"
+        }]
+      },
+      {
+        "code" : "Z12050404",
+        "display" : "ENREGISTREURS HOLTER DE LA PRESSION ARTÉRIELLE",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.2.68"
+        }]
+      },
+      {
+        "code" : "Z1203020501",
+        "display" : "TENSIOMÈTRES OSCILLOMÉTRIQUES NON INVASIFS",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.2.68"
+        }]
+      },
+      {
+        "code" : "Z1203020599",
+        "display" : "TENSIOMÈTRES NON INVASIFS - AUTRES",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.2.68"
+        }]
+      }]
+    }]
+  }
+}

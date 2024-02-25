@@ -1,0 +1,385 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5cdd1aab-5c70-4536-a8b7-ea96f2a4f66b-908",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5cdd1aab-5c70-4536-a8b7-ea96f2a4f66b-908",
+  "name" : "UnionJDV_J14-QualiteRepresentantLegal-CISISAndJDV_J14-QualiteRepresentantLegal-CISIS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2024-02-25T15:13:37+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MTH",
+        "display" : "Mère"
+      },
+      {
+        "code" : "FTH",
+        "display" : "Père"
+      },
+      {
+        "code" : "STPMTH",
+        "display" : "Belle-mère - épouse du père ou de la mère"
+      },
+      {
+        "code" : "STPFTH",
+        "display" : "Beau-père - époux du père ou de la mère"
+      },
+      {
+        "code" : "GRMTH",
+        "display" : "Grand-mère"
+      },
+      {
+        "code" : "GRFTH",
+        "display" : "Grand-père"
+      },
+      {
+        "code" : "GGRMTH",
+        "display" : "Arrière-grand-mère"
+      },
+      {
+        "code" : "GGRFTH",
+        "display" : "Arrière-grand-père"
+      },
+      {
+        "code" : "DAU",
+        "display" : "Fille biologique",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "SON",
+        "display" : "Fils biologique",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "BRO",
+        "display" : "Frère"
+      },
+      {
+        "code" : "SIS",
+        "display" : "Soeur"
+      },
+      {
+        "code" : "GRNDDAU",
+        "display" : "Petite-fille"
+      },
+      {
+        "code" : "GRNDSO",
+        "display" : "Petit-fils"
+      },
+      {
+        "code" : "UNCLE",
+        "display" : "Oncle"
+      },
+      {
+        "code" : "AUNT",
+        "display" : "Tante"
+      },
+      {
+        "code" : "SPS",
+        "display" : "Epoux ou épouse"
+      },
+      {
+        "code" : "DOMPART",
+        "display" : "Concubin(e) ou partenaire PACS"
+      },
+      {
+        "code" : "EXT",
+        "display" : "Autre membre de la famille sans lien génétique direct",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "RESPRSN",
+        "display" : "Responsable légal non membre de la famille",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "DAUC",
+        "display" : "Fille"
+      },
+      {
+        "code" : "SONC",
+        "display" : "Fils"
+      },
+      {
+        "code" : "FMRSPS",
+        "display" : "Ancien époux ou ancienne épouse",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "SONINLAW",
+        "display" : "Gendre",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "ADOPTF",
+        "display" : "Père adoptif",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "ADOPTM",
+        "display" : "Mère adoptive",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "FTHFOST",
+        "display" : "Assistant familial - Famille d'accueil",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "COUSN",
+        "display" : "Cousin(e)",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "BROINLAW",
+        "display" : "Beau-frère",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "CHILD",
+        "display" : "Enfant",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "DAUINLAW",
+        "display" : "Belle-fille",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "FAMMEMB",
+        "display" : "Autre membre de la famille",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "FRND",
+        "display" : "Autre proche",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "FTHINLAW",
+        "display" : "Beau-père",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "HBRO",
+        "display" : "Demi-frère",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "GRFTH",
+        "display" : "Grand-père",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "HUSB",
+        "display" : "Epoux",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "MTHFOST",
+        "display" : "Assistante familiale - Famille d'accueil",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "MTHINLAW",
+        "display" : "Belle-mère",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "NEPHEW",
+        "display" : "Neveu",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "NIECE",
+        "display" : "Nièce",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "SIGOTHR",
+        "display" : "Conjoint",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "SISINLAW",
+        "display" : "Belle-soeur",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "STPSIS",
+        "display" : "Fille du beau-père ou de la belle-mère",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "STPSON",
+        "display" : "Fils du conjoint, issu d'un mariage précédent",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "WIFE",
+        "display" : "Epouse",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "STPDAU",
+        "display" : "Fille du conjoint, issue d'un mariage précédent",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      },
+      {
+        "code" : "HSIS",
+        "display" : "Demi-soeur",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.111"
+        }]
+      }]
+    }]
+  }
+}

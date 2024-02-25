@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5cdd1aab-5c70-4536-a8b7-ea96f2a4f66b-1316",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5cdd1aab-5c70-4536-a8b7-ea96f2a4f66b-1316",
+  "name" : "UnionJDV_J53-TypeRequeteGestionDossier-CISISAndJDV_J53-TypeRequeteGestionDossier-CISIS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2024-02-25T15:13:37+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "TEST_EXST",
+        "display" : "Test d'existence de dossier"
+      },
+      {
+        "code" : "CREA_RD",
+        "display" : "Création de dossier"
+      },
+      {
+        "code" : "CNSLT_DATA",
+        "display" : "Consultation des données de gestion de dossier"
+      },
+      {
+        "code" : "MODIF_DATA",
+        "display" : "Modification des données de gestion du dossier"
+      },
+      {
+        "code" : "FERM",
+        "display" : "Fermeture de dossier"
+      },
+      {
+        "code" : "REAC",
+        "display" : "Réactivation de dossier"
+      }]
+    }]
+  }
+}
