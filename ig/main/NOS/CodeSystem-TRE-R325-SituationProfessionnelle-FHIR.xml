@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.3.3.80"/>
   </identifier>
-  <version value="20231215120000"/>
+  <version value="20240329120000"/>
   <name value="TRE_R325-SituationProfessionnelle"/>
   <status value="active"/>
-  <date value="2023-12-15T12:00:00+01:00"/>
+  <date value="2024-03-29T12:00:00+01:00"/>
   <description value="Caractérise la situation professionnelle de la personne"/>
   <content value="complete"/>
   <property>
@@ -34,6 +34,7 @@
   <concept>
     <code value="01"/>
     <display value="Situation Sans Emploi"/>
+    <definition value="La personne est sans emploi"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -45,12 +46,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Situation Sans Emploi"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="La personne est sans emploi"/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -64,6 +59,7 @@
   <concept>
     <code value="02"/>
     <display value="Situation Avec Emploi"/>
+    <definition value="La personne a un emploi"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -75,12 +71,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Situation Avec Emploi"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="La personne a un emploi"/>
     </designation>
     <property>
       <code value="dateValid"/>

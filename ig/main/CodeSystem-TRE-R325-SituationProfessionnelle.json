@@ -3,7 +3,7 @@
   "id" : "TRE-R325-SituationProfessionnelle",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R325-SituationProfessionnelle/FHIR/TRE-R325-SituationProfessionnelle</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R325-SituationProfessionnelle-01\"> </a></td><td>Situation Sans Emploi</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R325-SituationProfessionnelle-02\"> </a></td><td>Situation Avec Emploi</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R325-SituationProfessionnelle/FHIR/TRE-R325-SituationProfessionnelle</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R325-SituationProfessionnelle-01\"> </a></td><td>Situation Sans Emploi</td><td>La personne est sans emploi</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R325-SituationProfessionnelle-02\"> </a></td><td>Situation Avec Emploi</td><td>La personne a un emploi</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr></table></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -18,7 +18,7 @@
   "version" : "1.2.0",
   "name" : "TRE_R325-SituationProfessionnelle",
   "status" : "active",
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2024-03-29T12:00:00+01:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -47,6 +47,7 @@
   "concept" : [{
     "code" : "01",
     "display" : "Situation Sans Emploi",
+    "definition" : "La personne est sans emploi",
     "designation" : [{
       "use" : {
         "code" : "LibelleCourt"
@@ -58,12 +59,6 @@
         "code" : "LibelleAdapte"
       },
       "value" : "Situation Sans Emploi"
-    },
-    {
-      "use" : {
-        "code" : "DescriptionMetier"
-      },
-      "value" : "La personne est sans emploi"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -77,6 +72,7 @@
   {
     "code" : "02",
     "display" : "Situation Avec Emploi",
+    "definition" : "La personne a un emploi",
     "designation" : [{
       "use" : {
         "code" : "LibelleCourt"
@@ -88,12 +84,6 @@
         "code" : "LibelleAdapte"
       },
       "value" : "Situation Avec Emploi"
-    },
-    {
-      "use" : {
-        "code" : "DescriptionMetier"
-      },
-      "value" : "La personne a un emploi"
     }],
     "property" : [{
       "code" : "dateValid",

@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "TRE-R321-BesoinEntretienPersonnel"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R321-BesoinEntretienPersonnel/FHIR/TRE-R321-BesoinEntretienPersonnel</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R321-BesoinEntretienPersonnel-01\"> </a></td><td>Pour l'hygiène corporelle</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R321-BesoinEntretienPersonnel-02\"> </a></td><td>Pour s'habiller</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R321-BesoinEntretienPersonnel-03\"> </a></td><td>Pour les repas</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"TRE-R321-BesoinEntretienPersonnel-04\"> </a></td><td>Pour prendre soin de sa santé</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R321-BesoinEntretienPersonnel/FHIR/TRE-R321-BesoinEntretienPersonnel</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R321-BesoinEntretienPersonnel-01\"> </a></td><td>Pour l'hygiène corporelle</td><td>La personne a besoin d'aide pour l'hygiène corporelle</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R321-BesoinEntretienPersonnel-02\"> </a></td><td>Pour s'habiller</td><td>La personne a besoin d'aide pour s'habiller</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R321-BesoinEntretienPersonnel-03\"> </a></td><td>Pour les repas</td><td>La personne a besoin d'aide pour les repas</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"TRE-R321-BesoinEntretienPersonnel-04\"> </a></td><td>Pour prendre soin de sa santé</td><td>La personne a besoin d'aide pour prendre soin de sa santé</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr></table></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -26,7 +26,7 @@
   fhir:version [ fhir:v "1.2.0"] ; # 
   fhir:name [ fhir:v "TRE_R321-BesoinEntretienPersonnel"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-12-15T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -53,6 +53,7 @@
   fhir:concept ( [
      fhir:code [ fhir:v "01" ] ;
      fhir:display [ fhir:v "Pour l'hygiène corporelle" ] ;
+     fhir:definition [ fhir:v "La personne a besoin d'aide pour l'hygiène corporelle" ] ;
      fhir:designation ( [
        fhir:use [
          fhir:code [ fhir:v "LibelleCourt" ]
@@ -63,11 +64,6 @@
          fhir:code [ fhir:v "LibelleAdapte" ]
        ] ;
        fhir:value [ fhir:v "Pour l'hygiène corporelle" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "DescriptionMetier" ]
-       ] ;
-       fhir:value [ fhir:v "La personne a besoin d'aide pour l'hygiène corporelle" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
@@ -79,6 +75,7 @@
   ] [
      fhir:code [ fhir:v "02" ] ;
      fhir:display [ fhir:v "Pour s'habiller" ] ;
+     fhir:definition [ fhir:v "La personne a besoin d'aide pour s'habiller" ] ;
      fhir:designation ( [
        fhir:use [
          fhir:code [ fhir:v "LibelleCourt" ]
@@ -89,11 +86,6 @@
          fhir:code [ fhir:v "LibelleAdapte" ]
        ] ;
        fhir:value [ fhir:v "Pour s'habiller" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "DescriptionMetier" ]
-       ] ;
-       fhir:value [ fhir:v "La personne a besoin d'aide pour s'habiller" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
@@ -105,6 +97,7 @@
   ] [
      fhir:code [ fhir:v "03" ] ;
      fhir:display [ fhir:v "Pour les repas" ] ;
+     fhir:definition [ fhir:v "La personne a besoin d'aide pour les repas" ] ;
      fhir:designation ( [
        fhir:use [
          fhir:code [ fhir:v "LibelleCourt" ]
@@ -115,11 +108,6 @@
          fhir:code [ fhir:v "LibelleAdapte" ]
        ] ;
        fhir:value [ fhir:v "Pour les repas" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "DescriptionMetier" ]
-       ] ;
-       fhir:value [ fhir:v "La personne a besoin d'aide pour les repas" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
@@ -131,6 +119,7 @@
   ] [
      fhir:code [ fhir:v "04" ] ;
      fhir:display [ fhir:v "Pour prendre soin de sa santé" ] ;
+     fhir:definition [ fhir:v "La personne a besoin d'aide pour prendre soin de sa santé" ] ;
      fhir:designation ( [
        fhir:use [
          fhir:code [ fhir:v "LibelleCourt" ]
@@ -141,11 +130,6 @@
          fhir:code [ fhir:v "LibelleAdapte" ]
        ] ;
        fhir:value [ fhir:v "Pour prendre soin de sa santé" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "DescriptionMetier" ]
-       ] ;
-       fhir:value [ fhir:v "La personne a besoin d'aide pour prendre soin de sa santé" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;

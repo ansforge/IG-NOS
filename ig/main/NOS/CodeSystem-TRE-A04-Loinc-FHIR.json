@@ -15,10 +15,10 @@
       "value": "urn:oid:2.16.840.1.113883.6.1"
     }
   ],
-  "version": "20240223120000",
+  "version": "20240329120000",
   "name": "TRE_A04-Loinc",
   "status": "active",
-  "date": "2024-02-23T12:00:00+01:00",
+  "date": "2024-03-29T12:00:00+01:00",
   "description": "Termes LOINC utilisés",
   "content": "complete",
   "property": [
@@ -42,6 +42,7 @@
     {
       "code": "10213-7",
       "display": "CR d'anesthésie",
+      "definition":"Surgical operation note anesthesia Document réalisé par un anesthésiste ou une infirmière anesthésiste diplômée d'état au cours ou au décours d'une anesthésie, décrivant son déroulement et son issue.",
       "designation": [
         {
           "use": {
@@ -54,12 +55,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR d'anesthésie"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Surgical operation note anesthesia Document réalisé par un anesthésiste ou une infirmière anesthésiste diplômée d'état au cours ou au décours d'une anesthésie, décrivant son déroulement et son issue."
         }
       ],
       "property": [
@@ -108,6 +103,7 @@
     {
       "code": "11488-4",
       "display": "CR ou fiche de consultation ou de visite",
+      "definition":"Consultation note {Provider} Document réalisé à l'issue d'une consultation médicale ou chirurgicale indiquant le motif de la consultation, les principales observations, le résultat de consultation et la conduite à tenir.",
       "designation": [
         {
           "use": {
@@ -120,12 +116,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR ou fiche de consultation ou de visite"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Consultation note {Provider} Document réalisé à l'issue d'une consultation médicale ou chirurgicale indiquant le motif de la consultation, les principales observations, le résultat de consultation et la conduite à tenir."
         }
       ],
       "property": [
@@ -142,6 +132,7 @@
     {
       "code": "11490-0",
       "display": "Lettre de liaison à la sortie d'un établissement de soins",
+      "definition":"Physician hospital discharge summary La lettre de sortie synthétise le cas d'un patient à l'occasion d'un séjour dans un hôpital ou dans un centre de soins. Elle comprend en principe l'ensemble des diagnostics qui ont été posés durant ce séjour. Les diagnostics actifs sont étayés par d'autres éléments du dossier dont les conclusions sont citées. La lettre de sortie contient aussi des commentaires, ou une discussion si nécessaire, et le traitement à suivre après le départ de l'hôpital. Enfin, la lettre de sortie donne des recommandations pour le suivi médical. Le but premier d'une lettre de sortie est par conséquent d'informer le médecin traitant qui suivra le patient après sa sortie.",
       "designation": [
         {
           "use": {
@@ -154,12 +145,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Lettre de liaison à la sortie d'un établissement de soins"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Physician hospital discharge summary La lettre de sortie synthétise le cas d'un patient à l'occasion d'un séjour dans un hôpital ou dans un centre de soins. Elle comprend en principe l'ensemble des diagnostics qui ont été posés durant ce séjour. Les diagnostics actifs sont étayés par d'autres éléments du dossier dont les conclusions sont citées. La lettre de sortie contient aussi des commentaires, ou une discussion si nécessaire, et le traitement à suivre après le départ de l'hôpital. Enfin, la lettre de sortie donne des recommandations pour le suivi médical. Le but premier d'une lettre de sortie est par conséquent d'informer le médecin traitant qui suivra le patient après sa sortie."
         }
       ],
       "property": [
@@ -176,6 +161,7 @@
     {
       "code": "11493-4",
       "display": "CR hospitalier (séjour)",
+      "definition":"Hospital discharge studies Summary",
       "designation": [
         {
           "use": {
@@ -188,12 +174,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR hospitalier (séjour)"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Hospital discharge studies Summary"
         }
       ],
       "property": [
@@ -214,6 +194,7 @@
     {
       "code": "11502-2",
       "display": "CR d'examens biologiques",
+      "definition":"LABORATORY REPORT TOTAL Compte rendu d'analyses de biologie médicale.",
       "designation": [
         {
           "use": {
@@ -226,12 +207,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR d'examens biologiques"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "LABORATORY REPORT TOTAL Compte rendu d'analyses de biologie médicale."
         }
       ],
       "property": [
@@ -248,6 +223,7 @@
     {
       "code": "11505-5",
       "display": "CR d'acte thérapeutique (autre)",
+      "definition":"Physician procedure note Document rendant compte d'un acte thérapeutique.",
       "designation": [
         {
           "use": {
@@ -260,12 +236,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR d'acte thérapeutique (autre)"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Physician procedure note Document rendant compte d'un acte thérapeutique."
         }
       ],
       "property": [
@@ -282,6 +252,7 @@
     {
       "code": "11506-3",
       "display": "CR ou fiche de suivi de soins par auxil médical",
+      "definition":"Provider-unspecified Progress Note Document rédigé par une sage-femme, un infirmier ou un auxiliaire médical rendant compte des soins réalisés et des résultats obtenus.",
       "designation": [
         {
           "use": {
@@ -294,12 +265,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR ou fiche de suivi de soins par auxiliaire médical"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Provider-unspecified Progress Note Document rédigé par une sage-femme, un infirmier ou un auxiliaire médical rendant compte des soins réalisés et des résultats obtenus."
         }
       ],
       "property": [
@@ -316,6 +281,7 @@
     {
       "code": "11526-1",
       "display": "CR d'anatomie et de cytologie pathologiques",
+      "definition":"PATHOLOGY STUDY Document réalisé par un pathologiste rendant compte de l'examen d'un ou plusieurs échantillons biologiques de type pièce opératoire ou prélèvement par biopsie ou échantillon cytologique ou bien rendant compte d'une autopsie. Différents modèles de comptes rendus peuvent exister, adaptés au type de prélèvement et à l'organe concerné.",
       "designation": [
         {
           "use": {
@@ -328,12 +294,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR d'anatomie et de cytologie pathologiques"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "PATHOLOGY STUDY Document réalisé par un pathologiste rendant compte de l'examen d'un ou plusieurs échantillons biologiques de type pièce opératoire ou prélèvement par biopsie ou échantillon cytologique ou bien rendant compte d'une autopsie. Différents modèles de comptes rendus peuvent exister, adaptés au type de prélèvement et à l'organe concerné."
         }
       ],
       "property": [
@@ -354,6 +314,7 @@
     {
       "code": "11528-7",
       "display": "CR d'imagerie médicale",
+      "definition":"Radiology Unspecified site and modality Study Document réalisé par un médecin radiologue qui interprète les images obtenues au cours d'un examen utilisant une technique d'imagerie médicale.",
       "designation": [
         {
           "use": {
@@ -366,12 +327,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR d'imagerie médicale"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Radiology Unspecified site and modality Study Document réalisé par un médecin radiologue qui interprète les images obtenues au cours d'un examen utilisant une technique d'imagerie médicale."
         }
       ],
       "property": [
@@ -392,6 +347,7 @@
     {
       "code": "15507-7",
       "display": "CR de passage aux urgences",
+      "definition":"Provider-unspecified ED Progress note RPU.",
       "designation": [
         {
           "use": {
@@ -404,12 +360,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR de passage aux urgences"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Provider-unspecified ED Progress note RPU."
         }
       ],
       "property": [
@@ -426,6 +376,7 @@
     {
       "code": "15508-5",
       "display": "CR d'accouchement",
+      "definition":"Labor and delivery records Document réalisé par un gynécologue obstétricien ou par une sage-femme, décrivant le déroulement d'un accouchement, le mode de délivrance et l'état de l'enfant à la naissance.",
       "designation": [
         {
           "use": {
@@ -438,12 +389,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR d'accouchement"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Labor and delivery records Document réalisé par un gynécologue obstétricien ou par une sage-femme, décrivant le déroulement d'un accouchement, le mode de délivrance et l'état de l'enfant à la naissance."
         }
       ],
       "property": [
@@ -516,6 +461,7 @@
     {
       "code": "18776-5",
       "display": "Plan personnalisé de soins",
+      "definition":"Plan of treatment Document rédigé par un professionnel de santé identifiant le(s) problème(s) du patient et le plan de prise en charge prévu pour une période déterminée.",
       "designation": [
         {
           "use": {
@@ -528,12 +474,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Plan personnalisé de soins"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Plan of treatment Document rédigé par un professionnel de santé identifiant le(s) problème(s) du patient et le plan de prise en charge prévu pour une période déterminée."
         }
       ],
       "property": [
@@ -550,6 +490,7 @@
     {
       "code": "24611-6",
       "display": "CR de télé-médecine (télé-consultation)",
+      "definition":"Outpatient Consultation 2nd opinion Conclusion d'une activité médicale de consultation réalisée à distance.",
       "designation": [
         {
           "use": {
@@ -562,12 +503,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR de télé-médecine (télé-consultation)"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Outpatient Consultation 2nd opinion Conclusion d'une activité médicale de consultation réalisée à distance."
         }
       ],
       "property": [
@@ -588,6 +523,7 @@
     {
       "code": "27899-4",
       "display": "CR d'acte diagnostique (autre)",
+      "definition":"Diagnostic studies.non lab Document réalisé par le médecin ayant pratiqué l'acte qui décrit la technique utilisée, les principales observations et la conclusion de l'examen.",
       "designation": [
         {
           "use": {
@@ -600,12 +536,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR d'acte diagnostique (autre)"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Diagnostic studies.non lab Document réalisé par le médecin ayant pratiqué l'acte qui décrit la technique utilisée, les principales observations et la conclusion de l'examen."
         }
       ],
       "property": [
@@ -682,6 +612,7 @@
     {
       "code": "29550-1",
       "display": "Dispensation médicamenteuse (non codée)",
+      "definition":"Medication dispensed Document rédigé par un pharmacien, listant les médicaments dispensés au patient.",
       "designation": [
         {
           "use": {
@@ -694,12 +625,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Dispensation médicamenteuse (non codée)"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Medication dispensed Document rédigé par un pharmacien, listant les médicaments dispensés au patient."
         }
       ],
       "property": [
@@ -720,6 +645,7 @@
     {
       "code": "29551-9",
       "display": "Prescription de médicaments (non codée)",
+      "definition":"Medication prescribed Document médico-légal rédigé par un médecin ou une sage-femme indiquant les médicaments prescrits, la posologie, la durée du traitement et le cas échéant des consignes d'administration ou de surveillance.",
       "designation": [
         {
           "use": {
@@ -732,12 +658,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Prescription de médicaments (non codée)"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Medication prescribed Document médico-légal rédigé par un médecin ou une sage-femme indiquant les médicaments prescrits, la posologie, la durée du traitement et le cas échéant des consignes d'administration ou de surveillance."
         }
       ],
       "property": [
@@ -758,6 +678,7 @@
     {
       "code": "29554-3",
       "display": "CR d'acte thérapeutique à visée préventive",
+      "definition":"Procedure Document réalisé par le médecin ayant pratiqué l'acte thérapeutique dans le but de prévenir une pathologie à un stade infra clinique, Il décrit la technique utilisée, les principales observations et la conclusion de l'intervention.",
       "designation": [
         {
           "use": {
@@ -770,12 +691,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR d'acte thérapeutique à visée préventive"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Procedure Document réalisé par le médecin ayant pratiqué l'acte thérapeutique dans le but de prévenir une pathologie à un stade infra clinique, Il décrit la technique utilisée, les principales observations et la conclusion de l'intervention."
         }
       ],
       "property": [
@@ -824,6 +739,7 @@
     {
       "code": "34133-9",
       "display": "Synthèse d'épisode de soins",
+      "definition":"Summarization of episode note Document réalisé par un professionnel de santé résumant l'état clinique et l'état de la prise en charge médicale d'un(e) patient(e) à l'issue d'un épisode de soins.",
       "designation": [
         {
           "use": {
@@ -836,12 +752,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Synthèse d'épisode de soins"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Summarization of episode note Document réalisé par un professionnel de santé résumant l'état clinique et l'état de la prise en charge médicale d'un(e) patient(e) à l'issue d'un épisode de soins."
         }
       ],
       "property": [
@@ -858,6 +768,7 @@
     {
       "code": "34749-2",
       "display": "CR de consultation pré-anesthésique",
+      "definition":"Consultation note {Anesthesia} Document réalisé par un anesthésiste, rendant compte de sa consultation, en vue d'une anesthésie à venir.",
       "designation": [
         {
           "use": {
@@ -870,12 +781,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR de consultation pré-anesthésique"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Consultation note {Anesthesia} Document réalisé par un anesthésiste, rendant compte de sa consultation, en vue d'une anesthésie à venir."
         }
       ],
       "property": [
@@ -892,6 +797,7 @@
     {
       "code": "34794-8",
       "display": "CR de réunion de concertation pluridisciplinaire",
+      "definition":"Multidisciplinary evaluation and management note Document rédigé par un PS à l'issue d'une réunion réunissant plusieurs PS autour de la prise en charge d'un patient, et décrivant les décisions prises à son sujet.",
       "designation": [
         {
           "use": {
@@ -904,12 +810,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR de réunion de concertation pluridisciplinaire"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Multidisciplinary evaluation and management note Document rédigé par un PS à l'issue d'une réunion réunissant plusieurs PS autour de la prise en charge d'un patient, et décrivant les décisions prises à son sujet."
         }
       ],
       "property": [
@@ -954,6 +854,7 @@
     {
       "code": "34874-8",
       "display": "CR opératoire",
+      "definition":"Surgery Surgical operation note Document réalisé par un chirurgien décrivant la technique employé, le déroulement de l'intervention chirurgicale, les pièces éventuellement prélevée, et les dispositifs médicaux éventuellement administrés.",
       "designation": [
         {
           "use": {
@@ -966,12 +867,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR opératoire"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Surgery Surgical operation note Document réalisé par un chirurgien décrivant la technique employé, le déroulement de l'intervention chirurgicale, les pièces éventuellement prélevée, et les dispositifs médicaux éventuellement administrés."
         }
       ],
       "property": [
@@ -1016,6 +911,7 @@
     {
       "code": "39256-3",
       "display": "CR d'acte diag à visée prév ou de dépistage",
+      "definition":"History and physical screen assessment Document réalisé par le médecin ayant pratiqué l'acte à visée diagnostique dans le but de prévenir une pathologie à un stade infra clinique, ou de dépister une pathologie. Il décrit la technique utilisée, les principales observations et la conclusion de l'examen.",
       "designation": [
         {
           "use": {
@@ -1028,12 +924,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR d'acte diagnostique à visée préventive ou de dépistage"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "History and physical screen assessment Document réalisé par le médecin ayant pratiqué l'acte à visée diagnostique dans le but de prévenir une pathologie à un stade infra clinique, ou de dépister une pathologie. Il décrit la technique utilisée, les principales observations et la conclusion de l'examen."
         }
       ],
       "property": [
@@ -1054,6 +944,7 @@
     {
       "code": "46241-6",
       "display": "CR d'admission",
+      "definition":"Hospital admission Dx Document réalisé à l'issue de l'admission d'un patient dans un établissement de santé résumant l'état initial du patient, et la prise en charge prévue.",
       "designation": [
         {
           "use": {
@@ -1066,12 +957,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR d'admission"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Hospital admission Dx Document réalisé à l'issue de l'admission d'un patient dans un établissement de santé résumant l'état initial du patient, et la prise en charge prévue."
         }
       ],
       "property": [
@@ -1092,6 +977,7 @@
     {
       "code": "47420-5",
       "display": "CR de bilan fonctionnel (par auxiliaire médical)",
+      "definition":"Functional status assessment Document Document réalisé par un auxiliaire médical décrivant l'état d'une fonction d'un patient",
       "designation": [
         {
           "use": {
@@ -1104,12 +990,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR de bilan fonctionnel (par auxiliaire médical)"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Functional status assessment Document Document réalisé par un auxiliaire médical décrivant l'état d'une fonction d'un patient"
         }
       ],
       "property": [
@@ -1182,6 +1062,7 @@
     {
       "code": "52040-3",
       "display": "Document encapsulant une image d'illustration non DICOM",
+      "definition":"Dental X-rays and other images (not DICOM) attachment Images acquises au cours d'un acte diagnostique ou thérapeutique, conservées dans un dossier partagé sous un format autre que DICOM (ex : TIFF, JPEG, PNG …).",
       "designation": [
         {
           "use": {
@@ -1194,12 +1075,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Document encapsulant une image d'illustration non DICOM"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Dental X-rays and other images (not DICOM) attachment Images acquises au cours d'un acte diagnostique ou thérapeutique, conservées dans un dossier partagé sous un format autre que DICOM (ex : TIFF, JPEG, PNG …)."
         }
       ],
       "property": [
@@ -1216,6 +1091,7 @@
     {
       "code": "52063-5",
       "display": "Prescription (autre)",
+      "definition":"Prescription for durable medical equipment attachment Document indiquant le dispositif médical prescrit, les consignes de pose et de surveillance.",
       "designation": [
         {
           "use": {
@@ -1228,12 +1104,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Prescription (autre)"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Prescription for durable medical equipment attachment Document indiquant le dispositif médical prescrit, les consignes de pose et de surveillance."
         }
       ],
       "property": [
@@ -1254,6 +1124,7 @@
     {
       "code": "52521-2",
       "display": "Presccription de soins",
+      "definition":"Overall Plan of Care &or Advance Care Directives Document rédigé par un médecin prescrivant les soins à réaliser.",
       "designation": [
         {
           "use": {
@@ -1266,12 +1137,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Prescription de soins"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Overall Plan of Care &or Advance Care Directives Document rédigé par un médecin prescrivant les soins à réaliser."
         }
       ],
       "property": [
@@ -1292,6 +1157,7 @@
     {
       "code": "55115-0",
       "display": "Demande d'actes d'imagerie",
+      "definition":"Demande d'acte d'imagerie.",
       "designation": [
         {
           "use": {
@@ -1304,12 +1170,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Demande d'actes d'imagerie"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Demande d'acte d'imagerie."
         }
       ],
       "property": [
@@ -1326,6 +1186,7 @@
     {
       "code": "56445-0",
       "display": "Bilan médicamenteux (Officine)",
+      "definition":"Bilan médicamenteux réalisé dans le cadre d'une conciliation des traitements médicamenteux ou d'un bilan partagé de médication.",
       "designation": [
         {
           "use": {
@@ -1338,12 +1199,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Bilan médicamenteux (Officine)"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Bilan médicamenteux réalisé dans le cadre d'une conciliation des traitements médicamenteux ou d'un bilan partagé de médication."
         }
       ],
       "property": [
@@ -1444,6 +1299,7 @@
     {
       "code": "57833-6",
       "display": "Prescription de produits de santé",
+      "definition":"Prescription de produits de santé",
       "designation": [
         {
           "use": {
@@ -1454,12 +1310,6 @@
         {
           "use": {
             "code": "LibelleAdapte"
-          },
-          "value": "Prescription de produits de santé"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
           },
           "value": "Prescription de produits de santé"
         }
@@ -1618,6 +1468,7 @@
     {
       "code": "61357-0",
       "display": "Intervention pharmaceutique",
+      "definition":"Intervention du pharmacien auprès du prescripteur sur une ligne de prescription.",
       "designation": [
         {
           "use": {
@@ -1630,12 +1481,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Intervention pharmaceutique"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Intervention du pharmacien auprès du prescripteur sur une ligne de prescription."
         }
       ],
       "property": [
@@ -1884,6 +1729,7 @@
     {
       "code": "75468-9",
       "display": "Renouvellement ordonnance par pharmacien correspondant",
+      "definition":"Renouvellement et adaptation des posologies par le pharmacien correspondant. Dans le cadre d'un renouvellement périodique des traitements chroniques.",
       "designation": [
         {
           "use": {
@@ -1896,12 +1742,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Renouvellement ordonnance par pharmacien correspondant"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Renouvellement et adaptation des posologies par le pharmacien correspondant. Dans le cadre d'un renouvellement périodique des traitements chroniques."
         }
       ],
       "property": [
@@ -2062,6 +1902,7 @@
     {
       "code": "77604-7",
       "display": "Planification thérapeutique",
+      "definition":"Plan de prise associé à la dispensation des traitements.",
       "designation": [
         {
           "use": {
@@ -2074,12 +1915,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Planification thérapeutique"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Plan de prise associé à la dispensation des traitements."
         }
       ],
       "property": [
@@ -2208,6 +2043,7 @@
     {
       "code": "80820-4",
       "display": "Formulaire de conciliation médicamenteuse (Hôpital)",
+      "definition":"Formulaire permettant l'analyse des divergences entre le bilan médicamenteux et la prescription en cours dans le cadre de la conciliation médicamenteuse.",
       "designation": [
         {
           "use": {
@@ -2220,12 +2056,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Formulaire de conciliation médicamenteuse (Hôpital)"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Formulaire permettant l'analyse des divergences entre le bilan médicamenteux et la prescription en cours dans le cadre de la conciliation médicamenteuse."
         }
       ],
       "property": [
@@ -2466,6 +2296,7 @@
     {
       "code": "88365-2",
       "display": "Glucose avant repas",
+      "definition":"Glucose [Mass/volume] in Blood --pre-meal",
       "designation": [
         {
           "use": {
@@ -2478,12 +2309,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Glucose avant repas"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Glucose [Mass/volume] in Blood --pre-meal"
         }
       ],
       "property": [
@@ -2556,6 +2381,7 @@
     {
       "code": "93024-8",
       "display": "CR de consultation pharmaceutique",
+      "definition":"Réalisation d'un bilan de médication et/ou d'un plan pharmaceutique personnalisé dans le cadre d'une consultation pharmaceutique.",
       "designation": [
         {
           "use": {
@@ -2568,12 +2394,6 @@
             "code": "LibelleAdapte"
           },
           "value": "CR de consultation pharmaceutique"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Réalisation d'un bilan de médication et/ou d'un plan pharmaceutique personnalisé dans le cadre d'une consultation pharmaceutique."
         }
       ],
       "property": [
@@ -2702,6 +2522,7 @@
     {
       "code": "4548-4",
       "display": "Hémoglobine A1c %",
+      "definition":"L'hémoglobine glyquée (HbA1C) est la part de l'hémoglobine qui capte le sucre dans le sang.",
       "designation": [
         {
           "use": {
@@ -2714,12 +2535,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Hémoglobine A1c %"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "L'hémoglobine glyquée (HbA1C) est la part de l'hémoglobine qui capte le sucre dans le sang."
         }
       ],
       "property": [

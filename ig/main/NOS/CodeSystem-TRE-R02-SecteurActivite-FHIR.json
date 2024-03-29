@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.71.4.2.4"
     }
   ],
-  "version": "20240223120000",
+  "version": "20240329120000",
   "name": "TRE_R02-SecteurActivite",
   "status": "active",
-  "date": "2024-02-23T12:00:00+01:00",
+  "date": "2024-03-29T12:00:00+01:00",
   "description": "Secteur d'activité",
   "content": "complete",
   "property": [
@@ -410,6 +410,7 @@
     {
       "code": "SA14",
       "display": "Etablissements scolaires, universitaires et de formation hors champ FINESS",
+      "definition":"Etablissements scolaires, universitaires et de formation hors champ FINESS (venant donc en complément des établissements du secteur SA19)",
       "designation": [
         {
           "use": {
@@ -422,12 +423,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Etablissements scolaires, universitaires et de formation hors champ FINESS"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Etablissements scolaires, universitaires et de formation hors champ FINESS (venant donc en complément des établissements du secteur SA19)"
         }
       ],
       "property": [
@@ -556,6 +551,7 @@
     {
       "code": "SA19",
       "display": "Etablissements FINESS de formation aux professions sanitaires et sociales",
+      "definition":"Etablissements de formation préparant aux diplômes délivrés par l'administration sanitaire et sociale, relevant du répertoire FINESS. Hormis les écoles universitaires de sages-femmes, qui sont dans FINESS, ce secteur ne comprend pas les universités formant aux professions médicales qui sont hors champ FINESS",
       "designation": [
         {
           "use": {
@@ -568,12 +564,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Etablissements FINESS de formation aux professions sanitaires et sociales"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Etablissements de formation préparant aux diplômes délivrés par l'administration sanitaire et sociale, relevant du répertoire FINESS. Hormis les écoles universitaires de sages-femmes, qui sont dans FINESS, ce secteur ne comprend pas les universités formant aux professions médicales qui sont hors champ FINESS"
         }
       ],
       "property": [
@@ -1430,6 +1420,7 @@
     {
       "code": "SA50",
       "display": "Permanence des soins ambulatoires hors cabinet",
+      "definition":"Ce secteur est utilisé pour un usage spécifique lié à la facturation et n'a pas vocation à recenser exhaustivement les structures de PDSA. Le SA50 contient les SIRET des professionnels ayant une activité de PDSA et qui ne sont pas déjà établis à titre libéral non remplaçant. Ces structures permettent aux professionnels de facturer à l'Assurance Maladie dans le cadre de leur activité de PDSA (feuilles de soins électroniques).",
       "designation": [
         {
           "use": {
@@ -1442,12 +1433,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Permanence des soins ambulatoires hors cabinet"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Ce secteur est utilisé pour un usage spécifique lié à la facturation et n'a pas vocation à recenser exhaustivement les structures de PDSA. Le SA50 contient les SIRET des professionnels ayant une activité de PDSA et qui ne sont pas déjà établis à titre libéral non remplaçant. Ces structures permettent aux professionnels de facturer à l'Assurance Maladie dans le cadre de leur activité de PDSA (feuilles de soins électroniques)."
         }
       ],
       "property": [
@@ -1804,6 +1789,7 @@
     {
       "code": "SA63",
       "display": "Communauté Professionnelle Territoriale de Santé",
+      "definition":"Les Communautés Professionnelles Territoriales de Santé (CPTS) ont été créées par la loi de modernisation de notre système de santé du 26 janvier 2016 (cf. articles Article L1434-12 et Article L1434-13 du code de la Santé Publique). Leur enregistrement est régi par l'instruction DGOS/DIR/DREES/DMSI/2020/12. Les CPTS sont un espace d'organisation et de coordination entre professionnels de santé et non pas des structures de soins : elles regroupent les professionnels de santé d'un même territoire qui souhaitent s'organiser - à leur initiative - autour d'un projet de santé pour répondre aux besoins de santé de la population. Les CPTS sont constituées entre des professionnels de santé, le cas échéant de maisons de santé, de centres de santé, de réseaux de santé, d'établissements de santé, d'établissements et de services médico-sociaux, des groupements de coopération sanitaire, et des groupements de coopération sociale et médicosociale. Grâce à l'accord conventionnel interprofessionnel (ACI) intervenu en 2019, les CPTS dont le projet de santé est validé par l'ARS sont enregistrés dans FINESS et peuvent bénéficier de financement de l'assurance maladie  Ne sont enregistrés dans FINESS que l'Entité Juridique et le siège social. Les établissements et professionnels constitutif d'une CPTS ne sont pas enregistrés dans FINESS.",
       "designation": [
         {
           "use": {
@@ -1816,12 +1802,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Communauté Professionnelle Territoriale de Santé"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "Les Communautés Professionnelles Territoriales de Santé (CPTS) ont été créées par la loi de modernisation de notre système de santé du 26 janvier 2016 (cf. articles Article L1434-12 et Article L1434-13 du code de la Santé Publique). Leur enregistrement est régi par l'instruction DGOS/DIR/DREES/DMSI/2020/12. Les CPTS sont un espace d'organisation et de coordination entre professionnels de santé et non pas des structures de soins : elles regroupent les professionnels de santé d'un même territoire qui souhaitent s'organiser - à leur initiative - autour d'un projet de santé pour répondre aux besoins de santé de la population. Les CPTS sont constituées entre des professionnels de santé, le cas échéant de maisons de santé, de centres de santé, de réseaux de santé, d'établissements de santé, d'établissements et de services médico-sociaux, des groupements de coopération sanitaire, et des groupements de coopération sociale et médicosociale. Grâce à l'accord conventionnel interprofessionnel (ACI) intervenu en 2019, les CPTS dont le projet de santé est validé par l'ARS sont enregistrés dans FINESS et peuvent bénéficier de financement de l'assurance maladie  Ne sont enregistrés dans FINESS que l'Entité Juridique et le siège social. Les établissements et professionnels constitutif d'une CPTS ne sont pas enregistrés dans FINESS."
         }
       ],
       "property": [
@@ -1860,6 +1840,34 @@
         {
           "code": "dateMaj",
           "valueDateTime": "2024-02-23T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SA65",
+      "display": "Antenne de pharmacie",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Antenne de pharmacie"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Antenne de pharmacie"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-03-29T12:00:00+01:00"
         }
       ]
     }

@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.143"
     }
   ],
-  "version": "20231215120000",
+  "version": "20240329120000",
   "name": "JDV_J75-TypeAutorisation-RASS",
   "status": "active",
-  "date": "2023-12-15T12:00:00+01:00",
+  "date": "2024-03-29T12:00:00+01:00",
   "description": "Type d'autorisation d'exercice pour accès à l'exercice de la profession du RASS",
   "compose": {
     "include": [
@@ -472,6 +472,18 @@
           {
             "code": "AM39",
             "display": "Autorisation d'exercice de psychothérapeute pour médecin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.14"
+              }
+            ]
+          },
+          {
+            "code": "AM41",
+            "display": "Agrément de radiophysicien avant le 28/11/2004",
             "designation": [
               {
                 "use": {

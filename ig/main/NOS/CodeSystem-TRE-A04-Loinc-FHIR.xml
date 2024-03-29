@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:2.16.840.1.113883.6.1"/>
   </identifier>
-  <version value="20240223120000"/>
+  <version value="20240329120000"/>
   <name value="TRE_A04-Loinc"/>
   <status value="active"/>
-  <date value="2024-02-23T12:00:00+01:00"/>
+  <date value="2024-03-29T12:00:00+01:00"/>
   <description value="Termes LOINC utilisés"/>
   <content value="complete"/>
   <property>
@@ -34,6 +34,7 @@
   <concept>
     <code value="10213-7"/>
     <display value="CR d'anesthésie"/>
+    <definition value="Surgical operation note anesthesia Document réalisé par un anesthésiste ou une infirmière anesthésiste diplômée d'état au cours ou au décours d'une anesthésie, décrivant son déroulement et son issue."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -45,12 +46,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR d'anesthésie"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Surgical operation note anesthesia Document réalisé par un anesthésiste ou une infirmière anesthésiste diplômée d'état au cours ou au décours d'une anesthésie, décrivant son déroulement et son issue."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -92,6 +87,7 @@
   <concept>
     <code value="11488-4"/>
     <display value="CR ou fiche de consultation ou de visite"/>
+    <definition value="Consultation note {Provider} Document réalisé à l'issue d'une consultation médicale ou chirurgicale indiquant le motif de la consultation, les principales observations, le résultat de consultation et la conduite à tenir."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -103,12 +99,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR ou fiche de consultation ou de visite"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Consultation note {Provider} Document réalisé à l'issue d'une consultation médicale ou chirurgicale indiquant le motif de la consultation, les principales observations, le résultat de consultation et la conduite à tenir."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -122,6 +112,7 @@
   <concept>
     <code value="11490-0"/>
     <display value="Lettre de liaison à la sortie d'un établissement de soins"/>
+    <definition value="Physician hospital discharge summary La lettre de sortie synthétise le cas d'un patient à l'occasion d'un séjour dans un hôpital ou dans un centre de soins. Elle comprend en principe l'ensemble des diagnostics qui ont été posés durant ce séjour. Les diagnostics actifs sont étayés par d'autres éléments du dossier dont les conclusions sont citées. La lettre de sortie contient aussi des commentaires, ou une discussion si nécessaire, et le traitement à suivre après le départ de l'hôpital. Enfin, la lettre de sortie donne des recommandations pour le suivi médical. Le but premier d'une lettre de sortie est par conséquent d'informer le médecin traitant qui suivra le patient après sa sortie."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -133,12 +124,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Lettre de liaison à la sortie d'un établissement de soins"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Physician hospital discharge summary La lettre de sortie synthétise le cas d'un patient à l'occasion d'un séjour dans un hôpital ou dans un centre de soins. Elle comprend en principe l'ensemble des diagnostics qui ont été posés durant ce séjour. Les diagnostics actifs sont étayés par d'autres éléments du dossier dont les conclusions sont citées. La lettre de sortie contient aussi des commentaires, ou une discussion si nécessaire, et le traitement à suivre après le départ de l'hôpital. Enfin, la lettre de sortie donne des recommandations pour le suivi médical. Le but premier d'une lettre de sortie est par conséquent d'informer le médecin traitant qui suivra le patient après sa sortie."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -152,6 +137,7 @@
   <concept>
     <code value="11493-4"/>
     <display value="CR hospitalier (séjour)"/>
+    <definition value="Hospital discharge studies Summary"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -163,12 +149,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR hospitalier (séjour)"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Hospital discharge studies Summary"/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -186,6 +166,7 @@
   <concept>
     <code value="11502-2"/>
     <display value="CR d'examens biologiques"/>
+    <definition value="LABORATORY REPORT TOTAL Compte rendu d'analyses de biologie médicale."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -197,12 +178,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR d'examens biologiques"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="LABORATORY REPORT TOTAL Compte rendu d'analyses de biologie médicale."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -216,6 +191,7 @@
   <concept>
     <code value="11505-5"/>
     <display value="CR d'acte thérapeutique (autre)"/>
+    <definition value="Physician procedure note Document rendant compte d'un acte thérapeutique."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -227,12 +203,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR d'acte thérapeutique (autre)"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Physician procedure note Document rendant compte d'un acte thérapeutique."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -246,6 +216,7 @@
   <concept>
     <code value="11506-3"/>
     <display value="CR ou fiche de suivi de soins par auxil médical"/>
+    <definition value="Provider-unspecified Progress Note Document rédigé par une sage-femme, un infirmier ou un auxiliaire médical rendant compte des soins réalisés et des résultats obtenus."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -257,12 +228,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR ou fiche de suivi de soins par auxiliaire médical"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Provider-unspecified Progress Note Document rédigé par une sage-femme, un infirmier ou un auxiliaire médical rendant compte des soins réalisés et des résultats obtenus."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -276,6 +241,7 @@
   <concept>
     <code value="11526-1"/>
     <display value="CR d'anatomie et de cytologie pathologiques"/>
+    <definition value="PATHOLOGY STUDY Document réalisé par un pathologiste rendant compte de l'examen d'un ou plusieurs échantillons biologiques de type pièce opératoire ou prélèvement par biopsie ou échantillon cytologique ou bien rendant compte d'une autopsie. Différents modèles de comptes rendus peuvent exister, adaptés au type de prélèvement et à l'organe concerné."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -287,12 +253,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR d'anatomie et de cytologie pathologiques"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="PATHOLOGY STUDY Document réalisé par un pathologiste rendant compte de l'examen d'un ou plusieurs échantillons biologiques de type pièce opératoire ou prélèvement par biopsie ou échantillon cytologique ou bien rendant compte d'une autopsie. Différents modèles de comptes rendus peuvent exister, adaptés au type de prélèvement et à l'organe concerné."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -310,6 +270,7 @@
   <concept>
     <code value="11528-7"/>
     <display value="CR d'imagerie médicale"/>
+    <definition value="Radiology Unspecified site and modality Study Document réalisé par un médecin radiologue qui interprète les images obtenues au cours d'un examen utilisant une technique d'imagerie médicale."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -321,12 +282,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR d'imagerie médicale"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Radiology Unspecified site and modality Study Document réalisé par un médecin radiologue qui interprète les images obtenues au cours d'un examen utilisant une technique d'imagerie médicale."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -344,6 +299,7 @@
   <concept>
     <code value="15507-7"/>
     <display value="CR de passage aux urgences"/>
+    <definition value="Provider-unspecified ED Progress note RPU."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -355,12 +311,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR de passage aux urgences"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Provider-unspecified ED Progress note RPU."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -374,6 +324,7 @@
   <concept>
     <code value="15508-5"/>
     <display value="CR d'accouchement"/>
+    <definition value="Labor and delivery records Document réalisé par un gynécologue obstétricien ou par une sage-femme, décrivant le déroulement d'un accouchement, le mode de délivrance et l'état de l'enfant à la naissance."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -385,12 +336,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR d'accouchement"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Labor and delivery records Document réalisé par un gynécologue obstétricien ou par une sage-femme, décrivant le déroulement d'un accouchement, le mode de délivrance et l'état de l'enfant à la naissance."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -452,6 +397,7 @@
   <concept>
     <code value="18776-5"/>
     <display value="Plan personnalisé de soins"/>
+    <definition value="Plan of treatment Document rédigé par un professionnel de santé identifiant le(s) problème(s) du patient et le plan de prise en charge prévu pour une période déterminée."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -463,12 +409,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Plan personnalisé de soins"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Plan of treatment Document rédigé par un professionnel de santé identifiant le(s) problème(s) du patient et le plan de prise en charge prévu pour une période déterminée."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -482,6 +422,7 @@
   <concept>
     <code value="24611-6"/>
     <display value="CR de télé-médecine (télé-consultation)"/>
+    <definition value="Outpatient Consultation 2nd opinion Conclusion d'une activité médicale de consultation réalisée à distance."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -493,12 +434,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR de télé-médecine (télé-consultation)"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Outpatient Consultation 2nd opinion Conclusion d'une activité médicale de consultation réalisée à distance."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -516,6 +451,7 @@
   <concept>
     <code value="27899-4"/>
     <display value="CR d'acte diagnostique (autre)"/>
+    <definition value="Diagnostic studies.non lab Document réalisé par le médecin ayant pratiqué l'acte qui décrit la technique utilisée, les principales observations et la conclusion de l'examen."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -527,12 +463,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR d'acte diagnostique (autre)"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Diagnostic studies.non lab Document réalisé par le médecin ayant pratiqué l'acte qui décrit la technique utilisée, les principales observations et la conclusion de l'examen."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -598,6 +528,7 @@
   <concept>
     <code value="29550-1"/>
     <display value="Dispensation médicamenteuse (non codée)"/>
+    <definition value="Medication dispensed Document rédigé par un pharmacien, listant les médicaments dispensés au patient."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -609,12 +540,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Dispensation médicamenteuse (non codée)"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Medication dispensed Document rédigé par un pharmacien, listant les médicaments dispensés au patient."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -632,6 +557,7 @@
   <concept>
     <code value="29551-9"/>
     <display value="Prescription de médicaments (non codée)"/>
+    <definition value="Medication prescribed Document médico-légal rédigé par un médecin ou une sage-femme indiquant les médicaments prescrits, la posologie, la durée du traitement et le cas échéant des consignes d'administration ou de surveillance."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -643,12 +569,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Prescription de médicaments (non codée)"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Medication prescribed Document médico-légal rédigé par un médecin ou une sage-femme indiquant les médicaments prescrits, la posologie, la durée du traitement et le cas échéant des consignes d'administration ou de surveillance."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -666,6 +586,7 @@
   <concept>
     <code value="29554-3"/>
     <display value="CR d'acte thérapeutique à visée préventive"/>
+    <definition value="Procedure Document réalisé par le médecin ayant pratiqué l'acte thérapeutique dans le but de prévenir une pathologie à un stade infra clinique, Il décrit la technique utilisée, les principales observations et la conclusion de l'intervention."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -677,12 +598,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR d'acte thérapeutique à visée préventive"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Procedure Document réalisé par le médecin ayant pratiqué l'acte thérapeutique dans le but de prévenir une pathologie à un stade infra clinique, Il décrit la technique utilisée, les principales observations et la conclusion de l'intervention."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -724,6 +639,7 @@
   <concept>
     <code value="34133-9"/>
     <display value="Synthèse d'épisode de soins"/>
+    <definition value="Summarization of episode note Document réalisé par un professionnel de santé résumant l'état clinique et l'état de la prise en charge médicale d'un(e) patient(e) à l'issue d'un épisode de soins."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -735,12 +651,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Synthèse d'épisode de soins"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Summarization of episode note Document réalisé par un professionnel de santé résumant l'état clinique et l'état de la prise en charge médicale d'un(e) patient(e) à l'issue d'un épisode de soins."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -754,6 +664,7 @@
   <concept>
     <code value="34749-2"/>
     <display value="CR de consultation pré-anesthésique"/>
+    <definition value="Consultation note {Anesthesia} Document réalisé par un anesthésiste, rendant compte de sa consultation, en vue d'une anesthésie à venir."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -765,12 +676,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR de consultation pré-anesthésique"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Consultation note {Anesthesia} Document réalisé par un anesthésiste, rendant compte de sa consultation, en vue d'une anesthésie à venir."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -784,6 +689,7 @@
   <concept>
     <code value="34794-8"/>
     <display value="CR de réunion de concertation pluridisciplinaire"/>
+    <definition value="Multidisciplinary evaluation and management note Document rédigé par un PS à l'issue d'une réunion réunissant plusieurs PS autour de la prise en charge d'un patient, et décrivant les décisions prises à son sujet."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -795,12 +701,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR de réunion de concertation pluridisciplinaire"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Multidisciplinary evaluation and management note Document rédigé par un PS à l'issue d'une réunion réunissant plusieurs PS autour de la prise en charge d'un patient, et décrivant les décisions prises à son sujet."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -838,6 +738,7 @@
   <concept>
     <code value="34874-8"/>
     <display value="CR opératoire"/>
+    <definition value="Surgery Surgical operation note Document réalisé par un chirurgien décrivant la technique employé, le déroulement de l'intervention chirurgicale, les pièces éventuellement prélevée, et les dispositifs médicaux éventuellement administrés."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -849,12 +750,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR opératoire"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Surgery Surgical operation note Document réalisé par un chirurgien décrivant la technique employé, le déroulement de l'intervention chirurgicale, les pièces éventuellement prélevée, et les dispositifs médicaux éventuellement administrés."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -892,6 +787,7 @@
   <concept>
     <code value="39256-3"/>
     <display value="CR d'acte diag à visée prév ou de dépistage"/>
+    <definition value="History and physical screen assessment Document réalisé par le médecin ayant pratiqué l'acte à visée diagnostique dans le but de prévenir une pathologie à un stade infra clinique, ou de dépister une pathologie. Il décrit la technique utilisée, les principales observations et la conclusion de l'examen."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -903,12 +799,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR d'acte diagnostique à visée préventive ou de dépistage"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="History and physical screen assessment Document réalisé par le médecin ayant pratiqué l'acte à visée diagnostique dans le but de prévenir une pathologie à un stade infra clinique, ou de dépister une pathologie. Il décrit la technique utilisée, les principales observations et la conclusion de l'examen."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -926,6 +816,7 @@
   <concept>
     <code value="46241-6"/>
     <display value="CR d'admission"/>
+    <definition value="Hospital admission Dx Document réalisé à l'issue de l'admission d'un patient dans un établissement de santé résumant l'état initial du patient, et la prise en charge prévue."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -937,12 +828,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR d'admission"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Hospital admission Dx Document réalisé à l'issue de l'admission d'un patient dans un établissement de santé résumant l'état initial du patient, et la prise en charge prévue."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -960,6 +845,7 @@
   <concept>
     <code value="47420-5"/>
     <display value="CR de bilan fonctionnel (par auxiliaire médical)"/>
+    <definition value="Functional status assessment Document Document réalisé par un auxiliaire médical décrivant l'état d'une fonction d'un patient"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -971,12 +857,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR de bilan fonctionnel (par auxiliaire médical)"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Functional status assessment Document Document réalisé par un auxiliaire médical décrivant l'état d'une fonction d'un patient"/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -1038,6 +918,7 @@
   <concept>
     <code value="52040-3"/>
     <display value="Document encapsulant une image d'illustration non DICOM"/>
+    <definition value="Dental X-rays and other images (not DICOM) attachment Images acquises au cours d'un acte diagnostique ou thérapeutique, conservées dans un dossier partagé sous un format autre que DICOM (ex : TIFF, JPEG, PNG …)."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -1049,12 +930,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Document encapsulant une image d'illustration non DICOM"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Dental X-rays and other images (not DICOM) attachment Images acquises au cours d'un acte diagnostique ou thérapeutique, conservées dans un dossier partagé sous un format autre que DICOM (ex : TIFF, JPEG, PNG …)."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -1068,6 +943,7 @@
   <concept>
     <code value="52063-5"/>
     <display value="Prescription (autre)"/>
+    <definition value="Prescription for durable medical equipment attachment Document indiquant le dispositif médical prescrit, les consignes de pose et de surveillance."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -1079,12 +955,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Prescription (autre)"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Prescription for durable medical equipment attachment Document indiquant le dispositif médical prescrit, les consignes de pose et de surveillance."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -1102,6 +972,7 @@
   <concept>
     <code value="52521-2"/>
     <display value="Presccription de soins"/>
+    <definition value="Overall Plan of Care &amp;or Advance Care Directives Document rédigé par un médecin prescrivant les soins à réaliser."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -1113,12 +984,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Prescription de soins"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Overall Plan of Care &amp;or Advance Care Directives Document rédigé par un médecin prescrivant les soins à réaliser."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -1136,6 +1001,7 @@
   <concept>
     <code value="55115-0"/>
     <display value="Demande d'actes d'imagerie"/>
+    <definition value="Demande d'acte d'imagerie."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -1147,12 +1013,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Demande d'actes d'imagerie"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Demande d'acte d'imagerie."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -1166,6 +1026,7 @@
   <concept>
     <code value="56445-0"/>
     <display value="Bilan médicamenteux (Officine)"/>
+    <definition value="Bilan médicamenteux réalisé dans le cadre d'une conciliation des traitements médicamenteux ou d'un bilan partagé de médication."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -1177,12 +1038,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Bilan médicamenteux (Officine)"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Bilan médicamenteux réalisé dans le cadre d'une conciliation des traitements médicamenteux ou d'un bilan partagé de médication."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -1268,6 +1123,7 @@
   <concept>
     <code value="57833-6"/>
     <display value="Prescription de produits de santé"/>
+    <definition value="Prescription de produits de santé"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -1277,12 +1133,6 @@
     <designation>
       <use>
           <code value="LibelleAdapte"/>
-      </use>
-      <value value="Prescription de produits de santé"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
       </use>
       <value value="Prescription de produits de santé"/>
     </designation>
@@ -1418,6 +1268,7 @@
   <concept>
     <code value="61357-0"/>
     <display value="Intervention pharmaceutique"/>
+    <definition value="Intervention du pharmacien auprès du prescripteur sur une ligne de prescription."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -1429,12 +1280,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Intervention pharmaceutique"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Intervention du pharmacien auprès du prescripteur sur une ligne de prescription."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -1648,6 +1493,7 @@
   <concept>
     <code value="75468-9"/>
     <display value="Renouvellement ordonnance par pharmacien correspondant"/>
+    <definition value="Renouvellement et adaptation des posologies par le pharmacien correspondant. Dans le cadre d'un renouvellement périodique des traitements chroniques."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -1659,12 +1505,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Renouvellement ordonnance par pharmacien correspondant"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Renouvellement et adaptation des posologies par le pharmacien correspondant. Dans le cadre d'un renouvellement périodique des traitements chroniques."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -1802,6 +1642,7 @@
   <concept>
     <code value="77604-7"/>
     <display value="Planification thérapeutique"/>
+    <definition value="Plan de prise associé à la dispensation des traitements."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -1813,12 +1654,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Planification thérapeutique"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Plan de prise associé à la dispensation des traitements."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -1928,6 +1763,7 @@
   <concept>
     <code value="80820-4"/>
     <display value="Formulaire de conciliation médicamenteuse (Hôpital)"/>
+    <definition value="Formulaire permettant l'analyse des divergences entre le bilan médicamenteux et la prescription en cours dans le cadre de la conciliation médicamenteuse."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -1939,12 +1775,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Formulaire de conciliation médicamenteuse (Hôpital)"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Formulaire permettant l'analyse des divergences entre le bilan médicamenteux et la prescription en cours dans le cadre de la conciliation médicamenteuse."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -2150,6 +1980,7 @@
   <concept>
     <code value="88365-2"/>
     <display value="Glucose avant repas"/>
+    <definition value="Glucose [Mass/volume] in Blood --pre-meal"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -2161,12 +1992,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Glucose avant repas"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Glucose [Mass/volume] in Blood --pre-meal"/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -2228,6 +2053,7 @@
   <concept>
     <code value="93024-8"/>
     <display value="CR de consultation pharmaceutique"/>
+    <definition value="Réalisation d'un bilan de médication et/ou d'un plan pharmaceutique personnalisé dans le cadre d'une consultation pharmaceutique."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -2239,12 +2065,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="CR de consultation pharmaceutique"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Réalisation d'un bilan de médication et/ou d'un plan pharmaceutique personnalisé dans le cadre d'une consultation pharmaceutique."/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -2354,6 +2174,7 @@
   <concept>
     <code value="4548-4"/>
     <display value="Hémoglobine A1c %"/>
+    <definition value="L'hémoglobine glyquée (HbA1C) est la part de l'hémoglobine qui capte le sucre dans le sang."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -2365,12 +2186,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Hémoglobine A1c %"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="L'hémoglobine glyquée (HbA1C) est la part de l'hémoglobine qui capte le sucre dans le sang."/>
     </designation>
     <property>
       <code value="dateValid"/>

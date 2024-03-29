@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "TRE-R340-TypeCaracteristiqueEquipement"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R340-TypeCaracteristiqueEquipement/FHIR/TRE-R340-TypeCaracteristiqueEquipement</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">001<a name=\"TRE-R340-TypeCaracteristiqueEquipement-001\"> </a></td><td>Poids maximum</td><td>2022-09-30T12:00:00+01:00</td><td>2022-09-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">002<a name=\"TRE-R340-TypeCaracteristiqueEquipement-002\"> </a></td><td>Diamètre maximum</td><td>2022-09-30T12:00:00+01:00</td><td>2022-09-30T12:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R340-TypeCaracteristiqueEquipement/FHIR/TRE-R340-TypeCaracteristiqueEquipement</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">001<a name=\"TRE-R340-TypeCaracteristiqueEquipement-001\"> </a></td><td>Poids maximum</td><td>Poids maximum supporté par l'équipement</td><td>2022-09-30T12:00:00+01:00</td><td>2022-09-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">002<a name=\"TRE-R340-TypeCaracteristiqueEquipement-002\"> </a></td><td>Diamètre maximum</td><td>Diamètre maximum autorisé par l'équipement</td><td>2022-09-30T12:00:00+01:00</td><td>2022-09-30T12:00:00+01:00</td></tr></table></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -26,7 +26,7 @@
   fhir:version [ fhir:v "1.2.0"] ; # 
   fhir:name [ fhir:v "TRE_R340-TypeCaracteristiqueEquipement"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-12-15T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -53,6 +53,7 @@
   fhir:concept ( [
      fhir:code [ fhir:v "001" ] ;
      fhir:display [ fhir:v "Poids maximum" ] ;
+     fhir:definition [ fhir:v "Poids maximum supporté par l'équipement" ] ;
      fhir:designation ( [
        fhir:use [
          fhir:code [ fhir:v "LibelleCourt" ]
@@ -63,11 +64,6 @@
          fhir:code [ fhir:v "LibelleAdapte" ]
        ] ;
        fhir:value [ fhir:v "Poids maximum" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "DescriptionMetier" ]
-       ] ;
-       fhir:value [ fhir:v "Poids maximum supporté par l'équipement" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
@@ -79,6 +75,7 @@
   ] [
      fhir:code [ fhir:v "002" ] ;
      fhir:display [ fhir:v "Diamètre maximum" ] ;
+     fhir:definition [ fhir:v "Diamètre maximum autorisé par l'équipement" ] ;
      fhir:designation ( [
        fhir:use [
          fhir:code [ fhir:v "LibelleCourt" ]
@@ -89,11 +86,6 @@
          fhir:code [ fhir:v "LibelleAdapte" ]
        ] ;
        fhir:value [ fhir:v "Diamètre maximum" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "DescriptionMetier" ]
-       ] ;
-       fhir:value [ fhir:v "Diamètre maximum autorisé par l'équipement" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;

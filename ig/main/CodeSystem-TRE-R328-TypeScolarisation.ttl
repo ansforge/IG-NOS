@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "TRE-R328-TypeScolarisation"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R328-TypeScolarisation/FHIR/TRE-R328-TypeScolarisation</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R328-TypeScolarisation-01\"> </a></td><td>Etudiant/Apprenti</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R328-TypeScolarisation-02\"> </a></td><td>Enfant scolarisé</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R328-TypeScolarisation-03\"> </a></td><td>Enfant non scolarisé</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R328-TypeScolarisation/FHIR/TRE-R328-TypeScolarisation</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R328-TypeScolarisation-01\"> </a></td><td>Etudiant/Apprenti</td><td>La personne est étudiant(e) ou apprenti(e)</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R328-TypeScolarisation-02\"> </a></td><td>Enfant scolarisé</td><td>La personne est un enfant scolarisé</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R328-TypeScolarisation-03\"> </a></td><td>Enfant non scolarisé</td><td>La personne est un enfant non scolarisé</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr></table></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -26,7 +26,7 @@
   fhir:version [ fhir:v "1.2.0"] ; # 
   fhir:name [ fhir:v "TRE_R328-TypeScolarisation"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-12-15T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -53,6 +53,7 @@
   fhir:concept ( [
      fhir:code [ fhir:v "01" ] ;
      fhir:display [ fhir:v "Etudiant/Apprenti" ] ;
+     fhir:definition [ fhir:v "La personne est étudiant(e) ou apprenti(e)" ] ;
      fhir:designation ( [
        fhir:use [
          fhir:code [ fhir:v "LibelleCourt" ]
@@ -63,11 +64,6 @@
          fhir:code [ fhir:v "LibelleAdapte" ]
        ] ;
        fhir:value [ fhir:v "Etudiant/Apprenti" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "DescriptionMetier" ]
-       ] ;
-       fhir:value [ fhir:v "La personne est étudiant(e) ou apprenti(e)" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
@@ -79,6 +75,7 @@
   ] [
      fhir:code [ fhir:v "02" ] ;
      fhir:display [ fhir:v "Enfant scolarisé" ] ;
+     fhir:definition [ fhir:v "La personne est un enfant scolarisé" ] ;
      fhir:designation ( [
        fhir:use [
          fhir:code [ fhir:v "LibelleCourt" ]
@@ -89,11 +86,6 @@
          fhir:code [ fhir:v "LibelleAdapte" ]
        ] ;
        fhir:value [ fhir:v "Enfant scolarisé" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "DescriptionMetier" ]
-       ] ;
-       fhir:value [ fhir:v "La personne est un enfant scolarisé" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
@@ -105,6 +97,7 @@
   ] [
      fhir:code [ fhir:v "03" ] ;
      fhir:display [ fhir:v "Enfant non scolarisé" ] ;
+     fhir:definition [ fhir:v "La personne est un enfant non scolarisé" ] ;
      fhir:designation ( [
        fhir:use [
          fhir:code [ fhir:v "LibelleCourt" ]
@@ -115,11 +108,6 @@
          fhir:code [ fhir:v "LibelleAdapte" ]
        ] ;
        fhir:value [ fhir:v "Enfant non scolarisé" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "DescriptionMetier" ]
-       ] ;
-       fhir:value [ fhir:v "La personne est un enfant non scolarisé" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;

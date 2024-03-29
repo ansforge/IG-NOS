@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R316-AutreCategorieEtablissement"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R316-AutreCategorieEtablissement/FHIR/TRE-R316-AutreCategorieEtablissement</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style="white-space:nowrap">801<a name="TRE-R316-AutreCategorieEtablissement-801"> </a></td><td>Dispositif d'appui à la coordination (DAC)</td><td>2021-07-30T12:00:00+01:00</td><td>2022-01-28T12:00:00+01:00</td><td>2022-01-28T12:00:00+01:00</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R316-AutreCategorieEtablissement/FHIR/TRE-R316-AutreCategorieEtablissement</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style="white-space:nowrap">801<a name="TRE-R316-AutreCategorieEtablissement-801"> </a></td><td>Dispositif d'appui à la coordination (DAC)</td><td>Ce code créé en l'absence de code FINESS est devenu obsolète suite à la création du code « 606 » dans la TRE_R66-CategorieEtablissement qui le remplace</td><td>2021-07-30T12:00:00+01:00</td><td>2022-01-28T12:00:00+01:00</td><td>2022-01-28T12:00:00+01:00</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>
@@ -17,7 +17,7 @@
   <version value="1.2.0"/>
   <name value="TRE_R316-AutreCategorieEtablissement"/>
   <status value="active"/>
-  <date value="2023-12-15T12:00:00+01:00"/>
+  <date value="2024-03-29T12:00:00+01:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -46,6 +46,7 @@
   <concept>
     <code value="801"/>
     <display value="Dispositif d'appui à la coordination (DAC)"/>
+    <definition value="Ce code créé en l'absence de code FINESS est devenu obsolète suite à la création du code « 606 » dans la TRE_R66-CategorieEtablissement qui le remplace"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -57,12 +58,6 @@
         <code value="LibelleAdapte"/>
       </use>
       <value value="Dispositif d'appui à la coordination (DAC)"/>
-    </designation>
-    <designation>
-      <use>
-        <code value="DescriptionMetier"/>
-      </use>
-      <value value="Ce code créé en l'absence de code FINESS est devenu obsolète suite à la création du code « 606 » dans la TRE_R66-CategorieEtablissement qui le remplace"/>
     </designation>
     <property>
       <code value="dateValid"/>

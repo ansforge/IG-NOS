@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.6.1.159"/>
   </identifier>
-  <version value="20200424120000"/>
+  <version value="20240329120000"/>
   <name value="JDV_J91-TypeSavoirFaire-RASS"/>
   <status value="active"/>
-  <date value="2020-04-24T12:00:00+01:00"/>
+  <date value="2024-03-29T12:00:00+01:00"/>
   <description value="Types de savoir-faire des professionnels du RASS"/>
   <compose>
     <include>
@@ -111,6 +111,16 @@
       <concept>
         <code value="SH"/>
         <display value="Spécialité de concours hospitalier"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.16"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SST"/>
+        <display value="Surspécialité acquise à l'issue d'une Formation Spécialisée Transversale (FST)"/>
         <designation>
           <use>
             <code value="OID"/>

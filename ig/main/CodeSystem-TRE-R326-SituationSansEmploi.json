@@ -3,7 +3,7 @@
   "id" : "TRE-R326-SituationSansEmploi",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R326-SituationSansEmploi/FHIR/TRE-R326-SituationSansEmploi</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"TRE-R326-SituationSansEmploi-1\"> </a></td><td>A Pôle Emploi</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"TRE-R326-SituationSansEmploi-2\"> </a></td><td>En formation continue</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"TRE-R326-SituationSansEmploi-3\"> </a></td><td>Etudiant</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R326-SituationSansEmploi/FHIR/TRE-R326-SituationSansEmploi</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"TRE-R326-SituationSansEmploi-1\"> </a></td><td>A Pôle Emploi</td><td>La personne est inscrite à Pôle Emploi</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"TRE-R326-SituationSansEmploi-2\"> </a></td><td>En formation continue</td><td>La personne est en formation continue</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"TRE-R326-SituationSansEmploi-3\"> </a></td><td>Etudiant</td><td>La personne est étudiant(e)</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr></table></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -18,7 +18,7 @@
   "version" : "1.2.0",
   "name" : "TRE_R326-SituationSansEmploi",
   "status" : "active",
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2024-03-29T12:00:00+01:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -47,6 +47,7 @@
   "concept" : [{
     "code" : "1",
     "display" : "A Pôle Emploi",
+    "definition" : "La personne est inscrite à Pôle Emploi",
     "designation" : [{
       "use" : {
         "code" : "LibelleCourt"
@@ -58,12 +59,6 @@
         "code" : "LibelleAdapte"
       },
       "value" : "A Pôle Emploi"
-    },
-    {
-      "use" : {
-        "code" : "DescriptionMetier"
-      },
-      "value" : "La personne est inscrite à Pôle Emploi"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -77,6 +72,7 @@
   {
     "code" : "2",
     "display" : "En formation continue",
+    "definition" : "La personne est en formation continue",
     "designation" : [{
       "use" : {
         "code" : "LibelleCourt"
@@ -88,12 +84,6 @@
         "code" : "LibelleAdapte"
       },
       "value" : "En formation continue"
-    },
-    {
-      "use" : {
-        "code" : "DescriptionMetier"
-      },
-      "value" : "La personne est en formation continue"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -107,6 +97,7 @@
   {
     "code" : "3",
     "display" : "Etudiant",
+    "definition" : "La personne est étudiant(e)",
     "designation" : [{
       "use" : {
         "code" : "LibelleCourt"
@@ -118,12 +109,6 @@
         "code" : "LibelleAdapte"
       },
       "value" : "Etudiant"
-    },
-    {
-      "use" : {
-        "code" : "DescriptionMetier"
-      },
-      "value" : "La personne est étudiant(e)"
     }],
     "property" : [{
       "code" : "dateValid",

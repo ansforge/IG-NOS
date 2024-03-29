@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.3.3.83"/>
   </identifier>
-  <version value="20231215120000"/>
+  <version value="20240329120000"/>
   <name value="TRE_R328-TypeScolarisation"/>
   <status value="active"/>
-  <date value="2023-12-15T12:00:00+01:00"/>
+  <date value="2024-03-29T12:00:00+01:00"/>
   <description value="Caractérise la situation scolaire de la personne"/>
   <content value="complete"/>
   <property>
@@ -34,6 +34,7 @@
   <concept>
     <code value="01"/>
     <display value="Etudiant/Apprenti"/>
+    <definition value="La personne est étudiant(e) ou apprenti(e)"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -45,12 +46,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Etudiant/Apprenti"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="La personne est étudiant(e) ou apprenti(e)"/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -64,6 +59,7 @@
   <concept>
     <code value="02"/>
     <display value="Enfant scolarisé"/>
+    <definition value="La personne est un enfant scolarisé"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -75,12 +71,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Enfant scolarisé"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="La personne est un enfant scolarisé"/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -94,6 +84,7 @@
   <concept>
     <code value="03"/>
     <display value="Enfant non scolarisé"/>
+    <definition value="La personne est un enfant non scolarisé"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -105,12 +96,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Enfant non scolarisé"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="La personne est un enfant non scolarisé"/>
     </designation>
     <property>
       <code value="dateValid"/>

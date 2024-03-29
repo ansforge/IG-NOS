@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.162"
     }
   ],
-  "version": "20220225120000",
+  "version": "20240329120000",
   "name": "JDV_J94-GenreActivite-RASS",
   "status": "active",
-  "date": "2022-02-25T12:00:00+01:00",
+  "date": "2024-03-29T12:00:00+01:00",
   "description": "Activités des professionnels RASS nécessitant des règles de gestion spécifiques",
   "compose": {
     "include": [
@@ -136,6 +136,30 @@
           {
             "code": "GENR12",
             "display": "Activité de professionnel du social et médico-social exerçant des fonctions d'encadrement et d'organisation de l'accompagnement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR13",
+            "display": "Activité médico-administrative",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.19"
+              }
+            ]
+          },
+          {
+            "code": "GENR99",
+            "display": "Autre activité",
             "designation": [
               {
                 "use": {

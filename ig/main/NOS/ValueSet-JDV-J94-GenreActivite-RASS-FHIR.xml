@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.6.1.162"/>
   </identifier>
-  <version value="20220225120000"/>
+  <version value="20240329120000"/>
   <name value="JDV_J94-GenreActivite-RASS"/>
   <status value="active"/>
-  <date value="2022-02-25T12:00:00+01:00"/>
+  <date value="2024-03-29T12:00:00+01:00"/>
   <description value="Activités des professionnels RASS nécessitant des règles de gestion spécifiques"/>
   <compose>
     <include>
@@ -111,6 +111,26 @@
       <concept>
         <code value="GENR12"/>
         <display value="Activité de professionnel du social et médico-social exerçant des fonctions d'encadrement et d'organisation de l'accompagnement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GENR13"/>
+        <display value="Activité médico-administrative"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.19"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="GENR99"/>
+        <display value="Autre activité"/>
         <designation>
           <use>
             <code value="OID"/>

@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.200"
     }
   ],
-  "version": "20231124120000",
+  "version": "20240329120000",
   "name": "JDV_J121-RolePriseCharge-ENREG",
   "status": "active",
-  "date": "2023-11-24T12:00:00+01:00",
+  "date": "2024-03-29T12:00:00+01:00",
   "description": "Code des rôles et fonctions pour l'application ENREG",
   "compose": {
     "include": [
@@ -292,6 +292,18 @@
           {
             "code": "334",
             "display": "Biologiste médical ni médecin ni pharmacien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "335",
+            "display": "Gestionnaire alertes et urgences sanitaires",
             "designation": [
               {
                 "use": {

@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.3.3.82"
     }
   ],
-  "version": "20231215120000",
+  "version": "20240329120000",
   "name": "TRE_R327-TypeDecision",
   "status": "active",
-  "date": "2023-12-15T12:00:00+01:00",
+  "date": "2024-03-29T12:00:00+01:00",
   "description": "Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager",
   "content": "complete",
   "property": [
@@ -42,6 +42,7 @@
     {
       "code": "1",
       "display": "Attribution",
+      "definition":"La CDAPH a décidé d'attribuer un droit ou une prestation à l'usager",
       "designation": [
         {
           "use": {
@@ -54,12 +55,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Attribution"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "La CDAPH a décidé d'attribuer un droit ou une prestation à l'usager"
         }
       ],
       "property": [
@@ -76,6 +71,7 @@
     {
       "code": "2",
       "display": "Rejet",
+      "definition":"La CDAPH a décidé de rejeter une demande de compensation ou un recours",
       "designation": [
         {
           "use": {
@@ -88,12 +84,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Rejet"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "La CDAPH a décidé de rejeter une demande de compensation ou un recours"
         }
       ],
       "property": [
@@ -110,6 +100,7 @@
     {
       "code": "3",
       "display": "Sursis",
+      "definition":"La CDAPH a sursis à sa décision parce qu'elle estime ne pas avoir suffisamment d'éléments pour statuer. L'équipe pluridisciplinaire devra apporter les informations manquantes et/ou faire de nouvelles propositions.",
       "designation": [
         {
           "use": {
@@ -122,12 +113,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Sursis"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "La CDAPH a sursis à sa décision parce qu'elle estime ne pas avoir suffisamment d'éléments pour statuer. L'équipe pluridisciplinaire devra apporter les informations manquantes et/ou faire de nouvelles propositions."
         }
       ],
       "property": [
@@ -144,6 +129,7 @@
     {
       "code": "4",
       "display": "Non attribution supplémentaire",
+      "definition":"La CDAPH a pris une décision de \"non attribution supplémentaire\" lorsque, convoquée plusieurs fois pour prendre les décisions répondant à une demande, elle a décidé de ne rien attribuer lors de la dernière séance",
       "designation": [
         {
           "use": {
@@ -156,12 +142,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Non attribution supplémentaire"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "La CDAPH a pris une décision de \"non attribution supplémentaire\" lorsque, convoquée plusieurs fois pour prendre les décisions répondant à une demande, elle a décidé de ne rien attribuer lors de la dernière séance"
         }
       ],
       "property": [
@@ -178,6 +158,7 @@
     {
       "code": "5",
       "display": "Clôture de droit",
+      "definition":"La CDAPH, déterminant qu'un usager n'est plus éligible à un droit précédemment attribué ou considérant que le droit n'apporte plus une réponse adaptée aux besoins de l'usager, a décidé de mettre fin à ce droit",
       "designation": [
         {
           "use": {
@@ -190,12 +171,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Clôture de droit"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "La CDAPH, déterminant qu'un usager n'est plus éligible à un droit précédemment attribué ou considérant que le droit n'apporte plus une réponse adaptée aux besoins de l'usager, a décidé de mettre fin à ce droit"
         }
       ],
       "property": [

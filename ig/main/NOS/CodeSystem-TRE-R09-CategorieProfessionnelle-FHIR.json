@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.10"
     }
   ],
-  "version": "20231215120000",
+  "version": "20240329120000",
   "name": "TRE_R09-CategorieProfessionnelle",
   "status": "active",
-  "date": "2023-12-15T12:00:00+01:00",
+  "date": "2024-03-29T12:00:00+01:00",
   "description": "Catégorie professionnelle",
   "content": "complete",
   "property": [
@@ -39,6 +39,34 @@
     }
   ],
   "concept": [
+    {
+      "code": "A",
+      "display": "Agent public",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Agent public"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Agent public"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-03-29T12:00:00+01:00"
+        }
+      ]
+    },
     {
       "code": "C",
       "display": "Civil",
@@ -146,8 +174,12 @@
           "valueDateTime": "2007-07-25T15:04:35+01:00"
         },
         {
+          "code": "dateFin",
+          "valueDateTime": "2024-03-29T12:00:00+01:00"
+        },
+        {
           "code": "dateMaj",
-          "valueDateTime": "2007-07-25T15:04:35+01:00"
+          "valueDateTime": "2024-03-29T12:00:00+01:00"
         }
       ]
     }

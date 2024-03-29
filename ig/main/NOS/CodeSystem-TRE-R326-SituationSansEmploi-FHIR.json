@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.3.3.81"
     }
   ],
-  "version": "20231215120000",
+  "version": "20240329120000",
   "name": "TRE_R326-SituationSansEmploi",
   "status": "active",
-  "date": "2023-12-15T12:00:00+01:00",
+  "date": "2024-03-29T12:00:00+01:00",
   "description": "Caractérise la situation de la personne lorsqu'elle est sans emploi",
   "content": "complete",
   "property": [
@@ -42,6 +42,7 @@
     {
       "code": "1",
       "display": "A Pôle Emploi",
+      "definition":"La personne est inscrite à Pôle Emploi",
       "designation": [
         {
           "use": {
@@ -54,12 +55,6 @@
             "code": "LibelleAdapte"
           },
           "value": "A Pôle Emploi"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "La personne est inscrite à Pôle Emploi"
         }
       ],
       "property": [
@@ -76,6 +71,7 @@
     {
       "code": "2",
       "display": "En formation continue",
+      "definition":"La personne est en formation continue",
       "designation": [
         {
           "use": {
@@ -88,12 +84,6 @@
             "code": "LibelleAdapte"
           },
           "value": "En formation continue"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "La personne est en formation continue"
         }
       ],
       "property": [
@@ -110,6 +100,7 @@
     {
       "code": "3",
       "display": "Etudiant",
+      "definition":"La personne est étudiant(e)",
       "designation": [
         {
           "use": {
@@ -122,12 +113,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Etudiant"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "La personne est étudiant(e)"
         }
       ],
       "property": [

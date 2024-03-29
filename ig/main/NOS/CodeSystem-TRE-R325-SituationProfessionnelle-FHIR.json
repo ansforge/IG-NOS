@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.3.3.80"
     }
   ],
-  "version": "20231215120000",
+  "version": "20240329120000",
   "name": "TRE_R325-SituationProfessionnelle",
   "status": "active",
-  "date": "2023-12-15T12:00:00+01:00",
+  "date": "2024-03-29T12:00:00+01:00",
   "description": "Caractérise la situation professionnelle de la personne",
   "content": "complete",
   "property": [
@@ -42,6 +42,7 @@
     {
       "code": "01",
       "display": "Situation Sans Emploi",
+      "definition":"La personne est sans emploi",
       "designation": [
         {
           "use": {
@@ -54,12 +55,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Situation Sans Emploi"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "La personne est sans emploi"
         }
       ],
       "property": [
@@ -76,6 +71,7 @@
     {
       "code": "02",
       "display": "Situation Avec Emploi",
+      "definition":"La personne a un emploi",
       "designation": [
         {
           "use": {
@@ -88,12 +84,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Situation Avec Emploi"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "La personne a un emploi"
         }
       ],
       "property": [

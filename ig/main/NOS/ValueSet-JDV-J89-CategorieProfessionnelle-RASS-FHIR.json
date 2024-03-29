@@ -15,16 +15,28 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.157"
     }
   ],
-  "version": "20200424120000",
+  "version": "20240329120000",
   "name": "JDV_J89-CategorieProfessionnelle-RASS",
   "status": "active",
-  "date": "2020-04-24T12:00:00+01:00",
+  "date": "2024-03-29T12:00:00+01:00",
   "description": "Catégories professionnelles dans le RASS",
   "compose": {
     "include": [
       {
         "system": "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle",
         "concept": [
+          {
+            "code": "A",
+            "display": "Agent public",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.10"
+              }
+            ]
+          },
           {
             "code": "C",
             "display": "Civil",

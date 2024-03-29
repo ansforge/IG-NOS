@@ -19,10 +19,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.205"
     }
   ],
-  "version": "20200731120000",
+  "version": "20240329120000",
   "name": "ASS_A21-AS-ActiviteModaliteForme",
   "status": "active",
-  "date": "2020-07-31T12:00:00+01:00",
+  "date": "2024-03-29T12:00:00+01:00",
   "description": "Triplet activité modalité forme pour les Activités de Soins (AS)",
   "group": [
     {
@@ -309,6 +309,66 @@
                 {
                   "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
                   "value": "10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "04",
+          "target": [
+            {
+              "code": "06",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "04",
+          "target": [
+            {
+              "code": "06",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "04",
+          "target": [
+            {
+              "code": "07",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "04",
+          "target": [
+            {
+              "code": "07",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
+                  "value": "12"
                 }
               ]
             }

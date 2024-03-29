@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.6.1.9"/>
   </identifier>
-  <version value="20231215120000"/>
+  <version value="20240329120000"/>
   <name value="TRE_R31-StatutEtatCivil"/>
   <status value="active"/>
-  <date value="2023-12-15T12:00:00+01:00"/>
+  <date value="2024-03-29T12:00:00+01:00"/>
   <description value="Status de l'état civil"/>
   <content value="complete"/>
   <property>
@@ -130,6 +130,7 @@
   <concept>
     <code value="FC"/>
     <display value="Certifié par FranceConnect"/>
+    <definition value="FranceConnect est un dispositif qui permet aux internautes de s'identifier sur un service en ligne par l'intermédiaire d'un compte existant (impots.gouv.fr, ameli.fr…). Les données d'état civil récupérées depuis le Répertoire national d'identification des personnes physiques de l'Insee (RNIPP) lors de l'identification par FranceConnect sont certifiées par l'Insee."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -141,12 +142,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Certifié par FranceConnect"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="FranceConnect est un dispositif qui permet aux internautes de s'identifier sur un service en ligne par l'intermédiaire d'un compte existant (impots.gouv.fr, ameli.fr…). Les données d'état civil récupérées depuis le Répertoire national d'identification des personnes physiques de l'Insee (RNIPP) lors de l'identification par FranceConnect sont certifiées par l'Insee."/>
     </designation>
     <property>
       <code value="dateValid"/>

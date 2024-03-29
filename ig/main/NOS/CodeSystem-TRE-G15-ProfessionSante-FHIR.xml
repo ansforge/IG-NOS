@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.71.1.2.7"/>
   </identifier>
-  <version value="20231215120000"/>
+  <version value="20240329120000"/>
   <name value="TRE_G15-ProfessionSante"/>
   <status value="active"/>
-  <date value="2023-12-15T12:00:00+01:00"/>
+  <date value="2024-03-29T12:00:00+01:00"/>
   <description value="Professions de santé définies par le code de la santé publique"/>
   <content value="complete"/>
   <property>
@@ -634,6 +634,7 @@
   <concept>
     <code value="93"/>
     <display value="Psychologue"/>
+    <definition value="Les annonces du Président lors des assises de la santé mentale ont porté sur un remboursement des actes de psychologie en 2022 ; la Cnam a indiqué que ce serait avant le 1er avril 2022. Pour le moment, il n'y a pas beaucoup d'alternative à la délivrance de CPS aux psychologues pour faire de la télétransmission de FSE et de l'avance de frais.  Ce code créé dans la TRE_G15-ProfessionSante a pour but d'être déversé dans la liste de codes DICO, non évolutive (elle ne peut pas intégrer une nouvelle nomenclature). DICO impacte tous les éditeurs et industriels car cette liste de codes est comprise dans la distribution des cryptolibs pour le bon fonctionnement des logiciels sur le terrain. Le code 93 « Psychologue » existe déjà dans la TRE_R95_UsagerTitre et est repris dans toutes les autres applications à travers leurs JDV. La création du code 93 dans la TRE_G15 comme obsolète a pour but de ne pas affecter les applications existantes en veillant bien à ce que leurs JDV ne reprenne pas ce code."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -645,12 +646,6 @@
           <code value="LibelleAdapte"/>
       </use>
       <value value="Psychologue"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="DescriptionMetier"/>
-      </use>
-      <value value="Les annonces du Président lors des assises de la santé mentale ont porté sur un remboursement des actes de psychologie en 2022 ; la Cnam a indiqué que ce serait avant le 1er avril 2022. Pour le moment, il n'y a pas beaucoup d'alternative à la délivrance de CPS aux psychologues pour faire de la télétransmission de FSE et de l'avance de frais.  Ce code créé dans la TRE_G15-ProfessionSante a pour but d'être déversé dans la liste de codes DICO, non évolutive (elle ne peut pas intégrer une nouvelle nomenclature). DICO impacte tous les éditeurs et industriels car cette liste de codes est comprise dans la distribution des cryptolibs pour le bon fonctionnement des logiciels sur le terrain. Le code 93 « Psychologue » existe déjà dans la TRE_R95_UsagerTitre et est repris dans toutes les autres applications à travers leurs JDV. La création du code 93 dans la TRE_G15 comme obsolète a pour but de ne pas affecter les applications existantes en veillant bien à ce que leurs JDV ne reprenne pas ce code."/>
     </designation>
     <property>
       <code value="dateValid"/>

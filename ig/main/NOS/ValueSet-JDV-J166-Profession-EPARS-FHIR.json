@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.227"
     }
   ],
-  "version": "20210625120000",
+  "version": "20240329120000",
   "name": "JDV_J166-Profession-EPARS",
   "status": "active",
-  "date": "2021-06-25T12:00:00+01:00",
+  "date": "2024-03-29T12:00:00+01:00",
   "description": "Profession pour EPARS",
   "compose": {
     "include": [
@@ -52,6 +52,18 @@
           {
             "code": "31",
             "display": "Assistant dentaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.1.2.7"
+              }
+            ]
+          },
+          {
+            "code": "32",
+            "display": "Physicien médical",
             "designation": [
               {
                 "use": {

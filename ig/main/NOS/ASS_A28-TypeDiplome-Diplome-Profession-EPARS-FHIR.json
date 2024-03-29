@@ -19,10 +19,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.241"
     }
   ],
-  "version": "20230331120000",
+  "version": "20240329120000",
   "name": "ASS_A28-TypeDiplome-Diplome-Profession-EPARS",
   "status": "active",
-  "date": "2023-03-31T12:00:00+01:00",
+  "date": "2024-03-29T12:00:00+01:00",
   "description": "Table d'association entre les types de diplômes, les diplômes et les professions de santé, médico-sociales ou sociales",
   "group": [
     {
@@ -1104,6 +1104,21 @@
                 {
                   "property": "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
                   "value": "98"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "target": [
+            {
+              "code": "DIP409",
+              "equivalence": "equivalent",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value": "32"
                 }
               ]
             }

@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.3.3.72"
     }
   ],
-  "version": "20231215120000",
+  "version": "20240329120000",
   "name": "TRE_R317-SituationVieQuotidienne",
   "status": "active",
-  "date": "2023-12-15T12:00:00+01:00",
+  "date": "2024-03-29T12:00:00+01:00",
   "description": "Caractérise la situation de vie de la personne : vit seule ou avec d'autres personnes",
   "content": "complete",
   "property": [
@@ -42,6 +42,7 @@
     {
       "code": "01",
       "display": "Seul",
+      "definition":"La personne vit seule",
       "designation": [
         {
           "use": {
@@ -54,12 +55,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Seul"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "La personne vit seule"
         }
       ],
       "property": [
@@ -76,6 +71,7 @@
     {
       "code": "02",
       "display": "Avec les parents",
+      "definition":"La personne vit avec ses parents (ou avec l'un d'eux)",
       "designation": [
         {
           "use": {
@@ -88,12 +84,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Avec les parents"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "La personne vit avec ses parents (ou avec l'un d'eux)"
         }
       ],
       "property": [
@@ -110,6 +100,7 @@
     {
       "code": "03",
       "display": "Avec les enfants",
+      "definition":"La personne vit avec ses enfants (ou avec l'un d'eux)",
       "designation": [
         {
           "use": {
@@ -122,12 +113,6 @@
             "code": "LibelleAdapte"
           },
           "value": "Avec les enfants"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "La personne vit avec ses enfants (ou avec l'un d'eux)"
         }
       ],
       "property": [
@@ -144,6 +129,7 @@
     {
       "code": "04",
       "display": "En couple",
+      "definition":"La personne vit en couple",
       "designation": [
         {
           "use": {
@@ -156,12 +142,6 @@
             "code": "LibelleAdapte"
           },
           "value": "En couple"
-        },
-        {
-          "use": {
-            "code": "DescriptionMetier"
-          },
-          "value": "La personne vit en couple"
         }
       ],
       "property": [
