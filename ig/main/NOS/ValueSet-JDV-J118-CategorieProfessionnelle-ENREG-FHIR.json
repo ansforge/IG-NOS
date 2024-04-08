@@ -26,18 +26,6 @@
         "system": "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle",
         "concept": [
           {
-            "code": "A",
-            "display": "Agent public",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.6.1.10"
-              }
-            ]
-          },
-          {
             "code": "C",
             "display": "Civil",
             "designation": [
@@ -64,6 +52,18 @@
           {
             "code": "F",
             "display": "Fonctionnaire",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.10"
+              }
+            ]
+          },
+          {
+            "code": "M",
+            "display": "Agent public",
             "designation": [
               {
                 "use": {

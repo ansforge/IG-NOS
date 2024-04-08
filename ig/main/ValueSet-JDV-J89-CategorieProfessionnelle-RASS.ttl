@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "JDV-J89-CategorieProfessionnelle-RASS"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R09-CategorieProfessionnelle.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R09-CategorieProfessionnelle.html#TRE-R09-CategorieProfessionnelle-A\">A</a></td><td>Agent public</td></tr><tr><td><a href=\"CodeSystem-TRE-R09-CategorieProfessionnelle.html#TRE-R09-CategorieProfessionnelle-C\">C</a></td><td>Civil</td></tr><tr><td><a href=\"CodeSystem-TRE-R09-CategorieProfessionnelle.html#TRE-R09-CategorieProfessionnelle-E\">E</a></td><td>Etudiant</td></tr><tr><td><a href=\"CodeSystem-TRE-R09-CategorieProfessionnelle.html#TRE-R09-CategorieProfessionnelle-F\">F</a></td><td>Fonctionnaire d'Etat ou de collectivité locale</td></tr><tr><td><a href=\"CodeSystem-TRE-R09-CategorieProfessionnelle.html#TRE-R09-CategorieProfessionnelle-M\">M</a></td><td>Militaire</td></tr></table></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R09-CategorieProfessionnelle.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R09-CategorieProfessionnelle.html#TRE-R09-CategorieProfessionnelle-C\">C</a></td><td>Civil</td></tr><tr><td><a href=\"CodeSystem-TRE-R09-CategorieProfessionnelle.html#TRE-R09-CategorieProfessionnelle-E\">E</a></td><td>Etudiant</td></tr><tr><td><a href=\"CodeSystem-TRE-R09-CategorieProfessionnelle.html#TRE-R09-CategorieProfessionnelle-F\">F</a></td><td>Fonctionnaire d'Etat ou de collectivité locale</td></tr><tr><td><a href=\"CodeSystem-TRE-R09-CategorieProfessionnelle.html#TRE-R09-CategorieProfessionnelle-M\">M</a></td><td>Agent public</td></tr></table></li></ul></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -40,15 +40,6 @@
      fhir:include ( [
        fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle"^^xsd:anyURI ] ;
        fhir:concept ( [
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Agent public" ] ;
-         fhir:designation ( [
-           fhir:use [
-             fhir:code [ fhir:v "OID" ]
-           ] ;
-           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.10" ]
-         ] )
-       ] [
          fhir:code [ fhir:v "C" ] ;
          fhir:display [ fhir:v "Civil" ] ;
          fhir:designation ( [
@@ -77,7 +68,7 @@
          ] )
        ] [
          fhir:code [ fhir:v "M" ] ;
-         fhir:display [ fhir:v "Militaire" ] ;
+         fhir:display [ fhir:v "Agent public" ] ;
          fhir:designation ( [
            fhir:use [
              fhir:code [ fhir:v "OID" ]
