@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.3.3.69"
     }
   ],
-  "version": "20240126120000",
+  "version": "20240426120000",
   "name": "JDV_J70-Equipement-Santefr",
   "status": "active",
-  "date": "2024-01-26T12:00:00+01:00",
+  "date": "2024-04-26T12:00:00+01:00",
   "description": "Equipements Santé.fr",
   "compose": {
     "include": [
@@ -447,7 +447,7 @@
           },
           {
             "code": "098",
-            "display": "Bassin thérapeutique pour balnéothérapie (<20m2)",
+            "display": "Bassin thérapeutique pour balnéothérapie (<25m2)",
             "designation": [
               {
                 "use": {
@@ -459,7 +459,7 @@
           },
           {
             "code": "099",
-            "display": "Piscine pour balnéothérapie (>20m2)",
+            "display": "Bassin thérapeutique pour balnéothérapie (>=25m2)",
             "designation": [
               {
                 "use": {
@@ -1564,6 +1564,30 @@
           {
             "code": "210",
             "display": "Arthromoteurs membres supérieurs (épaules, coudes)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.10"
+              }
+            ]
+          },
+          {
+            "code": "211",
+            "display": "Salle hybride",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.10"
+              }
+            ]
+          },
+          {
+            "code": "212",
+            "display": "Vidéo assistance",
             "designation": [
               {
                 "use": {

@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.1.4.328"
     }
   ],
-  "version": "20240329120000",
+  "version": "20240426120000",
   "name": "TRE_R220-ModeleDocumentCDAStructure",
   "status": "active",
-  "date": "2024-03-29T12:00:00+01:00",
+  "date": "2024-04-26T12:00:00+01:00",
   "description": "Identifiant des modèles de CDA structurés",
   "content": "complete",
   "property": [
@@ -1220,8 +1220,12 @@
           "valueDateTime": "2022-03-25T12:00:00+01:00"
         },
         {
+          "code": "dateFin",
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
+        },
+        {
           "code": "dateMaj",
-          "valueDateTime": "2022-03-25T12:00:00+01:00"
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
         }
       ]
     },
@@ -1248,8 +1252,12 @@
           "valueDateTime": "2022-03-25T12:00:00+01:00"
         },
         {
+          "code": "dateFin",
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
+        },
+        {
           "code": "dateMaj",
-          "valueDateTime": "2022-03-25T12:00:00+01:00"
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
         }
       ]
     },
@@ -1444,15 +1452,19 @@
           "valueDateTime": "2022-03-25T12:00:00+01:00"
         },
         {
+          "code": "dateFin",
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
+        },
+        {
           "code": "dateMaj",
-          "valueDateTime": "2022-03-25T12:00:00+01:00"
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
         }
       ]
     },
     {
       "code": "1.2.250.1.213.1.1.1.51",
-      "display": "Synthèse du dossier médical",
-      "definition":"Synthèse du dossier médical",
+      "display": "Synthèse médicale",
+      "definition":"Synthèse médicale",
       "designation": [
         {
           "use": {
@@ -1464,7 +1476,7 @@
           "use": {
             "code": "LibelleAdapte"
           },
-          "value": "Synthèse du dossier médical"
+          "value": "Synthèse médicale"
         }
       ],
       "property": [
@@ -1474,7 +1486,7 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2022-04-29T12:00:00+01:00"
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
         }
       ]
     },
@@ -1588,6 +1600,90 @@
         {
           "code": "dateMaj",
           "valueDateTime": "2024-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "1.2.250.1.213.1.1.1.60",
+      "display": "Document de liaison d'urgence",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DLU-DLU"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Document de liaison d'urgence"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "1.2.250.1.213.1.1.1.61",
+      "display": "Fiche de transfert vers le service des urgences",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DLU-FT-SU"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fiche de transfert vers le service des urgences"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "1.2.250.1.213.1.1.1.62",
+      "display": "Fiche de retour du service des urgences",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "DLU-FR-SU"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Fiche de retour du service des urgences"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
         }
       ]
     },

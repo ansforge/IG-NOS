@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.3.3.10"
     }
   ],
-  "version": "20240329120000",
+  "version": "20240426120000",
   "name": "TRE_R212-Equipement",
   "status": "active",
-  "date": "2024-03-29T12:00:00+01:00",
+  "date": "2024-04-26T12:00:00+01:00",
   "description": "Equipement",
   "content": "complete",
   "property": [
@@ -3005,7 +3005,8 @@
     },
     {
       "code": "098",
-      "display": "Bassin thérapeutique pour balnéothérapie (<20m2)",
+      "display": "Bassin thérapeutique pour balnéothérapie (<25m2)",
+      "definition":"Ensemble de soins reposant sur l'immersion du corps ou d'une partie du corps dans un bassin d'eau (inférieur à 25 m²) à des fins thérapeutiques",
       "designation": [
         {
           "use": {
@@ -3017,7 +3018,7 @@
           "use": {
             "code": "LibelleAdapte"
           },
-          "value": "Bassin thérapeutique pour balnéothérapie (<20m2)"
+          "value": "Bassin thérapeutique pour balnéothérapie (<25m2)"
         }
       ],
       "property": [
@@ -3027,13 +3028,14 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2017-10-13T12:00:00+01:00"
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
         }
       ]
     },
     {
       "code": "099",
-      "display": "Piscine pour balnéothérapie (>20m2)",
+      "display": "Bassin thérapeutique pour balnéothérapie (>=25m2)",
+      "definition":"Plateau technique spécialisé constitué par un bassin permettant l'immersion du corps ou d'une partie du corps dans un bassin d'eau (supérieur à 25 m²) à des fins thérapeutiques, équipé de dispositifs de levage et de rampes d'accès au bassin",
       "designation": [
         {
           "use": {
@@ -3045,7 +3047,7 @@
           "use": {
             "code": "LibelleAdapte"
           },
-          "value": "Piscine pour balnéothérapie (>20m2)"
+          "value": "Bassin thérapeutique pour balnéothérapie (>=25m2)"
         }
       ],
       "property": [
@@ -3055,7 +3057,7 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2017-10-13T12:00:00+01:00"
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
         }
       ]
     },
@@ -6199,6 +6201,62 @@
         {
           "code": "dateMaj",
           "valueDateTime": "2023-06-30T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "211",
+      "display": "Salle hybride",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "211"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Salle hybride"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "212",
+      "display": "Vidéo assistance",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "212"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Vidéo assistance"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-04-26T12:00:00+01:00"
         }
       ]
     }

@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.4.2.282"/>
   </identifier>
-  <version value="20240329120000"/>
+  <version value="20240426120000"/>
   <name value="TRE_A06-FormatCodeComplementaire"/>
   <status value="active"/>
-  <date value="2024-03-29T12:00:00+01:00"/>
+  <date value="2024-04-26T12:00:00+01:00"/>
   <description value="formatCode en complément des nomenclatures internationales"/>
   <content value="complete"/>
   <property>
@@ -580,8 +580,12 @@
       <valueDateTime value="2022-03-25T12:00:00+01:00"/>
     </property>
     <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2022-03-25T12:00:00+01:00"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
@@ -604,8 +608,12 @@
       <valueDateTime value="2022-03-25T12:00:00+01:00"/>
     </property>
     <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2022-03-25T12:00:00+01:00"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
@@ -628,8 +636,12 @@
       <valueDateTime value="2022-03-25T12:00:00+01:00"/>
     </property>
     <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2022-04-29T12:00:00+01:00"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
@@ -1491,6 +1503,78 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-07-28T09:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="urn:asip:ci-sis:dlu:2024"/>
+    <display value="Document de liaison d'urgence"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="DLU-DLU"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Document de liaison d'urgence"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="urn:asip:ci-sis:ft-su:2024"/>
+    <display value="Fiche de transfert vers le service des urgences"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="DLU-FT-SU"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Fiche de transfert vers le service des urgences"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="urn:asip:ci-sis:fr-su:2024"/>
+    <display value="Fiche de retour du service des urgences"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="DLU-FR-SU"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Fiche de retour du service des urgences"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
     </property>
   </concept>
 </CodeSystem>

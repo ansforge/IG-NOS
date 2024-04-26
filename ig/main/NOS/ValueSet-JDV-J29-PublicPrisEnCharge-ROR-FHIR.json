@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.3.3.30"
     }
   ],
-  "version": "20231030120000",
+  "version": "20240426120000",
   "name": "JDV_J29-PublicPrisEnCharge-ROR",
   "status": "active",
-  "date": "2023-10-30T12:00:00+01:00",
+  "date": "2024-04-26T12:00:00+01:00",
   "description": "Public pris en charge - ROR",
   "compose": {
     "include": [
@@ -112,6 +112,18 @@
           {
             "code": "08",
             "display": "Etudiants",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.29"
+              }
+            ]
+          },
+          {
+            "code": "09",
+            "display": "Personnes atteintes de pathologies chroniques ou présentant une affection de longue durée (ALD)",
             "designation": [
               {
                 "use": {

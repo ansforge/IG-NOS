@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:2.16.840.1.113883.5.110"/>
   </identifier>
-  <version value="20231215120000"/>
+  <version value="20240426120000"/>
   <name value="TRE_R260-HL7RoleClass"/>
   <status value="active"/>
-  <date value="2023-12-15T12:00:00+01:00"/>
+  <date value="2024-04-26T12:00:00+01:00"/>
   <description value="Rôle de la personne point de contact auprès d'une autre personne repris de la terminologie HL7 v3 RoleClass (https://www.hl7.org/fhir/v3/RoleClass/cs.html)"/>
   <content value="complete"/>
   <property>
@@ -33,7 +33,7 @@
   </property>
   <concept>
     <code value="ECON"/>
-    <display value="Entité à contacter en cas d'urgence"/>
+    <display value="personne à prévenir en cas d'urgence"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -44,7 +44,7 @@
       <use>
           <code value="LibelleAdapte"/>
       </use>
-      <value value="Entité à contacter en cas d'urgence"/>
+      <value value="personne à prévenir en cas d'urgence"/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -52,7 +52,7 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+      <valueDateTime value="2024-03-29T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
@@ -99,8 +99,12 @@
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
     </property>
     <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2024-03-29T12:00:00+01:00"/>
+    </property>
+    <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+      <valueDateTime value="2024-03-29T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
@@ -177,7 +181,7 @@
   </concept>
   <concept>
     <code value="PAT"/>
-    <display value="Patient"/>
+    <display value="aidé"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -188,7 +192,7 @@
       <use>
           <code value="LibelleAdapte"/>
       </use>
-      <value value="Patient"/>
+      <value value="aidé"/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -196,7 +200,7 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2019-10-25T12:00:00+01:00"/>
+      <valueDateTime value="2024-03-29T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
@@ -245,6 +249,30 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2021-03-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NOK"/>
+    <display value="personne de confiance"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="NOK"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="personne de confiance"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2024-03-29T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2024-03-29T12:00:00+01:00"/>
     </property>
   </concept>
 </CodeSystem>

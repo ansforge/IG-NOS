@@ -15,10 +15,10 @@
       "value": "urn:oid:2.16.840.1.113883.5.110"
     }
   ],
-  "version": "20231215120000",
+  "version": "20240426120000",
   "name": "TRE_R260-HL7RoleClass",
   "status": "active",
-  "date": "2023-12-15T12:00:00+01:00",
+  "date": "2024-04-26T12:00:00+01:00",
   "description": "Rôle de la personne point de contact auprès d'une autre personne repris de la terminologie HL7 v3 RoleClass (https://www.hl7.org/fhir/v3/RoleClass/cs.html)",
   "content": "complete",
   "property": [
@@ -41,7 +41,7 @@
   "concept": [
     {
       "code": "ECON",
-      "display": "Entité à contacter en cas d'urgence",
+      "display": "personne à prévenir en cas d'urgence",
       "designation": [
         {
           "use": {
@@ -53,7 +53,7 @@
           "use": {
             "code": "LibelleAdapte"
           },
-          "value": "Entité à contacter en cas d'urgence"
+          "value": "personne à prévenir en cas d'urgence"
         }
       ],
       "property": [
@@ -63,7 +63,7 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2018-03-30T12:00:00+01:00"
+          "valueDateTime": "2024-03-29T12:00:00+01:00"
         }
       ]
     },
@@ -118,8 +118,12 @@
           "valueDateTime": "2018-03-30T12:00:00+01:00"
         },
         {
+          "code": "dateFin",
+          "valueDateTime": "2024-03-29T12:00:00+01:00"
+        },
+        {
           "code": "dateMaj",
-          "valueDateTime": "2018-03-30T12:00:00+01:00"
+          "valueDateTime": "2024-03-29T12:00:00+01:00"
         }
       ]
     },
@@ -209,7 +213,7 @@
     },
     {
       "code": "PAT",
-      "display": "Patient",
+      "display": "aidé",
       "designation": [
         {
           "use": {
@@ -221,7 +225,7 @@
           "use": {
             "code": "LibelleAdapte"
           },
-          "value": "Patient"
+          "value": "aidé"
         }
       ],
       "property": [
@@ -231,7 +235,7 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2019-10-25T12:00:00+01:00"
+          "valueDateTime": "2024-03-29T12:00:00+01:00"
         }
       ]
     },
@@ -288,6 +292,34 @@
         {
           "code": "dateMaj",
           "valueDateTime": "2021-03-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NOK",
+      "display": "personne de confiance",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "NOK"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "personne de confiance"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-03-29T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-03-29T12:00:00+01:00"
         }
       ]
     }

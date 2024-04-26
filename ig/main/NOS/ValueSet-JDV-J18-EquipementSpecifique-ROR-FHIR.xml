@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.3.4.6"/>
   </identifier>
-  <version value="20240126120000"/>
+  <version value="20240426120000"/>
   <name value="JDV_J18-EquipementSpecifique-ROR"/>
   <status value="active"/>
-  <date value="2024-01-26T12:00:00+01:00"/>
+  <date value="2024-04-26T12:00:00+01:00"/>
   <description value="Equipement spécifique - ROR"/>
   <compose>
     <include>
@@ -370,7 +370,7 @@
       </concept>
       <concept>
         <code value="098"/>
-        <display value="Bassin thérapeutique pour balnéothérapie (&lt;20m2)"/>
+        <display value="Bassin thérapeutique pour balnéothérapie (&lt;25m2)"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -380,7 +380,7 @@
       </concept>
       <concept>
         <code value="099"/>
-        <display value="Piscine pour balnéothérapie (&gt;20m2)"/>
+        <display value="Bassin thérapeutique pour balnéothérapie (&gt;=25m2)"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -1411,6 +1411,26 @@
       <concept>
         <code value="210"/>
         <display value="Arthromoteurs membres supérieurs (épaules, coudes)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.10"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="211"/>
+        <display value="Salle hybride"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.10"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="212"/>
+        <display value="Vidéo assistance"/>
         <designation>
           <use>
             <code value="OID"/>

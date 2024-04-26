@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.3.3.10"/>
   </identifier>
-  <version value="20240329120000"/>
+  <version value="20240426120000"/>
   <name value="TRE_R212-Equipement"/>
   <status value="active"/>
-  <date value="2024-03-29T12:00:00+01:00"/>
+  <date value="2024-04-26T12:00:00+01:00"/>
   <description value="Equipement"/>
   <content value="complete"/>
   <property>
@@ -2609,7 +2609,8 @@
   </concept>
   <concept>
     <code value="098"/>
-    <display value="Bassin thérapeutique pour balnéothérapie (&lt;20m2)"/>
+    <display value="Bassin thérapeutique pour balnéothérapie (&lt;25m2)"/>
+    <definition value="Ensemble de soins reposant sur l'immersion du corps ou d'une partie du corps dans un bassin d'eau (inférieur à 25 m²) à des fins thérapeutiques"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -2620,7 +2621,7 @@
       <use>
           <code value="LibelleAdapte"/>
       </use>
-      <value value="Bassin thérapeutique pour balnéothérapie (&lt;20m2)"/>
+      <value value="Bassin thérapeutique pour balnéothérapie (&lt;25m2)"/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -2628,12 +2629,13 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2017-10-13T12:00:00+01:00"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
     <code value="099"/>
-    <display value="Piscine pour balnéothérapie (&gt;20m2)"/>
+    <display value="Bassin thérapeutique pour balnéothérapie (&gt;=25m2)"/>
+    <definition value="Plateau technique spécialisé constitué par un bassin permettant l'immersion du corps ou d'une partie du corps dans un bassin d'eau (supérieur à 25 m²) à des fins thérapeutiques, équipé de dispositifs de levage et de rampes d'accès au bassin"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -2644,7 +2646,7 @@
       <use>
           <code value="LibelleAdapte"/>
       </use>
-      <value value="Piscine pour balnéothérapie (&gt;20m2)"/>
+      <value value="Bassin thérapeutique pour balnéothérapie (&gt;=25m2)"/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -2652,7 +2654,7 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2017-10-13T12:00:00+01:00"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
@@ -5352,6 +5354,54 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="211"/>
+    <display value="Salle hybride"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="211"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Salle hybride"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="212"/>
+    <display value="Vidéo assistance"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="212"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Vidéo assistance"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
     </property>
   </concept>
 </CodeSystem>
