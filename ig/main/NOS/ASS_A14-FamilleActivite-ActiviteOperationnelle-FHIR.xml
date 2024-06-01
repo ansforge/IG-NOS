@@ -13,10 +13,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.3.3.63"/>
   </identifier>
-  <version value="20231030120000"/>
+  <version value="20240531120000"/>
   <name value="ASS_A14-FamilleActivite-ActiviteOperationnelle"/>
   <status value="active"/>
-  <date value="2023-10-30T12:00:00+01:00"/>
+  <date value="2024-05-31T12:00:00+01:00"/>
   <description value="Association Famille activité - Activité opérationnelle"/>
       <group>
         <source value="https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin"/>
@@ -469,6 +469,13 @@
             <equivalence value="equivalent"/>
           </target>
         </element>
+        <element>
+          <code value="037"/>
+          <target>
+            <code value="548"/>
+            <equivalence value="equivalent"/>
+          </target>
+        </element>
       </group>
       <group>
         <source value="https://mos.esante.gouv.fr/NOS/TRE_R266-FamilleActiviteOperationnelleHorsSerafin/FHIR/TRE-R266-FamilleActiviteOperationnelleHorsSerafin"/>
@@ -519,6 +526,13 @@
           <code value="04"/>
           <target>
             <code value="511"/>
+            <equivalence value="equivalent"/>
+          </target>
+        </element>
+        <element>
+          <code value="04"/>
+          <target>
+            <code value="547"/>
             <equivalence value="equivalent"/>
           </target>
         </element>
