@@ -2568,6 +2568,18 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J264-ModeEtCentreDePriseEnCharge-MDPH> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J264-ModeEtCentreDePriseEnCharge-MDPH" ]
+       ] ;
+       fhir:name [ fhir:v "JDV_J264-ModeEtCentreDePriseEnCharge-MDPH" ] ;
+       fhir:description [ fhir:v "Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J27-GroupeTarifaireDependance-ROR> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J27-GroupeTarifaireDependance-ROR" ]
        ] ;
@@ -3005,30 +3017,6 @@
        ] ;
        fhir:name [ fhir:v "JDV_J68-ProfilAccesReferentiel-ROR" ] ;
        fhir:description [ fhir:v "Liste des rôles métiers définis dans la politique d'accès au ROR" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J69-ActiviteOperationnelle-Santefr> ;
-         fhir:reference [ fhir:v "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr" ]
-       ] ;
-       fhir:name [ fhir:v "JDV_J69-ActiviteOperationnelle-Santefr" ] ;
-       fhir:description [ fhir:v "Activités opérationnelles de Santé.fr" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J70-Equipement-Santefr> ;
-         fhir:reference [ fhir:v "ValueSet/JDV-J70-Equipement-Santefr" ]
-       ] ;
-       fhir:name [ fhir:v "JDV_J70-Equipement-Santefr" ] ;
-       fhir:description [ fhir:v "Equipements Santé.fr" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -5932,7 +5920,7 @@
          fhir:reference [ fhir:v "CodeSystem/TRE-R42-DESCnonQualifiant" ]
        ] ;
        fhir:name [ fhir:v "TRE_R42-DESCnonQualifiant" ] ;
-       fhir:description [ fhir:v "DESC non qualifiant" ] ;
+       fhir:description [ fhir:v "Savoir-faire liés aux DESC du groupe 1 non qualifiants" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

@@ -2656,6 +2656,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/JDV-J264-ModeEtCentreDePriseEnCharge-MDPH"
+      },
+      "name" : "JDV_J264-ModeEtCentreDePriseEnCharge-MDPH",
+      "description" : "Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J27-GroupeTarifaireDependance-ROR"
       },
       "name" : "JDV_J27-GroupeTarifaireDependance-ROR",
@@ -3092,30 +3104,6 @@
       },
       "name" : "JDV_J68-ProfilAccesReferentiel-ROR",
       "description" : "Liste des rôles métiers définis dans la politique d'accès au ROR",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"
-      },
-      "name" : "JDV_J69-ActiviteOperationnelle-Santefr",
-      "description" : "Activités opérationnelles de Santé.fr",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/JDV-J70-Equipement-Santefr"
-      },
-      "name" : "JDV_J70-Equipement-Santefr",
-      "description" : "Equipements Santé.fr",
       "exampleBoolean" : false
     },
     {
@@ -6019,7 +6007,7 @@
         "reference" : "CodeSystem/TRE-R42-DESCnonQualifiant"
       },
       "name" : "TRE_R42-DESCnonQualifiant",
-      "description" : "DESC non qualifiant",
+      "description" : "Savoir-faire liés aux DESC du groupe 1 non qualifiants",
       "exampleBoolean" : false
     },
     {

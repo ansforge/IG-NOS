@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.220"
     }
   ],
-  "version": "20201127120000",
+  "version": "20240628120000",
   "name": "JDV_J134-FormeActivite-RASS",
   "status": "active",
-  "date": "2020-11-27T12:00:00+01:00",
+  "date": "2024-06-28T12:00:00+01:00",
   "description": "Type d'organisation de prise en charge du RASS",
   "compose": {
     "include": [
@@ -148,6 +148,30 @@
           {
             "code": "10",
             "display": "Appartement thérapeutique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "11",
+            "display": "Centre postcure",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "12",
+            "display": "Centre de crise",
             "designation": [
               {
                 "use": {

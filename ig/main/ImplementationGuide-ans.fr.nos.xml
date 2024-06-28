@@ -2330,6 +2330,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/JDV-J264-ModeEtCentreDePriseEnCharge-MDPH"/>
+      </reference>
+      <name value="JDV_J264-ModeEtCentreDePriseEnCharge-MDPH"/>
+      <description value="Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/JDV-J27-GroupeTarifaireDependance-ROR"/>
       </reference>
       <name value="JDV_J27-GroupeTarifaireDependance-ROR"/>
@@ -2730,28 +2741,6 @@
       </reference>
       <name value="JDV_J68-ProfilAccesReferentiel-ROR"/>
       <description value="Liste des rôles métiers définis dans la politique d'accès au ROR"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"/>
-      </reference>
-      <name value="JDV_J69-ActiviteOperationnelle-Santefr"/>
-      <description value="Activités opérationnelles de Santé.fr"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J70-Equipement-Santefr"/>
-      </reference>
-      <name value="JDV_J70-Equipement-Santefr"/>
-      <description value="Equipements Santé.fr"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -5413,7 +5402,7 @@
         <reference value="CodeSystem/TRE-R42-DESCnonQualifiant"/>
       </reference>
       <name value="TRE_R42-DESCnonQualifiant"/>
-      <description value="DESC non qualifiant"/>
+      <description value="Savoir-faire liés aux DESC du groupe 1 non qualifiants"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

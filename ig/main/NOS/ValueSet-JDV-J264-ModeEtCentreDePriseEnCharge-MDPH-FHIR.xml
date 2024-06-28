@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J264-ModeEtCentreDePriseEnCharge-MDPH"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2024-06-28T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J264-ModeEtCentreDePriseEnCharge-MDPH/FHIR/JDV-J264-ModeEtCentreDePriseEnCharge-MDPH"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.105"/>
+  </identifier>
+  <version value="20240628120000"/>
+  <name value="JDV_J264-ModeEtCentreDePriseEnCharge-MDPH"/>
+  <status value="active"/>
+  <date value="2024-06-28T12:00:00+01:00"/>
+  <description value="Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge"/>
+      <concept>
+        <code value="46"/>
+        <display value="Hébergement (accueil jour et nuit)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.13"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="47"/>
+        <display value="Accueil de jour"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.13"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="48"/>
+        <display value="Accueil de nuit"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.13"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"/>
+      <concept>
+        <code value="238"/>
+        <display value="Centre d'Accueil Familial Spécialisé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.8"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

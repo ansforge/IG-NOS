@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.464"/>
   </identifier>
-  <version value="20240531120000"/>
+  <version value="20240628120000"/>
   <name value="JDV_J03-XdsContentTypeCode-CISIS"/>
   <status value="active"/>
-  <date value="2024-05-31T12:00:00+01:00"/>
+  <date value="2024-06-28T12:00:00+01:00"/>
   <description value="XDS contentTypeCode CI-SIS"/>
   <compose>
     <include>
@@ -945,6 +945,16 @@
         </designation>
       </concept>
       <concept>
+        <code value="SA65"/>
+        <display value="Antenne de pharmacie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
         <code value="SA66"/>
         <display value="Services de Prévention et de Santé au Travail (SPST)"/>
         <designation>
@@ -970,6 +980,26 @@
       <concept>
         <code value="05"/>
         <display value="Hospitalisation à domicile (au domicile du patient)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.128"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="Centre postcure"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.128"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="12"/>
+        <display value="Centre de crise"/>
         <designation>
           <use>
             <code value="OID"/>

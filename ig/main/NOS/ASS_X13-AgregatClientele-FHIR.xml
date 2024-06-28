@@ -13,10 +13,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.6.1.194"/>
   </identifier>
-  <version value="20211126120000"/>
+  <version value="20240628120000"/>
   <name value="ASS_X13-AgregatClientele"/>
   <status value="active"/>
-  <date value="2021-11-26T12:00:00+01:00"/>
+  <date value="2024-06-28T12:00:00+01:00"/>
   <description value="Association d'agrégats de clientèle"/>
       <group>
         <source value="https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2"/>
@@ -84,6 +84,17 @@
             <dependsOn>
               <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
               <value value="438"/>
+            </dependsOn>
+          </target>
+        </element>
+        <element>
+          <code value="1000"/>
+          <target>
+            <code value="1100"/>
+            <equivalence value="narrower"/>
+            <dependsOn>
+              <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
+              <value value="441"/>
             </dependsOn>
           </target>
         </element>

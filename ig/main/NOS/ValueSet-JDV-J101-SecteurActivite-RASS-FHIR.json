@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.169"
     }
   ],
-  "version": "20240329120000",
+  "version": "20240628120000",
   "name": "JDV_J101-SecteurActivite-RASS",
   "status": "active",
-  "date": "2024-03-29T12:00:00+01:00",
+  "date": "2024-06-28T12:00:00+01:00",
   "description": "Secteurs d'activité des établissements avec la même activité dans le RASS",
   "compose": {
     "include": [
@@ -772,6 +772,18 @@
           {
             "code": "SA64",
             "display": "Société de téléconsultation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA65",
+            "display": "Antenne de pharmacie",
             "designation": [
               {
                 "use": {

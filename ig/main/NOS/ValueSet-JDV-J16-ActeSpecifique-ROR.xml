@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <ValueSet dateFin="" dateMaj="20240531120000" dateValid="20160901000000" description="Acte spécifique - ROR" displayName="JDV_J16-ActeSpecifique-ROR.tabs" id="1.2.250.1.213.3.4.4" typeFichier="JDV" urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR">
+    <ValueSet dateFin="" dateMaj="20240628120000" dateValid="20160901000000" description="Acte spécifique - ROR" displayName="JDV_J16-ActeSpecifique-ROR.tabs" id="1.2.250.1.213.3.4.4" typeFichier="JDV" urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR">
         <ConceptList>
             <Concept code="0001" codeSystem="1.2.250.1.213.3.3.11" displayName="Ablation par radiofréquence de trouble du rythme et de conduction"/>
             <Concept code="0005" codeSystem="1.2.250.1.213.3.3.11" displayName="Accueil mort inattendue du nourrisson (MIN)"/>
@@ -491,7 +491,7 @@
             <Concept code="0773" codeSystem="1.2.250.1.213.3.3.11" displayName="Accompagnement logico-mathématique"/>
             <Concept code="0774" codeSystem="1.2.250.1.213.3.3.11" displayName="Atelier de stimulation cognitive dont atelier mémoire"/>
             <Concept code="0775" codeSystem="1.2.250.1.213.3.3.11" displayName="Atelier habileté sociale"/>
-            <Concept code="0776" codeSystem="1.2.250.1.213.3.3.11" displayName="Accompagnement aux pratiques numériques"/>
+            <Concept code="0776" codeSystem="1.2.250.1.213.3.3.11" displayName="Accompagnement aux pratiques numériques et assistance informatique"/>
             <Concept code="0777" codeSystem="1.2.250.1.213.3.3.11" displayName="Accompagnement à l'utilisation de technologies numériques au service de la compensation"/>
             <Concept code="0778" codeSystem="1.2.250.1.213.3.3.11" displayName="Evaluation du logement"/>
             <Concept code="0779" codeSystem="1.2.250.1.213.3.3.11" displayName="Suivi de l'adaptation du logement"/>
@@ -1019,8 +1019,8 @@
             <Concept code="1351" codeSystem="1.2.250.1.213.3.3.11" displayName="Prise en charge des troubles de l'hémostase et de la coagulation constitutionnels et acquis"/>
             <Concept code="1352" codeSystem="1.2.250.1.213.3.3.11" displayName="Programme d'ETP labellisée - Maladies chroniques de la peau"/>
             <Concept code="1353" codeSystem="1.2.250.1.213.3.3.11" displayName="Analyse instrumentale de la course"/>
-            <Concept code="1354" codeSystem="1.2.250.1.213.3.3.11" displayName="Prise en charge en Appartements de Coordination Thérapeutique (ACT) en hébergement collectif"/>
-            <Concept code="1355" codeSystem="1.2.250.1.213.3.3.11" displayName="Prise en charge en Appartements de Coordination Thérapeutique (ACT) en appartements en diffus"/>
+            <Concept code="1354" codeSystem="1.2.250.1.213.3.3.11" displayName="Prise en charge en Appartements de Coordination Thérapeutique (ACT) partagé"/>
+            <Concept code="1355" codeSystem="1.2.250.1.213.3.3.11" displayName="Prise en charge en Appartements de Coordination Thérapeutique (ACT) individuel"/>
             <Concept code="1356" codeSystem="1.2.250.1.213.3.3.11" displayName="Accouchement à domicile"/>
             <Concept code="1357" codeSystem="1.2.250.1.213.3.3.11" displayName="Accouchement en maison de naissance"/>
             <Concept code="1358" codeSystem="1.2.250.1.213.3.3.11" displayName="Accouchement en plateau technique"/>
@@ -1047,8 +1047,8 @@
             <Concept code="1379" codeSystem="1.2.250.1.213.3.3.11" displayName="Prise en charge de la douleur liée à l'endométriose"/>
             <Concept code="1380" codeSystem="1.2.250.1.213.3.3.11" displayName="Prise en charge de l'infertilité liée à l'endométriose"/>
             <Concept code="1381" codeSystem="1.2.250.1.213.3.3.11" displayName="Diagnostic de l'endométriose complexe"/>
-            <Concept code="1382" codeSystem="1.2.250.1.213.3.3.11" displayName="Filière endométriose - Premier niveau de recours "/>
-            <Concept code="1383" codeSystem="1.2.250.1.213.3.3.11" displayName="Filière endométriose - Deuxième niveau de recours "/>
+            <Concept code="1382" codeSystem="1.2.250.1.213.3.3.11" displayName="Filière endométriose - Premier niveau de recours"/>
+            <Concept code="1383" codeSystem="1.2.250.1.213.3.3.11" displayName="Filière endométriose - Deuxième niveau de recours"/>
             <Concept code="1384" codeSystem="1.2.250.1.213.3.3.11" displayName="Filière endométriose - Troisième niveau de recours"/>
             <Concept code="1385" codeSystem="1.2.250.1.213.3.3.11" displayName="Evaluation psychiatrique pré-conceptionnelle"/>
             <Concept code="1386" codeSystem="1.2.250.1.213.3.3.11" displayName="Suivi psychiatrique de la femme enceinte"/>
@@ -1092,6 +1092,39 @@
             <Concept code="1424" codeSystem="1.2.250.1.213.3.3.11" displayName="Récupération améliorée après chirurgie (RAAC) gynécologique"/>
             <Concept code="1425" codeSystem="1.2.250.1.213.3.3.11" displayName="Suivi des pompes externes à insuline"/>
             <Concept code="1426" codeSystem="1.2.250.1.213.3.3.11" displayName="Traitement du psychotraumatisme"/>
+            <Concept code="1427" codeSystem="1.2.250.1.213.3.3.11" displayName="Recherche d'ADN foetal libre"/>
+            <Concept code="1428" codeSystem="1.2.250.1.213.3.3.11" displayName="Centre de réhabilitation psychosociale - Centre de recours labellisé"/>
+            <Concept code="1429" codeSystem="1.2.250.1.213.3.3.11" displayName="Centre de réhabilitation psychosociale - Centre de proximité labellisé"/>
+            <Concept code="1430" codeSystem="1.2.250.1.213.3.3.11" displayName="Accompagnement à l'éducation de l'enfant sans violence éducative ordinaire (VEO)"/>
+            <Concept code="1431" codeSystem="1.2.250.1.213.3.3.11" displayName="Accompagnement d'un patient pour téléconsultation médicale"/>
+            <Concept code="1432" codeSystem="1.2.250.1.213.3.3.11" displayName="Appui à l'accueil inclusif (référent)"/>
+            <Concept code="1433" codeSystem="1.2.250.1.213.3.3.11" displayName="Evaluation infirmière gériatrique multidimensionnelle"/>
+            <Concept code="1434" codeSystem="1.2.250.1.213.3.3.11" displayName="Guidance parentale (psychoéducation)"/>
+            <Concept code="1435" codeSystem="1.2.250.1.213.3.3.11" displayName="Index de pression systolique (IPS)"/>
+            <Concept code="1436" codeSystem="1.2.250.1.213.3.3.11" displayName="Rédaction de certificat de décès"/>
+            <Concept code="1437" codeSystem="1.2.250.1.213.3.3.11" displayName="Réalisation de &quot;Mon bilan prévention&quot;"/>
+            <Concept code="1438" codeSystem="1.2.250.1.213.3.3.11" displayName="Prise en charge infirmière de récupération améliorée après chirurgie (RAAC)"/>
+            <Concept code="1439" codeSystem="1.2.250.1.213.3.3.11" displayName="Prise en charge infirmière des douleurs chroniques"/>
+            <Concept code="1440" codeSystem="1.2.250.1.213.3.3.11" displayName="Prise en charge infirmière des maladies psychiatriques"/>
+            <Concept code="1441" codeSystem="1.2.250.1.213.3.3.11" displayName="Prise en charge infirmière des pathologies cardiaques"/>
+            <Concept code="1442" codeSystem="1.2.250.1.213.3.3.11" displayName="Prise en charge infirmière des pathologies respiratoires"/>
+            <Concept code="1443" codeSystem="1.2.250.1.213.3.3.11" displayName="Prise en charge infirmière des soins palliatifs"/>
+            <Concept code="1444" codeSystem="1.2.250.1.213.3.3.11" displayName="Prise en charge infirmière des troubles vésico-sphinctériens (TVS)"/>
+            <Concept code="1445" codeSystem="1.2.250.1.213.3.3.11" displayName="Prise en charge infirmière du diabète"/>
+            <Concept code="1446" codeSystem="1.2.250.1.213.3.3.11" displayName="Référent santé et accueil inclusif des établissements d'accueil du jeune enfant"/>
+            <Concept code="1447" codeSystem="1.2.250.1.213.3.3.11" displayName="Prescription de vaccination"/>
+            <Concept code="1448" codeSystem="1.2.250.1.213.3.3.11" displayName="Santé environnementale"/>
+            <Concept code="1450" codeSystem="1.2.250.1.213.3.3.11" displayName="Soins infirmiers de dialyse péritonéale"/>
+            <Concept code="1451" codeSystem="1.2.250.1.213.3.3.11" displayName="Accompagnement à la transition, au changement d'environnement, au deuil"/>
+            <Concept code="1452" codeSystem="1.2.250.1.213.3.3.11" displayName="Soins infirmiers d'hémodialyse"/>
+            <Concept code="1453" codeSystem="1.2.250.1.213.3.3.11" displayName="Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux"/>
+            <Concept code="1454" codeSystem="1.2.250.1.213.3.3.11" displayName="Evaluation et suivi standardisé des commotions cérébrales"/>
+            <Concept code="1455" codeSystem="1.2.250.1.213.3.3.11" displayName="Surveillance et administration de traitement hémophilique"/>
+            <Concept code="1456" codeSystem="1.2.250.1.213.3.3.11" displayName="Surveillance infirmière et remplissage de pompe à morphine"/>
+            <Concept code="1457" codeSystem="1.2.250.1.213.3.3.11" displayName="Visite à domicile infirmière puéricultrice post-natale"/>
+            <Concept code="1458" codeSystem="1.2.250.1.213.3.3.11" displayName="Exploration vasculaire d'effort maximum chez le sportif"/>
+            <Concept code="1459" codeSystem="1.2.250.1.213.3.3.11" displayName="Laximétrie dynamique automatisée du genou (LDA)"/>
+            <Concept code="1460" codeSystem="1.2.250.1.213.3.3.11" displayName="Pressothérapie"/>
         </ConceptList>
     </ValueSet>
 </RetrieveValueSetResponse>

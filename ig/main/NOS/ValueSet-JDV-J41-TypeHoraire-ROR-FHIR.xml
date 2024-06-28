@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.3.3.51"/>
   </identifier>
-  <version value="20230630120000"/>
+  <version value="20240628120000"/>
   <name value="JDV_J41-TypeHoraire-ROR"/>
   <status value="active"/>
-  <date value="2023-06-30T12:00:00+01:00"/>
+  <date value="2024-06-28T12:00:00+01:00"/>
   <description value="Type horaire"/>
   <compose>
     <include>
@@ -91,6 +91,16 @@
       <concept>
         <code value="08"/>
         <display value="Horaire de fermeture"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.50"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="09"/>
+        <display value="Horaire à préciser"/>
         <designation>
           <use>
             <code value="OID"/>
