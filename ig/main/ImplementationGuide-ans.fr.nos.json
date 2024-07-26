@@ -1483,7 +1483,7 @@
         "reference" : "ValueSet/JDV-J165-TypeCreneau-SAS"
       },
       "name" : "JDV_J165-TypeCreneau-SAS",
-      "description" : "Type de Créneaux SAS",
+      "description" : "Type de créneaux de soins définis par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV selon la visibilité associée",
       "exampleBoolean" : false
     },
     {
@@ -2632,10 +2632,46 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/JDV-J259-ModeFixationTarifaire-RASS"
+      },
+      "name" : "JDV_J259-ModeFixationTarifaire-RASS",
+      "description" : "Mode de fixation tarifaire du RASS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J26-ModeGestion-ROR"
       },
       "name" : "JDV_J26-ModeGestion-ROR",
       "description" : "Mode gestion - ROR",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J260-TypeFermeture-RASS"
+      },
+      "name" : "JDV_J260-TypeFermeture-RASS",
+      "description" : "Type de fermeture, codes provenant du FINESS pour les EJ et EG pour le RASS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J261-SourceInformationInstallation-RASS"
+      },
+      "name" : "JDV_J261-SourceInformationInstallation-RASS",
+      "description" : "Sources d'information possible concernant l'installation de l'activité sociale du RASS",
       "exampleBoolean" : false
     },
     {
@@ -2660,6 +2696,18 @@
       },
       "name" : "JDV_J264-ModeEtCentreDePriseEnCharge-MDPH",
       "description" : "Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J265-RoleMembreCercleDeSoins-CISIS"
+      },
+      "name" : "JDV_J265-RoleMembreCercleDeSoins-CISIS",
+      "description" : "Rôles des membres d'un cercle de soins",
       "exampleBoolean" : false
     },
     {
@@ -3871,7 +3919,7 @@
         "reference" : "CodeSystem/TRE-R02-SecteurActivite"
       },
       "name" : "TRE_R02-SecteurActivite",
-      "description" : "Secteur d'activité",
+      "description" : "Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie",
       "exampleBoolean" : false
     },
     {
@@ -4147,7 +4195,7 @@
         "reference" : "CodeSystem/TRE-R210-ActeSpecifique"
       },
       "name" : "TRE_R210-ActeSpecifique",
-      "description" : "Acte spécifique",
+      "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
       "exampleBoolean" : false
     },
     {
@@ -5419,7 +5467,7 @@
         "reference" : "CodeSystem/TRE-R314-TypeCreneau"
       },
       "name" : "TRE_R314-TypeCreneau",
-      "description" : "Type de créneau",
+      "description" : "Type de créneaux de soins définis par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV selon la visibilité associée",
       "exampleBoolean" : false
     },
     {
@@ -5791,7 +5839,7 @@
         "reference" : "CodeSystem/TRE-R344-NiveauExpertise"
       },
       "name" : "TRE_R344-NiveauExpertise",
-      "description" : "Niveau d'expertise des offres de santé",
+      "description" : "Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel.",
       "exampleBoolean" : false
     },
     {

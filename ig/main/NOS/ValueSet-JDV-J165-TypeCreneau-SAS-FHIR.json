@@ -15,11 +15,11 @@
       "value": "urn:oid:1.2.250.1.213.3.4.10"
     }
   ],
-  "version": "20210528120000",
+  "version": "20240726120000",
   "name": "JDV_J165-TypeCreneau-SAS",
   "status": "active",
-  "date": "2021-05-28T12:00:00+01:00",
-  "description": "Type de Créneaux SAS",
+  "date": "2024-07-26T12:00:00+01:00",
+  "description": "Type de créneaux de soins définis par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV selon la visibilité associée",
   "compose": {
     "include": [
       {
@@ -39,7 +39,7 @@
           },
           {
             "code": "PRO",
-            "display": "Créneau accessible par les professionnels",
+            "display": "Créneau accessible par l'ensemble des professionnels de santé",
             "designation": [
               {
                 "use": {
@@ -52,6 +52,18 @@
           {
             "code": "SNP",
             "display": "Créneau accessible par les Régulateurs et Organisateurs de Soins Non Programmés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.71"
+              }
+            ]
+          },
+          {
+            "code": "CPTS",
+            "display": "Créneau accessible par les communautés professionnelles territoriales de santé",
             "designation": [
               {
                 "use": {

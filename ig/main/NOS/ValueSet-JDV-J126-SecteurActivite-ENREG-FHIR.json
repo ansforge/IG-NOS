@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.212"
     }
   ],
-  "version": "20240126120000",
+  "version": "20240726120000",
   "name": "JDV_J126-SecteurActivite-ENREG",
   "status": "active",
-  "date": "2024-01-26T12:00:00+01:00",
+  "date": "2024-07-26T12:00:00+01:00",
   "description": "Table des Secteur d'activité des structures Siret uniquement utilisé par ENREG pour enregistrer les structures absentes des référentiels de l'ANS.",
   "compose": {
     "include": [
@@ -376,6 +376,18 @@
           {
             "code": "SA62",
             "display": "Ordre professionnel de santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA68",
+            "display": "Services départementaux d'incendie et de secours",
             "designation": [
               {
                 "use": {

@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.240"
     }
   ],
-  "version": "20240628120000",
+  "version": "20240726120000",
   "name": "JDV_J183-Diplome-EPARS",
   "status": "active",
-  "date": "2024-06-28T12:00:00+01:00",
+  "date": "2024-07-26T12:00:00+01:00",
   "description": "Diplômes pour l'application EPARS",
   "compose": {
     "include": [
@@ -62,80 +62,8 @@
             ]
           },
           {
-            "code": "DE31",
-            "display": "DE Diététicien",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
-              }
-            ]
-          },
-          {
             "code": "DE32",
             "display": "DE Psychomotricien",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
-              }
-            ]
-          },
-          {
-            "code": "DE33",
-            "display": "DE Orthoprothésiste",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
-              }
-            ]
-          },
-          {
-            "code": "DE34",
-            "display": "DE Podo-Orthésiste",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
-              }
-            ]
-          },
-          {
-            "code": "DE35",
-            "display": "DE Orthopédiste-Orthésiste",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
-              }
-            ]
-          },
-          {
-            "code": "DE36",
-            "display": "DE Oculariste",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.6.1.31"
-              }
-            ]
-          },
-          {
-            "code": "DE37",
-            "display": "DE Epithésiste",
             "designation": [
               {
                 "use": {
@@ -621,18 +549,6 @@
         "system": "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
         "concept": [
           {
-            "code": "DIP352",
-            "display": "Diplôme de Technicien de Laboratoire arrêté du 21/10/92 sauf DETLM/DETAB,DUT,BTS",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.6.1.53"
-              }
-            ]
-          },
-          {
             "code": "DIP353",
             "display": "Certificat de Capacité d'Orthophoniste",
             "designation": [
@@ -805,7 +721,7 @@
         "concept": [
           {
             "code": "DIP365",
-            "display": "DUT Biologie option diététique",
+            "display": "DUT Génie biologique option diététique (avant 2023)",
             "designation": [
               {
                 "use": {
@@ -868,7 +784,7 @@
         "concept": [
           {
             "code": "DIP369",
-            "display": "BUT Génie biologique parcours diététique",
+            "display": "BUT Génie biologique parcours diététique et nutrition",
             "designation": [
               {
                 "use": {
@@ -984,6 +900,23 @@
                   "code": "OID"
                 },
                 "value": "urn:oid:1.2.250.1.213.1.6.1.53"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire",
+        "concept": [
+          {
+            "code": "DIP416",
+            "display": "DUT Biologie appliquée option diététique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.34"
               }
             ]
           }

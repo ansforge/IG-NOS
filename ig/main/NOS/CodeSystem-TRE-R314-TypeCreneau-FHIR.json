@@ -15,11 +15,11 @@
       "value": "urn:oid:1.2.250.1.213.3.3.71"
     }
   ],
-  "version": "20240329120000",
+  "version": "20240726120000",
   "name": "TRE_R314-TypeCreneau",
   "status": "active",
-  "date": "2024-03-29T12:00:00+01:00",
-  "description": "Type de créneau",
+  "date": "2024-07-26T12:00:00+01:00",
+  "description": "Type de créneaux de soins définis par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV selon la visibilité associée",
   "content": "complete",
   "property": [
     {
@@ -70,7 +70,7 @@
     },
     {
       "code": "PRO",
-      "display": "Créneau accessible par les professionnels",
+      "display": "Créneau accessible par l'ensemble des professionnels de santé",
       "definition":"Les créneaux ouverts aux professionnels, dans le cadre de la prise de RDV par un tiers - Créneau de soins défini par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV accessible à l'ensemble des professionnels de santé",
       "designation": [
         {
@@ -93,7 +93,7 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2021-05-28T12:00:00+01:00"
+          "valueDateTime": "2024-07-26T12:00:00+01:00"
         }
       ]
     },
@@ -123,6 +123,35 @@
         {
           "code": "dateMaj",
           "valueDateTime": "2021-05-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CPTS",
+      "display": "Créneau accessible par les communautés professionnelles territoriales de santé",
+      "definition":"Les créneaux ouverts aux structures de type CPTS - Créneau de soins défini par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV accessible par une structure de type CPTS",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Créneau de structure CPTS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Créneau de soins défini par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV accessible par une structure de type CPTS"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-07-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-07-26T12:00:00+01:00"
         }
       ]
     }

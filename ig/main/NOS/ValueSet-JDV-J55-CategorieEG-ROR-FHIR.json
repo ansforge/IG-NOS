@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.3.3.65"
     }
   ],
-  "version": "20240628120000",
+  "version": "20240726120000",
   "name": "JDV_J55-CategorieEG-ROR",
   "status": "active",
-  "date": "2024-06-28T12:00:00+01:00",
+  "date": "2024-07-26T12:00:00+01:00",
   "description": "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets",
   "compose": {
     "include": [
@@ -2128,6 +2128,18 @@
           {
             "code": "699",
             "display": "Entité ayant autorisation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "700",
+            "display": "Maison sport-santé",
             "designation": [
               {
                 "use": {

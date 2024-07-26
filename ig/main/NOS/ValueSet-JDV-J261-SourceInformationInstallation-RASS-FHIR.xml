@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J261-SourceInformationInstallation-RASS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2024-06-28T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J261-SourceInformationInstallation-RASS/FHIR/JDV-J261-SourceInformationInstallation-RASS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.285"/>
+  </identifier>
+  <version value="20240628120000"/>
+  <name value="JDV_J261-SourceInformationInstallation-RASS"/>
+  <status value="active"/>
+  <date value="2024-06-28T12:00:00+01:00"/>
+  <description value="Sources d'information possible concernant l'installation de l'activité sociale du RASS"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation"/>
+      <concept>
+        <code value="V"/>
+        <display value="Visite de conformité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="E"/>
+        <display value="Enquête statistique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Interrogation de l'ET"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="Document de tarification"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Inspection"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="Convention"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="L"/>
+        <display value="Labellisation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="Autre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Arrêté"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J261-SourceInformationInstallation-RASS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet JDV-J261-SourceInformationInstallation-RASS</b></p><a name="JDV-J261-SourceInformationInstallation-RASS"> </a><a name="hcJDV-J261-SourceInformationInstallation-RASS"> </a><a name="JDV-J261-SourceInformationInstallation-RASS-en-US"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-TRE-R301-SourceInformationInstallation.html"><code>https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-V">V</a></td><td>Visite de conformité</td></tr><tr><td><a href="CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-E">E</a></td><td>Enquête statistique</td></tr><tr><td><a href="CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-I">I</a></td><td>Interrogation de l'ET</td></tr><tr><td><a href="CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-D">D</a></td><td>Document de tarification</td></tr><tr><td><a href="CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-S">S</a></td><td>Inspection</td></tr><tr><td><a href="CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-C">C</a></td><td>Convention</td></tr><tr><td><a href="CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-L">L</a></td><td>Labellisation</td></tr><tr><td><a href="CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-A">A</a></td><td>Autre</td></tr><tr><td><a href="CodeSystem-TRE-R301-SourceInformationInstallation.html#TRE-R301-SourceInformationInstallation-R">R</a></td><td>Arrêté</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2024-06-28T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J261-SourceInformationInstallation-RASS/FHIR/JDV-J261-SourceInformationInstallation-RASS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.285"/>
+  </identifier>
+  <version value="1.2.0"/>
+  <name value="JDV_J261-SourceInformationInstallation-RASS"/>
+  <status value="active"/>
+  <date value="2024-06-28T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Sources d'information possible concernant l'installation de l'activité sociale du RASS"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation"/>
+      <concept>
+        <code value="V"/>
+        <display value="Visite de conformité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="E"/>
+        <display value="Enquête statistique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Interrogation de l'ET"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="Document de tarification"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Inspection"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="Convention"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="L"/>
+        <display value="Labellisation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="Autre"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Arrêté"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.208"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

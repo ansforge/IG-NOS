@@ -15,11 +15,11 @@
       "value": "urn:oid:1.2.250.1.71.4.2.4"
     }
   ],
-  "version": "20240531120000",
+  "version": "20240726120000",
   "name": "TRE_R02-SecteurActivite",
   "status": "active",
-  "date": "2024-05-31T12:00:00+01:00",
-  "description": "Secteur d'activité",
+  "date": "2024-07-26T12:00:00+01:00",
+  "description": "Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie",
   "content": "complete",
   "property": [
     {
@@ -1924,6 +1924,62 @@
         {
           "code": "dateMaj",
           "valueDateTime": "2024-05-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SA68",
+      "display": "Services départementaux d'incendie et de secours (SDIS)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "SDIS"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Services départementaux d'incendie et de secours"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-07-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-07-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "SA69",
+      "display": "Maisons de naissance",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Maisons de naissance"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Maisons de naissance"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-07-26T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-07-26T12:00:00+01:00"
         }
       ]
     }
