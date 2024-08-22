@@ -120,7 +120,7 @@ jobs:
           #Recupération des fichiers SVS
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics-Versions_xml_svs.zip
           cp  NOS-Fichiers_Publics-Versions_xml_svs.zip ./IG-website-release/www/ig/nos/NOS
-          unzip  -oNOS-Fichiers_Publics-Versions_xml_svs.zip -d ./IG-website-release/www/ig/nos/NOS
+          unzip  -o NOS-Fichiers_Publics-Versions_xml_svs.zip -d ./IG-website-release/www/ig/nos/NOS
 
           #Recupération des fichiers xml Fhir
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/nos-fichiers_publics-versions_xml_fhir.zip
