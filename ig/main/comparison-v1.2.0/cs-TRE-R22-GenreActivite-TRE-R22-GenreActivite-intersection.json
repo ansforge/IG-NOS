@@ -1,0 +1,545 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "876a6c04-f412-44f9-a924-d010c107e9c4-204",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/876a6c04-f412-44f9-a924-d010c107e9c4-204",
+  "name" : "IntersectionTRE_R22-GenreActiviteAndTRE_R22-GenreActivite",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2024-08-22T04:17:57+00:00",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "GENR01",
+    "display" : "Activité de soin et de pharmacie",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Soignant"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Activité de soin et de pharmacie"
+    },
+    {
+      "use" : {
+        "code" : "DescriptionMetier"
+      },
+      "value" : "Activité de soin dans le cadre de la prise en charge des patients ou usagers, incluant la pharmacie"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-02-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-02-25T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "GENR02",
+    "display" : "Activité de soins ou de pharmacien en tant que remplaçant",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Remplaçant"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Activité de soins ou de pharmacien en tant que remplaçant"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "GENR03",
+    "display" : "Remplacement dans une activité de soins",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Remplacement"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Remplacement dans une activité de soins"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-21T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-21T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "GENR04",
+    "display" : "Activité non soignante",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Non soignante"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Activité non soignante"
+    },
+    {
+      "use" : {
+        "code" : "DescriptionMetier"
+      },
+      "value" : "Activité non soignante du secteur sanitaire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "GENR05",
+    "display" : "Activité non médicale",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Non médicale"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Activité non médicale"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-06-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-06-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-06-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-06-26T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "GENR06",
+    "display" : "Délégation de responsabilité pour continuité de service",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Délégation de responsabilité"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Délégation de responsabilité pour continuité de service"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "GENR07",
+    "display" : "Activité de soins en tant qu'intérimaire",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Intérimaire"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Activité de soins en tant qu'intérimaire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-03-21T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-06-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-06-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-03-21T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-06-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-06-26T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "GENR08",
+    "display" : "Coordination et orientation",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Coordination et orientation"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Activité de coordination et d'orientation"
+    },
+    {
+      "use" : {
+        "code" : "DescriptionMetier"
+      },
+      "value" : "Activité de professionnel du secteur sanitaire, social et médico-social exerçant des fonctions de coordination et d'orientation"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2022-02-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-06-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2022-02-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-06-24T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "GENR09",
+    "display" : "Administratif ou appui à l'organisation de l'accompagnement social/médico-social",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Administratif soc/médico-soc"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Activité de professionnel du secteur social et médico-social exerçant des fonctions administratives ou d'appui à l'organisation de l'accompagnement"
+    },
+    {
+      "use" : {
+        "code" : "DescriptionMetier"
+      },
+      "value" : "Activité de professionnel du secteur social et médico-social exerçant des fonctions administratives ou d'appui à l'organisation de l'accompagnement"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2022-02-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-06-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2022-02-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-06-24T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "GENR10",
+    "display" : "Accompagnement social/médico-social à la vie sociale, professionnelle, éducative",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Accompagnement vie sociale"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement à la vie sociale, professionnelle et éducative"
+    },
+    {
+      "use" : {
+        "code" : "DescriptionMetier"
+      },
+      "value" : "Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement à la vie sociale, professionnelle et éducative"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2022-02-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-06-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2022-02-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-06-24T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "GENR11",
+    "display" : "Accompagnement social/médico-social au soin",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Accompagnt au soin soc/méd-soc"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement au soin"
+    },
+    {
+      "use" : {
+        "code" : "DescriptionMetier"
+      },
+      "value" : "Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement au soin"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2022-02-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-06-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2022-02-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-06-24T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "GENR12",
+    "display" : "Encadrement et organisation de l'accompagnement social/médico-social",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Encadrement soc/médico-soc"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Activité de professionnel du social et médico-social exerçant des fonctions d'encadrement et d'organisation de l'accompagnement"
+    },
+    {
+      "use" : {
+        "code" : "DescriptionMetier"
+      },
+      "value" : "Activité de professionnel du social et médico-social exerçant des fonctions d'encadrement et d'organisation de l'accompagnement"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2022-02-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-06-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2022-02-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-06-24T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "GENR13",
+    "display" : "Activité médico-administrative",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Médico-administratif"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Activité médico-administrative"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2023-07-28T09:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-07-28T09:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2023-07-28T09:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-07-28T09:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "GENR99",
+    "display" : "Autre activité",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Autre"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Autre activité"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2023-11-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-11-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2023-11-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-11-24T12:00:00+01:00"
+    }]
+  }]
+}

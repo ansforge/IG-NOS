@@ -1,0 +1,77 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "876a6c04-f412-44f9-a924-d010c107e9c4-1211",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/876a6c04-f412-44f9-a924-d010c107e9c4-1211",
+  "name" : "UnionJDV_J236-TypeIdentifiant-RORAndJDV_J236-TypeIdentifiant-ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2024-08-22T04:17:58+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "42",
+        "display" : "Identifiant fonctionnel de l'OI connu par l'instance ROR"
+      },
+      {
+        "code" : "43",
+        "display" : "Identifiant interne de l'OI connu par l'instance ROR"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "35",
+        "display" : "Identifiant fonctionnel de l'offre connu par l'instance ROR"
+      },
+      {
+        "code" : "36",
+        "display" : "Identifiant interne de l'offre connu par l'instance ROR"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "25",
+        "display" : "Identifiant du lieu de réalisation de l'offre connu par l'instance ROR"
+      },
+      {
+        "code" : "26",
+        "display" : "Identifiant de la zone d'hébergement connu par l'établissement"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "30",
+        "display" : "Identifiant de la situation opérationnelle connu par l'instance ROR"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "40",
+        "display" : "Identifiant national de structure"
+      },
+      {
+        "code" : "41",
+        "display" : "Identifiant interne de l'établissement connu par l'instance ROR"
+      },
+      {
+        "code" : "0",
+        "display" : "Id Cabinet ADELI"
+      },
+      {
+        "code" : "1",
+        "display" : "FINESS"
+      },
+      {
+        "code" : "2",
+        "display" : "SIREN"
+      },
+      {
+        "code" : "3",
+        "display" : "SIRET"
+      },
+      {
+        "code" : "4",
+        "display" : "Id Cabinet RPPS"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "876a6c04-f412-44f9-a924-d010c107e9c4-360",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/876a6c04-f412-44f9-a924-d010c107e9c4-360",
+  "name" : "IntersectionTRE_R270-AvailabilityStatusAndTRE_R270-AvailabilityStatus",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2024-08-22T04:17:57+00:00",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "urn:asip:ci-sis:2010:StatusType:Archived",
+    "display" : "Version archivée et à jour",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Archivé"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Version archivée et à jour"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2018-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-06-29T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "urn:asip:ci-sis:2010:StatusType:Deleted",
+    "display" : "Version dépubliée",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Supprimé"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Version dépubliée"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2018-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-06-29T12:00:00+01:00"
+    }]
+  }]
+}

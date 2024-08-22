@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "876a6c04-f412-44f9-a924-d010c107e9c4-959",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/876a6c04-f412-44f9-a924-d010c107e9c4-959",
+  "name" : "UnionJDV_J155-MethodGlucoseSanguin-ENSAndJDV_J155-MethodGlucoseSanguin-ENS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2024-08-22T04:17:58+00:00",
+  "compose" : {
+    "include" : [{
+      "system" : "https://webgate.ec.europa.eu/dyna2/emdn",
+      "concept" : [{
+        "code" : "Z1204011501",
+        "display" : "SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.2.68"
+        }]
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "82078001",
+        "display" : "prélèvement d'un échantillon sanguin pour le laboratoire"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
+      "concept" : [{
+        "code" : "Z1204011501",
+        "display" : "SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.2.68"
+        }]
+      }]
+    }]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "876a6c04-f412-44f9-a924-d010c107e9c4-1037",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/876a6c04-f412-44f9-a924-d010c107e9c4-1037",
+  "name" : "UnionJDV_J181-BesoinMobilite-MDPHAndJDV_J181-BesoinMobilite-MDPH",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2024-08-22T04:17:58+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Pour se déplacer à l'extérieur des locaux"
+      },
+      {
+        "code" : "02",
+        "display" : "Pour se déplacer à l'intérieur des locaux"
+      },
+      {
+        "code" : "03",
+        "display" : "Pour utiliser les transports en commun"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "02",
+        "display" : "Autre"
+      }]
+    }]
+  }
+}
