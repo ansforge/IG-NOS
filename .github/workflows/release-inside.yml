@@ -110,30 +110,30 @@ jobs:
           #Recuperation des fichier .json
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics-Versions_json_fhir.zip
           cp  NOS-Fichiers_Publics-Versions_json_fhir.zip ./IG-website-release/www/ig/nos/NOS
-          unzip NOS-Fichiers_Publics-Versions_json_fhir.zip -d ./IG-website-release/www/ig/nos/NOS          
+          unzip -o NOS-Fichiers_Publics-Versions_json_fhir.zip -d ./IG-website-release/www/ig/nos/NOS          
           
           #Recucperation des fichiers .tabs
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics.zip
           cp  NOS-Fichiers_Publics.zip ./IG-website-release/www/ig/nos/NOS/
-          unzip NOS-Fichiers_Publics.zip -d ./IG-website-release/www/ig/nos/NOS
+          unzip -o NOS-Fichiers_Publics.zip -d ./IG-website-release/www/ig/nos/NOS
 
           #Recupération des fichiers SVS
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics-Versions_xml_svs.zip
           cp  NOS-Fichiers_Publics-Versions_xml_svs.zip ./IG-website-release/www/ig/nos/NOS
-          unzip NOS-Fichiers_Publics-Versions_xml_svs.zip -d ./IG-website-release/www/ig/nos/NOS
+          unzip  -oNOS-Fichiers_Publics-Versions_xml_svs.zip -d ./IG-website-release/www/ig/nos/NOS
 
           #Recupération des fichiers xml Fhir
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/nos-fichiers_publics-versions_xml_fhir.zip
           cp  nos-fichiers_publics-versions_xml_fhir.zip ./IG-website-release/www/ig/nos/NOS
-          unzip nos-fichiers_publics-versions_xml_fhir.zip -d ./IG-website-release/www/ig/nos/NOS
+          unzip -o nos-fichiers_publics-versions_xml_fhir.zip -d ./IG-website-release/www/ig/nos/NOS
 
           #Recuperation des fichiers PDF
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics_JDV-Versions_pdf.zip
           cp  NOS-Fichiers_Publics_JDV-Versions_pdf.zip ./IG-website-release/www/ig/nos/NOS
-          unzip NOS-Fichiers_Publics_JDV-Versions_pdf.zip -d ./IG-website-release/www/ig/nos/NOS
+          unzip -o NOS-Fichiers_Publics_JDV-Versions_pdf.zip -d ./IG-website-release/www/ig/nos/NOS
           wget -q https://esante.gouv.fr/sites/default/files/media_entity/documents/NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip
           cp  NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip ./IG-website-release/www/ig/nos/NOS
-          unzip NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip -d ./IG-website-release/www/ig/nos/NOS   
+          unzip -o NOS-Fichiers_Publics_TRE_ASS-Versions_pdf.zip -d ./IG-website-release/www/ig/nos/NOS   
 
 
       - name: Install rename        
