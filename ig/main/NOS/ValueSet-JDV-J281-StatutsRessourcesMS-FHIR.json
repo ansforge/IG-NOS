@@ -1,0 +1,104 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J281-StatutsRessourcesMS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2024-09-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J281-StatutsRessourcesMS/FHIR/JDV-J281-StatutsRessourcesMS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.4.219"
+    }
+  ],
+  "version": "20240927120000",
+  "name": "JDV_J281-StatutsRessourcesMS",
+  "status": "active",
+  "date": "2024-09-27T12:00:00+01:00",
+  "description": "Statut de l'évaluation et des événements",
+  "compose": {
+    "include": [
+      {
+        "system": "",
+        "concept": [
+          {
+            "code": "TERMINE",
+            "display": "Terminé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.250"
+              }
+            ]
+          },
+          {
+            "code": "VALIDE",
+            "display": "Validé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.250"
+              }
+            ]
+          },
+          {
+            "code": "APPROUVE",
+            "display": "Approuvé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.250"
+              }
+            ]
+          },
+          {
+            "code": "PLANIFIE",
+            "display": "Planifié",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.250"
+              }
+            ]
+          },
+          {
+            "code": "REALISE",
+            "display": "Réalisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.250"
+              }
+            ]
+          },
+          {
+            "code": "ANNULE",
+            "display": "Annulé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.250"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

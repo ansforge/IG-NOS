@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J281-StatutsRessourcesMS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet JDV-J281-StatutsRessourcesMS</b></p><a name="JDV-J281-StatutsRessourcesMS"> </a><a name="hcJDV-J281-StatutsRessourcesMS"> </a><a name="JDV-J281-StatutsRessourcesMS-en-US"> </a><ul><li>Import all the codes that are contained in the intersection of </li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2024-09-27T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J281-StatutsRessourcesMS/FHIR/JDV-J281-StatutsRessourcesMS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.4.219"/>
+  </identifier>
+  <version value="1.3.0"/>
+  <name value="JDV_J281-StatutsRessourcesMS"/>
+  <status value="active"/>
+  <date value="2024-09-27T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Statut de l'évaluation et des événements"/>
+  <compose>
+    <include>
+      <concept>
+        <code value="TERMINE"/>
+        <display value="Terminé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.250"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="VALIDE"/>
+        <display value="Validé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.250"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="APPROUVE"/>
+        <display value="Approuvé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.250"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="PLANIFIE"/>
+        <display value="Planifié"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.250"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="REALISE"/>
+        <display value="Réalisé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.250"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ANNULE"/>
+        <display value="Annulé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.250"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

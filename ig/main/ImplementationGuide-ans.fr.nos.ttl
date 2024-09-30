@@ -2640,11 +2640,71 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J275-EMDN-UPNOS> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J275-EMDN-UPNOS" ]
+       ] ;
+       fhir:name [ fhir:v "JDV_J275-EMDN-UPNOS" ] ;
+       fhir:description [ fhir:v "Termes EMDN utilisés" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J277-NCIT-CISIS> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J277-NCIT-CISIS" ]
+       ] ;
+       fhir:name [ fhir:v "JDV_J277-NCIT-CISIS" ] ;
+       fhir:description [ fhir:v "Termes NCIT utilisés" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J278-UcumUniteMesure-UPNOS> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J278-UcumUniteMesure-UPNOS" ]
+       ] ;
+       fhir:name [ fhir:v "JDV_J278-UcumUniteMesure-UPNOS" ] ;
+       fhir:description [ fhir:v "Termes UCUM utilisés" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J279-Loinc-UPNOS> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J279-Loinc-UPNOS" ]
+       ] ;
+       fhir:name [ fhir:v "JDV_J279-Loinc-UPNOS" ] ;
+       fhir:description [ fhir:v "Termes LOINC utilisés" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J28-OuvertureAnnuelle-ROR> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J28-OuvertureAnnuelle-ROR" ]
        ] ;
        fhir:name [ fhir:v "JDV_J28-OuvertureAnnuelle-ROR" ] ;
        fhir:description [ fhir:v "Ouverture annuelle - ROR" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J281-StatutsRessourcesMS> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J281-StatutsRessourcesMS" ]
+       ] ;
+       fhir:name [ fhir:v "JDV_J281-StatutsRessourcesMS" ] ;
+       fhir:description [ fhir:v "Statut de l'évaluation et des événements" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -2848,7 +2908,7 @@
          fhir:reference [ fhir:v "ValueSet/JDV-J49-UcumUniteLongueur" ]
        ] ;
        fhir:name [ fhir:v "JDV_J49-UcumUniteLongueur" ] ;
-       fhir:description [ fhir:v "JDV contenant les unités de longueurs référencées dans la TRE _R247" ] ;
+       fhir:description [ fhir:v "Unités de longueurs utilisées et référencées dans UCUM" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -3461,18 +3521,6 @@
        ] ;
        fhir:name [ fhir:v "TRE_A03-ClasseDocument" ] ;
        fhir:description [ fhir:v "Classe de document" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-A04-Loinc> ;
-         fhir:reference [ fhir:v "CodeSystem/TRE-A04-Loinc" ]
-       ] ;
-       fhir:name [ fhir:v "TRE_A04-Loinc" ] ;
-       fhir:description [ fhir:v "Termes LOINC utilisés" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -4560,18 +4608,6 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R247-UcumUniteMesure> ;
-         fhir:reference [ fhir:v "CodeSystem/TRE-R247-UcumUniteMesure" ]
-       ] ;
-       fhir:name [ fhir:v "TRE_R247-UcumUniteMesure" ] ;
-       fhir:description [ fhir:v "UCUM - Unité de mesure" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R248-ModeAcces> ;
          fhir:reference [ fhir:v "CodeSystem/TRE-R248-ModeAcces" ]
        ] ;
@@ -5280,47 +5316,11 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R306-CLADIMED> ;
-         fhir:reference [ fhir:v "CodeSystem/TRE-R306-CLADIMED" ]
-       ] ;
-       fhir:name [ fhir:v "TRE_R306-CLADIMED" ] ;
-       fhir:description [ fhir:v "Classification française des Dispositifs Médicaux" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R307-NCIT> ;
-         fhir:reference [ fhir:v "CodeSystem/TRE-R307-NCIT" ]
-       ] ;
-       fhir:name [ fhir:v "TRE_R307-NCIT" ] ;
-       fhir:description [ fhir:v "National Cancer Institute (NCI) Thesaurus" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R308-TAASIP> ;
          fhir:reference [ fhir:v "CodeSystem/TRE-R308-TAASIP" ]
        ] ;
        fhir:name [ fhir:v "TRE_R308-TAASIP" ] ;
        fhir:description [ fhir:v "TA_ASIP" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R309-FMA> ;
-         fhir:reference [ fhir:v "CodeSystem/TRE-R309-FMA" ]
-       ] ;
-       fhir:name [ fhir:v "TRE_R309-FMA" ] ;
-       fhir:description [ fhir:v "Foundational Model of Anatomy (FMA) ontology" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -5357,18 +5357,6 @@
        ] ;
        fhir:name [ fhir:v "TRE_R311-RegroupementSurCIM10ATIH" ] ;
        fhir:description [ fhir:v "CIM-10 FR à usage PMSI" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R312-LPP> ;
-         fhir:reference [ fhir:v "CodeSystem/TRE-R312-LPP" ]
-       ] ;
-       fhir:name [ fhir:v "TRE_R312-LPP" ] ;
-       fhir:description [ fhir:v "Liste des produits et prestations remboursables par l'Assurance Maladie" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -5909,6 +5897,18 @@
        ] ;
        fhir:name [ fhir:v "TRE_R36-AutreDiplomeObtenu" ] ;
        fhir:description [ fhir:v "Autre diplôme obtenu" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R368-StatutRessource> ;
+         fhir:reference [ fhir:v "CodeSystem/TRE-R368-StatutRessource" ]
+       ] ;
+       fhir:name [ fhir:v "TRE_R368-StatutRessource" ] ;
+       fhir:description [ fhir:v "Caractérise le statut du processus d'évaluation de l'autonomie de l'usager par un professionnel de santé ou par lui-même lors d'une auto évaluation" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

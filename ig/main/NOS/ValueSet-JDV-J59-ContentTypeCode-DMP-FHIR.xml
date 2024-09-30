@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.2"/>
   </identifier>
-  <version value="20240223120000"/>
+  <version value="20240927120000"/>
   <name value="JDV_J59-ContentTypeCode-DMP"/>
   <status value="active"/>
-  <date value="2024-02-23T12:00:00+01:00"/>
+  <date value="2024-09-27T12:00:00+01:00"/>
   <description value="Jeu de valeurs pour contentTypeCode"/>
   <compose>
     <include>
@@ -34,6 +34,26 @@
       <concept>
         <code value="05"/>
         <display value="Hospitalisation à domicile (au domicile du patient)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.128"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="Centre postcure"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.128"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="12"/>
+        <display value="Centre de crise"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -960,6 +980,46 @@
       <concept>
         <code value="SA63"/>
         <display value="Communauté Professionnelle Territoriale de Santé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA64"/>
+        <display value="Société de téléconsultation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA65"/>
+        <display value="Antenne de pharmacie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA68"/>
+        <display value="Services départementaux d'incendie et de secours"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.71.4.2.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SA69"/>
+        <display value="Maisons de naissance"/>
         <designation>
           <use>
             <code value="OID"/>

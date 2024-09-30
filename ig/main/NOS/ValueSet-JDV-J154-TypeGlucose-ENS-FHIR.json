@@ -15,15 +15,15 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.609"
     }
   ],
-  "version": "20230922120000",
+  "version": "20240927120000",
   "name": "JDV_J154-TypeGlucose-ENS",
   "status": "active",
-  "date": "2023-09-22T12:00:00+01:00",
+  "date": "2024-09-27T12:00:00+01:00",
   "description": "JDV pour caractériser le type de glucose",
   "compose": {
     "include": [
       {
-        "system": "https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc",
+        "system": "http://loinc.org ",
         "concept": [
           {
             "code": "2345-7",
@@ -52,7 +52,7 @@
         ]
       },
       {
-        "system": "https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP",
+        "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
         "concept": [
           {
             "code": "MED-969",

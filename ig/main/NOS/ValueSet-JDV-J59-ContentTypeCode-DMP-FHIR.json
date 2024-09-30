@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.2"
     }
   ],
-  "version": "20240223120000",
+  "version": "20240927120000",
   "name": "JDV_J59-ContentTypeCode-DMP",
   "status": "active",
-  "date": "2024-02-23T12:00:00+01:00",
+  "date": "2024-09-27T12:00:00+01:00",
   "description": "Jeu de valeurs pour contentTypeCode",
   "compose": {
     "include": [
@@ -45,6 +45,30 @@
           {
             "code": "05",
             "display": "Hospitalisation à domicile (au domicile du patient)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "11",
+            "display": "Centre postcure",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.128"
+              }
+            ]
+          },
+          {
+            "code": "12",
+            "display": "Centre de crise",
             "designation": [
               {
                 "use": {
@@ -1159,6 +1183,54 @@
           {
             "code": "SA63",
             "display": "Communauté Professionnelle Territoriale de Santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA64",
+            "display": "Société de téléconsultation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA65",
+            "display": "Antenne de pharmacie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA68",
+            "display": "Services départementaux d'incendie et de secours",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.71.4.2.4"
+              }
+            ]
+          },
+          {
+            "code": "SA69",
+            "display": "Maisons de naissance",
             "designation": [
               {
                 "use": {

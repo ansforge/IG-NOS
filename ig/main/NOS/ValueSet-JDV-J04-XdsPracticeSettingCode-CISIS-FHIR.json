@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.467"
     }
   ],
-  "version": "20230922120000",
+  "version": "20240927120000",
   "name": "JDV_J04-XdsPracticeSettingCode-CISIS",
   "status": "active",
-  "date": "2023-09-22T12:00:00+01:00",
+  "date": "2024-09-27T12:00:00+01:00",
   "description": "XDS practiceSettingCode CI-SIS",
   "compose": {
     "include": [
@@ -81,6 +81,18 @@
           {
             "code": "DEPISTAGE",
             "display": "Dépistage",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.9"
+              }
+            ]
+          },
+          {
+            "code": "ESSMS",
+            "display": "Etablissement ou Service Social ou Médico-Social",
             "designation": [
               {
                 "use": {

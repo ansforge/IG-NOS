@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.7"/>
   </identifier>
-  <version value="20240223120000"/>
+  <version value="20240927120000"/>
   <name value="JDV_J66-TypeCode-DMP"/>
   <status value="active"/>
-  <date value="2024-02-23T12:00:00+01:00"/>
+  <date value="2024-09-27T12:00:00+01:00"/>
   <description value="Jeu de valeurs pour métadonnée typeCode DMP"/>
   <compose>
     <include>
@@ -330,7 +330,7 @@
       </concept>
     </include>
     <include>
-      <system value="https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc"/>
+      <system value="http://loinc.org "/>
       <concept>
         <code value="11369-6"/>
         <display value="Historique des vaccinations"/>
@@ -442,6 +442,16 @@
         </designation>
       </concept>
       <concept>
+        <code value="28617-9"/>
+        <display value="Bilan bucco-dentaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
         <code value="28653-4"/>
         <display value="Document du secteur social / médico-social"/>
         <designation>
@@ -464,6 +474,16 @@
       <concept>
         <code value="34112-3"/>
         <display value="CR hospitalier (séjour)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="34120-6"/>
+        <display value="Bilan par professionnel de santé"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -533,7 +553,7 @@
       </concept>
       <concept>
         <code value="47420-5"/>
-        <display value="CR de bilan fonctionnel (par auxiliaire médical)"/>
+        <display value="CR de bilan fonctionnel"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -662,6 +682,16 @@
         </designation>
       </concept>
       <concept>
+        <code value="60280-5"/>
+        <display value="Fiche de retour du service des urgences"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
         <code value="60568-3"/>
         <display value="CR d'anatomie et de cytologie pathologiques"/>
         <designation>
@@ -673,7 +703,7 @@
       </concept>
       <concept>
         <code value="60591-5"/>
-        <display value="Synthèse du dossier médical"/>
+        <display value="Synthèse médicale"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -743,7 +773,7 @@
       </concept>
       <concept>
         <code value="74207-2"/>
-        <display value="Dossier de liaison d'urgence"/>
+        <display value="Document de liaison d'urgence"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -814,6 +844,16 @@
       <concept>
         <code value="77604-7"/>
         <display value="Planification thérapeutique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="78341-5"/>
+        <display value="Fiche de transfert vers le service des urgences"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -972,6 +1012,16 @@
         </designation>
       </concept>
       <concept>
+        <code value="89233-1"/>
+        <display value="CR de grossesse"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
         <code value="89235-6"/>
         <display value="Synthèse Suites de Couches Mère"/>
         <designation>
@@ -1013,7 +1063,7 @@
       </concept>
       <concept>
         <code value="96173-0"/>
-        <display value="Attestation de dépistage"/>
+        <display value="Test rapide d'orientation diagnostique"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -1024,6 +1074,16 @@
       <concept>
         <code value="96874-3"/>
         <display value="COVID-19 Attestation de vaccination"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="101881-1"/>
+        <display value="Carte d'implant"/>
         <designation>
           <use>
             <code value="OID"/>

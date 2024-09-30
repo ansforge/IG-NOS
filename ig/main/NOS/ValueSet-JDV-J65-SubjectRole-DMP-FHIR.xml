@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.5"/>
   </identifier>
-  <version value="20240223120000"/>
+  <version value="20240927120000"/>
   <name value="JDV_J65-SubjectRole-DMP"/>
   <status value="active"/>
-  <date value="2024-02-23T12:00:00+01:00"/>
+  <date value="2024-09-27T12:00:00+01:00"/>
   <description value="Jeu de valeurs pour subjectRole"/>
   <compose>
     <include>
@@ -3617,7 +3617,7 @@
       </concept>
       <concept>
         <code value="FON-07"/>
-        <display value="Gérant après décès"/>
+        <display value="Gérant après incapacité ou décès"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -3938,6 +3938,26 @@
       <concept>
         <code value="FON-57"/>
         <display value="Docteur junior"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-58"/>
+        <display value="Activité en piscine ou bassin"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.17"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FON-59"/>
+        <display value="Gérant d'antenne"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -4291,6 +4311,16 @@
       <concept>
         <code value="334"/>
         <display value="Biologiste médical ni médecin ni pharmacien"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="335"/>
+        <display value="Gestionnaire alertes et urgences sanitaires"/>
         <designation>
           <use>
             <code value="OID"/>

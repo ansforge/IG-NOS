@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.471"
     }
   ],
-  "version": "20240726120000",
+  "version": "20240927120000",
   "name": "JDV_J07-XdsTypeCode-CISIS",
   "status": "active",
-  "date": "2024-07-26T12:00:00+01:00",
+  "date": "2024-09-27T12:00:00+01:00",
   "description": "XDS typeCode CI-SIS",
   "compose": {
     "include": [
@@ -448,7 +448,7 @@
         ]
       },
       {
-        "system": "https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc",
+        "system": "http://loinc.org ",
         "concept": [
           {
             "code": "11369-6",
@@ -632,7 +632,7 @@
           },
           {
             "code": "34120-6",
-            "display": "Bilan par auxiliaire médical",
+            "display": "Bilan par professionnel de santé",
             "designation": [
               {
                 "use": {
@@ -1322,7 +1322,7 @@
         ]
       },
       {
-        "system": "https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc",
+        "system": "http://loinc.org ",
         "concept": [
           {
             "code": "57055-6",
@@ -1387,6 +1387,18 @@
           {
             "code": "89233-1",
             "display": "CR de grossesse",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.6.1"
+              }
+            ]
+          },
+          {
+            "code": "101881-1",
+            "display": "Carte d'implant",
             "designation": [
               {
                 "use": {

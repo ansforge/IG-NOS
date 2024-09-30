@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.471"/>
   </identifier>
-  <version value="20240726120000"/>
+  <version value="20240927120000"/>
   <name value="JDV_J07-XdsTypeCode-CISIS"/>
   <status value="active"/>
-  <date value="2024-07-26T12:00:00+01:00"/>
+  <date value="2024-09-27T12:00:00+01:00"/>
   <description value="XDS typeCode CI-SIS"/>
   <compose>
     <include>
@@ -370,7 +370,7 @@
       </concept>
     </include>
     <include>
-      <system value="https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc"/>
+      <system value="http://loinc.org "/>
       <concept>
         <code value="11369-6"/>
         <display value="Historique des vaccinations"/>
@@ -523,7 +523,7 @@
       </concept>
       <concept>
         <code value="34120-6"/>
-        <display value="Bilan par auxiliaire médical"/>
+        <display value="Bilan par professionnel de santé"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -1096,7 +1096,7 @@
       </concept>
     </include>
     <include>
-      <system value="https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc"/>
+      <system value="http://loinc.org "/>
       <concept>
         <code value="57055-6"/>
         <display value="Synthèse antepartum"/>
@@ -1150,6 +1150,16 @@
       <concept>
         <code value="89233-1"/>
         <display value="CR de grossesse"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.6.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="101881-1"/>
+        <display value="Carte d'implant"/>
         <designation>
           <use>
             <code value="OID"/>

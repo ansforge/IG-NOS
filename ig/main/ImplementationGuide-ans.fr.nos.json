@@ -2728,10 +2728,70 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/JDV-J275-EMDN-UPNOS"
+      },
+      "name" : "JDV_J275-EMDN-UPNOS",
+      "description" : "Termes EMDN utilisés",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J277-NCIT-CISIS"
+      },
+      "name" : "JDV_J277-NCIT-CISIS",
+      "description" : "Termes NCIT utilisés",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J278-UcumUniteMesure-UPNOS"
+      },
+      "name" : "JDV_J278-UcumUniteMesure-UPNOS",
+      "description" : "Termes UCUM utilisés",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J279-Loinc-UPNOS"
+      },
+      "name" : "JDV_J279-Loinc-UPNOS",
+      "description" : "Termes LOINC utilisés",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J28-OuvertureAnnuelle-ROR"
       },
       "name" : "JDV_J28-OuvertureAnnuelle-ROR",
       "description" : "Ouverture annuelle - ROR",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J281-StatutsRessourcesMS"
+      },
+      "name" : "JDV_J281-StatutsRessourcesMS",
+      "description" : "Statut de l'évaluation et des événements",
       "exampleBoolean" : false
     },
     {
@@ -2935,7 +2995,7 @@
         "reference" : "ValueSet/JDV-J49-UcumUniteLongueur"
       },
       "name" : "JDV_J49-UcumUniteLongueur",
-      "description" : "JDV contenant les unités de longueurs référencées dans la TRE _R247",
+      "description" : "Unités de longueurs utilisées et référencées dans UCUM",
       "exampleBoolean" : false
     },
     {
@@ -3548,18 +3608,6 @@
       },
       "name" : "TRE_A03-ClasseDocument",
       "description" : "Classe de document",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/TRE-A04-Loinc"
-      },
-      "name" : "TRE_A04-Loinc",
-      "description" : "Termes LOINC utilisés",
       "exampleBoolean" : false
     },
     {
@@ -4648,18 +4696,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/TRE-R247-UcumUniteMesure"
-      },
-      "name" : "TRE_R247-UcumUniteMesure",
-      "description" : "UCUM - Unité de mesure",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/TRE-R248-ModeAcces"
       },
       "name" : "TRE_R248_ModeAcces",
@@ -5368,46 +5404,10 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/TRE-R306-CLADIMED"
-      },
-      "name" : "TRE_R306-CLADIMED",
-      "description" : "Classification française des Dispositifs Médicaux",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/TRE-R307-NCIT"
-      },
-      "name" : "TRE_R307-NCIT",
-      "description" : "National Cancer Institute (NCI) Thesaurus",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/TRE-R308-TAASIP"
       },
       "name" : "TRE_R308-TAASIP",
       "description" : "TA_ASIP",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/TRE-R309-FMA"
-      },
-      "name" : "TRE_R309-FMA",
-      "description" : "Foundational Model of Anatomy (FMA) ontology",
       "exampleBoolean" : false
     },
     {
@@ -5444,18 +5444,6 @@
       },
       "name" : "TRE_R311-RegroupementSurCIM10ATIH",
       "description" : "CIM-10 FR à usage PMSI",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/TRE-R312-LPP"
-      },
-      "name" : "TRE_R312-LPP",
-      "description" : "Liste des produits et prestations remboursables par l'Assurance Maladie",
       "exampleBoolean" : false
     },
     {
@@ -5996,6 +5984,18 @@
       },
       "name" : "TRE_R36-AutreDiplomeObtenu",
       "description" : "Autre diplôme obtenu",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TRE-R368-StatutRessource"
+      },
+      "name" : "TRE_R368-StatutRessource",
+      "description" : "Caractérise le statut du processus d'évaluation de l'autonomie de l'usager par un professionnel de santé ou par lui-même lors d'une auto évaluation",
       "exampleBoolean" : false
     },
     {

@@ -19,10 +19,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.194"
     }
   ],
-  "version": "20240628120000",
+  "version": "20240927120000",
   "name": "ASS_X13-AgregatClientele",
   "status": "active",
-  "date": "2024-06-28T12:00:00+01:00",
+  "date": "2024-09-27T12:00:00+01:00",
   "description": "Association d'agrégats de clientèle",
   "group": [
     {
@@ -129,6 +129,21 @@
                 {
                   "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
                   "value": "441"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "target": [
+            {
+              "code": "1100",
+              "equivalence": "narrower",
+              "dependsOn": [
+                {
+                  "property": "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value": "442"
                 }
               ]
             }

@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.5"
     }
   ],
-  "version": "20240223120000",
+  "version": "20240927120000",
   "name": "JDV_J65-SubjectRole-DMP",
   "status": "active",
-  "date": "2024-02-23T12:00:00+01:00",
+  "date": "2024-09-27T12:00:00+01:00",
   "description": "Jeu de valeurs pour subjectRole",
   "compose": {
     "include": [
@@ -4356,7 +4356,7 @@
           },
           {
             "code": "FON-07",
-            "display": "Gérant après décès",
+            "display": "Gérant après incapacité ou décès",
             "designation": [
               {
                 "use": {
@@ -4741,6 +4741,30 @@
           {
             "code": "FON-57",
             "display": "Docteur junior",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.17"
+              }
+            ]
+          },
+          {
+            "code": "FON-58",
+            "display": "Activité en piscine ou bassin",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.17"
+              }
+            ]
+          },
+          {
+            "code": "FON-59",
+            "display": "Gérant d'antenne",
             "designation": [
               {
                 "use": {
@@ -5166,6 +5190,18 @@
           {
             "code": "334",
             "display": "Biologiste médical ni médecin ni pharmacien",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "335",
+            "display": "Gestionnaire alertes et urgences sanitaires",
             "designation": [
               {
                 "use": {

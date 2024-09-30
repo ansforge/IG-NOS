@@ -1,0 +1,191 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "TRE-R368-StatutRessource",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R368-StatutRessource</b></p><a name=\"TRE-R368-StatutRessource\"> </a><a name=\"hcTRE-R368-StatutRessource\"> </a><a name=\"TRE-R368-StatutRessource-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">TERMINE<a name=\"TRE-R368-StatutRessource-TERMINE\"> </a></td><td>Terminé</td><td>2024-09-27T12:00:00+01:00</td><td>2024-09-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">VALIDE<a name=\"TRE-R368-StatutRessource-VALIDE\"> </a></td><td>Validé</td><td>2024-09-27T12:00:00+01:00</td><td>2024-09-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">APPROUVE<a name=\"TRE-R368-StatutRessource-APPROUVE\"> </a></td><td>Approuvé</td><td>2024-09-27T12:00:00+01:00</td><td>2024-09-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">PLANIFIE<a name=\"TRE-R368-StatutRessource-PLANIFIE\"> </a></td><td>Planifié</td><td>2024-09-27T12:00:00+01:00</td><td>2024-09-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">REALISE<a name=\"TRE-R368-StatutRessource-REALISE\"> </a></td><td>Réalisé</td><td>2024-09-27T12:00:00+01:00</td><td>2024-09-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">ANNULE<a name=\"TRE-R368-StatutRessource-ANNULE\"> </a></td><td>Annulé</td><td>2024-09-27T12:00:00+01:00</td><td>2024-09-27T12:00:00+01:00</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-09-27T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.3.3.250"
+  }],
+  "version" : "1.3.0",
+  "name" : "TRE_R368-StatutRessource",
+  "status" : "active",
+  "date" : "2024-09-27T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Caractérise le statut du processus d'évaluation de l'autonomie de l'usager par un professionnel de santé ou par lui-même lors d'une auto évaluation",
+  "content" : "complete",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "TERMINE",
+    "display" : "Terminé",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Terminé"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Terminé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2024-09-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-09-27T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "VALIDE",
+    "display" : "Validé",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Validé"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Validé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2024-09-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-09-27T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "APPROUVE",
+    "display" : "Approuvé",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Approuvé"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Approuvé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2024-09-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-09-27T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "PLANIFIE",
+    "display" : "Planifié",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Planifié"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Planifié"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2024-09-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-09-27T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "REALISE",
+    "display" : "Réalisé",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Réalisé"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Réalisé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2024-09-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-09-27T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "ANNULE",
+    "display" : "Annulé",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Annulé"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Annulé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2024-09-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-09-27T12:00:00+01:00"
+    }]
+  }]
+}

@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.8"/>
   </identifier>
-  <version value="20240223120000"/>
+  <version value="20240927120000"/>
   <name value="JDV_J60-FormatCode-DMP"/>
   <status value="active"/>
-  <date value="2024-02-23T12:00:00+01:00"/>
+  <date value="2024-09-27T12:00:00+01:00"/>
   <description value="Jeu de valeurs pour métadonnée formatCode"/>
   <compose>
     <include>
@@ -141,36 +141,6 @@
       <concept>
         <code value="urn:asip:ci-sis:dlu:2015"/>
         <display value="Document de liaison d'urgence"/>
-        <designation>
-          <use>
-            <code value="OID"/>
-          </use>
-          <value value="urn:oid:1.2.250.1.213.1.1.4.2.282"/>
-        </designation>
-      </concept>
-      <concept>
-        <code value="urn:asip:ci-sis:dlu-dlu-dom:2022"/>
-        <display value="Document de liaison d'urgence DOM"/>
-        <designation>
-          <use>
-            <code value="OID"/>
-          </use>
-          <value value="urn:oid:1.2.250.1.213.1.1.4.2.282"/>
-        </designation>
-      </concept>
-      <concept>
-        <code value="urn:asip:ci-sis:dlu-fludr-dom:2022"/>
-        <display value="Fiche de liaison d'urgence - Retour des urgences vers le domicile"/>
-        <designation>
-          <use>
-            <code value="OID"/>
-          </use>
-          <value value="urn:oid:1.2.250.1.213.1.1.4.2.282"/>
-        </designation>
-      </concept>
-      <concept>
-        <code value="urn:asip:ci-sis:dlu-fludt-dom:2022"/>
-        <display value="Fiche de liaison d'urgence - Transfert du domicile vers les urgences"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -478,6 +448,46 @@
           <value value="urn:oid:1.2.250.1.213.1.1.4.2.282"/>
         </designation>
       </concept>
+      <concept>
+        <code value="urn:asip:ci-sis:dlu:2024"/>
+        <display value="Document de liaison d'urgence"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.2.282"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="urn:asip:ci-sis:ft-su:2024"/>
+        <display value="Fiche de transfert vers le service des urgences"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.2.282"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="urn:asip:ci-sis:fr-su:2024"/>
+        <display value="Fiche de retour du service des urgences"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.2.282"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="urn:ans:ci-sis:trod:2024"/>
+        <display value="Test rapide d'orientation diagnostique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.2.282"/>
+        </designation>
+      </concept>
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode"/>
@@ -573,7 +583,7 @@
       </concept>
       <concept>
         <code value="urn:ihe:pcc:ips:2020"/>
-        <display value="Synthèse du dossier médical"/>
+        <display value="Synthèse médicale"/>
         <designation>
           <use>
             <code value="OID"/>

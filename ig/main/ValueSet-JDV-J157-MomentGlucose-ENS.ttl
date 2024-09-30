@@ -9,8 +9,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "JDV-J157-MomentGlucose-ENS"] ; # 
   fhir:text [
-     fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet JDV-J157-MomentGlucose-ENS</b></p><a name=\"JDV-J157-MomentGlucose-ENS\"> </a><a name=\"hcJDV-J157-MomentGlucose-ENS\"> </a><a name=\"JDV-J157-MomentGlucose-ENS-en-US\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-A04-Loinc.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-16915-1\">16915-1</a></td><td>Glucose post prandial</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-53049-3\">53049-3</a></td><td>Glucose à jeun</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-88365-2\">88365-2</a></td><td>Glucose avant repas</td><td>Glucose [Mass/volume] in Blood --pre-meal</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-LA11865-5\">LA11865-5</a></td><td>Après exercice</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-LA46-8\">LA46-8</a></td><td>Autre</td><td/></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R308-TAASIP.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R308-TAASIP.html#TRE-R308-TAASIP-MED-1278\">MED-1278</a></td><td>Lors d'un malaise</td></tr></table></li></ul></div>"
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet JDV-J157-MomentGlucose-ENS</b></p><a name=\"JDV-J157-MomentGlucose-ENS\"> </a><a name=\"hcJDV-J157-MomentGlucose-ENS\"> </a><a name=\"JDV-J157-MomentGlucose-ENS-en-US\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>http://loinc.org </code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>16915-1</td><td>Glucose post prandial</td></tr><tr><td>53049-3</td><td>Glucose à jeun</td></tr><tr><td>88365-2</td><td>Glucose avant repas</td></tr><tr><td>LA11865-5</td><td>Après exercice</td></tr><tr><td>LA46-8</td><td>Autre</td></tr></table></li><li>Include these codes as defined in <code>https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>MED-1278</td><td>Lors d'un malaise</td></tr></table></li></ul></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -26,7 +26,7 @@
   fhir:version [ fhir:v "1.3.0"] ; # 
   fhir:name [ fhir:v "JDV_J157-MomentGlucose-ENS"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-09-27T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -38,7 +38,7 @@
   fhir:description [ fhir:v "JDV pour caractériser le moment de la mesure de glucose"] ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "http://loinc.org "^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "16915-1" ] ;
          fhir:display [ fhir:v "Glucose post prandial" ] ;
@@ -86,7 +86,7 @@
          ] )
        ] )
      ] [
-       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "MED-1278" ] ;
          fhir:display [ fhir:v "Lors d'un malaise" ] ;

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J277-NCIT-CISIS"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2024-09-27T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J270-NCIT-CISIS/FHIR/JDV-J277-NCIT-CISIS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.796"/>
+  </identifier>
+  <version value="20240927120000"/>
+  <name value="JDV_J277-NCIT-CISIS"/>
+  <status value="active"/>
+  <date value="2024-09-27T12:00:00+01:00"/>
+  <description value="Termes NCIT utilisés"/>
+  <compose>
+    <include>
+      <system value="https://smt.esante.gouv.fr/terminologie-ncit"/>
+      <concept>
+        <code value="C81261"/>
+        <display value="ruban à mesurer"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C21082"/>
+        <display value="échelle numérique de la douleur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C121547"/>
+        <display value="échelle visuelle analogique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C21133"/>
+        <display value="échelle d'évaluation verbale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

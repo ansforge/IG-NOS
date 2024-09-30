@@ -1,0 +1,80 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J277-NCIT-CISIS",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2024-09-27T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J270-NCIT-CISIS/FHIR/JDV-J277-NCIT-CISIS",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.1.1.5.796"
+    }
+  ],
+  "version": "20240927120000",
+  "name": "JDV_J277-NCIT-CISIS",
+  "status": "active",
+  "date": "2024-09-27T12:00:00+01:00",
+  "description": "Termes NCIT utilisés",
+  "compose": {
+    "include": [
+      {
+        "system": "https://smt.esante.gouv.fr/terminologie-ncit",
+        "concept": [
+          {
+            "code": "C81261",
+            "display": "ruban à mesurer",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
+              }
+            ]
+          },
+          {
+            "code": "C21082",
+            "display": "échelle numérique de la douleur",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
+              }
+            ]
+          },
+          {
+            "code": "C121547",
+            "display": "échelle visuelle analogique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
+              }
+            ]
+          },
+          {
+            "code": "C21133",
+            "display": "échelle d'évaluation verbale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:2.16.840.1.113883.3.26.1.1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

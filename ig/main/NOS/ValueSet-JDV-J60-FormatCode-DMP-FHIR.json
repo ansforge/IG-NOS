@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.8"
     }
   ],
-  "version": "20240223120000",
+  "version": "20240927120000",
   "name": "JDV_J60-FormatCode-DMP",
   "status": "active",
-  "date": "2024-02-23T12:00:00+01:00",
+  "date": "2024-09-27T12:00:00+01:00",
   "description": "Jeu de valeurs pour métadonnée formatCode",
   "compose": {
     "include": [
@@ -172,42 +172,6 @@
           {
             "code": "urn:asip:ci-sis:dlu:2015",
             "display": "Document de liaison d'urgence",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
-              }
-            ]
-          },
-          {
-            "code": "urn:asip:ci-sis:dlu-dlu-dom:2022",
-            "display": "Document de liaison d'urgence DOM",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
-              }
-            ]
-          },
-          {
-            "code": "urn:asip:ci-sis:dlu-fludr-dom:2022",
-            "display": "Fiche de liaison d'urgence - Retour des urgences vers le domicile",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
-              }
-            ]
-          },
-          {
-            "code": "urn:asip:ci-sis:dlu-fludt-dom:2022",
-            "display": "Fiche de liaison d'urgence - Transfert du domicile vers les urgences",
             "designation": [
               {
                 "use": {
@@ -576,6 +540,54 @@
                 "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
               }
             ]
+          },
+          {
+            "code": "urn:asip:ci-sis:dlu:2024",
+            "display": "Document de liaison d'urgence",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:ft-su:2024",
+            "display": "Fiche de transfert vers le service des urgences",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:asip:ci-sis:fr-su:2024",
+            "display": "Fiche de retour du service des urgences",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
+          },
+          {
+            "code": "urn:ans:ci-sis:trod:2024",
+            "display": "Test rapide d'orientation diagnostique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.282"
+              }
+            ]
           }
         ]
       },
@@ -692,7 +704,7 @@
           },
           {
             "code": "urn:ihe:pcc:ips:2020",
-            "display": "Synthèse du dossier médical",
+            "display": "Synthèse médicale",
             "designation": [
               {
                 "use": {

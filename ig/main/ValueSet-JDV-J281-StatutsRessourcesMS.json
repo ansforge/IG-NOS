@@ -1,0 +1,95 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "JDV-J281-StatutsRessourcesMS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet JDV-J281-StatutsRessourcesMS</b></p><a name=\"JDV-J281-StatutsRessourcesMS\"> </a><a name=\"hcJDV-J281-StatutsRessourcesMS\"> </a><a name=\"JDV-J281-StatutsRessourcesMS-en-US\"> </a><ul><li>Import all the codes that are contained in the intersection of </li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-09-27T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/JDV_J281-StatutsRessourcesMS/FHIR/JDV-J281-StatutsRessourcesMS",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.3.4.219"
+  }],
+  "version" : "1.3.0",
+  "name" : "JDV_J281-StatutsRessourcesMS",
+  "status" : "active",
+  "date" : "2024-09-27T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Statut de l'évaluation et des événements",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "TERMINE",
+        "display" : "Terminé",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.250"
+        }]
+      },
+      {
+        "code" : "VALIDE",
+        "display" : "Validé",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.250"
+        }]
+      },
+      {
+        "code" : "APPROUVE",
+        "display" : "Approuvé",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.250"
+        }]
+      },
+      {
+        "code" : "PLANIFIE",
+        "display" : "Planifié",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.250"
+        }]
+      },
+      {
+        "code" : "REALISE",
+        "display" : "Réalisé",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.250"
+        }]
+      },
+      {
+        "code" : "ANNULE",
+        "display" : "Annulé",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.250"
+        }]
+      }]
+    }]
+  }
+}
