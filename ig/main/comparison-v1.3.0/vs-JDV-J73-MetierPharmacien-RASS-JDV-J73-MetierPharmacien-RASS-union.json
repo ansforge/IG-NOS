@@ -1,0 +1,81 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2b78bbed-e99d-49a1-a009-bee974cde152-1397",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2b78bbed-e99d-49a1-a009-bee974cde152-1397",
+  "name" : "UnionJDV_J73-MetierPharmacien-RASSAndJDV_J73-MetierPharmacien-RASS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2024-10-21T10:18:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "A",
+        "display" : "Pharmacien titulaire d'officine"
+      },
+      {
+        "code" : "B",
+        "display" : "Pharmacien d'entreprise - industrie"
+      },
+      {
+        "code" : "C",
+        "display" : "Pharmacien d'entreprise - distribution"
+      },
+      {
+        "code" : "D",
+        "display" : "Pharmacien adjoint, remplaçant ou gérant"
+      },
+      {
+        "code" : "E",
+        "display" : "Pharmacien d'Outre-Mer"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "DA",
+        "display" : "Pharmacien adjoint"
+      },
+      {
+        "code" : "DM",
+        "display" : "Pharmacien mutualiste ou minier"
+      },
+      {
+        "code" : "EA",
+        "display" : "Pharmacien titulaire d'officine - OM"
+      },
+      {
+        "code" : "EB",
+        "display" : "Pharmacien d'entreprise - industrie - OM"
+      },
+      {
+        "code" : "EC",
+        "display" : "Pharmacien d'entreprise - distribution - OM"
+      },
+      {
+        "code" : "ED",
+        "display" : "Pharmacien adjoint - OM"
+      },
+      {
+        "code" : "EG",
+        "display" : "Pharmacien biologiste - OM"
+      },
+      {
+        "code" : "EH",
+        "display" : "Pharmacien d'établissement de santé - OM"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "G",
+        "display" : "Pharmacien biologiste"
+      },
+      {
+        "code" : "H",
+        "display" : "Pharmacien d'établissement de santé"
+      },
+      {
+        "code" : "M",
+        "display" : "Pharmacien militaire"
+      }]
+    }]
+  }
+}

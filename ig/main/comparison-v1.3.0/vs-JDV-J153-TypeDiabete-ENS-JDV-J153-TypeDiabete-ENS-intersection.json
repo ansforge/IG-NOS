@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2b78bbed-e99d-49a1-a009-bee974cde152-936",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2b78bbed-e99d-49a1-a009-bee974cde152-936",
+  "name" : "IntersectionJDV_J153-TypeDiabete-ENSAndJDV_J153-TypeDiabete-ENS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2024-10-21T10:18:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "E11.x0",
+        "display" : "Diabète type 2 insulinotraité"
+      },
+      {
+        "code" : "E11.x8",
+        "display" : "Diabète type 2 non insulinotraité"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "E10",
+        "display" : "Diabète sucré de type 1"
+      },
+      {
+        "code" : "O24.4",
+        "display" : "Diabète sucré survenant au cours de la grossesse"
+      },
+      {
+        "code" : "E14",
+        "display" : "Diabète sucré, sans précision"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-874",
+        "display" : "Non diabétique"
+      }]
+    }]
+  }
+}

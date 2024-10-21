@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2b78bbed-e99d-49a1-a009-bee974cde152-1343",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2b78bbed-e99d-49a1-a009-bee974cde152-1343",
+  "name" : "UnionJDV_J52-AvailabilityStatus-CISISAndJDV_J52-AvailabilityStatus-CISIS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2024-10-21T10:18:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "urn:oasis:names:tc:ebxml-regrep:StatusType:Approved",
+        "display" : "Version à jour"
+      },
+      {
+        "code" : "urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated",
+        "display" : "Version obsolète"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "urn:asip:ci-sis:2010:StatusType:Archived",
+        "display" : "Version archivée et à jour"
+      },
+      {
+        "code" : "urn:asip:ci-sis:2010:StatusType:Deleted",
+        "display" : "Version dépubliée"
+      }]
+    }]
+  }
+}

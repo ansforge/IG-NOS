@@ -1,0 +1,204 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "2b78bbed-e99d-49a1-a009-bee974cde152-513",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/2b78bbed-e99d-49a1-a009-bee974cde152-513",
+  "name" : "IntersectionTRE_R327-TypeDecisionAndTRE_R327-TypeDecision",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2024-10-21T10:18:42+00:00",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "1",
+    "display" : "Attribution",
+    "definition" : "La CDAPH a décidé d'attribuer un droit ou une prestation à l'usager",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Attribution"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Attribution"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "2",
+    "display" : "Rejet",
+    "definition" : "La CDAPH a décidé de rejeter une demande de compensation ou un recours",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Rejet"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Rejet"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "3",
+    "display" : "Sursis",
+    "definition" : "La CDAPH a sursis à sa décision parce qu'elle estime ne pas avoir suffisamment d'éléments pour statuer. L'équipe pluridisciplinaire devra apporter les informations manquantes et/ou faire de nouvelles propositions.",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Sursis"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Sursis"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "4",
+    "display" : "Non attribution supplémentaire",
+    "definition" : "La CDAPH a pris une décision de \"non attribution supplémentaire\" lorsque, convoquée plusieurs fois pour prendre les décisions répondant à une demande, elle a décidé de ne rien attribuer lors de la dernière séance",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Non attribution supplémentaire"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Non attribution supplémentaire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "5",
+    "display" : "Clôture de droit",
+    "definition" : "La CDAPH, déterminant qu'un usager n'est plus éligible à un droit précédemment attribué ou considérant que le droit n'apporte plus une réponse adaptée aux besoins de l'usager, a décidé de mettre fin à ce droit",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Clôture de droit"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Clôture de droit"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    }]
+  }]
+}

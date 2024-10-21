@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2b78bbed-e99d-49a1-a009-bee974cde152-914",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2b78bbed-e99d-49a1-a009-bee974cde152-914",
+  "name" : "UnionJDV_J146-MethodBodyHeight-ENSAndJDV_J146-MethodBodyHeight-ENS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2024-10-21T10:18:42+00:00",
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT",
+      "concept" : [{
+        "code" : "C81261",
+        "display" : "ruban à mesurer",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.3.26.1.1"
+        }]
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "V030201",
+        "display" : "TOISES"
+      },
+      {
+        "code" : "V030209",
+        "display" : "TOISES À USAGE CLINIQUE"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/terminologie-ncit",
+      "concept" : [{
+        "code" : "C81261",
+        "display" : "ruban à mesurer",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.3.26.1.1"
+        }]
+      }]
+    }]
+  }
+}

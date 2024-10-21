@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2b78bbed-e99d-49a1-a009-bee974cde152-1004",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2b78bbed-e99d-49a1-a009-bee974cde152-1004",
+  "name" : "UnionJDV_J177-BesoinAideMobilite-MDPHAndJDV_J177-BesoinAideMobilite-MDPH",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2024-10-21T10:18:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Se déplacer dans le domicile"
+      },
+      {
+        "code" : "02",
+        "display" : "Sortir du domicile ou y entrer"
+      },
+      {
+        "code" : "03",
+        "display" : "Se déplacer à l'extérieur du domicile"
+      },
+      {
+        "code" : "04",
+        "display" : "Utiliser un véhicule"
+      },
+      {
+        "code" : "05",
+        "display" : "Utiliser les transports en commun"
+      },
+      {
+        "code" : "06",
+        "display" : "Partir en vacances"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "02",
+        "display" : "Autre"
+      }]
+    }]
+  }
+}

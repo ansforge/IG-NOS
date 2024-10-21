@@ -1,0 +1,103 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2b78bbed-e99d-49a1-a009-bee974cde152-938",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2b78bbed-e99d-49a1-a009-bee974cde152-938",
+  "name" : "UnionJDV_J154-TypeGlucose-ENSAndJDV_J154-TypeGlucose-ENS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2024-10-21T10:18:42+00:00",
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc",
+      "concept" : [{
+        "code" : "2345-7",
+        "display" : "Glucose",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.6.1"
+        }]
+      },
+      {
+        "code" : "4548-4",
+        "display" : "Hémoglobine A1c %",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.6.1"
+        }]
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP",
+      "concept" : [{
+        "code" : "MED-969",
+        "display" : "Glucose interstitiel",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
+        }]
+      },
+      {
+        "code" : "MED-972",
+        "display" : "Index de gestion de glycémie (IGG)",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
+        }]
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "2345-7",
+        "display" : "Glucose",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.6.1"
+        }]
+      },
+      {
+        "code" : "4548-4",
+        "display" : "Hémoglobine A1c %",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.6.1"
+        }]
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
+      "concept" : [{
+        "code" : "MED-969",
+        "display" : "Glucose interstitiel",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
+        }]
+      },
+      {
+        "code" : "MED-972",
+        "display" : "Index de gestion de glycémie (IGG)",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
+        }]
+      }]
+    }]
+  }
+}
