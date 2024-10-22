@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: size        
         run: |
-          sudo fdisk -l
+          df -h
 
 
       - name: Get IG-website-release
