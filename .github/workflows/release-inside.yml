@@ -11,6 +11,11 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+      - name: size        
+        run: |
+          sudo fdisk -l
+
+
       - name: Get IG-website-release
         uses: actions/checkout@main
         with:
