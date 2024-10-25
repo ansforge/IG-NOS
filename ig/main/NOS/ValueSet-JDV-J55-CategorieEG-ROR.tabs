@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
-1.2.250.1.213.3.3.65;JDV;JDV_J55-CategorieEG-ROR.tabs;Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets;https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR;20190125120000;;20240927120000
+1.2.250.1.213.3.3.65;JDV;JDV_J55-CategorieEG-ROR.tabs;Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets;https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR;20190125120000;;20241025120000
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.1.6.1.8;101;Centre hospitalier régional (CHR)
 1.2.250.1.213.1.6.1.8;106;Centre hospitalier (ex Hôpital local)
@@ -59,7 +59,8 @@
 1.2.250.1.213.1.6.1.8;231;Etablissement d'information, de consultation et de conseil familial
 1.2.250.1.213.1.6.1.8;236;Centre de placement familial socio-éducatif (CPFSE)
 1.2.250.1.213.1.6.1.8;238;Centre d'accueil familial spécialisé
-1.2.250.1.213.1.6.1.8;241;Foyer d'action éducative (FAE)
+1.2.250.1.213.1.6.1.8;241;Établissement de Placement
+1.2.250.1.213.1.6.1.8;242;Service d'Activité de Jour
 1.2.250.1.213.1.6.1.8;246;Etablissement et service d'aide par le travail (ESAT)
 1.2.250.1.213.1.6.1.8;247;Entreprise adaptée
 1.2.250.1.213.1.6.1.8;249;Établissement et Service de Réadaptation Professionnelle
@@ -113,19 +114,17 @@
 1.2.250.1.213.1.6.1.8;411;Intermédiaire de placement social
 1.2.250.1.213.1.6.1.8;412;Appartement thérapeutique
 1.2.250.1.213.1.6.1.8;415;Service médico-psychologique régional (SMPR)
-1.2.250.1.213.1.6.1.8;418;Service d'enquêtes sociales (SES)
 1.2.250.1.213.1.6.1.8;422;Traitements spécialisés à domicile
 1.2.250.1.213.1.6.1.8;425;Centre d'accueil thérapeutique à temps partiel (CATTP)
 1.2.250.1.213.1.6.1.8;426;Syndicat inter hospitalier (SIH)
-1.2.250.1.213.1.6.1.8;427;Service éducatif auprès des tribunaux (SEAT)
 1.2.250.1.213.1.6.1.8;430;Centre postcure pour malades mentaux
 1.2.250.1.213.1.6.1.8;433;Etablissement sanitaire des prisons
 1.2.250.1.213.1.6.1.8;436;Ecoles formant aux professions sanitaires et sociales
 1.2.250.1.213.1.6.1.8;437;Foyer d'accueil médicalisé pour adultes handicapés (FAM)
 1.2.250.1.213.1.6.1.8;438;Centre de médecine collective
 1.2.250.1.213.1.6.1.8;439;Centre de santé polyvalent
-1.2.250.1.213.1.6.1.8;440;Service d'investigation et d'orientation éducative (SIOE)
-1.2.250.1.213.1.6.1.8;441;Centre d'action éducative (CAE)
+1.2.250.1.213.1.6.1.8;440;Service d'Investigation Educative
+1.2.250.1.213.1.6.1.8;441;Service d'Intervention Educative en Milieu Ouvert
 1.2.250.1.213.1.6.1.8;442;Centre provisoire d'hébergement
 1.2.250.1.213.1.6.1.8;443;Centre d'accueil de demandeurs d'asile (CADA)
 1.2.250.1.213.1.6.1.8;444;Centre de crise et d'accueil permanent
@@ -133,10 +132,9 @@
 1.2.250.1.213.1.6.1.8;446;Service d'accompagnement à la vie sociale (SAVS)
 1.2.250.1.213.1.6.1.8;448;Etablissement d'Accueil Médicalisé en tout ou partie personnes handicapées
 1.2.250.1.213.1.6.1.8;449;Etablissement d'Accueil Non Médicalisé pour personnes handicapées
-1.2.250.1.213.1.6.1.8;453;Service de réparation pénale
 1.2.250.1.213.1.6.1.8;460;Service autonomie aide (SAA)
 1.2.250.1.213.1.6.1.8;461;Centres de ressources SAI (sans aucune indication)
-1.2.250.1.213.1.6.1.8;462;Lieux de vie
+1.2.250.1.213.1.6.1.8;462;Lieux de Vie et d'Accueil
 1.2.250.1.213.1.6.1.8;463;Centre local d'information et de coordination de personnes âgées
 1.2.250.1.213.1.6.1.8;464;Unité d'évaluation, de réentraînement et d'orientation sociale et-ou professionnelle
 1.2.250.1.213.1.6.1.8;500;Etablissement d'hébergement pour personnes âgées dépendantes
@@ -173,14 +171,17 @@
 1.2.250.1.213.1.6.1.8;644;Etablissement de mise à l'abri pour les personnes se déclarant mineures non accompagnées (EMAMNA)
 1.2.250.1.213.1.6.1.8;641;Antenne de Pharmacie d'officine
 1.2.250.1.213.1.6.1.8;645;Centre de Vaccination
-1.2.250.1.213.1.6.1.8;646;Centre de Vaccination International
+1.2.250.1.213.1.6.1.8;646;Centre de Vaccination Internationale
 1.2.250.1.213.1.6.1.8;647;Equipe de Soins Spécialisés
+1.2.250.1.213.1.6.1.8;648;Structure qui contribue au Service d'Accès aux Soins
 1.2.250.1.213.1.6.1.8;695;Groupement de coopération sanitaire de moyens - Exploitant
 1.2.250.1.213.1.6.1.8;696;Groupement de coopération sanitaire de moyens
 1.2.250.1.213.1.6.1.8;697;Groupement de coopération sanitaire, Etablissement de santé
 1.2.250.1.213.1.6.1.8;698;Autre établissement relevant de la loi hospitalière
 1.2.250.1.213.1.6.1.8;699;Entité ayant autorisation
 1.2.250.1.213.1.6.1.8;700;Maison sport-santé
+1.2.250.1.213.1.6.1.8;701;Maison des adolescents (MDA)
+1.2.250.1.213.1.6.1.8;702;Point Accueil Ecoute Jeunes (PAEJ)
 1.2.250.1.71.4.2.4;SA05;Centre de santé
 1.2.250.1.71.4.2.4;SA07;Cabinet individuel
 1.2.250.1.71.4.2.4;SA08;Cabinet de groupe

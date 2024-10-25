@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <ValueSet dateFin="" dateMaj="20240927120000" dateValid="20190125120000" description="Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets" displayName="JDV_J55-CategorieEG-ROR.tabs" id="1.2.250.1.213.3.3.65" typeFichier="JDV" urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR">
+    <ValueSet dateFin="" dateMaj="20241025120000" dateValid="20190125120000" description="Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets" displayName="JDV_J55-CategorieEG-ROR.tabs" id="1.2.250.1.213.3.3.65" typeFichier="JDV" urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR">
         <ConceptList>
             <Concept code="101" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centre hospitalier régional (CHR)"/>
             <Concept code="106" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centre hospitalier (ex Hôpital local)"/>
@@ -60,7 +60,8 @@
             <Concept code="231" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Etablissement d'information, de consultation et de conseil familial"/>
             <Concept code="236" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centre de placement familial socio-éducatif (CPFSE)"/>
             <Concept code="238" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centre d'accueil familial spécialisé"/>
-            <Concept code="241" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Foyer d'action éducative (FAE)"/>
+            <Concept code="241" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Établissement de Placement"/>
+            <Concept code="242" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Service d'Activité de Jour"/>
             <Concept code="246" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Etablissement et service d'aide par le travail (ESAT)"/>
             <Concept code="247" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Entreprise adaptée"/>
             <Concept code="249" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Établissement et Service de Réadaptation Professionnelle"/>
@@ -114,19 +115,17 @@
             <Concept code="411" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Intermédiaire de placement social"/>
             <Concept code="412" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Appartement thérapeutique"/>
             <Concept code="415" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Service médico-psychologique régional (SMPR)"/>
-            <Concept code="418" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Service d'enquêtes sociales (SES)"/>
             <Concept code="422" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Traitements spécialisés à domicile"/>
             <Concept code="425" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centre d'accueil thérapeutique à temps partiel (CATTP)"/>
             <Concept code="426" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Syndicat inter hospitalier (SIH)"/>
-            <Concept code="427" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Service éducatif auprès des tribunaux (SEAT)"/>
             <Concept code="430" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centre postcure pour malades mentaux"/>
             <Concept code="433" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Etablissement sanitaire des prisons"/>
             <Concept code="436" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Ecoles formant aux professions sanitaires et sociales"/>
             <Concept code="437" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Foyer d'accueil médicalisé pour adultes handicapés (FAM)"/>
             <Concept code="438" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centre de médecine collective"/>
             <Concept code="439" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centre de santé polyvalent"/>
-            <Concept code="440" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Service d'investigation et d'orientation éducative (SIOE)"/>
-            <Concept code="441" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centre d'action éducative (CAE)"/>
+            <Concept code="440" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Service d'Investigation Educative"/>
+            <Concept code="441" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Service d'Intervention Educative en Milieu Ouvert"/>
             <Concept code="442" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centre provisoire d'hébergement"/>
             <Concept code="443" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centre d'accueil de demandeurs d'asile (CADA)"/>
             <Concept code="444" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centre de crise et d'accueil permanent"/>
@@ -134,10 +133,9 @@
             <Concept code="446" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Service d'accompagnement à la vie sociale (SAVS)"/>
             <Concept code="448" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Etablissement d'Accueil Médicalisé en tout ou partie personnes handicapées"/>
             <Concept code="449" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Etablissement d'Accueil Non Médicalisé pour personnes handicapées"/>
-            <Concept code="453" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Service de réparation pénale"/>
             <Concept code="460" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Service autonomie aide (SAA)"/>
             <Concept code="461" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centres de ressources SAI (sans aucune indication)"/>
-            <Concept code="462" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Lieux de vie"/>
+            <Concept code="462" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Lieux de Vie et d'Accueil"/>
             <Concept code="463" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centre local d'information et de coordination de personnes âgées"/>
             <Concept code="464" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Unité d'évaluation, de réentraînement et d'orientation sociale et-ou professionnelle"/>
             <Concept code="500" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Etablissement d'hébergement pour personnes âgées dépendantes"/>
@@ -174,14 +172,17 @@
             <Concept code="644" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Etablissement de mise à l'abri pour les personnes se déclarant mineures non accompagnées (EMAMNA)"/>
             <Concept code="641" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Antenne de Pharmacie d'officine"/>
             <Concept code="645" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centre de Vaccination"/>
-            <Concept code="646" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centre de Vaccination International"/>
+            <Concept code="646" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Centre de Vaccination Internationale"/>
             <Concept code="647" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Equipe de Soins Spécialisés"/>
+            <Concept code="648" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Structure qui contribue au Service d'Accès aux Soins"/>
             <Concept code="695" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Groupement de coopération sanitaire de moyens - Exploitant"/>
             <Concept code="696" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Groupement de coopération sanitaire de moyens"/>
             <Concept code="697" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Groupement de coopération sanitaire, Etablissement de santé"/>
             <Concept code="698" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Autre établissement relevant de la loi hospitalière"/>
             <Concept code="699" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Entité ayant autorisation"/>
             <Concept code="700" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Maison sport-santé"/>
+            <Concept code="701" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Maison des adolescents (MDA)"/>
+            <Concept code="702" codeSystem="1.2.250.1.213.1.6.1.8" displayName="Point Accueil Ecoute Jeunes (PAEJ)"/>
             <Concept code="SA05" codeSystem="1.2.250.1.71.4.2.4" displayName="Centre de santé"/>
             <Concept code="SA07" codeSystem="1.2.250.1.71.4.2.4" displayName="Cabinet individuel"/>
             <Concept code="SA08" codeSystem="1.2.250.1.71.4.2.4" displayName="Cabinet de groupe"/>
