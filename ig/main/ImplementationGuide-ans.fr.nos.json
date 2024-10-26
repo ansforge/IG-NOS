@@ -2575,7 +2575,7 @@
         "reference" : "ValueSet/JDV-J254-CategorieEtablissementESSMSPH"
       },
       "name" : "JDV_J254-CategorieEtablissementESSMSPH",
-      "description" : "Liste les catégories d’établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d’handicap",
+      "description" : "Liste les catégories d'établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d'handicap",
       "exampleBoolean" : false
     },
     {
@@ -2740,6 +2740,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/JDV-J276-SNOMED-UPNOS"
+      },
+      "name" : "JDV_J276-SNOMED-UPNOS",
+      "description" : "Termes SNOMED-CT utilisés",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J277-NCIT-CISIS"
       },
       "name" : "JDV_J277-NCIT-CISIS",
@@ -2792,6 +2804,66 @@
       },
       "name" : "JDV_J281-StatutsRessourcesMS",
       "description" : "Statut de l'évaluation et des événements",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN"
+      },
+      "name" : "JDV_J282-TransportsLiesAuProjetIndividuel_SERAFIN",
+      "description" : "Liste les natures des transports liés au projet individuel provenant de la terminologie SERAFIN",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J283-PrestationsIndirects-SERAFIN"
+      },
+      "name" : "JDV_J283-PrestationsIndirects_SERAFIN",
+      "description" : "Liste des prestations indirects provenant de la terminologie SERAFIN",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J284-PrestationsDirects-SERAFIN"
+      },
+      "name" : "JDV_J284-PrestationsDirects_SERAFIN",
+      "description" : "Liste des prestations directs provenant de la terminologie SERAFIN",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J285-Besoins-SERAFIN"
+      },
+      "name" : "JDV_J285-Besoins_SERAFIN",
+      "description" : "Liste des besoins provenant de la terminologie SERAFIN",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J286-ProfilUtilisateurReferentielNational-ROR"
+      },
+      "name" : "JDV_J286_ProfilUtilisateurReferentielNational_ROR",
+      "description" : "Profils utilisateurs du ROR National",
       "exampleBoolean" : false
     },
     {
@@ -5996,6 +6068,18 @@
       },
       "name" : "TRE_R368-StatutRessource",
       "description" : "Caractérise le statut du processus d'évaluation de l'autonomie de l'usager par un professionnel de santé ou par lui-même lors d'une auto évaluation",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TRE-R369-ProfilUtilisateurReferentielNational"
+      },
+      "name" : "TRE_R369_ProfilUtilisateurReferentielNational",
+      "description" : "Profils utilisateur d'un référentiel national",
       "exampleBoolean" : false
     },
     {

@@ -2488,7 +2488,7 @@
          fhir:reference [ fhir:v "ValueSet/JDV-J254-CategorieEtablissementESSMSPH" ]
        ] ;
        fhir:name [ fhir:v "JDV_J254-CategorieEtablissementESSMSPH" ] ;
-       fhir:description [ fhir:v "Liste les catégories d’établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d’handicap" ] ;
+       fhir:description [ fhir:v "Liste les catégories d'établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d'handicap" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -2652,6 +2652,18 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J276-SNOMED-UPNOS> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J276-SNOMED-UPNOS" ]
+       ] ;
+       fhir:name [ fhir:v "JDV_J276-SNOMED-UPNOS" ] ;
+       fhir:description [ fhir:v "Termes SNOMED-CT utilisés" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J277-NCIT-CISIS> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J277-NCIT-CISIS" ]
        ] ;
@@ -2705,6 +2717,66 @@
        ] ;
        fhir:name [ fhir:v "JDV_J281-StatutsRessourcesMS" ] ;
        fhir:description [ fhir:v "Statut de l'évaluation et des événements" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN" ]
+       ] ;
+       fhir:name [ fhir:v "JDV_J282-TransportsLiesAuProjetIndividuel_SERAFIN" ] ;
+       fhir:description [ fhir:v "Liste les natures des transports liés au projet individuel provenant de la terminologie SERAFIN" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J283-PrestationsIndirects-SERAFIN> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J283-PrestationsIndirects-SERAFIN" ]
+       ] ;
+       fhir:name [ fhir:v "JDV_J283-PrestationsIndirects_SERAFIN" ] ;
+       fhir:description [ fhir:v "Liste des prestations indirects provenant de la terminologie SERAFIN" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J284-PrestationsDirects-SERAFIN> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J284-PrestationsDirects-SERAFIN" ]
+       ] ;
+       fhir:name [ fhir:v "JDV_J284-PrestationsDirects_SERAFIN" ] ;
+       fhir:description [ fhir:v "Liste des prestations directs provenant de la terminologie SERAFIN" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J285-Besoins-SERAFIN> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J285-Besoins-SERAFIN" ]
+       ] ;
+       fhir:name [ fhir:v "JDV_J285-Besoins_SERAFIN" ] ;
+       fhir:description [ fhir:v "Liste des besoins provenant de la terminologie SERAFIN" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J286-ProfilUtilisateurReferentielNational-ROR> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J286-ProfilUtilisateurReferentielNational-ROR" ]
+       ] ;
+       fhir:name [ fhir:v "JDV_J286_ProfilUtilisateurReferentielNational_ROR" ] ;
+       fhir:description [ fhir:v "Profils utilisateurs du ROR National" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -5909,6 +5981,18 @@
        ] ;
        fhir:name [ fhir:v "TRE_R368-StatutRessource" ] ;
        fhir:description [ fhir:v "Caractérise le statut du processus d'évaluation de l'autonomie de l'usager par un professionnel de santé ou par lui-même lors d'une auto évaluation" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R369-ProfilUtilisateurReferentielNational> ;
+         fhir:reference [ fhir:v "CodeSystem/TRE-R369-ProfilUtilisateurReferentielNational" ]
+       ] ;
+       fhir:name [ fhir:v "TRE_R369_ProfilUtilisateurReferentielNational" ] ;
+       fhir:description [ fhir:v "Profils utilisateur d'un référentiel national" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

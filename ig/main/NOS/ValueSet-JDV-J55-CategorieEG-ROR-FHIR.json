@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.3.3.65"
     }
   ],
-  "version": "20240927120000",
+  "version": "20241025120000",
   "name": "JDV_J55-CategorieEG-ROR",
   "status": "active",
-  "date": "2024-09-27T12:00:00+01:00",
+  "date": "2024-10-25T12:00:00+01:00",
   "description": "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets",
   "compose": {
     "include": [
@@ -723,7 +723,19 @@
           },
           {
             "code": "241",
-            "display": "Foyer d'action éducative (FAE)",
+            "display": "Établissement de Placement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "242",
+            "display": "Service d'Activité de Jour",
             "designation": [
               {
                 "use": {
@@ -1370,18 +1382,6 @@
             ]
           },
           {
-            "code": "418",
-            "display": "Service d'enquêtes sociales (SES)",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
-              }
-            ]
-          },
-          {
             "code": "422",
             "display": "Traitements spécialisés à domicile",
             "designation": [
@@ -1408,18 +1408,6 @@
           {
             "code": "426",
             "display": "Syndicat inter hospitalier (SIH)",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
-              }
-            ]
-          },
-          {
-            "code": "427",
-            "display": "Service éducatif auprès des tribunaux (SEAT)",
             "designation": [
               {
                 "use": {
@@ -1503,7 +1491,7 @@
           },
           {
             "code": "440",
-            "display": "Service d'investigation et d'orientation éducative (SIOE)",
+            "display": "Service d'Investigation Educative",
             "designation": [
               {
                 "use": {
@@ -1515,7 +1503,7 @@
           },
           {
             "code": "441",
-            "display": "Centre d'action éducative (CAE)",
+            "display": "Service d'Intervention Educative en Milieu Ouvert",
             "designation": [
               {
                 "use": {
@@ -1610,18 +1598,6 @@
             ]
           },
           {
-            "code": "453",
-            "display": "Service de réparation pénale",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
-              }
-            ]
-          },
-          {
             "code": "460",
             "display": "Service autonomie aide (SAA)",
             "designation": [
@@ -1647,7 +1623,7 @@
           },
           {
             "code": "462",
-            "display": "Lieux de vie",
+            "display": "Lieux de Vie et d'Accueil",
             "designation": [
               {
                 "use": {
@@ -2091,7 +2067,7 @@
           },
           {
             "code": "646",
-            "display": "Centre de Vaccination International",
+            "display": "Centre de Vaccination Internationale",
             "designation": [
               {
                 "use": {
@@ -2104,6 +2080,18 @@
           {
             "code": "647",
             "display": "Equipe de Soins Spécialisés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "648",
+            "display": "Structure qui contribue au Service d'Accès aux Soins",
             "designation": [
               {
                 "use": {
@@ -2176,6 +2164,30 @@
           {
             "code": "700",
             "display": "Maison sport-santé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "701",
+            "display": "Maison des adolescents (MDA)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.8"
+              }
+            ]
+          },
+          {
+            "code": "702",
+            "display": "Point Accueil Ecoute Jeunes (PAEJ)",
             "designation": [
               {
                 "use": {

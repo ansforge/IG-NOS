@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.3.3.65"/>
   </identifier>
-  <version value="20240927120000"/>
+  <version value="20241025120000"/>
   <name value="JDV_J55-CategorieEG-ROR"/>
   <status value="active"/>
-  <date value="2024-09-27T12:00:00+01:00"/>
+  <date value="2024-10-25T12:00:00+01:00"/>
   <description value="Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets"/>
   <compose>
     <include>
@@ -600,7 +600,17 @@
       </concept>
       <concept>
         <code value="241"/>
-        <display value="Foyer d'action éducative (FAE)"/>
+        <display value="Établissement de Placement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.8"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="242"/>
+        <display value="Service d'Activité de Jour"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -1139,16 +1149,6 @@
         </designation>
       </concept>
       <concept>
-        <code value="418"/>
-        <display value="Service d'enquêtes sociales (SES)"/>
-        <designation>
-          <use>
-            <code value="OID"/>
-          </use>
-          <value value="urn:oid:1.2.250.1.213.1.6.1.8"/>
-        </designation>
-      </concept>
-      <concept>
         <code value="422"/>
         <display value="Traitements spécialisés à domicile"/>
         <designation>
@@ -1171,16 +1171,6 @@
       <concept>
         <code value="426"/>
         <display value="Syndicat inter hospitalier (SIH)"/>
-        <designation>
-          <use>
-            <code value="OID"/>
-          </use>
-          <value value="urn:oid:1.2.250.1.213.1.6.1.8"/>
-        </designation>
-      </concept>
-      <concept>
-        <code value="427"/>
-        <display value="Service éducatif auprès des tribunaux (SEAT)"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -1250,7 +1240,7 @@
       </concept>
       <concept>
         <code value="440"/>
-        <display value="Service d'investigation et d'orientation éducative (SIOE)"/>
+        <display value="Service d'Investigation Educative"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -1260,7 +1250,7 @@
       </concept>
       <concept>
         <code value="441"/>
-        <display value="Centre d'action éducative (CAE)"/>
+        <display value="Service d'Intervention Educative en Milieu Ouvert"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -1339,16 +1329,6 @@
         </designation>
       </concept>
       <concept>
-        <code value="453"/>
-        <display value="Service de réparation pénale"/>
-        <designation>
-          <use>
-            <code value="OID"/>
-          </use>
-          <value value="urn:oid:1.2.250.1.213.1.6.1.8"/>
-        </designation>
-      </concept>
-      <concept>
         <code value="460"/>
         <display value="Service autonomie aide (SAA)"/>
         <designation>
@@ -1370,7 +1350,7 @@
       </concept>
       <concept>
         <code value="462"/>
-        <display value="Lieux de vie"/>
+        <display value="Lieux de Vie et d'Accueil"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -1740,7 +1720,7 @@
       </concept>
       <concept>
         <code value="646"/>
-        <display value="Centre de Vaccination International"/>
+        <display value="Centre de Vaccination Internationale"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -1751,6 +1731,16 @@
       <concept>
         <code value="647"/>
         <display value="Equipe de Soins Spécialisés"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.8"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="648"/>
+        <display value="Structure qui contribue au Service d'Accès aux Soins"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -1811,6 +1801,26 @@
       <concept>
         <code value="700"/>
         <display value="Maison sport-santé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.8"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="701"/>
+        <display value="Maison des adolescents (MDA)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.8"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="702"/>
+        <display value="Point Accueil Ecoute Jeunes (PAEJ)"/>
         <designation>
           <use>
             <code value="OID"/>

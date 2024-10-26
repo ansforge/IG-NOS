@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J283-PrestationsIndirects-SERAFIN"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2024-10-25T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J283-PrestationsIndirects_SERAFIN/FHIR/JDV-J283-PrestationsIndirects-SERAFIN"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.3.252"/>
+  </identifier>
+  <version value="20241025120000"/>
+  <name value="JDV_J283-PrestationsIndirects_SERAFIN"/>
+  <status value="active"/>
+  <date value="2024-10-25T12:00:00+01:00"/>
+  <description value="Liste des prestations indirects provenant de la terminologie SERAFIN"/>
+  <compose>
+    <include>
+      <system value="https://smt.esante.gouv.fr/terminologie-SERAFINPH/"/>
+      <concept>
+        <code value="3"/>
+        <display value="Prestations indirectes - Pilotage et fonctions supports"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1"/>
+        <display value="Fonctions Gérer, manager, coopérer"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.1"/>
+        <display value="Gestion des ressources humaines"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.1.1"/>
+        <display value="Pilotage et direction"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.1.2"/>
+        <display value="Gestion des ressources humaines, de la Gestion previsionnelle des emplois et des competences et du dialogue socIal"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.2"/>
+        <display value="Gestion administrative, budgétaire, financière et comptable"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.2.1"/>
+        <display value="Gestion budgétaire, financière et comptable"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.2.2"/>
+        <display value="Gestion administrative"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.3"/>
+        <display value="Information et communication"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.3.1"/>
+        <display value="Communication (interne et externe), statistiques, rapport annuel et documents collectifs 2002-2"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.3.2"/>
+        <display value="Gestion des données des personnes accueillies, système d'information, informatique, TIC, archivage informatique des données, GED"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.4"/>
+        <display value="Qualité et sécurité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.4.1"/>
+        <display value="Démarche d'amélioration continue de la qualité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.4.2"/>
+        <display value="Analyse des pratiques, espaces ressource et soutien aux personnels"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.4.3"/>
+        <display value="Prestations de supervision"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.5"/>
+        <display value="Relations avec le territoire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.5.1"/>
+        <display value="Coopérations, conventions avec les acteurs spécialisés et du droit commun"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.5.2"/>
+        <display value="Appui-Ressources et partenariats institutionnels"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.1.6"/>
+        <display value="Transports liés à gérer, manager, coopérer"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.2"/>
+        <display value="Fonctions logistiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.2.1"/>
+        <display value="Locaux et autres ressources pour accueillir"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.2.1.1"/>
+        <display value="Locaux et autres ressources pour héberger"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.2.1.2"/>
+        <display value="Locaux et autres ressources pour accueillir le jour"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.2.1.3"/>
+        <display value="Locaux et autres ressources pour réaliser des prestations de soins, de maintien et de développement des capacités fonctionnelles"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.2.1.4"/>
+        <display value="Locaux et autres ressources pour gérer, manager, coopérer"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.2.1.5"/>
+        <display value="Hygiène, entretien, sécurité des locaux, espaces extérieurs"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.2.2"/>
+        <display value="Fournir des repas"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.2.2.1"/>
+        <display value="Fournir des repas"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.2.3"/>
+        <display value="Entretenir le linge"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.2.3.1"/>
+        <display value="Entretenir le linge"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.2.4"/>
+        <display value="Transports liés au projet individuel"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.2.4.1"/>
+        <display value="Transports liés à accueillir (domicile-structure)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.2.4.2"/>
+        <display value="Transports liés aux prestations de soins, de maintien et de developpement des capacités fonctionnelles"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.2.4.3"/>
+        <display value="Transports liés à l'autonomie et la participation sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="3.2.5"/>
+        <display value="Transports des biens et matériels liés à la restauration et à l'entretien du linge"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

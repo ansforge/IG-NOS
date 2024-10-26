@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "c33d09b8-c522-4cd5-92e0-2bf3718be749-956",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/c33d09b8-c522-4cd5-92e0-2bf3718be749-956",
+  "id" : "8bd76c22-cdda-42fd-9161-4410f50fef8b-956",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/8bd76c22-cdda-42fd-9161-4410f50fef8b-956",
   "name" : "UnionJDV_J16-ActeSpecifique-RORAndJDV_J16-ActeSpecifique-ROR",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2024-10-25T15:17:53+00:00",
+  "date" : "2024-10-26T04:20:09+00:00",
   "compose" : {
     "include" : [{
       "concept" : [{
@@ -358,7 +358,13 @@
       },
       {
         "code" : "0149",
-        "display" : "Cystographie pédiatrique"
+        "display" : "Cystographie pédiatrique",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.11"
+        }]
       },
       {
         "code" : "0150",
@@ -1724,7 +1730,7 @@
       },
       {
         "code" : "0709",
-        "display" : "Entéro-IRM"
+        "display" : "Colo-IRM et entéro-IRM"
       },
       {
         "code" : "0710",
@@ -3164,7 +3170,7 @@
       },
       {
         "code" : "1119",
-        "display" : "Chirurgie du défilé cervico-thoracique"
+        "display" : "Chirurgie du défilé cervico thoraco brachial"
       },
       {
         "code" : "1120",
@@ -3292,7 +3298,7 @@
       },
       {
         "code" : "1151",
-        "display" : "Chirurgie oncologique de l'oesophage ou de la jonction gastro-oesophagienne"
+        "display" : "Chirurgie carcinologique de l'oesophage ou de la jonction gastro-oesophagienne"
       },
       {
         "code" : "1152",
@@ -3352,7 +3358,13 @@
       },
       {
         "code" : "1166",
-        "display" : "Colo-IRM et entéro-IRM"
+        "display" : "Colo-IRM et entéro-IRM",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.11"
+        }]
       },
       {
         "code" : "1167",
@@ -3424,7 +3436,13 @@
       },
       {
         "code" : "1184",
-        "display" : "Echodoppler artériel / veineux"
+        "display" : "Echodoppler artériel / veineux",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.11"
+        }]
       },
       {
         "code" : "1185",
@@ -3800,7 +3818,7 @@
       },
       {
         "code" : "1279",
-        "display" : "Télésurveillance des prothèses rythmiques"
+        "display" : "Télésurveillance médicale de l'arythmie cardiaque"
       },
       {
         "code" : "1280",
@@ -4308,7 +4326,13 @@
       },
       {
         "code" : "1410",
-        "display" : "Chirurgie carcinologique de l'oesophage"
+        "display" : "Chirurgie carcinologique de l'oesophage",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.11"
+        }]
       },
       {
         "code" : "1411",
@@ -4316,7 +4340,13 @@
       },
       {
         "code" : "1412",
-        "display" : "Chirurgie du syndrome du défilé thoraco brachial"
+        "display" : "Chirurgie du syndrome du défilé thoraco brachial",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.11"
+        }]
       },
       {
         "code" : "1413",
@@ -4562,7 +4592,7 @@
       },
       {
         "code" : "1464",
-        "display" : "Certificats médicaux pour le sport de haut niveau (SHN)",
+        "display" : "Délivrance de certificats médicaux pour le sport de haut niveau (SHN)",
         "designation" : [{
           "use" : {
             "code" : "OID"
@@ -4572,7 +4602,7 @@
       },
       {
         "code" : "1465",
-        "display" : "Certificats spécifiques pour les sportifs en situation de Handicap",
+        "display" : "Délivrance de certificats spécifiques pour les sportifs en situation de Handicap",
         "designation" : [{
           "use" : {
             "code" : "OID"
@@ -4743,6 +4773,56 @@
       {
         "code" : "1482",
         "display" : "Cryothérapie compressive",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.11"
+        }]
+      },
+      {
+        "code" : "1483",
+        "display" : "Télésurveillance médicale de l'insuffisance cardiaque",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.11"
+        }]
+      },
+      {
+        "code" : "1484",
+        "display" : "Télésurveillance médicale de l'insuffisance rénale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.11"
+        }]
+      },
+      {
+        "code" : "1485",
+        "display" : "Télésurveillance médicale de l'insuffisance respiratoire",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.11"
+        }]
+      },
+      {
+        "code" : "1486",
+        "display" : "Télésurveillance médicale du diabète",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.11"
+        }]
+      },
+      {
+        "code" : "1487",
+        "display" : "Télésurveillance médicale en oncologie",
         "designation" : [{
           "use" : {
             "code" : "OID"

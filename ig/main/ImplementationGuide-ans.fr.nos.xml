@@ -2256,7 +2256,7 @@
         <reference value="ValueSet/JDV-J254-CategorieEtablissementESSMSPH"/>
       </reference>
       <name value="JDV_J254-CategorieEtablissementESSMSPH"/>
-      <description value="Liste les catégories d’établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d’handicap"/>
+      <description value="Liste les catégories d'établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d'handicap"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -2407,6 +2407,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/JDV-J276-SNOMED-UPNOS"/>
+      </reference>
+      <name value="JDV_J276-SNOMED-UPNOS"/>
+      <description value="Termes SNOMED-CT utilisés"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/JDV-J277-NCIT-CISIS"/>
       </reference>
       <name value="JDV_J277-NCIT-CISIS"/>
@@ -2455,6 +2466,61 @@
       </reference>
       <name value="JDV_J281-StatutsRessourcesMS"/>
       <description value="Statut de l'évaluation et des événements"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN"/>
+      </reference>
+      <name value="JDV_J282-TransportsLiesAuProjetIndividuel_SERAFIN"/>
+      <description value="Liste les natures des transports liés au projet individuel provenant de la terminologie SERAFIN"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/JDV-J283-PrestationsIndirects-SERAFIN"/>
+      </reference>
+      <name value="JDV_J283-PrestationsIndirects_SERAFIN"/>
+      <description value="Liste des prestations indirects provenant de la terminologie SERAFIN"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/JDV-J284-PrestationsDirects-SERAFIN"/>
+      </reference>
+      <name value="JDV_J284-PrestationsDirects_SERAFIN"/>
+      <description value="Liste des prestations directs provenant de la terminologie SERAFIN"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/JDV-J285-Besoins-SERAFIN"/>
+      </reference>
+      <name value="JDV_J285-Besoins_SERAFIN"/>
+      <description value="Liste des besoins provenant de la terminologie SERAFIN"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/JDV-J286-ProfilUtilisateurReferentielNational-ROR"/>
+      </reference>
+      <name value="JDV_J286_ProfilUtilisateurReferentielNational_ROR"/>
+      <description value="Profils utilisateurs du ROR National"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -5392,6 +5458,17 @@
       </reference>
       <name value="TRE_R368-StatutRessource"/>
       <description value="Caractérise le statut du processus d'évaluation de l'autonomie de l'usager par un professionnel de santé ou par lui-même lors d'une auto évaluation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TRE-R369-ProfilUtilisateurReferentielNational"/>
+      </reference>
+      <name value="TRE_R369_ProfilUtilisateurReferentielNational"/>
+      <description value="Profils utilisateur d'un référentiel national"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

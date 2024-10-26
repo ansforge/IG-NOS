@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "c33d09b8-c522-4cd5-92e0-2bf3718be749-683",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c33d09b8-c522-4cd5-92e0-2bf3718be749-683",
+  "id" : "8bd76c22-cdda-42fd-9161-4410f50fef8b-683",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/8bd76c22-cdda-42fd-9161-4410f50fef8b-683",
   "name" : "UnionTRE_R66-CategorieEtablissementAndTRE_R66-CategorieEtablissement",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2024-10-25T15:17:53+00:00",
+  "date" : "2024-10-26T04:20:09+00:00",
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -6939,13 +6939,13 @@
       "use" : {
         "code" : "LibelleCourt"
       },
-      "value" : "F.A.E."
+      "value" : "Établissement de Placement"
     },
     {
       "use" : {
         "code" : "LibelleAdapte"
       },
-      "value" : "Foyer d'action éducative (FAE)"
+      "value" : "Établissement de Placement"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -6962,10 +6962,6 @@
     {
       "code" : "dateValid",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
@@ -15660,8 +15656,8 @@
       "valueDateTime" : "2005-07-06T00:00:00+01:00"
     },
     {
-      "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
+      "code" : "dateFin",
+      "valueDateTime" : "2024-10-25T12:00:00+01:00"
     }]
   },
   {
@@ -16220,8 +16216,8 @@
       "valueDateTime" : "2005-07-06T00:00:00+01:00"
     },
     {
-      "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
+      "code" : "dateFin",
+      "valueDateTime" : "2024-10-25T12:00:00+01:00"
     }]
   },
   {
@@ -16967,13 +16963,13 @@
       "use" : {
         "code" : "LibelleCourt"
       },
-      "value" : "S.I.O.E."
+      "value" : "Service d’Investigation Educative"
     },
     {
       "use" : {
         "code" : "LibelleAdapte"
       },
-      "value" : "Service d'investigation et d'orientation éducative (SIOE)"
+      "value" : "Service d’Investigation Educative"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16990,10 +16986,6 @@
     {
       "code" : "dateValid",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
@@ -17031,13 +17023,13 @@
       "use" : {
         "code" : "LibelleCourt"
       },
-      "value" : "C.A.E."
+      "value" : "Service IEMO"
     },
     {
       "use" : {
         "code" : "LibelleAdapte"
       },
-      "value" : "Centre d'action éducative (CAE)"
+      "value" : "Service d’Intervention Educative en Milieu Ouvert"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -17054,10 +17046,6 @@
     {
       "code" : "dateValid",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
@@ -17876,8 +17864,8 @@
       "valueDateTime" : "2005-07-06T00:00:00+01:00"
     },
     {
-      "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
+      "code" : "dateFin",
+      "valueDateTime" : "2024-10-25T12:00:00+01:00"
     }]
   },
   {
@@ -18022,6 +18010,30 @@
         "code" : "LibelleAdapte"
       },
       "value" : "Lieux de vie"
+    },
+    {
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Lieux de vie"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Lieux de vie"
+    },
+    {
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Lieux de Vie et d’Accueil"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Lieux de Vie et d’Accueil"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -18038,10 +18050,6 @@
     {
       "code" : "dateValid",
       "valueDateTime" : "2002-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
@@ -21136,6 +21144,7 @@
   {
     "code" : "700",
     "display" : "Maison sport-santé",
+    "definition" : "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie",
     "designation" : [{
       "use" : {
         "code" : "LibelleCourt"
@@ -21167,10 +21176,30 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-07-26T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "242",
+    "display" : "Service d’Activité de Jour",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Service d’Activité de Jour"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Service d’Activité de Jour"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2024-10-25T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-07-26T12:00:00+01:00"
+      "valueDateTime" : "2024-10-25T12:00:00+01:00"
     }]
   },
   {
@@ -21199,7 +21228,7 @@
   },
   {
     "code" : "646",
-    "display" : "Centre de vaccination international",
+    "display" : "Centre de Vaccination Internationale",
     "designation" : [{
       "use" : {
         "code" : "LibelleCourt"
@@ -21210,7 +21239,7 @@
       "use" : {
         "code" : "LibelleAdapte"
       },
-      "value" : "Centre de Vaccination International"
+      "value" : "Centre de Vaccination Internationale"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -21218,7 +21247,7 @@
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-09-27T12:00:00+01:00"
+      "valueDateTime" : "2024-10-25T12:00:00+01:00"
     }]
   },
   {
@@ -21243,6 +21272,80 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-09-27T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "648",
+    "display" : "Structure qui contribue au Service d'Accès aux Soins",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Structure qui contribue au SAS"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Structure qui contribue au Service d'Accès aux Soins"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "701",
+    "display" : "Maison des adolescents (MDA)",
+    "definition" : "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "MDA"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Maison des adolescents (MDA)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "702",
+    "display" : "Point Accueil Ecoute Jeunes (PAEJ)",
+    "definition" : "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "PAEJ"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Point Accueil Ecoute Jeunes (PAEJ)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-10-25T12:00:00+01:00"
     }]
   }]
 }

@@ -10,11 +10,11 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.3.4.218"/>
   </identifier>
-  <version value="20231215120000"/>
+  <version value="20241025120000"/>
   <name value="JDV_J254-CategorieEtablissementESSMSPH"/>
   <status value="active"/>
-  <date value="2023-12-15T12:00:00+01:00"/>
-  <description value="Liste les catégories d’établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d’handicap"/>
+  <date value="2024-10-25T12:00:00+01:00"/>
+  <description value="Liste les catégories d'établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d'handicap"/>
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"/>
@@ -139,6 +139,16 @@
         </designation>
       </concept>
       <concept>
+        <code value="242"/>
+        <display value="Service d'Activité de Jour"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.8"/>
+        </designation>
+      </concept>
+      <concept>
         <code value="255"/>
         <display value="Maison d'Accueil Spécialisée (M.A.S.)"/>
         <designation>
@@ -240,7 +250,7 @@
       </concept>
       <concept>
         <code value="640"/>
-        <display value="Service d’aide et d’accompagnement à domicile aux familles (SAADF)"/>
+        <display value="Service d'aide et d'accompagnement à domicile aux familles (SAADF)"/>
         <designation>
           <use>
             <code value="OID"/>

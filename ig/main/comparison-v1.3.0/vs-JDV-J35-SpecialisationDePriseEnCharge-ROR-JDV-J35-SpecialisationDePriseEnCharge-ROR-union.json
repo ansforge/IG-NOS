@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "c33d09b8-c522-4cd5-92e0-2bf3718be749-1304",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/c33d09b8-c522-4cd5-92e0-2bf3718be749-1304",
+  "id" : "8bd76c22-cdda-42fd-9161-4410f50fef8b-1304",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/8bd76c22-cdda-42fd-9161-4410f50fef8b-1304",
   "name" : "UnionJDV_J35-SpecialisationDePriseEnCharge-RORAndJDV_J35-SpecialisationDePriseEnCharge-ROR",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2024-10-25T15:17:53+00:00",
+  "date" : "2024-10-26T04:20:09+00:00",
   "compose" : {
     "include" : [{
       "concept" : [{
@@ -267,6 +267,19 @@
       {
         "code" : "67",
         "display" : "Trouble psychotraumatique (dont Troubles Stress Post-Traumatique)"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
+      "concept" : [{
+        "code" : "68",
+        "display" : "Troubles cognitifs ou du comportement et de la relation affective dus à une lésion cérébrale acquise",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.12"
+        }]
       }]
     }]
   }

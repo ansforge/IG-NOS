@@ -1,0 +1,106 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "JDV-J286-ProfilUtilisateurReferentielNational-ROR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet JDV-J286-ProfilUtilisateurReferentielNational-ROR</b></p><a name=\"JDV-J286-ProfilUtilisateurReferentielNational-ROR\"> </a><a name=\"hcJDV-J286-ProfilUtilisateurReferentielNational-ROR\"> </a><a name=\"JDV-J286-ProfilUtilisateurReferentielNational-ROR-en-US\"> </a><ul><li>Include these codes as defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R369-ProfilUtilisateurReferentielNational/FHIR/TRE_R369-ProfilUtilisateurReferentielNational</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>ADMIN_NAT</td><td>Administrateur National</td></tr><tr><td>ADMIN_REG</td><td>Administrateur Régional</td></tr><tr><td>RESP_QA</td><td>Responsable Qualité</td></tr><tr><td>RESP_OFFRE_STRUCT</td><td>Responsable Offre de structure</td></tr><tr><td>RESP_DISPO_PLACE</td><td>Responsable Disponibilité en lit / place</td></tr><tr><td>PORTEUR_OFFRE</td><td>Porteur d'offre</td></tr><tr><td>PSL</td><td>Professionnel de Santé Libéral (PSL)</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-10-25T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/JDV_J286_ProfilUtilisateurReferentielNational_ROR/FHIR/JDV-J286-ProfilUtilisateurReferentielNational-ROR",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.3.3.256"
+  }],
+  "version" : "1.4.0",
+  "name" : "JDV_J286_ProfilUtilisateurReferentielNational_ROR",
+  "status" : "active",
+  "date" : "2024-10-25T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Profils utilisateurs du ROR National",
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R369-ProfilUtilisateurReferentielNational/FHIR/TRE_R369-ProfilUtilisateurReferentielNational",
+      "concept" : [{
+        "code" : "ADMIN_NAT",
+        "display" : "Administrateur National",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.255"
+        }]
+      },
+      {
+        "code" : "ADMIN_REG",
+        "display" : "Administrateur Régional",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.255"
+        }]
+      },
+      {
+        "code" : "RESP_QA",
+        "display" : "Responsable Qualité",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.255"
+        }]
+      },
+      {
+        "code" : "RESP_OFFRE_STRUCT",
+        "display" : "Responsable Offre de structure",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.255"
+        }]
+      },
+      {
+        "code" : "RESP_DISPO_PLACE",
+        "display" : "Responsable Disponibilité en lit / place",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.255"
+        }]
+      },
+      {
+        "code" : "PORTEUR_OFFRE",
+        "display" : "Porteur d'offre",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.255"
+        }]
+      },
+      {
+        "code" : "PSL",
+        "display" : "Professionnel de Santé Libéral (PSL)",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.255"
+        }]
+      }]
+    }]
+  }
+}

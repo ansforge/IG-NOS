@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.3.3.50"
     }
   ],
-  "version": "20240628120000",
+  "version": "20241025120000",
   "name": "TRE_R252-TypeHoraire",
   "status": "active",
-  "date": "2024-06-28T12:00:00+01:00",
+  "date": "2024-10-25T12:00:00+01:00",
   "description": "Type horaire",
   "content": "complete",
   "property": [
@@ -153,7 +153,8 @@
     },
     {
       "code": "05",
-      "display": "Horaire de visite d'un acteur de santé",
+      "display": "Horaire de visite à domicile",
+      "definition":"Horaire d'intervention d'un professionnel de santé au domicile d'un patient ou d'un usager pour assurer une continuité des soins et/ou de la prise en charge, de l'accompagnement",
       "designation": [
         {
           "use": {
@@ -165,7 +166,7 @@
           "use": {
             "code": "LibelleAdapte"
           },
-          "value": "Horaire de visite d'un acteur de santé"
+          "value": "Horaire de visite à domicile"
         }
       ],
       "property": [
@@ -175,7 +176,7 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2018-04-27T12:00:00+01:00"
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
         }
       ]
     },
@@ -288,6 +289,62 @@
         {
           "code": "dateMaj",
           "valueDateTime": "2024-06-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "display": "Horaire de téléconsultation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Horaire de téléconsultation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Horaire de téléconsultation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "display": "Horaire mixte : consultation ou téléconsultation",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Horaire mixte"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Horaire mixte : consultation ou téléconsultation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
         }
       ]
     }

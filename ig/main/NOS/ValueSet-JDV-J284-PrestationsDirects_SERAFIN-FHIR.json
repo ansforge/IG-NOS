@@ -1,0 +1,476 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J284-PrestationsDirects-SERAFIN",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2024-10-25T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J284-PrestationsDirects_SERAFIN/FHIR/JDV-J284-PrestationsDirects-SERAFIN",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.253"
+    }
+  ],
+  "version": "20241025120000",
+  "name": "JDV_J284-PrestationsDirects_SERAFIN",
+  "status": "active",
+  "date": "2024-10-25T12:00:00+01:00",
+  "description": "Liste des prestations directs provenant de la terminologie SERAFIN",
+  "compose": {
+    "include": [
+      {
+        "system": "https://smt.esante.gouv.fr/terminologie-SERAFINPH/",
+        "concept": [
+          {
+            "code": "2",
+            "display": "Prestations directes - Soins et d'accompagnement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.1",
+            "display": "Prestations de soins, de maintien et de développement des capacités fonctionnelles",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.1.1",
+            "display": "Soins somatiques et psychiques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.1.1.1",
+            "display": "Soins médicaux à visée préventive, curative et palliative",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.1.1.2",
+            "display": "Soins techniques et de surveillance infirmiers ou délégués",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.1.1.3",
+            "display": "Prestations des psychologues",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.1.1.4",
+            "display": "Prestations des pharmaciens et préparateurs en pharmacie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.1.2",
+            "display": "Rééducation et réadaptation fonctionnelle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.1.2.1",
+            "display": "Prestations des auxiliaires médicaux, des instructeurs en locomotion et avéjistes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.2",
+            "display": "Prestations en matière d'autonomie",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.2.1",
+            "display": "Accompagnements pour les actes de la vie quotidienne",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.2.2",
+            "display": "Accompagnements pour la communication et les relations avec autrui",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.2.3",
+            "display": "Accompagnements pour prendre des décisions adaptées et pour la sécurité",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3",
+            "display": "Prestations pour la participation sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.1",
+            "display": "Accompagnements pour exercer ses droits",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.1.1",
+            "display": "Accompagnements à l'expression du projet personnalisé",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.1.2",
+            "display": "Accompagnements à l'exercice des droits et libertés",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.2",
+            "display": "Accompagnements au logement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.2.1",
+            "display": "Accompagnements pour vivre dans un logement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.2.2",
+            "display": "Accompagnements pour accomplir les activités domestiques",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.3",
+            "display": "Accompagnements pour exercer ses rôles sociaux",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.3.1",
+            "display": "Accompagnements pour mener sa vie d'élève, d'étudiant ou d'apprenti",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.3.2",
+            "display": "Accompagnements pour préparer sa vie professionnelle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.3.3",
+            "display": "Accompagnements pour mener sa vie professionnelle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.3.4",
+            "display": "Accompagnements pour réaliser des activités de jour spécialisées",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.3.5",
+            "display": "Accompagnements de la vie familiale, de la parentalité, de la vie affective et sexuelle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.3.6",
+            "display": "Accompagnements pour l'exercice de mandats électoraux, la représentation des pairs et la pair aidance",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.4",
+            "display": "Accompagnements pour participer à la vie sociale",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.4.1",
+            "display": "Accompagnements du lien avec les proches et le voisinage",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.4.2",
+            "display": "Accompagnements pour la participation aux activités sociales et de loisirs",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.4.3",
+            "display": "Accompagnements pour le développement de l'autonomie pour les déplacements",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.5",
+            "display": "Accompagnements en matière de ressources et d'autogestion",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.5.1",
+            "display": "Accompagnements pour l'ouverture des droits",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.5.2",
+            "display": "Accompagnements pour l'autonomie de la personne dans la gestion des ressources",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.3.5.3",
+            "display": "Informations, conseils et mise en oeuvre des mesures de protection des adultes",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.4",
+            "display": "Prestation de coordination renforcée pour la cohérence du parcours",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          },
+          {
+            "code": "2.4.1",
+            "display": "Prestation de coordination renforcée pour la cohérence du parcours",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.60"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

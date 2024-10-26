@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "c33d09b8-c522-4cd5-92e0-2bf3718be749-986",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/c33d09b8-c522-4cd5-92e0-2bf3718be749-986",
+  "id" : "8bd76c22-cdda-42fd-9161-4410f50fef8b-986",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/8bd76c22-cdda-42fd-9161-4410f50fef8b-986",
   "name" : "UnionJDV_J17-ActiviteOperationnelle-RORAndJDV_J17-ActiviteOperationnelle-ROR",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2024-10-25T15:17:53+00:00",
+  "date" : "2024-10-26T04:20:09+00:00",
   "compose" : {
     "include" : [{
       "concept" : [{
@@ -998,7 +998,7 @@
       },
       {
         "code" : "305",
-        "display" : "Accompagnements dans l'activité professionnelle"
+        "display" : "Accompagnements pour mener sa vie professionnelle"
       },
       {
         "code" : "306",
@@ -1062,7 +1062,7 @@
       },
       {
         "code" : "322",
-        "display" : "Prestation de restauration (dont portage de repas)"
+        "display" : "Prestation de restauration (dont portage de repas à domicile)"
       },
       {
         "code" : "323",
@@ -1840,7 +1840,13 @@
       },
       {
         "code" : "534",
-        "display" : "Accompagnement infirmier pour téléconsultation médicale"
+        "display" : "Accompagnement infirmier pour téléconsultation médicale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.12"
+        }]
       },
       {
         "code" : "535",

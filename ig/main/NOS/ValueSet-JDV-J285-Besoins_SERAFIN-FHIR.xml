@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J285-Besoins-SERAFIN"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2024-10-25T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J285-Besoins_SERAFIN/FHIR/JDV-J285-Besoins-SERAFIN"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.3.254"/>
+  </identifier>
+  <version value="20241025120000"/>
+  <name value="JDV_J285-Besoins_SERAFIN"/>
+  <status value="active"/>
+  <date value="2024-10-25T12:00:00+01:00"/>
+  <description value="Liste des besoins provenant de la terminologie SERAFIN"/>
+  <compose>
+    <include>
+      <system value="https://smt.esante.gouv.fr/terminologie-SERAFINPH/"/>
+      <concept>
+        <code value="1"/>
+        <display value="Besoins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.1"/>
+        <display value="Besoins en matière de santé somatique ou psychique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.1.1"/>
+        <display value="Besoins en matière de fonctions mentales, psychiques, cognitives et du système nerveux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.1.10"/>
+        <display value="Besoins pour entretenir et prendre soin de sa santé"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.1.2"/>
+        <display value="Besoins en matière de fonctions sensorielles"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.1.3"/>
+        <display value="Besoins en matière de douleur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.1.4"/>
+        <display value="Besoins relatifs à la voix, à la parole et à l'appareil bucco-dentaire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.1.5"/>
+        <display value="Besoins en matière de fonctions cardio-vasculaire, hématopoïétique, immunitaire et respiratoire"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.1.6"/>
+        <display value="Besoins en matière de fonctions digestive, métabolique et endocrinienne"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.1.7"/>
+        <display value="Besoins en matière de fonctions génito-urinaire et reproductive"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.1.8"/>
+        <display value="Besoins en matière de fonctions locomotrices"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.1.9"/>
+        <display value="Besoins relatifs à la peau et aux structures associées"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.2"/>
+        <display value="Besoins en matière d'autonomie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.2.1"/>
+        <display value="Besoins en matière d'autonomie"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.2.1.1"/>
+        <display value="Besoins en lien avec l'entretien personnel"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.2.1.2"/>
+        <display value="Besoins en lien avec les relations et les interactions avec autrui"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.2.1.3"/>
+        <display value="Besoins pour la mobilité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.2.1.4"/>
+        <display value="Besoins pour prendre des décisions adaptées et pour la sécurité"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3"/>
+        <display value="Besoins pour la participation sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3.1"/>
+        <display value="Besoins pour accéder aux droits et à la citoyenneté"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3.1.1"/>
+        <display value="Besoins pour accéder aux droits et à la citoyenneté"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3.2"/>
+        <display value="Besoins pour vivre dans un logement et accomplir les activités domestiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3.2.1"/>
+        <display value="Besoins pour vivre dans un logement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3.2.2"/>
+        <display value="Besoins pour accomplir les activités domestiques"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3.3"/>
+        <display value="Besoins pour l'insertion sociale et professionnelle et pour exercer ses rôles sociaux"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3.3.1"/>
+        <display value="Besoins en lien avec la vie scolaire et étudiante"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3.3.2"/>
+        <display value="Besoins en lien avec le travail et l'emploi"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3.3.3"/>
+        <display value="Besoins transversaux en matière d'apprentissages"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3.3.4"/>
+        <display value="Besoins pour la vie familiale, la parentalité, la vie affective et sexuelle"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3.3.5"/>
+        <display value="Besoins pour apprendre à être pair-aidant"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3.4"/>
+        <display value="Besoins pour participer à la vie sociale et se déplacer avec un moyen de transport"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3.4.1"/>
+        <display value="Besoins pour participer à la vie sociale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3.4.2"/>
+        <display value="Besoins pour se déplacer avec un moyen de transport"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3.5"/>
+        <display value="Besoins en matière de ressources et d'autosuffisance économique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="1.3.5.1"/>
+        <display value="Besoins en matière de ressources et d'autosuffisance économique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.60"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.3.3.51"
     }
   ],
-  "version": "20240628120000",
+  "version": "20241025120000",
   "name": "JDV_J41-TypeHoraire-ROR",
   "status": "active",
-  "date": "2024-06-28T12:00:00+01:00",
+  "date": "2024-10-25T12:00:00+01:00",
   "description": "Type horaire",
   "compose": {
     "include": [
@@ -75,7 +75,7 @@
           },
           {
             "code": "05",
-            "display": "Horaire de visite d'un acteur de santé",
+            "display": "Horaire de visite à domicile",
             "designation": [
               {
                 "use": {
@@ -124,6 +124,30 @@
           {
             "code": "09",
             "display": "Horaire à préciser",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.50"
+              }
+            ]
+          },
+          {
+            "code": "10",
+            "display": "Horaire de téléconsultation",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.50"
+              }
+            ]
+          },
+          {
+            "code": "11",
+            "display": "Horaire mixte : consultation ou téléconsultation",
             "designation": [
               {
                 "use": {

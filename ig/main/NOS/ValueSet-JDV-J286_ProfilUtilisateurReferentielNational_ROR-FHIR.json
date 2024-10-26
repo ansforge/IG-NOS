@@ -1,0 +1,116 @@
+{
+  "resourceType": "ValueSet",
+  "id": "JDV-J286-ProfilUtilisateurReferentielNational-ROR",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2024-10-25T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/JDV_J286_ProfilUtilisateurReferentielNational_ROR/FHIR/JDV-J286-ProfilUtilisateurReferentielNational-ROR",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.256"
+    }
+  ],
+  "version": "20241025120000",
+  "name": "JDV_J286_ProfilUtilisateurReferentielNational_ROR",
+  "status": "active",
+  "date": "2024-10-25T12:00:00+01:00",
+  "description": "Profils utilisateurs du ROR National",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R369-ProfilUtilisateurReferentielNational/FHIR/TRE_R369-ProfilUtilisateurReferentielNational",
+        "concept": [
+          {
+            "code": "ADMIN_NAT",
+            "display": "Administrateur National",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.255"
+              }
+            ]
+          },
+          {
+            "code": "ADMIN_REG",
+            "display": "Administrateur Régional",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.255"
+              }
+            ]
+          },
+          {
+            "code": "RESP_QA",
+            "display": "Responsable Qualité",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.255"
+              }
+            ]
+          },
+          {
+            "code": "RESP_OFFRE_STRUCT",
+            "display": "Responsable Offre de structure",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.255"
+              }
+            ]
+          },
+          {
+            "code": "RESP_DISPO_PLACE",
+            "display": "Responsable Disponibilité en lit / place",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.255"
+              }
+            ]
+          },
+          {
+            "code": "PORTEUR_OFFRE",
+            "display": "Porteur d'offre",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.255"
+              }
+            ]
+          },
+          {
+            "code": "PSL",
+            "display": "Professionnel de Santé Libéral (PSL)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.255"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

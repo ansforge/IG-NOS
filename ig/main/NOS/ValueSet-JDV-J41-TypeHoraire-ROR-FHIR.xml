@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.3.3.51"/>
   </identifier>
-  <version value="20240628120000"/>
+  <version value="20241025120000"/>
   <name value="JDV_J41-TypeHoraire-ROR"/>
   <status value="active"/>
-  <date value="2024-06-28T12:00:00+01:00"/>
+  <date value="2024-10-25T12:00:00+01:00"/>
   <description value="Type horaire"/>
   <compose>
     <include>
@@ -60,7 +60,7 @@
       </concept>
       <concept>
         <code value="05"/>
-        <display value="Horaire de visite d'un acteur de santé"/>
+        <display value="Horaire de visite à domicile"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -101,6 +101,26 @@
       <concept>
         <code value="09"/>
         <display value="Horaire à préciser"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.50"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="10"/>
+        <display value="Horaire de téléconsultation"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.50"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="Horaire mixte : consultation ou téléconsultation"/>
         <designation>
           <use>
             <code value="OID"/>

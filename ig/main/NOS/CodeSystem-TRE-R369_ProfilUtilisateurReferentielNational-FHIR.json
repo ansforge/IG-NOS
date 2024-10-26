@@ -1,0 +1,239 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R369-ProfilUtilisateurReferentielNational",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2024-10-25T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.255"
+    }
+  ],
+  "version": "20241025120000",
+  "name": "TRE_R369_ProfilUtilisateurReferentielNational",
+  "status": "active",
+  "date": "2024-10-25T12:00:00+01:00",
+  "description": "Profils utilisateur d'un référentiel national",
+  "content": "complete",
+  "property": [
+    {
+      "code": "dateValid",
+      "description": "date de validité d'un code concept",
+      "type": "dateTime"
+    },
+    {
+      "code": "dateMaj",
+      "description": "Date de mise à jour d'un code concept",
+      "type": "dateTime"
+    },
+    {
+      "code": "dateFin",
+      "description": "Date de fin d'exploitation d'un code concept",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "code": "ADMIN_NAT",
+      "display": "Administrateur National",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ADMIN_NAT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Administrateur National"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ADMIN_REG",
+      "display": "Administrateur Régional",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "ADMIN_REG"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Administrateur Régional"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RESP_QA",
+      "display": "Responsable Qualité",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RESP_QA"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Responsable Qualité"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RESP_OFFRE_STRUCT",
+      "display": "Responsable Offre de structure",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RESP_OFFRE_STRUCT"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Responsable Offre de structure"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "RESP_DISPO_PLACE",
+      "display": "Responsable Disponibilité en lit / place",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "RESP_DISPO_PLACE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Responsable Disponibilité en lit / place"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PORTEUR_OFFRE",
+      "display": "Porteur d'offre",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PORTEUR_OFFRE"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Porteur d'offre"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PSL",
+      "display": "Professionnel de Santé Libéral (PSL)",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "PSL"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Professionnel de Santé Libéral (PSL)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2024-10-25T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

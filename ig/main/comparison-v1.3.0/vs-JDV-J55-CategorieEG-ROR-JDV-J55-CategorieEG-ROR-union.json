@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "c33d09b8-c522-4cd5-92e0-2bf3718be749-1352",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/c33d09b8-c522-4cd5-92e0-2bf3718be749-1352",
+  "id" : "8bd76c22-cdda-42fd-9161-4410f50fef8b-1352",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/8bd76c22-cdda-42fd-9161-4410f50fef8b-1352",
   "name" : "UnionJDV_J55-CategorieEG-RORAndJDV_J55-CategorieEG-ROR",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2024-10-25T15:17:53+00:00",
+  "date" : "2024-10-26T04:20:09+00:00",
   "compose" : {
     "include" : [{
       "concept" : [{
@@ -242,7 +242,7 @@
       },
       {
         "code" : "241",
-        "display" : "Foyer d'action éducative (FAE)"
+        "display" : "Établissement de Placement"
       },
       {
         "code" : "246",
@@ -458,7 +458,13 @@
       },
       {
         "code" : "418",
-        "display" : "Service d'enquêtes sociales (SES)"
+        "display" : "Service d'enquêtes sociales (SES)",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.8"
+        }]
       },
       {
         "code" : "422",
@@ -474,7 +480,13 @@
       },
       {
         "code" : "427",
-        "display" : "Service éducatif auprès des tribunaux (SEAT)"
+        "display" : "Service éducatif auprès des tribunaux (SEAT)",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.8"
+        }]
       },
       {
         "code" : "430",
@@ -502,11 +514,11 @@
       },
       {
         "code" : "440",
-        "display" : "Service d'investigation et d'orientation éducative (SIOE)"
+        "display" : "Service d'Investigation Educative"
       },
       {
         "code" : "441",
-        "display" : "Centre d'action éducative (CAE)"
+        "display" : "Service d'Intervention Educative en Milieu Ouvert"
       },
       {
         "code" : "442",
@@ -538,7 +550,13 @@
       },
       {
         "code" : "453",
-        "display" : "Service de réparation pénale"
+        "display" : "Service de réparation pénale",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.8"
+        }]
       },
       {
         "code" : "460",
@@ -550,7 +568,7 @@
       },
       {
         "code" : "462",
-        "display" : "Lieux de vie"
+        "display" : "Lieux de Vie et d'Accueil"
       },
       {
         "code" : "463",
@@ -717,6 +735,16 @@
         "display" : "Maison sport-santé"
       },
       {
+        "code" : "242",
+        "display" : "Service d'Activité de Jour",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.8"
+        }]
+      },
+      {
         "code" : "645",
         "display" : "Centre de Vaccination",
         "designation" : [{
@@ -728,7 +756,7 @@
       },
       {
         "code" : "646",
-        "display" : "Centre de Vaccination International",
+        "display" : "Centre de Vaccination Internationale",
         "designation" : [{
           "use" : {
             "code" : "OID"
@@ -739,6 +767,36 @@
       {
         "code" : "647",
         "display" : "Equipe de Soins Spécialisés",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.8"
+        }]
+      },
+      {
+        "code" : "648",
+        "display" : "Structure qui contribue au Service d'Accès aux Soins",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.8"
+        }]
+      },
+      {
+        "code" : "701",
+        "display" : "Maison des adolescents (MDA)",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.8"
+        }]
+      },
+      {
+        "code" : "702",
+        "display" : "Point Accueil Ecoute Jeunes (PAEJ)",
         "designation" : [{
           "use" : {
             "code" : "OID"

@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.3.3.50"/>
   </identifier>
-  <version value="20240628120000"/>
+  <version value="20241025120000"/>
   <name value="TRE_R252-TypeHoraire"/>
   <status value="active"/>
-  <date value="2024-06-28T12:00:00+01:00"/>
+  <date value="2024-10-25T12:00:00+01:00"/>
   <description value="Type horaire"/>
   <content value="complete"/>
   <property>
@@ -129,7 +129,8 @@
   </concept>
   <concept>
     <code value="05"/>
-    <display value="Horaire de visite d'un acteur de santé"/>
+    <display value="Horaire de visite à domicile"/>
+    <definition value="Horaire d'intervention d'un professionnel de santé au domicile d'un patient ou d'un usager pour assurer une continuité des soins et/ou de la prise en charge, de l'accompagnement"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -140,7 +141,7 @@
       <use>
           <code value="LibelleAdapte"/>
       </use>
-      <value value="Horaire de visite d'un acteur de santé"/>
+      <value value="Horaire de visite à domicile"/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -148,7 +149,7 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+      <valueDateTime value="2024-10-25T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
@@ -245,6 +246,54 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="Horaire de téléconsultation"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Horaire de téléconsultation"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Horaire de téléconsultation"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2024-10-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2024-10-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <display value="Horaire mixte : consultation ou téléconsultation"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Horaire mixte"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Horaire mixte : consultation ou téléconsultation"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2024-10-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2024-10-25T12:00:00+01:00"/>
     </property>
   </concept>
 </CodeSystem>
