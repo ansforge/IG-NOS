@@ -47,7 +47,7 @@ jobs:
           #rm ./input/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS-FHIR.json
           #rm ./input/NOS/ASS_X16-CorrespondanceType-Classe-DMP-FHIR.json
           rm ./input/NOS/JDV_J151-BodySiteBodyTemperature-ENS-FHIR.json
-          rm ./input/NOS/ASS_*
+          rm -f ./input/NOS/ASS_*
        
           
       - name: 📥 Download test tools
