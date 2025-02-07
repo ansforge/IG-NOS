@@ -41,12 +41,12 @@ jobs:
           unzip NOS-Fichiers_Publics-Versions_json_fhir.zip -d ./input/NOS
 
           #Suppression des fichiers en erreur
-          rm ./input/NOS/TRE_R13-CommuneOM-FHIR.json
-          rm ./input/NOS/JDV_J120-CommuneHistorisee-FHIR.json
-          rm ./input/NOS/JDV_J124-Commune-FHIR.json
+          rm  -f ./input/NOS/TRE_R13-CommuneOM-FHIR.json
+          rm  -f ./input/NOS/JDV_J120-CommuneHistorisee-FHIR.json
+          rm  -f ./input/NOS/JDV_J124-Commune-FHIR.json
           #rm ./input/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS-FHIR.json
           #rm ./input/NOS/ASS_X16-CorrespondanceType-Classe-DMP-FHIR.json
-          rm ./input/NOS/JDV_J151-BodySiteBodyTemperature-ENS-FHIR.json
+          rm  -f ./input/NOS/JDV_J151-BodySiteBodyTemperature-ENS-FHIR.json
           rm -f ./input/NOS/ASS_*
        
           
