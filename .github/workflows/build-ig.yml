@@ -132,7 +132,7 @@ jobs:
         
       - name:  1 ZIP JDV SVS
         run :  zip -rj ./output/NOS/NOS-jdv-svs.zip ./output/NOS/*JDV-*.xml  -x "*FHIR*"   
-         continue-on-error: true
+        continue-on-error: true
 
          
       - name:  1 ZIP JDV FHIR JSON
