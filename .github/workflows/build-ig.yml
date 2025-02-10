@@ -84,6 +84,7 @@ jobs:
         run: |
           echo "### Rapport de validation (validator_cli)  :rocket:" >> $GITHUB_STEP_SUMMARY
           cat rapport.html >> $GITHUB_STEP_SUMMARY
+        continue-on-error: true
         
 
       - name: Get From site esante     
