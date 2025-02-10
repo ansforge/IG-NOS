@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R293-AgregatClienteleNiv2"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R293-AgregatClienteleNiv2</b></p><a name=\"TRE-R293-AgregatClienteleNiv2\"> </a><a name=\"hcTRE-R293-AgregatClienteleNiv2\"> </a><a name=\"TRE-R293-AgregatClienteleNiv2-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">1000<a name=\"TRE-R293-AgregatClienteleNiv2-1000\"> </a></td><td>Personnes Handicapées</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2000<a name=\"TRE-R293-AgregatClienteleNiv2-2000\"> </a></td><td>Personnes Agées</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">3000<a name=\"TRE-R293-AgregatClienteleNiv2-3000\"> </a></td><td>Enfants et Adolescents (Aide Soc Just)</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4000<a name=\"TRE-R293-AgregatClienteleNiv2-4000\"> </a></td><td>Autres Enfants</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">5000<a name=\"TRE-R293-AgregatClienteleNiv2-5000\"> </a></td><td>Personnes et Familles en Difficulté</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">6000<a name=\"TRE-R293-AgregatClienteleNiv2-6000\"> </a></td><td>Autres Catégories de Clientèles</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">7000<a name=\"TRE-R293-AgregatClienteleNiv2-7000\"> </a></td><td>Toute Population</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">8000<a name=\"TRE-R293-AgregatClienteleNiv2-8000\"> </a></td><td>Personnes ayant des pathologies ou difficultés spécifiques</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R293-AgregatClienteleNiv2</b></p><a name=\"TRE-R293-AgregatClienteleNiv2\"> </a><a name=\"hcTRE-R293-AgregatClienteleNiv2\"> </a><a name=\"TRE-R293-AgregatClienteleNiv2-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">1000<a name=\"TRE-R293-AgregatClienteleNiv2-1000\"> </a></td><td>Personnes Handicapées</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2000<a name=\"TRE-R293-AgregatClienteleNiv2-2000\"> </a></td><td>Personnes Agées</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">3000<a name=\"TRE-R293-AgregatClienteleNiv2-3000\"> </a></td><td>Enfants et Adolescents (Aide Soc Just)</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4000<a name=\"TRE-R293-AgregatClienteleNiv2-4000\"> </a></td><td>Autres Enfants</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">5000<a name=\"TRE-R293-AgregatClienteleNiv2-5000\"> </a></td><td>Personnes et Familles en Difficulté</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">6000<a name=\"TRE-R293-AgregatClienteleNiv2-6000\"> </a></td><td>Autres Catégories de Clientèles</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">7000<a name=\"TRE-R293-AgregatClienteleNiv2-7000\"> </a></td><td>Toute Population</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">8000<a name=\"TRE-R293-AgregatClienteleNiv2-8000\"> </a></td><td>Personnes ayant des pathologies ou difficultés spécifiques</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "2000" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "3000" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "4000" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "5000" ] ;
@@ -150,10 +175,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "6000" ] ;
@@ -171,10 +202,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "7000" ] ;
@@ -192,10 +229,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "8000" ] ;
@@ -213,10 +256,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

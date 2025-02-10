@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R216-HL7RoleCode"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R216-HL7RoleCode</b></p><a name=\"TRE-R216-HL7RoleCode\"> </a><a name=\"hcTRE-R216-HL7RoleCode\"> </a><a name=\"TRE-R216-HL7RoleCode-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">MTH<a name=\"TRE-R216-HL7RoleCode-MTH\"> </a></td><td>Mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FTH<a name=\"TRE-R216-HL7RoleCode-FTH\"> </a></td><td>Père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NMTH<a name=\"TRE-R216-HL7RoleCode-NMTH\"> </a></td><td>Mère biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NFTH<a name=\"TRE-R216-HL7RoleCode-NFTH\"> </a></td><td>Père biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPMTH<a name=\"TRE-R216-HL7RoleCode-STPMTH\"> </a></td><td>Belle-mère - épouse du père ou de la mère</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPFTH<a name=\"TRE-R216-HL7RoleCode-STPFTH\"> </a></td><td>Beau-père - époux du père ou de la mère</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRMTH<a name=\"TRE-R216-HL7RoleCode-GRMTH\"> </a></td><td>Grand-mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRFTH<a name=\"TRE-R216-HL7RoleCode-GRFTH\"> </a></td><td>Grand-père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GGRMTH<a name=\"TRE-R216-HL7RoleCode-GGRMTH\"> </a></td><td>Arrière-grand-mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GGRFTH<a name=\"TRE-R216-HL7RoleCode-GGRFTH\"> </a></td><td>Arrière-grand-père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DAU<a name=\"TRE-R216-HL7RoleCode-DAU\"> </a></td><td>Fille biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SON<a name=\"TRE-R216-HL7RoleCode-SON\"> </a></td><td>Fils biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">BRO<a name=\"TRE-R216-HL7RoleCode-BRO\"> </a></td><td>Frère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SIS<a name=\"TRE-R216-HL7RoleCode-SIS\"> </a></td><td>Soeur</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">HBRO<a name=\"TRE-R216-HL7RoleCode-HBRO\"> </a></td><td>Demi-frère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">HSIS<a name=\"TRE-R216-HL7RoleCode-HSIS\"> </a></td><td>Demi-soeur</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRNDDAU<a name=\"TRE-R216-HL7RoleCode-GRNDDAU\"> </a></td><td>Petite-fille</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRNDSO<a name=\"TRE-R216-HL7RoleCode-GRNDSO\"> </a></td><td>Petit-fils</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">UNCLE<a name=\"TRE-R216-HL7RoleCode-UNCLE\"> </a></td><td>Oncle</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AUNT<a name=\"TRE-R216-HL7RoleCode-AUNT\"> </a></td><td>Tante</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NEPHEW<a name=\"TRE-R216-HL7RoleCode-NEPHEW\"> </a></td><td>Neveu</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NIECE<a name=\"TRE-R216-HL7RoleCode-NIECE\"> </a></td><td>Nièce</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">COUSIN<a name=\"TRE-R216-HL7RoleCode-COUSIN\"> </a></td><td>Cousin(e)</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">HUSB<a name=\"TRE-R216-HL7RoleCode-HUSB\"> </a></td><td>Epoux</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">WIFE<a name=\"TRE-R216-HL7RoleCode-WIFE\"> </a></td><td>Epouse</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DOMPART<a name=\"TRE-R216-HL7RoleCode-DOMPART\"> </a></td><td>Concubin(e) ou partenaire PACS</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ROOM<a name=\"TRE-R216-HL7RoleCode-ROOM\"> </a></td><td>Personne vivant sous le même toit</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FRND<a name=\"TRE-R216-HL7RoleCode-FRND\"> </a></td><td>Autre proche</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NBOR<a name=\"TRE-R216-HL7RoleCode-NBOR\"> </a></td><td>Voisin(e)</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FAMMEMB<a name=\"TRE-R216-HL7RoleCode-FAMMEMB\"> </a></td><td>Autre membre de la famille</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">EXT<a name=\"TRE-R216-HL7RoleCode-EXT\"> </a></td><td>Autre membre de la famille sans lien génétique direct</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SPS<a name=\"TRE-R216-HL7RoleCode-SPS\"> </a></td><td>Epoux ou épouse</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">RESPRSN<a name=\"TRE-R216-HL7RoleCode-RESPRSN\"> </a></td><td>Responsable légal non membre de la famille</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ADOPTF<a name=\"TRE-R216-HL7RoleCode-ADOPTF\"> </a></td><td>Père adoptif</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ADOPTM<a name=\"TRE-R216-HL7RoleCode-ADOPTM\"> </a></td><td>Mère adoptive</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ADOPTP<a name=\"TRE-R216-HL7RoleCode-ADOPTP\"> </a></td><td>Parent adoptif, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">BROINLAW<a name=\"TRE-R216-HL7RoleCode-BROINLAW\"> </a></td><td>Beau-frère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CHILD<a name=\"TRE-R216-HL7RoleCode-CHILD\"> </a></td><td>Enfant</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CHLDADOPT<a name=\"TRE-R216-HL7RoleCode-CHLDADOPT\"> </a></td><td>Enfant adopté</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CHLDFOST<a name=\"TRE-R216-HL7RoleCode-CHLDFOST\"> </a></td><td>Enfant placé en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CHLDINLAW<a name=\"TRE-R216-HL7RoleCode-CHLDINLAW\"> </a></td><td>Gendre ou belle-fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">COUSN<a name=\"TRE-R216-HL7RoleCode-COUSN\"> </a></td><td>Cousin(e)</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DAUADOPT<a name=\"TRE-R216-HL7RoleCode-DAUADOPT\"> </a></td><td>Fille adoptive</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DAUC<a name=\"TRE-R216-HL7RoleCode-DAUC\"> </a></td><td>Fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DAUFOST<a name=\"TRE-R216-HL7RoleCode-DAUFOST\"> </a></td><td>Fille placée en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DAUINLAW<a name=\"TRE-R216-HL7RoleCode-DAUINLAW\"> </a></td><td>Belle-fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FMRSPS<a name=\"TRE-R216-HL7RoleCode-FMRSPS\"> </a></td><td>Ancien époux ou ancienne épouse</td><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FTHFOST<a name=\"TRE-R216-HL7RoleCode-FTHFOST\"> </a></td><td>Assistant familial - Famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FTHINLAW<a name=\"TRE-R216-HL7RoleCode-FTHINLAW\"> </a></td><td>Beau-père</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GESTM<a name=\"TRE-R216-HL7RoleCode-GESTM\"> </a></td><td>Mère porteuse</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GGRPRN<a name=\"TRE-R216-HL7RoleCode-GGRPRN\"> </a></td><td>Arrière-grand-parent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRNDCHILD<a name=\"TRE-R216-HL7RoleCode-GRNDCHILD\"> </a></td><td>Petit-enfant</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRPRN<a name=\"TRE-R216-HL7RoleCode-GRPRN\"> </a></td><td>Grand-parent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">HSIB<a name=\"TRE-R216-HL7RoleCode-HSIB\"> </a></td><td>Demi-frère ou demi-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MTHFOST<a name=\"TRE-R216-HL7RoleCode-MTHFOST\"> </a></td><td>Assistante familiale - Famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MTHINLAW<a name=\"TRE-R216-HL7RoleCode-MTHINLAW\"> </a></td><td>Belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NBRO<a name=\"TRE-R216-HL7RoleCode-NBRO\"> </a></td><td>Frère biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NIENEPH<a name=\"TRE-R216-HL7RoleCode-NIENEPH\"> </a></td><td>Neveu ou nièce</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NPRN<a name=\"TRE-R216-HL7RoleCode-NPRN\"> </a></td><td>Parent biologique, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NSIB<a name=\"TRE-R216-HL7RoleCode-NSIB\"> </a></td><td>Frère ou soeur biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NSIS<a name=\"TRE-R216-HL7RoleCode-NSIS\"> </a></td><td>Soeur biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PRN<a name=\"TRE-R216-HL7RoleCode-PRN\"> </a></td><td>Parent, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PRNINLAW<a name=\"TRE-R216-HL7RoleCode-PRNINLAW\"> </a></td><td>Beau-père ou belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SIB<a name=\"TRE-R216-HL7RoleCode-SIB\"> </a></td><td>Frère ou soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SIBINLAW<a name=\"TRE-R216-HL7RoleCode-SIBINLAW\"> </a></td><td>Beau-frère ou belle-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SIGOTHR<a name=\"TRE-R216-HL7RoleCode-SIGOTHR\"> </a></td><td>Conjoint</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SISINLAW<a name=\"TRE-R216-HL7RoleCode-SISINLAW\"> </a></td><td>Belle-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SONADOPT<a name=\"TRE-R216-HL7RoleCode-SONADOPT\"> </a></td><td>Fils adoptif</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SONC<a name=\"TRE-R216-HL7RoleCode-SONC\"> </a></td><td>Fils</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SONFOST<a name=\"TRE-R216-HL7RoleCode-SONFOST\"> </a></td><td>Garçon placé en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SONINLAW<a name=\"TRE-R216-HL7RoleCode-SONINLAW\"> </a></td><td>Gendre</td><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPBRO<a name=\"TRE-R216-HL7RoleCode-STPBRO\"> </a></td><td>Fils du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPCHLD<a name=\"TRE-R216-HL7RoleCode-STPCHLD\"> </a></td><td>Enfant du conjoint, issu d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPDAU<a name=\"TRE-R216-HL7RoleCode-STPDAU\"> </a></td><td>Fille du conjoint, issue d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPPRN<a name=\"TRE-R216-HL7RoleCode-STPPRN\"> </a></td><td>Beau-père ou belle-mère - époux(se) du père ou de la mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPSIB<a name=\"TRE-R216-HL7RoleCode-STPSIB\"> </a></td><td>Enfant du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPSIS<a name=\"TRE-R216-HL7RoleCode-STPSIS\"> </a></td><td>Fille du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPSON<a name=\"TRE-R216-HL7RoleCode-STPSON\"> </a></td><td>Fils du conjoint, issu d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">TWIN<a name=\"TRE-R216-HL7RoleCode-TWIN\"> </a></td><td>Frère jumeau ou soeur jumelle</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">TWINBRO<a name=\"TRE-R216-HL7RoleCode-TWINBRO\"> </a></td><td>Frère jumeau</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">TWINSIS<a name=\"TRE-R216-HL7RoleCode-TWINSIS\"> </a></td><td>Soeur jumelle</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R216-HL7RoleCode</b></p><a name=\"TRE-R216-HL7RoleCode\"> </a><a name=\"hcTRE-R216-HL7RoleCode\"> </a><a name=\"TRE-R216-HL7RoleCode-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">MTH<a name=\"TRE-R216-HL7RoleCode-MTH\"> </a></td><td>Mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FTH<a name=\"TRE-R216-HL7RoleCode-FTH\"> </a></td><td>Père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NMTH<a name=\"TRE-R216-HL7RoleCode-NMTH\"> </a></td><td>Mère biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NFTH<a name=\"TRE-R216-HL7RoleCode-NFTH\"> </a></td><td>Père biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPMTH<a name=\"TRE-R216-HL7RoleCode-STPMTH\"> </a></td><td>Belle-mère - épouse du père ou de la mère</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPFTH<a name=\"TRE-R216-HL7RoleCode-STPFTH\"> </a></td><td>Beau-père - époux du père ou de la mère</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRMTH<a name=\"TRE-R216-HL7RoleCode-GRMTH\"> </a></td><td>Grand-mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRFTH<a name=\"TRE-R216-HL7RoleCode-GRFTH\"> </a></td><td>Grand-père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GGRMTH<a name=\"TRE-R216-HL7RoleCode-GGRMTH\"> </a></td><td>Arrière-grand-mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GGRFTH<a name=\"TRE-R216-HL7RoleCode-GGRFTH\"> </a></td><td>Arrière-grand-père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DAU<a name=\"TRE-R216-HL7RoleCode-DAU\"> </a></td><td>Fille biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SON<a name=\"TRE-R216-HL7RoleCode-SON\"> </a></td><td>Fils biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">BRO<a name=\"TRE-R216-HL7RoleCode-BRO\"> </a></td><td>Frère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SIS<a name=\"TRE-R216-HL7RoleCode-SIS\"> </a></td><td>Soeur</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">HBRO<a name=\"TRE-R216-HL7RoleCode-HBRO\"> </a></td><td>Demi-frère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">HSIS<a name=\"TRE-R216-HL7RoleCode-HSIS\"> </a></td><td>Demi-soeur</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRNDDAU<a name=\"TRE-R216-HL7RoleCode-GRNDDAU\"> </a></td><td>Petite-fille</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRNDSO<a name=\"TRE-R216-HL7RoleCode-GRNDSO\"> </a></td><td>Petit-fils</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">UNCLE<a name=\"TRE-R216-HL7RoleCode-UNCLE\"> </a></td><td>Oncle</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AUNT<a name=\"TRE-R216-HL7RoleCode-AUNT\"> </a></td><td>Tante</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NEPHEW<a name=\"TRE-R216-HL7RoleCode-NEPHEW\"> </a></td><td>Neveu</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NIECE<a name=\"TRE-R216-HL7RoleCode-NIECE\"> </a></td><td>Nièce</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">COUSIN<a name=\"TRE-R216-HL7RoleCode-COUSIN\"> </a></td><td>Cousin(e)</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">HUSB<a name=\"TRE-R216-HL7RoleCode-HUSB\"> </a></td><td>Epoux</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">WIFE<a name=\"TRE-R216-HL7RoleCode-WIFE\"> </a></td><td>Epouse</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DOMPART<a name=\"TRE-R216-HL7RoleCode-DOMPART\"> </a></td><td>Concubin(e) ou partenaire PACS</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ROOM<a name=\"TRE-R216-HL7RoleCode-ROOM\"> </a></td><td>Personne vivant sous le même toit</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FRND<a name=\"TRE-R216-HL7RoleCode-FRND\"> </a></td><td>Autre proche</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NBOR<a name=\"TRE-R216-HL7RoleCode-NBOR\"> </a></td><td>Voisin(e)</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FAMMEMB<a name=\"TRE-R216-HL7RoleCode-FAMMEMB\"> </a></td><td>Autre membre de la famille</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">EXT<a name=\"TRE-R216-HL7RoleCode-EXT\"> </a></td><td>Autre membre de la famille sans lien génétique direct</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SPS<a name=\"TRE-R216-HL7RoleCode-SPS\"> </a></td><td>Epoux ou épouse</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">RESPRSN<a name=\"TRE-R216-HL7RoleCode-RESPRSN\"> </a></td><td>Responsable légal non membre de la famille</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ADOPTF<a name=\"TRE-R216-HL7RoleCode-ADOPTF\"> </a></td><td>Père adoptif</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ADOPTM<a name=\"TRE-R216-HL7RoleCode-ADOPTM\"> </a></td><td>Mère adoptive</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ADOPTP<a name=\"TRE-R216-HL7RoleCode-ADOPTP\"> </a></td><td>Parent adoptif, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">BROINLAW<a name=\"TRE-R216-HL7RoleCode-BROINLAW\"> </a></td><td>Beau-frère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CHILD<a name=\"TRE-R216-HL7RoleCode-CHILD\"> </a></td><td>Enfant</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CHLDADOPT<a name=\"TRE-R216-HL7RoleCode-CHLDADOPT\"> </a></td><td>Enfant adopté</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CHLDFOST<a name=\"TRE-R216-HL7RoleCode-CHLDFOST\"> </a></td><td>Enfant placé en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CHLDINLAW<a name=\"TRE-R216-HL7RoleCode-CHLDINLAW\"> </a></td><td>Gendre ou belle-fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">COUSN<a name=\"TRE-R216-HL7RoleCode-COUSN\"> </a></td><td>Cousin(e)</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DAUADOPT<a name=\"TRE-R216-HL7RoleCode-DAUADOPT\"> </a></td><td>Fille adoptive</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DAUC<a name=\"TRE-R216-HL7RoleCode-DAUC\"> </a></td><td>Fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DAUFOST<a name=\"TRE-R216-HL7RoleCode-DAUFOST\"> </a></td><td>Fille placée en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DAUINLAW<a name=\"TRE-R216-HL7RoleCode-DAUINLAW\"> </a></td><td>Belle-fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FMRSPS<a name=\"TRE-R216-HL7RoleCode-FMRSPS\"> </a></td><td>Ancien époux ou ancienne épouse</td><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FTHFOST<a name=\"TRE-R216-HL7RoleCode-FTHFOST\"> </a></td><td>Assistant familial - Famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FTHINLAW<a name=\"TRE-R216-HL7RoleCode-FTHINLAW\"> </a></td><td>Beau-père</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GESTM<a name=\"TRE-R216-HL7RoleCode-GESTM\"> </a></td><td>Mère porteuse</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GGRPRN<a name=\"TRE-R216-HL7RoleCode-GGRPRN\"> </a></td><td>Arrière-grand-parent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRNDCHILD<a name=\"TRE-R216-HL7RoleCode-GRNDCHILD\"> </a></td><td>Petit-enfant</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRPRN<a name=\"TRE-R216-HL7RoleCode-GRPRN\"> </a></td><td>Grand-parent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">HSIB<a name=\"TRE-R216-HL7RoleCode-HSIB\"> </a></td><td>Demi-frère ou demi-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MTHFOST<a name=\"TRE-R216-HL7RoleCode-MTHFOST\"> </a></td><td>Assistante familiale - Famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MTHINLAW<a name=\"TRE-R216-HL7RoleCode-MTHINLAW\"> </a></td><td>Belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NBRO<a name=\"TRE-R216-HL7RoleCode-NBRO\"> </a></td><td>Frère biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NIENEPH<a name=\"TRE-R216-HL7RoleCode-NIENEPH\"> </a></td><td>Neveu ou nièce</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NPRN<a name=\"TRE-R216-HL7RoleCode-NPRN\"> </a></td><td>Parent biologique, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NSIB<a name=\"TRE-R216-HL7RoleCode-NSIB\"> </a></td><td>Frère ou soeur biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NSIS<a name=\"TRE-R216-HL7RoleCode-NSIS\"> </a></td><td>Soeur biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PRN<a name=\"TRE-R216-HL7RoleCode-PRN\"> </a></td><td>Parent, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PRNINLAW<a name=\"TRE-R216-HL7RoleCode-PRNINLAW\"> </a></td><td>Beau-père ou belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SIB<a name=\"TRE-R216-HL7RoleCode-SIB\"> </a></td><td>Frère ou soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SIBINLAW<a name=\"TRE-R216-HL7RoleCode-SIBINLAW\"> </a></td><td>Beau-frère ou belle-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SIGOTHR<a name=\"TRE-R216-HL7RoleCode-SIGOTHR\"> </a></td><td>Conjoint</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SISINLAW<a name=\"TRE-R216-HL7RoleCode-SISINLAW\"> </a></td><td>Belle-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SONADOPT<a name=\"TRE-R216-HL7RoleCode-SONADOPT\"> </a></td><td>Fils adoptif</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SONC<a name=\"TRE-R216-HL7RoleCode-SONC\"> </a></td><td>Fils</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SONFOST<a name=\"TRE-R216-HL7RoleCode-SONFOST\"> </a></td><td>Garçon placé en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SONINLAW<a name=\"TRE-R216-HL7RoleCode-SONINLAW\"> </a></td><td>Gendre</td><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPBRO<a name=\"TRE-R216-HL7RoleCode-STPBRO\"> </a></td><td>Fils du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPCHLD<a name=\"TRE-R216-HL7RoleCode-STPCHLD\"> </a></td><td>Enfant du conjoint, issu d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPDAU<a name=\"TRE-R216-HL7RoleCode-STPDAU\"> </a></td><td>Fille du conjoint, issue d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPPRN<a name=\"TRE-R216-HL7RoleCode-STPPRN\"> </a></td><td>Beau-père ou belle-mère - époux(se) du père ou de la mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPSIB<a name=\"TRE-R216-HL7RoleCode-STPSIB\"> </a></td><td>Enfant du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPSIS<a name=\"TRE-R216-HL7RoleCode-STPSIS\"> </a></td><td>Fille du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPSON<a name=\"TRE-R216-HL7RoleCode-STPSON\"> </a></td><td>Fils du conjoint, issu d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">TWIN<a name=\"TRE-R216-HL7RoleCode-TWIN\"> </a></td><td>Frère jumeau ou soeur jumelle</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">TWINBRO<a name=\"TRE-R216-HL7RoleCode-TWINBRO\"> </a></td><td>Frère jumeau</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">TWINSIS<a name=\"TRE-R216-HL7RoleCode-TWINSIS\"> </a></td><td>Soeur jumelle</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FTWIN<a name=\"TRE-R216-HL7RoleCode-FTWIN\"> </a></td><td>Jumeau ou jumelle dizygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FTWINBRO<a name=\"TRE-R216-HL7RoleCode-FTWINBRO\"> </a></td><td>Jumeau dizygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FTWINSIS<a name=\"TRE-R216-HL7RoleCode-FTWINSIS\"> </a></td><td>Jumelle dizygot</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRNDSON<a name=\"TRE-R216-HL7RoleCode-GRNDSON\"> </a></td><td>Petit-fils</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ITWINBRO<a name=\"TRE-R216-HL7RoleCode-ITWINBRO\"> </a></td><td>Jumeau monozygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ITWINSIS<a name=\"TRE-R216-HL7RoleCode-ITWINSIS\"> </a></td><td>Jumelle monozygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MAUNT<a name=\"TRE-R216-HL7RoleCode-MAUNT\"> </a></td><td>Tante maternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MCOUSN<a name=\"TRE-R216-HL7RoleCode-MCOUSN\"> </a></td><td>Cousin (maternel)</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MGGRFTH<a name=\"TRE-R216-HL7RoleCode-MGGRFTH\"> </a></td><td>Arrière-grand-père maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MGGRMTH<a name=\"TRE-R216-HL7RoleCode-MGGRMTH\"> </a></td><td>Arrière-grand-mère maternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MGGRPRN<a name=\"TRE-R216-HL7RoleCode-MGGRPRN\"> </a></td><td>Arrière grand parent maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MGRFTH<a name=\"TRE-R216-HL7RoleCode-MGRFTH\"> </a></td><td>Grand-père maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MGRMTH<a name=\"TRE-R216-HL7RoleCode-MGRMTH\"> </a></td><td>Grand-mère maternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MGRPRN<a name=\"TRE-R216-HL7RoleCode-MGRPRN\"> </a></td><td>Grand parent maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MUNCLE<a name=\"TRE-R216-HL7RoleCode-MUNCLE\"> </a></td><td>Oncle maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NCHILD<a name=\"TRE-R216-HL7RoleCode-NCHILD\"> </a></td><td>Enfant biologique</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NFTHF<a name=\"TRE-R216-HL7RoleCode-NFTHF\"> </a></td><td>Père biologique du fœtus</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NMTHF<a name=\"TRE-R216-HL7RoleCode-NMTHF\"> </a></td><td>Mère biologique du fœtus</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PAUNT<a name=\"TRE-R216-HL7RoleCode-PAUNT\"> </a></td><td>Tante paternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PCOUSN<a name=\"TRE-R216-HL7RoleCode-PCOUSN\"> </a></td><td>Cousin (paternel)</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PGGRFTH<a name=\"TRE-R216-HL7RoleCode-PGGRFTH\"> </a></td><td>Arrière-grand-père paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PGGRMTH<a name=\"TRE-R216-HL7RoleCode-PGGRMTH\"> </a></td><td>Arrière-grand-mère paternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PGGRPRN<a name=\"TRE-R216-HL7RoleCode-PGGRPRN\"> </a></td><td>Arrière grand parent paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PGRFTH<a name=\"TRE-R216-HL7RoleCode-PGRFTH\"> </a></td><td>Grand-père paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PGRMTH<a name=\"TRE-R216-HL7RoleCode-PGRMTH\"> </a></td><td>Grand-mère paternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PGRPRN<a name=\"TRE-R216-HL7RoleCode-PGRPRN\"> </a></td><td>Grand parent paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PRNFOST<a name=\"TRE-R216-HL7RoleCode-PRNFOST\"> </a></td><td>Parent, au sens famille d'accueil</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PUNCLE<a name=\"TRE-R216-HL7RoleCode-PUNCLE\"> </a></td><td>Oncle paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C<a name=\"TRE-R216-HL7RoleCode-C\"> </a></td><td>Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">G<a name=\"TRE-R216-HL7RoleCode-G\"> </a></td><td>Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés.</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">L<a name=\"TRE-R216-HL7RoleCode-L\"> </a></td><td>Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus.</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P<a name=\"TRE-R216-HL7RoleCode-P\"> </a></td><td>Spécimen prélevé sur un patient</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SELF<a name=\"TRE-R216-HL7RoleCode-SELF\"> </a></td><td>Couverture personnelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FAMDEP<a name=\"TRE-R216-HL7RoleCode-FAMDEP\"> </a></td><td>Couverture familiale</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STUD<a name=\"TRE-R216-HL7RoleCode-STUD\"> </a></td><td>Couverture étudiante</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ITWIN<a name=\"TRE-R216-HL7RoleCode-ITWIN\"> </a></td><td>Jumeau ou jumelle monozygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -26,7 +27,7 @@
   fhir:version [ fhir:v "1.4.0"] ; # 
   fhir:name [ fhir:v "TRE_R216-HL7RoleCode"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "FTH" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "NMTH" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "NFTH" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "STPMTH" ] ;
@@ -150,10 +175,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "STPFTH" ] ;
@@ -171,10 +202,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "GRMTH" ] ;
@@ -192,10 +229,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "GRFTH" ] ;
@@ -213,10 +256,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "GGRMTH" ] ;
@@ -234,10 +283,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "GGRFTH" ] ;
@@ -255,10 +310,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DAU" ] ;
@@ -276,10 +337,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "SON" ] ;
@@ -297,10 +364,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "BRO" ] ;
@@ -318,10 +391,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "SIS" ] ;
@@ -339,10 +418,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "HBRO" ] ;
@@ -360,10 +445,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "HSIS" ] ;
@@ -381,10 +472,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "GRNDDAU" ] ;
@@ -402,10 +499,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "GRNDSO" ] ;
@@ -423,10 +526,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "UNCLE" ] ;
@@ -444,10 +553,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "AUNT" ] ;
@@ -465,10 +580,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "NEPHEW" ] ;
@@ -486,10 +607,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "NIECE" ] ;
@@ -507,10 +634,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "COUSIN" ] ;
@@ -528,13 +661,22 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "HUSB" ] ;
@@ -552,10 +694,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "WIFE" ] ;
@@ -573,10 +721,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DOMPART" ] ;
@@ -594,10 +748,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ROOM" ] ;
@@ -615,10 +775,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "FRND" ] ;
@@ -636,10 +802,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "NBOR" ] ;
@@ -657,10 +829,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "FAMMEMB" ] ;
@@ -678,10 +856,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "EXT" ] ;
@@ -699,10 +883,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "SPS" ] ;
@@ -720,10 +910,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "RESPRSN" ] ;
@@ -741,10 +937,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ADOPTF" ] ;
@@ -762,10 +964,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ADOPTM" ] ;
@@ -783,10 +991,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ADOPTP" ] ;
@@ -804,10 +1018,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "BROINLAW" ] ;
@@ -825,10 +1045,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CHILD" ] ;
@@ -846,10 +1072,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CHLDADOPT" ] ;
@@ -867,10 +1099,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CHLDFOST" ] ;
@@ -888,10 +1126,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CHLDINLAW" ] ;
@@ -909,10 +1153,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "COUSN" ] ;
@@ -930,10 +1180,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DAUADOPT" ] ;
@@ -951,10 +1207,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DAUC" ] ;
@@ -972,10 +1234,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DAUFOST" ] ;
@@ -993,10 +1261,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DAUINLAW" ] ;
@@ -1014,10 +1288,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "FMRSPS" ] ;
@@ -1035,10 +1315,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "FTHFOST" ] ;
@@ -1056,10 +1342,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "FTHINLAW" ] ;
@@ -1077,10 +1369,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "GESTM" ] ;
@@ -1098,10 +1396,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "GGRPRN" ] ;
@@ -1119,10 +1423,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "GRNDCHILD" ] ;
@@ -1140,10 +1450,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "GRPRN" ] ;
@@ -1161,10 +1477,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "HSIB" ] ;
@@ -1182,10 +1504,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "MTHFOST" ] ;
@@ -1203,10 +1531,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "MTHINLAW" ] ;
@@ -1224,10 +1558,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "NBRO" ] ;
@@ -1245,10 +1585,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "NIENEPH" ] ;
@@ -1266,10 +1612,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "NPRN" ] ;
@@ -1287,10 +1639,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "NSIB" ] ;
@@ -1308,10 +1666,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "NSIS" ] ;
@@ -1329,10 +1693,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "PRN" ] ;
@@ -1350,10 +1720,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "PRNINLAW" ] ;
@@ -1371,10 +1747,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "SIB" ] ;
@@ -1392,10 +1774,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "SIBINLAW" ] ;
@@ -1413,10 +1801,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "SIGOTHR" ] ;
@@ -1434,10 +1828,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "SISINLAW" ] ;
@@ -1455,10 +1855,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "SONADOPT" ] ;
@@ -1476,10 +1882,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "SONC" ] ;
@@ -1497,10 +1909,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "SONFOST" ] ;
@@ -1518,10 +1936,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "SONINLAW" ] ;
@@ -1539,10 +1963,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "STPBRO" ] ;
@@ -1560,10 +1990,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "STPCHLD" ] ;
@@ -1581,10 +2017,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "STPDAU" ] ;
@@ -1602,10 +2044,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "STPPRN" ] ;
@@ -1623,10 +2071,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "STPSIB" ] ;
@@ -1644,10 +2098,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "STPSIS" ] ;
@@ -1665,10 +2125,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "STPSON" ] ;
@@ -1686,10 +2152,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "TWIN" ] ;
@@ -1707,10 +2179,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "TWINBRO" ] ;
@@ -1728,10 +2206,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "TWINSIS" ] ;
@@ -1749,10 +2233,988 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FTWIN" ] ;
+     fhir:display [ fhir:v "Jumeau ou jumelle dizygote" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Jumeau ou jumelle dizygote" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Jumeau ou jumelle dizygote" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FTWINBRO" ] ;
+     fhir:display [ fhir:v "Jumeau dizygote" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Jumeau dizygote" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Jumeau dizygote" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FTWINSIS" ] ;
+     fhir:display [ fhir:v "Jumelle dizygot" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Jumelle dizygot" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Jumelle dizygot" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GRNDSON" ] ;
+     fhir:display [ fhir:v "Petit-fils" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Petit-fils" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Petit-fils" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ITWINBRO" ] ;
+     fhir:display [ fhir:v "Jumeau monozygote" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Jumeau monozygote" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Jumeau monozygote" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ITWINSIS" ] ;
+     fhir:display [ fhir:v "Jumelle monozygote" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Jumelle monozygote" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Jumelle monozygote" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MAUNT" ] ;
+     fhir:display [ fhir:v "Tante maternelle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Tante maternelle" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Tante maternelle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MCOUSN" ] ;
+     fhir:display [ fhir:v "Cousin (maternel)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Cousin (maternel)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Cousin (maternel)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MGGRFTH" ] ;
+     fhir:display [ fhir:v "Arrière-grand-père maternel" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Arrière-grand-père maternel" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Arrière-grand-père maternel" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MGGRMTH" ] ;
+     fhir:display [ fhir:v "Arrière-grand-mère maternelle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Arrière-grand-mère maternelle" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Arrière-grand-mère maternelle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MGGRPRN" ] ;
+     fhir:display [ fhir:v "Arrière grand parent maternel" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Arrière grand parent maternel" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Arrière grand parent maternel" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MGRFTH" ] ;
+     fhir:display [ fhir:v "Grand-père maternel" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Grand-père maternel" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Grand-père maternel" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MGRMTH" ] ;
+     fhir:display [ fhir:v "Grand-mère maternelle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Grand-mère maternelle" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Grand-mère maternelle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MGRPRN" ] ;
+     fhir:display [ fhir:v "Grand parent maternel" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Grand parent maternel" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Grand parent maternel" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MUNCLE" ] ;
+     fhir:display [ fhir:v "Oncle maternel" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Oncle maternel" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Oncle maternel" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NCHILD" ] ;
+     fhir:display [ fhir:v "Enfant biologique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Enfant biologique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Enfant biologique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NFTHF" ] ;
+     fhir:display [ fhir:v "Père biologique du fœtus" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Père biologique du fœtus" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Père biologique du fœtus" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NMTHF" ] ;
+     fhir:display [ fhir:v "Mère biologique du fœtus" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Mère biologique du fœtus" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Mère biologique du fœtus" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PAUNT" ] ;
+     fhir:display [ fhir:v "Tante paternelle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Tante paternelle" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Tante paternelle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PCOUSN" ] ;
+     fhir:display [ fhir:v "Cousin (paternel)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Cousin (paternel)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Cousin (paternel)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PGGRFTH" ] ;
+     fhir:display [ fhir:v "Arrière-grand-père paternel" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Arrière-grand-père paternel" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Arrière-grand-père paternel" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PGGRMTH" ] ;
+     fhir:display [ fhir:v "Arrière-grand-mère paternelle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Arrière-grand-mère paternelle" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Arrière-grand-mère paternelle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PGGRPRN" ] ;
+     fhir:display [ fhir:v "Arrière grand parent paternel" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Arrière grand parent paternel" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Arrière grand parent paternel" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PGRFTH" ] ;
+     fhir:display [ fhir:v "Grand-père paternel" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Grand-père paternel" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Grand-père paternel" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PGRMTH" ] ;
+     fhir:display [ fhir:v "Grand-mère paternelle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Grand-mère paternelle" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Grand-mère paternelle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PGRPRN" ] ;
+     fhir:display [ fhir:v "Grand parent paternel" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Grand parent paternel" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Grand parent paternel" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PRNFOST" ] ;
+     fhir:display [ fhir:v "Parent, au sens famille d'accueil" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Parent, au sens famille d'accueil" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Parent, au sens famille d'accueil" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PUNCLE" ] ;
+     fhir:display [ fhir:v "Oncle paternel" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Oncle paternel" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Oncle paternel" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "C" ] ;
+     fhir:display [ fhir:v "Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "G" ] ;
+     fhir:display [ fhir:v "Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés." ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés." ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "L" ] ;
+     fhir:display [ fhir:v "Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus." ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus." ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P" ] ;
+     fhir:display [ fhir:v "Spécimen prélevé sur un patient" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Spécimen prélevé sur un patient" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Spécimen prélevé sur un patient" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SELF" ] ;
+     fhir:display [ fhir:v "Couverture personnelle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Couverture personnelle" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Couverture personnelle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FAMDEP" ] ;
+     fhir:display [ fhir:v "Couverture familiale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Couverture familiale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Couverture familiale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "STUD" ] ;
+     fhir:display [ fhir:v "Couverture étudiante" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Couverture étudiante" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Couverture étudiante" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ITWIN" ] ;
+     fhir:display [ fhir:v "Jumeau ou jumelle monozygote" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Jumeau ou jumelle monozygote" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Jumeau ou jumelle monozygote" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

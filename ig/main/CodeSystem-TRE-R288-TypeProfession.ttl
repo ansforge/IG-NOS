@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R288-TypeProfession"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R288-TypeProfession</b></p><a name=\"TRE-R288-TypeProfession\"> </a><a name=\"hcTRE-R288-TypeProfession\"> </a><a name=\"TRE-R288-TypeProfession-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R288-TypeProfession/FHIR/TRE-R288-TypeProfession</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">P01<a name=\"TRE-R288-TypeProfession-P01\"> </a></td><td>Professionnel de santé</td><td>2019-03-29T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">P02<a name=\"TRE-R288-TypeProfession-P02\"> </a></td><td>Usager de titre professionnel</td><td>2019-03-29T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">P03<a name=\"TRE-R288-TypeProfession-P03\"> </a></td><td>Professionnel soumis à agrément</td><td>2019-03-29T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">P04<a name=\"TRE-R288-TypeProfession-P04\"> </a></td><td>Professionnel en formation</td><td>2019-03-29T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">P05<a name=\"TRE-R288-TypeProfession-P05\"> </a></td><td>Professionnel du social</td><td>2019-03-29T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">P06<a name=\"TRE-R288-TypeProfession-P06\"> </a></td><td>Autre profession</td><td>2019-07-05T12:00:00+01:00</td><td>2019-07-05T12:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R288-TypeProfession</b></p><a name=\"TRE-R288-TypeProfession\"> </a><a name=\"hcTRE-R288-TypeProfession\"> </a><a name=\"TRE-R288-TypeProfession-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R288-TypeProfession/FHIR/TRE-R288-TypeProfession</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">P01<a name=\"TRE-R288-TypeProfession-P01\"> </a></td><td>Professionnel de santé</td><td>2019-03-29T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">P02<a name=\"TRE-R288-TypeProfession-P02\"> </a></td><td>Usager de titre professionnel</td><td>2019-03-29T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">P03<a name=\"TRE-R288-TypeProfession-P03\"> </a></td><td>Professionnel soumis à agrément</td><td>2019-03-29T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">P04<a name=\"TRE-R288-TypeProfession-P04\"> </a></td><td>Professionnel en formation</td><td>2019-03-29T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">P05<a name=\"TRE-R288-TypeProfession-P05\"> </a></td><td>Professionnel du social</td><td>2019-03-29T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">P06<a name=\"TRE-R288-TypeProfession-P06\"> </a></td><td>Autre profession</td><td>2019-07-05T12:00:00+01:00</td><td>2019-07-05T12:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P02" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P03" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P04" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P05" ] ;
@@ -150,10 +175,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P06" ] ;
@@ -171,10 +202,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

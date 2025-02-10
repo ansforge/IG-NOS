@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.3.3.256"/>
   </identifier>
-  <version value="20241025120000"/>
+  <version value="20241213120000"/>
   <name value="JDV_J286_ProfilUtilisateurReferentielNational_ROR"/>
   <status value="active"/>
-  <date value="2024-10-25T12:00:00+01:00"/>
+  <date value="2024-12-13T12:00:00+01:00"/>
   <description value="Profils utilisateurs du ROR National"/>
   <compose>
     <include>
@@ -81,6 +81,36 @@
       <concept>
         <code value="PSL"/>
         <display value="Professionnel de Santé Libéral (PSL)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.255"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ADMIN_METIER"/>
+        <display value="Administrateur Métier"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.255"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SUPPORT"/>
+        <display value="Support"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.3.3.255"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="REF_MSP"/>
+        <display value="Référent Maison de Santé Pluriprofessionnelle"/>
         <designation>
           <use>
             <code value="OID"/>

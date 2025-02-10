@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R215-UniteTemps"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R215-UniteTemps</b></p><a name=\"TRE-R215-UniteTemps\"> </a><a name=\"hcTRE-R215-UniteTemps\"> </a><a name=\"TRE-R215-UniteTemps-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R215-UniteTemps/FHIR/TRE-R215-UniteTemps</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">a<a name=\"TRE-R215-UniteTemps-a\"> </a></td><td>année</td><td>2016-02-04T00:00:00+01:00</td><td>2016-02-04T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">m<a name=\"TRE-R215-UniteTemps-m\"> </a></td><td>mois</td><td>2016-02-04T00:00:00+01:00</td><td>2016-02-04T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">j<a name=\"TRE-R215-UniteTemps-j\"> </a></td><td>jour</td><td>2016-02-04T00:00:00+01:00</td><td>2016-02-04T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">h<a name=\"TRE-R215-UniteTemps-h\"> </a></td><td>heure</td><td>2016-02-04T00:00:00+01:00</td><td>2016-02-04T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">mn<a name=\"TRE-R215-UniteTemps-mn\"> </a></td><td>minute</td><td>2016-02-04T00:00:00+01:00</td><td>2016-02-04T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">s<a name=\"TRE-R215-UniteTemps-s\"> </a></td><td>seconde</td><td>2016-02-04T00:00:00+01:00</td><td>2016-02-04T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">ms<a name=\"TRE-R215-UniteTemps-ms\"> </a></td><td>milliseconde</td><td>2016-02-04T00:00:00+01:00</td><td>2016-02-04T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R215-UniteTemps</b></p><a name=\"TRE-R215-UniteTemps\"> </a><a name=\"hcTRE-R215-UniteTemps\"> </a><a name=\"TRE-R215-UniteTemps-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R215-UniteTemps/FHIR/TRE-R215-UniteTemps</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">a<a name=\"TRE-R215-UniteTemps-a\"> </a></td><td>année</td><td>2016-02-04T00:00:00+01:00</td><td>2016-02-04T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">m<a name=\"TRE-R215-UniteTemps-m\"> </a></td><td>mois</td><td>2016-02-04T00:00:00+01:00</td><td>2016-02-04T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">j<a name=\"TRE-R215-UniteTemps-j\"> </a></td><td>jour</td><td>2016-02-04T00:00:00+01:00</td><td>2016-02-04T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">h<a name=\"TRE-R215-UniteTemps-h\"> </a></td><td>heure</td><td>2016-02-04T00:00:00+01:00</td><td>2016-02-04T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">mn<a name=\"TRE-R215-UniteTemps-mn\"> </a></td><td>minute</td><td>2016-02-04T00:00:00+01:00</td><td>2016-02-04T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">s<a name=\"TRE-R215-UniteTemps-s\"> </a></td><td>seconde</td><td>2016-02-04T00:00:00+01:00</td><td>2016-02-04T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">ms<a name=\"TRE-R215-UniteTemps-ms\"> </a></td><td>milliseconde</td><td>2016-02-04T00:00:00+01:00</td><td>2016-02-04T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -67,13 +68,22 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
-       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "m" ] ;
@@ -91,13 +101,22 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
-       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "j" ] ;
@@ -115,13 +134,22 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
-       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "h" ] ;
@@ -139,13 +167,22 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
-       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "mn" ] ;
@@ -163,13 +200,22 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
-       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "s" ] ;
@@ -187,13 +233,22 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
-       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ms" ] ;
@@ -211,13 +266,22 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
-       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-02-04T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R85-RolePriseCharge"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R85-RolePriseCharge</b></p><a name=\"TRE-R85-RolePriseCharge\"> </a><a name=\"hcTRE-R85-RolePriseCharge\"> </a><a name=\"TRE-R85-RolePriseCharge-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">300<a name=\"TRE-R85-RolePriseCharge-300\"> </a></td><td>Assistant de service social (PAERPA)</td><td/><td>2015-01-01T00:00:00+01:00</td><td>2015-01-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">301<a name=\"TRE-R85-RolePriseCharge-301\"> </a></td><td>Coordination territoriale d'appui (PAERPA)</td><td/><td>2015-01-01T00:00:00+01:00</td><td>2016-03-29T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">302<a name=\"TRE-R85-RolePriseCharge-302\"> </a></td><td>Aide et accompagnement à domicile (PAERPA)</td><td/><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">303<a name=\"TRE-R85-RolePriseCharge-303\"> </a></td><td>Avocat participant aux processus de soins sans consentement (eSSS)</td><td/><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">304<a name=\"TRE-R85-RolePriseCharge-304\"> </a></td><td>Assistant de service social (Expérimentation MAIA)</td><td/><td>2019-05-29T12:00:00+01:00</td><td>2019-05-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">305<a name=\"TRE-R85-RolePriseCharge-305\"> </a></td><td>Psychologue (Expérimentation MAIA)</td><td/><td>2019-05-29T12:00:00+01:00</td><td>2019-05-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">306<a name=\"TRE-R85-RolePriseCharge-306\"> </a></td><td>Psychothérapeute (Expérimentation MAIA)</td><td/><td>2019-05-29T12:00:00+01:00</td><td>2019-05-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">307<a name=\"TRE-R85-RolePriseCharge-307\"> </a></td><td>Mandataire judiciaire à la protection des majeurs (MJPM)</td><td/><td>2019-04-26T12:00:00+01:00</td><td>2019-04-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">308<a name=\"TRE-R85-RolePriseCharge-308\"> </a></td><td>Pilote MAIA</td><td/><td>2019-04-26T12:00:00+01:00</td><td>2019-04-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">309<a name=\"TRE-R85-RolePriseCharge-309\"> </a></td><td>Gestionnaire de cas MAIA</td><td/><td>2019-04-26T12:00:00+01:00</td><td>2019-04-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">310<a name=\"TRE-R85-RolePriseCharge-310\"> </a></td><td>Equipe médico-sociale APA</td><td/><td>2019-04-26T12:00:00+01:00</td><td>2019-04-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">311<a name=\"TRE-R85-RolePriseCharge-311\"> </a></td><td>Autre acteur mettant en oeuvre la méthode MAIA</td><td/><td>2019-04-26T12:00:00+01:00</td><td>2019-04-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">312<a name=\"TRE-R85-RolePriseCharge-312\"> </a></td><td>Autre professionnel</td><td>Code destiné aux professionnels sans obligation d'enregistrement dans le RPPS et pour lesquels la situation métier ne correspond à aucun autre code de la TRE.</td><td>2019-04-26T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">313<a name=\"TRE-R85-RolePriseCharge-313\"> </a></td><td>Aide-soignant</td><td>CSP Articles L4391-1 à L4391-6 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526a?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">314<a name=\"TRE-R85-RolePriseCharge-314\"> </a></td><td>Ambulancier</td><td>CSP Articles L4393-1 à L4393-7 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526e?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">315<a name=\"TRE-R85-RolePriseCharge-315\"> </a></td><td>Auxiliaire de puériculture</td><td>CSP Articles L4392-1 à L4392-6 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526c?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">316<a name=\"TRE-R85-RolePriseCharge-316\"> </a></td><td>Préparateur en pharmacie hospitalière</td><td>CSP Articles L4241-1 à L4241-18 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526b?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">317<a name=\"TRE-R85-RolePriseCharge-317\"> </a></td><td>Préparateur en pharmacie (officine)</td><td>CSP Articles L4241-1 à L4241-18 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/433d?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">318<a name=\"TRE-R85-RolePriseCharge-318\"> </a></td><td>Auxiliaire de vie sociale</td><td>CASF Article D451-92 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/563b?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">319<a name=\"TRE-R85-RolePriseCharge-319\"> </a></td><td>Technicien de l'intervention sociale et familiale</td><td>https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526a?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">320<a name=\"TRE-R85-RolePriseCharge-320\"> </a></td><td>Conseiller en économie sociale et familiale</td><td>CASF Articles D451-81 à D451-87 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/563b?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">321<a name=\"TRE-R85-RolePriseCharge-321\"> </a></td><td>Médiateur familial</td><td>CASF Articles D451-57-1 à D451-57-2 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434c?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">322<a name=\"TRE-R85-RolePriseCharge-322\"> </a></td><td>Assistant familial</td><td>CASF Articles R451-66 à R451-72 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434c?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">323<a name=\"TRE-R85-RolePriseCharge-323\"> </a></td><td>Aide médico-psychologique</td><td>CASF Articles D451-100 à D451-104 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434c?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">324<a name=\"TRE-R85-RolePriseCharge-324\"> </a></td><td>Moniteur éducateur</td><td>CASF Article D451-92 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526d?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">325<a name=\"TRE-R85-RolePriseCharge-325\"> </a></td><td>Educateur de jeunes enfants</td><td>CASF Articles D451-73 à D451-78 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434e?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">326<a name=\"TRE-R85-RolePriseCharge-326\"> </a></td><td>Educateur spécialisé</td><td>CASF Articles D451-47 à D451-47-1 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434g?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">327<a name=\"TRE-R85-RolePriseCharge-327\"> </a></td><td>Educateur technique spécialisé</td><td>CASF Articles D451-41 à D451-41-1 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434f?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">328<a name=\"TRE-R85-RolePriseCharge-328\"> </a></td><td>Accompagnant éducatif et social</td><td>CASF Articles D451-52 à D451-52-1 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434f?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">329<a name=\"TRE-R85-RolePriseCharge-329\"> </a></td><td>Conseiller en génétique</td><td>CASF Articles D451-88 à D451-93 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/422e?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">330<a name=\"TRE-R85-RolePriseCharge-330\"> </a></td><td>Coordonnateur de parcours</td><td>Sous la responsabilité hiérarchique de la direction de la structure, le coordonnateur de parcours organise et gère l'ensemble des liens permettant l'optimisation de la prise en charge sanitaire, sociale et médicosociale d'une personne dans un parcours de soins.  Il répond à une sollicitation de prise en charge en fonction d'une évaluation médico-psycho-sociale adaptée à la situation. Il met en oeuvre les actions répondant aux besoins et attentes de la personne, coordonne les interventions et organise le parcours, en lien avec les professionnels intervenant autour de la situation. Il réalise un étayage immédiat, assure un retour au demandeur et au MT s'il existe, avec l'accord de la personne, assure l'évaluation multidimensionnelle des besoins et attentes de la personne, organise en concertation l'élaboration du Plan Personnalisé de coordination en Santé (PPcS) si nécessaire et sa communication au cercle de soins, s'assure de l'obtention, chaque fois que cela est possible, de l'accord de la personne (ou de son représentant légal), s'assure que les interventions sont bien en cohérence, identifiées, partagées entre les professionnels, mises en oeuvre et adaptées au besoin, réalise son accompagnement en lien avec le MT et les autres professionnels concernés, alimente et transmet le dossier patient partagé et anime le cercle de soins. Cette mission peut s'exercer sur une période plus ou moins longue, parfois discontinue, avec un niveau d'intensité, des types et fréquences d'interventions et un nombre/type d'intervenants variables (exemple : accompagnement renforcé).</td><td>2021-10-29T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">331<a name=\"TRE-R85-RolePriseCharge-331\"> </a></td><td>Secrétaire assistante médico-administrative</td><td/><td>2023-07-28T09:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">332<a name=\"TRE-R85-RolePriseCharge-332\"> </a></td><td>Assistant médical</td><td/><td>2023-07-28T09:00:00+01:00</td><td>2023-07-28T09:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">333<a name=\"TRE-R85-RolePriseCharge-333\"> </a></td><td>Responsable de secteur</td><td/><td>2023-11-24T12:00:00+01:00</td><td>2023-11-24T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">334<a name=\"TRE-R85-RolePriseCharge-334\"> </a></td><td>Biologiste médical ni médecin ni pharmacien</td><td/><td>2023-11-24T12:00:00+01:00</td><td>2023-11-24T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">335<a name=\"TRE-R85-RolePriseCharge-335\"> </a></td><td>Gestionnaire alertes et urgences sanitaires</td><td/><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">336<a name=\"TRE-R85-RolePriseCharge-336\"> </a></td><td>Autre professionnel intervenant dans l'accueil et l'orientation des personnes</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">337<a name=\"TRE-R85-RolePriseCharge-337\"> </a></td><td>Autre professionnel intervenant dans la logistique</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">338<a name=\"TRE-R85-RolePriseCharge-338\"> </a></td><td>Autre professionnel intervenant dans l'hôtellerie et la restauration</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">339<a name=\"TRE-R85-RolePriseCharge-339\"> </a></td><td>Autre professionnel de la qualité, hygiène, sécurité et environnement</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">340<a name=\"TRE-R85-RolePriseCharge-340\"> </a></td><td>Autre professionnel intervenant dans la direction des systèmes d'information</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">341<a name=\"TRE-R85-RolePriseCharge-341\"> </a></td><td>Autre professionnel intervenant dans la direction des finances et comptabilité</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">342<a name=\"TRE-R85-RolePriseCharge-342\"> </a></td><td>Autre professionnel intervenant dans la direction de la communication</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">343<a name=\"TRE-R85-RolePriseCharge-343\"> </a></td><td>Autre professionnel intervenant dans la direction des ressources humaines</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">344<a name=\"TRE-R85-RolePriseCharge-344\"> </a></td><td>Autre professionnel intervenant dans la direction des affaires médicales</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">345<a name=\"TRE-R85-RolePriseCharge-345\"> </a></td><td>Autre professionnel intervenant dans le social, éducatif, psychologie et culturel</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">346<a name=\"TRE-R85-RolePriseCharge-346\"> </a></td><td>Etudiant - infirmier</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">347<a name=\"TRE-R85-RolePriseCharge-347\"> </a></td><td>Etudiant - aide-soignant</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">348<a name=\"TRE-R85-RolePriseCharge-348\"> </a></td><td>Etudiant - auxiliaire de puériculture</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">349<a name=\"TRE-R85-RolePriseCharge-349\"> </a></td><td>Etudiant - masseur-kinésithérapeute</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">350<a name=\"TRE-R85-RolePriseCharge-350\"> </a></td><td>Aide à domicile</td><td>CSP Articles L1132-1 à L1132-7</td><td>2019-03-29T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">351<a name=\"TRE-R85-RolePriseCharge-351\"> </a></td><td>Assistant(e) maternel(le)</td><td/><td>2019-03-29T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">352<a name=\"TRE-R85-RolePriseCharge-352\"> </a></td><td>Autre salarié de la structure sociale</td><td/><td>2019-03-29T12:00:00+01:00</td><td>2019-04-26T12:00:00+01:00</td><td>2019-04-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">353<a name=\"TRE-R85-RolePriseCharge-353\"> </a></td><td>Membre de l'équipe de soins</td><td/><td>2019-03-29T12:00:00+01:00</td><td>2023-04-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">354<a name=\"TRE-R85-RolePriseCharge-354\"> </a></td><td>Externe en médecine</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">355<a name=\"TRE-R85-RolePriseCharge-355\"> </a></td><td>Externe en odontologie</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">356<a name=\"TRE-R85-RolePriseCharge-356\"> </a></td><td>Externe en maïeutique</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">357<a name=\"TRE-R85-RolePriseCharge-357\"> </a></td><td>Externe en pharmacie</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">358<a name=\"TRE-R85-RolePriseCharge-358\"> </a></td><td>Autre étudiant</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">359<a name=\"TRE-R85-RolePriseCharge-359\"> </a></td><td>Directeur d'établissement</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">360<a name=\"TRE-R85-RolePriseCharge-360\"> </a></td><td>Brancardier</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">361<a name=\"TRE-R85-RolePriseCharge-361\"> </a></td><td>Educateur en activité physique adaptée</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">362<a name=\"TRE-R85-RolePriseCharge-362\"> </a></td><td>Technicien d'informations médicales</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">363<a name=\"TRE-R85-RolePriseCharge-363\"> </a></td><td>Attaché de recherche clinique</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">364<a name=\"TRE-R85-RolePriseCharge-364\"> </a></td><td>Praticien A Diplôme Hors Union Européenne (PADHUE)</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">365<a name=\"TRE-R85-RolePriseCharge-365\"> </a></td><td>Gestionnaire admissions / frais de séjour / traitement externe</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">366<a name=\"TRE-R85-RolePriseCharge-366\"> </a></td><td>Archiviste</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">367<a name=\"TRE-R85-RolePriseCharge-367\"> </a></td><td>Surveillant de nuit</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">368<a name=\"TRE-R85-RolePriseCharge-368\"> </a></td><td>Animateur</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">369<a name=\"TRE-R85-RolePriseCharge-369\"> </a></td><td>Biologiste médical non-médecin</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">370<a name=\"TRE-R85-RolePriseCharge-370\"> </a></td><td>Opérateur de Soins Non Programmés (OSNP)</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R85-RolePriseCharge</b></p><a name=\"TRE-R85-RolePriseCharge\"> </a><a name=\"hcTRE-R85-RolePriseCharge\"> </a><a name=\"TRE-R85-RolePriseCharge-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">300<a name=\"TRE-R85-RolePriseCharge-300\"> </a></td><td>Assistant de service social (PAERPA)</td><td/><td>2015-01-01T00:00:00+01:00</td><td>2015-01-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">301<a name=\"TRE-R85-RolePriseCharge-301\"> </a></td><td>Coordination territoriale d'appui (PAERPA)</td><td/><td>2015-01-01T00:00:00+01:00</td><td>2016-03-29T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">302<a name=\"TRE-R85-RolePriseCharge-302\"> </a></td><td>Aide et accompagnement à domicile (PAERPA)</td><td/><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">303<a name=\"TRE-R85-RolePriseCharge-303\"> </a></td><td>Avocat participant aux processus de soins sans consentement (eSSS)</td><td/><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">304<a name=\"TRE-R85-RolePriseCharge-304\"> </a></td><td>Assistant de service social (Expérimentation MAIA)</td><td/><td>2019-05-29T12:00:00+01:00</td><td>2019-05-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">305<a name=\"TRE-R85-RolePriseCharge-305\"> </a></td><td>Psychologue (Expérimentation MAIA)</td><td/><td>2019-05-29T12:00:00+01:00</td><td>2019-05-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">306<a name=\"TRE-R85-RolePriseCharge-306\"> </a></td><td>Psychothérapeute (Expérimentation MAIA)</td><td/><td>2019-05-29T12:00:00+01:00</td><td>2019-05-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">307<a name=\"TRE-R85-RolePriseCharge-307\"> </a></td><td>Mandataire judiciaire à la protection des majeurs (MJPM)</td><td/><td>2019-04-26T12:00:00+01:00</td><td>2019-04-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">308<a name=\"TRE-R85-RolePriseCharge-308\"> </a></td><td>Pilote MAIA</td><td/><td>2019-04-26T12:00:00+01:00</td><td>2019-04-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">309<a name=\"TRE-R85-RolePriseCharge-309\"> </a></td><td>Gestionnaire de cas MAIA</td><td/><td>2019-04-26T12:00:00+01:00</td><td>2019-04-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">310<a name=\"TRE-R85-RolePriseCharge-310\"> </a></td><td>Equipe médico-sociale APA</td><td/><td>2019-04-26T12:00:00+01:00</td><td>2019-04-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">311<a name=\"TRE-R85-RolePriseCharge-311\"> </a></td><td>Autre acteur mettant en oeuvre la méthode MAIA</td><td/><td>2019-04-26T12:00:00+01:00</td><td>2019-04-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">312<a name=\"TRE-R85-RolePriseCharge-312\"> </a></td><td>Autre professionnel</td><td>Code destiné aux professionnels sans obligation d'enregistrement dans le RPPS et pour lesquels la situation métier ne correspond à aucun autre code de la TRE.</td><td>2019-04-26T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">313<a name=\"TRE-R85-RolePriseCharge-313\"> </a></td><td>Aide-soignant</td><td>CSP Articles L4391-1 à L4391-6 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526a?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">314<a name=\"TRE-R85-RolePriseCharge-314\"> </a></td><td>Ambulancier</td><td>CSP Articles L4393-1 à L4393-7 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526e?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">315<a name=\"TRE-R85-RolePriseCharge-315\"> </a></td><td>Auxiliaire de puériculture</td><td>CSP Articles L4392-1 à L4392-6 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526c?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">316<a name=\"TRE-R85-RolePriseCharge-316\"> </a></td><td>Préparateur en pharmacie hospitalière</td><td>CSP Articles L4241-1 à L4241-18 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526b?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">317<a name=\"TRE-R85-RolePriseCharge-317\"> </a></td><td>Préparateur en pharmacie (officine)</td><td>CSP Articles L4241-1 à L4241-18 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/433d?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">318<a name=\"TRE-R85-RolePriseCharge-318\"> </a></td><td>Auxiliaire de vie sociale</td><td>CASF Article D451-92 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/563b?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">319<a name=\"TRE-R85-RolePriseCharge-319\"> </a></td><td>Technicien de l'intervention sociale et familiale</td><td>https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526a?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">320<a name=\"TRE-R85-RolePriseCharge-320\"> </a></td><td>Conseiller en économie sociale et familiale</td><td>CASF Articles D451-81 à D451-87 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/563b?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">321<a name=\"TRE-R85-RolePriseCharge-321\"> </a></td><td>Médiateur familial</td><td>CASF Articles D451-57-1 à D451-57-2 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434c?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">322<a name=\"TRE-R85-RolePriseCharge-322\"> </a></td><td>Assistant familial</td><td>CASF Articles R451-66 à R451-72 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434c?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">323<a name=\"TRE-R85-RolePriseCharge-323\"> </a></td><td>Aide médico-psychologique</td><td>CASF Articles D451-100 à D451-104 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434c?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">324<a name=\"TRE-R85-RolePriseCharge-324\"> </a></td><td>Moniteur éducateur</td><td>CASF Article D451-92 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526d?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">325<a name=\"TRE-R85-RolePriseCharge-325\"> </a></td><td>Educateur de jeunes enfants</td><td>CASF Articles D451-73 à D451-78 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434e?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">326<a name=\"TRE-R85-RolePriseCharge-326\"> </a></td><td>Educateur spécialisé</td><td>CASF Articles D451-47 à D451-47-1 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434g?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">327<a name=\"TRE-R85-RolePriseCharge-327\"> </a></td><td>Educateur technique spécialisé</td><td>CASF Articles D451-41 à D451-41-1 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434f?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">328<a name=\"TRE-R85-RolePriseCharge-328\"> </a></td><td>Accompagnant éducatif et social</td><td>CASF Articles D451-52 à D451-52-1 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434f?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">329<a name=\"TRE-R85-RolePriseCharge-329\"> </a></td><td>Conseiller en génétique</td><td>CASF Articles D451-88 à D451-93 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/422e?champRecherche=true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">330<a name=\"TRE-R85-RolePriseCharge-330\"> </a></td><td>Coordonnateur de parcours</td><td>Sous la responsabilité hiérarchique de la direction de la structure, le coordonnateur de parcours organise et gère l'ensemble des liens permettant l'optimisation de la prise en charge sanitaire, sociale et médicosociale d'une personne dans un parcours de soins.  Il répond à une sollicitation de prise en charge en fonction d'une évaluation médico-psycho-sociale adaptée à la situation. Il met en oeuvre les actions répondant aux besoins et attentes de la personne, coordonne les interventions et organise le parcours, en lien avec les professionnels intervenant autour de la situation. Il réalise un étayage immédiat, assure un retour au demandeur et au MT s'il existe, avec l'accord de la personne, assure l'évaluation multidimensionnelle des besoins et attentes de la personne, organise en concertation l'élaboration du Plan Personnalisé de coordination en Santé (PPcS) si nécessaire et sa communication au cercle de soins, s'assure de l'obtention, chaque fois que cela est possible, de l'accord de la personne (ou de son représentant légal), s'assure que les interventions sont bien en cohérence, identifiées, partagées entre les professionnels, mises en oeuvre et adaptées au besoin, réalise son accompagnement en lien avec le MT et les autres professionnels concernés, alimente et transmet le dossier patient partagé et anime le cercle de soins. Cette mission peut s'exercer sur une période plus ou moins longue, parfois discontinue, avec un niveau d'intensité, des types et fréquences d'interventions et un nombre/type d'intervenants variables (exemple : accompagnement renforcé).</td><td>2021-10-29T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">331<a name=\"TRE-R85-RolePriseCharge-331\"> </a></td><td>Secrétaire assistante médico-administrative</td><td/><td>2023-07-28T09:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">332<a name=\"TRE-R85-RolePriseCharge-332\"> </a></td><td>Assistant médical</td><td/><td>2023-07-28T09:00:00+01:00</td><td>2023-07-28T09:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">333<a name=\"TRE-R85-RolePriseCharge-333\"> </a></td><td>Responsable de secteur</td><td/><td>2023-11-24T12:00:00+01:00</td><td>2023-11-24T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">334<a name=\"TRE-R85-RolePriseCharge-334\"> </a></td><td>Biologiste médical ni médecin ni pharmacien</td><td/><td>2023-11-24T12:00:00+01:00</td><td>2023-11-24T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">335<a name=\"TRE-R85-RolePriseCharge-335\"> </a></td><td>Gestionnaire alertes et urgences sanitaires</td><td/><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">336<a name=\"TRE-R85-RolePriseCharge-336\"> </a></td><td>Autre professionnel intervenant dans l'accueil et l'orientation des personnes</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">337<a name=\"TRE-R85-RolePriseCharge-337\"> </a></td><td>Autre professionnel intervenant dans la logistique</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">338<a name=\"TRE-R85-RolePriseCharge-338\"> </a></td><td>Autre professionnel intervenant dans l'hôtellerie et la restauration</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">339<a name=\"TRE-R85-RolePriseCharge-339\"> </a></td><td>Autre professionnel de la qualité, hygiène, sécurité et environnement</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">340<a name=\"TRE-R85-RolePriseCharge-340\"> </a></td><td>Autre professionnel intervenant dans la direction des systèmes d'information</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">341<a name=\"TRE-R85-RolePriseCharge-341\"> </a></td><td>Autre professionnel intervenant dans la direction des finances et comptabilité</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">342<a name=\"TRE-R85-RolePriseCharge-342\"> </a></td><td>Autre professionnel intervenant dans la direction de la communication</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">343<a name=\"TRE-R85-RolePriseCharge-343\"> </a></td><td>Autre professionnel intervenant dans la direction des ressources humaines</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">344<a name=\"TRE-R85-RolePriseCharge-344\"> </a></td><td>Autre professionnel intervenant dans la direction des affaires médicales</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">345<a name=\"TRE-R85-RolePriseCharge-345\"> </a></td><td>Autre professionnel intervenant dans le social, éducatif, psychologie et culturel</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">346<a name=\"TRE-R85-RolePriseCharge-346\"> </a></td><td>Etudiant - infirmier</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">347<a name=\"TRE-R85-RolePriseCharge-347\"> </a></td><td>Etudiant - aide-soignant</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">348<a name=\"TRE-R85-RolePriseCharge-348\"> </a></td><td>Etudiant - auxiliaire de puériculture</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">349<a name=\"TRE-R85-RolePriseCharge-349\"> </a></td><td>Etudiant - masseur-kinésithérapeute</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">350<a name=\"TRE-R85-RolePriseCharge-350\"> </a></td><td>Aide à domicile</td><td>CSP Articles L1132-1 à L1132-7</td><td>2019-03-29T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">351<a name=\"TRE-R85-RolePriseCharge-351\"> </a></td><td>Assistant(e) maternel(le)</td><td/><td>2019-03-29T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">352<a name=\"TRE-R85-RolePriseCharge-352\"> </a></td><td>Autre salarié de la structure sociale</td><td/><td>2019-03-29T12:00:00+01:00</td><td>2019-04-26T12:00:00+01:00</td><td>2019-04-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">353<a name=\"TRE-R85-RolePriseCharge-353\"> </a></td><td>Membre de l'équipe de soins</td><td/><td>2019-03-29T12:00:00+01:00</td><td>2023-04-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">354<a name=\"TRE-R85-RolePriseCharge-354\"> </a></td><td>Externe en médecine</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">355<a name=\"TRE-R85-RolePriseCharge-355\"> </a></td><td>Externe en odontologie</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">356<a name=\"TRE-R85-RolePriseCharge-356\"> </a></td><td>Externe en maïeutique</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">357<a name=\"TRE-R85-RolePriseCharge-357\"> </a></td><td>Externe en pharmacie</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">358<a name=\"TRE-R85-RolePriseCharge-358\"> </a></td><td>Autre étudiant</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">359<a name=\"TRE-R85-RolePriseCharge-359\"> </a></td><td>Directeur d'établissement</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">360<a name=\"TRE-R85-RolePriseCharge-360\"> </a></td><td>Brancardier</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">361<a name=\"TRE-R85-RolePriseCharge-361\"> </a></td><td>Educateur en activité physique adaptée</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">362<a name=\"TRE-R85-RolePriseCharge-362\"> </a></td><td>Technicien d'informations médicales</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">363<a name=\"TRE-R85-RolePriseCharge-363\"> </a></td><td>Attaché de recherche clinique</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">364<a name=\"TRE-R85-RolePriseCharge-364\"> </a></td><td>Praticien A Diplôme Hors Union Européenne (PADHUE)</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">365<a name=\"TRE-R85-RolePriseCharge-365\"> </a></td><td>Gestionnaire admissions / frais de séjour / traitement externe</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">366<a name=\"TRE-R85-RolePriseCharge-366\"> </a></td><td>Archiviste</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">367<a name=\"TRE-R85-RolePriseCharge-367\"> </a></td><td>Surveillant de nuit</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">368<a name=\"TRE-R85-RolePriseCharge-368\"> </a></td><td>Animateur</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">369<a name=\"TRE-R85-RolePriseCharge-369\"> </a></td><td>Biologiste médical non-médecin</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">370<a name=\"TRE-R85-RolePriseCharge-370\"> </a></td><td>Opérateur de Soins Non Programmés (OSNP)</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -26,7 +27,7 @@
   fhir:version [ fhir:v "1.4.0"] ; # 
   fhir:name [ fhir:v "TRE_R85-RolePriseCharge"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "301" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-03-29T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-29T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "302" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "303" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "304" ] ;
@@ -150,10 +175,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-05-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-05-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-05-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-05-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "305" ] ;
@@ -171,10 +202,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-05-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-05-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-05-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-05-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "306" ] ;
@@ -192,10 +229,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-05-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-05-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-05-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-05-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "307" ] ;
@@ -213,10 +256,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "308" ] ;
@@ -234,10 +283,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "309" ] ;
@@ -255,10 +310,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "310" ] ;
@@ -276,10 +337,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "311" ] ;
@@ -297,10 +364,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "312" ] ;
@@ -319,10 +392,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "313" ] ;
@@ -341,10 +420,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "314" ] ;
@@ -363,10 +448,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "315" ] ;
@@ -385,10 +476,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "316" ] ;
@@ -407,10 +504,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "317" ] ;
@@ -429,10 +532,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "318" ] ;
@@ -451,10 +560,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "319" ] ;
@@ -473,10 +588,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "320" ] ;
@@ -495,10 +616,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "321" ] ;
@@ -517,10 +644,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "322" ] ;
@@ -539,10 +672,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "323" ] ;
@@ -561,10 +700,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "324" ] ;
@@ -583,10 +728,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "325" ] ;
@@ -605,10 +756,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "326" ] ;
@@ -627,10 +784,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "327" ] ;
@@ -649,10 +812,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "328" ] ;
@@ -671,10 +840,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "329" ] ;
@@ -693,10 +868,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "330" ] ;
@@ -715,13 +896,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2021-10-29T12:00:00+01:00"^^xsd:dateTime ]
-     ] [
-       fhir:code [ fhir:v "dateFin" ] ;
-       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2021-10-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "331" ] ;
@@ -739,10 +923,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "332" ] ;
@@ -760,10 +950,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "333" ] ;
@@ -781,10 +977,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-11-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-11-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-11-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-11-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "334" ] ;
@@ -802,10 +1004,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-11-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-11-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-11-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-11-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "335" ] ;
@@ -823,10 +1031,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "336" ] ;
@@ -844,10 +1058,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "337" ] ;
@@ -865,10 +1085,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "338" ] ;
@@ -886,10 +1112,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "339" ] ;
@@ -907,10 +1139,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "340" ] ;
@@ -928,10 +1166,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "341" ] ;
@@ -949,10 +1193,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "342" ] ;
@@ -970,10 +1220,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "343" ] ;
@@ -991,10 +1247,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "344" ] ;
@@ -1012,10 +1274,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "345" ] ;
@@ -1033,10 +1301,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "346" ] ;
@@ -1054,10 +1328,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "347" ] ;
@@ -1075,10 +1355,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "348" ] ;
@@ -1096,10 +1382,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "349" ] ;
@@ -1117,10 +1409,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "350" ] ;
@@ -1139,10 +1437,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "351" ] ;
@@ -1160,10 +1464,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "352" ] ;
@@ -1181,13 +1491,22 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
-       fhir:value [ fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "353" ] ;
@@ -1205,10 +1524,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-04-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-04-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "354" ] ;
@@ -1226,10 +1551,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "355" ] ;
@@ -1247,10 +1578,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "356" ] ;
@@ -1268,10 +1605,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "357" ] ;
@@ -1289,10 +1632,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "358" ] ;
@@ -1310,10 +1659,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "359" ] ;
@@ -1331,10 +1686,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "360" ] ;
@@ -1352,10 +1713,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "361" ] ;
@@ -1373,10 +1740,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "362" ] ;
@@ -1394,10 +1767,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "363" ] ;
@@ -1415,10 +1794,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "364" ] ;
@@ -1436,10 +1821,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "365" ] ;
@@ -1457,10 +1848,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "366" ] ;
@@ -1478,10 +1875,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "367" ] ;
@@ -1499,10 +1902,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "368" ] ;
@@ -1520,10 +1929,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "369" ] ;
@@ -1541,10 +1956,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "370" ] ;
@@ -1562,10 +1983,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

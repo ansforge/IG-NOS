@@ -31,7 +31,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.1.0"
+    "version" : "6.2.0"
   },
   {
     "id" : "hl7ext",
@@ -1328,18 +1328,6 @@
       },
       "name" : "JDV_J152-MethodBodyTemperature-ENS",
       "description" : "JDV pour la méthode de la mesure de la température",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/JDV-J153-TypeDiabete-ENS"
-      },
-      "name" : "JDV_J153-TypeDiabete-ENS",
-      "description" : "JDV pour caractériser le type de diabète dans l'extension DiabetisType",
       "exampleBoolean" : false
     },
     {
@@ -2792,6 +2780,18 @@
       },
       "name" : "JDV_J28-OuvertureAnnuelle-ROR",
       "description" : "Ouverture annuelle - ROR",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J280-CIM10ATIH-UPNOS"
+      },
+      "name" : "JDV_J280-CIM10ATIH-UPNOS",
+      "description" : "Termes CIM 10 utilisés",
       "exampleBoolean" : false
     },
     {
@@ -4770,7 +4770,7 @@
       "reference" : {
         "reference" : "CodeSystem/TRE-R248-ModeAcces"
       },
-      "name" : "TRE_R248_ModeAcces",
+      "name" : "TRE_R248-ModeAcces",
       "description" : "Mode d'accès pour accéder à un SI santé avec données patients",
       "exampleBoolean" : false
     },
@@ -5476,46 +5476,10 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/TRE-R308-TAASIP"
-      },
-      "name" : "TRE_R308-TAASIP",
-      "description" : "TA_ASIP",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/TRE-R31-StatutEtatCivil"
       },
       "name" : "TRE_R31-StatutEtatCivil",
       "description" : "Status de l'état civil",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/TRE-R310-CIM10ATIH"
-      },
-      "name" : "TRE_R310-CIM10ATIH",
-      "description" : "Classification Internationale des maladies (CIM) International Classification of Diseases revision 10 (ICD 10)",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/TRE-R311-RegroupementSurCIM10ATIH"
-      },
-      "name" : "TRE_R311-RegroupementSurCIM10ATIH",
-      "description" : "CIM-10 FR à usage PMSI",
       "exampleBoolean" : false
     },
     {
@@ -6795,15 +6759,6 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "tre-nos.html"
-        }],
-        "nameUrl" : "tre-nos.html",
-        "title" : "Terminologies par type",
-        "generation" : "html"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "telechargement-tre.html"
         }],
         "nameUrl" : "telechargement-tre.html",
@@ -6817,15 +6772,6 @@
         }],
         "nameUrl" : "jdv.html",
         "title" : "Jeux de valeurs",
-        "generation" : "html"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "jdv-nos.html"
-        }],
-        "nameUrl" : "jdv-nos.html",
-        "title" : "Jeux de valeurs  par type",
         "generation" : "html"
       },
       {

@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R04-TypeSavoirFaire"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R04-TypeSavoirFaire</b></p><a name=\"TRE-R04-TypeSavoirFaire\"> </a><a name=\"hcTRE-R04-TypeSavoirFaire\"> </a><a name=\"TRE-R04-TypeSavoirFaire-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"TRE-R04-TypeSavoirFaire-C\"> </a></td><td>Compétence</td><td>2007-07-25T15:04:43+01:00</td><td>2007-07-25T15:04:43+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA<a name=\"TRE-R04-TypeSavoirFaire-CAPA\"> </a></td><td>Capacité</td><td>2007-07-25T15:04:43+01:00</td><td>2007-07-25T15:04:43+01:00</td></tr><tr><td style=\"white-space:nowrap\">CEX<a name=\"TRE-R04-TypeSavoirFaire-CEX\"> </a></td><td>Compétence exclusive</td><td>2007-07-25T15:04:43+01:00</td><td>2007-07-25T15:04:43+01:00</td></tr><tr><td style=\"white-space:nowrap\">DEC<a name=\"TRE-R04-TypeSavoirFaire-DEC\"> </a></td><td>Droit d'exercice complémentaire</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DNQ<a name=\"TRE-R04-TypeSavoirFaire-DNQ\"> </a></td><td>DESC non qualifiant</td><td>2007-07-25T15:04:43+01:00</td><td>2007-07-25T15:04:43+01:00</td></tr><tr><td style=\"white-space:nowrap\">FQ<a name=\"TRE-R04-TypeSavoirFaire-FQ\"> </a></td><td>Fonction qualifiée</td><td>2007-07-25T00:00:00+01:00</td><td>2007-07-25T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">OP<a name=\"TRE-R04-TypeSavoirFaire-OP\"> </a></td><td>Orientation particulière</td><td>2007-07-25T15:04:43+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">PAC<a name=\"TRE-R04-TypeSavoirFaire-PAC\"> </a></td><td>Qualification PAC</td><td>2007-07-25T00:00:00+01:00</td><td>2007-07-25T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"TRE-R04-TypeSavoirFaire-S\"> </a></td><td>Spécialité ordinale</td><td>2007-07-25T15:04:43+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">SH<a name=\"TRE-R04-TypeSavoirFaire-SH\"> </a></td><td>Spécialité de concours hospitalier</td><td>2007-07-25T15:04:43+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">SST<a name=\"TRE-R04-TypeSavoirFaire-SST\"> </a></td><td>Surspécialité de Formation Spécialisée Transversale (FST)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R04-TypeSavoirFaire</b></p><a name=\"TRE-R04-TypeSavoirFaire\"> </a><a name=\"hcTRE-R04-TypeSavoirFaire\"> </a><a name=\"TRE-R04-TypeSavoirFaire-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"TRE-R04-TypeSavoirFaire-C\"> </a></td><td>Compétence</td><td>2007-07-25T15:04:43+01:00</td><td>2007-07-25T15:04:43+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA<a name=\"TRE-R04-TypeSavoirFaire-CAPA\"> </a></td><td>Capacité</td><td>2007-07-25T15:04:43+01:00</td><td>2007-07-25T15:04:43+01:00</td></tr><tr><td style=\"white-space:nowrap\">CEX<a name=\"TRE-R04-TypeSavoirFaire-CEX\"> </a></td><td>Compétence exclusive</td><td>2007-07-25T15:04:43+01:00</td><td>2007-07-25T15:04:43+01:00</td></tr><tr><td style=\"white-space:nowrap\">DEC<a name=\"TRE-R04-TypeSavoirFaire-DEC\"> </a></td><td>Droit d'exercice complémentaire</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DNQ<a name=\"TRE-R04-TypeSavoirFaire-DNQ\"> </a></td><td>DESC non qualifiant</td><td>2007-07-25T15:04:43+01:00</td><td>2007-07-25T15:04:43+01:00</td></tr><tr><td style=\"white-space:nowrap\">FQ<a name=\"TRE-R04-TypeSavoirFaire-FQ\"> </a></td><td>Fonction qualifiée</td><td>2007-07-25T00:00:00+01:00</td><td>2007-07-25T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">OP<a name=\"TRE-R04-TypeSavoirFaire-OP\"> </a></td><td>Orientation particulière</td><td>2007-07-25T15:04:43+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">PAC<a name=\"TRE-R04-TypeSavoirFaire-PAC\"> </a></td><td>Qualification PAC</td><td>2007-07-25T00:00:00+01:00</td><td>2007-07-25T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"TRE-R04-TypeSavoirFaire-S\"> </a></td><td>Spécialité ordinale</td><td>2007-07-25T15:04:43+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">SH<a name=\"TRE-R04-TypeSavoirFaire-SH\"> </a></td><td>Spécialité de concours hospitalier</td><td>2007-07-25T15:04:43+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">SST<a name=\"TRE-R04-TypeSavoirFaire-SST\"> </a></td><td>Surspécialité de Formation Spécialisée Transversale (FST)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CAPA" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CEX" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DEC" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DNQ" ] ;
@@ -150,10 +175,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "FQ" ] ;
@@ -171,10 +202,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "OP" ] ;
@@ -192,10 +229,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "PAC" ] ;
@@ -213,10 +256,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "S" ] ;
@@ -234,10 +283,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "SH" ] ;
@@ -255,10 +310,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "SST" ] ;
@@ -276,10 +337,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

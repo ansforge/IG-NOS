@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.3.3.213"
     }
   ],
-  "version": "20231215120000",
+  "version": "20250131120000",
   "name": "TRE_R330-TypeStatutCapacite",
   "status": "active",
-  "date": "2023-12-15T12:00:00+01:00",
+  "date": "2025-01-31T12:00:00+01:00",
   "description": "Permet de préciser le statut des lits décrits",
   "content": "complete",
   "property": [
@@ -204,6 +204,38 @@
         {
           "code": "dateMaj",
           "valueDateTime": "2022-05-27T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "display": "Opérationnel",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Opérationnel"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Opérationnel"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2024-12-13T12:00:00+01:00"
+        },
+        {
+          "code": "dateFin",
+          "valueDateTime": "2025-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2025-01-31T12:00:00+01:00"
         }
       ]
     }

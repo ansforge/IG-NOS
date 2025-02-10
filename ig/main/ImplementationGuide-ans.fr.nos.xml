@@ -30,7 +30,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.1.0"/>
+    <version value="6.2.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -1113,17 +1113,6 @@
       </reference>
       <name value="JDV_J152-MethodBodyTemperature-ENS"/>
       <description value="JDV pour la méthode de la mesure de la température"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J153-TypeDiabete-ENS"/>
-      </reference>
-      <name value="JDV_J153-TypeDiabete-ENS"/>
-      <description value="JDV pour caractériser le type de diabète dans l'extension DiabetisType"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -2455,6 +2444,17 @@
       </reference>
       <name value="JDV_J28-OuvertureAnnuelle-ROR"/>
       <description value="Ouverture annuelle - ROR"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/JDV-J280-CIM10ATIH-UPNOS"/>
+      </reference>
+      <name value="JDV_J280-CIM10ATIH-UPNOS"/>
+      <description value="Termes CIM 10 utilisés"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -4268,7 +4268,7 @@
       <reference>
         <reference value="CodeSystem/TRE-R248-ModeAcces"/>
       </reference>
-      <name value="TRE_R248_ModeAcces"/>
+      <name value="TRE_R248-ModeAcces"/>
       <description value="Mode d'accès pour accéder à un SI santé avec données patients"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -4915,43 +4915,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/TRE-R308-TAASIP"/>
-      </reference>
-      <name value="TRE_R308-TAASIP"/>
-      <description value="TA_ASIP"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/TRE-R31-StatutEtatCivil"/>
       </reference>
       <name value="TRE_R31-StatutEtatCivil"/>
       <description value="Status de l'état civil"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/TRE-R310-CIM10ATIH"/>
-      </reference>
-      <name value="TRE_R310-CIM10ATIH"/>
-      <description value="Classification Internationale des maladies (CIM) International Classification of Diseases revision 10 (ICD 10)"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/TRE-R311-RegroupementSurCIM10ATIH"/>
-      </reference>
-      <name value="TRE_R311-RegroupementSurCIM10ATIH"/>
-      <description value="CIM-10 FR à usage PMSI"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -6120,14 +6087,6 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="tre-nos.html"/>
-        </extension>
-        <nameUrl value="tre-nos.html"/>
-        <title value="Terminologies par type"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="telechargement-tre.html"/>
         </extension>
         <nameUrl value="telechargement-tre.html"/>
@@ -6140,14 +6099,6 @@
         </extension>
         <nameUrl value="jdv.html"/>
         <title value="Jeux de valeurs"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="jdv-nos.html"/>
-        </extension>
-        <nameUrl value="jdv-nos.html"/>
-        <title value="Jeux de valeurs  par type"/>
         <generation value="html"/>
       </page>
       <page>

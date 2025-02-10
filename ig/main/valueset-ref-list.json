@@ -788,7 +788,7 @@
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS",
       "version" : "1.4.0",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JDV_J148-ReferenceRangeAppliesTo-CISIS",
       "title" : null,
       "description" : "JDV pour le champ d'application de l'intervalle de référence",
@@ -844,21 +844,6 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-emdn"],
       "oids" : ["1.2.250.1.213.1.1.5.607"],
       "sources" : ["1.2.250.1.213.1.1.5.607"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J153-TypeDiabete-ENS/FHIR/JDV-J153-TypeDiabete-ENS",
-      "version" : "1.4.0",
-      "status" : "active",
-      "name" : "JDV_J153-TypeDiabete-ENS",
-      "title" : null,
-      "description" : "JDV pour caractériser le type de diabète dans l'extension DiabetisType",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP",
-        "https://mos.esante.gouv.fr/NOS/TRE_R311-RegroupementSurCIM10ATIH/FHIR/TRE-R311-RegroupementSurCIM10ATIH",
-        "https://mos.esante.gouv.fr/NOS/TRE_R310-CIM10ATIH/FHIR/TRE-R310-CIM10ATIH"
-      ],
-      "oids" : ["1.2.250.1.213.1.1.5.608"],
-      "sources" : ["1.2.250.1.213.1.1.5.608"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS",
@@ -991,7 +976,7 @@
       "title" : null,
       "description" : "Liste fermée des codes utilisables pour la mesure du taux de glucose interstitiel et de l'index de gestion de glycémie (IGG) avec le profil ENS_ObservationGlucose",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP"
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.640"],
       "sources" : ["1.2.250.1.213.1.1.5.640"]
@@ -2379,17 +2364,6 @@
       "sources" : ["1.2.250.1.213.3.3.26"]
     },
     {
-      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J270-NCIT-CISIS/FHIR/JDV-J277-NCIT-CISIS",
-      "version" : "1.4.0",
-      "status" : "active",
-      "name" : "JDV_J277-NCIT-CISIS",
-      "title" : null,
-      "description" : "Termes NCIT utilisés",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-ncit"],
-      "oids" : ["1.2.250.1.213.1.1.5.796"],
-      "sources" : ["1.2.250.1.213.1.1.5.796"]
-    },
-    {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J275-EMDN-UPNOS/FHIR/JDV-J275-EMDN-UPNOS",
       "version" : "1.4.0",
       "status" : "active",
@@ -2410,6 +2384,17 @@
       "systems" : ["http://snomed.info/sct"],
       "oids" : ["1.2.250.1.213.1.1.5.797"],
       "sources" : ["1.2.250.1.213.1.1.5.797"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J277-NCIT-CISIS/FHIR/JDV-J277-NCIT-CISIS",
+      "version" : "1.4.0",
+      "status" : "active",
+      "name" : "JDV_J277-NCIT-CISIS",
+      "title" : null,
+      "description" : "Termes NCIT utilisés",
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-ncit"],
+      "oids" : ["1.2.250.1.213.1.1.5.796"],
+      "sources" : ["1.2.250.1.213.1.1.5.796"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J278-UcumUniteMesure-UPNOS/FHIR/JDV-J278-UcumUniteMesure-UPNOS",
@@ -2447,6 +2432,17 @@
       "sources" : ["1.2.250.1.213.3.3.28"]
     },
     {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J280-CIM10ATIH-UPNOS/FHIR/JDV-J280-CIM10ATIH-UPNOS",
+      "version" : "1.4.0",
+      "status" : "active",
+      "name" : "JDV_J280-CIM10ATIH-UPNOS",
+      "title" : null,
+      "description" : "Termes CIM 10 utilisés",
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-cim-10"],
+      "oids" : ["1.2.250.1.213.1.1.5.810"],
+      "sources" : ["1.2.250.1.213.1.1.5.810"]
+    },
+    {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J281-StatutsRessourcesMS/FHIR/JDV-J281-StatutsRessourcesMS",
       "version" : "1.4.0",
       "status" : "active",
@@ -2466,7 +2462,7 @@
       "name" : "JDV_J282-TransportsLiesAuProjetIndividuel_SERAFIN",
       "title" : null,
       "description" : "Liste les natures des transports liés au projet individuel provenant de la terminologie SERAFIN",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH/"],
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH"],
       "oids" : ["1.2.250.1.213.3.3.251"],
       "sources" : ["1.2.250.1.213.3.3.251"]
     },
@@ -2477,7 +2473,7 @@
       "name" : "JDV_J283-PrestationsIndirects_SERAFIN",
       "title" : null,
       "description" : "Liste des prestations indirects provenant de la terminologie SERAFIN",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH/"],
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH"],
       "oids" : ["1.2.250.1.213.3.3.252"],
       "sources" : ["1.2.250.1.213.3.3.252"]
     },
@@ -2488,7 +2484,7 @@
       "name" : "JDV_J284-PrestationsDirects_SERAFIN",
       "title" : null,
       "description" : "Liste des prestations directs provenant de la terminologie SERAFIN",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH/"],
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH"],
       "oids" : ["1.2.250.1.213.3.3.253"],
       "sources" : ["1.2.250.1.213.3.3.253"]
     },
@@ -2499,7 +2495,7 @@
       "name" : "JDV_J285-Besoins_SERAFIN",
       "title" : null,
       "description" : "Liste des besoins provenant de la terminologie SERAFIN",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH/"],
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH"],
       "oids" : ["1.2.250.1.213.3.3.254"],
       "sources" : ["1.2.250.1.213.3.3.254"]
     },
@@ -2640,10 +2636,10 @@
       "title" : null,
       "description" : "Mode d'accès pour accéder à un SI santé avec données patients - CI-SIS",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R248_ModeAcces/FHIR/TRE-R248-ModeAcces"
+        "https://mos.esante.gouv.fr/NOS/TRE_R248-ModeAcces/FHIR/TRE-R248-ModeAcces"
       ],
-      "oids" : ["1.2.250.1.213.1.1.4.248"],
-      "sources" : ["1.2.250.1.213.1.1.4.248"]
+      "oids" : ["1.2.250.1.213.1.1.4.336"],
+      "sources" : ["1.2.250.1.213.1.1.4.336"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J39-ConditionTarifaire-ROR/FHIR/JDV-J39-ConditionTarifaire-ROR",
@@ -2715,7 +2711,7 @@
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J48-ProfessionNonPS-CISIS/FHIR/JDV-J48-ProfessionNonPS-CISIS",
       "version" : "1.4.0",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JDV_J48-ProfessionNonPS-CISIS",
       "title" : null,
       "description" : "Jeux de Valeurs des professions/spécialités des Non Ps",

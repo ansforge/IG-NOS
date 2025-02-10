@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R344-NiveauExpertise"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R344-NiveauExpertise</b></p><a name=\"TRE-R344-NiveauExpertise\"> </a><a name=\"hcTRE-R344-NiveauExpertise\"> </a><a name=\"TRE-R344-NiveauExpertise-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-R344-NiveauExpertise-10\"> </a></td><td>Centre de référence labellisé</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-R344-NiveauExpertise-11\"> </a></td><td>Centre de compétences labellisé</td><td>2023-03-31T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"TRE-R344-NiveauExpertise-12\"> </a></td><td>Structure spécialisée labellisée</td><td>2023-03-31T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"TRE-R344-NiveauExpertise-13\"> </a></td><td>SMR Labellisé soins dédiées aux personnes en état de conscience altérée</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"TRE-R344-NiveauExpertise-14\"> </a></td><td>SMR Labellisé patients amputés, appareillés ou non</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"TRE-R344-NiveauExpertise-15\"> </a></td><td>SMR Labellisé affections cardio-vasculaires spécialisé réadaptation PREPAC</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"TRE-R344-NiveauExpertise-16\"> </a></td><td>SMR Labellisé affections respiratoires spécialisé réadaptation PREPAR</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"TRE-R344-NiveauExpertise-17\"> </a></td><td>SMR Labellisé affections du système nerveux spécialisé neuro-orthopédique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"TRE-R344-NiveauExpertise-18\"> </a></td><td>SMR Labellisé affections du système nerveux spécialisé SRPR</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"TRE-R344-NiveauExpertise-19\"> </a></td><td>SMR Labellisé affections du système nerveux spécialisé réadaptation PREPAN</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"TRE-R344-NiveauExpertise-20\"> </a></td><td>SMR Labellisé système nerveux spécialisé patients cérébro-lésés</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"TRE-R344-NiveauExpertise-21\"> </a></td><td>SMR Labellisé affections du système nerveux spécialisé lésions médullaires</td><td>2023-03-31T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"TRE-R344-NiveauExpertise-22\"> </a></td><td>SMR Labellisé affections endocrino spécialisé obésités complexes</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"TRE-R344-NiveauExpertise-23\"> </a></td><td>SMR Labellisé spécialisé troubles cognitifs liés à une conduite addictive</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"TRE-R344-NiveauExpertise-24\"> </a></td><td>SMR Labellisé prise en charge du polyhandicap</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"TRE-R344-NiveauExpertise-25\"> </a></td><td>SMR Labellisé prise en charge des troubles du langage et des apprentissages</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"TRE-R344-NiveauExpertise-26\"> </a></td><td>Centre de recours pour chirurgie oncologique complexe</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"TRE-R344-NiveauExpertise-27\"> </a></td><td>Premier niveau de recours</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"TRE-R344-NiveauExpertise-28\"> </a></td><td>Deuxième niveau de recours</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"TRE-R344-NiveauExpertise-29\"> </a></td><td>Troisième niveau de recours</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"TRE-R344-NiveauExpertise-30\"> </a></td><td>Unité de réanimation pédiatrique de recours</td><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"TRE-R344-NiveauExpertise-31\"> </a></td><td>Filière endométriose - premier niveau de recours</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"TRE-R344-NiveauExpertise-32\"> </a></td><td>Filière endométriose - deuxième niveau de recours</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"TRE-R344-NiveauExpertise-33\"> </a></td><td>Filière endométriose - troisième niveau de recours</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"TRE-R344-NiveauExpertise-34\"> </a></td><td>Centre labellisé Covid-Long</td><td>2024-04-26T12:00:00+01:00</td><td>2024-04-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"TRE-R344-NiveauExpertise-35\"> </a></td><td>Centre de réhabilitation psychosociale - Centre de recours labellisé</td><td>2024-06-28T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"TRE-R344-NiveauExpertise-36\"> </a></td><td>Centre de réhabilitation psychosociale - Centre de proximité labellisé</td><td>2024-06-28T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"TRE-R344-NiveauExpertise-37\"> </a></td><td>Unité neuro-vasculaire (UNV) de territoire</td><td>2024-07-26T12:00:00+01:00</td><td>2024-07-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"TRE-R344-NiveauExpertise-38\"> </a></td><td>Unité neuro-vasculaire (UNV) de recours</td><td>2024-07-26T12:00:00+01:00</td><td>2024-07-26T12:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R344-NiveauExpertise</b></p><a name=\"TRE-R344-NiveauExpertise\"> </a><a name=\"hcTRE-R344-NiveauExpertise\"> </a><a name=\"TRE-R344-NiveauExpertise-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-R344-NiveauExpertise-10\"> </a></td><td>Centre de référence labellisé</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-R344-NiveauExpertise-11\"> </a></td><td>Centre de compétences labellisé</td><td>2023-03-31T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"TRE-R344-NiveauExpertise-12\"> </a></td><td>Structure spécialisée labellisée</td><td>2023-03-31T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"TRE-R344-NiveauExpertise-13\"> </a></td><td>SMR Labellisé soins dédiées aux personnes en état de conscience altérée</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"TRE-R344-NiveauExpertise-14\"> </a></td><td>SMR Labellisé patients amputés, appareillés ou non</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"TRE-R344-NiveauExpertise-15\"> </a></td><td>SMR Labellisé affections cardio-vasculaires spécialisé réadaptation PREPAC</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"TRE-R344-NiveauExpertise-16\"> </a></td><td>SMR Labellisé affections respiratoires spécialisé réadaptation PREPAR</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"TRE-R344-NiveauExpertise-17\"> </a></td><td>SMR Labellisé affections du système nerveux spécialisé neuro-orthopédique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"TRE-R344-NiveauExpertise-18\"> </a></td><td>SMR Labellisé affections du système nerveux spécialisé SRPR</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"TRE-R344-NiveauExpertise-19\"> </a></td><td>SMR Labellisé affections du système nerveux spécialisé réadaptation PREPAN</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"TRE-R344-NiveauExpertise-20\"> </a></td><td>SMR Labellisé système nerveux spécialisé patients cérébro-lésés</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"TRE-R344-NiveauExpertise-21\"> </a></td><td>SMR Labellisé affections du système nerveux spécialisé lésions médullaires</td><td>2023-03-31T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"TRE-R344-NiveauExpertise-22\"> </a></td><td>SMR Labellisé affections endocrino spécialisé obésités complexes</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"TRE-R344-NiveauExpertise-23\"> </a></td><td>SMR Labellisé spécialisé troubles cognitifs liés à une conduite addictive</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"TRE-R344-NiveauExpertise-24\"> </a></td><td>SMR Labellisé prise en charge du polyhandicap</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"TRE-R344-NiveauExpertise-25\"> </a></td><td>SMR Labellisé prise en charge des troubles du langage et des apprentissages</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"TRE-R344-NiveauExpertise-26\"> </a></td><td>Centre de recours pour chirurgie oncologique complexe</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"TRE-R344-NiveauExpertise-27\"> </a></td><td>Premier niveau de recours</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"TRE-R344-NiveauExpertise-28\"> </a></td><td>Deuxième niveau de recours</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"TRE-R344-NiveauExpertise-29\"> </a></td><td>Troisième niveau de recours</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"TRE-R344-NiveauExpertise-30\"> </a></td><td>Unité de réanimation pédiatrique de recours</td><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"TRE-R344-NiveauExpertise-31\"> </a></td><td>Filière endométriose - premier niveau de recours</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"TRE-R344-NiveauExpertise-32\"> </a></td><td>Filière endométriose - deuxième niveau de recours</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"TRE-R344-NiveauExpertise-33\"> </a></td><td>Filière endométriose - troisième niveau de recours</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"TRE-R344-NiveauExpertise-34\"> </a></td><td>Centre labellisé Covid-Long</td><td>2024-04-26T12:00:00+01:00</td><td>2024-04-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"TRE-R344-NiveauExpertise-35\"> </a></td><td>Centre de réhabilitation psychosociale - Centre de recours labellisé</td><td>2024-06-28T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"TRE-R344-NiveauExpertise-36\"> </a></td><td>Centre de réhabilitation psychosociale - Centre de proximité labellisé</td><td>2024-06-28T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"TRE-R344-NiveauExpertise-37\"> </a></td><td>Unité neuro-vasculaire (UNV) de territoire</td><td>2024-07-26T12:00:00+01:00</td><td>2024-07-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"TRE-R344-NiveauExpertise-38\"> </a></td><td>Unité neuro-vasculaire (UNV) de recours</td><td>2024-07-26T12:00:00+01:00</td><td>2024-07-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"TRE-R344-NiveauExpertise-39\"> </a></td><td>Filière Obésité - Niveau 1 Conventionné Centres Spécialisés Obésité (CSO)</td><td>2024-12-13T12:00:00+01:00</td><td>2025-01-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"TRE-R344-NiveauExpertise-40\"> </a></td><td>Filière Obésité - Niveau 2 Conventionné Centres Spécialisés Obésité (CSO)</td><td>2024-12-13T12:00:00+01:00</td><td>2025-01-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"TRE-R344-NiveauExpertise-41\"> </a></td><td>Filière Obésité - Niveau 3 Conventionné Centres Spécialisés Obésité (CSO)</td><td>2024-12-13T12:00:00+01:00</td><td>2025-01-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"TRE-R344-NiveauExpertise-42\"> </a></td><td>Filière Obésité - Niveau 3 (Centre Spécialisé Obésité)</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -26,7 +27,7 @@
   fhir:version [ fhir:v "1.4.0"] ; # 
   fhir:name [ fhir:v "TRE_R344-NiveauExpertise"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-01-31T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "11" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "12" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "13" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "14" ] ;
@@ -150,10 +175,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "15" ] ;
@@ -171,10 +202,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "16" ] ;
@@ -192,10 +229,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "17" ] ;
@@ -213,10 +256,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "18" ] ;
@@ -234,10 +283,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "19" ] ;
@@ -255,10 +310,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "20" ] ;
@@ -276,10 +337,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "21" ] ;
@@ -297,10 +364,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "22" ] ;
@@ -318,10 +391,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "23" ] ;
@@ -339,10 +418,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "24" ] ;
@@ -360,10 +445,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "25" ] ;
@@ -381,10 +472,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "26" ] ;
@@ -402,10 +499,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "27" ] ;
@@ -423,10 +526,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "28" ] ;
@@ -444,10 +553,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "29" ] ;
@@ -465,10 +580,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "30" ] ;
@@ -486,10 +607,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "31" ] ;
@@ -507,10 +634,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "32" ] ;
@@ -528,10 +661,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "33" ] ;
@@ -549,10 +688,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "34" ] ;
@@ -570,10 +715,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-04-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-04-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-04-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-04-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "35" ] ;
@@ -591,10 +742,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "36" ] ;
@@ -612,10 +769,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "37" ] ;
@@ -633,10 +796,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "38" ] ;
@@ -654,10 +823,124 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "39" ] ;
+     fhir:display [ fhir:v "Filière Obésité - Niveau 1 Conventionné Centres Spécialisés Obésité (CSO)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Obésité niveau 1" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Filière Obésité - Niveau 1 Conventionné Centres Spécialisés Obésité (CSO)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "40" ] ;
+     fhir:display [ fhir:v "Filière Obésité - Niveau 2 Conventionné Centres Spécialisés Obésité (CSO)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Obésité niveau 2" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Filière Obésité - Niveau 2 Conventionné Centres Spécialisés Obésité (CSO)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "41" ] ;
+     fhir:display [ fhir:v "Filière Obésité - Niveau 3 Conventionné Centres Spécialisés Obésité (CSO)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Obésité niveau 3" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Filière Obésité - Niveau 3 Conventionné Centres Spécialisés Obésité (CSO)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-01-31T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "42" ] ;
+     fhir:display [ fhir:v "Filière Obésité - Niveau 3 (Centre Spécialisé Obésité)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Obésité niveau 3 (CSO)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Filière Obésité - Niveau 3 (Centre Spécialisé Obésité)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.3.3.256"
     }
   ],
-  "version": "20241025120000",
+  "version": "20241213120000",
   "name": "JDV_J286_ProfilUtilisateurReferentielNational_ROR",
   "status": "active",
-  "date": "2024-10-25T12:00:00+01:00",
+  "date": "2024-12-13T12:00:00+01:00",
   "description": "Profils utilisateurs du ROR National",
   "compose": {
     "include": [
@@ -100,6 +100,42 @@
           {
             "code": "PSL",
             "display": "Professionnel de Santé Libéral (PSL)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.255"
+              }
+            ]
+          },
+          {
+            "code": "ADMIN_METIER",
+            "display": "Administrateur Métier",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.255"
+              }
+            ]
+          },
+          {
+            "code": "SUPPORT",
+            "display": "Support",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.255"
+              }
+            ]
+          },
+          {
+            "code": "REF_MSP",
+            "display": "Référent Maison de Santé Pluriprofessionnelle",
             "designation": [
               {
                 "use": {

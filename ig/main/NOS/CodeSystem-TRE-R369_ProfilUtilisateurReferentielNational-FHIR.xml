@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.3.3.255"/>
   </identifier>
-  <version value="20241025120000"/>
+  <version value="20241213120000"/>
   <name value="TRE_R369_ProfilUtilisateurReferentielNational"/>
   <status value="active"/>
-  <date value="2024-10-25T12:00:00+01:00"/>
+  <date value="2024-12-13T12:00:00+01:00"/>
   <description value="Profils utilisateur d'un référentiel national"/>
   <content value="complete"/>
   <property>
@@ -197,6 +197,78 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-10-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ADMIN_METIER"/>
+    <display value="Administrateur Métier"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="ADMIN_METIER"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Administrateur Métier"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2024-12-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2024-12-13T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="SUPPORT"/>
+    <display value="Support"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="SUPPORT"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Support"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2024-12-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2024-12-13T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="REF_MSP"/>
+    <display value="Référent Maison de Santé Pluriprofessionnelle"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="REF_MSP"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Référent Maison de Santé Pluriprofessionnelle"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2024-12-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2024-12-13T12:00:00+01:00"/>
     </property>
   </concept>
 </CodeSystem>

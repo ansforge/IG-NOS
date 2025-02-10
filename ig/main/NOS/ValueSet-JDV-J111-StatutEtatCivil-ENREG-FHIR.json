@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.182"
     }
   ],
-  "version": "20211126120000",
+  "version": "20250131120000",
   "name": "JDV_J111-StatutEtatCivil-ENREG",
   "status": "active",
-  "date": "2021-11-26T12:00:00+01:00",
+  "date": "2025-01-31T12:00:00+01:00",
   "description": "Statut de l'état civil pour ENREG",
   "compose": {
     "include": [
@@ -76,6 +76,18 @@
           {
             "code": "FC",
             "display": "Certifié par FranceConnect",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.9"
+              }
+            ]
+          },
+          {
+            "code": "FCP",
+            "display": "Certifié par FranceConnect+",
             "designation": [
               {
                 "use": {

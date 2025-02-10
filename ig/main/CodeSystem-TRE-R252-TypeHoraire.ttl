@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R252-TypeHoraire"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R252-TypeHoraire</b></p><a name=\"TRE-R252-TypeHoraire\"> </a><a name=\"hcTRE-R252-TypeHoraire\"> </a><a name=\"TRE-R252-TypeHoraire-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R252-TypeHoraire/FHIR/TRE-R252-TypeHoraire</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R252-TypeHoraire-01\"> </a></td><td>Horaire d'ouverture</td><td/><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R252-TypeHoraire-02\"> </a></td><td>Horaire de fonctionnement</td><td/><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R252-TypeHoraire-03\"> </a></td><td>Horaire de garde</td><td/><td>2018-04-27T12:00:00+01:00</td><td>2018-04-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"TRE-R252-TypeHoraire-04\"> </a></td><td>Horaire d'ouverture du secrétariat</td><td/><td>2018-04-27T12:00:00+01:00</td><td>2018-04-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"TRE-R252-TypeHoraire-05\"> </a></td><td>Horaire de visite à domicile</td><td>Horaire d'intervention d'un professionnel de santé au domicile d'un patient ou d'un usager pour assurer une continuité des soins et/ou de la prise en charge, de l'accompagnement</td><td>2018-04-27T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"TRE-R252-TypeHoraire-06\"> </a></td><td>Horaire de consultation sans RDV</td><td/><td>2018-04-27T12:00:00+01:00</td><td>2018-04-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"TRE-R252-TypeHoraire-07\"> </a></td><td>Horaire de consultation sur RDV</td><td/><td>2018-04-27T12:00:00+01:00</td><td>2018-04-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"TRE-R252-TypeHoraire-08\"> </a></td><td>Horaire de fermeture</td><td/><td>2018-04-27T12:00:00+01:00</td><td>2018-04-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"TRE-R252-TypeHoraire-09\"> </a></td><td>Horaire à préciser</td><td/><td>2024-06-28T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-R252-TypeHoraire-10\"> </a></td><td>Horaire de téléconsultation</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-R252-TypeHoraire-11\"> </a></td><td>Horaire mixte : consultation ou téléconsultation</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R252-TypeHoraire</b></p><a name=\"TRE-R252-TypeHoraire\"> </a><a name=\"hcTRE-R252-TypeHoraire\"> </a><a name=\"TRE-R252-TypeHoraire-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R252-TypeHoraire/FHIR/TRE-R252-TypeHoraire</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R252-TypeHoraire-01\"> </a></td><td>Horaire d'ouverture</td><td/><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R252-TypeHoraire-02\"> </a></td><td>Horaire de fonctionnement</td><td/><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R252-TypeHoraire-03\"> </a></td><td>Horaire de garde</td><td/><td>2018-04-27T12:00:00+01:00</td><td>2018-04-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"TRE-R252-TypeHoraire-04\"> </a></td><td>Horaire d'ouverture du secrétariat</td><td/><td>2018-04-27T12:00:00+01:00</td><td>2018-04-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"TRE-R252-TypeHoraire-05\"> </a></td><td>Horaire de visite à domicile</td><td>Horaire d'intervention d'un professionnel de santé au domicile d'un patient ou d'un usager pour assurer une continuité des soins et/ou de la prise en charge, de l'accompagnement</td><td>2018-04-27T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"TRE-R252-TypeHoraire-06\"> </a></td><td>Horaire de consultation sans RDV</td><td/><td>2018-04-27T12:00:00+01:00</td><td>2018-04-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"TRE-R252-TypeHoraire-07\"> </a></td><td>Horaire de consultation sur RDV</td><td/><td>2018-04-27T12:00:00+01:00</td><td>2018-04-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"TRE-R252-TypeHoraire-08\"> </a></td><td>Horaire de fermeture</td><td/><td>2018-04-27T12:00:00+01:00</td><td>2018-04-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"TRE-R252-TypeHoraire-09\"> </a></td><td>Horaire à préciser</td><td/><td>2024-06-28T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-R252-TypeHoraire-10\"> </a></td><td>Horaire de téléconsultation</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-R252-TypeHoraire-11\"> </a></td><td>Horaire mixte : consultation ou téléconsultation</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "02" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "03" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "04" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "05" ] ;
@@ -151,10 +176,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "06" ] ;
@@ -172,10 +203,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "07" ] ;
@@ -193,10 +230,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "08" ] ;
@@ -214,10 +257,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-04-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "09" ] ;
@@ -235,10 +284,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "10" ] ;
@@ -256,10 +311,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "11" ] ;
@@ -277,10 +338,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

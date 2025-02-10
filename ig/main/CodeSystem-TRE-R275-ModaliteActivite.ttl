@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R275-ModaliteActivite"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R275-ModaliteActivite</b></p><a name=\"TRE-R275-ModaliteActivite\"> </a><a name=\"hcTRE-R275-ModaliteActivite\"> </a><a name=\"TRE-R275-ModaliteActivite-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">00<a name=\"TRE-R275-ModaliteActivite-00\"> </a></td><td>Pas de modalité</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R275-ModaliteActivite-01\"> </a></td><td>Gynécologie obstétrique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R275-ModaliteActivite-02\"> </a></td><td>Néonatologie sans soins intensifs</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R275-ModaliteActivite-03\"> </a></td><td>Néonatologie avec soins intensifs</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">04<a name=\"TRE-R275-ModaliteActivite-04\"> </a></td><td>Réanimation néonatale</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">05<a name=\"TRE-R275-ModaliteActivite-05\"> </a></td><td>Centre périnatal de proximité</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">06<a name=\"TRE-R275-ModaliteActivite-06\"> </a></td><td>Générale</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">07<a name=\"TRE-R275-ModaliteActivite-07\"> </a></td><td>Infanto-juvénile</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">08<a name=\"TRE-R275-ModaliteActivite-08\"> </a></td><td>En milieu pénitentiaire</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">09<a name=\"TRE-R275-ModaliteActivite-09\"> </a></td><td>Adulte (age &gt;=18 ans)</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-R275-ModaliteActivite-10\"> </a></td><td>Pédiatrique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-R275-ModaliteActivite-11\"> </a></td><td>Poumon</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">12<a name=\"TRE-R275-ModaliteActivite-12\"> </a></td><td>Foie</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">13<a name=\"TRE-R275-ModaliteActivite-13\"> </a></td><td>Rein</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">22<a name=\"TRE-R275-ModaliteActivite-22\"> </a></td><td>SAMU Service d'aide médicale urgente</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">23<a name=\"TRE-R275-ModaliteActivite-23\"> </a></td><td>SU Structure des urgences</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">24<a name=\"TRE-R275-ModaliteActivite-24\"> </a></td><td>SUP Structure des urgences pédiatriques</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"TRE-R275-ModaliteActivite-26\"> </a></td><td>SMUR Structure mobile d'urgence et de réanimation</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">27<a name=\"TRE-R275-ModaliteActivite-27\"> </a></td><td>SMURP Structure mobile d'urgence et de réanimation pédiatrique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">29<a name=\"TRE-R275-ModaliteActivite-29\"> </a></td><td>SMUR Antenne</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"TRE-R275-ModaliteActivite-30\"> </a></td><td>USI Pneumologie Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">31<a name=\"TRE-R275-ModaliteActivite-31\"> </a></td><td>Multi-organes</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">40<a name=\"TRE-R275-ModaliteActivite-40\"> </a></td><td>Hémodialyse en centre pour adultes</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"TRE-R275-ModaliteActivite-41\"> </a></td><td>Hémodialyse en centre pour enfants</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">42<a name=\"TRE-R275-ModaliteActivite-42\"> </a></td><td>Hémodialyse en unité médicalisée</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">43<a name=\"TRE-R275-ModaliteActivite-43\"> </a></td><td>Hémodialyse en unité d'auto dialyse simple</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">44<a name=\"TRE-R275-ModaliteActivite-44\"> </a></td><td>Hémodialyse en unité d'auto dialyse assistée</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">45<a name=\"TRE-R275-ModaliteActivite-45\"> </a></td><td>Hémodialyse à domicile</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">46<a name=\"TRE-R275-ModaliteActivite-46\"> </a></td><td>Dialyse péritonéale à domicile</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">47<a name=\"TRE-R275-ModaliteActivite-47\"> </a></td><td>AMP clinique : prélèvement d'ovocytes en vue d'une AMP</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">48<a name=\"TRE-R275-ModaliteActivite-48\"> </a></td><td>AMP clinique : prélèvement d'ovocytes en vue d'un don</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">49<a name=\"TRE-R275-ModaliteActivite-49\"> </a></td><td>AMP clinique : prélèvement de spermatozoïdes</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">50<a name=\"TRE-R275-ModaliteActivite-50\"> </a></td><td>AMP clinique : transfert des embryons en vue de leur implantation</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-R275-ModaliteActivite-51\"> </a></td><td>Bio : préparation et conservation du sperme pour insémination artificielle</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">52<a name=\"TRE-R275-ModaliteActivite-52\"> </a></td><td>AMP Bio : recueil, prép, conservation et mise à disposition du sperme pour don</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">54<a name=\"TRE-R275-ModaliteActivite-54\"> </a></td><td>AMP Bio : prépa, conservation et mise à disposition d'ovocytes en vue d'un don</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">59<a name=\"TRE-R275-ModaliteActivite-59\"> </a></td><td>AMP Bio : Conservation des embryons pour accueil et mise en oeuvre de celui-ci</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">60<a name=\"TRE-R275-ModaliteActivite-60\"> </a></td><td>DPN : Exams de cytogénétique inclus exams moléculaires appliqués cytogénétique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">61<a name=\"TRE-R275-ModaliteActivite-61\"> </a></td><td>DPN : Analyses de génétique moléculaire</td><td>2018-07-27T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"TRE-R275-ModaliteActivite-62\"> </a></td><td>DPN : Les examens en vue du diagnostic de maladies infectieuses</td><td>2018-07-27T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">63<a name=\"TRE-R275-ModaliteActivite-63\"> </a></td><td>DPN : Analyse de biochimie, y compris analyse sur marqueurs sériques maternels</td><td>2018-07-27T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"TRE-R275-ModaliteActivite-64\"> </a></td><td>DPN : Analyses d'hématologie</td><td>2018-07-27T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">65<a name=\"TRE-R275-ModaliteActivite-65\"> </a></td><td>DPN : Analyses d'immunologie</td><td>2018-07-27T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">67<a name=\"TRE-R275-ModaliteActivite-67\"> </a></td><td>Chimiothérapie ou autres traitements médicaux spécifiques du cancer</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">68<a name=\"TRE-R275-ModaliteActivite-68\"> </a></td><td>Radiothérapie externe</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">69<a name=\"TRE-R275-ModaliteActivite-69\"> </a></td><td>Chirurgie des cancers hors soumis à seuil</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">70<a name=\"TRE-R275-ModaliteActivite-70\"> </a></td><td>Curiethérapie</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">71<a name=\"TRE-R275-ModaliteActivite-71\"> </a></td><td>Utilisation thérapeutique de radioéléments en sources non scellées</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">72<a name=\"TRE-R275-ModaliteActivite-72\"> </a></td><td>Unité de dialyse saisonnière</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">73<a name=\"TRE-R275-ModaliteActivite-73\"> </a></td><td>AMP Clinique : mise en oeuvre de l'accueil des embryons</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">74<a name=\"TRE-R275-ModaliteActivite-74\"> </a></td><td>AMP Bio : conservation des embryons en vue d'un projet parental</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">75<a name=\"TRE-R275-ModaliteActivite-75\"> </a></td><td>AMP Bio : conservation à usage autologue des gamètes et tissus germinaux</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">76<a name=\"TRE-R275-ModaliteActivite-76\"> </a></td><td>Adulte et pédiatrique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">77<a name=\"TRE-R275-ModaliteActivite-77\"> </a></td><td>Enfant (&lt; de 6 ans)</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">78<a name=\"TRE-R275-ModaliteActivite-78\"> </a></td><td>Juvénile (age &gt;= 6 ans et &lt; 18 ans)</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">79<a name=\"TRE-R275-ModaliteActivite-79\"> </a></td><td>Pédiatrie - âges non différenciés</td><td>2018-07-27T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">80<a name=\"TRE-R275-ModaliteActivite-80\"> </a></td><td>AMP Bio : activité relative à la FIV avec ou sans micromanipulation</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">81<a name=\"TRE-R275-ModaliteActivite-81\"> </a></td><td>Actes électrophysio de rythmologie intervent, stimul multi sites et défibril</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">82<a name=\"TRE-R275-ModaliteActivite-82\"> </a></td><td>Actes sur cardiopathies enfant, y compris éventuelles ré-interventions adulte</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">83<a name=\"TRE-R275-ModaliteActivite-83\"> </a></td><td>Actes portant sur les autres cardiopathies de l'adulte</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">84<a name=\"TRE-R275-ModaliteActivite-84\"> </a></td><td>Analyses cytogénétique, y compris les analyses cytogénétique moléculaire</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">85<a name=\"TRE-R275-ModaliteActivite-85\"> </a></td><td>Analyses de génétique moléculaire</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">87<a name=\"TRE-R275-ModaliteActivite-87\"> </a></td><td>Fonctionnelle cérébrale</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">88<a name=\"TRE-R275-ModaliteActivite-88\"> </a></td><td>Radiochirurgie intracrânienne et extracrânienne en conditions stéréotaxiques</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">89<a name=\"TRE-R275-ModaliteActivite-89\"> </a></td><td>Radiothérapie externe dérogatoire éloignement géographique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">90<a name=\"TRE-R275-ModaliteActivite-90\"> </a></td><td>Chirurgie des cancers : digestif</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">91<a name=\"TRE-R275-ModaliteActivite-91\"> </a></td><td>Chirurgie des cancers : sein</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">92<a name=\"TRE-R275-ModaliteActivite-92\"> </a></td><td>Chirurgie des cancers : urologie</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">93<a name=\"TRE-R275-ModaliteActivite-93\"> </a></td><td>Chirurgie des cancers : thorax</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">94<a name=\"TRE-R275-ModaliteActivite-94\"> </a></td><td>Chirurgie des cancers : gynécologie</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">95<a name=\"TRE-R275-ModaliteActivite-95\"> </a></td><td>Chirurgie des cancers : ORL et maxillo-faciale</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">97<a name=\"TRE-R275-ModaliteActivite-97\"> </a></td><td>Adulte (age &gt;=18 ans) dérogatoire éloignement géographique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">98<a name=\"TRE-R275-ModaliteActivite-98\"> </a></td><td>Pédiatrique spécialisée</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">99<a name=\"TRE-R275-ModaliteActivite-99\"> </a></td><td>Sans autre indication</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AL<a name=\"TRE-R275-ModaliteActivite-AL\"> </a></td><td>DPN : Les examens de biochimie portant sur les marqueurs sériques maternels</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AM<a name=\"TRE-R275-ModaliteActivite-AM\"> </a></td><td>DPN : Les examens de biochimie foetale à visée diagnostique</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"TRE-R275-ModaliteActivite-AN\"> </a></td><td>DPN : Les examens de génétique moléculaire</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AP<a name=\"TRE-R275-ModaliteActivite-AP\"> </a></td><td>DPN : Exams de génétique sur l'ADN foetal libre circulant dans le sang maternel</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AQ<a name=\"TRE-R275-ModaliteActivite-AQ\"> </a></td><td>1ère administration à l'homme d'un médicament</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AR<a name=\"TRE-R275-ModaliteActivite-AR\"> </a></td><td>1ère administration à l'homme autre que médicament</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B1<a name=\"TRE-R275-ModaliteActivite-B1\"> </a></td><td>Chirurgie orthopédique et traumatologique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B2<a name=\"TRE-R275-ModaliteActivite-B2\"> </a></td><td>Chirurgie pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B3<a name=\"TRE-R275-ModaliteActivite-B3\"> </a></td><td>Clinique ouverte</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B4<a name=\"TRE-R275-ModaliteActivite-B4\"> </a></td><td>Gériatrie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B5<a name=\"TRE-R275-ModaliteActivite-B5\"> </a></td><td>Grands brûlés</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B7<a name=\"TRE-R275-ModaliteActivite-B7\"> </a></td><td>Grands brûlés - Adulte</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B8<a name=\"TRE-R275-ModaliteActivite-B8\"> </a></td><td>Orthogénie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B9<a name=\"TRE-R275-ModaliteActivite-B9\"> </a></td><td>Grands brûlés - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C2<a name=\"TRE-R275-ModaliteActivite-C2\"> </a></td><td>Adulte (âge &gt;=18 ans) - Traitement dont chimiothérapie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C4<a name=\"TRE-R275-ModaliteActivite-C4\"> </a></td><td>Neurovasculaire</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C5<a name=\"TRE-R275-ModaliteActivite-C5\"> </a></td><td>Obstétrique - Anesthésie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C6<a name=\"TRE-R275-ModaliteActivite-C6\"> </a></td><td>Odontologie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C7<a name=\"TRE-R275-ModaliteActivite-C7\"> </a></td><td>Pédiatrique - Traitement dont chimiothérapie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C8<a name=\"TRE-R275-ModaliteActivite-C8\"> </a></td><td>Pneumologie - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C9<a name=\"TRE-R275-ModaliteActivite-C9\"> </a></td><td>Polytraumatismes graves et complexes multiples</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D2<a name=\"TRE-R275-ModaliteActivite-D2\"> </a></td><td>Réhabilitation et réinsertion psycho-sociale</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D3<a name=\"TRE-R275-ModaliteActivite-D3\"> </a></td><td>S.O.S. mains</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D4<a name=\"TRE-R275-ModaliteActivite-D4\"> </a></td><td>Structure de sevrage niveau 2</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D5<a name=\"TRE-R275-ModaliteActivite-D5\"> </a></td><td>Structure de sevrage niveau 3</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D6<a name=\"TRE-R275-ModaliteActivite-D6\"> </a></td><td>Traitements médicaux - Allogreffes de moelle osseuse - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D7<a name=\"TRE-R275-ModaliteActivite-D7\"> </a></td><td>Traitements médicaux - Allogreffes de moelle osseuse - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D8<a name=\"TRE-R275-ModaliteActivite-D8\"> </a></td><td>Traitements médicaux - Autogreffes de moelle osseuse - Adulte (âge &gt;= 18 ans )</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D9<a name=\"TRE-R275-ModaliteActivite-D9\"> </a></td><td>Traitements médicaux - Autogreffes de moelle osseuse - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E1<a name=\"TRE-R275-ModaliteActivite-E1\"> </a></td><td>Traitements médicaux - Autres traitements spécifiques - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E2<a name=\"TRE-R275-ModaliteActivite-E2\"> </a></td><td>Traitements médicaux - Autres traitements spécifiques - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E3<a name=\"TRE-R275-ModaliteActivite-E3\"> </a></td><td>Traitements médicaux - Endoscopies digestives interventionnelles - Adulte</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E4<a name=\"TRE-R275-ModaliteActivite-E4\"> </a></td><td>Traumatismes cranio-cérébraux et médullaires</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E5<a name=\"TRE-R275-ModaliteActivite-E5\"> </a></td><td>Unité Cognitivo-Comportementale - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E7<a name=\"TRE-R275-ModaliteActivite-E7\"> </a></td><td>Unité d'Hébergement Renforcée</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E8<a name=\"TRE-R275-ModaliteActivite-E8\"> </a></td><td>Unités de soins palliatifs à vocation régionale</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E9<a name=\"TRE-R275-ModaliteActivite-E9\"> </a></td><td>Urologie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">F1<a name=\"TRE-R275-ModaliteActivite-F1\"> </a></td><td>USI Chirurgie thoracique et cardio-vasculaire - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">F2<a name=\"TRE-R275-ModaliteActivite-F2\"> </a></td><td>USI Chirurgie thoracique et cardio-vasculaire - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">F3<a name=\"TRE-R275-ModaliteActivite-F3\"> </a></td><td>USI Dermato - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">F5<a name=\"TRE-R275-ModaliteActivite-F5\"> </a></td><td>USI Hémato - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">F6<a name=\"TRE-R275-ModaliteActivite-F6\"> </a></td><td>USI Hémato - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">F7<a name=\"TRE-R275-ModaliteActivite-F7\"> </a></td><td>USI Hématologie avec système de traitement de l'air</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">F8<a name=\"TRE-R275-ModaliteActivite-F8\"> </a></td><td>USI hépato-gastro-entérologie - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">G1<a name=\"TRE-R275-ModaliteActivite-G1\"> </a></td><td>USI Maladie infectieuse - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">G3<a name=\"TRE-R275-ModaliteActivite-G3\"> </a></td><td>USI Néphrologie - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">G5<a name=\"TRE-R275-ModaliteActivite-G5\"> </a></td><td>USI Neuro - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">G6<a name=\"TRE-R275-ModaliteActivite-G6\"> </a></td><td>USI Neuro - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">G8<a name=\"TRE-R275-ModaliteActivite-G8\"> </a></td><td>Lit de Soins Intensifs - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">G9<a name=\"TRE-R275-ModaliteActivite-G9\"> </a></td><td>USI Oncologie - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">H1<a name=\"TRE-R275-ModaliteActivite-H1\"> </a></td><td>USI Oncologie- Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">H4<a name=\"TRE-R275-ModaliteActivite-H4\"> </a></td><td>USI Pneumologie - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">H5<a name=\"TRE-R275-ModaliteActivite-H5\"> </a></td><td>USI Urologie - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">H8<a name=\"TRE-R275-ModaliteActivite-H8\"> </a></td><td>Prise en charge Covid long</td><td>2022-03-25T12:00:00+01:00</td><td>2022-03-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">H9<a name=\"TRE-R275-ModaliteActivite-H9\"> </a></td><td>Vasculaire</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M0<a name=\"TRE-R275-ModaliteActivite-M0\"> </a></td><td>Dépôt d'urgence</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M1<a name=\"TRE-R275-ModaliteActivite-M1\"> </a></td><td>Dépôt de délivrance</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M2<a name=\"TRE-R275-ModaliteActivite-M2\"> </a></td><td>Dépôt relais</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M3<a name=\"TRE-R275-ModaliteActivite-M3\"> </a></td><td>A usage intérieur</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M4<a name=\"TRE-R275-ModaliteActivite-M4\"> </a></td><td>A usage intérieur et extérieur</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M5<a name=\"TRE-R275-ModaliteActivite-M5\"> </a></td><td>CSH moelle osseuse allogéniques</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M6<a name=\"TRE-R275-ModaliteActivite-M6\"> </a></td><td>CSH moelle osseuse autologues</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M7<a name=\"TRE-R275-ModaliteActivite-M7\"> </a></td><td>CSH sang périphérique allogéniques</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M8<a name=\"TRE-R275-ModaliteActivite-M8\"> </a></td><td>CSH sang périphérique autologues</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M9<a name=\"TRE-R275-ModaliteActivite-M9\"> </a></td><td>CSH sang de cordon ou sang placentaire</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N0<a name=\"TRE-R275-ModaliteActivite-N0\"> </a></td><td>Structure de sevrage niveau 2 ou 3</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N1<a name=\"TRE-R275-ModaliteActivite-N1\"> </a></td><td>Unité de soins palliatifs</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N2<a name=\"TRE-R275-ModaliteActivite-N2\"> </a></td><td>Lits identifiés (Médecine) - adulte</td><td>2018-07-27T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N3<a name=\"TRE-R275-ModaliteActivite-N3\"> </a></td><td>Lits identifiés (Médecine) - pédiatrique</td><td>2018-07-27T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N4<a name=\"TRE-R275-ModaliteActivite-N4\"> </a></td><td>Equipe mobile</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N5<a name=\"TRE-R275-ModaliteActivite-N5\"> </a></td><td>Unité de soins intensifs (hors cardiologie)</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N6<a name=\"TRE-R275-ModaliteActivite-N6\"> </a></td><td>Unité de soins intensifs en cardiologie</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N7<a name=\"TRE-R275-ModaliteActivite-N7\"> </a></td><td>USC polyvalente - adulte (adossée à une unité de réanimation)</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N8<a name=\"TRE-R275-ModaliteActivite-N8\"> </a></td><td>USC polyvalente - adulte (non adossée à une unité de réanimation)</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N9<a name=\"TRE-R275-ModaliteActivite-N9\"> </a></td><td>USC polyvalente - pédiatrique (adossée à une unité de réanimation)</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P0<a name=\"TRE-R275-ModaliteActivite-P0\"> </a></td><td>USC polyvalente - pédiatrique (non adossée à une unité de réanimation)</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P1<a name=\"TRE-R275-ModaliteActivite-P1\"> </a></td><td>USC spécialisée cancérologie- pédiatrique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P2<a name=\"TRE-R275-ModaliteActivite-P2\"> </a></td><td>USC spécialisée transplantation d'organes - pédiatrique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P3<a name=\"TRE-R275-ModaliteActivite-P3\"> </a></td><td>USC chirurgicale individualisée - pédiatrique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P4<a name=\"TRE-R275-ModaliteActivite-P4\"> </a></td><td>A l'occasion d'un prélèvement multi-organes</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P5<a name=\"TRE-R275-ModaliteActivite-P5\"> </a></td><td>Adulte (âge &gt;=18 ans) - Traitement sans chimiothérapie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P6<a name=\"TRE-R275-ModaliteActivite-P6\"> </a></td><td>Anesthésie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P7<a name=\"TRE-R275-ModaliteActivite-P7\"> </a></td><td>Cardiologie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P8<a name=\"TRE-R275-ModaliteActivite-P8\"> </a></td><td>Cardiologie interventionnelle</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P9<a name=\"TRE-R275-ModaliteActivite-P9\"> </a></td><td>Centre de référence</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U0<a name=\"TRE-R275-ModaliteActivite-U0\"> </a></td><td>Neurologie - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U1<a name=\"TRE-R275-ModaliteActivite-U1\"> </a></td><td>Chambre stérile en hématologie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U2<a name=\"TRE-R275-ModaliteActivite-U2\"> </a></td><td>Chimiothérapie - Hémopathies malignes (certains types) - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U3<a name=\"TRE-R275-ModaliteActivite-U3\"> </a></td><td>Chimiothérapie - Hémopathies malignes (tous types) - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U4<a name=\"TRE-R275-ModaliteActivite-U4\"> </a></td><td>Chimiothérapie - Tumeurs solides - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U5<a name=\"TRE-R275-ModaliteActivite-U5\"> </a></td><td>Chirurgie cancer - Os et tissus mous - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U6<a name=\"TRE-R275-ModaliteActivite-U6\"> </a></td><td>Chirurgie cancer - Autres traitements spécifiques - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U8<a name=\"TRE-R275-ModaliteActivite-U8\"> </a></td><td>Chirurgie cancer - Cancer in situ du col de l'utérus - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U9<a name=\"TRE-R275-ModaliteActivite-U9\"> </a></td><td>Chirurgie cancer - Cancer Thyroïde - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V1<a name=\"TRE-R275-ModaliteActivite-V1\"> </a></td><td>Chirurgie cancer - Cancers cutanés - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V2<a name=\"TRE-R275-ModaliteActivite-V2\"> </a></td><td>Chirurgie cancer - Pathologies ophtalmologiques - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V3<a name=\"TRE-R275-ModaliteActivite-V3\"> </a></td><td>Chirurgie cancer - Pathologies ORL et maxillo-faciales - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V4<a name=\"TRE-R275-ModaliteActivite-V4\"> </a></td><td>Chirurgie cancer - Pathologies orthopédiques - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V5<a name=\"TRE-R275-ModaliteActivite-V5\"> </a></td><td>Chirurgie cancer - Pathologies viscérales - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V6<a name=\"TRE-R275-ModaliteActivite-V6\"> </a></td><td>Chirurgie cancer - Système nerveux central - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V7<a name=\"TRE-R275-ModaliteActivite-V7\"> </a></td><td>Chirurgie cancer - Système nerveux central - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V8<a name=\"TRE-R275-ModaliteActivite-V8\"> </a></td><td>Chirurgie complexe de la main</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V9<a name=\"TRE-R275-ModaliteActivite-V9\"> </a></td><td>Chirurgie digestive et viscérale</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">W1<a name=\"TRE-R275-ModaliteActivite-W1\"> </a></td><td>Unité péri-opératoire gériatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">W2<a name=\"TRE-R275-ModaliteActivite-W2\"> </a></td><td>Lits identifiés (SSR) - adulte</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">W3<a name=\"TRE-R275-ModaliteActivite-W3\"> </a></td><td>Lits identifiés (SSR) - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">W4<a name=\"TRE-R275-ModaliteActivite-W4\"> </a></td><td>Lit de Soins Intensifs - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">W5<a name=\"TRE-R275-ModaliteActivite-W5\"> </a></td><td>USPC - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">W6<a name=\"TRE-R275-ModaliteActivite-W6\"> </a></td><td>USPC - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R275-ModaliteActivite</b></p><a name=\"TRE-R275-ModaliteActivite\"> </a><a name=\"hcTRE-R275-ModaliteActivite\"> </a><a name=\"TRE-R275-ModaliteActivite-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">00<a name=\"TRE-R275-ModaliteActivite-00\"> </a></td><td>Pas de modalité</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R275-ModaliteActivite-01\"> </a></td><td>Gynécologie obstétrique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R275-ModaliteActivite-02\"> </a></td><td>Néonatologie sans soins intensifs</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R275-ModaliteActivite-03\"> </a></td><td>Néonatologie avec soins intensifs</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">04<a name=\"TRE-R275-ModaliteActivite-04\"> </a></td><td>Réanimation néonatale</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">05<a name=\"TRE-R275-ModaliteActivite-05\"> </a></td><td>Centre périnatal de proximité</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">06<a name=\"TRE-R275-ModaliteActivite-06\"> </a></td><td>Générale</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">07<a name=\"TRE-R275-ModaliteActivite-07\"> </a></td><td>Infanto-juvénile</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">08<a name=\"TRE-R275-ModaliteActivite-08\"> </a></td><td>En milieu pénitentiaire</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">09<a name=\"TRE-R275-ModaliteActivite-09\"> </a></td><td>Adulte (age &gt;=18 ans)</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-R275-ModaliteActivite-10\"> </a></td><td>Pédiatrique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-R275-ModaliteActivite-11\"> </a></td><td>Poumon</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">12<a name=\"TRE-R275-ModaliteActivite-12\"> </a></td><td>Foie</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">13<a name=\"TRE-R275-ModaliteActivite-13\"> </a></td><td>Rein</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">22<a name=\"TRE-R275-ModaliteActivite-22\"> </a></td><td>SAMU Service d'aide médicale urgente</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">23<a name=\"TRE-R275-ModaliteActivite-23\"> </a></td><td>SU Structure des urgences</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">24<a name=\"TRE-R275-ModaliteActivite-24\"> </a></td><td>SUP Structure des urgences pédiatriques</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"TRE-R275-ModaliteActivite-26\"> </a></td><td>SMUR Structure mobile d'urgence et de réanimation</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">27<a name=\"TRE-R275-ModaliteActivite-27\"> </a></td><td>SMURP Structure mobile d'urgence et de réanimation pédiatrique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">29<a name=\"TRE-R275-ModaliteActivite-29\"> </a></td><td>SMUR Antenne</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"TRE-R275-ModaliteActivite-30\"> </a></td><td>USI Pneumologie Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">31<a name=\"TRE-R275-ModaliteActivite-31\"> </a></td><td>Multi-organes</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">40<a name=\"TRE-R275-ModaliteActivite-40\"> </a></td><td>Hémodialyse en centre pour adultes</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"TRE-R275-ModaliteActivite-41\"> </a></td><td>Hémodialyse en centre pour enfants</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">42<a name=\"TRE-R275-ModaliteActivite-42\"> </a></td><td>Hémodialyse en unité médicalisée</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">43<a name=\"TRE-R275-ModaliteActivite-43\"> </a></td><td>Hémodialyse en unité d'auto dialyse simple</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">44<a name=\"TRE-R275-ModaliteActivite-44\"> </a></td><td>Hémodialyse en unité d'auto dialyse assistée</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">45<a name=\"TRE-R275-ModaliteActivite-45\"> </a></td><td>Hémodialyse à domicile</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">46<a name=\"TRE-R275-ModaliteActivite-46\"> </a></td><td>Dialyse péritonéale à domicile</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">47<a name=\"TRE-R275-ModaliteActivite-47\"> </a></td><td>AMP clinique : prélèvement d'ovocytes en vue d'une AMP</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">48<a name=\"TRE-R275-ModaliteActivite-48\"> </a></td><td>AMP clinique : prélèvement d'ovocytes en vue d'un don</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">49<a name=\"TRE-R275-ModaliteActivite-49\"> </a></td><td>AMP clinique : prélèvement de spermatozoïdes</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">50<a name=\"TRE-R275-ModaliteActivite-50\"> </a></td><td>AMP clinique : transfert des embryons en vue de leur implantation</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-R275-ModaliteActivite-51\"> </a></td><td>Bio : préparation et conservation du sperme pour insémination artificielle</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">52<a name=\"TRE-R275-ModaliteActivite-52\"> </a></td><td>AMP Bio : recueil, prép, conservation et mise à disposition du sperme pour don</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">54<a name=\"TRE-R275-ModaliteActivite-54\"> </a></td><td>AMP Bio : prépa, conservation et mise à disposition d'ovocytes en vue d'un don</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">59<a name=\"TRE-R275-ModaliteActivite-59\"> </a></td><td>AMP Bio : Conservation des embryons pour accueil et mise en oeuvre de celui-ci</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">60<a name=\"TRE-R275-ModaliteActivite-60\"> </a></td><td>DPN : Exams de cytogénétique inclus exams moléculaires appliqués cytogénétique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">61<a name=\"TRE-R275-ModaliteActivite-61\"> </a></td><td>DPN : Analyses de génétique moléculaire</td><td>2018-07-27T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"TRE-R275-ModaliteActivite-62\"> </a></td><td>DPN : Les examens en vue du diagnostic de maladies infectieuses</td><td>2018-07-27T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">63<a name=\"TRE-R275-ModaliteActivite-63\"> </a></td><td>DPN : Analyse de biochimie, y compris analyse sur marqueurs sériques maternels</td><td>2018-07-27T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"TRE-R275-ModaliteActivite-64\"> </a></td><td>DPN : Analyses d'hématologie</td><td>2018-07-27T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">65<a name=\"TRE-R275-ModaliteActivite-65\"> </a></td><td>DPN : Analyses d'immunologie</td><td>2018-07-27T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">67<a name=\"TRE-R275-ModaliteActivite-67\"> </a></td><td>Chimiothérapie ou autres traitements médicaux spécifiques du cancer</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">68<a name=\"TRE-R275-ModaliteActivite-68\"> </a></td><td>Radiothérapie externe</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">69<a name=\"TRE-R275-ModaliteActivite-69\"> </a></td><td>Chirurgie des cancers hors soumis à seuil</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">70<a name=\"TRE-R275-ModaliteActivite-70\"> </a></td><td>Curiethérapie</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">71<a name=\"TRE-R275-ModaliteActivite-71\"> </a></td><td>Utilisation thérapeutique de radioéléments en sources non scellées</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">72<a name=\"TRE-R275-ModaliteActivite-72\"> </a></td><td>Unité de dialyse saisonnière</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">73<a name=\"TRE-R275-ModaliteActivite-73\"> </a></td><td>AMP Clinique : mise en oeuvre de l'accueil des embryons</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">74<a name=\"TRE-R275-ModaliteActivite-74\"> </a></td><td>AMP Bio : conservation des embryons en vue d'un projet parental</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">75<a name=\"TRE-R275-ModaliteActivite-75\"> </a></td><td>AMP Bio : conservation à usage autologue des gamètes et tissus germinaux</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">76<a name=\"TRE-R275-ModaliteActivite-76\"> </a></td><td>Adulte et pédiatrique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">77<a name=\"TRE-R275-ModaliteActivite-77\"> </a></td><td>Enfant (&lt; de 6 ans)</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">78<a name=\"TRE-R275-ModaliteActivite-78\"> </a></td><td>Juvénile (age &gt;= 6 ans et &lt; 18 ans)</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">79<a name=\"TRE-R275-ModaliteActivite-79\"> </a></td><td>Pédiatrie - âges non différenciés</td><td>2018-07-27T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">80<a name=\"TRE-R275-ModaliteActivite-80\"> </a></td><td>AMP Bio : activité relative à la FIV avec ou sans micromanipulation</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">81<a name=\"TRE-R275-ModaliteActivite-81\"> </a></td><td>Actes électrophysio de rythmologie intervent, stimul multi sites et défibril</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">82<a name=\"TRE-R275-ModaliteActivite-82\"> </a></td><td>Actes sur cardiopathies enfant, y compris éventuelles ré-interventions adulte</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">83<a name=\"TRE-R275-ModaliteActivite-83\"> </a></td><td>Actes portant sur les autres cardiopathies de l'adulte</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">84<a name=\"TRE-R275-ModaliteActivite-84\"> </a></td><td>Analyses cytogénétique, y compris les analyses cytogénétique moléculaire</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">85<a name=\"TRE-R275-ModaliteActivite-85\"> </a></td><td>Analyses de génétique moléculaire</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">87<a name=\"TRE-R275-ModaliteActivite-87\"> </a></td><td>Fonctionnelle cérébrale</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">88<a name=\"TRE-R275-ModaliteActivite-88\"> </a></td><td>Radiochirurgie intracrânienne et extracrânienne en conditions stéréotaxiques</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">89<a name=\"TRE-R275-ModaliteActivite-89\"> </a></td><td>Radiothérapie externe dérogatoire éloignement géographique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">90<a name=\"TRE-R275-ModaliteActivite-90\"> </a></td><td>Chirurgie des cancers : digestif</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">91<a name=\"TRE-R275-ModaliteActivite-91\"> </a></td><td>Chirurgie des cancers : sein</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">92<a name=\"TRE-R275-ModaliteActivite-92\"> </a></td><td>Chirurgie des cancers : urologie</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">93<a name=\"TRE-R275-ModaliteActivite-93\"> </a></td><td>Chirurgie des cancers : thorax</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">94<a name=\"TRE-R275-ModaliteActivite-94\"> </a></td><td>Chirurgie des cancers : gynécologie</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">95<a name=\"TRE-R275-ModaliteActivite-95\"> </a></td><td>Chirurgie des cancers : ORL et maxillo-faciale</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">97<a name=\"TRE-R275-ModaliteActivite-97\"> </a></td><td>Adulte (age &gt;=18 ans) dérogatoire éloignement géographique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">98<a name=\"TRE-R275-ModaliteActivite-98\"> </a></td><td>Pédiatrique spécialisée</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">99<a name=\"TRE-R275-ModaliteActivite-99\"> </a></td><td>Sans autre indication</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AL<a name=\"TRE-R275-ModaliteActivite-AL\"> </a></td><td>DPN : Les examens de biochimie portant sur les marqueurs sériques maternels</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AM<a name=\"TRE-R275-ModaliteActivite-AM\"> </a></td><td>DPN : Les examens de biochimie foetale à visée diagnostique</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"TRE-R275-ModaliteActivite-AN\"> </a></td><td>DPN : Les examens de génétique moléculaire</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AP<a name=\"TRE-R275-ModaliteActivite-AP\"> </a></td><td>DPN : Exams de génétique sur l'ADN foetal libre circulant dans le sang maternel</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AQ<a name=\"TRE-R275-ModaliteActivite-AQ\"> </a></td><td>1ère administration à l'homme d'un médicament</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AR<a name=\"TRE-R275-ModaliteActivite-AR\"> </a></td><td>1ère administration à l'homme autre que médicament</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B1<a name=\"TRE-R275-ModaliteActivite-B1\"> </a></td><td>Chirurgie orthopédique et traumatologique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B2<a name=\"TRE-R275-ModaliteActivite-B2\"> </a></td><td>Chirurgie pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B3<a name=\"TRE-R275-ModaliteActivite-B3\"> </a></td><td>Clinique ouverte</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B4<a name=\"TRE-R275-ModaliteActivite-B4\"> </a></td><td>Gériatrie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B5<a name=\"TRE-R275-ModaliteActivite-B5\"> </a></td><td>Grands brûlés</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B7<a name=\"TRE-R275-ModaliteActivite-B7\"> </a></td><td>Grands brûlés - Adulte</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B8<a name=\"TRE-R275-ModaliteActivite-B8\"> </a></td><td>Orthogénie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B9<a name=\"TRE-R275-ModaliteActivite-B9\"> </a></td><td>Grands brûlés - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C2<a name=\"TRE-R275-ModaliteActivite-C2\"> </a></td><td>Adulte (âge &gt;=18 ans) - Traitement dont chimiothérapie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C4<a name=\"TRE-R275-ModaliteActivite-C4\"> </a></td><td>Neurovasculaire</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C5<a name=\"TRE-R275-ModaliteActivite-C5\"> </a></td><td>Obstétrique - Anesthésie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C6<a name=\"TRE-R275-ModaliteActivite-C6\"> </a></td><td>Odontologie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C7<a name=\"TRE-R275-ModaliteActivite-C7\"> </a></td><td>Pédiatrique - Traitement dont chimiothérapie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C8<a name=\"TRE-R275-ModaliteActivite-C8\"> </a></td><td>Pneumologie - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C9<a name=\"TRE-R275-ModaliteActivite-C9\"> </a></td><td>Polytraumatismes graves et complexes multiples</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D2<a name=\"TRE-R275-ModaliteActivite-D2\"> </a></td><td>Réhabilitation et réinsertion psycho-sociale</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D3<a name=\"TRE-R275-ModaliteActivite-D3\"> </a></td><td>S.O.S. mains</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D4<a name=\"TRE-R275-ModaliteActivite-D4\"> </a></td><td>Structure de sevrage niveau 2</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D5<a name=\"TRE-R275-ModaliteActivite-D5\"> </a></td><td>Structure de sevrage niveau 3</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D6<a name=\"TRE-R275-ModaliteActivite-D6\"> </a></td><td>Traitements médicaux - Allogreffes de moelle osseuse - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D7<a name=\"TRE-R275-ModaliteActivite-D7\"> </a></td><td>Traitements médicaux - Allogreffes de moelle osseuse - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D8<a name=\"TRE-R275-ModaliteActivite-D8\"> </a></td><td>Traitements médicaux - Autogreffes de moelle osseuse - Adulte (âge &gt;= 18 ans )</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D9<a name=\"TRE-R275-ModaliteActivite-D9\"> </a></td><td>Traitements médicaux - Autogreffes de moelle osseuse - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E1<a name=\"TRE-R275-ModaliteActivite-E1\"> </a></td><td>Traitements médicaux - Autres traitements spécifiques - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E2<a name=\"TRE-R275-ModaliteActivite-E2\"> </a></td><td>Traitements médicaux - Autres traitements spécifiques - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E3<a name=\"TRE-R275-ModaliteActivite-E3\"> </a></td><td>Traitements médicaux - Endoscopies digestives interventionnelles - Adulte</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E4<a name=\"TRE-R275-ModaliteActivite-E4\"> </a></td><td>Traumatismes cranio-cérébraux et médullaires</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E5<a name=\"TRE-R275-ModaliteActivite-E5\"> </a></td><td>Unité Cognitivo-Comportementale - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E7<a name=\"TRE-R275-ModaliteActivite-E7\"> </a></td><td>Unité d'Hébergement Renforcée</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E8<a name=\"TRE-R275-ModaliteActivite-E8\"> </a></td><td>Unités de soins palliatifs à vocation régionale</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E9<a name=\"TRE-R275-ModaliteActivite-E9\"> </a></td><td>Urologie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">F1<a name=\"TRE-R275-ModaliteActivite-F1\"> </a></td><td>USI Chirurgie thoracique et cardio-vasculaire - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">F2<a name=\"TRE-R275-ModaliteActivite-F2\"> </a></td><td>USI Chirurgie thoracique et cardio-vasculaire - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">F3<a name=\"TRE-R275-ModaliteActivite-F3\"> </a></td><td>USI Dermato - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">F5<a name=\"TRE-R275-ModaliteActivite-F5\"> </a></td><td>USI Hémato - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">F6<a name=\"TRE-R275-ModaliteActivite-F6\"> </a></td><td>USI Hémato - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">F7<a name=\"TRE-R275-ModaliteActivite-F7\"> </a></td><td>USI Hématologie avec système de traitement de l'air</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">F8<a name=\"TRE-R275-ModaliteActivite-F8\"> </a></td><td>USI hépato-gastro-entérologie - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">G1<a name=\"TRE-R275-ModaliteActivite-G1\"> </a></td><td>USI Maladie infectieuse - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">G3<a name=\"TRE-R275-ModaliteActivite-G3\"> </a></td><td>USI Néphrologie - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">G5<a name=\"TRE-R275-ModaliteActivite-G5\"> </a></td><td>USI Neuro - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">G6<a name=\"TRE-R275-ModaliteActivite-G6\"> </a></td><td>USI Neuro - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">G8<a name=\"TRE-R275-ModaliteActivite-G8\"> </a></td><td>Lit de Soins Intensifs - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">G9<a name=\"TRE-R275-ModaliteActivite-G9\"> </a></td><td>USI Oncologie - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">H1<a name=\"TRE-R275-ModaliteActivite-H1\"> </a></td><td>USI Oncologie- Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">H4<a name=\"TRE-R275-ModaliteActivite-H4\"> </a></td><td>USI Pneumologie - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">H5<a name=\"TRE-R275-ModaliteActivite-H5\"> </a></td><td>USI Urologie - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">H8<a name=\"TRE-R275-ModaliteActivite-H8\"> </a></td><td>Prise en charge Covid long</td><td>2022-03-25T12:00:00+01:00</td><td>2022-03-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">H9<a name=\"TRE-R275-ModaliteActivite-H9\"> </a></td><td>Vasculaire</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M0<a name=\"TRE-R275-ModaliteActivite-M0\"> </a></td><td>Dépôt d'urgence</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M1<a name=\"TRE-R275-ModaliteActivite-M1\"> </a></td><td>Dépôt de délivrance</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M2<a name=\"TRE-R275-ModaliteActivite-M2\"> </a></td><td>Dépôt relais</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M3<a name=\"TRE-R275-ModaliteActivite-M3\"> </a></td><td>A usage intérieur</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M4<a name=\"TRE-R275-ModaliteActivite-M4\"> </a></td><td>A usage intérieur et extérieur</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M5<a name=\"TRE-R275-ModaliteActivite-M5\"> </a></td><td>CSH moelle osseuse allogéniques</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M6<a name=\"TRE-R275-ModaliteActivite-M6\"> </a></td><td>CSH moelle osseuse autologues</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M7<a name=\"TRE-R275-ModaliteActivite-M7\"> </a></td><td>CSH sang périphérique allogéniques</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M8<a name=\"TRE-R275-ModaliteActivite-M8\"> </a></td><td>CSH sang périphérique autologues</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M9<a name=\"TRE-R275-ModaliteActivite-M9\"> </a></td><td>CSH sang de cordon ou sang placentaire</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N0<a name=\"TRE-R275-ModaliteActivite-N0\"> </a></td><td>Structure de sevrage niveau 2 ou 3</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N1<a name=\"TRE-R275-ModaliteActivite-N1\"> </a></td><td>Unité de soins palliatifs</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N2<a name=\"TRE-R275-ModaliteActivite-N2\"> </a></td><td>Lits identifiés (Médecine) - adulte</td><td>2018-07-27T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N3<a name=\"TRE-R275-ModaliteActivite-N3\"> </a></td><td>Lits identifiés (Médecine) - pédiatrique</td><td>2018-07-27T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N4<a name=\"TRE-R275-ModaliteActivite-N4\"> </a></td><td>Equipe mobile</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N5<a name=\"TRE-R275-ModaliteActivite-N5\"> </a></td><td>Unité de soins intensifs (hors cardiologie)</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N6<a name=\"TRE-R275-ModaliteActivite-N6\"> </a></td><td>Unité de soins intensifs en cardiologie</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N7<a name=\"TRE-R275-ModaliteActivite-N7\"> </a></td><td>USC polyvalente - adulte (adossée à une unité de réanimation)</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N8<a name=\"TRE-R275-ModaliteActivite-N8\"> </a></td><td>USC polyvalente - adulte (non adossée à une unité de réanimation)</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N9<a name=\"TRE-R275-ModaliteActivite-N9\"> </a></td><td>USC polyvalente - pédiatrique (adossée à une unité de réanimation)</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P0<a name=\"TRE-R275-ModaliteActivite-P0\"> </a></td><td>USC polyvalente - pédiatrique (non adossée à une unité de réanimation)</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P1<a name=\"TRE-R275-ModaliteActivite-P1\"> </a></td><td>USC spécialisée cancérologie- pédiatrique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P2<a name=\"TRE-R275-ModaliteActivite-P2\"> </a></td><td>USC spécialisée transplantation d'organes - pédiatrique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P3<a name=\"TRE-R275-ModaliteActivite-P3\"> </a></td><td>USC chirurgicale individualisée - pédiatrique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P4<a name=\"TRE-R275-ModaliteActivite-P4\"> </a></td><td>A l'occasion d'un prélèvement multi-organes</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P5<a name=\"TRE-R275-ModaliteActivite-P5\"> </a></td><td>Adulte (âge &gt;=18 ans) - Traitement sans chimiothérapie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P6<a name=\"TRE-R275-ModaliteActivite-P6\"> </a></td><td>Anesthésie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P7<a name=\"TRE-R275-ModaliteActivite-P7\"> </a></td><td>Cardiologie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P8<a name=\"TRE-R275-ModaliteActivite-P8\"> </a></td><td>Cardiologie interventionnelle</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P9<a name=\"TRE-R275-ModaliteActivite-P9\"> </a></td><td>Centre de référence</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U0<a name=\"TRE-R275-ModaliteActivite-U0\"> </a></td><td>Neurologie - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U1<a name=\"TRE-R275-ModaliteActivite-U1\"> </a></td><td>Chambre stérile en hématologie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U2<a name=\"TRE-R275-ModaliteActivite-U2\"> </a></td><td>Chimiothérapie - Hémopathies malignes (certains types) - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U3<a name=\"TRE-R275-ModaliteActivite-U3\"> </a></td><td>Chimiothérapie - Hémopathies malignes (tous types) - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U4<a name=\"TRE-R275-ModaliteActivite-U4\"> </a></td><td>Chimiothérapie - Tumeurs solides - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U5<a name=\"TRE-R275-ModaliteActivite-U5\"> </a></td><td>Chirurgie cancer - Os et tissus mous - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U6<a name=\"TRE-R275-ModaliteActivite-U6\"> </a></td><td>Chirurgie cancer - Autres traitements spécifiques - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U8<a name=\"TRE-R275-ModaliteActivite-U8\"> </a></td><td>Chirurgie cancer - Cancer in situ du col de l'utérus - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">U9<a name=\"TRE-R275-ModaliteActivite-U9\"> </a></td><td>Chirurgie cancer - Cancer Thyroïde - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V1<a name=\"TRE-R275-ModaliteActivite-V1\"> </a></td><td>Chirurgie cancer - Cancers cutanés - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V2<a name=\"TRE-R275-ModaliteActivite-V2\"> </a></td><td>Chirurgie cancer - Pathologies ophtalmologiques - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V3<a name=\"TRE-R275-ModaliteActivite-V3\"> </a></td><td>Chirurgie cancer - Pathologies ORL et maxillo-faciales - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V4<a name=\"TRE-R275-ModaliteActivite-V4\"> </a></td><td>Chirurgie cancer - Pathologies orthopédiques - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V5<a name=\"TRE-R275-ModaliteActivite-V5\"> </a></td><td>Chirurgie cancer - Pathologies viscérales - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V6<a name=\"TRE-R275-ModaliteActivite-V6\"> </a></td><td>Chirurgie cancer - Système nerveux central - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V7<a name=\"TRE-R275-ModaliteActivite-V7\"> </a></td><td>Chirurgie cancer - Système nerveux central - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V8<a name=\"TRE-R275-ModaliteActivite-V8\"> </a></td><td>Chirurgie complexe de la main</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">V9<a name=\"TRE-R275-ModaliteActivite-V9\"> </a></td><td>Chirurgie digestive et viscérale</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">W1<a name=\"TRE-R275-ModaliteActivite-W1\"> </a></td><td>Unité péri-opératoire gériatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">W2<a name=\"TRE-R275-ModaliteActivite-W2\"> </a></td><td>Lits identifiés (SSR) - adulte</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">W3<a name=\"TRE-R275-ModaliteActivite-W3\"> </a></td><td>Lits identifiés (SSR) - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">W4<a name=\"TRE-R275-ModaliteActivite-W4\"> </a></td><td>Lit de Soins Intensifs - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">W5<a name=\"TRE-R275-ModaliteActivite-W5\"> </a></td><td>USPC - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">W6<a name=\"TRE-R275-ModaliteActivite-W6\"> </a></td><td>USPC - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "01" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "02" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "03" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "04" ] ;
@@ -150,10 +175,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "05" ] ;
@@ -171,10 +202,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "06" ] ;
@@ -192,10 +229,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "07" ] ;
@@ -213,10 +256,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "08" ] ;
@@ -234,10 +283,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "09" ] ;
@@ -255,10 +310,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "10" ] ;
@@ -276,10 +337,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "11" ] ;
@@ -297,10 +364,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "12" ] ;
@@ -318,10 +391,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "13" ] ;
@@ -339,10 +418,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "22" ] ;
@@ -360,10 +445,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "23" ] ;
@@ -381,10 +472,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "24" ] ;
@@ -402,10 +499,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "26" ] ;
@@ -423,10 +526,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "27" ] ;
@@ -444,10 +553,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "29" ] ;
@@ -465,10 +580,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "30" ] ;
@@ -486,10 +607,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "31" ] ;
@@ -507,10 +634,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "40" ] ;
@@ -528,10 +661,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "41" ] ;
@@ -549,10 +688,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "42" ] ;
@@ -570,10 +715,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "43" ] ;
@@ -591,10 +742,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "44" ] ;
@@ -612,10 +769,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "45" ] ;
@@ -633,10 +796,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "46" ] ;
@@ -654,10 +823,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "47" ] ;
@@ -675,10 +850,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "48" ] ;
@@ -696,10 +877,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "49" ] ;
@@ -717,10 +904,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "50" ] ;
@@ -738,10 +931,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "51" ] ;
@@ -759,10 +958,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "52" ] ;
@@ -780,10 +985,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "54" ] ;
@@ -801,10 +1012,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "59" ] ;
@@ -822,10 +1039,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "60" ] ;
@@ -843,10 +1066,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "61" ] ;
@@ -864,13 +1093,22 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "62" ] ;
@@ -888,10 +1126,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "63" ] ;
@@ -909,13 +1153,22 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "64" ] ;
@@ -933,13 +1186,22 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "65" ] ;
@@ -957,13 +1219,22 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "67" ] ;
@@ -981,10 +1252,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "68" ] ;
@@ -1002,10 +1279,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "69" ] ;
@@ -1023,10 +1306,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "70" ] ;
@@ -1044,10 +1333,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "71" ] ;
@@ -1065,10 +1360,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "72" ] ;
@@ -1086,10 +1387,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "73" ] ;
@@ -1107,10 +1414,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "74" ] ;
@@ -1128,10 +1441,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "75" ] ;
@@ -1149,10 +1468,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "76" ] ;
@@ -1170,10 +1495,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "77" ] ;
@@ -1191,10 +1522,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "78" ] ;
@@ -1212,10 +1549,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "79" ] ;
@@ -1233,10 +1576,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "80" ] ;
@@ -1254,10 +1603,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "81" ] ;
@@ -1275,10 +1630,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "82" ] ;
@@ -1296,10 +1657,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "83" ] ;
@@ -1317,10 +1684,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "84" ] ;
@@ -1338,10 +1711,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "85" ] ;
@@ -1359,10 +1738,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "87" ] ;
@@ -1380,10 +1765,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "88" ] ;
@@ -1401,10 +1792,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "89" ] ;
@@ -1422,10 +1819,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "90" ] ;
@@ -1443,10 +1846,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "91" ] ;
@@ -1464,10 +1873,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "92" ] ;
@@ -1485,10 +1900,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "93" ] ;
@@ -1506,10 +1927,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "94" ] ;
@@ -1527,10 +1954,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "95" ] ;
@@ -1548,10 +1981,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "97" ] ;
@@ -1569,10 +2008,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "98" ] ;
@@ -1590,10 +2035,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "99" ] ;
@@ -1611,10 +2062,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "AL" ] ;
@@ -1632,10 +2089,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "AM" ] ;
@@ -1653,10 +2116,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "AN" ] ;
@@ -1674,10 +2143,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "AP" ] ;
@@ -1695,10 +2170,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "AQ" ] ;
@@ -1716,10 +2197,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "AR" ] ;
@@ -1737,10 +2224,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "B1" ] ;
@@ -1758,10 +2251,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "B2" ] ;
@@ -1779,10 +2278,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "B3" ] ;
@@ -1800,10 +2305,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "B4" ] ;
@@ -1821,10 +2332,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "B5" ] ;
@@ -1842,10 +2359,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "B7" ] ;
@@ -1863,10 +2386,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "B8" ] ;
@@ -1884,10 +2413,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "B9" ] ;
@@ -1905,10 +2440,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "C2" ] ;
@@ -1926,10 +2467,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "C4" ] ;
@@ -1947,10 +2494,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "C5" ] ;
@@ -1968,10 +2521,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "C6" ] ;
@@ -1989,10 +2548,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "C7" ] ;
@@ -2010,10 +2575,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "C8" ] ;
@@ -2031,10 +2602,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "C9" ] ;
@@ -2052,10 +2629,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "D2" ] ;
@@ -2073,10 +2656,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "D3" ] ;
@@ -2094,10 +2683,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "D4" ] ;
@@ -2115,10 +2710,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "D5" ] ;
@@ -2136,10 +2737,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "D6" ] ;
@@ -2157,10 +2764,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "D7" ] ;
@@ -2178,10 +2791,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "D8" ] ;
@@ -2199,10 +2818,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "D9" ] ;
@@ -2220,10 +2845,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "E1" ] ;
@@ -2241,10 +2872,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "E2" ] ;
@@ -2262,10 +2899,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "E3" ] ;
@@ -2283,10 +2926,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "E4" ] ;
@@ -2304,10 +2953,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "E5" ] ;
@@ -2325,10 +2980,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "E7" ] ;
@@ -2346,10 +3007,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "E8" ] ;
@@ -2367,10 +3034,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "E9" ] ;
@@ -2388,10 +3061,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "F1" ] ;
@@ -2409,10 +3088,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "F2" ] ;
@@ -2430,10 +3115,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "F3" ] ;
@@ -2451,10 +3142,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "F5" ] ;
@@ -2472,10 +3169,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "F6" ] ;
@@ -2493,10 +3196,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "F7" ] ;
@@ -2514,10 +3223,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "F8" ] ;
@@ -2535,10 +3250,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "G1" ] ;
@@ -2556,10 +3277,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "G3" ] ;
@@ -2577,10 +3304,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "G5" ] ;
@@ -2598,10 +3331,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "G6" ] ;
@@ -2619,10 +3358,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "G8" ] ;
@@ -2640,10 +3385,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "G9" ] ;
@@ -2661,10 +3412,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "H1" ] ;
@@ -2682,10 +3439,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "H4" ] ;
@@ -2703,10 +3466,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "H5" ] ;
@@ -2724,10 +3493,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "H8" ] ;
@@ -2745,10 +3520,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2022-03-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2022-03-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2022-03-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2022-03-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "H9" ] ;
@@ -2766,10 +3547,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "M0" ] ;
@@ -2787,10 +3574,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "M1" ] ;
@@ -2808,10 +3601,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "M2" ] ;
@@ -2829,10 +3628,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "M3" ] ;
@@ -2850,10 +3655,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "M4" ] ;
@@ -2871,10 +3682,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "M5" ] ;
@@ -2892,10 +3709,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "M6" ] ;
@@ -2913,10 +3736,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "M7" ] ;
@@ -2934,10 +3763,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "M8" ] ;
@@ -2955,10 +3790,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "M9" ] ;
@@ -2976,10 +3817,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "N0" ] ;
@@ -2997,10 +3844,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "N1" ] ;
@@ -3018,10 +3871,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "N2" ] ;
@@ -3039,10 +3898,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "N3" ] ;
@@ -3060,10 +3925,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "N4" ] ;
@@ -3081,10 +3952,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "N5" ] ;
@@ -3102,10 +3979,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "N6" ] ;
@@ -3123,10 +4006,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "N7" ] ;
@@ -3144,10 +4033,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "N8" ] ;
@@ -3165,10 +4060,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "N9" ] ;
@@ -3186,10 +4087,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P0" ] ;
@@ -3207,10 +4114,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P1" ] ;
@@ -3228,10 +4141,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P2" ] ;
@@ -3249,10 +4168,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P3" ] ;
@@ -3270,10 +4195,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P4" ] ;
@@ -3291,10 +4222,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P5" ] ;
@@ -3312,10 +4249,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P6" ] ;
@@ -3333,10 +4276,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P7" ] ;
@@ -3354,10 +4303,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P8" ] ;
@@ -3375,10 +4330,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P9" ] ;
@@ -3396,10 +4357,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "U0" ] ;
@@ -3417,10 +4384,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "U1" ] ;
@@ -3438,10 +4411,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "U2" ] ;
@@ -3459,10 +4438,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "U3" ] ;
@@ -3480,10 +4465,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "U4" ] ;
@@ -3501,10 +4492,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "U5" ] ;
@@ -3522,10 +4519,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "U6" ] ;
@@ -3543,10 +4546,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "U8" ] ;
@@ -3564,10 +4573,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "U9" ] ;
@@ -3585,10 +4600,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "V1" ] ;
@@ -3606,10 +4627,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "V2" ] ;
@@ -3627,10 +4654,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "V3" ] ;
@@ -3648,10 +4681,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "V4" ] ;
@@ -3669,10 +4708,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "V5" ] ;
@@ -3690,10 +4735,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "V6" ] ;
@@ -3711,10 +4762,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "V7" ] ;
@@ -3732,10 +4789,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "V8" ] ;
@@ -3753,10 +4816,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "V9" ] ;
@@ -3774,10 +4843,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "W1" ] ;
@@ -3795,10 +4870,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "W2" ] ;
@@ -3816,10 +4897,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "W3" ] ;
@@ -3837,10 +4924,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "W4" ] ;
@@ -3858,10 +4951,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "W5" ] ;
@@ -3879,10 +4978,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "W6" ] ;
@@ -3900,10 +5005,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

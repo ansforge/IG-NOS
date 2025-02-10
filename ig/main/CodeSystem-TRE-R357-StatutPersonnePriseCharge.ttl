@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R357-StatutPersonnePriseCharge"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R357-StatutPersonnePriseCharge</b></p><a name=\"TRE-R357-StatutPersonnePriseCharge\"> </a><a name=\"hcTRE-R357-StatutPersonnePriseCharge\"> </a><a name=\"TRE-R357-StatutPersonnePriseCharge-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R357-StatutPersonnePriseCharge/FHIR/TRE-R357-StatutPersonnePriseCharge</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"TRE-R357-StatutPersonnePriseCharge-37\"> </a></td><td>Décision d'orientation annulée</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"TRE-R357-StatutPersonnePriseCharge-39\"> </a></td><td>Notification envoyée</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"TRE-R357-StatutPersonnePriseCharge-40\"> </a></td><td>Notification lue</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"TRE-R357-StatutPersonnePriseCharge-41\"> </a></td><td>Contact effectué</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"TRE-R357-StatutPersonnePriseCharge-42\"> </a></td><td>Liste d'attente. En cours d'analyse, demande d'admission reçue dans l'ESMS</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"TRE-R357-StatutPersonnePriseCharge-43\"> </a></td><td>Période d'essai en cours dans l'ESMS</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"TRE-R357-StatutPersonnePriseCharge-44\"> </a></td><td>Période d'essai non concluante dans l'ESMS</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"TRE-R357-StatutPersonnePriseCharge-45\"> </a></td><td>Admission impossible signalée</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"TRE-R357-StatutPersonnePriseCharge-46\"> </a></td><td>Admission impossible entérinée</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"TRE-R357-StatutPersonnePriseCharge-47\"> </a></td><td>Usager entré</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"TRE-R357-StatutPersonnePriseCharge-48\"> </a></td><td>Usager sorti</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"TRE-R357-StatutPersonnePriseCharge-49\"> </a></td><td>Notification annulée</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-R357-StatutPersonnePriseCharge-51\"> </a></td><td>Demande de réorientation dans l'ESMS</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"TRE-R357-StatutPersonnePriseCharge-54\"> </a></td><td>Notification réactivée</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"TRE-R357-StatutPersonnePriseCharge-71\"> </a></td><td>Liste d'attente. Admis dans l'ESMS</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">72<a name=\"TRE-R357-StatutPersonnePriseCharge-72\"> </a></td><td>Liste d'attente. Admissible dans l'ESMS</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">180<a name=\"TRE-R357-StatutPersonnePriseCharge-180\"> </a></td><td>Retiré de la liste d'attente ou accompagnement annulé</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">181<a name=\"TRE-R357-StatutPersonnePriseCharge-181\"> </a></td><td>Période d'essai non concluante dans l'unité</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">182<a name=\"TRE-R357-StatutPersonnePriseCharge-182\"> </a></td><td>Liste d'attente. En cours d'analyse, demande d'admission reçue dans l'unité</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">183<a name=\"TRE-R357-StatutPersonnePriseCharge-183\"> </a></td><td>Liste d'attente. Admissible dans l'unité</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">184<a name=\"TRE-R357-StatutPersonnePriseCharge-184\"> </a></td><td>Liste d'attente. Admis dans l'unité</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">185<a name=\"TRE-R357-StatutPersonnePriseCharge-185\"> </a></td><td>Période d'essai en cours dans l'unité</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">186<a name=\"TRE-R357-StatutPersonnePriseCharge-186\"> </a></td><td>Usager pris en charge</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">187<a name=\"TRE-R357-StatutPersonnePriseCharge-187\"> </a></td><td>Demande de réorientation dans l'unité</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">188<a name=\"TRE-R357-StatutPersonnePriseCharge-188\"> </a></td><td>Fin de prise en charge</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R357-StatutPersonnePriseCharge</b></p><a name=\"TRE-R357-StatutPersonnePriseCharge\"> </a><a name=\"hcTRE-R357-StatutPersonnePriseCharge\"> </a><a name=\"TRE-R357-StatutPersonnePriseCharge-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R357-StatutPersonnePriseCharge/FHIR/TRE-R357-StatutPersonnePriseCharge</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"TRE-R357-StatutPersonnePriseCharge-37\"> </a></td><td>Décision d'orientation annulée</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"TRE-R357-StatutPersonnePriseCharge-39\"> </a></td><td>Notification envoyée</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"TRE-R357-StatutPersonnePriseCharge-40\"> </a></td><td>Notification lue</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"TRE-R357-StatutPersonnePriseCharge-41\"> </a></td><td>Contact effectué</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"TRE-R357-StatutPersonnePriseCharge-42\"> </a></td><td>Liste d'attente. En cours d'analyse, demande d'admission reçue dans l'ESMS</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"TRE-R357-StatutPersonnePriseCharge-43\"> </a></td><td>Période d'essai en cours dans l'ESMS</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"TRE-R357-StatutPersonnePriseCharge-44\"> </a></td><td>Période d'essai non concluante dans l'ESMS</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"TRE-R357-StatutPersonnePriseCharge-45\"> </a></td><td>Admission impossible signalée</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"TRE-R357-StatutPersonnePriseCharge-46\"> </a></td><td>Admission impossible entérinée</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"TRE-R357-StatutPersonnePriseCharge-47\"> </a></td><td>Usager entré</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"TRE-R357-StatutPersonnePriseCharge-48\"> </a></td><td>Usager sorti</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"TRE-R357-StatutPersonnePriseCharge-49\"> </a></td><td>Notification annulée</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-R357-StatutPersonnePriseCharge-51\"> </a></td><td>Demande de réorientation dans l'ESMS</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"TRE-R357-StatutPersonnePriseCharge-54\"> </a></td><td>Notification réactivée</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"TRE-R357-StatutPersonnePriseCharge-71\"> </a></td><td>Liste d'attente. Admis dans l'ESMS</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">72<a name=\"TRE-R357-StatutPersonnePriseCharge-72\"> </a></td><td>Liste d'attente. Admissible dans l'ESMS</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">180<a name=\"TRE-R357-StatutPersonnePriseCharge-180\"> </a></td><td>Retiré de la liste d'attente ou accompagnement annulé</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">181<a name=\"TRE-R357-StatutPersonnePriseCharge-181\"> </a></td><td>Période d'essai non concluante dans l'unité</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">182<a name=\"TRE-R357-StatutPersonnePriseCharge-182\"> </a></td><td>Liste d'attente. En cours d'analyse, demande d'admission reçue dans l'unité</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">183<a name=\"TRE-R357-StatutPersonnePriseCharge-183\"> </a></td><td>Liste d'attente. Admissible dans l'unité</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">184<a name=\"TRE-R357-StatutPersonnePriseCharge-184\"> </a></td><td>Liste d'attente. Admis dans l'unité</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">185<a name=\"TRE-R357-StatutPersonnePriseCharge-185\"> </a></td><td>Période d'essai en cours dans l'unité</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">186<a name=\"TRE-R357-StatutPersonnePriseCharge-186\"> </a></td><td>Usager pris en charge</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">187<a name=\"TRE-R357-StatutPersonnePriseCharge-187\"> </a></td><td>Demande de réorientation dans l'unité</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">188<a name=\"TRE-R357-StatutPersonnePriseCharge-188\"> </a></td><td>Fin de prise en charge</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "39" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "40" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "41" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "42" ] ;
@@ -150,10 +175,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "43" ] ;
@@ -171,10 +202,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "44" ] ;
@@ -192,10 +229,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "45" ] ;
@@ -213,10 +256,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "46" ] ;
@@ -234,10 +283,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "47" ] ;
@@ -255,10 +310,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "48" ] ;
@@ -276,10 +337,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "49" ] ;
@@ -297,10 +364,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "51" ] ;
@@ -318,10 +391,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "54" ] ;
@@ -339,10 +418,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "71" ] ;
@@ -360,10 +445,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "72" ] ;
@@ -381,10 +472,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "180" ] ;
@@ -402,10 +499,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "181" ] ;
@@ -423,10 +526,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "182" ] ;
@@ -444,10 +553,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "183" ] ;
@@ -465,10 +580,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "184" ] ;
@@ -486,10 +607,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "185" ] ;
@@ -507,10 +634,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "186" ] ;
@@ -528,10 +661,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "187" ] ;
@@ -549,10 +688,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "188" ] ;
@@ -570,10 +715,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

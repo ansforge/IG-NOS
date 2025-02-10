@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R265-PrestationPilotageSerafin"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R265-PrestationPilotageSerafin</b></p><a name=\"TRE-R265-PrestationPilotageSerafin\"> </a><a name=\"hcTRE-R265-PrestationPilotageSerafin\"> </a><a name=\"TRE-R265-PrestationPilotageSerafin-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">001<a name=\"TRE-R265-PrestationPilotageSerafin-001\"> </a></td><td>Prestations de soins et d'accompagnement</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">002<a name=\"TRE-R265-PrestationPilotageSerafin-002\"> </a></td><td>Prestations de soins, de maintien et de dév des capacités fonctionnelles</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">003<a name=\"TRE-R265-PrestationPilotageSerafin-003\"> </a></td><td>Soins somatiques et psychiques</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">004<a name=\"TRE-R265-PrestationPilotageSerafin-004\"> </a></td><td>Soins médicaux à visée préventive, curative et palliative</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">005<a name=\"TRE-R265-PrestationPilotageSerafin-005\"> </a></td><td>Soins techniques et de surveillance infirmiers ou délégués</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">006<a name=\"TRE-R265-PrestationPilotageSerafin-006\"> </a></td><td>Prestations des psychologues</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">007<a name=\"TRE-R265-PrestationPilotageSerafin-007\"> </a></td><td>Prestations des pharmaciens et préparateurs en pharmacie</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">008<a name=\"TRE-R265-PrestationPilotageSerafin-008\"> </a></td><td>Rééducation et réadaptation fonctionnelle</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">009<a name=\"TRE-R265-PrestationPilotageSerafin-009\"> </a></td><td>Prestations des auxiliaires méd, des instructeurs en locomotion et avéjistes</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">010<a name=\"TRE-R265-PrestationPilotageSerafin-010\"> </a></td><td>Prestations en matière d'autonomie</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">011<a name=\"TRE-R265-PrestationPilotageSerafin-011\"> </a></td><td>Accompagnements pour les actes de la vie quotidienne</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">012<a name=\"TRE-R265-PrestationPilotageSerafin-012\"> </a></td><td>Accompagnements pour la communication et les relations avec autrui</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">013<a name=\"TRE-R265-PrestationPilotageSerafin-013\"> </a></td><td>Accompagnements pour prendre des décisions adaptées et pour la sécurité</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">014<a name=\"TRE-R265-PrestationPilotageSerafin-014\"> </a></td><td>Prestations pour la participation sociale</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">015<a name=\"TRE-R265-PrestationPilotageSerafin-015\"> </a></td><td>Accompagnements pour exercer ses droits</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">016<a name=\"TRE-R265-PrestationPilotageSerafin-016\"> </a></td><td>Accompagnements à l'expression du projet personnalisé</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">017<a name=\"TRE-R265-PrestationPilotageSerafin-017\"> </a></td><td>Accompagnements à l'exercice des droits et libertés</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">018<a name=\"TRE-R265-PrestationPilotageSerafin-018\"> </a></td><td>Accompagnements au logement</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">019<a name=\"TRE-R265-PrestationPilotageSerafin-019\"> </a></td><td>Accompagnements pour vivre dans un logement</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">020<a name=\"TRE-R265-PrestationPilotageSerafin-020\"> </a></td><td>Accompagnements pour accomplir les activités domestiques</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">021<a name=\"TRE-R265-PrestationPilotageSerafin-021\"> </a></td><td>Accompagnements pour exercer ses rôles sociaux</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">022<a name=\"TRE-R265-PrestationPilotageSerafin-022\"> </a></td><td>Accompagnements pour mener sa vie d'élève, d'étudiant ou d'apprenti</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">023<a name=\"TRE-R265-PrestationPilotageSerafin-023\"> </a></td><td>Accompagnements pour préparer sa vie professionnelle</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">024<a name=\"TRE-R265-PrestationPilotageSerafin-024\"> </a></td><td>Accompagnements pour mener sa vie professionnelle</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">025<a name=\"TRE-R265-PrestationPilotageSerafin-025\"> </a></td><td>Accompagnements pour réaliser des activités de jour spécialisées</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">026<a name=\"TRE-R265-PrestationPilotageSerafin-026\"> </a></td><td>Accompagnement de la vie familiale, la parentalité, la vie affective et sexuelle</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">027<a name=\"TRE-R265-PrestationPilotageSerafin-027\"> </a></td><td>Accompagnement pour l'ex de mandats élec, la représ des pairs et la pair aidance</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">028<a name=\"TRE-R265-PrestationPilotageSerafin-028\"> </a></td><td>Accompagnements pour participer à la vie sociale</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">029<a name=\"TRE-R265-PrestationPilotageSerafin-029\"> </a></td><td>Accompagnements du lien avec les proches et le voisinage</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">030<a name=\"TRE-R265-PrestationPilotageSerafin-030\"> </a></td><td>Accompagnements pour la participation aux activités sociales et de loisirs</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">031<a name=\"TRE-R265-PrestationPilotageSerafin-031\"> </a></td><td>Accompagnements pour le développement de l'autonomie pour les déplacements</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">032<a name=\"TRE-R265-PrestationPilotageSerafin-032\"> </a></td><td>(Accompagnements après la sortie de l'ESMS)</td><td>2018-05-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">033<a name=\"TRE-R265-PrestationPilotageSerafin-033\"> </a></td><td>Accompagnements en matière de ressources et d'autogestion</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">034<a name=\"TRE-R265-PrestationPilotageSerafin-034\"> </a></td><td>Accompagnements pour l'ouverture des droits</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">035<a name=\"TRE-R265-PrestationPilotageSerafin-035\"> </a></td><td>Accompagnements pour l'autonomie de la pers dans la gestion de ses ressources</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">036<a name=\"TRE-R265-PrestationPilotageSerafin-036\"> </a></td><td>Informations, conseils et mise en oeuvre des mesures de protection des adultes</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">037<a name=\"TRE-R265-PrestationPilotageSerafin-037\"> </a></td><td>Prestation de coordination renforcée pour la cohérence du parcours</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">038<a name=\"TRE-R265-PrestationPilotageSerafin-038\"> </a></td><td>Pilotage et fonctions supports</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">039<a name=\"TRE-R265-PrestationPilotageSerafin-039\"> </a></td><td>Fonctions gérer, manager, coopérer</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">040<a name=\"TRE-R265-PrestationPilotageSerafin-040\"> </a></td><td>Gestion des ressources humaines</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">041<a name=\"TRE-R265-PrestationPilotageSerafin-041\"> </a></td><td>Pilotage et direction</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">042<a name=\"TRE-R265-PrestationPilotageSerafin-042\"> </a></td><td>Gest des RH, de la gest prev des emplois et des compétences, du dialogue social</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">043<a name=\"TRE-R265-PrestationPilotageSerafin-043\"> </a></td><td>Gestion administrative, budgétaire, financière et comptable</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">044<a name=\"TRE-R265-PrestationPilotageSerafin-044\"> </a></td><td>Gestion budgétaire, financière et comptable</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">045<a name=\"TRE-R265-PrestationPilotageSerafin-045\"> </a></td><td>Gestion administrative</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">046<a name=\"TRE-R265-PrestationPilotageSerafin-046\"> </a></td><td>Information et communication</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">047<a name=\"TRE-R265-PrestationPilotageSerafin-047\"> </a></td><td>Com (int et ext), statistiques, rapport annuel et documents collectifs 2002-2</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">048<a name=\"TRE-R265-PrestationPilotageSerafin-048\"> </a></td><td>Gest des données des pers accueillies, SI, informatique, TIC</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">049<a name=\"TRE-R265-PrestationPilotageSerafin-049\"> </a></td><td>Qualité et sécurité</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">050<a name=\"TRE-R265-PrestationPilotageSerafin-050\"> </a></td><td>Démarche d'amélioration continue de la qualité</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">051<a name=\"TRE-R265-PrestationPilotageSerafin-051\"> </a></td><td>Analyse des pratiques, espaces ressource et soutien aux personnels</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">052<a name=\"TRE-R265-PrestationPilotageSerafin-052\"> </a></td><td>Prestations de supervision</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">053<a name=\"TRE-R265-PrestationPilotageSerafin-053\"> </a></td><td>Relations avec le territoire</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">054<a name=\"TRE-R265-PrestationPilotageSerafin-054\"> </a></td><td>Coopération, conventions avec les acteurs spécialises et du droit commun</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">055<a name=\"TRE-R265-PrestationPilotageSerafin-055\"> </a></td><td>Appui-Ressource et partenariats institutionnels</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">056<a name=\"TRE-R265-PrestationPilotageSerafin-056\"> </a></td><td>Transports liés à gérer, manager, coopérer</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">057<a name=\"TRE-R265-PrestationPilotageSerafin-057\"> </a></td><td>Fonctions logistiques</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">058<a name=\"TRE-R265-PrestationPilotageSerafin-058\"> </a></td><td>Locaux et autres ressources pour accueillir</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">059<a name=\"TRE-R265-PrestationPilotageSerafin-059\"> </a></td><td>Locaux et autres ressources pour héberger</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">060<a name=\"TRE-R265-PrestationPilotageSerafin-060\"> </a></td><td>Locaux et autres ressources pour accueillir le jour</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">061<a name=\"TRE-R265-PrestationPilotageSerafin-061\"> </a></td><td>réaliser des presta de soins, de maintien et de dév des capacités fonctionnelles</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">062<a name=\"TRE-R265-PrestationPilotageSerafin-062\"> </a></td><td>Locaux et autres ressources pour gérer, manager, coopérer</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">063<a name=\"TRE-R265-PrestationPilotageSerafin-063\"> </a></td><td>Hygiène, entretien, sécurité des locaux, espaces extérieurs</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">064<a name=\"TRE-R265-PrestationPilotageSerafin-064\"> </a></td><td>Fournir des repas</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">065<a name=\"TRE-R265-PrestationPilotageSerafin-065\"> </a></td><td>Fournir des repas</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">066<a name=\"TRE-R265-PrestationPilotageSerafin-066\"> </a></td><td>Entretenir le linge</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">067<a name=\"TRE-R265-PrestationPilotageSerafin-067\"> </a></td><td>Entretenir le linge</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">068<a name=\"TRE-R265-PrestationPilotageSerafin-068\"> </a></td><td>Transports liés au projet individuel</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">069<a name=\"TRE-R265-PrestationPilotageSerafin-069\"> </a></td><td>Transports liés à accueillir (domicile-structure)</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">070<a name=\"TRE-R265-PrestationPilotageSerafin-070\"> </a></td><td>Transports liés aux presta de soins, de maintien et de dev des capacités fonc</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">071<a name=\"TRE-R265-PrestationPilotageSerafin-071\"> </a></td><td>Transports liés à l'autonomie et A la participation sociale</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">072<a name=\"TRE-R265-PrestationPilotageSerafin-072\"> </a></td><td>Transports des biens et matériels liés à la restau et à l'entretien du linge</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R265-PrestationPilotageSerafin</b></p><a name=\"TRE-R265-PrestationPilotageSerafin\"> </a><a name=\"hcTRE-R265-PrestationPilotageSerafin\"> </a><a name=\"TRE-R265-PrestationPilotageSerafin-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">001<a name=\"TRE-R265-PrestationPilotageSerafin-001\"> </a></td><td>Prestations de soins et d'accompagnement</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">002<a name=\"TRE-R265-PrestationPilotageSerafin-002\"> </a></td><td>Prestations de soins, de maintien et de dév des capacités fonctionnelles</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">003<a name=\"TRE-R265-PrestationPilotageSerafin-003\"> </a></td><td>Soins somatiques et psychiques</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">004<a name=\"TRE-R265-PrestationPilotageSerafin-004\"> </a></td><td>Soins médicaux à visée préventive, curative et palliative</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">005<a name=\"TRE-R265-PrestationPilotageSerafin-005\"> </a></td><td>Soins techniques et de surveillance infirmiers ou délégués</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">006<a name=\"TRE-R265-PrestationPilotageSerafin-006\"> </a></td><td>Prestations des psychologues</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">007<a name=\"TRE-R265-PrestationPilotageSerafin-007\"> </a></td><td>Prestations des pharmaciens et préparateurs en pharmacie</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">008<a name=\"TRE-R265-PrestationPilotageSerafin-008\"> </a></td><td>Rééducation et réadaptation fonctionnelle</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">009<a name=\"TRE-R265-PrestationPilotageSerafin-009\"> </a></td><td>Prestations des auxiliaires méd, des instructeurs en locomotion et avéjistes</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">010<a name=\"TRE-R265-PrestationPilotageSerafin-010\"> </a></td><td>Prestations en matière d'autonomie</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">011<a name=\"TRE-R265-PrestationPilotageSerafin-011\"> </a></td><td>Accompagnements pour les actes de la vie quotidienne</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">012<a name=\"TRE-R265-PrestationPilotageSerafin-012\"> </a></td><td>Accompagnements pour la communication et les relations avec autrui</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">013<a name=\"TRE-R265-PrestationPilotageSerafin-013\"> </a></td><td>Accompagnements pour prendre des décisions adaptées et pour la sécurité</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">014<a name=\"TRE-R265-PrestationPilotageSerafin-014\"> </a></td><td>Prestations pour la participation sociale</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">015<a name=\"TRE-R265-PrestationPilotageSerafin-015\"> </a></td><td>Accompagnements pour exercer ses droits</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">016<a name=\"TRE-R265-PrestationPilotageSerafin-016\"> </a></td><td>Accompagnements à l'expression du projet personnalisé</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">017<a name=\"TRE-R265-PrestationPilotageSerafin-017\"> </a></td><td>Accompagnements à l'exercice des droits et libertés</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">018<a name=\"TRE-R265-PrestationPilotageSerafin-018\"> </a></td><td>Accompagnements au logement</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">019<a name=\"TRE-R265-PrestationPilotageSerafin-019\"> </a></td><td>Accompagnements pour vivre dans un logement</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">020<a name=\"TRE-R265-PrestationPilotageSerafin-020\"> </a></td><td>Accompagnements pour accomplir les activités domestiques</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">021<a name=\"TRE-R265-PrestationPilotageSerafin-021\"> </a></td><td>Accompagnements pour exercer ses rôles sociaux</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">022<a name=\"TRE-R265-PrestationPilotageSerafin-022\"> </a></td><td>Accompagnements pour mener sa vie d'élève, d'étudiant ou d'apprenti</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">023<a name=\"TRE-R265-PrestationPilotageSerafin-023\"> </a></td><td>Accompagnements pour préparer sa vie professionnelle</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">024<a name=\"TRE-R265-PrestationPilotageSerafin-024\"> </a></td><td>Accompagnements pour mener sa vie professionnelle</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">025<a name=\"TRE-R265-PrestationPilotageSerafin-025\"> </a></td><td>Accompagnements pour réaliser des activités de jour spécialisées</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">026<a name=\"TRE-R265-PrestationPilotageSerafin-026\"> </a></td><td>Accompagnement de la vie familiale, la parentalité, la vie affective et sexuelle</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">027<a name=\"TRE-R265-PrestationPilotageSerafin-027\"> </a></td><td>Accompagnement pour l'ex de mandats élec, la représ des pairs et la pair aidance</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">028<a name=\"TRE-R265-PrestationPilotageSerafin-028\"> </a></td><td>Accompagnements pour participer à la vie sociale</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">029<a name=\"TRE-R265-PrestationPilotageSerafin-029\"> </a></td><td>Accompagnements du lien avec les proches et le voisinage</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">030<a name=\"TRE-R265-PrestationPilotageSerafin-030\"> </a></td><td>Accompagnements pour la participation aux activités sociales et de loisirs</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">031<a name=\"TRE-R265-PrestationPilotageSerafin-031\"> </a></td><td>Accompagnements pour le développement de l'autonomie pour les déplacements</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">032<a name=\"TRE-R265-PrestationPilotageSerafin-032\"> </a></td><td>(Accompagnements après la sortie de l'ESMS)</td><td>2018-05-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">033<a name=\"TRE-R265-PrestationPilotageSerafin-033\"> </a></td><td>Accompagnements en matière de ressources et d'autogestion</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">034<a name=\"TRE-R265-PrestationPilotageSerafin-034\"> </a></td><td>Accompagnements pour l'ouverture des droits</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">035<a name=\"TRE-R265-PrestationPilotageSerafin-035\"> </a></td><td>Accompagnements pour l'autonomie de la pers dans la gestion de ses ressources</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">036<a name=\"TRE-R265-PrestationPilotageSerafin-036\"> </a></td><td>Informations, conseils et mise en oeuvre des mesures de protection des adultes</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">037<a name=\"TRE-R265-PrestationPilotageSerafin-037\"> </a></td><td>Prestation de coordination renforcée pour la cohérence du parcours</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">038<a name=\"TRE-R265-PrestationPilotageSerafin-038\"> </a></td><td>Pilotage et fonctions supports</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">039<a name=\"TRE-R265-PrestationPilotageSerafin-039\"> </a></td><td>Fonctions gérer, manager, coopérer</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">040<a name=\"TRE-R265-PrestationPilotageSerafin-040\"> </a></td><td>Gestion des ressources humaines</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">041<a name=\"TRE-R265-PrestationPilotageSerafin-041\"> </a></td><td>Pilotage et direction</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">042<a name=\"TRE-R265-PrestationPilotageSerafin-042\"> </a></td><td>Gest des RH, de la gest prev des emplois et des compétences, du dialogue social</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">043<a name=\"TRE-R265-PrestationPilotageSerafin-043\"> </a></td><td>Gestion administrative, budgétaire, financière et comptable</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">044<a name=\"TRE-R265-PrestationPilotageSerafin-044\"> </a></td><td>Gestion budgétaire, financière et comptable</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">045<a name=\"TRE-R265-PrestationPilotageSerafin-045\"> </a></td><td>Gestion administrative</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">046<a name=\"TRE-R265-PrestationPilotageSerafin-046\"> </a></td><td>Information et communication</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">047<a name=\"TRE-R265-PrestationPilotageSerafin-047\"> </a></td><td>Com (int et ext), statistiques, rapport annuel et documents collectifs 2002-2</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">048<a name=\"TRE-R265-PrestationPilotageSerafin-048\"> </a></td><td>Gest des données des pers accueillies, SI, informatique, TIC</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">049<a name=\"TRE-R265-PrestationPilotageSerafin-049\"> </a></td><td>Qualité et sécurité</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">050<a name=\"TRE-R265-PrestationPilotageSerafin-050\"> </a></td><td>Démarche d'amélioration continue de la qualité</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">051<a name=\"TRE-R265-PrestationPilotageSerafin-051\"> </a></td><td>Analyse des pratiques, espaces ressource et soutien aux personnels</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">052<a name=\"TRE-R265-PrestationPilotageSerafin-052\"> </a></td><td>Prestations de supervision</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">053<a name=\"TRE-R265-PrestationPilotageSerafin-053\"> </a></td><td>Relations avec le territoire</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">054<a name=\"TRE-R265-PrestationPilotageSerafin-054\"> </a></td><td>Coopération, conventions avec les acteurs spécialises et du droit commun</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">055<a name=\"TRE-R265-PrestationPilotageSerafin-055\"> </a></td><td>Appui-Ressource et partenariats institutionnels</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">056<a name=\"TRE-R265-PrestationPilotageSerafin-056\"> </a></td><td>Transports liés à gérer, manager, coopérer</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">057<a name=\"TRE-R265-PrestationPilotageSerafin-057\"> </a></td><td>Fonctions logistiques</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">058<a name=\"TRE-R265-PrestationPilotageSerafin-058\"> </a></td><td>Locaux et autres ressources pour accueillir</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">059<a name=\"TRE-R265-PrestationPilotageSerafin-059\"> </a></td><td>Locaux et autres ressources pour héberger</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">060<a name=\"TRE-R265-PrestationPilotageSerafin-060\"> </a></td><td>Locaux et autres ressources pour accueillir le jour</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">061<a name=\"TRE-R265-PrestationPilotageSerafin-061\"> </a></td><td>réaliser des presta de soins, de maintien et de dév des capacités fonctionnelles</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">062<a name=\"TRE-R265-PrestationPilotageSerafin-062\"> </a></td><td>Locaux et autres ressources pour gérer, manager, coopérer</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">063<a name=\"TRE-R265-PrestationPilotageSerafin-063\"> </a></td><td>Hygiène, entretien, sécurité des locaux, espaces extérieurs</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">064<a name=\"TRE-R265-PrestationPilotageSerafin-064\"> </a></td><td>Fournir des repas</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">065<a name=\"TRE-R265-PrestationPilotageSerafin-065\"> </a></td><td>Fournir des repas</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">066<a name=\"TRE-R265-PrestationPilotageSerafin-066\"> </a></td><td>Entretenir le linge</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">067<a name=\"TRE-R265-PrestationPilotageSerafin-067\"> </a></td><td>Entretenir le linge</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">068<a name=\"TRE-R265-PrestationPilotageSerafin-068\"> </a></td><td>Transports liés au projet individuel</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">069<a name=\"TRE-R265-PrestationPilotageSerafin-069\"> </a></td><td>Transports liés à accueillir (domicile-structure)</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">070<a name=\"TRE-R265-PrestationPilotageSerafin-070\"> </a></td><td>Transports liés aux presta de soins, de maintien et de dev des capacités fonc</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">071<a name=\"TRE-R265-PrestationPilotageSerafin-071\"> </a></td><td>Transports liés à l'autonomie et A la participation sociale</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">072<a name=\"TRE-R265-PrestationPilotageSerafin-072\"> </a></td><td>Transports des biens et matériels liés à la restau et à l'entretien du linge</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "002" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "003" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "004" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "005" ] ;
@@ -150,10 +175,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "006" ] ;
@@ -171,10 +202,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "007" ] ;
@@ -192,10 +229,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "008" ] ;
@@ -213,10 +256,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "009" ] ;
@@ -234,10 +283,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "010" ] ;
@@ -255,10 +310,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "011" ] ;
@@ -276,10 +337,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "012" ] ;
@@ -297,10 +364,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "013" ] ;
@@ -318,10 +391,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "014" ] ;
@@ -339,10 +418,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "015" ] ;
@@ -360,10 +445,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "016" ] ;
@@ -381,10 +472,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "017" ] ;
@@ -402,10 +499,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "018" ] ;
@@ -423,10 +526,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "019" ] ;
@@ -444,10 +553,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "020" ] ;
@@ -465,10 +580,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "021" ] ;
@@ -486,10 +607,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "022" ] ;
@@ -507,10 +634,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "023" ] ;
@@ -528,10 +661,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "024" ] ;
@@ -549,10 +688,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "025" ] ;
@@ -570,10 +715,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "026" ] ;
@@ -591,10 +742,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "027" ] ;
@@ -612,10 +769,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "028" ] ;
@@ -633,10 +796,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "029" ] ;
@@ -654,10 +823,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "030" ] ;
@@ -675,10 +850,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "031" ] ;
@@ -696,10 +877,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "032" ] ;
@@ -717,13 +904,22 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "033" ] ;
@@ -741,10 +937,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "034" ] ;
@@ -762,10 +964,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "035" ] ;
@@ -783,10 +991,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "036" ] ;
@@ -804,10 +1018,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "037" ] ;
@@ -825,10 +1045,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "038" ] ;
@@ -846,10 +1072,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "039" ] ;
@@ -867,10 +1099,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "040" ] ;
@@ -888,10 +1126,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "041" ] ;
@@ -909,10 +1153,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "042" ] ;
@@ -930,10 +1180,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "043" ] ;
@@ -951,10 +1207,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "044" ] ;
@@ -972,10 +1234,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "045" ] ;
@@ -993,10 +1261,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "046" ] ;
@@ -1014,10 +1288,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "047" ] ;
@@ -1035,10 +1315,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "048" ] ;
@@ -1056,10 +1342,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "049" ] ;
@@ -1077,10 +1369,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "050" ] ;
@@ -1098,10 +1396,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "051" ] ;
@@ -1119,10 +1423,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "052" ] ;
@@ -1140,10 +1450,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "053" ] ;
@@ -1161,10 +1477,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "054" ] ;
@@ -1182,10 +1504,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "055" ] ;
@@ -1203,10 +1531,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "056" ] ;
@@ -1224,10 +1558,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "057" ] ;
@@ -1245,10 +1585,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "058" ] ;
@@ -1266,10 +1612,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "059" ] ;
@@ -1287,10 +1639,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "060" ] ;
@@ -1308,10 +1666,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "061" ] ;
@@ -1329,10 +1693,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "062" ] ;
@@ -1350,10 +1720,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "063" ] ;
@@ -1371,10 +1747,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "064" ] ;
@@ -1392,10 +1774,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "065" ] ;
@@ -1413,10 +1801,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "066" ] ;
@@ -1434,10 +1828,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "067" ] ;
@@ -1455,10 +1855,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "068" ] ;
@@ -1476,10 +1882,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "069" ] ;
@@ -1497,10 +1909,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "070" ] ;
@@ -1518,10 +1936,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "071" ] ;
@@ -1539,10 +1963,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "072" ] ;
@@ -1560,10 +1990,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R342-XdsTypesIdentifiantsReferenceId"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R342-XdsTypesIdentifiantsReferenceId</b></p><a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId\"> </a><a name=\"hcTRE-R342-XdsTypesIdentifiantsReferenceId\"> </a><a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R342-XdsTypesIdentifiantsReferenceId/FHIR/TRE-R342-XdsTypesIdentifiantsReferenceId</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2013:uniqueId<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582013.58uniqueId\"> </a></td><td>uniqueId</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2013:accession<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582013.58accession\"> </a></td><td>accession</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2013:referral<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582013.58referral\"> </a></td><td>referral</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2013:order<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582013.58order\"> </a></td><td>order</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xdw:2013:workflowInstanceId<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xdw.582013.58workflowInstanceId\"> </a></td><td>workflowInstanceId</td><td>2022-06-24T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2016:studyInstanceUID<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582016.58studyInstanceUID\"> </a></td><td>studyInstanceUID</td><td>2022-06-24T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2015:encounterId<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582015.58encounterId\"> </a></td><td>encounterId</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R342-XdsTypesIdentifiantsReferenceId</b></p><a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId\"> </a><a name=\"hcTRE-R342-XdsTypesIdentifiantsReferenceId\"> </a><a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R342-XdsTypesIdentifiantsReferenceId/FHIR/TRE-R342-XdsTypesIdentifiantsReferenceId</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2013:uniqueId<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582013.58uniqueId\"> </a></td><td>uniqueId</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2013:accession<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582013.58accession\"> </a></td><td>accession</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2013:referral<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582013.58referral\"> </a></td><td>referral</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2013:order<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582013.58order\"> </a></td><td>order</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xdw:2013:workflowInstanceId<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xdw.582013.58workflowInstanceId\"> </a></td><td>workflowInstanceId</td><td>2022-06-24T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2016:studyInstanceUID<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582016.58studyInstanceUID\"> </a></td><td>studyInstanceUID</td><td>2022-06-24T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2015:encounterId<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582015.58encounterId\"> </a></td><td>encounterId</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "urn:ihe:iti:xds:2013:accession" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "urn:ihe:iti:xds:2013:referral" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "urn:ihe:iti:xds:2013:order" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "urn:ihe:iti:xdw:2013:workflowInstanceId" ] ;
@@ -150,10 +175,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "urn:ihe:iti:xds:2016:studyInstanceUID" ] ;
@@ -171,10 +202,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "urn:ihe:iti:xds:2015:encounterId" ] ;
@@ -192,10 +229,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

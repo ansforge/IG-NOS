@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.9"
     }
   ],
-  "version": "20240329120000",
+  "version": "20250131120000",
   "name": "TRE_R31-StatutEtatCivil",
   "status": "active",
-  "date": "2024-03-29T12:00:00+01:00",
+  "date": "2025-01-31T12:00:00+01:00",
   "description": "Status de l'état civil",
   "content": "complete",
   "property": [
@@ -177,6 +177,35 @@
         {
           "code": "dateMaj",
           "valueDateTime": "2021-11-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "FCP",
+      "display": "Certifié par FranceConnect+",
+      "definition":"FranceConnect+ est une version plus sécurisée de FranceConnect et propose une authentification renforcée permettant de limiter les risques d'usurpations d'identité grâce à l'identité numérique de La Poste.",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Certifié par FranceConnect+"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Certifié par FranceConnect+"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2025-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2025-01-31T12:00:00+01:00"
         }
       ]
     },

@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R302-ContexteCodeComplementaire"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R302-ContexteCodeComplementaire</b></p><a name=\"TRE-R302-ContexteCodeComplementaire\"> </a><a name=\"hcTRE-R302-ContexteCodeComplementaire\"> </a><a name=\"TRE-R302-ContexteCodeComplementaire-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R302-ContexteCodeComplementaire-01\"> </a></td><td>Non renseigné</td><td/><td>2020-08-28T12:00:00+01:00</td><td>2020-08-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R302-ContexteCodeComplementaire-02\"> </a></td><td>Autre</td><td>Tout ce qui n'est pas listé de façon exhaustive dans la liste de codes</td><td>2020-08-28T12:00:00+01:00</td><td>2020-08-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT<a name=\"TRE-R302-ContexteCodeComplementaire-AUT\"> </a></td><td>Autre motif</td><td/><td>2020-11-27T12:00:00+01:00</td><td>2020-11-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CHA<a name=\"TRE-R302-ContexteCodeComplementaire-CHA\"> </a></td><td>Changement d'activité</td><td/><td>2020-11-27T12:00:00+01:00</td><td>2020-11-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">def<a name=\"TRE-R302-ContexteCodeComplementaire-def\"> </a></td><td>Rejet par votre gestionnaire</td><td/><td>2020-11-27T12:00:00+01:00</td><td>2020-11-27T12:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R302-ContexteCodeComplementaire</b></p><a name=\"TRE-R302-ContexteCodeComplementaire\"> </a><a name=\"hcTRE-R302-ContexteCodeComplementaire\"> </a><a name=\"TRE-R302-ContexteCodeComplementaire-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R302-ContexteCodeComplementaire-01\"> </a></td><td>Non renseigné</td><td/><td>2020-08-28T12:00:00+01:00</td><td>2020-08-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R302-ContexteCodeComplementaire-02\"> </a></td><td>Autre</td><td>Tout ce qui n'est pas listé de façon exhaustive dans la liste de codes</td><td>2020-08-28T12:00:00+01:00</td><td>2020-08-28T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT<a name=\"TRE-R302-ContexteCodeComplementaire-AUT\"> </a></td><td>Autre motif</td><td/><td>2020-11-27T12:00:00+01:00</td><td>2020-11-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CHA<a name=\"TRE-R302-ContexteCodeComplementaire-CHA\"> </a></td><td>Changement d'activité</td><td/><td>2020-11-27T12:00:00+01:00</td><td>2020-11-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">def<a name=\"TRE-R302-ContexteCodeComplementaire-def\"> </a></td><td>Rejet par votre gestionnaire</td><td/><td>2020-11-27T12:00:00+01:00</td><td>2020-11-27T12:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-08-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-08-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-08-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-08-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "02" ] ;
@@ -88,10 +95,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-08-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-08-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-08-28T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-08-28T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "AUT" ] ;
@@ -109,10 +122,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-11-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-11-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-11-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-11-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CHA" ] ;
@@ -130,10 +149,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-11-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-11-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-11-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-11-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "def" ] ;
@@ -151,10 +176,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2020-11-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-11-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2020-11-27T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-11-27T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

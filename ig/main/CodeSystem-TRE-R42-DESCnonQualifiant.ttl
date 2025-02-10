@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R42-DESCnonQualifiant"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R42-DESCnonQualifiant</b></p><a name=\"TRE-R42-DESCnonQualifiant\"> </a><a name=\"hcTRE-R42-DESCnonQualifiant\"> </a><a name=\"TRE-R42-DESCnonQualifiant-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant/FHIR/TRE-R42-DESCnonQualifiant</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">DSM200<a name=\"TRE-R42-DESCnonQualifiant-DSM200\"> </a></td><td>Addictologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM201<a name=\"TRE-R42-DESCnonQualifiant-DSM201\"> </a></td><td>Allergologie et Immunologie clinique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM202<a name=\"TRE-R42-DESCnonQualifiant-DSM202\"> </a></td><td>Andrologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM203<a name=\"TRE-R42-DESCnonQualifiant-DSM203\"> </a></td><td>Biochimie hormonale et métabolique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM204<a name=\"TRE-R42-DESCnonQualifiant-DSM204\"> </a></td><td>Biologie des agents infectieux (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM205<a name=\"TRE-R42-DESCnonQualifiant-DSM205\"> </a></td><td>Biologie moléculaire (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM206<a name=\"TRE-R42-DESCnonQualifiant-DSM206\"> </a></td><td>Cancérologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM207<a name=\"TRE-R42-DESCnonQualifiant-DSM207\"> </a></td><td>Chirurgie de la face et du cou (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM208<a name=\"TRE-R42-DESCnonQualifiant-DSM208\"> </a></td><td>Chirurgie plastique et reconstructrice (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM209<a name=\"TRE-R42-DESCnonQualifiant-DSM209\"> </a></td><td>Chirurgie vasculaire (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM210<a name=\"TRE-R42-DESCnonQualifiant-DSM210\"> </a></td><td>Cytogénétique humaine (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM211<a name=\"TRE-R42-DESCnonQualifiant-DSM211\"> </a></td><td>Dermatopathologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM212<a name=\"TRE-R42-DESCnonQualifiant-DSM212\"> </a></td><td>Foetopathologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM213<a name=\"TRE-R42-DESCnonQualifiant-DSM213\"> </a></td><td>Gériatrie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM214<a name=\"TRE-R42-DESCnonQualifiant-DSM214\"> </a></td><td>Hématologie biologique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM215<a name=\"TRE-R42-DESCnonQualifiant-DSM215\"> </a></td><td>Hématologie maladies du sang (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM216<a name=\"TRE-R42-DESCnonQualifiant-DSM216\"> </a></td><td>Hémobiologie-transfusion (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM217<a name=\"TRE-R42-DESCnonQualifiant-DSM217\"> </a></td><td>Immunologie et Immunopathologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM218<a name=\"TRE-R42-DESCnonQualifiant-DSM218\"> </a></td><td>Médecine de la reproduction (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM219<a name=\"TRE-R42-DESCnonQualifiant-DSM219\"> </a></td><td>Médecine du sport (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM220<a name=\"TRE-R42-DESCnonQualifiant-DSM220\"> </a></td><td>Médecine d'urgence (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM221<a name=\"TRE-R42-DESCnonQualifiant-DSM221\"> </a></td><td>Médecine légale et Expertises médicales (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM222<a name=\"TRE-R42-DESCnonQualifiant-DSM222\"> </a></td><td>Médecine nucléaire (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM223<a name=\"TRE-R42-DESCnonQualifiant-DSM223\"> </a></td><td>Médecine vasculaire (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM224<a name=\"TRE-R42-DESCnonQualifiant-DSM224\"> </a></td><td>Néonatalogie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM225<a name=\"TRE-R42-DESCnonQualifiant-DSM225\"> </a></td><td>Neuropathologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM226<a name=\"TRE-R42-DESCnonQualifiant-DSM226\"> </a></td><td>Nutrition (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM227<a name=\"TRE-R42-DESCnonQualifiant-DSM227\"> </a></td><td>Orthopédie dento-maxillo-faciale (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM228<a name=\"TRE-R42-DESCnonQualifiant-DSM228\"> </a></td><td>Pathologie infectieuse et tropicale, clinique et biologique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM229<a name=\"TRE-R42-DESCnonQualifiant-DSM229\"> </a></td><td>Pharmacocinétique et Métabolisme des médicaments (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM230<a name=\"TRE-R42-DESCnonQualifiant-DSM230\"> </a></td><td>Pharmacologie clinique et Evaluation des thérapeutiques (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM231<a name=\"TRE-R42-DESCnonQualifiant-DSM231\"> </a></td><td>Psychiatrie de l'enfant et de l'adolescent (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM232<a name=\"TRE-R42-DESCnonQualifiant-DSM232\"> </a></td><td>Radiopharmacie et Radiobiologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM233<a name=\"TRE-R42-DESCnonQualifiant-DSM233\"> </a></td><td>Réanimation médicale (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM234<a name=\"TRE-R42-DESCnonQualifiant-DSM234\"> </a></td><td>Toxicologie biologique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM235<a name=\"TRE-R42-DESCnonQualifiant-DSM235\"> </a></td><td>Médecine de la douleur et Médecine palliative (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM236<a name=\"TRE-R42-DESCnonQualifiant-DSM236\"> </a></td><td>Cancérologie, option Traitements médicaux des cancers (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM237<a name=\"TRE-R42-DESCnonQualifiant-DSM237\"> </a></td><td>Cancérologie, option Chirurgie cancérologique (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM238<a name=\"TRE-R42-DESCnonQualifiant-DSM238\"> </a></td><td>Cancérologie, option Réseaux de cancérologie (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM239<a name=\"TRE-R42-DESCnonQualifiant-DSM239\"> </a></td><td>Cancérologie, option Biologie cancérologie (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM240<a name=\"TRE-R42-DESCnonQualifiant-DSM240\"> </a></td><td>Cancérologie, option Imagerie cancérologie (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R42-DESCnonQualifiant</b></p><a name=\"TRE-R42-DESCnonQualifiant\"> </a><a name=\"hcTRE-R42-DESCnonQualifiant\"> </a><a name=\"TRE-R42-DESCnonQualifiant-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant/FHIR/TRE-R42-DESCnonQualifiant</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">DSM200<a name=\"TRE-R42-DESCnonQualifiant-DSM200\"> </a></td><td>Addictologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM201<a name=\"TRE-R42-DESCnonQualifiant-DSM201\"> </a></td><td>Allergologie et Immunologie clinique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM202<a name=\"TRE-R42-DESCnonQualifiant-DSM202\"> </a></td><td>Andrologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM203<a name=\"TRE-R42-DESCnonQualifiant-DSM203\"> </a></td><td>Biochimie hormonale et métabolique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM204<a name=\"TRE-R42-DESCnonQualifiant-DSM204\"> </a></td><td>Biologie des agents infectieux (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM205<a name=\"TRE-R42-DESCnonQualifiant-DSM205\"> </a></td><td>Biologie moléculaire (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM206<a name=\"TRE-R42-DESCnonQualifiant-DSM206\"> </a></td><td>Cancérologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM207<a name=\"TRE-R42-DESCnonQualifiant-DSM207\"> </a></td><td>Chirurgie de la face et du cou (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM208<a name=\"TRE-R42-DESCnonQualifiant-DSM208\"> </a></td><td>Chirurgie plastique et reconstructrice (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM209<a name=\"TRE-R42-DESCnonQualifiant-DSM209\"> </a></td><td>Chirurgie vasculaire (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM210<a name=\"TRE-R42-DESCnonQualifiant-DSM210\"> </a></td><td>Cytogénétique humaine (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM211<a name=\"TRE-R42-DESCnonQualifiant-DSM211\"> </a></td><td>Dermatopathologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM212<a name=\"TRE-R42-DESCnonQualifiant-DSM212\"> </a></td><td>Foetopathologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM213<a name=\"TRE-R42-DESCnonQualifiant-DSM213\"> </a></td><td>Gériatrie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM214<a name=\"TRE-R42-DESCnonQualifiant-DSM214\"> </a></td><td>Hématologie biologique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM215<a name=\"TRE-R42-DESCnonQualifiant-DSM215\"> </a></td><td>Hématologie maladies du sang (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM216<a name=\"TRE-R42-DESCnonQualifiant-DSM216\"> </a></td><td>Hémobiologie-transfusion (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM217<a name=\"TRE-R42-DESCnonQualifiant-DSM217\"> </a></td><td>Immunologie et Immunopathologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM218<a name=\"TRE-R42-DESCnonQualifiant-DSM218\"> </a></td><td>Médecine de la reproduction (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM219<a name=\"TRE-R42-DESCnonQualifiant-DSM219\"> </a></td><td>Médecine du sport (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM220<a name=\"TRE-R42-DESCnonQualifiant-DSM220\"> </a></td><td>Médecine d'urgence (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM221<a name=\"TRE-R42-DESCnonQualifiant-DSM221\"> </a></td><td>Médecine légale et Expertises médicales (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM222<a name=\"TRE-R42-DESCnonQualifiant-DSM222\"> </a></td><td>Médecine nucléaire (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM223<a name=\"TRE-R42-DESCnonQualifiant-DSM223\"> </a></td><td>Médecine vasculaire (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM224<a name=\"TRE-R42-DESCnonQualifiant-DSM224\"> </a></td><td>Néonatalogie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM225<a name=\"TRE-R42-DESCnonQualifiant-DSM225\"> </a></td><td>Neuropathologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM226<a name=\"TRE-R42-DESCnonQualifiant-DSM226\"> </a></td><td>Nutrition (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM227<a name=\"TRE-R42-DESCnonQualifiant-DSM227\"> </a></td><td>Orthopédie dento-maxillo-faciale (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM228<a name=\"TRE-R42-DESCnonQualifiant-DSM228\"> </a></td><td>Pathologie infectieuse et tropicale, clinique et biologique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM229<a name=\"TRE-R42-DESCnonQualifiant-DSM229\"> </a></td><td>Pharmacocinétique et Métabolisme des médicaments (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM230<a name=\"TRE-R42-DESCnonQualifiant-DSM230\"> </a></td><td>Pharmacologie clinique et Evaluation des thérapeutiques (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM231<a name=\"TRE-R42-DESCnonQualifiant-DSM231\"> </a></td><td>Psychiatrie de l'enfant et de l'adolescent (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM232<a name=\"TRE-R42-DESCnonQualifiant-DSM232\"> </a></td><td>Radiopharmacie et Radiobiologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM233<a name=\"TRE-R42-DESCnonQualifiant-DSM233\"> </a></td><td>Réanimation médicale (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM234<a name=\"TRE-R42-DESCnonQualifiant-DSM234\"> </a></td><td>Toxicologie biologique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM235<a name=\"TRE-R42-DESCnonQualifiant-DSM235\"> </a></td><td>Médecine de la douleur et Médecine palliative (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM236<a name=\"TRE-R42-DESCnonQualifiant-DSM236\"> </a></td><td>Cancérologie, option Traitements médicaux des cancers (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM237<a name=\"TRE-R42-DESCnonQualifiant-DSM237\"> </a></td><td>Cancérologie, option Chirurgie cancérologique (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM238<a name=\"TRE-R42-DESCnonQualifiant-DSM238\"> </a></td><td>Cancérologie, option Réseaux de cancérologie (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM239<a name=\"TRE-R42-DESCnonQualifiant-DSM239\"> </a></td><td>Cancérologie, option Biologie cancérologie (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM240<a name=\"TRE-R42-DESCnonQualifiant-DSM240\"> </a></td><td>Cancérologie, option Imagerie cancérologie (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM201" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM202" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM203" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM204" ] ;
@@ -150,10 +175,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM205" ] ;
@@ -171,10 +202,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM206" ] ;
@@ -192,10 +229,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM207" ] ;
@@ -213,10 +256,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM208" ] ;
@@ -234,10 +283,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM209" ] ;
@@ -255,10 +310,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM210" ] ;
@@ -276,10 +337,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM211" ] ;
@@ -297,10 +364,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM212" ] ;
@@ -318,10 +391,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM213" ] ;
@@ -339,10 +418,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM214" ] ;
@@ -360,10 +445,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM215" ] ;
@@ -381,10 +472,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM216" ] ;
@@ -402,10 +499,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM217" ] ;
@@ -423,10 +526,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM218" ] ;
@@ -444,10 +553,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM219" ] ;
@@ -465,10 +580,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM220" ] ;
@@ -486,10 +607,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM221" ] ;
@@ -507,10 +634,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM222" ] ;
@@ -528,10 +661,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM223" ] ;
@@ -549,10 +688,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM224" ] ;
@@ -570,10 +715,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM225" ] ;
@@ -591,10 +742,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM226" ] ;
@@ -612,10 +769,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM227" ] ;
@@ -633,10 +796,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM228" ] ;
@@ -654,10 +823,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM229" ] ;
@@ -675,10 +850,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM230" ] ;
@@ -696,10 +877,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM231" ] ;
@@ -717,10 +904,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM232" ] ;
@@ -738,10 +931,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM233" ] ;
@@ -759,10 +958,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM234" ] ;
@@ -780,10 +985,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM235" ] ;
@@ -801,10 +1012,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM236" ] ;
@@ -822,10 +1039,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2015-07-06T14:59:38+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-07-06T14:59:38+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM237" ] ;
@@ -843,10 +1066,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2015-07-06T14:59:38+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-07-06T14:59:38+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM238" ] ;
@@ -864,10 +1093,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2015-07-06T14:59:38+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-07-06T14:59:38+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM239" ] ;
@@ -885,10 +1120,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2015-07-06T14:59:38+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-07-06T14:59:38+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DSM240" ] ;
@@ -906,10 +1147,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2015-07-06T14:59:38+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-07-06T14:59:38+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

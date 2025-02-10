@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-G20-Specialisation"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-G20-Specialisation</b></p><a name=\"TRE-G20-Specialisation\"> </a><a name=\"hcTRE-G20-Specialisation\"> </a><a name=\"TRE-G20-Specialisation-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_G20-Specialisation/FHIR/TRE-G20-Specialisation</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"TRE-G20-Specialisation-05\"> </a></td><td>Formation supérieure de Service social</td><td>2000-12-13T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"TRE-G20-Specialisation-07\"> </a></td><td>Diplôme d'Etat de puériculture</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-G20-Specialisation-51\"> </a></td><td>Cadre Sage-Femme</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"TRE-G20-Specialisation-61\"> </a></td><td>Infirmier anesthésiste</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"TRE-G20-Specialisation-62\"> </a></td><td>Infirmier de bloc opératoire</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">63<a name=\"TRE-G20-Specialisation-63\"> </a></td><td>Infirmier cadre de santé publique</td><td>2000-12-13T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"TRE-G20-Specialisation-64\"> </a></td><td>Cadre Infirmier</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">65<a name=\"TRE-G20-Specialisation-65\"> </a></td><td>Cadre Infirmier psychiatrique</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"TRE-G20-Specialisation-71\"> </a></td><td>Cadre Masseur-Kinésithérapeute</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">94<a name=\"TRE-G20-Specialisation-94\"> </a></td><td>Cadre Ergothérapeute</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">96<a name=\"TRE-G20-Specialisation-96\"> </a></td><td>Cadre Psychomotricien</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">98<a name=\"TRE-G20-Specialisation-98\"> </a></td><td>Cadre Manipulateur ERM (électro-radiologie médicale)</td><td>2000-12-13T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"TRE-G20-Specialisation-99\"> </a></td><td>Cadre de santé</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-G20-Specialisation</b></p><a name=\"TRE-G20-Specialisation\"> </a><a name=\"hcTRE-G20-Specialisation\"> </a><a name=\"TRE-G20-Specialisation-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_G20-Specialisation/FHIR/TRE-G20-Specialisation</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"TRE-G20-Specialisation-05\"> </a></td><td>Formation supérieure de Service social</td><td>2000-12-13T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"TRE-G20-Specialisation-07\"> </a></td><td>Diplôme d'Etat de puériculture</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-G20-Specialisation-51\"> </a></td><td>Cadre Sage-Femme</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"TRE-G20-Specialisation-61\"> </a></td><td>Infirmier anesthésiste</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"TRE-G20-Specialisation-62\"> </a></td><td>Infirmier de bloc opératoire</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">63<a name=\"TRE-G20-Specialisation-63\"> </a></td><td>Infirmier cadre de santé publique</td><td>2000-12-13T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"TRE-G20-Specialisation-64\"> </a></td><td>Cadre Infirmier</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">65<a name=\"TRE-G20-Specialisation-65\"> </a></td><td>Cadre Infirmier psychiatrique</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"TRE-G20-Specialisation-71\"> </a></td><td>Cadre Masseur-Kinésithérapeute</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">94<a name=\"TRE-G20-Specialisation-94\"> </a></td><td>Cadre Ergothérapeute</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">96<a name=\"TRE-G20-Specialisation-96\"> </a></td><td>Cadre Psychomotricien</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">98<a name=\"TRE-G20-Specialisation-98\"> </a></td><td>Cadre Manipulateur ERM (électro-radiologie médicale)</td><td>2000-12-13T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"TRE-G20-Specialisation-99\"> </a></td><td>Cadre de santé</td><td>2000-12-13T00:00:00+01:00</td><td>2000-12-13T00:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "07" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "51" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "61" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "62" ] ;
@@ -150,10 +175,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "63" ] ;
@@ -171,10 +202,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "64" ] ;
@@ -192,10 +229,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "65" ] ;
@@ -213,10 +256,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "71" ] ;
@@ -234,10 +283,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "94" ] ;
@@ -255,10 +310,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "96" ] ;
@@ -276,10 +337,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "98" ] ;
@@ -297,10 +364,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "99" ] ;
@@ -318,10 +391,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2000-12-13T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

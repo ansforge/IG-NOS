@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R369-ProfilUtilisateurReferentielNational"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R369-ProfilUtilisateurReferentielNational</b></p><a name=\"TRE-R369-ProfilUtilisateurReferentielNational\"> </a><a name=\"hcTRE-R369-ProfilUtilisateurReferentielNational\"> </a><a name=\"TRE-R369-ProfilUtilisateurReferentielNational-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">ADMIN_NAT<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-ADMIN_NAT\"> </a></td><td>Administrateur National</td><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">ADMIN_REG<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-ADMIN_REG\"> </a></td><td>Administrateur Régional</td><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">RESP_QA<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-RESP_QA\"> </a></td><td>Responsable Qualité</td><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">RESP_OFFRE_STRUCT<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-RESP_OFFRE_STRUCT\"> </a></td><td>Responsable Offre de structure</td><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">RESP_DISPO_PLACE<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-RESP_DISPO_PLACE\"> </a></td><td>Responsable Disponibilité en lit / place</td><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">PORTEUR_OFFRE<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-PORTEUR_OFFRE\"> </a></td><td>Porteur d'offre</td><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">PSL<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-PSL\"> </a></td><td>Professionnel de Santé Libéral (PSL)</td><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R369-ProfilUtilisateurReferentielNational</b></p><a name=\"TRE-R369-ProfilUtilisateurReferentielNational\"> </a><a name=\"hcTRE-R369-ProfilUtilisateurReferentielNational\"> </a><a name=\"TRE-R369-ProfilUtilisateurReferentielNational-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">ADMIN_NAT<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-ADMIN_NAT\"> </a></td><td>Administrateur National</td><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">ADMIN_REG<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-ADMIN_REG\"> </a></td><td>Administrateur Régional</td><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">RESP_QA<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-RESP_QA\"> </a></td><td>Responsable Qualité</td><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">RESP_OFFRE_STRUCT<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-RESP_OFFRE_STRUCT\"> </a></td><td>Responsable Offre de structure</td><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">RESP_DISPO_PLACE<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-RESP_DISPO_PLACE\"> </a></td><td>Responsable Disponibilité en lit / place</td><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">PORTEUR_OFFRE<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-PORTEUR_OFFRE\"> </a></td><td>Porteur d'offre</td><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">PSL<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-PSL\"> </a></td><td>Professionnel de Santé Libéral (PSL)</td><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">ADMIN_METIER<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-ADMIN_METIER\"> </a></td><td>Administrateur Métier</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">SUPPORT<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-SUPPORT\"> </a></td><td>Support</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">REF_MSP<a name=\"TRE-R369-ProfilUtilisateurReferentielNational-REF_MSP\"> </a></td><td>Référent Maison de Santé Pluriprofessionnelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -26,7 +27,7 @@
   fhir:version [ fhir:v "1.4.0"] ; # 
   fhir:name [ fhir:v "TRE_R369_ProfilUtilisateurReferentielNational"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ADMIN_REG" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "RESP_QA" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "RESP_OFFRE_STRUCT" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "RESP_DISPO_PLACE" ] ;
@@ -150,10 +175,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "PORTEUR_OFFRE" ] ;
@@ -171,10 +202,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "PSL" ] ;
@@ -192,10 +229,97 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ADMIN_METIER" ] ;
+     fhir:display [ fhir:v "Administrateur Métier" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "ADMIN_METIER" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Administrateur Métier" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SUPPORT" ] ;
+     fhir:display [ fhir:v "Support" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SUPPORT" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Support" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "REF_MSP" ] ;
+     fhir:display [ fhir:v "Référent Maison de Santé Pluriprofessionnelle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "REF_MSP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Référent Maison de Santé Pluriprofessionnelle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

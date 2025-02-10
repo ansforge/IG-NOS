@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.6.1.182"/>
   </identifier>
-  <version value="20211126120000"/>
+  <version value="20250131120000"/>
   <name value="JDV_J111-StatutEtatCivil-ENREG"/>
   <status value="active"/>
-  <date value="2021-11-26T12:00:00+01:00"/>
+  <date value="2025-01-31T12:00:00+01:00"/>
   <description value="Statut de l'état civil pour ENREG"/>
   <compose>
     <include>
@@ -61,6 +61,16 @@
       <concept>
         <code value="FC"/>
         <display value="Certifié par FranceConnect"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.9"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FCP"/>
+        <display value="Certifié par FranceConnect+"/>
         <designation>
           <use>
             <code value="OID"/>

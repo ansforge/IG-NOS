@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.3.3.213"/>
   </identifier>
-  <version value="20231215120000"/>
+  <version value="20250131120000"/>
   <name value="TRE_R330-TypeStatutCapacite"/>
   <status value="active"/>
-  <date value="2023-12-15T12:00:00+01:00"/>
+  <date value="2025-01-31T12:00:00+01:00"/>
   <description value="Permet de préciser le statut des lits décrits"/>
   <content value="complete"/>
   <property>
@@ -173,6 +173,34 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="07"/>
+    <display value="Opérationnel"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Opérationnel"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Opérationnel"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2024-12-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2025-01-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2025-01-31T12:00:00+01:00"/>
     </property>
   </concept>
 </CodeSystem>

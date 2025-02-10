@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <ValueSet dateFin="" dateMaj="20241025120000" dateValid="20171013120000" description="Catégorie d'organisation - ROR" displayName="JDV_J34-CategorieOrganisation-ROR.tabs" id="1.2.250.1.213.3.3.40" typeFichier="JDV" urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR">
+    <ValueSet dateFin="" dateMaj="20250131120000" dateValid="20171013120000" description="Catégorie d'organisation - ROR" displayName="JDV_J34-CategorieOrganisation-ROR.tabs" id="1.2.250.1.213.3.3.40" typeFichier="JDV" urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR">
         <ConceptList>
             <Concept code="01" codeSystem="1.2.250.1.213.3.3.39" displayName="Appartement thérapeutique"/>
             <Concept code="02" codeSystem="1.2.250.1.213.3.3.39" displayName="Atelier thérapeutique"/>
@@ -44,7 +44,7 @@
             <Concept code="40" codeSystem="1.2.250.1.213.3.3.39" displayName="Maison d'accueil spécialisée (MAS)"/>
             <Concept code="41" codeSystem="1.2.250.1.213.3.3.39" displayName="Etablissement d'accueil non médicalisé (EANM) dont foyer de vie et foyer d'hébergement"/>
             <Concept code="43" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité d'aide par le travail (ESAT)"/>
-            <Concept code="44" codeSystem="1.2.250.1.213.3.3.39" displayName="Centre de rééducation professionnel (CRP)"/>
+            <Concept code="44" codeSystem="1.2.250.1.213.3.3.39" displayName="Etablissements et Service de Réadaptation Professionnelle (ESRP)"/>
             <Concept code="45" codeSystem="1.2.250.1.213.3.3.39" displayName="Unités évaluation réentraînement et d'orientation sociale et professionnel (UEROS)"/>
             <Concept code="46" codeSystem="1.2.250.1.213.3.3.39" displayName="Établissements et Services de Pré-Orientation (ESPO)"/>
             <Concept code="47" codeSystem="1.2.250.1.213.3.3.39" displayName="Plateforme Emploi Accompagné (PEA)"/>
@@ -175,6 +175,74 @@
             <Concept code="173" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité hospitalière oto-rhino-laryngologie (ORL)"/>
             <Concept code="174" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité psychiatrique"/>
             <Concept code="175" codeSystem="1.2.250.1.213.3.3.39" displayName="Unités de soins palliatifs"/>
+            <Concept code="176" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité hospitalière de médecine interne"/>
+            <Concept code="177" codeSystem="1.2.250.1.213.3.3.39" displayName="Dispositif de consultation dédié pour les personnes en situation de handicap"/>
+            <Concept code="178" codeSystem="1.2.250.1.213.3.3.39" displayName="Dispositif d'Appui à la Coordination (DAC)"/>
+            <Concept code="179" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville d'oto-rhino-laryngologie (ORL)"/>
+            <Concept code="180" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville d'allergologie"/>
+            <Concept code="181" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville d'anatomo-cytho-pathologie"/>
+            <Concept code="182" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville d'anesthésie-réanimation"/>
+            <Concept code="183" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de cardiologie"/>
+            <Concept code="184" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de chirurgie orthopédique et traumatologique"/>
+            <Concept code="185" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de chirurgie pédiatrique"/>
+            <Concept code="186" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de chirurgie plastique"/>
+            <Concept code="187" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de chirurgie thoracique et cardiovasculaire"/>
+            <Concept code="188" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de chirurgie vasculaire"/>
+            <Concept code="189" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de chirurgie viscérale et digestive"/>
+            <Concept code="190" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de dermatologie"/>
+            <Concept code="191" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de diététique"/>
+            <Concept code="192" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de génétique médicale"/>
+            <Concept code="193" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de gériatrie"/>
+            <Concept code="194" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de gynécologie"/>
+            <Concept code="195" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de kinésithérapie"/>
+            <Concept code="196" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de médecine générale"/>
+            <Concept code="197" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de médecine interne"/>
+            <Concept code="198" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de médecine légale et expertise médicale"/>
+            <Concept code="199" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de médecine nucléaire"/>
+            <Concept code="200" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de médecine physique et réadaptation (MPR)"/>
+            <Concept code="201" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de médecine vasculaire"/>
+            <Concept code="202" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de néphrologie"/>
+            <Concept code="203" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de neurochirurgie"/>
+            <Concept code="204" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de neurologie"/>
+            <Concept code="205" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de pédiatrie"/>
+            <Concept code="206" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de pédicure-podologie"/>
+            <Concept code="207" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de pneumologie"/>
+            <Concept code="208" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de psychiatrie"/>
+            <Concept code="209" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de psychologie"/>
+            <Concept code="210" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de psychomotricité"/>
+            <Concept code="211" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de radiologie"/>
+            <Concept code="212" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de rhumatologie"/>
+            <Concept code="213" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de sages-femmes"/>
+            <Concept code="214" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de stomatologie, chirurgie orale et maxillo faciale"/>
+            <Concept code="215" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville d'endocrinologie, diabétologie et nutrition"/>
+            <Concept code="216" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville d'ergothérapie"/>
+            <Concept code="217" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville des maladies infectieuses et tropicales (MIT)"/>
+            <Concept code="218" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville d'hématologie"/>
+            <Concept code="219" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville d'hépato-gastro-entérologie"/>
+            <Concept code="220" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville d'oncologie"/>
+            <Concept code="221" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville d'ophtalmologie"/>
+            <Concept code="222" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville d'orthophonie"/>
+            <Concept code="223" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville d'orthoptie"/>
+            <Concept code="224" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville d'urologie"/>
+            <Concept code="225" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville infirmier"/>
+            <Concept code="226" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet dentaire de chirurgie dentaire"/>
+            <Concept code="227" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet dentaire de chirurgie orale"/>
+            <Concept code="228" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet dentaire de médecine bucco-dentaire"/>
+            <Concept code="229" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet dentaire d'orthopédie dento-faciale"/>
+            <Concept code="230" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité hospitalière d'anatomo-cytho-pathologie"/>
+            <Concept code="231" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité hospitalière de médecine du sport"/>
+            <Concept code="232" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité hospitalière de médecine légale et expertise médicale"/>
+            <Concept code="233" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité hospitalière de médecine physique et réadaptation (MPR)"/>
+            <Concept code="234" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité hospitalière d'urologie"/>
+            <Concept code="235" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité hospitalière de médecine générale"/>
+            <Concept code="236" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité hospitalière d'orthopédie dento-faciale (odontologie)"/>
+            <Concept code="237" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité hospitalière d'anesthésie"/>
+            <Concept code="238" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité de médecine polyvalente"/>
+            <Concept code="239" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité hospitalière de médecine nucléaire"/>
+            <Concept code="240" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité hospitalière de médecine du travail"/>
+            <Concept code="241" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité hospitalière de chirurgie pédiatrique"/>
+            <Concept code="242" codeSystem="1.2.250.1.213.3.3.39" displayName="Unité hospitalière de chirurgie plastique, reconstructrice et esthétique"/>
+            <Concept code="243" codeSystem="1.2.250.1.213.3.3.39" displayName="Cabinet de ville de médecine intensive et réanimation (MIR)"/>
         </ConceptList>
     </ValueSet>
 </RetrieveValueSetResponse>

@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R25-MotifFinActivite"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R25-MotifFinActivite</b></p><a name=\"TRE-R25-MotifFinActivite\"> </a><a name=\"hcTRE-R25-MotifFinActivite\"> </a><a name=\"TRE-R25-MotifFinActivite-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">AUT<a name=\"TRE-R25-MotifFinActivite-AUT\"> </a></td><td>Autre motif</td><td>2007-07-25T15:04:43+01:00</td><td>2007-07-25T15:04:43+01:00</td></tr><tr><td style=\"white-space:nowrap\">CHA<a name=\"TRE-R25-MotifFinActivite-CHA\"> </a></td><td>Changement d'activité</td><td>2007-07-25T15:04:43+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CHL<a name=\"TRE-R25-MotifFinActivite-CHL\"> </a></td><td>Changement de lieu d'exercice</td><td>2007-07-25T15:04:43+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CHP<a name=\"TRE-R25-MotifFinActivite-CHP\"> </a></td><td>Changement de profession</td><td>2007-07-25T15:04:43+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DCD<a name=\"TRE-R25-MotifFinActivite-DCD\"> </a></td><td>Décès</td><td>2007-07-25T15:04:43+01:00</td><td>2007-07-25T15:04:43+01:00</td></tr><tr><td style=\"white-space:nowrap\">ETR<a name=\"TRE-R25-MotifFinActivite-ETR\"> </a></td><td>Départ à l'étranger</td><td>2007-07-25T15:04:43+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">RH<a name=\"TRE-R25-MotifFinActivite-RH\"> </a></td><td>Retraite hospitalière</td><td>2007-07-25T15:04:43+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">RL<a name=\"TRE-R25-MotifFinActivite-RL\"> </a></td><td>Retraite libérale</td><td>2007-07-25T15:04:43+01:00</td><td>2007-07-25T15:04:43+01:00</td></tr><tr><td style=\"white-space:nowrap\">RS<a name=\"TRE-R25-MotifFinActivite-RS\"> </a></td><td>Retraite salariée</td><td>2007-07-25T15:04:43+01:00</td><td>2007-07-25T15:04:43+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R25-MotifFinActivite</b></p><a name=\"TRE-R25-MotifFinActivite\"> </a><a name=\"hcTRE-R25-MotifFinActivite\"> </a><a name=\"TRE-R25-MotifFinActivite-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">AUT<a name=\"TRE-R25-MotifFinActivite-AUT\"> </a></td><td>Autre motif</td><td>2007-07-25T15:04:43+01:00</td><td>2007-07-25T15:04:43+01:00</td></tr><tr><td style=\"white-space:nowrap\">CHA<a name=\"TRE-R25-MotifFinActivite-CHA\"> </a></td><td>Changement d'activité</td><td>2007-07-25T15:04:43+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CHL<a name=\"TRE-R25-MotifFinActivite-CHL\"> </a></td><td>Changement de lieu d'exercice</td><td>2007-07-25T15:04:43+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CHP<a name=\"TRE-R25-MotifFinActivite-CHP\"> </a></td><td>Changement de profession</td><td>2007-07-25T15:04:43+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DCD<a name=\"TRE-R25-MotifFinActivite-DCD\"> </a></td><td>Décès</td><td>2007-07-25T15:04:43+01:00</td><td>2007-07-25T15:04:43+01:00</td></tr><tr><td style=\"white-space:nowrap\">ETR<a name=\"TRE-R25-MotifFinActivite-ETR\"> </a></td><td>Départ à l'étranger</td><td>2007-07-25T15:04:43+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">RH<a name=\"TRE-R25-MotifFinActivite-RH\"> </a></td><td>Retraite hospitalière</td><td>2007-07-25T15:04:43+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">RL<a name=\"TRE-R25-MotifFinActivite-RL\"> </a></td><td>Retraite libérale</td><td>2007-07-25T15:04:43+01:00</td><td>2007-07-25T15:04:43+01:00</td></tr><tr><td style=\"white-space:nowrap\">RS<a name=\"TRE-R25-MotifFinActivite-RS\"> </a></td><td>Retraite salariée</td><td>2007-07-25T15:04:43+01:00</td><td>2007-07-25T15:04:43+01:00</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CHA" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CHL" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CHP" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "DCD" ] ;
@@ -150,10 +175,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ETR" ] ;
@@ -171,10 +202,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "RH" ] ;
@@ -192,10 +229,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "RL" ] ;
@@ -213,10 +256,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "RS" ] ;
@@ -234,10 +283,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:43+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

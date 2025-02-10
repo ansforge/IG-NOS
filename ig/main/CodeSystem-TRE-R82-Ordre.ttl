@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R82-Ordre"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R82-Ordre</b></p><a name=\"TRE-R82-Ordre\"> </a><a name=\"hcTRE-R82-Ordre\"> </a><a name=\"TRE-R82-Ordre-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R82-Ordre/FHIR/TRE-R82-Ordre</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">CNOM<a name=\"TRE-R82-Ordre-CNOM\"> </a></td><td>Ordre des médecins</td><td>2007-07-25T15:04:41+01:00</td><td>2007-07-25T15:04:41+01:00</td></tr><tr><td style=\"white-space:nowrap\">ONCD<a name=\"TRE-R82-Ordre-ONCD\"> </a></td><td>Ordre des chirurgiens-dentistes</td><td>2007-07-25T15:04:41+01:00</td><td>2007-07-25T15:04:41+01:00</td></tr><tr><td style=\"white-space:nowrap\">CNOP<a name=\"TRE-R82-Ordre-CNOP\"> </a></td><td>Ordre des pharmaciens</td><td>2007-07-25T15:04:41+01:00</td><td>2007-07-25T15:04:41+01:00</td></tr><tr><td style=\"white-space:nowrap\">CNOSF<a name=\"TRE-R82-Ordre-CNOSF\"> </a></td><td>Ordre des sages-femmes</td><td>2007-07-25T15:04:41+01:00</td><td>2007-07-25T15:04:41+01:00</td></tr><tr><td style=\"white-space:nowrap\">CNOMK<a name=\"TRE-R82-Ordre-CNOMK\"> </a></td><td>Ordre des masseurs-kinésithérapeutes</td><td>2016-03-21T00:00:00+01:00</td><td>2016-03-21T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CNOPP<a name=\"TRE-R82-Ordre-CNOPP\"> </a></td><td>Ordre des pédicures-podologues</td><td>2016-03-21T00:00:00+01:00</td><td>2016-03-21T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">ONI<a name=\"TRE-R82-Ordre-ONI\"> </a></td><td>Ordre des infirmiers</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R82-Ordre</b></p><a name=\"TRE-R82-Ordre\"> </a><a name=\"hcTRE-R82-Ordre\"> </a><a name=\"TRE-R82-Ordre-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R82-Ordre/FHIR/TRE-R82-Ordre</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">CNOM<a name=\"TRE-R82-Ordre-CNOM\"> </a></td><td>Ordre des médecins</td><td>2007-07-25T15:04:41+01:00</td><td>2007-07-25T15:04:41+01:00</td></tr><tr><td style=\"white-space:nowrap\">ONCD<a name=\"TRE-R82-Ordre-ONCD\"> </a></td><td>Ordre des chirurgiens-dentistes</td><td>2007-07-25T15:04:41+01:00</td><td>2007-07-25T15:04:41+01:00</td></tr><tr><td style=\"white-space:nowrap\">CNOP<a name=\"TRE-R82-Ordre-CNOP\"> </a></td><td>Ordre des pharmaciens</td><td>2007-07-25T15:04:41+01:00</td><td>2007-07-25T15:04:41+01:00</td></tr><tr><td style=\"white-space:nowrap\">CNOSF<a name=\"TRE-R82-Ordre-CNOSF\"> </a></td><td>Ordre des sages-femmes</td><td>2007-07-25T15:04:41+01:00</td><td>2007-07-25T15:04:41+01:00</td></tr><tr><td style=\"white-space:nowrap\">CNOMK<a name=\"TRE-R82-Ordre-CNOMK\"> </a></td><td>Ordre des masseurs-kinésithérapeutes</td><td>2016-03-21T00:00:00+01:00</td><td>2016-03-21T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CNOPP<a name=\"TRE-R82-Ordre-CNOPP\"> </a></td><td>Ordre des pédicures-podologues</td><td>2016-03-21T00:00:00+01:00</td><td>2016-03-21T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">ONI<a name=\"TRE-R82-Ordre-ONI\"> </a></td><td>Ordre des infirmiers</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ONCD" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CNOP" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CNOSF" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CNOMK" ] ;
@@ -150,10 +175,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-03-21T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-21T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-03-21T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-21T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CNOPP" ] ;
@@ -171,10 +202,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2016-03-21T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-21T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2016-03-21T00:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-21T00:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ONI" ] ;
@@ -192,10 +229,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 

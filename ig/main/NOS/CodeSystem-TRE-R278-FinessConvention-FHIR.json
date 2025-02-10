@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.131"
     }
   ],
-  "version": "20240329120000",
+  "version": "20250131120000",
   "name": "TRE_R278-FinessConvention",
   "status": "active",
-  "date": "2024-03-29T12:00:00+01:00",
+  "date": "2025-01-31T12:00:00+01:00",
   "description": "Convention du domaine social FINESS",
   "content": "complete",
   "property": [
@@ -266,19 +266,20 @@
     },
     {
       "code": "DIT",
-      "display": "Dispositif intégré ITEP",
+      "display": "Dispositif Intégré",
+      "definition":"Cette convention identifie soit les ESMS ex-DITEP soit les ESMS fonctionnant en Dispositif Intégré mais n'entrant pas dans un \"dispositif partenarial\"",
       "designation": [
         {
           "use": {
             "code": "LibelleCourt"
           },
-          "value": "DITEP"
+          "value": "Disp. Int."
         },
         {
           "use": {
             "code": "LibelleAdapte"
           },
-          "value": "Dispositif intégré ITEP"
+          "value": "Dispositif Intégré"
         }
       ],
       "property": [
@@ -288,7 +289,7 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2018-10-26T12:00:00+01:00"
+          "valueDateTime": "2025-01-31T12:00:00+01:00"
         }
       ]
     },
@@ -954,6 +955,64 @@
         {
           "code": "dateMaj",
           "valueDateTime": "2024-01-26T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "MDI",
+      "display": "Membre du Dispositif Intégré",
+      "definition":"Cette convention identifie un membre simple (non porteur) du Dispositif Intégré dans le cas d'un dispositif partenarial\"",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Membre Disp. Int."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Membre du Dispositif Intégré"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2025-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2025-01-31T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PDI",
+      "display": "Porteur du Dispositif Intégré",
+      "definition":"Cette convention identifie le porteur du Dispositif Intégré dans le cas d'un dispositif partenarial\"",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Porteur Disp. Int."
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Porteur du Dispositif Intégré"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2025-01-31T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2025-01-31T12:00:00+01:00"
         }
       ]
     }

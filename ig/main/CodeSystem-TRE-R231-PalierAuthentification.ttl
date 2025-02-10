@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R231-PalierAuthentification"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R231-PalierAuthentification</b></p><a name=\"TRE-R231-PalierAuthentification\"> </a><a name=\"hcTRE-R231-PalierAuthentification\"> </a><a name=\"TRE-R231-PalierAuthentification-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R231-PalierAuthentification/FHIR/TRE-R231-PalierAuthentification</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">APMPUBP2<a name=\"TRE-R231-PalierAuthentification-APMPUBP2\"> </a></td><td>Palier 2 authent. pub acteurs sanitaires, médico-sociaux et sociaux PM</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">APMPUBP3<a name=\"TRE-R231-PalierAuthentification-APMPUBP3\"> </a></td><td>Palier 3 authent. pub acteurs sanitaires, médico-sociaux et sociaux PM</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">APPPRIP1<a name=\"TRE-R231-PalierAuthentification-APPPRIP1\"> </a></td><td>Palier 1 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">APPPRIP2<a name=\"TRE-R231-PalierAuthentification-APPPRIP2\"> </a></td><td>Palier 2 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">APPPRIP3<a name=\"TRE-R231-PalierAuthentification-APPPRIP3\"> </a></td><td>Palier 3 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">APPPUBP2<a name=\"TRE-R231-PalierAuthentification-APPPUBP2\"> </a></td><td>Palier 2 authent. pub acteurs sanitaires, médico-sociaux et sociaux PP</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">APPPUBP3<a name=\"TRE-R231-PalierAuthentification-APPPUBP3\"> </a></td><td>Palier 3 authent. pub acteurs sanitaires, médico-sociaux et sociaux PP</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R231-PalierAuthentification</b></p><a name=\"TRE-R231-PalierAuthentification\"> </a><a name=\"hcTRE-R231-PalierAuthentification\"> </a><a name=\"TRE-R231-PalierAuthentification-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R231-PalierAuthentification/FHIR/TRE-R231-PalierAuthentification</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">APMPUBP2<a name=\"TRE-R231-PalierAuthentification-APMPUBP2\"> </a></td><td>Palier 2 authent. pub acteurs sanitaires, médico-sociaux et sociaux PM</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">APMPUBP3<a name=\"TRE-R231-PalierAuthentification-APMPUBP3\"> </a></td><td>Palier 3 authent. pub acteurs sanitaires, médico-sociaux et sociaux PM</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">APPPRIP1<a name=\"TRE-R231-PalierAuthentification-APPPRIP1\"> </a></td><td>Palier 1 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">APPPRIP2<a name=\"TRE-R231-PalierAuthentification-APPPRIP2\"> </a></td><td>Palier 2 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">APPPRIP3<a name=\"TRE-R231-PalierAuthentification-APPPRIP3\"> </a></td><td>Palier 3 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">APPPUBP2<a name=\"TRE-R231-PalierAuthentification-APPPUBP2\"> </a></td><td>Palier 2 authent. pub acteurs sanitaires, médico-sociaux et sociaux PP</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">APPPUBP3<a name=\"TRE-R231-PalierAuthentification-APPPUBP3\"> </a></td><td>Palier 3 authent. pub acteurs sanitaires, médico-sociaux et sociaux PP</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -66,10 +67,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "APMPUBP3" ] ;
@@ -87,10 +94,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "APPPRIP1" ] ;
@@ -108,10 +121,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "APPPRIP2" ] ;
@@ -129,10 +148,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "APPPRIP3" ] ;
@@ -150,10 +175,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "APPPUBP2" ] ;
@@ -171,10 +202,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "APPPUBP3" ] ;
@@ -192,10 +229,16 @@
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 
