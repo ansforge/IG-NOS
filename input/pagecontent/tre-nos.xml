@@ -20,7 +20,7 @@
                     CI-SIS 
                 </h3>                   
                    <div class="accordion-body collapse" id="content-SIS">
-                    {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_A%' %}
+                      sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_A%'  
                     </div>  
 
         </div>
@@ -31,7 +31,7 @@
                    CPS
                 </h3>    
                 <div class="accordion-body collapse" id="content-CPS">
-                     {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_G%' %}
+                       sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_G%'  
                 </div>        
                 
         </div>
@@ -42,7 +42,7 @@
 
                 </h3>     
                       <div class="accordion-body collapse" id="content-RPPS">
-                    {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_R%' %}
+                      sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name like 'TRE_R%'  
                     </div>  
 
         </div>
@@ -51,7 +51,7 @@
                     Autres
                 </h3>                  
                        <div class="accordion-body collapse" id="content-Autres">               
-                    {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name not like 'TRE_R%'  and name not like 'TRE_A%' and name not like 'TRE_G%' %}
+                      sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' and name not like 'TRE_R%'  and name not like 'TRE_A%' and name not like 'TRE_G%'  
                     </div>  
         </div>
 
