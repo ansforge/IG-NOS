@@ -4087,24 +4087,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J280-CIM10ATIH-UPNOS> ;
-         fhir:reference [ fhir:v "ValueSet/JDV-J280-CIM10ATIH-UPNOS" ]
-       ] ;
-       fhir:name [ fhir:v "JDV_J280-CIM10ATIH-UPNOS" ] ;
-       fhir:description [ fhir:v "Termes CIM 10 utilisés" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J281-StatutsRessourcesMS> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J281-StatutsRessourcesMS" ]
        ] ;
@@ -5837,7 +5819,7 @@
          fhir:reference [ fhir:v "CodeSystem/TRE-G15-ProfessionSante" ]
        ] ;
        fhir:name [ fhir:v "TRE_G15-ProfessionSante" ] ;
-       fhir:description [ fhir:v "Professions de santé définies par le code de la santé publique" ] ;
+       fhir:description [ fhir:v "Professions de santé définies par le code de la santé publique : professions médicales (art. L4111-1 à L4163-10), de la pharmacie et de la physique médicale (art. 4211-1 à 4252-3) et d’auxiliaires médicaux (art. 4311-1 à 4394-3)" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -8447,7 +8429,7 @@
          fhir:reference [ fhir:v "CodeSystem/TRE-R330-TypeStatutCapacite" ]
        ] ;
        fhir:name [ fhir:v "TRE_R330-TypeStatutCapacite" ] ;
-       fhir:description [ fhir:v "Permet de préciser le statut des lits décrits" ] ;
+       fhir:description [ fhir:v "Permet de préciser le statut des capacités concernées" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

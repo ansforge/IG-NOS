@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
   </identifier>
-  <version value="20250228120000"/>
+  <version value="20250328120000"/>
   <name value="TRE_R85-RolePriseCharge"/>
   <status value="active"/>
-  <date value="2025-02-28T12:00:00+01:00"/>
+  <date value="2025-03-28T12:00:00+01:00"/>
   <description value="Rôle dans la prise en charge des patients ou des usagers"/>
   <content value="complete"/>
   <property>
@@ -893,8 +893,7 @@
   <concept>
     <code value="335"/>
     <display value="Gestionnaire alertes et urgences sanitaires"/>
-    <definition value="Cette profession représente les gestionnaires ARS qui accèdent à SI-VIC (service numérique en santé permettant de récupérer des
-informations nominatives sur des victimes avec leur niveau d’urgence de prise en charge)."/>
+    <definition value="Cette profession représente les gestionnaires ARS qui accèdent à SI-VIC (service numérique en santé permettant de récupérer des informations nominatives sur des victimes avec leur niveau d’urgence de prise en charge)."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -1273,8 +1272,12 @@ informations nominatives sur des victimes avec leur niveau d’urgence de prise 
       <valueDateTime value="2019-03-29T12:00:00+01:00"/>
     </property>
     <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
+    </property>
+    <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2019-03-29T12:00:00+01:00"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
@@ -1733,8 +1736,12 @@ informations nominatives sur des victimes avec leur niveau d’urgence de prise 
       <valueDateTime value="2024-10-25T12:00:00+01:00"/>
     </property>
     <property>
+      <code value="dateFin"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
+    </property>
+    <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2024-10-25T12:00:00+01:00"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
@@ -1759,6 +1766,56 @@ informations nominatives sur des victimes avec leur niveau d’urgence de prise 
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-10-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="371"/>
+    <display value="Aide à domicile qualifié(e)"/>
+    <definition value="Le décret n° 2024-1246 du 30 décembre 2024 identifie les aides à domicile qualifié(e)s qui justifient « 1° Soit d'une certification professionnelle au minimum de niveau 3 inscrite au répertoire national prévu à l'article L. 6113-1 du code du travail attestant de compétences dans les secteurs sanitaire, médico-social ou social, figurant sur une liste définie par arrêté du ministre chargé des solidarités » ; « 2° Soit de trois années d'exercice professionnel dans l'accompagnement au domicile des personnes âgées ou des personnes handicapées au cours des cinq dernières années, au moins à mi-temps »."/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Aide à domicile qualifié(e)"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Aide à domicile qualifié(e)"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="372"/>
+    <display value="Aide à domicile"/>
+    <definition value="L’aide à domicile réalise des interventions sociales au quotidien visant à accompagner une personne en situation de handicap ou touchée par un manque d’autonomie quelles qu’en soient l’origine ou la nature. L’aide à domicile accompagne les personnes dans les actes essentiels de la vie quotidienne, directement à leur domicile ou leur lieu de vie."/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Aide à domicile"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Aide à domicile"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
     </property>
   </concept>
 </CodeSystem>

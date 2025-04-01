@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.107"
     }
   ],
-  "version": "20250228120000",
+  "version": "20250328120000",
   "name": "TRE_R85-RolePriseCharge",
   "status": "active",
-  "date": "2025-02-28T12:00:00+01:00",
+  "date": "2025-03-28T12:00:00+01:00",
   "description": "Rôle dans la prise en charge des patients ou des usagers",
   "content": "complete",
   "property": [
@@ -1038,7 +1038,6 @@
         }
       ]
     },
-
     {
       "code": "335",
       "display": "Gestionnaire alertes et urgences sanitaires",
@@ -1484,8 +1483,12 @@
           "valueDateTime": "2019-03-29T12:00:00+01:00"
         },
         {
+          "code": "dateFin",
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
+        },
+        {
           "code": "dateMaj",
-          "valueDateTime": "2019-03-29T12:00:00+01:00"
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
         }
       ]
     },
@@ -2020,8 +2023,12 @@
           "valueDateTime": "2024-10-25T12:00:00+01:00"
         },
         {
+          "code": "dateFin",
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
+        },
+        {
           "code": "dateMaj",
-          "valueDateTime": "2024-10-25T12:00:00+01:00"
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
         }
       ]
     },
@@ -2050,6 +2057,64 @@
         {
           "code": "dateMaj",
           "valueDateTime": "2024-10-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "371",
+      "display": "Aide à domicile qualifié(e)",
+      "definition":"Le décret n° 2024-1246 du 30 décembre 2024 identifie les aides à domicile qualifié(e)s qui justifient « 1° Soit d'une certification professionnelle au minimum de niveau 3 inscrite au répertoire national prévu à l'article L. 6113-1 du code du travail attestant de compétences dans les secteurs sanitaire, médico-social ou social, figurant sur une liste définie par arrêté du ministre chargé des solidarités » ; « 2° Soit de trois années d'exercice professionnel dans l'accompagnement au domicile des personnes âgées ou des personnes handicapées au cours des cinq dernières années, au moins à mi-temps ».",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aide à domicile qualifié(e)"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aide à domicile qualifié(e)"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "372",
+      "display": "Aide à domicile",
+      "definition":"L’aide à domicile réalise des interventions sociales au quotidien visant à accompagner une personne en situation de handicap ou touchée par un manque d’autonomie quelles qu’en soient l’origine ou la nature. L’aide à domicile accompagne les personnes dans les actes essentiels de la vie quotidienne, directement à leur domicile ou leur lieu de vie.",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Aide à domicile"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Aide à domicile"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
         }
       ]
     }

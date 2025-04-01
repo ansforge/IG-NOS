@@ -10,11 +10,11 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.3.3.213"/>
   </identifier>
-  <version value="20250131120000"/>
+  <version value="20250328120000"/>
   <name value="TRE_R330-TypeStatutCapacite"/>
   <status value="active"/>
-  <date value="2025-01-31T12:00:00+01:00"/>
-  <description value="Permet de préciser le statut des lits décrits"/>
+  <date value="2025-03-28T12:00:00+01:00"/>
+  <description value="Permet de préciser le statut des capacités concernées"/>
   <content value="complete"/>
   <property>
     <code value="dateValid"/>
@@ -34,6 +34,7 @@
   <concept>
     <code value="01"/>
     <display value="Installé"/>
+    <definition value="Capacitaires physiquement installés de façon permanente dans une unité (capacitaires fermés compris)."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -52,12 +53,13 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
     <code value="02"/>
     <display value="Disponible"/>
+    <definition value="Capacitaires dans lesquels un patient peut être installé, et pour lesquels le personnel nécessaire est présent. Ces capacitaires ne doivent pas être réservés dans les 24h."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -76,12 +78,13 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
     <code value="03"/>
     <display value="Occupé"/>
+    <definition value="Capacitaire dans lesquels un patient est installé."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -100,12 +103,13 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
     <code value="04"/>
     <display value="Réservé"/>
+    <definition value="Capacitaires pour lesquels un patient déjà identifié est attendu dans les 24h"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -124,12 +128,13 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
     <code value="05"/>
     <display value="Fermé"/>
+    <definition value="Capacitaires fermés quelle que soit la cause (problème matériel, besoin de désinfection, absence RH, fermeture saisonnière…) et qu'ils soient réactivables ou non ; Aucun patient ne peut être accueilli dans un capacitaire fermé"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -148,12 +153,13 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
     <code value="06"/>
     <display value="Supplémentaire"/>
+    <definition value="Capacitaire pouvant être mis à disposition au-delà de la capacité installée pour répondre à une situation de tension"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -172,12 +178,13 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2022-05-27T12:00:00+01:00"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
     <code value="07"/>
     <display value="Opérationnel"/>
+    <definition value="Capacitaires ouverts et dans lesquels un patient peut être installé, que ces capacitaires soient disponibles ou non (patients en sorties certaines, désinfection, fin travaux,...). Cela est la résultante d'un calcul et cette valeur n'est pas à utiliser dans les échanges."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -200,7 +207,55 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2025-01-31T12:00:00+01:00"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="08"/>
+    <display value="Installé constaté"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Installé constaté"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Installé constaté"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="09"/>
+    <display value="Autorisé"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Autorisé"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Autorisé"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
     </property>
   </concept>
 </CodeSystem>

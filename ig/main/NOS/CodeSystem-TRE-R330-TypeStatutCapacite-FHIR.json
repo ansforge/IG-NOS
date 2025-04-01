@@ -15,11 +15,11 @@
       "value": "urn:oid:1.2.250.1.213.3.3.213"
     }
   ],
-  "version": "20250131120000",
+  "version": "20250328120000",
   "name": "TRE_R330-TypeStatutCapacite",
   "status": "active",
-  "date": "2025-01-31T12:00:00+01:00",
-  "description": "Permet de préciser le statut des lits décrits",
+  "date": "2025-03-28T12:00:00+01:00",
+  "description": "Permet de préciser le statut des capacités concernées",
   "content": "complete",
   "property": [
     {
@@ -42,6 +42,7 @@
     {
       "code": "01",
       "display": "Installé",
+      "definition":"Capacitaires physiquement installés de façon permanente dans une unité (capacitaires fermés compris).",
       "designation": [
         {
           "use": {
@@ -63,13 +64,14 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2022-05-27T12:00:00+01:00"
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
         }
       ]
     },
     {
       "code": "02",
       "display": "Disponible",
+      "definition":"Capacitaires dans lesquels un patient peut être installé, et pour lesquels le personnel nécessaire est présent. Ces capacitaires ne doivent pas être réservés dans les 24h.",
       "designation": [
         {
           "use": {
@@ -91,13 +93,14 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2022-05-27T12:00:00+01:00"
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
         }
       ]
     },
     {
       "code": "03",
       "display": "Occupé",
+      "definition":"Capacitaire dans lesquels un patient est installé.",
       "designation": [
         {
           "use": {
@@ -119,13 +122,14 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2022-05-27T12:00:00+01:00"
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
         }
       ]
     },
     {
       "code": "04",
       "display": "Réservé",
+      "definition":"Capacitaires pour lesquels un patient déjà identifié est attendu dans les 24h",
       "designation": [
         {
           "use": {
@@ -147,13 +151,14 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2022-05-27T12:00:00+01:00"
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
         }
       ]
     },
     {
       "code": "05",
       "display": "Fermé",
+      "definition":"Capacitaires fermés quelle que soit la cause (problème matériel, besoin de désinfection, absence RH, fermeture saisonnière…) et qu'ils soient réactivables ou non ; Aucun patient ne peut être accueilli dans un capacitaire fermé",
       "designation": [
         {
           "use": {
@@ -175,13 +180,14 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2022-05-27T12:00:00+01:00"
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
         }
       ]
     },
     {
       "code": "06",
       "display": "Supplémentaire",
+      "definition":"Capacitaire pouvant être mis à disposition au-delà de la capacité installée pour répondre à une situation de tension",
       "designation": [
         {
           "use": {
@@ -203,13 +209,14 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2022-05-27T12:00:00+01:00"
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
         }
       ]
     },
     {
       "code": "07",
       "display": "Opérationnel",
+      "definition":"Capacitaires ouverts et dans lesquels un patient peut être installé, que ces capacitaires soient disponibles ou non (patients en sorties certaines, désinfection, fin travaux,...). Cela est la résultante d'un calcul et cette valeur n'est pas à utiliser dans les échanges.",
       "designation": [
         {
           "use": {
@@ -235,7 +242,63 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2025-01-31T12:00:00+01:00"
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "display": "Installé constaté",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Installé constaté"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Installé constaté"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "display": "Autorisé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Autorisé"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Autorisé"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2025-03-28T12:00:00+01:00"
         }
       ]
     }

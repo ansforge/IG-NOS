@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "TRE-R329-NatureCapacite"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R329-NatureCapacite</b></p><a name=\"TRE-R329-NatureCapacite\"> </a><a name=\"hcTRE-R329-NatureCapacite\"> </a><a name=\"TRE-R329-NatureCapacite-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R329-NatureCapacite-01\"> </a></td><td>Lit</td><td>2022-05-27T12:00:00+01:00</td><td>2022-05-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R329-NatureCapacite-02\"> </a></td><td>Place</td><td>2022-05-27T12:00:00+01:00</td><td>2022-05-27T12:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R329-NatureCapacite</b></p><a name=\"TRE-R329-NatureCapacite\"> </a><a name=\"hcTRE-R329-NatureCapacite\"> </a><a name=\"TRE-R329-NatureCapacite-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R329-NatureCapacite-01\"> </a></td><td>Lit</td><td>2022-05-27T12:00:00+01:00</td><td>2022-05-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R329-NatureCapacite-02\"> </a></td><td>Place</td><td>2022-05-27T12:00:00+01:00</td><td>2022-05-27T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R329-NatureCapacite-03\"> </a></td><td>Logement</td><td>2025-03-28T12:00:00+01:00</td><td>2025-03-28T12:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -27,7 +27,7 @@
   fhir:version [ fhir:v "1.5.0"] ; # 
   fhir:name [ fhir:v "TRE_R329-NatureCapacite"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-12-15T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-03-28T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -103,6 +103,33 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-05-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "03" ] ;
+     fhir:display [ fhir:v "Logement" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Logement" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Logement" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-03-28T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-03-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
   ] ) . # 

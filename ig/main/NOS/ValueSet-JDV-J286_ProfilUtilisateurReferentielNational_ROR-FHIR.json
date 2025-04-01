@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.3.3.256"
     }
   ],
-  "version": "20241213120000",
+  "version": "20250328120000",
   "name": "JDV_J286_ProfilUtilisateurReferentielNational_ROR",
   "status": "active",
-  "date": "2024-12-13T12:00:00+01:00",
+  "date": "2025-03-28T12:00:00+01:00",
   "description": "Profils utilisateurs du ROR National",
   "compose": {
     "include": [
@@ -136,6 +136,18 @@
           {
             "code": "REF_MSP",
             "display": "Référent Maison de Santé Pluriprofessionnelle",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.3.3.255"
+              }
+            ]
+          },
+          {
+            "code": "REF_DISPO_PLACE",
+            "display": "Référent saisie disponibilité en lit / place",
             "designation": [
               {
                 "use": {
