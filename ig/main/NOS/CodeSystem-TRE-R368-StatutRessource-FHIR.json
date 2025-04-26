@@ -15,11 +15,11 @@
       "value": "urn:oid:1.2.250.1.213.3.3.250"
     }
   ],
-  "version": "20240927120000",
+  "version": "20250425120000",
   "name": "TRE_R368-StatutRessource",
   "status": "active",
-  "date": "2024-09-27T12:00:00+01:00",
-  "description": "Caractérise le statut du processus d'évaluation de l'autonomie de l'usager par un professionnel de santé ou par lui-même lors d'une auto évaluation",
+  "date": "2025-04-25T12:00:00+01:00",
+  "description": "Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie",
   "content": "complete",
   "property": [
     {
@@ -42,6 +42,7 @@
     {
       "code": "TERMINE",
       "display": "Terminé",
+      "definition":"La ressource est totalement finie. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS. Resource achevée. Ce statut s'adresse au projet personnalisé ainsi qu'à ses ressources Action et Objectif.",
       "designation": [
         {
           "use": {
@@ -63,13 +64,14 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2024-09-27T12:00:00+01:00"
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
         }
       ]
     },
     {
       "code": "VALIDE",
       "display": "Validé",
+      "definition":"Ressource approuvée officiellement par un tiers comme le personnel de santé. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS.",
       "designation": [
         {
           "use": {
@@ -91,13 +93,14 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2024-09-27T12:00:00+01:00"
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
         }
       ]
     },
     {
       "code": "APPROUVE",
       "display": "Approuvé",
+      "definition":"Le professionnel considère la ressource comme correcte. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS.",
       "designation": [
         {
           "use": {
@@ -119,13 +122,14 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2024-09-27T12:00:00+01:00"
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
         }
       ]
     },
     {
       "code": "PLANIFIE",
       "display": "Planifié",
+      "definition":"Organiser une activité à l'avance.Ce statut s'adresse aux ressources Evaluation et Evenement",
       "designation": [
         {
           "use": {
@@ -147,13 +151,14 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2024-09-27T12:00:00+01:00"
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
         }
       ]
     },
     {
       "code": "REALISE",
       "display": "Réalisé",
+      "definition":"Resoource totalement effectuée. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS.",
       "designation": [
         {
           "use": {
@@ -175,13 +180,14 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2024-09-27T12:00:00+01:00"
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
         }
       ]
     },
     {
       "code": "ANNULE",
       "display": "Annulé",
+      "definition":"La ressource est supprimée. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS",
       "designation": [
         {
           "use": {
@@ -203,7 +209,152 @@
         },
         {
           "code": "dateMaj",
-          "valueDateTime": "2024-09-27T12:00:00+01:00"
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ACTIF",
+      "display": "Actif",
+      "definition":"Ressource vivante. Ce statut s'adresse aux ressources du projet personnalisé Action et Objectif.",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Actif"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Actif"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "NONDEBUTE",
+      "display": "Non débuté",
+      "definition":"Ressource qui n'a pas commencée. Ce statut s'adresse projet personnalisé.",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Non débuté"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Non débuté"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ENPREPARATION",
+      "display": "En préparation",
+      "definition":"Ressource qui est en train d'être faite, conçue, élaborée. Ce statut s'adresse au projet personnalisé.",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "En préparation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "En préparation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "ENREALISATION",
+      "display": "En réalisation",
+      "definition":"Ressource qui est en cours d'élaboration. Ce statut s'adresse au projet personnalisé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "En réalisation"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "En réalisation"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "CREATION",
+      "display": "Création",
+      "definition":"Etat de la ressource après la préparation. Ce statut s'adresse au projet personnalisé",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Création"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Création"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
         }
       ]
     }

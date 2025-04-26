@@ -10,10 +10,10 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.6.1.200"/>
   </identifier>
-  <version value="20241025120000"/>
+  <version value="20250425120000"/>
   <name value="JDV_J121-RolePriseCharge-ENREG"/>
   <status value="active"/>
-  <date value="2024-10-25T12:00:00+01:00"/>
+  <date value="2025-04-25T12:00:00+01:00"/>
   <description value="Code des rôles et fonctions pour l'application ENREG"/>
   <compose>
     <include>
@@ -201,6 +201,16 @@
       <concept>
         <code value="329"/>
         <display value="Conseiller en génétique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="330"/>
+        <display value="Coordonnateur de parcours"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -539,8 +549,8 @@
         </designation>
       </concept>
       <concept>
-        <code value="369"/>
-        <display value="Biologiste médical non-médecin"/>
+        <code value="370"/>
+        <display value="Opérateur de Soins Non Programmés"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -549,8 +559,18 @@
         </designation>
       </concept>
       <concept>
-        <code value="370"/>
-        <display value="Opérateur de Soins Non Programmés"/>
+        <code value="371"/>
+        <display value="Aide à domicile qualifié(e)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.107"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="372"/>
+        <display value="Aide à domicile"/>
         <designation>
           <use>
             <code value="OID"/>

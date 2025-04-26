@@ -10,11 +10,11 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.3.3.250"/>
   </identifier>
-  <version value="20240927120000"/>
+  <version value="20250425120000"/>
   <name value="TRE_R368-StatutRessource"/>
   <status value="active"/>
-  <date value="2024-09-27T12:00:00+01:00"/>
-  <description value="Caractérise le statut du processus d'évaluation de l'autonomie de l'usager par un professionnel de santé ou par lui-même lors d'une auto évaluation"/>
+  <date value="2025-04-25T12:00:00+01:00"/>
+  <description value="Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie"/>
   <content value="complete"/>
   <property>
     <code value="dateValid"/>
@@ -34,6 +34,7 @@
   <concept>
     <code value="TERMINE"/>
     <display value="Terminé"/>
+    <definition value="La ressource est totalement finie. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS. Resource achevée. Ce statut s'adresse au projet personnalisé ainsi qu'à ses ressources Action et Objectif."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -52,12 +53,13 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2024-09-27T12:00:00+01:00"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
     <code value="VALIDE"/>
     <display value="Validé"/>
+    <definition value="Ressource approuvée officiellement par un tiers comme le personnel de santé. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -76,12 +78,13 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2024-09-27T12:00:00+01:00"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
     <code value="APPROUVE"/>
     <display value="Approuvé"/>
+    <definition value="Le professionnel considère la ressource comme correcte. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -100,12 +103,13 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2024-09-27T12:00:00+01:00"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
     <code value="PLANIFIE"/>
     <display value="Planifié"/>
+    <definition value="Organiser une activité à l'avance.Ce statut s'adresse aux ressources Evaluation et Evenement"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -124,12 +128,13 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2024-09-27T12:00:00+01:00"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
     <code value="REALISE"/>
     <display value="Réalisé"/>
+    <definition value="Resoource totalement effectuée. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS."/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -148,12 +153,13 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2024-09-27T12:00:00+01:00"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
     </property>
   </concept>
   <concept>
     <code value="ANNULE"/>
     <display value="Annulé"/>
+    <definition value="La ressource est supprimée. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS"/>
     <designation>
       <use>
         <code value="LibelleCourt"/>
@@ -172,7 +178,132 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2024-09-27T12:00:00+01:00"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ACTIF"/>
+    <display value="Actif"/>
+    <definition value="Ressource vivante. Ce statut s'adresse aux ressources du projet personnalisé Action et Objectif."/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Actif"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Actif"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NONDEBUTE"/>
+    <display value="Non débuté"/>
+    <definition value="Ressource qui n'a pas commencée. Ce statut s'adresse projet personnalisé."/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Non débuté"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Non débuté"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ENPREPARATION"/>
+    <display value="En préparation"/>
+    <definition value="Ressource qui est en train d'être faite, conçue, élaborée. Ce statut s'adresse au projet personnalisé."/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="En préparation"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="En préparation"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ENREALISATION"/>
+    <display value="En réalisation"/>
+    <definition value="Ressource qui est en cours d'élaboration. Ce statut s'adresse au projet personnalisé"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="En réalisation"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="En réalisation"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CREATION"/>
+    <display value="Création"/>
+    <definition value="Etat de la ressource après la préparation. Ce statut s'adresse au projet personnalisé"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Création"/>
+    </designation>
+    <designation>
+      <use>
+          <code value="LibelleAdapte"/>
+      </use>
+      <value value="Création"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
     </property>
   </concept>
 </CodeSystem>

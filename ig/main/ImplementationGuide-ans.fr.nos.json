@@ -2944,6 +2944,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/JDV-J369-MotifRestrictionDiffusion-ROR"
+      },
+      "name" : "JDV_J369-MotifRestrictionDiffusion-ROR",
+      "description" : "Nomenclature contenant les motifs de restriction de diffusion",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J37-UcumUniteTemps"
       },
       "name" : "JDV_J37-UcumUniteTemps",
@@ -6007,7 +6019,7 @@
         "reference" : "CodeSystem/TRE-R368-StatutRessource"
       },
       "name" : "TRE_R368-StatutRessource",
-      "description" : "Caractérise le statut du processus d'évaluation de l'autonomie de l'usager par un professionnel de santé ou par lui-même lors d'une auto évaluation",
+      "description" : "Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie",
       "exampleBoolean" : false
     },
     {
@@ -6056,6 +6068,18 @@
       },
       "name" : "TRE_R39-Competence",
       "description" : "Compétence",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TRE-R391-MotifRestrictionDiffusion"
+      },
+      "name" : "TRE_R391-MotifRestrictionDiffusion",
+      "description" : "Nomenclature contenant les motifs de restriction de diffusion",
       "exampleBoolean" : false
     },
     {

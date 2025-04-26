@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.244"
     }
   ],
-  "version": "20220729120000",
+  "version": "20250425120000",
   "name": "JDV_J233-TypeDiplome-EPARS",
   "status": "active",
-  "date": "2022-07-29T12:00:00+01:00",
+  "date": "2025-04-25T12:00:00+01:00",
   "description": "Jeu de valeur intégrant les types de diplômes pour EPARS",
   "compose": {
     "include": [
@@ -40,6 +40,30 @@
           {
             "code": "AU",
             "display": "Autre type de diplôme",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          },
+          {
+            "code": "DU",
+            "display": "Diplôme d'université (DU) ou inter-universitaire (DIU)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.36"
+              }
+            ]
+          },
+          {
+            "code": "ATT",
+            "display": "Attestation",
             "designation": [
               {
                 "use": {

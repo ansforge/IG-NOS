@@ -10,17 +10,17 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.609"/>
   </identifier>
-  <version value="20240927120000"/>
+  <version value="20250425120000"/>
   <name value="JDV_J154-TypeGlucose-ENS"/>
   <status value="active"/>
-  <date value="2024-09-27T12:00:00+01:00"/>
+  <date value="2025-04-25T12:00:00+01:00"/>
   <description value="JDV pour caractériser le type de glucose"/>
   <compose>
     <include>
       <system value="http://loinc.org"/>
       <concept>
         <code value="2345-7"/>
-        <display value="Glucose"/>
+        <display value="Glucose [Masse/Volume] Sérum/Plasma ; Numérique"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -30,7 +30,7 @@
       </concept>
       <concept>
         <code value="4548-4"/>
-        <display value="Hémoglobine A1c %"/>
+        <display value="Hémoglobine A1c/hémoglobine totale [Fraction massique] Sang ; Numérique"/>
         <designation>
           <use>
             <code value="OID"/>
@@ -41,16 +41,6 @@
     </include>
     <include>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"/>
-      <concept>
-        <code value="MED-969"/>
-        <display value="Glucose interstitiel"/>
-        <designation>
-          <use>
-            <code value="OID"/>
-          </use>
-          <value value="urn:oid:1.2.250.1.213.1.1.4.322"/>
-        </designation>
-      </concept>
       <concept>
         <code value="MED-972"/>
         <display value="Index de gestion de glycémie (IGG)"/>

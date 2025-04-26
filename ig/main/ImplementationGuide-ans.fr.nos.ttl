@@ -4339,6 +4339,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J369-MotifRestrictionDiffusion-ROR> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J369-MotifRestrictionDiffusion-ROR" ]
+       ] ;
+       fhir:name [ fhir:v "JDV_J369-MotifRestrictionDiffusion-ROR" ] ;
+       fhir:description [ fhir:v "Nomenclature contenant les motifs de restriction de diffusion" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J37-UcumUniteTemps> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J37-UcumUniteTemps" ]
        ] ;
@@ -8933,7 +8951,7 @@
          fhir:reference [ fhir:v "CodeSystem/TRE-R368-StatutRessource" ]
        ] ;
        fhir:name [ fhir:v "TRE_R368-StatutRessource" ] ;
-       fhir:description [ fhir:v "Caractérise le statut du processus d'évaluation de l'autonomie de l'usager par un professionnel de santé ou par lui-même lors d'une auto évaluation" ] ;
+       fhir:description [ fhir:v "Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -9006,6 +9024,24 @@
        ] ;
        fhir:name [ fhir:v "TRE_R39-Competence" ] ;
        fhir:description [ fhir:v "Compétence" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R391-MotifRestrictionDiffusion> ;
+         fhir:reference [ fhir:v "CodeSystem/TRE-R391-MotifRestrictionDiffusion" ]
+       ] ;
+       fhir:name [ fhir:v "TRE_R391-MotifRestrictionDiffusion" ] ;
+       fhir:description [ fhir:v "Nomenclature contenant les motifs de restriction de diffusion" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

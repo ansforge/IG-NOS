@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R391-MotifRestrictionDiffusion"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TRE-R391-MotifRestrictionDiffusion</b></p><a name="TRE-R391-MotifRestrictionDiffusion"> </a><a name="hcTRE-R391-MotifRestrictionDiffusion"> </a><a name="TRE-R391-MotifRestrictionDiffusion-en-US"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R391-MotifRestrictionDiffusion/FHIR/TRE-R391-MotifRestrictionDiffusion</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style="white-space:nowrap">OPP_DIF_PUB<a name="TRE-R391-MotifRestrictionDiffusion-OPP_DIF_PUB"> </a></td><td>Opposition à diffusion publique</td><td>2025-04-25T12:00:00+01:00</td><td>2025-04-25T12:00:00+01:00</td></tr><tr><td style="white-space:nowrap">PS_DANGER<a name="TRE-R391-MotifRestrictionDiffusion-PS_DANGER"> </a></td><td>Professionnel en danger</td><td>2025-04-25T12:00:00+01:00</td><td>2025-04-25T12:00:00+01:00</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2025-04-25T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R391-MotifRestrictionDiffusion/FHIR/TRE-R391-MotifRestrictionDiffusion"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.3.3.259"/>
+  </identifier>
+  <version value="1.5.0"/>
+  <name value="TRE_R391-MotifRestrictionDiffusion"/>
+  <status value="active"/>
+  <date value="2025-04-25T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Nomenclature contenant les motifs de restriction de diffusion"/>
+  <content value="complete"/>
+  <property>
+    <code value="dateValid"/>
+    <description value="date de validité d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateMaj"/>
+    <description value="Date de mise à jour d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateFin"/>
+    <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <concept>
+    <code value="OPP_DIF_PUB"/>
+    <display value="Opposition à diffusion publique"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Opposition à diffusion publique"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Opposition à diffusion publique"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PS_DANGER"/>
+    <display value="Professionnel en danger"/>
+    <designation>
+      <use>
+        <code value="LibelleCourt"/>
+      </use>
+      <value value="Professionnel en danger"/>
+    </designation>
+    <designation>
+      <use>
+        <code value="LibelleAdapte"/>
+      </use>
+      <value value="Professionnel en danger"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2025-04-25T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>

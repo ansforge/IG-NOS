@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "JDV-J154-TypeGlucose-ENS"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet JDV-J154-TypeGlucose-ENS</b></p><a name=\"JDV-J154-TypeGlucose-ENS\"> </a><a name=\"hcJDV-J154-TypeGlucose-ENS\"> </a><a name=\"JDV-J154-TypeGlucose-ENS-en-US\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/2345-7/\">2345-7</a></td><td>Glucose</td></tr><tr><td><a href=\"https://loinc.org/4548-4/\">4548-4</a></td><td>Hémoglobine A1c %</td></tr></table></li><li>Include these codes as defined in <code>https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>MED-969</td><td>Glucose interstitiel</td></tr><tr><td>MED-972</td><td>Index de gestion de glycémie (IGG)</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet JDV-J154-TypeGlucose-ENS</b></p><a name=\"JDV-J154-TypeGlucose-ENS\"> </a><a name=\"hcJDV-J154-TypeGlucose-ENS\"> </a><a name=\"JDV-J154-TypeGlucose-ENS-en-US\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/2345-7/\">2345-7</a></td><td>Glucose [Masse/Volume] Sérum/Plasma ; Numérique</td></tr><tr><td><a href=\"https://loinc.org/4548-4/\">4548-4</a></td><td>Hémoglobine A1c/hémoglobine totale [Fraction massique] Sang ; Numérique</td></tr></table></li><li>Include these codes as defined in <code>https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>MED-972</td><td>Index de gestion de glycémie (IGG)</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -27,7 +27,7 @@
   fhir:version [ fhir:v "1.5.0"] ; # 
   fhir:name [ fhir:v "JDV_J154-TypeGlucose-ENS"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-09-27T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-25T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -42,7 +42,7 @@
        fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "2345-7" ] ;
-         fhir:display [ fhir:v "Glucose" ] ;
+         fhir:display [ fhir:v "Glucose [Masse/Volume] Sérum/Plasma ; Numérique" ] ;
          fhir:designation ( [
            fhir:use [
              fhir:code [ fhir:v "OID" ]
@@ -51,7 +51,7 @@
          ] )
        ] [
          fhir:code [ fhir:v "4548-4" ] ;
-         fhir:display [ fhir:v "Hémoglobine A1c %" ] ;
+         fhir:display [ fhir:v "Hémoglobine A1c/hémoglobine totale [Fraction massique] Sang ; Numérique" ] ;
          fhir:designation ( [
            fhir:use [
              fhir:code [ fhir:v "OID" ]
@@ -62,15 +62,6 @@
      ] [
        fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"^^xsd:anyURI ] ;
        fhir:concept ( [
-         fhir:code [ fhir:v "MED-969" ] ;
-         fhir:display [ fhir:v "Glucose interstitiel" ] ;
-         fhir:designation ( [
-           fhir:use [
-             fhir:code [ fhir:v "OID" ]
-           ] ;
-           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.322" ]
-         ] )
-       ] [
          fhir:code [ fhir:v "MED-972" ] ;
          fhir:display [ fhir:v "Index de gestion de glycémie (IGG)" ] ;
          fhir:designation ( [

@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.6.1.200"
     }
   ],
-  "version": "20241025120000",
+  "version": "20250425120000",
   "name": "JDV_J121-RolePriseCharge-ENREG",
   "status": "active",
-  "date": "2024-10-25T12:00:00+01:00",
+  "date": "2025-04-25T12:00:00+01:00",
   "description": "Code des rôles et fonctions pour l'application ENREG",
   "compose": {
     "include": [
@@ -244,6 +244,18 @@
           {
             "code": "329",
             "display": "Conseiller en génétique",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "330",
+            "display": "Coordonnateur de parcours",
             "designation": [
               {
                 "use": {
@@ -650,8 +662,8 @@
             ]
           },
           {
-            "code": "369",
-            "display": "Biologiste médical non-médecin",
+            "code": "370",
+            "display": "Opérateur de Soins Non Programmés",
             "designation": [
               {
                 "use": {
@@ -662,8 +674,20 @@
             ]
           },
           {
-            "code": "370",
-            "display": "Opérateur de Soins Non Programmés",
+            "code": "371",
+            "display": "Aide à domicile qualifié(e)",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "372",
+            "display": "Aide à domicile",
             "designation": [
               {
                 "use": {

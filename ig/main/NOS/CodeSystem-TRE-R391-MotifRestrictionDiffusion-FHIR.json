@@ -1,0 +1,99 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TRE-R391-MotifRestrictionDiffusion",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2025-04-25T12:00:00+01:00"
+      }
+    }
+  ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R391-MotifRestrictionDiffusion/FHIR/TRE-R391-MotifRestrictionDiffusion",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.250.1.213.3.3.259"
+    }
+  ],
+  "version": "20250425120000",
+  "name": "TRE_R391-MotifRestrictionDiffusion",
+  "status": "active",
+  "date": "2025-04-25T12:00:00+01:00",
+  "description": "Nomenclature contenant les motifs de restriction de diffusion",
+  "content": "complete",
+  "property": [
+    {
+      "code": "dateValid",
+      "description": "date de validité d'un code concept",
+      "type": "dateTime"
+    },
+    {
+      "code": "dateMaj",
+      "description": "Date de mise à jour d'un code concept",
+      "type": "dateTime"
+    },
+    {
+      "code": "dateFin",
+      "description": "Date de fin d'exploitation d'un code concept",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "code": "OPP_DIF_PUB",
+      "display": "Opposition à diffusion publique",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Opposition à diffusion publique"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Opposition à diffusion publique"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code": "PS_DANGER",
+      "display": "Professionnel en danger",
+      "designation": [
+        {
+          "use": {
+            "code": "LibelleCourt"
+          },
+          "value": "Professionnel en danger"
+        },
+        {
+          "use": {
+            "code": "LibelleAdapte"
+          },
+          "value": "Professionnel en danger"
+        }
+      ],
+      "property": [
+        {
+          "code": "dateValid",
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
+        },
+        {
+          "code": "dateMaj",
+          "valueDateTime": "2025-04-25T12:00:00+01:00"
+        }
+      ]
+    }
+  ]
+}

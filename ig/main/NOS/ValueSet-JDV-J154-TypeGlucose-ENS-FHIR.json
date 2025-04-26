@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.609"
     }
   ],
-  "version": "20240927120000",
+  "version": "20250425120000",
   "name": "JDV_J154-TypeGlucose-ENS",
   "status": "active",
-  "date": "2024-09-27T12:00:00+01:00",
+  "date": "2025-04-25T12:00:00+01:00",
   "description": "JDV pour caractériser le type de glucose",
   "compose": {
     "include": [
@@ -27,7 +27,7 @@
         "concept": [
           {
             "code": "2345-7",
-            "display": "Glucose",
+            "display": "Glucose [Masse/Volume] Sérum/Plasma ; Numérique",
             "designation": [
               {
                 "use": {
@@ -39,7 +39,7 @@
           },
           {
             "code": "4548-4",
-            "display": "Hémoglobine A1c %",
+            "display": "Hémoglobine A1c/hémoglobine totale [Fraction massique] Sang ; Numérique",
             "designation": [
               {
                 "use": {
@@ -54,18 +54,6 @@
       {
         "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
         "concept": [
-          {
-            "code": "MED-969",
-            "display": "Glucose interstitiel",
-            "designation": [
-              {
-                "use": {
-                  "code": "OID"
-                },
-                "value": "urn:oid:1.2.250.1.213.1.1.4.322"
-              }
-            ]
-          },
           {
             "code": "MED-972",
             "display": "Index de gestion de glycémie (IGG)",
