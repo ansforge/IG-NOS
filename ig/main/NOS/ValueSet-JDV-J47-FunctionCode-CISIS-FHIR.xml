@@ -10,11 +10,11 @@
   <identifier>
     <value value="urn:oid:1.2.250.1.213.1.1.5.124"/>
   </identifier>
-  <version value="20241213120000"/>
+  <version value="20250523120000"/>
   <name value="JDV_J47-FunctionCode-CISIS"/>
   <status value="active"/>
-  <date value="2024-12-13T12:00:00+01:00"/>
-  <description value="Jeux de valeurs des Rôles fonctionnels HL7 et CI-SIS"/>
+  <date value="2025-05-23T12:00:00+01:00"/>
+  <description value="Rôles fonctionnels"/>
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge"/>
@@ -51,6 +51,56 @@
       <concept>
         <code value="ES-PREF"/>
         <display value="Etablissement de santé de préférence"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.2.280"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HEBERG"/>
+        <display value="Centre d'hébergement"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.2.280"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ST-PS-PEC"/>
+        <display value="Structures et professionnels de proximité impliqués dans les soins"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.2.280"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ST-COORD"/>
+        <display value="Structure de coordination ou d'interface ville-hôpital"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.2.280"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ORG-SOC"/>
+        <display value="Organismes sociaux et de maintien dans l'emploi"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.2.280"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ST-INF"/>
+        <display value="Structure de soutien et d'information"/>
         <designation>
           <use>
             <code value="OID"/>

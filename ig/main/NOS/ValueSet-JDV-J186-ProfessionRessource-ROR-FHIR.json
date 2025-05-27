@@ -15,10 +15,10 @@
       "value": "urn:oid:1.2.250.1.213.3.4.19"
     }
   ],
-  "version": "20250425120000",
+  "version": "20250523120000",
   "name": "JDV_J186-ProfessionRessource-ROR",
   "status": "active",
-  "date": "2025-04-25T12:00:00+01:00",
+  "date": "2025-05-23T12:00:00+01:00",
   "description": "Profession Ressource des offres dans le ROR",
   "compose": {
     "include": [
@@ -527,6 +527,30 @@
       {
         "system": "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
         "concept": [
+          {
+            "code": "330",
+            "display": "Coordonnateur de parcours",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
+          {
+            "code": "335",
+            "display": "Gestionnaire alertes et urgences sanitaires",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.6.1.107"
+              }
+            ]
+          },
           {
             "code": "350",
             "display": "Aide à domicile",

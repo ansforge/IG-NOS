@@ -15,11 +15,11 @@
       "value": "urn:oid:1.2.250.1.213.1.1.5.124"
     }
   ],
-  "version": "20241213120000",
+  "version": "20250523120000",
   "name": "JDV_J47-FunctionCode-CISIS",
   "status": "active",
-  "date": "2024-12-13T12:00:00+01:00",
-  "description": "Jeux de valeurs des Rôles fonctionnels HL7 et CI-SIS",
+  "date": "2025-05-23T12:00:00+01:00",
+  "description": "Rôles fonctionnels",
   "compose": {
     "include": [
       {
@@ -64,6 +64,66 @@
           {
             "code": "ES-PREF",
             "display": "Etablissement de santé de préférence",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.280"
+              }
+            ]
+          },
+          {
+            "code": "HEBERG",
+            "display": "Centre d'hébergement",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.280"
+              }
+            ]
+          },
+          {
+            "code": "ST-PS-PEC",
+            "display": "Structures et professionnels de proximité impliqués dans les soins",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.280"
+              }
+            ]
+          },
+          {
+            "code": "ST-COORD",
+            "display": "Structure de coordination ou d'interface ville-hôpital",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.280"
+              }
+            ]
+          },
+          {
+            "code": "ORG-SOC",
+            "display": "Organismes sociaux et de maintien dans l'emploi",
+            "designation": [
+              {
+                "use": {
+                  "code": "OID"
+                },
+                "value": "urn:oid:1.2.250.1.213.1.1.4.2.280"
+              }
+            ]
+          },
+          {
+            "code": "ST-INF",
+            "display": "Structure de soutien et d'information",
             "designation": [
               {
                 "use": {
