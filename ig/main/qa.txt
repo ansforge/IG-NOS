@@ -3,7 +3,7 @@ NOS : Validation Results
 
 err = 1020, warn = 38249, info = 1011
 IG Publisher Version: 2.0.8
-Generated Sun Jun 29 04:45:49 UTC 2025. FHIR version 4.0.1 for ans.fr.nos#1.5.0 (canonical = https://interop.esante.gouv.fr/ig/nos)
+Generated Mon Jun 30 04:43:28 UTC 2025. FHIR version 4.0.1 for ans.fr.nos#1.5.0 (canonical = https://interop.esante.gouv.fr/ig/nos)
  Build Errors : 7572 / 8 / 0
  /home/runner/work/IG-NOS/IG-NOS/fsh-generated/resources/ImplementationGuide-ans.fr.nos : 0 / 0 / 1
  /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV_J01-XdsAuthorSpecialty-CISIS-FHIR : 2 / 394 / 1
@@ -12916,8 +12916,8 @@ WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Constraint failed: vs
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [f3543b4b-5cbf-424e-b675-51439495ae8f]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: c605d3eb-2f3c-4748-b65b-67ed32456518
+ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [8b1cfabf-f76f-46f3-81f7-f5e792f75e12]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: a460668b-e7ba-48e8-8c7b-b6db33299b6e
 ERROR: /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV_J146-MethodBodyHeight-ENS-FHIR: URL Mismatch https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J146-MethodBodyHeight-ENS vs https://mos.esante.gouv.fr/NOS/JDV_J146-MethodBodyHeight-ENS/FHIR/JDV-J146-MethodBodyHeight-ENS
 == input/NOS/JDV_J147-MethodHeartrate-ENS-FHIR.json ==
 ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/JDV_J147-MethodHeartrate-ENS/FHIR/JDV-J147-MethodHeartrate-ENS'): Conformance resource /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV_J147-MethodHeartrate-ENS-FHIR.json - the canonical URL (https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J147-MethodHeartrate-ENS) does not match the URL (https://mos.esante.gouv.fr/NOS/JDV_J147-MethodHeartrate-ENS/FHIR/JDV-J147-MethodHeartrate-ENS)
@@ -12933,8 +12933,8 @@ ERROR: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet.compose.include[1]: URI v
 INFORMATION: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet.compose.include[1].concept[0]: A definition for CodeSystem 'http://snomed.info/sct ' could not be found, so the code cannot be validated
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J147-MethodHeartrate-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [46452d56-c09f-400d-a8c5-fa2b9fd91251]: A usable code system with URL http://snomed.info/sct  could not be resolved.
-Information: X-Request-Id: 2b4657ed-4c4f-4f28-bd6c-c3ec860e3c75
+ERROR: ValueSet.where(id = 'JDV-J147-MethodHeartrate-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [b1bc9aea-0e0f-43cf-9e00-62e529358a56]: A usable code system with URL http://snomed.info/sct  could not be resolved.
+Information: X-Request-Id: 9c570cbf-e200-4ce4-945b-4e4422cee20e
 ERROR: /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV_J147-MethodHeartrate-ENS-FHIR: URL Mismatch https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J147-MethodHeartrate-ENS vs https://mos.esante.gouv.fr/NOS/JDV_J147-MethodHeartrate-ENS/FHIR/JDV-J147-MethodHeartrate-ENS
 == input/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS-FHIR.json ==
 ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS'): Conformance resource /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS-FHIR.json - the canonical URL (https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J148-ReferenceRangeAppliesTo-CISIS) does not match the URL (https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS)
@@ -13008,8 +13008,8 @@ ERROR: ValueSet/JDV-J155-MethodGlucoseSanguin-ENS: ValueSet.compose.include[1]: 
 INFORMATION: ValueSet/JDV-J155-MethodGlucoseSanguin-ENS: ValueSet.compose.include[1].concept[0]: A definition for CodeSystem 'http://snomed.info/sct ' could not be found, so the code cannot be validated
 WARNING: ValueSet/JDV-J155-MethodGlucoseSanguin-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet/JDV-J155-MethodGlucoseSanguin-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J155-MethodGlucoseSanguin-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [88f9a285-e2fa-4ef5-bc1a-c49ba0a98623]: A usable code system with URL http://snomed.info/sct  could not be resolved.
-Information: X-Request-Id: 11532aff-5c54-4bfa-9315-3761912bffae
+ERROR: ValueSet.where(id = 'JDV-J155-MethodGlucoseSanguin-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [f1024d94-7166-42b6-917a-179daad0b7d8]: A usable code system with URL http://snomed.info/sct  could not be resolved.
+Information: X-Request-Id: 5b5b9d0f-0bb2-4923-abad-7a1d7d6cf0bf
 ERROR: /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV_J155-MethodGlucoseSanguin-ENS-FHIR: URL Mismatch https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J155-MethodGlucoseSanguin-ENS vs https://mos.esante.gouv.fr/NOS/JDV_J155-MethodGlucoseSanguin-ENS/FHIR/JDV-J155-MethodGlucoseSanguin-ENS
 == input/NOS/JDV_J156-MethodGlucoseInterstitiel-ENS-FHIR.json ==
 ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/JDV_J156-MethodGlucoseInterstitiel-ENS/FHIR/JDV-J156-MethodGlucoseInterstitiel-ENS'): Conformance resource /home/runner/work/IG-NOS/IG-NOS/input/NOS/JDV_J156-MethodGlucoseInterstitiel-ENS-FHIR.json - the canonical URL (https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J156-MethodGlucoseInterstitiel-ENS) does not match the URL (https://mos.esante.gouv.fr/NOS/JDV_J156-MethodGlucoseInterstitiel-ENS/FHIR/JDV-J156-MethodGlucoseInterstitiel-ENS)
