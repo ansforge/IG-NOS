@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>ANS.FR.NOS\TRE_G15-ProfessionSante - XML Representation - FHIR v4.0.1</title>
+    <title>ANS.FR.NOS\TRE_G15_ProfessionSante - XML Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -135,7 +135,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>TRE_G15-ProfessionSante</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>TRE_G15_ProfessionSante</b></li>
 
           <span style="float:right;">
 
@@ -211,7 +211,7 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: TRE_G15-ProfessionSante - XML Representation</h2>
+<h2 id="root">: TRE_G15_ProfessionSante - XML Representation</h2>
   <table class="colsi">
     <tr>
 
@@ -238,9 +238,15 @@
   <pre style="white-space: pre; text-wrap: nowrap; width: auto;" class="xml"><code style="white-space: pre; text-wrap: nowrap;">
 &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">CodeSystem</a> xmlns="http://hl7.org/fhir"&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="TRE-G15-ProfessionSante"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">versionId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="9"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">lastUpdated</a> <a href="http://hl7.org/fhir/R4/datatypes.html#instant">value</a>="2025-03-31T18:11:14.345+00:00"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/&gt;
+  &lt;/meta&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="generated"/&gt;
-    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p class="res-header-id"&gt;&lt;b&gt;Generated Narrative: CodeSystem TRE-G15-ProfessionSante&lt;/b&gt;&lt;/p&gt;&lt;a name="TRE-G15-ProfessionSante"&gt; &lt;/a&gt;&lt;a name="hcTRE-G15-ProfessionSante"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Properties&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;This code system defines the following properties for its concepts&lt;/b&gt;&lt;/p&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;date de validité d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de mise à jour d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de fin d'exploitation d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This  code system &lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class="codes"&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateValid&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateMaj&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateFin&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;10&lt;a name="TRE-G15-ProfessionSante-10"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Médecin&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;21&lt;a name="TRE-G15-ProfessionSante-21"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pharmacien&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;26&lt;a name="TRE-G15-ProfessionSante-26"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Audioprothésiste&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;28&lt;a name="TRE-G15-ProfessionSante-28"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Opticien-Lunetier&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;31&lt;a name="TRE-G15-ProfessionSante-31"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Assistant dentaire&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2018-10-26T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2018-10-26T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;32&lt;a name="TRE-G15-ProfessionSante-32"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Physicien médical&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2019-04-26T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2019-04-26T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;35&lt;a name="TRE-G15-ProfessionSante-35"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Aide-soignant&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2018-10-26T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;36&lt;a name="TRE-G15-ProfessionSante-36"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ambulancier&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2018-10-26T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;37&lt;a name="TRE-G15-ProfessionSante-37"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Auxiliaire de puériculture&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2018-10-26T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;38&lt;a name="TRE-G15-ProfessionSante-38"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Préparateur en pharmacie hospitalière&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2018-10-26T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-01-31T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;39&lt;a name="TRE-G15-ProfessionSante-39"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Préparateur en pharmacie (officine)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2018-10-26T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-01-31T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;40&lt;a name="TRE-G15-ProfessionSante-40"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chirurgien-Dentiste&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;50&lt;a name="TRE-G15-ProfessionSante-50"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sage-Femme&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;60&lt;a name="TRE-G15-ProfessionSante-60"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infirmier&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;69&lt;a name="TRE-G15-ProfessionSante-69"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infirmier psychiatrique&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;70&lt;a name="TRE-G15-ProfessionSante-70"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Masseur-Kinésithérapeute&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;80&lt;a name="TRE-G15-ProfessionSante-80"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pédicure-Podologue&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;81&lt;a name="TRE-G15-ProfessionSante-81"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orthoprothésiste&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;82&lt;a name="TRE-G15-ProfessionSante-82"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Podo-Orthésiste&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;83&lt;a name="TRE-G15-ProfessionSante-83"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orthopédiste-Orthésiste&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;84&lt;a name="TRE-G15-ProfessionSante-84"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Oculariste&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;85&lt;a name="TRE-G15-ProfessionSante-85"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Epithésiste&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;86&lt;a name="TRE-G15-ProfessionSante-86"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Technicien de laboratoire médical&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2012-06-18T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-01-31T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;91&lt;a name="TRE-G15-ProfessionSante-91"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orthophoniste&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;92&lt;a name="TRE-G15-ProfessionSante-92"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orthoptiste&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;93&lt;a name="TRE-G15-ProfessionSante-93"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Psychologue&lt;/td&gt;&lt;td&gt;Les annonces du Président lors des assises de la santé mentale ont porté sur un remboursement des actes de psychologie en 2022 ; la Cnam a indiqué que ce serait avant le 1er avril 2022. Pour le moment, il n'y a pas beaucoup d'alternative à la délivrance de CPS aux psychologues pour faire de la télétransmission de FSE et de l'avance de frais.  Ce code créé dans la TRE_G15-ProfessionSante a pour but d'être déversé dans la liste de codes DICO, non évolutive (elle ne peut pas intégrer une nouvelle nomenclature). DICO impacte tous les éditeurs et industriels car cette liste de codes est comprise dans la distribution des cryptolibs pour le bon fonctionnement des logiciels sur le terrain. Le code 93 « Psychologue » existe déjà dans la TRE_R95_UsagerTitre et est repris dans toutes les autres applications à travers leurs JDV. La création du code 93 dans la TRE_G15 comme obsolète a pour but de ne pas affecter les applications existantes en veillant bien à ce que leurs JDV ne reprenne pas ce code.&lt;/td&gt;&lt;td&gt;2021-12-17T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2021-12-17T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2021-12-17T12:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;94&lt;a name="TRE-G15-ProfessionSante-94"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ergothérapeute&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;95&lt;a name="TRE-G15-ProfessionSante-95"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Diététicien&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2012-06-18T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2012-06-18T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;96&lt;a name="TRE-G15-ProfessionSante-96"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Psychomotricien&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;98&lt;a name="TRE-G15-ProfessionSante-98"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Manipulateur ERM&lt;/td&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p class="res-header-id"&gt;&lt;b&gt;Narratif généré : CodeSystem TRE-G15-ProfessionSante&lt;/b&gt;&lt;/p&gt;&lt;a name="TRE-G15-ProfessionSante"&gt; &lt;/a&gt;&lt;a name="hcTRE-G15-ProfessionSante"&gt; &lt;/a&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"&gt;version: 9; Dernière mise à jour : 2025-03-31 18:11:14+0000&lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Profil: &lt;a href="http://hl7.org/fhir/R4/shareablecodesystem.html"&gt;Shareable CodeSystem&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Propriétés&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts&lt;/b&gt;&lt;/p&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Nom&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;URI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td/&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;date de validité d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td/&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de mise à jour d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td/&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de fin d'exploitation d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;deprecationDate&lt;/td&gt;&lt;td&gt;deprecationDate&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#deprecationDate&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date Concept was deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#status&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;A property that indicates the status of the concept.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;retirementDate&lt;/td&gt;&lt;td&gt;retirementDate&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#retirementDate&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date Concept was retired&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This case-insensitive code system &lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class="codes"&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Définition&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Déprécié&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateValid&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateMaj&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateFin&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;deprecationDate&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;status&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;10&lt;a name="TRE-G15-ProfessionSante-10"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Médecin&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;21&lt;a name="TRE-G15-ProfessionSante-21"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pharmacien&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;26&lt;a name="TRE-G15-ProfessionSante-26"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Audioprothésiste&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;28&lt;a name="TRE-G15-ProfessionSante-28"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Opticien-Lunetier&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;31&lt;a name="TRE-G15-ProfessionSante-31"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Assistant dentaire&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2018-10-26T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2018-10-26T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;32&lt;a name="TRE-G15-ProfessionSante-32"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Physicien médical&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2019-04-26T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2019-04-26T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr style="background-color: #ffeeee"&gt;&lt;td style="white-space:nowrap"&gt;35&lt;a name="TRE-G15-ProfessionSante-35"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Aide-soignant&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Déprécié&lt;/td&gt;&lt;td&gt;2018-10-26T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;td&gt;deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr style="background-color: #ffeeee"&gt;&lt;td style="white-space:nowrap"&gt;36&lt;a name="TRE-G15-ProfessionSante-36"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ambulancier&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Déprécié&lt;/td&gt;&lt;td&gt;2018-10-26T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;td&gt;deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr style="background-color: #ffeeee"&gt;&lt;td style="white-space:nowrap"&gt;37&lt;a name="TRE-G15-ProfessionSante-37"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Auxiliaire de puériculture&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Déprécié&lt;/td&gt;&lt;td&gt;2018-10-26T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;td&gt;deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr style="background-color: #ffeeee"&gt;&lt;td style="white-space:nowrap"&gt;38&lt;a name="TRE-G15-ProfessionSante-38"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Préparateur en pharmacie hospitalière&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Déprécié&lt;/td&gt;&lt;td&gt;2018-10-26T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-01-31T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;td&gt;deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr style="background-color: #ffeeee"&gt;&lt;td style="white-space:nowrap"&gt;39&lt;a name="TRE-G15-ProfessionSante-39"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Préparateur en pharmacie (officine)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Déprécié&lt;/td&gt;&lt;td&gt;2018-10-26T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-01-31T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2024-12-13T12:00:00+01:00&lt;/td&gt;&lt;td&gt;deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;40&lt;a name="TRE-G15-ProfessionSante-40"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chirurgien-Dentiste&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;50&lt;a name="TRE-G15-ProfessionSante-50"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sage-Femme&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;60&lt;a name="TRE-G15-ProfessionSante-60"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infirmier&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;69&lt;a name="TRE-G15-ProfessionSante-69"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infirmier psychiatrique&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;70&lt;a name="TRE-G15-ProfessionSante-70"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Masseur-Kinésithérapeute&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;80&lt;a name="TRE-G15-ProfessionSante-80"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pédicure-Podologue&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;81&lt;a name="TRE-G15-ProfessionSante-81"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orthoprothésiste&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;82&lt;a name="TRE-G15-ProfessionSante-82"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Podo-Orthésiste&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;83&lt;a name="TRE-G15-ProfessionSante-83"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orthopédiste-Orthésiste&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;84&lt;a name="TRE-G15-ProfessionSante-84"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Oculariste&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;85&lt;a name="TRE-G15-ProfessionSante-85"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Epithésiste&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2008-04-08T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;86&lt;a name="TRE-G15-ProfessionSante-86"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Technicien de laboratoire médical&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2012-06-18T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-01-31T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;91&lt;a name="TRE-G15-ProfessionSante-91"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orthophoniste&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;92&lt;a name="TRE-G15-ProfessionSante-92"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orthoptiste&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr style="background-color: #ffeeee"&gt;&lt;td style="white-space:nowrap"&gt;93&lt;a name="TRE-G15-ProfessionSante-93"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Psychologue&lt;/td&gt;&lt;td&gt;Les annonces du Président lors des assises de la santé mentale ont porté sur un remboursement des actes de psychologie en 2022 ; la Cnam a indiqué que ce serait avant le 1er avril 2022. Pour le moment, il n'y a pas beaucoup d'alternative à la délivrance de CPS aux psychologues pour faire de la télétransmission de FSE et de l'avance de frais.  Ce code créé dans la TRE_G15-ProfessionSante a pour but d'être déversé dans la liste de codes DICO, non évolutive (elle ne peut pas intégrer une nouvelle nomenclature). DICO impacte tous les éditeurs et industriels car cette liste de codes est comprise dans la distribution des cryptolibs pour le bon fonctionnement des logiciels sur le terrain. Le code 93 « Psychologue » existe déjà dans la TRE_R95_UsagerTitre et est repris dans toutes les autres applications à travers leurs JDV. La création du code 93 dans la TRE_G15 comme obsolète a pour but de ne pas affecter les applications existantes en veillant bien à ce que leurs JDV ne reprenne pas ce code.&lt;/td&gt;&lt;td&gt;Déprécié&lt;/td&gt;&lt;td&gt;2021-12-17T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2021-12-17T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2021-12-17T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2021-12-17T12:00:00+01:00&lt;/td&gt;&lt;td&gt;deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;94&lt;a name="TRE-G15-ProfessionSante-94"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ergothérapeute&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;95&lt;a name="TRE-G15-ProfessionSante-95"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Diététicien&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2012-06-18T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2012-06-18T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;96&lt;a name="TRE-G15-ProfessionSante-96"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Psychomotricien&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;98&lt;a name="TRE-G15-ProfessionSante-98"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Manipulateur ERM&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2000-12-13T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.extension">extension</a>
              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"&gt;
@@ -251,11 +257,13 @@
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>
        <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:ietf:rfc:3986"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="urn:oid:1.2.250.1.71.1.2.7"/&gt;
   &lt;/identifier&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="1.5.0"/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="TRE_G15-ProfessionSante"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="TRE_G15_ProfessionSante"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>="false"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2025-03-28T12:00:00+01:00"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ANS"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>&gt;
@@ -267,6 +275,7 @@
   &lt;/contact&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>
                <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>="Professions de santé définies par le code de la santé publique : professions médicales (art. L4111-1 à L4163-10), de la pharmacie et de la physique médicale (art. 4211-1 à 4252-3) et d’auxiliaires médicaux (art. 4311-1 à 4394-3)"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">caseSensitive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>="false"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="complete"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">property</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
@@ -283,21 +292,28 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">description</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Date de fin d'exploitation d'un code concept"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateTime"/&gt;
   &lt;/property&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">property</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="deprecationDate"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">uri</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="http://hl7.org/fhir/concept-properties#deprecationDate"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">description</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Date Concept was deprecated"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateTime"/&gt;
+  &lt;/property&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">property</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">uri</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="http://hl7.org/fhir/concept-properties#status"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">description</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="A property that indicates the status of the concept."/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="code"/&gt;
+  &lt;/property&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">property</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="retirementDate"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">uri</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="http://hl7.org/fhir/concept-properties#retirementDate"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">description</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Date Concept was retired"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateTime"/&gt;
+  &lt;/property&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="10"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Médecin"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Médecin"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Médecin"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
@@ -305,23 +321,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="21"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Pharmacien"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Pharmacien"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Pharmacien"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
@@ -329,23 +337,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="26"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Audioprothésiste"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Audioprothésiste"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Audioprothésiste"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2008-04-08T00:00:00+01:00"/&gt;
@@ -353,23 +353,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2008-04-08T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="28"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Opticien-Lunetier"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Opticien-Lunetier"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Opticien-Lunetier"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
@@ -377,23 +369,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="31"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Assistant dentaire"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Assistant dentaire"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Assistant dentaire"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2018-10-26T12:00:00+01:00"/&gt;
@@ -401,23 +385,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2018-10-26T12:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="32"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Physicien médical"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Physicien médical"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Physicien médical"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2019-04-26T12:00:00+01:00"/&gt;
@@ -425,23 +401,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2019-04-26T12:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="35"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Aide-soignant"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Aide-soignant"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Aide-soignant"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2018-10-26T12:00:00+01:00"/&gt;
@@ -453,23 +421,19 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2024-12-13T12:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="deprecationDate"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2024-12-13T12:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="deprecated"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="36"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Ambulancier"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Ambulancier"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Ambulancier"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2018-10-26T12:00:00+01:00"/&gt;
@@ -481,23 +445,19 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2024-12-13T12:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="deprecationDate"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2024-12-13T12:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="deprecated"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="37"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Auxiliaire de puériculture"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Auxiliaire de puériculture"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Auxiliaire de puériculture"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2018-10-26T12:00:00+01:00"/&gt;
@@ -509,23 +469,19 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2024-12-13T12:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="deprecationDate"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2024-12-13T12:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="deprecated"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="38"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Préparateur en pharmacie hospitalière"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Préparateur en pharmacie hospitalière"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Préparateur en pharmacie hospitalière"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2018-10-26T12:00:00+01:00"/&gt;
@@ -537,23 +493,19 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2025-01-31T12:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="deprecationDate"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2024-12-13T12:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="deprecated"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="39"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Préparateur en pharmacie (officine)"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Préparateur en pharmacie (officine)"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Préparateur en pharmacie (officine)"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2018-10-26T12:00:00+01:00"/&gt;
@@ -566,22 +518,18 @@
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2025-01-31T12:00:00+01:00"/&gt;
     &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="deprecationDate"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2024-12-13T12:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="deprecated"/&gt;
+    &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="40"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Chirurgien-Dentiste"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Chirurgien-Dentiste"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Chirurgien-Dentiste"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
@@ -589,23 +537,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="50"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Sage-Femme"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Sage-Femme"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Sage-Femme"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
@@ -613,23 +553,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="60"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Infirmier"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Infirmier"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Infirmier"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
@@ -637,23 +569,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="69"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Infirmier psychiatrique"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Infirmier psychiatrique"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Infirmier psychiatrique"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
@@ -661,23 +585,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="70"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Masseur-Kinésithérapeute"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Masseur-Kinésithérapeute"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Masseur-Kinésithérapeute"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
@@ -685,23 +601,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="80"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Pédicure-Podologue"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Pédicure-Podologue"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Pédicure-Podologue"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
@@ -709,23 +617,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="81"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Orthoprothésiste"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Orthoprothésiste"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Orthoprothésiste"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2008-04-08T00:00:00+01:00"/&gt;
@@ -733,23 +633,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2008-04-08T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="82"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Podo-Orthésiste"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Podo-Orthésiste"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Podo-Orthésiste"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2008-04-08T00:00:00+01:00"/&gt;
@@ -757,23 +649,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2008-04-08T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="83"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Orthopédiste-Orthésiste"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Orthopédiste-Orthésiste"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Orthopédiste-Orthésiste"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2008-04-08T00:00:00+01:00"/&gt;
@@ -781,23 +665,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2008-04-08T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="84"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Oculariste"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Oculariste"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Oculariste"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2008-04-08T00:00:00+01:00"/&gt;
@@ -805,23 +681,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2008-04-08T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="85"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Epithésiste"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Epithésiste"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Epithésiste"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2008-04-08T00:00:00+01:00"/&gt;
@@ -830,22 +698,14 @@
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2008-04-08T00:00:00+01:00"/&gt;
     &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
+    &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="86"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Technicien de laboratoire médical"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Technicien de laboratoire médical"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Technicien de laboratoire médical"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2012-06-18T00:00:00+01:00"/&gt;
@@ -854,22 +714,14 @@
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2025-01-31T12:00:00+01:00"/&gt;
     &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
+    &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="91"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Orthophoniste"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Orthophoniste"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Orthophoniste"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
@@ -877,23 +729,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="92"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Orthoptiste"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Orthoptiste"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Orthoptiste"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
@@ -901,6 +745,10 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -908,18 +756,6 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Psychologue"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Les annonces du Président lors des assises de la santé mentale ont porté sur un remboursement des actes de psychologie en 2022 ; la Cnam a indiqué que ce serait avant le 1er avril 2022. Pour le moment, il n'y a pas beaucoup d'alternative à la délivrance de CPS aux psychologues pour faire de la télétransmission de FSE et de l'avance de frais.  Ce code créé dans la TRE_G15-ProfessionSante a pour but d'être déversé dans la liste de codes DICO, non évolutive (elle ne peut pas intégrer une nouvelle nomenclature). DICO impacte tous les éditeurs et industriels car cette liste de codes est comprise dans la distribution des cryptolibs pour le bon fonctionnement des logiciels sur le terrain. Le code 93 « Psychologue » existe déjà dans la TRE_R95_UsagerTitre et est repris dans toutes les autres applications à travers leurs JDV. La création du code 93 dans la TRE_G15 comme obsolète a pour but de ne pas affecter les applications existantes en veillant bien à ce que leurs JDV ne reprenne pas ce code."/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Psychologue"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Psychologue"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2021-12-17T12:00:00+01:00"/&gt;
@@ -932,22 +768,18 @@
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2021-12-17T12:00:00+01:00"/&gt;
     &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="deprecationDate"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2021-12-17T12:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="deprecated"/&gt;
+    &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="94"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Ergothérapeute"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Ergothérapeute"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Ergothérapeute"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
@@ -955,23 +787,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="95"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Diététicien"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Diététicien"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Diététicien"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2012-06-18T00:00:00+01:00"/&gt;
@@ -979,23 +803,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2012-06-18T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="96"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Psychomotricien"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Psychomotricien"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Psychomotricien"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
@@ -1003,23 +819,15 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="98"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Manipulateur ERM"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleCourt"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Manipulateur ERM"/&gt;
-    &lt;/designation&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="LibelleAdapte"/&gt;
-      &lt;/use&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Manipulateur ERM"/&gt;
-    &lt;/designation&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateValid"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
@@ -1027,6 +835,10 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="dateMaj"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2000-12-13T00:00:00+01:00"/&gt;
+    &lt;/property&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="status"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
 &lt;/CodeSystem&gt;</code></pre>
@@ -1041,21 +853,21 @@
 <table class="grid table table-bordered">
 	<tbody>
 		<tr>
-			<td><a name="l3085">​</a><a href="./CodeSystem-TRE-G15-ProfessionSante.xslx">xlsx</a> </td>
+			<td><a name="l2665">​</a><a href="./CodeSystem-TRE-G15-ProfessionSante.xslx">xlsx</a> </td>
 			<td> Fichier excel </td>
 		</tr>	
 	
 		<tr>
-			<td><a name="l3096">​</a><a href="./NOS/CodeSystem-TRE-G15-ProfessionSante.tabs">csv</a> </td>
+			<td><a name="l2676">​</a><a href="./NOS/CodeSystem-TRE-G15-ProfessionSante.tabs">csv</a> </td>
 			<td> Fichier csv </td>
 		</tr>
 		<tr>
-			<td><a name="l3107">​</a><a href="./NOS/CodeSystem-TRE-G15-ProfessionSante.pdf" class="file-link">Pdf</a> </td>
+			<td><a name="l2687">​</a><a href="./NOS/CodeSystem-TRE-G15-ProfessionSante.pdf" class="file-link">Pdf</a> </td>
 			<td> Fichier PDF </td>
 		</tr>	
 		
 		<tr>
-			<td><a name="l3118">​</a><a href="./NOS/CodeSystem-TRE-G15-ProfessionSante-svs.xml">svs</a> </td>
+			<td><a name="l2698">​</a><a href="./NOS/CodeSystem-TRE-G15-ProfessionSante-svs.xml">svs</a> </td>
 			<td>  Fichier xml (Sharing Value Sets) </td>
 		</tr>
 		<tr>
@@ -1133,7 +945,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.nos#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jul 2, 2025 04:35+0000">2025-07-02</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.nos#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 3, 2025 04:37+0000">2025-07-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

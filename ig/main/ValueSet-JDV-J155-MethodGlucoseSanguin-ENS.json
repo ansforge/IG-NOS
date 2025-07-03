@@ -1,9 +1,15 @@
 {
   "resourceType" : "ValueSet",
   "id" : "JDV-J155-MethodGlucoseSanguin-ENS",
+  "meta" : {
+    "versionId" : "4",
+    "lastUpdated" : "2024-08-22T13:06:10.259+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet JDV-J155-MethodGlucoseSanguin-ENS</b></p><a name=\"JDV-J155-MethodGlucoseSanguin-ENS\"> </a><a name=\"hcJDV-J155-MethodGlucoseSanguin-ENS\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>https://smt.esante.gouv.fr/terminologie-emdn</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Z1204011501</td><td>SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE</td></tr></table></li><li>Include these codes as defined in <code>http://snomed.info/sct </code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>82078001</td><td>prélèvement de sang pour le laboratoire</td></tr></table></li></ul></div>"
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs JDV-J155-MethodGlucoseSanguin-ENS</b></p><a name=\"JDV-J155-MethodGlucoseSanguin-ENS\"> </a><a name=\"hcJDV-J155-MethodGlucoseSanguin-ENS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Dernière mise à jour : 2024-08-22 13:06:10+0000; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut les codes sont définis dans <a href=\"CodeSystem-terminologie-emdn.html\"><code>https://smt.esante.gouv.fr/terminologie-emdn</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Z1204011501</td><td>SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE</td></tr></table></li><li>Inclut les codes sont définis dans <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/82078001\">82078001</a></td><td>prélèvement d'un échantillon sanguin pour le laboratoire</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -13,12 +19,14 @@
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J155-MethodGlucoseSanguin-ENS/FHIR/JDV-J155-MethodGlucoseSanguin-ENS",
   "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.610"
   }],
   "version" : "1.5.0",
-  "name" : "JDV_J155-MethodGlucoseSanguin-ENS",
+  "name" : "JDV_J155_MethodGlucoseSanguin_ENS",
   "status" : "active",
-  "date" : "2024-10-25T12:00:00+01:00",
+  "experimental" : false,
+  "date" : "2024-07-26T12:00:00+01:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -33,26 +41,14 @@
       "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
       "concept" : [{
         "code" : "Z1204011501",
-        "display" : "SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE",
-        "designation" : [{
-          "use" : {
-            "code" : "OID"
-          },
-          "value" : "urn:oid:1.2.250.1.213.2.68"
-        }]
+        "display" : "SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE"
       }]
     },
     {
-      "system" : "http://snomed.info/sct ",
+      "system" : "http://snomed.info/sct",
       "concept" : [{
         "code" : "82078001",
-        "display" : "prélèvement de sang pour le laboratoire",
-        "designation" : [{
-          "use" : {
-            "code" : "OID"
-          },
-          "value" : "urn:oid:2.16.840.1.113883.6.96"
-        }]
+        "display" : "prélèvement d'un échantillon sanguin pour le laboratoire"
       }]
     }]
   }

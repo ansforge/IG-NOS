@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>ANS.FR.NOS\TRE_R358-MotifStatutPersonnePriseCharge - TTL Representation - FHIR v4.0.1</title>
+    <title>ANS.FR.NOS\TRE_R358_MotifStatutPersonnePriseCharge - TTL Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -135,7 +135,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>TRE_R358-MotifStatutPersonnePriseCharge</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>TRE_R358_MotifStatutPersonnePriseCharge</b></li>
 
           <span style="float:right;">
 
@@ -211,7 +211,7 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: TRE_R358-MotifStatutPersonnePriseCharge - TTL Representation</h2>
+<h2 id="root">: TRE_R358_MotifStatutPersonnePriseCharge - TTL Representation</h2>
   <table class="colsi">
     <tr>
 
@@ -240,6 +240,7 @@
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix sct: &lt;http://snomed.info/id/&gt; .
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
 # - resource -------------------------------------------------------------------
@@ -247,9 +248,16 @@
  a fhir:CodeSystem ;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "TRE-R358-MotifStatutPersonnePriseCharge"] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.meta">fhir:meta</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">fhir:versionId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> "4" ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">fhir:lastUpdated</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> "2024-08-28T05:13:46.449+00:00"^^xsd:dateTime ] ;
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/StructureDefinition/shareablecodesystem&gt;     ] )
+  ] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "generated" ] ;
-fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: CodeSystem TRE-R358-MotifStatutPersonnePriseCharge&lt;/b&gt;&lt;/p&gt;&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge\"&gt; &lt;/a&gt;&lt;a name=\"hcTRE-R358-MotifStatutPersonnePriseCharge\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Properties&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;This code system defines the following properties for its concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;date de validité d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de mise à jour d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de fin d'exploitation d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This  code system &lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\"codes\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateValid&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateMaj&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateFin&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;84&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-84\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Le demandeur ne remplit pas les exigences d'admission&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;85&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-85\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Volonté du demandeur&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;86&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-86\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Le plateau technique n'est pas adapté à la prise en charge de l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;87&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-87\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager est admis dans un autre ESMS suite à un déménagement&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;88&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-88\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Suite à la décision de la CDAPH&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;89&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-89\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager ne souhaite plus être pris en charge par l'ESMS&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;90&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-90\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Décès&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;91&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-91\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager est admis dans un autre ESMS suite à une réorientation&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;92&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-92\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Amélioration notoire de la situation de l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;93&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-93\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Aggravation notoire de la situation de l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;95&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-95\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Annulation automatique&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;98&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-98\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fin de validité de la notification&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;100&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-100\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Volonté de l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;109&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-109\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Déménagement&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;112&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-112\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Erreur d'utilisation du logiciel&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;113&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-113\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Eloignement géographique&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;114&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-114\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Les ressources de l'ESMS ne sont pas suffisantes&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;115&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-115\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'ESMS n'est pas adapté au projet de vie actuel de l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;116&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-116\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Le type de handicap ne relève pas de l'ESMS&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;117&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-117\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;La situation de l'usager a changé, l'ESMS n'est pas adapté&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;118&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-118\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager ou son représentant légal refuse de s'inscrire dans l'ESMS&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;119&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-119\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager a été admis dans un autre ESMS, l'orientation n'est plus pertinente&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;120&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-120\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager a déménagé, l'orientation n'est plus pertinente géographiquement&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;121&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-121\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager ou son représentant légal refuse d'adhérer au projet de vie de l'ESMS&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;122&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-122\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'âge de l'usager est incompatible&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;124&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-124\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager est décédé&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;125&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-125\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager a démissionné (ESAT)&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;126&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-126\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Prise en charge invalidité SS (ESAT)&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;127&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-127\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Retraite (ESAT)&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;128&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-128\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fin de contrat (SAVS/SAMSAH/SESSAD)&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;135&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-135\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fin de période d'essai&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;136&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-136\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Renouvellement&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;146&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-146\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Entrée en apprentissage&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;147&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-147\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Réinsertion en milieu ordinaire&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;148&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-148\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'ESMS n'a pas réussi à joindre l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;150&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-150\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager a pris contact avec l'ESMS&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;151&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-151\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'ESMS a pris contact avec l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;152&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-152\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager a visité l'ESMS&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;153&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-153\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'ESMS a envoyé une documentation à l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;157&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-157\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hospitalisation&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;158&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-158\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Admission en établissement pour personnes âgées&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;159&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-159\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fin de formation&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;168&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-168\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pour placer l'usager en liste d'attente&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;170&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-170\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pour prendre en charge l'usager à temps adapté&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;172&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-172\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Changement de situation de l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;173&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-173\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Une autre décision annule et remplace cette décision&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;174&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-174\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Décision clôturée par la MDPH&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;184&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-184\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager est accueilli en famille d'accueil&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;204&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-204\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fin de l'accueil temporaire&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;253&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-253\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager est transféré dans une autre unité&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"^^rdf:XMLLiteral
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Narratif généré : CodeSystem TRE-R358-MotifStatutPersonnePriseCharge&lt;/b&gt;&lt;/p&gt;&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge\"&gt; &lt;/a&gt;&lt;a name=\"hcTRE-R358-MotifStatutPersonnePriseCharge\"&gt; &lt;/a&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;version: 4; Dernière mise à jour : 2024-08-28 05:13:46+0000&lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profil: &lt;a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\"&gt;Shareable CodeSystem&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Propriétés&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Nom&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;date de validité d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de mise à jour d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de fin d'exploitation d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This case-insensitive code system &lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\"codes\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateValid&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateMaj&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateFin&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;French (France) (fr)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;84&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-84\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Le demandeur ne remplit pas les exigences d'admission&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Remplit pas exigence admission&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;85&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-85\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Volonté du demandeur&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;86&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-86\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Le plateau technique n'est pas adapté à la prise en charge de l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Plateau technique pas adapté&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;87&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-87\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager est admis dans un autre ESMS suite à un déménagement&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Déménagement ESMS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;88&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-88\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Suite à la décision de la CDAPH&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Décision CDAPH&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;89&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-89\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager ne souhaite plus être pris en charge par l'ESMS&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Décision usager&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;90&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-90\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Décès&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;91&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-91\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager est admis dans un autre ESMS suite à une réorientation&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Réorientation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;92&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-92\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Amélioration notoire de la situation de l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Amélioration&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;93&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-93\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Aggravation notoire de la situation de l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Aggravation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;95&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-95\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Annulation automatique&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;98&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-98\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fin de validité de la notification&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Fin de validité&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;100&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-100\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Volonté de l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;109&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-109\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Déménagement&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;112&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-112\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Erreur d'utilisation du logiciel&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Erreur utilisation logiciel&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;113&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-113\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Eloignement géographique&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;114&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-114\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Les ressources de l'ESMS ne sont pas suffisantes&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Ressources ESMS insuffisantes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;115&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-115\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'ESMS n'est pas adapté au projet de vie actuel de l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;L'ESMS n'est pas adapté&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;116&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-116\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Le type de handicap ne relève pas de l'ESMS&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Handicap pas PEC par l'ESMS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;117&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-117\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;La situation de l'usager a changé, l'ESMS n'est pas adapté&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Situation de l'usager changée&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;118&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-118\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager ou son représentant légal refuse de s'inscrire dans l'ESMS&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Refus inscription dans l'ESMS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;119&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-119\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager a été admis dans un autre ESMS, l'orientation n'est plus pertinente&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Usager admis dans autre ESMS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;120&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-120\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager a déménagé, l'orientation n'est plus pertinente géographiquement&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;L'usager a déménagé&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;121&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-121\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager ou son représentant légal refuse d'adhérer au projet de vie de l'ESMS&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Refus projet de vie de l'ESMS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;122&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-122\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'âge de l'usager est incompatible&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Age usager est incompatible&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;124&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-124\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager est décédé&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;125&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-125\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager a démissionné (ESAT)&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Démission (ESAT)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;126&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-126\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Prise en charge invalidité SS (ESAT)&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Prise charge invalidité SS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;127&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-127\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Retraite (ESAT)&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;L'usager a fait valoir ses droits à la retraite (ESAT)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;128&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-128\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fin de contrat (SAVS/SAMSAH/SESSAD)&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Fin contrat SAVS/SAMSAH/SESSAD&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;135&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-135\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fin de période d'essai&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;136&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-136\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Renouvellement&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;146&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-146\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Entrée en apprentissage&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;L'usager a pu entrer en apprentissage&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;147&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-147\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Réinsertion en milieu ordinaire&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Réinsertion milieu ordinaire&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;148&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-148\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'ESMS n'a pas réussi à joindre l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Usager injoignable par ESMS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;150&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-150\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager a pris contact avec l'ESMS&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Prise de contact avec l'ESMS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;151&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-151\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'ESMS a pris contact avec l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Prise de contact avec usager&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;152&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-152\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager a visité l'ESMS&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;153&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-153\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'ESMS a envoyé une documentation à l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Documentation ESMS envoyée&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;157&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-157\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hospitalisation&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;158&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-158\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Admission en établissement pour personnes âgées&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Adm étab. pr personnes âgées&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;159&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-159\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fin de formation&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;168&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-168\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pour placer l'usager en liste d'attente&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Usager en liste d'attente&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;170&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-170\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pour prendre en charge l'usager à temps adapté&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;PEC de l'usager à temps adapté&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;172&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-172\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Changement de situation de l'usager&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Changement de situation usager&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;173&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-173\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Une autre décision annule et remplace cette décision&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Annule et remplace décision&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;174&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-174\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Décision clôturée par la MDPH&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;184&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-184\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager est accueilli en famille d'accueil&lt;/td&gt;&lt;td&gt;2023-06-30T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Usager en famille d'accueil&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;204&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-204\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fin de l'accueil temporaire&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;253&lt;a name=\"TRE-R358-MotifStatutPersonnePriseCharge-253\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'usager est transféré dans une autre unité&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2023-09-22T12:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Usager transféré - autre unité&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"^^rdf:XMLLiteral
   ] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.extension">fhir:extension</a> ( [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -259,11 +267,13 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge"^^xsd:anyURI] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.3.3.248" ]
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "1.5.0"] ; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "TRE_R358-MotifStatutPersonnePriseCharge"] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "TRE_R358_MotifStatutPersonnePriseCharge"] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "active"] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> "2023-12-15T12:00:00+01:00"^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "ANS"] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">fhir:contact</a> ( [
@@ -273,6 +283,7 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "https://esante.gouv.fr" ]     ] )
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> "Motif du statut de la personne prise en charge"] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">fhir:caseSensitive</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">fhir:content</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "complete"] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">fhir:property</a> ( [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -291,12 +302,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "84" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Le demandeur ne remplit pas les exigences d'admission" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Remplit pas exigence admission" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Le demandeur ne remplit pas les exigences d'admission" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Remplit pas exigence admission" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -309,13 +320,6 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "85" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Volonté du demandeur" ] ;
-    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Volonté du demandeur" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Volonté du demandeur" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -329,12 +333,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "86" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Le plateau technique n'est pas adapté à la prise en charge de l'usager" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Plateau technique pas adapté" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Le plateau technique n'est pas adapté à la prise en charge de l'usager" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Plateau technique pas adapté" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -348,12 +352,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "87" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager est admis dans un autre ESMS suite à un déménagement" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Déménagement ESMS" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager est admis dans un autre ESMS suite à un déménagement" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Déménagement ESMS" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -367,12 +371,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "88" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Suite à la décision de la CDAPH" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Décision CDAPH" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Suite à la décision de la CDAPH" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Décision CDAPH" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -386,12 +390,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "89" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager ne souhaite plus être pris en charge par l'ESMS" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Décision usager" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager ne souhaite plus être pris en charge par l'ESMS" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Décision usager" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -404,13 +408,6 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "90" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Décès" ] ;
-    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Décès" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Décès" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -428,12 +425,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "91" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager est admis dans un autre ESMS suite à une réorientation" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Réorientation" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager est admis dans un autre ESMS suite à une réorientation" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Réorientation" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -447,12 +444,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "92" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Amélioration notoire de la situation de l'usager" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Amélioration" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Amélioration notoire de la situation de l'usager" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Amélioration" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -466,12 +463,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "93" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Aggravation notoire de la situation de l'usager" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Aggravation" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Aggravation notoire de la situation de l'usager" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Aggravation" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -484,13 +481,6 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "95" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Annulation automatique" ] ;
-    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Annulation automatique" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Annulation automatique" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -504,12 +494,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "98" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Fin de validité de la notification" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Fin de validité" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Fin de validité de la notification" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Fin de validité" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -522,13 +512,6 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "100" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Volonté de l'usager" ] ;
-    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Volonté de l'usager" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Volonté de l'usager" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -541,13 +524,6 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "109" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Déménagement" ] ;
-    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Déménagement" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Déménagement" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -561,12 +537,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "112" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Erreur d'utilisation du logiciel" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Erreur utilisation logiciel" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Erreur d'utilisation du logiciel" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Erreur utilisation logiciel" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -579,13 +555,6 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "113" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Eloignement géographique" ] ;
-    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Eloignement géographique" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Eloignement géographique" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -599,12 +568,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "114" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Les ressources de l'ESMS ne sont pas suffisantes" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Ressources ESMS insuffisantes" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Les ressources de l'ESMS ne sont pas suffisantes" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Ressources ESMS insuffisantes" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -618,12 +587,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "115" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'ESMS n'est pas adapté au projet de vie actuel de l'usager" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'ESMS n'est pas adapté" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'ESMS n'est pas adapté au projet de vie actuel de l'usager" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'ESMS n'est pas adapté" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -637,12 +606,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "116" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Le type de handicap ne relève pas de l'ESMS" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Handicap pas PEC par l'ESMS" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Le type de handicap ne relève pas de l'ESMS" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Handicap pas PEC par l'ESMS" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -656,12 +625,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "117" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "La situation de l'usager a changé, l'ESMS n'est pas adapté" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Situation de l'usager changée" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "La situation de l'usager a changé, l'ESMS n'est pas adapté" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Situation de l'usager changée" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -675,12 +644,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "118" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager ou son représentant légal refuse de s'inscrire dans l'ESMS" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Refus inscription dans l'ESMS" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager ou son représentant légal refuse de s'inscrire dans l'ESMS" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Refus inscription dans l'ESMS" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -694,12 +663,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "119" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager a été admis dans un autre ESMS, l'orientation n'est plus pertinente" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Usager admis dans autre ESMS" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager a été admis dans un autre ESMS, l'orientation n'est plus pertinente" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Usager admis dans autre ESMS" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -713,12 +682,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "120" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager a déménagé, l'orientation n'est plus pertinente géographiquement" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager a déménagé" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager a déménagé, l'orientation n'est plus pertinente géographiquement" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager a déménagé" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -732,12 +701,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "121" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager ou son représentant légal refuse d'adhérer au projet de vie de l'ESMS" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Refus projet de vie de l'ESMS" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager ou son représentant légal refuse d'adhérer au projet de vie de l'ESMS" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Refus projet de vie de l'ESMS" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -751,12 +720,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "122" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'âge de l'usager est incompatible" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Age usager est incompatible" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'âge de l'usager est incompatible" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Age usager est incompatible" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -769,13 +738,6 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "124" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager est décédé" ] ;
-    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager est décédé" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager est décédé" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -789,12 +751,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "125" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager a démissionné (ESAT)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Démission (ESAT)" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager a démissionné (ESAT)" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Démission (ESAT)" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -808,11 +770,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "126" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Prise en charge invalidité SS (ESAT)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Prise charge invalidité SS" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager est pris en charge par la sécurité sociale au titre de l'invalidité (ESAT)" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -827,11 +795,11 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "127" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Retraite (ESAT)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Retraite (ESAT)" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager a fait valoir ses droits à la retraite (ESAT)" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -846,11 +814,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "128" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Fin de contrat (SAVS/SAMSAH/SESSAD)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Fin contrat SAVS/SAMSAH/SESSAD" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager est arrivé à la fin du contrat de prise en charge (SAVS/SAMSAH/SESSAD)" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -864,13 +838,6 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "135" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Fin de période d'essai" ] ;
-    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Fin de période d'essai" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Fin de période d'essai" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -883,13 +850,6 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "136" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Renouvellement" ] ;
-    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Renouvellement" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Renouvellement" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -903,11 +863,11 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "146" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Entrée en apprentissage" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Entrée en apprentissage" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager a pu entrer en apprentissage" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -922,11 +882,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "147" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Réinsertion en milieu ordinaire" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Réinsertion milieu ordinaire" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager a pu se réinsérer en milieu ordinaire" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -941,12 +907,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "148" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'ESMS n'a pas réussi à joindre l'usager" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Usager injoignable par ESMS" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'ESMS n'a pas réussi à joindre l'usager" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Usager injoignable par ESMS" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -960,12 +926,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "150" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager a pris contact avec l'ESMS" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Prise de contact avec l'ESMS" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager a pris contact avec l'ESMS" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Prise de contact avec l'ESMS" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -979,12 +945,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "151" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'ESMS a pris contact avec l'usager" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Prise de contact avec usager" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'ESMS a pris contact avec l'usager" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Prise de contact avec usager" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -997,13 +963,6 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "152" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager a visité l'ESMS" ] ;
-    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager a visité l'ESMS" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager a visité l'ESMS" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -1017,12 +976,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "153" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'ESMS a envoyé une documentation à l'usager" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Documentation ESMS envoyée" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'ESMS a envoyé une documentation à l'usager" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Documentation ESMS envoyée" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -1035,13 +994,6 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "157" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Hospitalisation" ] ;
-    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Hospitalisation" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Hospitalisation" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -1055,11 +1007,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "158" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Admission en établissement pour personnes âgées" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Adm étab. pr personnes âgées" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager est admis dans un établissement pour personnes âgées" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -1073,13 +1031,6 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "159" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Fin de formation" ] ;
-    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Fin de formation" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Fin de formation" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -1093,12 +1044,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "168" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Pour placer l'usager en liste d'attente" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Usager en liste d'attente" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Pour placer l'usager en liste d'attente" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Usager en liste d'attente" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -1112,12 +1063,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "170" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Pour prendre en charge l'usager à temps adapté" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "PEC de l'usager à temps adapté" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Pour prendre en charge l'usager à temps adapté" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "PEC de l'usager à temps adapté" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -1131,12 +1082,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "172" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Changement de situation de l'usager" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Changement de situation usager" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Changement de situation de l'usager" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Changement de situation usager" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -1150,12 +1101,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "173" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Une autre décision annule et remplace cette décision" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Annule et remplace décision" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Une autre décision annule et remplace cette décision" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Annule et remplace décision" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -1168,13 +1119,6 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "174" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Décision clôturée par la MDPH" ] ;
-    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Décision clôturée par la MDPH" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Décision clôturée par la MDPH" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -1188,12 +1132,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "184" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager est accueilli en famille d'accueil" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Usager en famille d'accueil" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager est accueilli en famille d'accueil" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Usager en famille d'accueil" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -1206,13 +1150,6 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "204" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Fin de l'accueil temporaire" ] ;
-    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Fin de l'accueil temporaire" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Fin de l'accueil temporaire" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -1226,12 +1163,12 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "253" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager est transféré dans une autre unité" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Usager transféré - autre unité" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "L'usager est transféré dans une autre unité" ]     ] ) ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Usager transféré - autre unité" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -1256,21 +1193,21 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <table class="grid table table-bordered">
 	<tbody>
 		<tr>
-			<td><a name="l4474">​</a><a href="./CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge.xslx">xlsx</a> </td>
+			<td><a name="l4054">​</a><a href="./CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge.xslx">xlsx</a> </td>
 			<td> Fichier excel </td>
 		</tr>	
 	
 		<tr>
-			<td><a name="l4485">​</a><a href="./NOS/CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge.tabs">csv</a> </td>
+			<td><a name="l4065">​</a><a href="./NOS/CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge.tabs">csv</a> </td>
 			<td> Fichier csv </td>
 		</tr>
 		<tr>
-			<td><a name="l4496">​</a><a href="./NOS/CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge.pdf" class="file-link">Pdf</a> </td>
+			<td><a name="l4076">​</a><a href="./NOS/CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge.pdf" class="file-link">Pdf</a> </td>
 			<td> Fichier PDF </td>
 		</tr>	
 		
 		<tr>
-			<td><a name="l4507">​</a><a href="./NOS/CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge-svs.xml">svs</a> </td>
+			<td><a name="l4087">​</a><a href="./NOS/CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge-svs.xml">svs</a> </td>
 			<td>  Fichier xml (Sharing Value Sets) </td>
 		</tr>
 		<tr>
@@ -1348,7 +1285,7 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.nos#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jul 2, 2025 04:35+0000">2025-07-02</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.nos#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 3, 2025 04:37+0000">2025-07-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

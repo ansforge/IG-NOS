@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>ANS.FR.NOS\TRE_R32-StatutHospitalier - TTL Representation - FHIR v4.0.1</title>
+    <title>ANS.FR.NOS\TRE_R32_StatutHospitalier - TTL Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"12.412"}
-    h3,h4,h5,h6{--heading-prefix:"12.412"}</style>
+    <style type="text/css">h2{--heading-prefix:"12.423"}
+    h3,h4,h5,h6{--heading-prefix:"12.423"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -135,7 +135,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>TRE_R32-StatutHospitalier</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>TRE_R32_StatutHospitalier</b></li>
 
           <span style="float:right;">
 
@@ -143,7 +143,7 @@
 
             <a href="#bottom">bottom</a>
 
-          | <a href="CodeSystem-TRE-R320-BesoinCommunication.html">next&gt;</a>
+          | <a href="CodeSystem-TRE-R330-TypeStatutCapacite.html">next&gt;</a>
 
           </span>
 
@@ -211,7 +211,7 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: TRE_R32-StatutHospitalier - TTL Representation</h2>
+<h2 id="root">: TRE_R32_StatutHospitalier - TTL Representation</h2>
   <table class="colsi">
     <tr>
 
@@ -240,6 +240,7 @@
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix sct: &lt;http://snomed.info/id/&gt; .
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
 # - resource -------------------------------------------------------------------
@@ -247,9 +248,16 @@
  a fhir:CodeSystem ;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "TRE-R32-StatutHospitalier"] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.meta">fhir:meta</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">fhir:versionId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> "4" ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">fhir:lastUpdated</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> "2024-08-28T05:13:25.265+00:00"^^xsd:dateTime ] ;
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/StructureDefinition/shareablecodesystem&gt;     ] )
+  ] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "generated" ] ;
-fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: CodeSystem TRE-R32-StatutHospitalier&lt;/b&gt;&lt;/p&gt;&lt;a name=\"TRE-R32-StatutHospitalier\"&gt; &lt;/a&gt;&lt;a name=\"hcTRE-R32-StatutHospitalier\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Properties&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;This code system defines the following properties for its concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;date de validité d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de mise à jour d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de fin d'exploitation d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This  code system &lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_R32-StatutHospitalier/FHIR/TRE-R32-StatutHospitalier&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\"codes\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateValid&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateMaj&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH01&lt;a name=\"TRE-R32-StatutHospitalier-SH01\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Professeur des universités - Praticien hospitalier (PU-PH) (décret n° 84-135)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH02&lt;a name=\"TRE-R32-StatutHospitalier-SH02\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Maître de conférences des universités - Praticien hospitalier (décret n° 84-135)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH03&lt;a name=\"TRE-R32-StatutHospitalier-SH03\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chef de clinique des universités - Assistant des hôpitaux (décret n° 84-135)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH04&lt;a name=\"TRE-R32-StatutHospitalier-SH04\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Assistant hospitalier universitaire (AHU) (décret n° 84-135)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH05&lt;a name=\"TRE-R32-StatutHospitalier-SH05\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Professeur des universités - Praticien hospitalier des CSERD (décret n° 90-92)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH06&lt;a name=\"TRE-R32-StatutHospitalier-SH06\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Maître de conf des universités - Praticien hospit des CSERD (décret n° 90-92)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH07&lt;a name=\"TRE-R32-StatutHospitalier-SH07\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Assistant hospitalier universitaire (AHU) des CSERD (décret n° 90-92)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH08&lt;a name=\"TRE-R32-StatutHospitalier-SH08\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Praticien hospitalier temps plein (R6152-1 et suivants du CSP)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH09&lt;a name=\"TRE-R32-StatutHospitalier-SH09\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Praticien hospitalier temps partiel (R6152-201 et suivants du CSP)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH10&lt;a name=\"TRE-R32-StatutHospitalier-SH10\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Assistant des hôpitaux et Assistant associé (R6152-501 et suivants du CSP)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH11&lt;a name=\"TRE-R32-StatutHospitalier-SH11\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Praticien attaché et Praticien attaché associé (R6152-601 et suivants du CSP)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH12&lt;a name=\"TRE-R32-StatutHospitalier-SH12\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Praticien contractuel (R 6152-401 et suivants du CSP)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH13&lt;a name=\"TRE-R32-StatutHospitalier-SH13\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Praticien adjoint contractuel (décret n° 95-569)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH14&lt;a name=\"TRE-R32-StatutHospitalier-SH14\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Interne (R6153-1 et suivants du CSP)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH15&lt;a name=\"TRE-R32-StatutHospitalier-SH15\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Praticien Hospitalier-Universitaire (PHU) (décret n° 84-135)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH16&lt;a name=\"TRE-R32-StatutHospitalier-SH16\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Praticien hospitalier associé (R6152-1 et suivants du CSP)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH17&lt;a name=\"TRE-R32-StatutHospitalier-SH17\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Praticien hospitalier provisoire (abrogé depuis le 06/10/2006)&lt;/td&gt;&lt;td&gt;2007-07-25T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH18&lt;a name=\"TRE-R32-StatutHospitalier-SH18\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Clinicien hospitalier (R6152-701 et suivants du CSP)&lt;/td&gt;&lt;td&gt;2007-07-25T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH99&lt;a name=\"TRE-R32-StatutHospitalier-SH99\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Salarié hospitalier&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"^^rdf:XMLLiteral
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Narratif généré : CodeSystem TRE-R32-StatutHospitalier&lt;/b&gt;&lt;/p&gt;&lt;a name=\"TRE-R32-StatutHospitalier\"&gt; &lt;/a&gt;&lt;a name=\"hcTRE-R32-StatutHospitalier\"&gt; &lt;/a&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;version: 4; Dernière mise à jour : 2024-08-28 05:13:25+0000&lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profil: &lt;a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\"&gt;Shareable CodeSystem&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Propriétés&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Nom&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;date de validité d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de mise à jour d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de fin d'exploitation d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This case-insensitive code system &lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_R32-StatutHospitalier/FHIR/TRE-R32-StatutHospitalier&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\"codes\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateValid&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateMaj&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;French (France) (fr)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH01&lt;a name=\"TRE-R32-StatutHospitalier-SH01\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Professeur des universités - Praticien hospitalier (PU-PH) (décret n° 84-135)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;PU-PH&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH02&lt;a name=\"TRE-R32-StatutHospitalier-SH02\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Maître de conférences des universités - Praticien hospitalier (décret n° 84-135)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;MCU-PH&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH03&lt;a name=\"TRE-R32-StatutHospitalier-SH03\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chef de clinique des universités - Assistant des hôpitaux (décret n° 84-135)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;CCA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH04&lt;a name=\"TRE-R32-StatutHospitalier-SH04\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Assistant hospitalier universitaire (AHU) (décret n° 84-135)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;AHU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH05&lt;a name=\"TRE-R32-StatutHospitalier-SH05\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Professeur des universités - Praticien hospitalier des CSERD (décret n° 90-92)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;PU-PH dentaire&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH06&lt;a name=\"TRE-R32-StatutHospitalier-SH06\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Maître de conf des universités - Praticien hospit des CSERD (décret n° 90-92)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;MCU-PH dentaire&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH07&lt;a name=\"TRE-R32-StatutHospitalier-SH07\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Assistant hospitalier universitaire (AHU) des CSERD (décret n° 90-92)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;AHU dentaire&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH08&lt;a name=\"TRE-R32-StatutHospitalier-SH08\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Praticien hospitalier temps plein (R6152-1 et suivants du CSP)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;PH temps plein&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH09&lt;a name=\"TRE-R32-StatutHospitalier-SH09\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Praticien hospitalier temps partiel (R6152-201 et suivants du CSP)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;PH temps partiel&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH10&lt;a name=\"TRE-R32-StatutHospitalier-SH10\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Assistant des hôpitaux et Assistant associé (R6152-501 et suivants du CSP)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;Assistant des hôpitaux&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH11&lt;a name=\"TRE-R32-StatutHospitalier-SH11\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Praticien attaché et Praticien attaché associé (R6152-601 et suivants du CSP)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;Praticien attaché&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH12&lt;a name=\"TRE-R32-StatutHospitalier-SH12\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Praticien contractuel (R 6152-401 et suivants du CSP)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;Praticien contractuel&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH13&lt;a name=\"TRE-R32-StatutHospitalier-SH13\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Praticien adjoint contractuel (décret n° 95-569)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;PAC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH14&lt;a name=\"TRE-R32-StatutHospitalier-SH14\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Interne (R6153-1 et suivants du CSP)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;Interne&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH15&lt;a name=\"TRE-R32-StatutHospitalier-SH15\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Praticien Hospitalier-Universitaire (PHU) (décret n° 84-135)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;PHU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH16&lt;a name=\"TRE-R32-StatutHospitalier-SH16\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Praticien hospitalier associé (R6152-1 et suivants du CSP)&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;PH associé&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH17&lt;a name=\"TRE-R32-StatutHospitalier-SH17\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Praticien hospitalier provisoire (abrogé depuis le 06/10/2006)&lt;/td&gt;&lt;td&gt;2007-07-25T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;PH provisoire&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH18&lt;a name=\"TRE-R32-StatutHospitalier-SH18\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Clinicien hospitalier (R6152-701 et suivants du CSP)&lt;/td&gt;&lt;td&gt;2007-07-25T00:00:00+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;Clinicien hospitalier&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SH99&lt;a name=\"TRE-R32-StatutHospitalier-SH99\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Salarié hospitalier&lt;/td&gt;&lt;td&gt;2007-07-25T15:04:44+01:00&lt;/td&gt;&lt;td&gt;2016-09-01T00:00:00+01:00&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"^^rdf:XMLLiteral
   ] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.extension">fhir:extension</a> ( [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -259,11 +267,13 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "https://mos.esante.gouv.fr/NOS/TRE_R32-StatutHospitalier/FHIR/TRE-R32-StatutHospitalier"^^xsd:anyURI] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.1.6.1.21" ]
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "1.5.0"] ; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "TRE_R32-StatutHospitalier"] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "TRE_R32_StatutHospitalier"] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "active"] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> "2023-12-15T12:00:00+01:00"^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "ANS"] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">fhir:contact</a> ( [
@@ -273,6 +283,7 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "https://esante.gouv.fr" ]     ] )
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> "Statut hospitalier"] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">fhir:caseSensitive</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">fhir:content</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "complete"] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">fhir:property</a> ( [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -291,11 +302,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH01" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Professeur des universités - Praticien hospitalier (PU-PH) (décret n° 84-135)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "PU-PH" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Professeur des universités-praticien hospitalier (PU-PH)" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -310,11 +327,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH02" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Maître de conférences des universités - Praticien hospitalier (décret n° 84-135)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "MCU-PH" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Maître de conférences des universités - Praticien hospitalier (MCU-PH)" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -329,11 +352,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH03" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Chef de clinique des universités - Assistant des hôpitaux (décret n° 84-135)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "CCA" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Chef de clinique des universités-assistant des hôpitaux (CCA)" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -348,11 +377,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH04" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Assistant hospitalier universitaire (AHU) (décret n° 84-135)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "AHU" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Assistant hospitalier universitaire (AHU)" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -367,11 +402,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH05" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Professeur des universités - Praticien hospitalier des CSERD (décret n° 90-92)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "PU-PH dentaire" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Professeur des universités-praticien hospitalier (PU-PH) des centres de soins, d'enseignement et de recherche dentaires (CSERD)" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -386,11 +427,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH06" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Maître de conf des universités - Praticien hospit des CSERD (décret n° 90-92)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "MCU-PH dentaire" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Maître de conférences des universités-praticien hospitalier (MCU-PH) des CSERD" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -405,11 +452,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH07" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Assistant hospitalier universitaire (AHU) des CSERD (décret n° 90-92)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "AHU dentaire" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Assistant hospitalier universitaire (AHU) des centres de soins, d'enseignement et de recherche dentaires (CSERD)" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -424,11 +477,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH08" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien hospitalier temps plein (R6152-1 et suivants du CSP)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "PH temps plein" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien hospitalier temps plein" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -443,11 +502,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH09" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien hospitalier temps partiel (R6152-201 et suivants du CSP)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "PH temps partiel" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien hospitalier temps partiel" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -462,11 +527,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH10" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Assistant des hôpitaux et Assistant associé (R6152-501 et suivants du CSP)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Assistant des hôpitaux" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Assistant des hôpitaux et Assistant associé" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -481,11 +552,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH11" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien attaché et Praticien attaché associé (R6152-601 et suivants du CSP)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien attaché" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien attaché et Praticien attaché associé" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -500,11 +577,11 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH12" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien contractuel (R 6152-401 et suivants du CSP)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien contractuel" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien contractuel" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -519,11 +596,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH13" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien adjoint contractuel (décret n° 95-569)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "PAC" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien adjoint contractuel" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -538,11 +621,11 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH14" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Interne (R6153-1 et suivants du CSP)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Interne" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Interne" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -557,11 +640,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH15" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien Hospitalier-Universitaire (PHU) (décret n° 84-135)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "PHU" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien Hospitalier-Universitaire (PHU)" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -576,11 +665,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH16" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien hospitalier associé (R6152-1 et suivants du CSP)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "PH associé" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien hospitalier associé" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -595,11 +690,17 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH17" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien hospitalier provisoire (abrogé depuis le 06/10/2006)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "PH provisoire" ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Praticien hospitalier provisoire" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -614,11 +715,11 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH18" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Clinicien hospitalier (R6152-701 et suivants du CSP)" ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Clinicien hospitalier" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
+a sct:900000000000013009 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://snomed.info/sct"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "900000000000013009" ]       ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Clinicien hospitalier" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
@@ -632,13 +733,6 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SH99" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Salarié hospitalier" ] ;
-    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleCourt" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Salarié hospitalier" ]     ] [
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "LibelleAdapte" ]       ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Salarié hospitalier" ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "dateValid" ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -663,21 +757,21 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <table class="grid table table-bordered">
 	<tbody>
 		<tr>
-			<td><a name="l2041">​</a><a href="./CodeSystem-TRE-R32-StatutHospitalier.xslx">xlsx</a> </td>
+			<td><a name="l2401">​</a><a href="./CodeSystem-TRE-R32-StatutHospitalier.xslx">xlsx</a> </td>
 			<td> Fichier excel </td>
 		</tr>	
 	
 		<tr>
-			<td><a name="l2052">​</a><a href="./NOS/CodeSystem-TRE-R32-StatutHospitalier.tabs">csv</a> </td>
+			<td><a name="l2412">​</a><a href="./NOS/CodeSystem-TRE-R32-StatutHospitalier.tabs">csv</a> </td>
 			<td> Fichier csv </td>
 		</tr>
 		<tr>
-			<td><a name="l2063">​</a><a href="./NOS/CodeSystem-TRE-R32-StatutHospitalier.pdf" class="file-link">Pdf</a> </td>
+			<td><a name="l2423">​</a><a href="./NOS/CodeSystem-TRE-R32-StatutHospitalier.pdf" class="file-link">Pdf</a> </td>
 			<td> Fichier PDF </td>
 		</tr>	
 		
 		<tr>
-			<td><a name="l2074">​</a><a href="./NOS/CodeSystem-TRE-R32-StatutHospitalier-svs.xml">svs</a> </td>
+			<td><a name="l2434">​</a><a href="./NOS/CodeSystem-TRE-R32-StatutHospitalier-svs.xml">svs</a> </td>
 			<td>  Fichier xml (Sharing Value Sets) </td>
 		</tr>
 		<tr>
@@ -745,7 +839,7 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
               </td>
               <td style="text-align:right">&nbsp;
 
-                <a href="CodeSystem-TRE-R320-BesoinCommunication.html">next&gt;</a>
+                <a href="CodeSystem-TRE-R330-TypeStatutCapacite.html">next&gt;</a>
 
               </td>
             </tr>
@@ -755,7 +849,7 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.nos#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jul 2, 2025 04:35+0000">2025-07-02</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.nos#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 3, 2025 04:37+0000">2025-07-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>ANS.FR.NOS\JDV_J239-SpecialitesSNP-SAS - TTL Representation - FHIR v4.0.1</title>
+    <title>ANS.FR.NOS\JDV_J239_SpecialitesSNP_SAS - TTL Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"12.150"}
-    h3,h4,h5,h6{--heading-prefix:"12.150"}</style>
+    <style type="text/css">h2{--heading-prefix:"12.149"}
+    h3,h4,h5,h6{--heading-prefix:"12.149"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -135,7 +135,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>JDV_J239-SpecialitesSNP-SAS</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>JDV_J239_SpecialitesSNP_SAS</b></li>
 
           <span style="float:right;">
 
@@ -143,7 +143,7 @@
 
             <a href="#bottom">bottom</a>
 
-          | <a href="ValueSet-JDV-J24-ProfessionAuteurNote-CISIS.html">next&gt;</a>
+          | <a href="ValueSet-JDV-J23-TypeNoteCahierLiaison-CISIS.html">next&gt;</a>
 
           </span>
 
@@ -211,7 +211,7 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: JDV_J239-SpecialitesSNP-SAS - TTL Representation</h2>
+<h2 id="root">: JDV_J239_SpecialitesSNP_SAS - TTL Representation</h2>
   <table class="colsi">
     <tr>
 
@@ -247,9 +247,17 @@
  a fhir:ValueSet ;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "JDV-J239-SpecialitesSNP-SAS"] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.meta">fhir:meta</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">fhir:versionId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> "4" ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">fhir:lastUpdated</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> "2024-04-27T05:07:32.493+00:00"^^xsd:dateTime ] ;
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/StructureDefinition/shareablevalueset&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "fr-FR"] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "generated" ] ;
-fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: ValueSet JDV-J239-SpecialitesSNP-SAS&lt;/b&gt;&lt;/p&gt;&lt;a name=\"JDV-J239-SpecialitesSNP-SAS\"&gt; &lt;/a&gt;&lt;a name=\"hcJDV-J239-SpecialitesSNP-SAS\"&gt; &lt;/a&gt;&lt;p&gt;This value set includes codes based on the following rules:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html\"&gt;&lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale&lt;/code&gt;&lt;/a&gt;&lt;table class=\"none\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM03\"&gt;SM03&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Biologie médicale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM04\"&gt;SM04&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cardio et Maladies vasculaires&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM15\"&gt;SM15&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dermatologie, Vénéréologie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM16\"&gt;SM16&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Endocrinologie, Métabolisme&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM19\"&gt;SM19&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gynécologie médicale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM20\"&gt;SM20&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gynécologie-obstétrique&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM21\"&gt;SM21&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hématologie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM32\"&gt;SM32&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Neurologie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM36\"&gt;SM36&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Oncologie, opt médicale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM38\"&gt;SM38&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ophtalmologie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM39\"&gt;SM39&lt;/a&gt;&lt;/td&gt;&lt;td&gt;ORL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM40\"&gt;SM40&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pédiatrie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM42\"&gt;SM42&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Psychiatrie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM43\"&gt;SM43&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Psychiatrie, opt enfant et ado&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM44\"&gt;SM44&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Radio-diagnostic&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM54\"&gt;SM54&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Médecine générale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM57\"&gt;SM57&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Allergologie&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html\"&gt;&lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante&lt;/code&gt;&lt;/a&gt;&lt;table class=\"none\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-40\"&gt;40&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chirurgien-Dentiste&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-50\"&gt;50&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sage-Femme&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-60\"&gt;60&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infirmier&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-69\"&gt;69&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infirmier psychiatrique&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-70\"&gt;70&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Masseur-Kinésithérapeute&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-80\"&gt;80&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pédicure-Podologue&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-83\"&gt;83&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orthopédiste-Orthésiste&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-91\"&gt;91&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orthophoniste&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-92\"&gt;92&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orthoptiste&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"^^rdf:XMLLiteral
+fhir:div "&lt;div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Narratif généré : EnsembleValeurs JDV-J239-SpecialitesSNP-SAS&lt;/b&gt;&lt;/p&gt;&lt;a name=\"JDV-J239-SpecialitesSNP-SAS\"&gt; &lt;/a&gt;&lt;a name=\"hcJDV-J239-SpecialitesSNP-SAS\"&gt; &lt;/a&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;version: 4; Dernière mise à jour : 2024-04-27 05:07:32+0000; Langue : fr-FR&lt;/p&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Profil: &lt;a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\"&gt;Shareable ValueSet&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Inclut les codes sont définis dans &lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html\"&gt;&lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale&lt;/code&gt;&lt;/a&gt;&lt;table class=\"none\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM03\"&gt;SM03&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Biologie médicale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM04\"&gt;SM04&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cardio et Maladies vasculaires&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM15\"&gt;SM15&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dermatologie, Vénéréologie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM16\"&gt;SM16&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Endocrinologie, Métabolisme&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM19\"&gt;SM19&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gynécologie médicale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM20\"&gt;SM20&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gynécologie-obstétrique&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM21\"&gt;SM21&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hématologie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM32\"&gt;SM32&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Neurologie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM36\"&gt;SM36&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Oncologie, opt médicale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM38\"&gt;SM38&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ophtalmologie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM39\"&gt;SM39&lt;/a&gt;&lt;/td&gt;&lt;td&gt;ORL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM40\"&gt;SM40&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pédiatrie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM42\"&gt;SM42&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Psychiatrie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM43\"&gt;SM43&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Psychiatrie, opt enfant et ado&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM44\"&gt;SM44&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Radio-diagnostic&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM54\"&gt;SM54&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Médecine générale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-R38-SpecialiteOrdinale.html#TRE-R38-SpecialiteOrdinale-SM57\"&gt;SM57&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Allergologie&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;li&gt;Inclut les codes sont définis dans &lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html\"&gt;&lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante&lt;/code&gt;&lt;/a&gt;&lt;table class=\"none\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-40\"&gt;40&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chirurgien-Dentiste&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-50\"&gt;50&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sage-Femme&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-60\"&gt;60&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infirmier&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-69\"&gt;69&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infirmier psychiatrique&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-70\"&gt;70&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Masseur-Kinésithérapeute&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-80\"&gt;80&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pédicure-Podologue&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-83\"&gt;83&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orthopédiste-Orthésiste&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-91\"&gt;91&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orthophoniste&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-92\"&gt;92&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orthoptiste&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"^^rdf:XMLLiteral
   ] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.extension">fhir:extension</a> ( [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -259,11 +267,13 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "https://mos.esante.gouv.fr/NOS/JDV_J239-SpecialitesSNP-SAS/FHIR/JDV-J239-SpecialitesSNP-SAS"^^xsd:anyURI] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.3.4.104" ]
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "1.5.0"] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "JDV_J239-SpecialitesSNP-SAS"] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "JDV_J239_SpecialitesSNP_SAS"] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "active"] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> "2024-01-26T12:00:00+01:00"^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "ANS"] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">fhir:contact</a> ( [
@@ -278,163 +288,59 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale"^^xsd:anyURI ] ;
       ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">fhir:concept</a> [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM03" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Biologie médicale" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Biologie médicale" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM04" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Cardio et Maladies vasculaires" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Cardio et Maladies vasculaires" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM15" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Dermatologie, Vénéréologie" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Dermatologie, Vénéréologie" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM16" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Endocrinologie, Métabolisme" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Endocrinologie, Métabolisme" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM19" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Gynécologie médicale" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Gynécologie médicale" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM20" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Gynécologie-obstétrique" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Gynécologie-obstétrique" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM21" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Hématologie" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Hématologie" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM32" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Neurologie" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Neurologie" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM36" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Oncologie, opt médicale" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Oncologie, opt médicale" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM38" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Ophtalmologie" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Ophtalmologie" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM39" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "ORL" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "ORL" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM40" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Pédiatrie" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Pédiatrie" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM42" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Psychiatrie" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Psychiatrie" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM43" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Psychiatrie, opt enfant et ado" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Psychiatrie, opt enfant et ado" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM44" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Radio-diagnostic" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Radio-diagnostic" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM54" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Médecine générale" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Médecine générale" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "SM57" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Allergologie" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.213.2.28" ]         ] )       ] )     ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Allergologie" ]       ] )     ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"^^xsd:anyURI ] ;
       ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">fhir:concept</a> [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "40" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Chirurgien-Dentiste" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.71.1.2.7" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Chirurgien-Dentiste" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "50" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Sage-Femme" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.71.1.2.7" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Sage-Femme" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "60" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Infirmier" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.71.1.2.7" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Infirmier" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "69" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Infirmier psychiatrique" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.71.1.2.7" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Infirmier psychiatrique" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "70" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Masseur-Kinésithérapeute" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.71.1.2.7" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Masseur-Kinésithérapeute" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "80" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Pédicure-Podologue" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.71.1.2.7" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Pédicure-Podologue" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "83" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Orthopédiste-Orthésiste" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.71.1.2.7" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Orthopédiste-Orthésiste" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "91" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Orthophoniste" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.71.1.2.7" ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Orthophoniste" ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "92" ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Orthoptiste" ] ;
-        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.use">fhir:use</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "OID" ]           ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "urn:oid:1.2.250.1.71.1.2.7" ]         ] )       ] )     ] )
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Orthoptiste" ]       ] )     ] )
   ] . # 
 
 </code></pre>
@@ -450,21 +356,21 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 <table class="grid table table-bordered">
 	<tbody>
 		<tr>
-			<td><a name="l1298">​</a><a href="./ValueSet-JDV-J239-SpecialitesSNP-SAS.xslx">xlsx</a> </td>
+			<td><a name="l872">​</a><a href="./ValueSet-JDV-J239-SpecialitesSNP-SAS.xslx">xlsx</a> </td>
 			<td> Fichier excel </td>
 		</tr>	
 	
 		<tr>
-			<td><a name="l1309">​</a><a href="./NOS/ValueSet-JDV-J239-SpecialitesSNP-SAS.tabs">csv</a> </td>
+			<td><a name="l883">​</a><a href="./NOS/ValueSet-JDV-J239-SpecialitesSNP-SAS.tabs">csv</a> </td>
 			<td> Fichier csv </td>
 		</tr>
 		<tr>
-			<td><a name="l1320">​</a><a href="./NOS/ValueSet-JDV-J239-SpecialitesSNP-SAS.pdf" class="file-link">Pdf</a> </td>
+			<td><a name="l894">​</a><a href="./NOS/ValueSet-JDV-J239-SpecialitesSNP-SAS.pdf" class="file-link">Pdf</a> </td>
 			<td> Fichier PDF </td>
 		</tr>	
 		
 		<tr>
-			<td><a name="l1331">​</a><a href="./NOS/ValueSet-JDV-J239-SpecialitesSNP-SAS-svs.xml">svs</a> </td>
+			<td><a name="l905">​</a><a href="./NOS/ValueSet-JDV-J239-SpecialitesSNP-SAS-svs.xml">svs</a> </td>
 			<td>  Fichier xml (Sharing Value Sets) </td>
 		</tr>
 		<tr>
@@ -532,7 +438,7 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
               </td>
               <td style="text-align:right">&nbsp;
 
-                <a href="ValueSet-JDV-J24-ProfessionAuteurNote-CISIS.html">next&gt;</a>
+                <a href="ValueSet-JDV-J23-TypeNoteCahierLiaison-CISIS.html">next&gt;</a>
 
               </td>
             </tr>
@@ -542,7 +448,7 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.nos#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jul 2, 2025 04:35+0000">2025-07-02</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.nos#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 3, 2025 04:37+0000">2025-07-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -2,6 +2,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # - resource -------------------------------------------------------------------
@@ -9,9 +10,17 @@
 <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R09-CategorieProfessionnelle> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-R09-CategorieProfessionnelle"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "5" ] ;
+     fhir:lastUpdated [ fhir:v "2024-08-28T05:11:01.560+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ] )
+  ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R09-CategorieProfessionnelle</b></p><a name=\"TRE-R09-CategorieProfessionnelle\"> </a><a name=\"hcTRE-R09-CategorieProfessionnelle\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"TRE-R09-CategorieProfessionnelle-C\"> </a></td><td>Civil</td><td>2007-07-25T15:04:35+01:00</td><td>2007-07-25T15:04:35+01:00</td></tr><tr><td style=\"white-space:nowrap\">E<a name=\"TRE-R09-CategorieProfessionnelle-E\"> </a></td><td>Etudiant</td><td>2015-12-21T00:00:00+01:00</td><td>2015-12-21T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">F<a name=\"TRE-R09-CategorieProfessionnelle-F\"> </a></td><td>Fonctionnaire d'Etat ou de collectivité locale</td><td>2007-07-25T15:04:35+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">M<a name=\"TRE-R09-CategorieProfessionnelle-M\"> </a></td><td>Agent public</td><td>2007-07-25T15:04:35+01:00</td><td>2024-03-29T12:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R09-CategorieProfessionnelle</b></p><a name=\"TRE-R09-CategorieProfessionnelle\"> </a><a name=\"hcTRE-R09-CategorieProfessionnelle\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 5; Dernière mise à jour : 2024-08-28 05:11:01+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"TRE-R09-CategorieProfessionnelle-C\"> </a></td><td>Civil</td><td>2007-07-25T15:04:35+01:00</td><td>2007-07-25T15:04:35+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E<a name=\"TRE-R09-CategorieProfessionnelle-E\"> </a></td><td>Etudiant</td><td>2015-12-21T00:00:00+01:00</td><td>2015-12-21T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">F<a name=\"TRE-R09-CategorieProfessionnelle-F\"> </a></td><td>Fonctionnaire d'Etat ou de collectivité locale</td><td>2007-07-25T15:04:35+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Fonctionnaire</td></tr><tr><td style=\"white-space:nowrap\">M<a name=\"TRE-R09-CategorieProfessionnelle-M\"> </a></td><td>Agent public</td><td>2007-07-25T15:04:35+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -22,11 +31,13 @@
   ] ) ; # 
   fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle"^^xsd:anyURI] ; # 
   fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.10" ]
   ] ) ; # 
   fhir:version [ fhir:v "1.5.0"] ; # 
-  fhir:name [ fhir:v "TRE_R09-CategorieProfessionnelle"] ; # 
+  fhir:name [ fhir:v "TRE_R09_CategorieProfessionnelle"] ; # 
   fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2024-04-26T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
@@ -37,6 +48,7 @@
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Catégorie professionnelle"] ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "dateValid" ] ;
@@ -54,17 +66,6 @@
   fhir:concept ( [
      fhir:code [ fhir:v "C" ] ;
      fhir:display [ fhir:v "Civil" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
-       ] ;
-       fhir:value [ fhir:v "Civil" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Civil" ]
-     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -81,17 +82,6 @@
   ] [
      fhir:code [ fhir:v "E" ] ;
      fhir:display [ fhir:v "Etudiant" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
-       ] ;
-       fhir:value [ fhir:v "Etudiant" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Etudiant" ]
-     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -109,15 +99,13 @@
      fhir:code [ fhir:v "F" ] ;
      fhir:display [ fhir:v "Fonctionnaire d'Etat ou de collectivité locale" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Fonctionnaire" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Fonctionnaire d'Etat ou de collectivité locale" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
@@ -135,17 +123,6 @@
   ] [
      fhir:code [ fhir:v "M" ] ;
      fhir:display [ fhir:v "Agent public" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
-       ] ;
-       fhir:value [ fhir:v "Agent public" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Agent public" ]
-     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [

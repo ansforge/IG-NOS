@@ -1,9 +1,14 @@
 {
   "resourceType" : "CodeSystem",
   "id" : "TRE-R216-HL7RoleCode",
+  "meta" : {
+    "versionId" : "7",
+    "lastUpdated" : "2024-12-19T19:11:44.892+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+  },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R216-HL7RoleCode</b></p><a name=\"TRE-R216-HL7RoleCode\"> </a><a name=\"hcTRE-R216-HL7RoleCode\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">MTH<a name=\"TRE-R216-HL7RoleCode-MTH\"> </a></td><td>Mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FTH<a name=\"TRE-R216-HL7RoleCode-FTH\"> </a></td><td>Père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NMTH<a name=\"TRE-R216-HL7RoleCode-NMTH\"> </a></td><td>Mère biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NFTH<a name=\"TRE-R216-HL7RoleCode-NFTH\"> </a></td><td>Père biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPMTH<a name=\"TRE-R216-HL7RoleCode-STPMTH\"> </a></td><td>Belle-mère - épouse du père ou de la mère</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPFTH<a name=\"TRE-R216-HL7RoleCode-STPFTH\"> </a></td><td>Beau-père - époux du père ou de la mère</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRMTH<a name=\"TRE-R216-HL7RoleCode-GRMTH\"> </a></td><td>Grand-mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRFTH<a name=\"TRE-R216-HL7RoleCode-GRFTH\"> </a></td><td>Grand-père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GGRMTH<a name=\"TRE-R216-HL7RoleCode-GGRMTH\"> </a></td><td>Arrière-grand-mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GGRFTH<a name=\"TRE-R216-HL7RoleCode-GGRFTH\"> </a></td><td>Arrière-grand-père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DAU<a name=\"TRE-R216-HL7RoleCode-DAU\"> </a></td><td>Fille biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SON<a name=\"TRE-R216-HL7RoleCode-SON\"> </a></td><td>Fils biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">BRO<a name=\"TRE-R216-HL7RoleCode-BRO\"> </a></td><td>Frère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SIS<a name=\"TRE-R216-HL7RoleCode-SIS\"> </a></td><td>Soeur</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">HBRO<a name=\"TRE-R216-HL7RoleCode-HBRO\"> </a></td><td>Demi-frère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">HSIS<a name=\"TRE-R216-HL7RoleCode-HSIS\"> </a></td><td>Demi-soeur</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRNDDAU<a name=\"TRE-R216-HL7RoleCode-GRNDDAU\"> </a></td><td>Petite-fille</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRNDSO<a name=\"TRE-R216-HL7RoleCode-GRNDSO\"> </a></td><td>Petit-fils</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">UNCLE<a name=\"TRE-R216-HL7RoleCode-UNCLE\"> </a></td><td>Oncle</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AUNT<a name=\"TRE-R216-HL7RoleCode-AUNT\"> </a></td><td>Tante</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NEPHEW<a name=\"TRE-R216-HL7RoleCode-NEPHEW\"> </a></td><td>Neveu</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NIECE<a name=\"TRE-R216-HL7RoleCode-NIECE\"> </a></td><td>Nièce</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">COUSIN<a name=\"TRE-R216-HL7RoleCode-COUSIN\"> </a></td><td>Cousin(e)</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">HUSB<a name=\"TRE-R216-HL7RoleCode-HUSB\"> </a></td><td>Epoux</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">WIFE<a name=\"TRE-R216-HL7RoleCode-WIFE\"> </a></td><td>Epouse</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DOMPART<a name=\"TRE-R216-HL7RoleCode-DOMPART\"> </a></td><td>Concubin(e) ou partenaire PACS</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ROOM<a name=\"TRE-R216-HL7RoleCode-ROOM\"> </a></td><td>Personne vivant sous le même toit</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FRND<a name=\"TRE-R216-HL7RoleCode-FRND\"> </a></td><td>Autre proche</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NBOR<a name=\"TRE-R216-HL7RoleCode-NBOR\"> </a></td><td>Voisin(e)</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FAMMEMB<a name=\"TRE-R216-HL7RoleCode-FAMMEMB\"> </a></td><td>Autre membre de la famille</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">EXT<a name=\"TRE-R216-HL7RoleCode-EXT\"> </a></td><td>Autre membre de la famille sans lien génétique direct</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SPS<a name=\"TRE-R216-HL7RoleCode-SPS\"> </a></td><td>Epoux ou épouse</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">RESPRSN<a name=\"TRE-R216-HL7RoleCode-RESPRSN\"> </a></td><td>Responsable légal non membre de la famille</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ADOPTF<a name=\"TRE-R216-HL7RoleCode-ADOPTF\"> </a></td><td>Père adoptif</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ADOPTM<a name=\"TRE-R216-HL7RoleCode-ADOPTM\"> </a></td><td>Mère adoptive</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ADOPTP<a name=\"TRE-R216-HL7RoleCode-ADOPTP\"> </a></td><td>Parent adoptif, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">BROINLAW<a name=\"TRE-R216-HL7RoleCode-BROINLAW\"> </a></td><td>Beau-frère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CHILD<a name=\"TRE-R216-HL7RoleCode-CHILD\"> </a></td><td>Enfant</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CHLDADOPT<a name=\"TRE-R216-HL7RoleCode-CHLDADOPT\"> </a></td><td>Enfant adopté</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CHLDFOST<a name=\"TRE-R216-HL7RoleCode-CHLDFOST\"> </a></td><td>Enfant placé en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CHLDINLAW<a name=\"TRE-R216-HL7RoleCode-CHLDINLAW\"> </a></td><td>Gendre ou belle-fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">COUSN<a name=\"TRE-R216-HL7RoleCode-COUSN\"> </a></td><td>Cousin(e)</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DAUADOPT<a name=\"TRE-R216-HL7RoleCode-DAUADOPT\"> </a></td><td>Fille adoptive</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DAUC<a name=\"TRE-R216-HL7RoleCode-DAUC\"> </a></td><td>Fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DAUFOST<a name=\"TRE-R216-HL7RoleCode-DAUFOST\"> </a></td><td>Fille placée en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DAUINLAW<a name=\"TRE-R216-HL7RoleCode-DAUINLAW\"> </a></td><td>Belle-fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FMRSPS<a name=\"TRE-R216-HL7RoleCode-FMRSPS\"> </a></td><td>Ancien époux ou ancienne épouse</td><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FTHFOST<a name=\"TRE-R216-HL7RoleCode-FTHFOST\"> </a></td><td>Assistant familial - Famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FTHINLAW<a name=\"TRE-R216-HL7RoleCode-FTHINLAW\"> </a></td><td>Beau-père</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GESTM<a name=\"TRE-R216-HL7RoleCode-GESTM\"> </a></td><td>Mère porteuse</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GGRPRN<a name=\"TRE-R216-HL7RoleCode-GGRPRN\"> </a></td><td>Arrière-grand-parent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRNDCHILD<a name=\"TRE-R216-HL7RoleCode-GRNDCHILD\"> </a></td><td>Petit-enfant</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRPRN<a name=\"TRE-R216-HL7RoleCode-GRPRN\"> </a></td><td>Grand-parent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">HSIB<a name=\"TRE-R216-HL7RoleCode-HSIB\"> </a></td><td>Demi-frère ou demi-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MTHFOST<a name=\"TRE-R216-HL7RoleCode-MTHFOST\"> </a></td><td>Assistante familiale - Famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MTHINLAW<a name=\"TRE-R216-HL7RoleCode-MTHINLAW\"> </a></td><td>Belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NBRO<a name=\"TRE-R216-HL7RoleCode-NBRO\"> </a></td><td>Frère biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NIENEPH<a name=\"TRE-R216-HL7RoleCode-NIENEPH\"> </a></td><td>Neveu ou nièce</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NPRN<a name=\"TRE-R216-HL7RoleCode-NPRN\"> </a></td><td>Parent biologique, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NSIB<a name=\"TRE-R216-HL7RoleCode-NSIB\"> </a></td><td>Frère ou soeur biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NSIS<a name=\"TRE-R216-HL7RoleCode-NSIS\"> </a></td><td>Soeur biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PRN<a name=\"TRE-R216-HL7RoleCode-PRN\"> </a></td><td>Parent, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PRNINLAW<a name=\"TRE-R216-HL7RoleCode-PRNINLAW\"> </a></td><td>Beau-père ou belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SIB<a name=\"TRE-R216-HL7RoleCode-SIB\"> </a></td><td>Frère ou soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SIBINLAW<a name=\"TRE-R216-HL7RoleCode-SIBINLAW\"> </a></td><td>Beau-frère ou belle-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SIGOTHR<a name=\"TRE-R216-HL7RoleCode-SIGOTHR\"> </a></td><td>Conjoint</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SISINLAW<a name=\"TRE-R216-HL7RoleCode-SISINLAW\"> </a></td><td>Belle-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SONADOPT<a name=\"TRE-R216-HL7RoleCode-SONADOPT\"> </a></td><td>Fils adoptif</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SONC<a name=\"TRE-R216-HL7RoleCode-SONC\"> </a></td><td>Fils</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SONFOST<a name=\"TRE-R216-HL7RoleCode-SONFOST\"> </a></td><td>Garçon placé en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SONINLAW<a name=\"TRE-R216-HL7RoleCode-SONINLAW\"> </a></td><td>Gendre</td><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPBRO<a name=\"TRE-R216-HL7RoleCode-STPBRO\"> </a></td><td>Fils du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPCHLD<a name=\"TRE-R216-HL7RoleCode-STPCHLD\"> </a></td><td>Enfant du conjoint, issu d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPDAU<a name=\"TRE-R216-HL7RoleCode-STPDAU\"> </a></td><td>Fille du conjoint, issue d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPPRN<a name=\"TRE-R216-HL7RoleCode-STPPRN\"> </a></td><td>Beau-père ou belle-mère - époux(se) du père ou de la mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPSIB<a name=\"TRE-R216-HL7RoleCode-STPSIB\"> </a></td><td>Enfant du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPSIS<a name=\"TRE-R216-HL7RoleCode-STPSIS\"> </a></td><td>Fille du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STPSON<a name=\"TRE-R216-HL7RoleCode-STPSON\"> </a></td><td>Fils du conjoint, issu d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">TWIN<a name=\"TRE-R216-HL7RoleCode-TWIN\"> </a></td><td>Frère jumeau ou soeur jumelle</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">TWINBRO<a name=\"TRE-R216-HL7RoleCode-TWINBRO\"> </a></td><td>Frère jumeau</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">TWINSIS<a name=\"TRE-R216-HL7RoleCode-TWINSIS\"> </a></td><td>Soeur jumelle</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FTWIN<a name=\"TRE-R216-HL7RoleCode-FTWIN\"> </a></td><td>Jumeau ou jumelle dizygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FTWINBRO<a name=\"TRE-R216-HL7RoleCode-FTWINBRO\"> </a></td><td>Jumeau dizygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FTWINSIS<a name=\"TRE-R216-HL7RoleCode-FTWINSIS\"> </a></td><td>Jumelle dizygot</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GRNDSON<a name=\"TRE-R216-HL7RoleCode-GRNDSON\"> </a></td><td>Petit-fils</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ITWINBRO<a name=\"TRE-R216-HL7RoleCode-ITWINBRO\"> </a></td><td>Jumeau monozygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ITWINSIS<a name=\"TRE-R216-HL7RoleCode-ITWINSIS\"> </a></td><td>Jumelle monozygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MAUNT<a name=\"TRE-R216-HL7RoleCode-MAUNT\"> </a></td><td>Tante maternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MCOUSN<a name=\"TRE-R216-HL7RoleCode-MCOUSN\"> </a></td><td>Cousin (maternel)</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MGGRFTH<a name=\"TRE-R216-HL7RoleCode-MGGRFTH\"> </a></td><td>Arrière-grand-père maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MGGRMTH<a name=\"TRE-R216-HL7RoleCode-MGGRMTH\"> </a></td><td>Arrière-grand-mère maternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MGGRPRN<a name=\"TRE-R216-HL7RoleCode-MGGRPRN\"> </a></td><td>Arrière grand parent maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MGRFTH<a name=\"TRE-R216-HL7RoleCode-MGRFTH\"> </a></td><td>Grand-père maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MGRMTH<a name=\"TRE-R216-HL7RoleCode-MGRMTH\"> </a></td><td>Grand-mère maternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MGRPRN<a name=\"TRE-R216-HL7RoleCode-MGRPRN\"> </a></td><td>Grand parent maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">MUNCLE<a name=\"TRE-R216-HL7RoleCode-MUNCLE\"> </a></td><td>Oncle maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NCHILD<a name=\"TRE-R216-HL7RoleCode-NCHILD\"> </a></td><td>Enfant biologique</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NFTHF<a name=\"TRE-R216-HL7RoleCode-NFTHF\"> </a></td><td>Père biologique du fœtus</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NMTHF<a name=\"TRE-R216-HL7RoleCode-NMTHF\"> </a></td><td>Mère biologique du fœtus</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PAUNT<a name=\"TRE-R216-HL7RoleCode-PAUNT\"> </a></td><td>Tante paternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PCOUSN<a name=\"TRE-R216-HL7RoleCode-PCOUSN\"> </a></td><td>Cousin (paternel)</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PGGRFTH<a name=\"TRE-R216-HL7RoleCode-PGGRFTH\"> </a></td><td>Arrière-grand-père paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PGGRMTH<a name=\"TRE-R216-HL7RoleCode-PGGRMTH\"> </a></td><td>Arrière-grand-mère paternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PGGRPRN<a name=\"TRE-R216-HL7RoleCode-PGGRPRN\"> </a></td><td>Arrière grand parent paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PGRFTH<a name=\"TRE-R216-HL7RoleCode-PGRFTH\"> </a></td><td>Grand-père paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PGRMTH<a name=\"TRE-R216-HL7RoleCode-PGRMTH\"> </a></td><td>Grand-mère paternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PGRPRN<a name=\"TRE-R216-HL7RoleCode-PGRPRN\"> </a></td><td>Grand parent paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PRNFOST<a name=\"TRE-R216-HL7RoleCode-PRNFOST\"> </a></td><td>Parent, au sens famille d'accueil</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PUNCLE<a name=\"TRE-R216-HL7RoleCode-PUNCLE\"> </a></td><td>Oncle paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C<a name=\"TRE-R216-HL7RoleCode-C\"> </a></td><td>Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">G<a name=\"TRE-R216-HL7RoleCode-G\"> </a></td><td>Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés.</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">L<a name=\"TRE-R216-HL7RoleCode-L\"> </a></td><td>Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus.</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P<a name=\"TRE-R216-HL7RoleCode-P\"> </a></td><td>Spécimen prélevé sur un patient</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SELF<a name=\"TRE-R216-HL7RoleCode-SELF\"> </a></td><td>Couverture personnelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">FAMDEP<a name=\"TRE-R216-HL7RoleCode-FAMDEP\"> </a></td><td>Couverture familiale</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">STUD<a name=\"TRE-R216-HL7RoleCode-STUD\"> </a></td><td>Couverture étudiante</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ITWIN<a name=\"TRE-R216-HL7RoleCode-ITWIN\"> </a></td><td>Jumeau ou jumelle monozygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R216-HL7RoleCode</b></p><a name=\"TRE-R216-HL7RoleCode\"> </a><a name=\"hcTRE-R216-HL7RoleCode\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 7; Dernière mise à jour : 2024-12-19 19:11:44+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">MTH<a name=\"TRE-R216-HL7RoleCode-MTH\"> </a></td><td>Mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FTH<a name=\"TRE-R216-HL7RoleCode-FTH\"> </a></td><td>Père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NMTH<a name=\"TRE-R216-HL7RoleCode-NMTH\"> </a></td><td>Mère biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NFTH<a name=\"TRE-R216-HL7RoleCode-NFTH\"> </a></td><td>Père biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">STPMTH<a name=\"TRE-R216-HL7RoleCode-STPMTH\"> </a></td><td>Belle-mère - épouse du père ou de la mère</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Belle-mère</td></tr><tr><td style=\"white-space:nowrap\">STPFTH<a name=\"TRE-R216-HL7RoleCode-STPFTH\"> </a></td><td>Beau-père - époux du père ou de la mère</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Beau-père</td></tr><tr><td style=\"white-space:nowrap\">GRMTH<a name=\"TRE-R216-HL7RoleCode-GRMTH\"> </a></td><td>Grand-mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRFTH<a name=\"TRE-R216-HL7RoleCode-GRFTH\"> </a></td><td>Grand-père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GGRMTH<a name=\"TRE-R216-HL7RoleCode-GGRMTH\"> </a></td><td>Arrière-grand-mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GGRFTH<a name=\"TRE-R216-HL7RoleCode-GGRFTH\"> </a></td><td>Arrière-grand-père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">DAU<a name=\"TRE-R216-HL7RoleCode-DAU\"> </a></td><td>Fille biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SON<a name=\"TRE-R216-HL7RoleCode-SON\"> </a></td><td>Fils biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">BRO<a name=\"TRE-R216-HL7RoleCode-BRO\"> </a></td><td>Frère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SIS<a name=\"TRE-R216-HL7RoleCode-SIS\"> </a></td><td>Soeur</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">HBRO<a name=\"TRE-R216-HL7RoleCode-HBRO\"> </a></td><td>Demi-frère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">HSIS<a name=\"TRE-R216-HL7RoleCode-HSIS\"> </a></td><td>Demi-soeur</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRNDDAU<a name=\"TRE-R216-HL7RoleCode-GRNDDAU\"> </a></td><td>Petite-fille</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRNDSO<a name=\"TRE-R216-HL7RoleCode-GRNDSO\"> </a></td><td>Petit-fils</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">UNCLE<a name=\"TRE-R216-HL7RoleCode-UNCLE\"> </a></td><td>Oncle</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">AUNT<a name=\"TRE-R216-HL7RoleCode-AUNT\"> </a></td><td>Tante</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NEPHEW<a name=\"TRE-R216-HL7RoleCode-NEPHEW\"> </a></td><td>Neveu</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NIECE<a name=\"TRE-R216-HL7RoleCode-NIECE\"> </a></td><td>Nièce</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">COUSIN<a name=\"TRE-R216-HL7RoleCode-COUSIN\"> </a></td><td>Cousin(e)</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">HUSB<a name=\"TRE-R216-HL7RoleCode-HUSB\"> </a></td><td>Epoux</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">WIFE<a name=\"TRE-R216-HL7RoleCode-WIFE\"> </a></td><td>Epouse</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">DOMPART<a name=\"TRE-R216-HL7RoleCode-DOMPART\"> </a></td><td>Concubin(e) ou partenaire PACS</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ROOM<a name=\"TRE-R216-HL7RoleCode-ROOM\"> </a></td><td>Personne vivant sous le même toit</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>Personne vivant sous même toit</td></tr><tr><td style=\"white-space:nowrap\">FRND<a name=\"TRE-R216-HL7RoleCode-FRND\"> </a></td><td>Autre proche</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NBOR<a name=\"TRE-R216-HL7RoleCode-NBOR\"> </a></td><td>Voisin(e)</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FAMMEMB<a name=\"TRE-R216-HL7RoleCode-FAMMEMB\"> </a></td><td>Autre membre de la famille</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">EXT<a name=\"TRE-R216-HL7RoleCode-EXT\"> </a></td><td>Autre membre de la famille sans lien génétique direct</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Autre mbre fam sans lien géné</td></tr><tr><td style=\"white-space:nowrap\">SPS<a name=\"TRE-R216-HL7RoleCode-SPS\"> </a></td><td>Epoux ou épouse</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">RESPRSN<a name=\"TRE-R216-HL7RoleCode-RESPRSN\"> </a></td><td>Responsable légal non membre de la famille</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Resp légal non mbre de la fam</td></tr><tr><td style=\"white-space:nowrap\">ADOPTF<a name=\"TRE-R216-HL7RoleCode-ADOPTF\"> </a></td><td>Père adoptif</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ADOPTM<a name=\"TRE-R216-HL7RoleCode-ADOPTM\"> </a></td><td>Mère adoptive</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ADOPTP<a name=\"TRE-R216-HL7RoleCode-ADOPTP\"> </a></td><td>Parent adoptif, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Parent adoptif</td></tr><tr><td style=\"white-space:nowrap\">BROINLAW<a name=\"TRE-R216-HL7RoleCode-BROINLAW\"> </a></td><td>Beau-frère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">CHILD<a name=\"TRE-R216-HL7RoleCode-CHILD\"> </a></td><td>Enfant</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">CHLDADOPT<a name=\"TRE-R216-HL7RoleCode-CHLDADOPT\"> </a></td><td>Enfant adopté</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">CHLDFOST<a name=\"TRE-R216-HL7RoleCode-CHLDFOST\"> </a></td><td>Enfant placé en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Enfant en famille d'accueil</td></tr><tr><td style=\"white-space:nowrap\">CHLDINLAW<a name=\"TRE-R216-HL7RoleCode-CHLDINLAW\"> </a></td><td>Gendre ou belle-fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">COUSN<a name=\"TRE-R216-HL7RoleCode-COUSN\"> </a></td><td>Cousin(e)</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">DAUADOPT<a name=\"TRE-R216-HL7RoleCode-DAUADOPT\"> </a></td><td>Fille adoptive</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">DAUC<a name=\"TRE-R216-HL7RoleCode-DAUC\"> </a></td><td>Fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">DAUFOST<a name=\"TRE-R216-HL7RoleCode-DAUFOST\"> </a></td><td>Fille placée en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Fille en famille d'accueil</td></tr><tr><td style=\"white-space:nowrap\">DAUINLAW<a name=\"TRE-R216-HL7RoleCode-DAUINLAW\"> </a></td><td>Belle-fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FMRSPS<a name=\"TRE-R216-HL7RoleCode-FMRSPS\"> </a></td><td>Ancien époux ou ancienne épouse</td><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Ancien époux - ancienne épouse</td></tr><tr><td style=\"white-space:nowrap\">FTHFOST<a name=\"TRE-R216-HL7RoleCode-FTHFOST\"> </a></td><td>Assistant familial - Famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Assistant familial</td></tr><tr><td style=\"white-space:nowrap\">FTHINLAW<a name=\"TRE-R216-HL7RoleCode-FTHINLAW\"> </a></td><td>Beau-père</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GESTM<a name=\"TRE-R216-HL7RoleCode-GESTM\"> </a></td><td>Mère porteuse</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GGRPRN<a name=\"TRE-R216-HL7RoleCode-GGRPRN\"> </a></td><td>Arrière-grand-parent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRNDCHILD<a name=\"TRE-R216-HL7RoleCode-GRNDCHILD\"> </a></td><td>Petit-enfant</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRPRN<a name=\"TRE-R216-HL7RoleCode-GRPRN\"> </a></td><td>Grand-parent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">HSIB<a name=\"TRE-R216-HL7RoleCode-HSIB\"> </a></td><td>Demi-frère ou demi-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MTHFOST<a name=\"TRE-R216-HL7RoleCode-MTHFOST\"> </a></td><td>Assistante familiale - Famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Assistante familiale</td></tr><tr><td style=\"white-space:nowrap\">MTHINLAW<a name=\"TRE-R216-HL7RoleCode-MTHINLAW\"> </a></td><td>Belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NBRO<a name=\"TRE-R216-HL7RoleCode-NBRO\"> </a></td><td>Frère biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NIENEPH<a name=\"TRE-R216-HL7RoleCode-NIENEPH\"> </a></td><td>Neveu ou nièce</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NPRN<a name=\"TRE-R216-HL7RoleCode-NPRN\"> </a></td><td>Parent biologique, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Parent biologique</td></tr><tr><td style=\"white-space:nowrap\">NSIB<a name=\"TRE-R216-HL7RoleCode-NSIB\"> </a></td><td>Frère ou soeur biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NSIS<a name=\"TRE-R216-HL7RoleCode-NSIS\"> </a></td><td>Soeur biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PRN<a name=\"TRE-R216-HL7RoleCode-PRN\"> </a></td><td>Parent, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PRNINLAW<a name=\"TRE-R216-HL7RoleCode-PRNINLAW\"> </a></td><td>Beau-père ou belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SIB<a name=\"TRE-R216-HL7RoleCode-SIB\"> </a></td><td>Frère ou soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SIBINLAW<a name=\"TRE-R216-HL7RoleCode-SIBINLAW\"> </a></td><td>Beau-frère ou belle-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SIGOTHR<a name=\"TRE-R216-HL7RoleCode-SIGOTHR\"> </a></td><td>Conjoint</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SISINLAW<a name=\"TRE-R216-HL7RoleCode-SISINLAW\"> </a></td><td>Belle-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SONADOPT<a name=\"TRE-R216-HL7RoleCode-SONADOPT\"> </a></td><td>Fils adoptif</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SONC<a name=\"TRE-R216-HL7RoleCode-SONC\"> </a></td><td>Fils</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SONFOST<a name=\"TRE-R216-HL7RoleCode-SONFOST\"> </a></td><td>Garçon placé en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Garçon en famille d'accueil</td></tr><tr><td style=\"white-space:nowrap\">SONINLAW<a name=\"TRE-R216-HL7RoleCode-SONINLAW\"> </a></td><td>Gendre</td><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">STPBRO<a name=\"TRE-R216-HL7RoleCode-STPBRO\"> </a></td><td>Fils du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Fils du beau-père/belle-mère</td></tr><tr><td style=\"white-space:nowrap\">STPCHLD<a name=\"TRE-R216-HL7RoleCode-STPCHLD\"> </a></td><td>Enfant du conjoint, issu d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Enfant du conjoint</td></tr><tr><td style=\"white-space:nowrap\">STPDAU<a name=\"TRE-R216-HL7RoleCode-STPDAU\"> </a></td><td>Fille du conjoint, issue d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Fille du conjoint</td></tr><tr><td style=\"white-space:nowrap\">STPPRN<a name=\"TRE-R216-HL7RoleCode-STPPRN\"> </a></td><td>Beau-père ou belle-mère - époux(se) du père ou de la mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Beau-père ou belle-mère</td></tr><tr><td style=\"white-space:nowrap\">STPSIB<a name=\"TRE-R216-HL7RoleCode-STPSIB\"> </a></td><td>Enfant du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Enfant du beau-père/belle-mère</td></tr><tr><td style=\"white-space:nowrap\">STPSIS<a name=\"TRE-R216-HL7RoleCode-STPSIS\"> </a></td><td>Fille du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Fille du beau-père/belle-mère</td></tr><tr><td style=\"white-space:nowrap\">STPSON<a name=\"TRE-R216-HL7RoleCode-STPSON\"> </a></td><td>Fils du conjoint, issu d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Fils du conjoint</td></tr><tr><td style=\"white-space:nowrap\">TWIN<a name=\"TRE-R216-HL7RoleCode-TWIN\"> </a></td><td>Frère jumeau ou soeur jumelle</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">TWINBRO<a name=\"TRE-R216-HL7RoleCode-TWINBRO\"> </a></td><td>Frère jumeau</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">TWINSIS<a name=\"TRE-R216-HL7RoleCode-TWINSIS\"> </a></td><td>Soeur jumelle</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FTWIN<a name=\"TRE-R216-HL7RoleCode-FTWIN\"> </a></td><td>Jumeau ou jumelle dizygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FTWINBRO<a name=\"TRE-R216-HL7RoleCode-FTWINBRO\"> </a></td><td>Jumeau dizygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FTWINSIS<a name=\"TRE-R216-HL7RoleCode-FTWINSIS\"> </a></td><td>Jumelle dizygot</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRNDSON<a name=\"TRE-R216-HL7RoleCode-GRNDSON\"> </a></td><td>Petit-fils</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ITWINBRO<a name=\"TRE-R216-HL7RoleCode-ITWINBRO\"> </a></td><td>Jumeau monozygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ITWINSIS<a name=\"TRE-R216-HL7RoleCode-ITWINSIS\"> </a></td><td>Jumelle monozygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MAUNT<a name=\"TRE-R216-HL7RoleCode-MAUNT\"> </a></td><td>Tante maternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MCOUSN<a name=\"TRE-R216-HL7RoleCode-MCOUSN\"> </a></td><td>Cousin (maternel)</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGGRFTH<a name=\"TRE-R216-HL7RoleCode-MGGRFTH\"> </a></td><td>Arrière-grand-père maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGGRMTH<a name=\"TRE-R216-HL7RoleCode-MGGRMTH\"> </a></td><td>Arrière-grand-mère maternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGGRPRN<a name=\"TRE-R216-HL7RoleCode-MGGRPRN\"> </a></td><td>Arrière grand parent maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGRFTH<a name=\"TRE-R216-HL7RoleCode-MGRFTH\"> </a></td><td>Grand-père maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGRMTH<a name=\"TRE-R216-HL7RoleCode-MGRMTH\"> </a></td><td>Grand-mère maternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGRPRN<a name=\"TRE-R216-HL7RoleCode-MGRPRN\"> </a></td><td>Grand parent maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MUNCLE<a name=\"TRE-R216-HL7RoleCode-MUNCLE\"> </a></td><td>Oncle maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NCHILD<a name=\"TRE-R216-HL7RoleCode-NCHILD\"> </a></td><td>Enfant biologique</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NFTHF<a name=\"TRE-R216-HL7RoleCode-NFTHF\"> </a></td><td>Père biologique du fœtus</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NMTHF<a name=\"TRE-R216-HL7RoleCode-NMTHF\"> </a></td><td>Mère biologique du fœtus</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PAUNT<a name=\"TRE-R216-HL7RoleCode-PAUNT\"> </a></td><td>Tante paternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PCOUSN<a name=\"TRE-R216-HL7RoleCode-PCOUSN\"> </a></td><td>Cousin (paternel)</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGGRFTH<a name=\"TRE-R216-HL7RoleCode-PGGRFTH\"> </a></td><td>Arrière-grand-père paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGGRMTH<a name=\"TRE-R216-HL7RoleCode-PGGRMTH\"> </a></td><td>Arrière-grand-mère paternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGGRPRN<a name=\"TRE-R216-HL7RoleCode-PGGRPRN\"> </a></td><td>Arrière grand parent paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGRFTH<a name=\"TRE-R216-HL7RoleCode-PGRFTH\"> </a></td><td>Grand-père paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGRMTH<a name=\"TRE-R216-HL7RoleCode-PGRMTH\"> </a></td><td>Grand-mère paternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGRPRN<a name=\"TRE-R216-HL7RoleCode-PGRPRN\"> </a></td><td>Grand parent paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PRNFOST<a name=\"TRE-R216-HL7RoleCode-PRNFOST\"> </a></td><td>Parent, au sens famille d'accueil</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PUNCLE<a name=\"TRE-R216-HL7RoleCode-PUNCLE\"> </a></td><td>Oncle paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">C<a name=\"TRE-R216-HL7RoleCode-C\"> </a></td><td>Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">G<a name=\"TRE-R216-HL7RoleCode-G\"> </a></td><td>Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés.</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">L<a name=\"TRE-R216-HL7RoleCode-L\"> </a></td><td>Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus.</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">P<a name=\"TRE-R216-HL7RoleCode-P\"> </a></td><td>Spécimen prélevé sur un patient</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SELF<a name=\"TRE-R216-HL7RoleCode-SELF\"> </a></td><td>Couverture personnelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FAMDEP<a name=\"TRE-R216-HL7RoleCode-FAMDEP\"> </a></td><td>Couverture familiale</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">STUD<a name=\"TRE-R216-HL7RoleCode-STUD\"> </a></td><td>Couverture étudiante</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ITWIN<a name=\"TRE-R216-HL7RoleCode-ITWIN\"> </a></td><td>Jumeau ou jumelle monozygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr></table></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -13,11 +18,13 @@
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode",
   "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.5.111"
   }],
   "version" : "1.5.0",
-  "name" : "TRE_R216-HL7RoleCode",
+  "name" : "TRE_R216_HL7RoleCode",
   "status" : "active",
+  "experimental" : false,
   "date" : "2024-12-13T12:00:00+01:00",
   "publisher" : "ANS",
   "contact" : [{
@@ -28,6 +35,7 @@
     }]
   }],
   "description" : "HL7 roleCode",
+  "caseSensitive" : false,
   "content" : "complete",
   "property" : [{
     "code" : "dateValid",
@@ -47,18 +55,6 @@
   "concept" : [{
     "code" : "MTH",
     "display" : "Mère",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Mère"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Mère"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -71,18 +67,6 @@
   {
     "code" : "FTH",
     "display" : "Père",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Père"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Père"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -95,18 +79,6 @@
   {
     "code" : "NMTH",
     "display" : "Mère biologique",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Mère biologique"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Mère biologique"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -119,18 +91,6 @@
   {
     "code" : "NFTH",
     "display" : "Père biologique",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Père biologique"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Père biologique"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -144,16 +104,12 @@
     "code" : "STPMTH",
     "display" : "Belle-mère - épouse du père ou de la mère",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Belle-mère"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Belle-mère - épouse du père ou de la mère"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -168,16 +124,12 @@
     "code" : "STPFTH",
     "display" : "Beau-père - époux du père ou de la mère",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Beau-père"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Beau-père - époux du père ou de la mère"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -191,18 +143,6 @@
   {
     "code" : "GRMTH",
     "display" : "Grand-mère",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Grand-mère"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Grand-mère"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -215,18 +155,6 @@
   {
     "code" : "GRFTH",
     "display" : "Grand-père",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Grand-père"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Grand-père"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -239,18 +167,6 @@
   {
     "code" : "GGRMTH",
     "display" : "Arrière-grand-mère",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Arrière-grand-mère"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Arrière-grand-mère"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -263,18 +179,6 @@
   {
     "code" : "GGRFTH",
     "display" : "Arrière-grand-père",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Arrière-grand-père"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Arrière-grand-père"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -287,18 +191,6 @@
   {
     "code" : "DAU",
     "display" : "Fille biologique",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Fille biologique"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Fille biologique"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -311,18 +203,6 @@
   {
     "code" : "SON",
     "display" : "Fils biologique",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Fils biologique"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Fils biologique"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -335,18 +215,6 @@
   {
     "code" : "BRO",
     "display" : "Frère",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Frère"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Frère"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -359,18 +227,6 @@
   {
     "code" : "SIS",
     "display" : "Soeur",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Soeur"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Soeur"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -383,18 +239,6 @@
   {
     "code" : "HBRO",
     "display" : "Demi-frère",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Demi-frère"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Demi-frère"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -407,18 +251,6 @@
   {
     "code" : "HSIS",
     "display" : "Demi-soeur",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Demi-soeur"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Demi-soeur"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -431,18 +263,6 @@
   {
     "code" : "GRNDDAU",
     "display" : "Petite-fille",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Petite-fille"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Petite-fille"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -455,18 +275,6 @@
   {
     "code" : "GRNDSO",
     "display" : "Petit-fils",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Petit-fils"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Petit-fils"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -479,18 +287,6 @@
   {
     "code" : "UNCLE",
     "display" : "Oncle",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Oncle"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Oncle"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -503,18 +299,6 @@
   {
     "code" : "AUNT",
     "display" : "Tante",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Tante"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Tante"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -527,18 +311,6 @@
   {
     "code" : "NEPHEW",
     "display" : "Neveu",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Neveu"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Neveu"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -551,18 +323,6 @@
   {
     "code" : "NIECE",
     "display" : "Nièce",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Nièce"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Nièce"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -575,18 +335,6 @@
   {
     "code" : "COUSIN",
     "display" : "Cousin(e)",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Cousin(e)"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Cousin(e)"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -603,18 +351,6 @@
   {
     "code" : "HUSB",
     "display" : "Epoux",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Epoux"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Epoux"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -627,18 +363,6 @@
   {
     "code" : "WIFE",
     "display" : "Epouse",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Epouse"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Epouse"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -651,18 +375,6 @@
   {
     "code" : "DOMPART",
     "display" : "Concubin(e) ou partenaire PACS",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Concubin(e) ou partenaire PACS"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Concubin(e) ou partenaire PACS"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -676,16 +388,12 @@
     "code" : "ROOM",
     "display" : "Personne vivant sous le même toit",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Personne vivant sous même toit"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Personne vivant sous le même toit"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -699,18 +407,6 @@
   {
     "code" : "FRND",
     "display" : "Autre proche",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Autre proche"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Autre proche"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -723,18 +419,6 @@
   {
     "code" : "NBOR",
     "display" : "Voisin(e)",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Voisin(e)"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Voisin(e)"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -747,18 +431,6 @@
   {
     "code" : "FAMMEMB",
     "display" : "Autre membre de la famille",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Autre membre de la famille"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Autre membre de la famille"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -772,16 +444,12 @@
     "code" : "EXT",
     "display" : "Autre membre de la famille sans lien génétique direct",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Autre mbre fam sans lien géné"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Autre membre de la famille sans lien génétique direct"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -795,18 +463,6 @@
   {
     "code" : "SPS",
     "display" : "Epoux ou épouse",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Epoux ou épouse"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Epoux ou épouse"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -820,16 +476,12 @@
     "code" : "RESPRSN",
     "display" : "Responsable légal non membre de la famille",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Resp légal non mbre de la fam"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Responsable légal non membre de la famille"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -843,18 +495,6 @@
   {
     "code" : "ADOPTF",
     "display" : "Père adoptif",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Père adoptif"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Père adoptif"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -867,18 +507,6 @@
   {
     "code" : "ADOPTM",
     "display" : "Mère adoptive",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Mère adoptive"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Mère adoptive"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -892,16 +520,12 @@
     "code" : "ADOPTP",
     "display" : "Parent adoptif, au sens père ou mère",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Parent adoptif"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Parent adoptif, au sens père ou mère"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -915,18 +539,6 @@
   {
     "code" : "BROINLAW",
     "display" : "Beau-frère",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Beau-frère"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Beau-frère"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -939,18 +551,6 @@
   {
     "code" : "CHILD",
     "display" : "Enfant",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Enfant"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Enfant"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -963,18 +563,6 @@
   {
     "code" : "CHLDADOPT",
     "display" : "Enfant adopté",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Enfant adopté"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Enfant adopté"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -988,16 +576,12 @@
     "code" : "CHLDFOST",
     "display" : "Enfant placé en famille d'accueil",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Enfant en famille d'accueil"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Enfant placé en famille d'accueil"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1011,18 +595,6 @@
   {
     "code" : "CHLDINLAW",
     "display" : "Gendre ou belle-fille",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Gendre ou belle-fille"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Gendre ou belle-fille"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1035,18 +607,6 @@
   {
     "code" : "COUSN",
     "display" : "Cousin(e)",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Cousin(e)"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Cousin(e)"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1059,18 +619,6 @@
   {
     "code" : "DAUADOPT",
     "display" : "Fille adoptive",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Fille adoptive"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Fille adoptive"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1083,18 +631,6 @@
   {
     "code" : "DAUC",
     "display" : "Fille",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Fille"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Fille"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1108,16 +644,12 @@
     "code" : "DAUFOST",
     "display" : "Fille placée en famille d'accueil",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Fille en famille d'accueil"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Fille placée en famille d'accueil"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1131,18 +663,6 @@
   {
     "code" : "DAUINLAW",
     "display" : "Belle-fille",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Belle-fille"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Belle-fille"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1156,16 +676,12 @@
     "code" : "FMRSPS",
     "display" : "Ancien époux ou ancienne épouse",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Ancien époux - ancienne épouse"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Ancien époux ou ancienne épouse"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1180,16 +696,12 @@
     "code" : "FTHFOST",
     "display" : "Assistant familial - Famille d'accueil",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Assistant familial"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Assistant familial - Famille d'accueil"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1203,18 +715,6 @@
   {
     "code" : "FTHINLAW",
     "display" : "Beau-père",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Beau-père"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Beau-père"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1227,18 +727,6 @@
   {
     "code" : "GESTM",
     "display" : "Mère porteuse",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Mère porteuse"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Mère porteuse"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1251,18 +739,6 @@
   {
     "code" : "GGRPRN",
     "display" : "Arrière-grand-parent",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Arrière-grand-parent"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Arrière-grand-parent"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1275,18 +751,6 @@
   {
     "code" : "GRNDCHILD",
     "display" : "Petit-enfant",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Petit-enfant"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Petit-enfant"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1299,18 +763,6 @@
   {
     "code" : "GRPRN",
     "display" : "Grand-parent",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Grand-parent"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Grand-parent"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1323,18 +775,6 @@
   {
     "code" : "HSIB",
     "display" : "Demi-frère ou demi-soeur",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Demi-frère ou demi-soeur"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Demi-frère ou demi-soeur"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1348,16 +788,12 @@
     "code" : "MTHFOST",
     "display" : "Assistante familiale - Famille d'accueil",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Assistante familiale"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Assistante familiale - Famille d'accueil"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1371,18 +807,6 @@
   {
     "code" : "MTHINLAW",
     "display" : "Belle-mère",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Belle-mère"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Belle-mère"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1395,18 +819,6 @@
   {
     "code" : "NBRO",
     "display" : "Frère biologique",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Frère biologique"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Frère biologique"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1419,18 +831,6 @@
   {
     "code" : "NIENEPH",
     "display" : "Neveu ou nièce",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Neveu ou nièce"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Neveu ou nièce"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1444,16 +844,12 @@
     "code" : "NPRN",
     "display" : "Parent biologique, au sens père ou mère",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Parent biologique"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Parent biologique, au sens père ou mère"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1467,18 +863,6 @@
   {
     "code" : "NSIB",
     "display" : "Frère ou soeur biologique",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Frère ou soeur biologique"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Frère ou soeur biologique"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1491,18 +875,6 @@
   {
     "code" : "NSIS",
     "display" : "Soeur biologique",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Soeur biologique"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Soeur biologique"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1515,18 +887,6 @@
   {
     "code" : "PRN",
     "display" : "Parent, au sens père ou mère",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Parent, au sens père ou mère"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Parent, au sens père ou mère"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1539,18 +899,6 @@
   {
     "code" : "PRNINLAW",
     "display" : "Beau-père ou belle-mère",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Beau-père ou belle-mère"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Beau-père ou belle-mère"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1563,18 +911,6 @@
   {
     "code" : "SIB",
     "display" : "Frère ou soeur",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Frère ou soeur"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Frère ou soeur"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1587,18 +923,6 @@
   {
     "code" : "SIBINLAW",
     "display" : "Beau-frère ou belle-soeur",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Beau-frère ou belle-soeur"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Beau-frère ou belle-soeur"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1611,18 +935,6 @@
   {
     "code" : "SIGOTHR",
     "display" : "Conjoint",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Conjoint"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Conjoint"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1635,18 +947,6 @@
   {
     "code" : "SISINLAW",
     "display" : "Belle-soeur",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Belle-soeur"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Belle-soeur"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1659,18 +959,6 @@
   {
     "code" : "SONADOPT",
     "display" : "Fils adoptif",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Fils adoptif"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Fils adoptif"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1683,18 +971,6 @@
   {
     "code" : "SONC",
     "display" : "Fils",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Fils"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Fils"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1708,16 +984,12 @@
     "code" : "SONFOST",
     "display" : "Garçon placé en famille d'accueil",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Garçon en famille d'accueil"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Garçon placé en famille d'accueil"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1731,18 +1003,6 @@
   {
     "code" : "SONINLAW",
     "display" : "Gendre",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Gendre"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Gendre"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-01-26T12:00:00+01:00"
@@ -1756,16 +1016,12 @@
     "code" : "STPBRO",
     "display" : "Fils du beau-père ou de la belle-mère",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Fils du beau-père/belle-mère"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Fils du beau-père ou de la belle-mère"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1780,16 +1036,12 @@
     "code" : "STPCHLD",
     "display" : "Enfant du conjoint, issu d'un mariage précédent",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Enfant du conjoint"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Enfant du conjoint, issu d'un mariage précédent"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1804,16 +1056,12 @@
     "code" : "STPDAU",
     "display" : "Fille du conjoint, issue d'un mariage précédent",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Fille du conjoint"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Fille du conjoint, issue d'un mariage précédent"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1828,16 +1076,12 @@
     "code" : "STPPRN",
     "display" : "Beau-père ou belle-mère - époux(se) du père ou de la mère",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Beau-père ou belle-mère"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Beau-père ou belle-mère - époux(se) du père ou de la mère"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1852,16 +1096,12 @@
     "code" : "STPSIB",
     "display" : "Enfant du beau-père ou de la belle-mère",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Enfant du beau-père/belle-mère"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Enfant du beau-père ou de la belle-mère"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1876,16 +1116,12 @@
     "code" : "STPSIS",
     "display" : "Fille du beau-père ou de la belle-mère",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Fille du beau-père/belle-mère"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Fille du beau-père ou de la belle-mère"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1900,16 +1136,12 @@
     "code" : "STPSON",
     "display" : "Fils du conjoint, issu d'un mariage précédent",
     "designation" : [{
+      "language" : "fr-FR",
       "use" : {
-        "code" : "LibelleCourt"
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
       },
       "value" : "Fils du conjoint"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Fils du conjoint, issu d'un mariage précédent"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1923,18 +1155,6 @@
   {
     "code" : "TWIN",
     "display" : "Frère jumeau ou soeur jumelle",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Frère jumeau ou soeur jumelle"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Frère jumeau ou soeur jumelle"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1947,18 +1167,6 @@
   {
     "code" : "TWINBRO",
     "display" : "Frère jumeau",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Frère jumeau"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Frère jumeau"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1971,18 +1179,6 @@
   {
     "code" : "TWINSIS",
     "display" : "Soeur jumelle",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Soeur jumelle"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Soeur jumelle"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -1995,18 +1191,6 @@
   {
     "code" : "FTWIN",
     "display" : "Jumeau ou jumelle dizygote",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Jumeau ou jumelle dizygote"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Jumeau ou jumelle dizygote"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2019,18 +1203,6 @@
   {
     "code" : "FTWINBRO",
     "display" : "Jumeau dizygote",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Jumeau dizygote"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Jumeau dizygote"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2043,18 +1215,6 @@
   {
     "code" : "FTWINSIS",
     "display" : "Jumelle dizygot",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Jumelle dizygot"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Jumelle dizygot"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2067,18 +1227,6 @@
   {
     "code" : "GRNDSON",
     "display" : "Petit-fils",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Petit-fils"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Petit-fils"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2091,18 +1239,6 @@
   {
     "code" : "ITWINBRO",
     "display" : "Jumeau monozygote",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Jumeau monozygote"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Jumeau monozygote"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2115,18 +1251,6 @@
   {
     "code" : "ITWINSIS",
     "display" : "Jumelle monozygote",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Jumelle monozygote"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Jumelle monozygote"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2139,18 +1263,6 @@
   {
     "code" : "MAUNT",
     "display" : "Tante maternelle",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Tante maternelle"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Tante maternelle"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2163,18 +1275,6 @@
   {
     "code" : "MCOUSN",
     "display" : "Cousin (maternel)",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Cousin (maternel)"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Cousin (maternel)"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2187,18 +1287,6 @@
   {
     "code" : "MGGRFTH",
     "display" : "Arrière-grand-père maternel",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Arrière-grand-père maternel"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Arrière-grand-père maternel"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2211,18 +1299,6 @@
   {
     "code" : "MGGRMTH",
     "display" : "Arrière-grand-mère maternelle",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Arrière-grand-mère maternelle"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Arrière-grand-mère maternelle"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2235,18 +1311,6 @@
   {
     "code" : "MGGRPRN",
     "display" : "Arrière grand parent maternel",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Arrière grand parent maternel"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Arrière grand parent maternel"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2259,18 +1323,6 @@
   {
     "code" : "MGRFTH",
     "display" : "Grand-père maternel",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Grand-père maternel"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Grand-père maternel"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2283,18 +1335,6 @@
   {
     "code" : "MGRMTH",
     "display" : "Grand-mère maternelle",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Grand-mère maternelle"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Grand-mère maternelle"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2307,18 +1347,6 @@
   {
     "code" : "MGRPRN",
     "display" : "Grand parent maternel",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Grand parent maternel"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Grand parent maternel"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2331,18 +1359,6 @@
   {
     "code" : "MUNCLE",
     "display" : "Oncle maternel",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Oncle maternel"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Oncle maternel"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2355,18 +1371,6 @@
   {
     "code" : "NCHILD",
     "display" : "Enfant biologique",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Enfant biologique"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Enfant biologique"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2379,18 +1383,6 @@
   {
     "code" : "NFTHF",
     "display" : "Père biologique du fœtus",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Père biologique du fœtus"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Père biologique du fœtus"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2403,18 +1395,6 @@
   {
     "code" : "NMTHF",
     "display" : "Mère biologique du fœtus",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Mère biologique du fœtus"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Mère biologique du fœtus"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2427,18 +1407,6 @@
   {
     "code" : "PAUNT",
     "display" : "Tante paternelle",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Tante paternelle"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Tante paternelle"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2451,18 +1419,6 @@
   {
     "code" : "PCOUSN",
     "display" : "Cousin (paternel)",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Cousin (paternel)"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Cousin (paternel)"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2475,18 +1431,6 @@
   {
     "code" : "PGGRFTH",
     "display" : "Arrière-grand-père paternel",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Arrière-grand-père paternel"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Arrière-grand-père paternel"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2499,18 +1443,6 @@
   {
     "code" : "PGGRMTH",
     "display" : "Arrière-grand-mère paternelle",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Arrière-grand-mère paternelle"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Arrière-grand-mère paternelle"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2523,18 +1455,6 @@
   {
     "code" : "PGGRPRN",
     "display" : "Arrière grand parent paternel",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Arrière grand parent paternel"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Arrière grand parent paternel"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2547,18 +1467,6 @@
   {
     "code" : "PGRFTH",
     "display" : "Grand-père paternel",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Grand-père paternel"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Grand-père paternel"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2571,18 +1479,6 @@
   {
     "code" : "PGRMTH",
     "display" : "Grand-mère paternelle",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Grand-mère paternelle"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Grand-mère paternelle"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2595,18 +1491,6 @@
   {
     "code" : "PGRPRN",
     "display" : "Grand parent paternel",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Grand parent paternel"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Grand parent paternel"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2619,18 +1503,6 @@
   {
     "code" : "PRNFOST",
     "display" : "Parent, au sens famille d'accueil",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Parent, au sens famille d'accueil"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Parent, au sens famille d'accueil"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2643,18 +1515,6 @@
   {
     "code" : "PUNCLE",
     "display" : "Oncle paternel",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Oncle paternel"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Oncle paternel"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2667,18 +1527,6 @@
   {
     "code" : "C",
     "display" : "Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2691,18 +1539,6 @@
   {
     "code" : "G",
     "display" : "Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés.",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés."
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés."
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2715,18 +1551,6 @@
   {
     "code" : "L",
     "display" : "Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus.",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus."
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus."
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2739,18 +1563,6 @@
   {
     "code" : "P",
     "display" : "Spécimen prélevé sur un patient",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Spécimen prélevé sur un patient"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Spécimen prélevé sur un patient"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2763,18 +1575,6 @@
   {
     "code" : "SELF",
     "display" : "Couverture personnelle",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Couverture personnelle"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Couverture personnelle"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2787,18 +1587,6 @@
   {
     "code" : "FAMDEP",
     "display" : "Couverture familiale",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Couverture familiale"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Couverture familiale"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2811,18 +1599,6 @@
   {
     "code" : "STUD",
     "display" : "Couverture étudiante",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Couverture étudiante"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Couverture étudiante"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"
@@ -2835,18 +1611,6 @@
   {
     "code" : "ITWIN",
     "display" : "Jumeau ou jumelle monozygote",
-    "designation" : [{
-      "use" : {
-        "code" : "LibelleCourt"
-      },
-      "value" : "Jumeau ou jumelle monozygote"
-    },
-    {
-      "use" : {
-        "code" : "LibelleAdapte"
-      },
-      "value" : "Jumeau ou jumelle monozygote"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-12-13T12:00:00+01:00"

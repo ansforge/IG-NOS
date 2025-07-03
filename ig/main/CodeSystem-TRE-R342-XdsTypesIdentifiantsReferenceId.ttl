@@ -2,6 +2,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # - resource -------------------------------------------------------------------
@@ -9,9 +10,17 @@
 <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R342-XdsTypesIdentifiantsReferenceId> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-R342-XdsTypesIdentifiantsReferenceId"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "4" ] ;
+     fhir:lastUpdated [ fhir:v "2024-08-28T05:13:39.052+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ] )
+  ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R342-XdsTypesIdentifiantsReferenceId</b></p><a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId\"> </a><a name=\"hcTRE-R342-XdsTypesIdentifiantsReferenceId\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R342-XdsTypesIdentifiantsReferenceId/FHIR/TRE-R342-XdsTypesIdentifiantsReferenceId</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2013:uniqueId<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582013.58uniqueId\"> </a></td><td>uniqueId</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2013:accession<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582013.58accession\"> </a></td><td>accession</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2013:referral<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582013.58referral\"> </a></td><td>referral</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2013:order<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582013.58order\"> </a></td><td>order</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xdw:2013:workflowInstanceId<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xdw.582013.58workflowInstanceId\"> </a></td><td>workflowInstanceId</td><td>2022-06-24T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2016:studyInstanceUID<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582016.58studyInstanceUID\"> </a></td><td>studyInstanceUID</td><td>2022-06-24T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2015:encounterId<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582015.58encounterId\"> </a></td><td>encounterId</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R342-XdsTypesIdentifiantsReferenceId</b></p><a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId\"> </a><a name=\"hcTRE-R342-XdsTypesIdentifiantsReferenceId\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Dernière mise à jour : 2024-08-28 05:13:39+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R342-XdsTypesIdentifiantsReferenceId/FHIR/TRE-R342-XdsTypesIdentifiantsReferenceId</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2013:uniqueId<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582013.58uniqueId\"> </a></td><td>uniqueId</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td>uniqueId, identifiant unique issu des métadonnées XDS de la fiche</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2013:accession<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582013.58accession\"> </a></td><td>accession</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td>accession : identifiant de l'objet contenant le numéro Accession Number et l'autorité d'affectation</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2013:referral<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582013.58referral\"> </a></td><td>referral</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td>referral contenant le numéro de référence Referral Number et l'autorité d'affecttation</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2013:order<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582013.58order\"> </a></td><td>order</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td>order contenant le numéro de demande Order Number et l'autorité d'affectation</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xdw:2013:workflowInstanceId<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xdw.582013.58workflowInstanceId\"> </a></td><td>workflowInstanceId</td><td>2022-06-24T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td>workflowInstanceId utilisé lorsque l'identifiant est un XDW workflow identifier, doit être un OID</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2016:studyInstanceUID<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582016.58studyInstanceUID\"> </a></td><td>studyInstanceUID</td><td>2022-06-24T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td>studyInstanceUID utilisé lorsque l'identifiant est un DICOM Study Instance UID, doit contenir la valeur du Study Instance UID</td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:iti:xds:2015:encounterId<a name=\"TRE-R342-XdsTypesIdentifiantsReferenceId-urn.58ihe.58iti.58xds.582015.58encounterId\"> </a></td><td>encounterId</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td>encounterId contenant l'identifiant de la rencontre encounterId et l'autorité d'affectation</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -22,11 +31,13 @@
   ] ) ; # 
   fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R342-XdsTypesIdentifiantsReferenceId/FHIR/TRE-R342-XdsTypesIdentifiantsReferenceId"^^xsd:anyURI] ; # 
   fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.347" ]
   ] ) ; # 
   fhir:version [ fhir:v "1.5.0"] ; # 
-  fhir:name [ fhir:v "TRE_R342-XdsTypesIdentifiantsReferenceId"] ; # 
+  fhir:name [ fhir:v "TRE_R342_XdsTypesIdentifiantsReferenceId"] ; # 
   fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2023-12-15T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
@@ -37,6 +48,7 @@
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document. Ces types d'identifiants sont spécifiés dans une terminologie incluse dans le profil XDS dans le Cadre Technique d'IHE IT Infrastructure."] ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "dateValid" ] ;
@@ -55,13 +67,11 @@
      fhir:code [ fhir:v "urn:ihe:iti:xds:2013:uniqueId" ] ;
      fhir:display [ fhir:v "uniqueId" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
-       ] ;
-       fhir:value [ fhir:v "uniqueId" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "uniqueId, identifiant unique issu des métadonnées XDS de la fiche" ]
      ] ) ;
@@ -82,13 +92,11 @@
      fhir:code [ fhir:v "urn:ihe:iti:xds:2013:accession" ] ;
      fhir:display [ fhir:v "accession" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
-       ] ;
-       fhir:value [ fhir:v "accession" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "accession : identifiant de l'objet contenant le numéro Accession Number et l'autorité d'affectation" ]
      ] ) ;
@@ -109,13 +117,11 @@
      fhir:code [ fhir:v "urn:ihe:iti:xds:2013:referral" ] ;
      fhir:display [ fhir:v "referral" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
-       ] ;
-       fhir:value [ fhir:v "referral" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "referral contenant le numéro de référence Referral Number et l'autorité d'affecttation" ]
      ] ) ;
@@ -136,13 +142,11 @@
      fhir:code [ fhir:v "urn:ihe:iti:xds:2013:order" ] ;
      fhir:display [ fhir:v "order" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
-       ] ;
-       fhir:value [ fhir:v "order" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "order contenant le numéro de demande Order Number et l'autorité d'affectation" ]
      ] ) ;
@@ -163,13 +167,11 @@
      fhir:code [ fhir:v "urn:ihe:iti:xdw:2013:workflowInstanceId" ] ;
      fhir:display [ fhir:v "workflowInstanceId" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
-       ] ;
-       fhir:value [ fhir:v "workflowInstanceId" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "workflowInstanceId utilisé lorsque l'identifiant est un XDW workflow identifier, doit être un OID" ]
      ] ) ;
@@ -190,13 +192,11 @@
      fhir:code [ fhir:v "urn:ihe:iti:xds:2016:studyInstanceUID" ] ;
      fhir:display [ fhir:v "studyInstanceUID" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
-       ] ;
-       fhir:value [ fhir:v "studyInstanceUID" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "studyInstanceUID utilisé lorsque l'identifiant est un DICOM Study Instance UID, doit contenir la valeur du Study Instance UID" ]
      ] ) ;
@@ -217,13 +217,11 @@
      fhir:code [ fhir:v "urn:ihe:iti:xds:2015:encounterId" ] ;
      fhir:display [ fhir:v "encounterId" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
-       ] ;
-       fhir:value [ fhir:v "encounterId" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "encounterId contenant l'identifiant de la rencontre encounterId et l'autorité d'affectation" ]
      ] ) ;

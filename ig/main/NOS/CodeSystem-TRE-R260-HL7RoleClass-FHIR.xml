@@ -1,6 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
+
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R260-HL7RoleClass"/>
+  <meta>
+    <versionId value="4"/>
+    <lastUpdated value="2024-08-28T05:12:52.955+00:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : CodeSystem TRE-R260-HL7RoleClass</b></p><a name="TRE-R260-HL7RoleClass"> </a><a name="hcTRE-R260-HL7RoleClass"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 4; Dernière mise à jour : 2024-08-28 05:12:52+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style="white-space:nowrap">ECON<a name="TRE-R260-HL7RoleClass-ECON"> </a></td><td>personne à prévenir en cas d'urgence</td><td>2018-03-30T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">GUARD<a name="TRE-R260-HL7RoleClass-GUARD"> </a></td><td>Responsable légal</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">QUAL<a name="TRE-R260-HL7RoleClass-QUAL"> </a></td><td>Personne de confiance</td><td>2018-03-30T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td></tr><tr><td style="white-space:nowrap">POLHOLD<a name="TRE-R260-HL7RoleClass-POLHOLD"> </a></td><td>Assuré ouvrant droit</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">CON<a name="TRE-R260-HL7RoleClass-CON"> </a></td><td>Informateur</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">CAREGIVER<a name="TRE-R260-HL7RoleClass-CAREGIVER"> </a></td><td>Aidant</td><td>2019-10-25T12:00:00+01:00</td><td>2019-10-25T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">PAT<a name="TRE-R260-HL7RoleClass-PAT"> </a></td><td>aidé</td><td>2019-10-25T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">PROV<a name="TRE-R260-HL7RoleClass-PROV"> </a></td><td>Professionnel de santé</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">AGNT<a name="TRE-R260-HL7RoleClass-AGNT"> </a></td><td>Professionnel caractérisé par son rôle</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">NOK<a name="TRE-R260-HL7RoleClass-NOK"> </a></td><td>personne de confiance</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/></tr></table></div>
+  </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>
       <start value="2018-03-30T12:00:00+01:00"/>
@@ -8,17 +17,27 @@
   </extension>
   <url value="https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass"/>
   <identifier>
+    <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.5.110"/>
   </identifier>
   <version value="20240426120000"/>
-  <name value="TRE_R260-HL7RoleClass"/>
+  <name value="TRE_R260_HL7RoleClass"/>
   <status value="active"/>
+  <experimental value="false"/>
   <date value="2024-04-26T12:00:00+01:00"/>
+  <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Rôle de la personne point de contact auprès d'une autre personne repris de la terminologie HL7 v3 RoleClass (https://www.hl7.org/fhir/v3/RoleClass/cs.html)"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
   <content value="complete"/>
   <property>
     <code value="dateValid"/>
-    <description value="Date de validité d'un code concept"/>
+    <description value="date de validité d'un code concept"/>
     <type value="dateTime"/>
   </property>
   <property>
@@ -34,18 +53,6 @@
   <concept>
     <code value="ECON"/>
     <display value="personne à prévenir en cas d'urgence"/>
-    <designation>
-      <use>
-        <code value="LibelleCourt"/>
-      </use>
-      <value value="ECON"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="LibelleAdapte"/>
-      </use>
-      <value value="personne à prévenir en cas d'urgence"/>
-    </designation>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
@@ -58,18 +65,6 @@
   <concept>
     <code value="GUARD"/>
     <display value="Responsable légal"/>
-    <designation>
-      <use>
-        <code value="LibelleCourt"/>
-      </use>
-      <value value="GUARD"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="LibelleAdapte"/>
-      </use>
-      <value value="Responsable légal"/>
-    </designation>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
@@ -82,18 +77,6 @@
   <concept>
     <code value="QUAL"/>
     <display value="Personne de confiance"/>
-    <designation>
-      <use>
-        <code value="LibelleCourt"/>
-      </use>
-      <value value="QUAL"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="LibelleAdapte"/>
-      </use>
-      <value value="Personne de confiance"/>
-    </designation>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
@@ -110,18 +93,6 @@
   <concept>
     <code value="POLHOLD"/>
     <display value="Assuré ouvrant droit"/>
-    <designation>
-      <use>
-        <code value="LibelleCourt"/>
-      </use>
-      <value value="POLHOLD"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="LibelleAdapte"/>
-      </use>
-      <value value="Assuré ouvrant droit"/>
-    </designation>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
@@ -134,18 +105,6 @@
   <concept>
     <code value="CON"/>
     <display value="Informateur"/>
-    <designation>
-      <use>
-        <code value="LibelleCourt"/>
-      </use>
-      <value value="CON"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="LibelleAdapte"/>
-      </use>
-      <value value="Informateur"/>
-    </designation>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
@@ -158,18 +117,6 @@
   <concept>
     <code value="CAREGIVER"/>
     <display value="Aidant"/>
-    <designation>
-      <use>
-        <code value="LibelleCourt"/>
-      </use>
-      <value value="CAREGIVER"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="LibelleAdapte"/>
-      </use>
-      <value value="Aidant"/>
-    </designation>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2019-10-25T12:00:00+01:00"/>
@@ -182,18 +129,6 @@
   <concept>
     <code value="PAT"/>
     <display value="aidé"/>
-    <designation>
-      <use>
-        <code value="LibelleCourt"/>
-      </use>
-      <value value="PAT"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="LibelleAdapte"/>
-      </use>
-      <value value="aidé"/>
-    </designation>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2019-10-25T12:00:00+01:00"/>
@@ -206,18 +141,6 @@
   <concept>
     <code value="PROV"/>
     <display value="Professionnel de santé"/>
-    <designation>
-      <use>
-        <code value="LibelleCourt"/>
-      </use>
-      <value value="PROV"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="LibelleAdapte"/>
-      </use>
-      <value value="Professionnel de santé"/>
-    </designation>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2021-03-26T12:00:00+01:00"/>
@@ -230,18 +153,6 @@
   <concept>
     <code value="AGNT"/>
     <display value="Professionnel caractérisé par son rôle"/>
-    <designation>
-      <use>
-        <code value="LibelleCourt"/>
-      </use>
-      <value value="AGNT"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="LibelleAdapte"/>
-      </use>
-      <value value="Professionnel caractérisé par son rôle"/>
-    </designation>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2021-03-26T12:00:00+01:00"/>
@@ -254,18 +165,6 @@
   <concept>
     <code value="NOK"/>
     <display value="personne de confiance"/>
-    <designation>
-      <use>
-        <code value="LibelleCourt"/>
-      </use>
-      <value value="NOK"/>
-    </designation>
-    <designation>
-      <use>
-          <code value="LibelleAdapte"/>
-      </use>
-      <value value="personne de confiance"/>
-    </designation>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2024-03-29T12:00:00+01:00"/>

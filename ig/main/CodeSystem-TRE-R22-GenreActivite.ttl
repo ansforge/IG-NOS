@@ -2,6 +2,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # - resource -------------------------------------------------------------------
@@ -9,9 +10,17 @@
 <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R22-GenreActivite> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-R22-GenreActivite"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "5" ] ;
+     fhir:lastUpdated [ fhir:v "2024-08-28T05:12:30.109+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ] )
+  ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R22-GenreActivite</b></p><a name=\"TRE-R22-GenreActivite\"> </a><a name=\"hcTRE-R22-GenreActivite\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">GENR01<a name=\"TRE-R22-GenreActivite-GENR01\"> </a></td><td>Activité de soin et de pharmacie</td><td>Activité de soin dans le cadre de la prise en charge des patients ou usagers, incluant la pharmacie</td><td>2007-07-25T00:00:00+01:00</td><td>2022-02-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GENR02<a name=\"TRE-R22-GenreActivite-GENR02\"> </a></td><td>Activité de soins ou de pharmacien en tant que remplaçant</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GENR03<a name=\"TRE-R22-GenreActivite-GENR03\"> </a></td><td>Remplacement dans une activité de soins</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-03-21T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GENR04<a name=\"TRE-R22-GenreActivite-GENR04\"> </a></td><td>Activité non soignante</td><td>Activité non soignante du secteur sanitaire</td><td>2007-07-25T00:00:00+01:00</td><td>2007-07-25T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GENR05<a name=\"TRE-R22-GenreActivite-GENR05\"> </a></td><td>Activité non médicale</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">GENR06<a name=\"TRE-R22-GenreActivite-GENR06\"> </a></td><td>Délégation de responsabilité pour continuité de service</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GENR07<a name=\"TRE-R22-GenreActivite-GENR07\"> </a></td><td>Activité de soins en tant qu'intérimaire</td><td/><td>2016-03-21T00:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">GENR08<a name=\"TRE-R22-GenreActivite-GENR08\"> </a></td><td>Coordination et orientation</td><td>Activité de professionnel du secteur sanitaire, social et médico-social exerçant des fonctions de coordination et d'orientation</td><td>2022-02-25T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GENR09<a name=\"TRE-R22-GenreActivite-GENR09\"> </a></td><td>Administratif ou appui à l'organisation de l'accompagnement social/médico-social</td><td>Activité de professionnel du secteur social et médico-social exerçant des fonctions administratives ou d'appui à l'organisation de l'accompagnement</td><td>2022-02-25T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GENR10<a name=\"TRE-R22-GenreActivite-GENR10\"> </a></td><td>Accompagnement social/médico-social à la vie sociale, professionnelle, éducative</td><td>Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement à la vie sociale, professionnelle et éducative</td><td>2022-02-25T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GENR11<a name=\"TRE-R22-GenreActivite-GENR11\"> </a></td><td>Accompagnement social/médico-social au soin</td><td>Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement au soin</td><td>2022-02-25T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GENR12<a name=\"TRE-R22-GenreActivite-GENR12\"> </a></td><td>Encadrement et organisation de l'accompagnement social/médico-social</td><td>Activité de professionnel du social et médico-social exerçant des fonctions d'encadrement et d'organisation de l'accompagnement</td><td>2022-02-25T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GENR13<a name=\"TRE-R22-GenreActivite-GENR13\"> </a></td><td>Activité médico-administrative</td><td/><td>2023-07-28T09:00:00+01:00</td><td>2023-07-28T09:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GENR99<a name=\"TRE-R22-GenreActivite-GENR99\"> </a></td><td>Autre activité</td><td/><td>2023-11-24T12:00:00+01:00</td><td>2023-11-24T12:00:00+01:00</td><td/></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R22-GenreActivite</b></p><a name=\"TRE-R22-GenreActivite\"> </a><a name=\"hcTRE-R22-GenreActivite\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 5; Dernière mise à jour : 2024-08-28 05:12:30+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">GENR01<a name=\"TRE-R22-GenreActivite-GENR01\"> </a></td><td>Activité de soin et de pharmacie</td><td>Activité de soin dans le cadre de la prise en charge des patients ou usagers, incluant la pharmacie</td><td>2007-07-25T00:00:00+01:00</td><td>2022-02-25T12:00:00+01:00</td><td/><td>Soignant</td></tr><tr><td style=\"white-space:nowrap\">GENR02<a name=\"TRE-R22-GenreActivite-GENR02\"> </a></td><td>Activité de soins ou de pharmacien en tant que remplaçant</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>Remplaçant</td></tr><tr><td style=\"white-space:nowrap\">GENR03<a name=\"TRE-R22-GenreActivite-GENR03\"> </a></td><td>Remplacement dans une activité de soins</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-03-21T00:00:00+01:00</td><td/><td>Remplacement</td></tr><tr><td style=\"white-space:nowrap\">GENR04<a name=\"TRE-R22-GenreActivite-GENR04\"> </a></td><td>Activité non soignante</td><td>Activité non soignante du secteur sanitaire</td><td>2007-07-25T00:00:00+01:00</td><td>2007-07-25T00:00:00+01:00</td><td/><td>Non soignante</td></tr><tr><td style=\"white-space:nowrap\">GENR05<a name=\"TRE-R22-GenreActivite-GENR05\"> </a></td><td>Activité non médicale</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td>Non médicale</td></tr><tr><td style=\"white-space:nowrap\">GENR06<a name=\"TRE-R22-GenreActivite-GENR06\"> </a></td><td>Délégation de responsabilité pour continuité de service</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>Délégation de responsabilité</td></tr><tr><td style=\"white-space:nowrap\">GENR07<a name=\"TRE-R22-GenreActivite-GENR07\"> </a></td><td>Activité de soins en tant qu'intérimaire</td><td/><td>2016-03-21T00:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td>Intérimaire</td></tr><tr><td style=\"white-space:nowrap\">GENR08<a name=\"TRE-R22-GenreActivite-GENR08\"> </a></td><td>Coordination et orientation</td><td>Activité de professionnel du secteur sanitaire, social et médico-social exerçant des fonctions de coordination et d'orientation</td><td>2022-02-25T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td>Activité de coordination et d'orientation</td></tr><tr><td style=\"white-space:nowrap\">GENR09<a name=\"TRE-R22-GenreActivite-GENR09\"> </a></td><td>Administratif ou appui à l'organisation de l'accompagnement social/médico-social</td><td>Activité de professionnel du secteur social et médico-social exerçant des fonctions administratives ou d'appui à l'organisation de l'accompagnement</td><td>2022-02-25T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td>Administratif soc/médico-soc</td></tr><tr><td style=\"white-space:nowrap\">GENR10<a name=\"TRE-R22-GenreActivite-GENR10\"> </a></td><td>Accompagnement social/médico-social à la vie sociale, professionnelle, éducative</td><td>Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement à la vie sociale, professionnelle et éducative</td><td>2022-02-25T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td>Accompagnement vie sociale</td></tr><tr><td style=\"white-space:nowrap\">GENR11<a name=\"TRE-R22-GenreActivite-GENR11\"> </a></td><td>Accompagnement social/médico-social au soin</td><td>Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement au soin</td><td>2022-02-25T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td>Accompagnt au soin soc/méd-soc</td></tr><tr><td style=\"white-space:nowrap\">GENR12<a name=\"TRE-R22-GenreActivite-GENR12\"> </a></td><td>Encadrement et organisation de l'accompagnement social/médico-social</td><td>Activité de professionnel du social et médico-social exerçant des fonctions d'encadrement et d'organisation de l'accompagnement</td><td>2022-02-25T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td>Encadrement soc/médico-soc</td></tr><tr><td style=\"white-space:nowrap\">GENR13<a name=\"TRE-R22-GenreActivite-GENR13\"> </a></td><td>Activité médico-administrative</td><td/><td>2023-07-28T09:00:00+01:00</td><td>2023-07-28T09:00:00+01:00</td><td/><td>Médico-administratif</td></tr><tr><td style=\"white-space:nowrap\">GENR99<a name=\"TRE-R22-GenreActivite-GENR99\"> </a></td><td>Autre activité</td><td/><td>2023-11-24T12:00:00+01:00</td><td>2023-11-24T12:00:00+01:00</td><td/><td>Autre</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -22,11 +31,13 @@
   ] ) ; # 
   fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite"^^xsd:anyURI] ; # 
   fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.19" ]
   ] ) ; # 
   fhir:version [ fhir:v "1.5.0"] ; # 
-  fhir:name [ fhir:v "TRE_R22-GenreActivite"] ; # 
+  fhir:name [ fhir:v "TRE_R22_GenreActivite"] ; # 
   fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
@@ -37,6 +48,7 @@
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Genre d'activité"] ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "dateValid" ] ;
@@ -56,15 +68,13 @@
      fhir:display [ fhir:v "Activité de soin et de pharmacie" ] ;
      fhir:definition [ fhir:v "Activité de soin dans le cadre de la prise en charge des patients ou usagers, incluant la pharmacie" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Soignant" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Activité de soin et de pharmacie" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
@@ -83,15 +93,13 @@
      fhir:code [ fhir:v "GENR02" ] ;
      fhir:display [ fhir:v "Activité de soins ou de pharmacien en tant que remplaçant" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Remplaçant" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Activité de soins ou de pharmacien en tant que remplaçant" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
@@ -110,15 +118,13 @@
      fhir:code [ fhir:v "GENR03" ] ;
      fhir:display [ fhir:v "Remplacement dans une activité de soins" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Remplacement" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Remplacement dans une activité de soins" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
@@ -138,15 +144,13 @@
      fhir:display [ fhir:v "Activité non soignante" ] ;
      fhir:definition [ fhir:v "Activité non soignante du secteur sanitaire" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Non soignante" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Activité non soignante" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
@@ -165,15 +169,13 @@
      fhir:code [ fhir:v "GENR05" ] ;
      fhir:display [ fhir:v "Activité non médicale" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Non médicale" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Activité non médicale" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
@@ -198,15 +200,13 @@
      fhir:code [ fhir:v "GENR06" ] ;
      fhir:display [ fhir:v "Délégation de responsabilité pour continuité de service" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Délégation de responsabilité" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Délégation de responsabilité pour continuité de service" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
@@ -225,15 +225,13 @@
      fhir:code [ fhir:v "GENR07" ] ;
      fhir:display [ fhir:v "Activité de soins en tant qu'intérimaire" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Intérimaire" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Activité de soins en tant qu'intérimaire" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
@@ -259,13 +257,11 @@
      fhir:display [ fhir:v "Coordination et orientation" ] ;
      fhir:definition [ fhir:v "Activité de professionnel du secteur sanitaire, social et médico-social exerçant des fonctions de coordination et d'orientation" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
-       ] ;
-       fhir:value [ fhir:v "Coordination et orientation" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Activité de coordination et d'orientation" ]
      ] ) ;
@@ -287,13 +283,19 @@
      fhir:display [ fhir:v "Administratif ou appui à l'organisation de l'accompagnement social/médico-social" ] ;
      fhir:definition [ fhir:v "Activité de professionnel du secteur social et médico-social exerçant des fonctions administratives ou d'appui à l'organisation de l'accompagnement" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Administratif soc/médico-soc" ]
      ] [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Activité de professionnel du secteur social et médico-social exerçant des fonctions administratives ou d'appui à l'organisation de l'accompagnement" ]
      ] ) ;
@@ -315,13 +317,19 @@
      fhir:display [ fhir:v "Accompagnement social/médico-social à la vie sociale, professionnelle, éducative" ] ;
      fhir:definition [ fhir:v "Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement à la vie sociale, professionnelle et éducative" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Accompagnement vie sociale" ]
      ] [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement à la vie sociale, professionnelle et éducative" ]
      ] ) ;
@@ -343,13 +351,19 @@
      fhir:display [ fhir:v "Accompagnement social/médico-social au soin" ] ;
      fhir:definition [ fhir:v "Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement au soin" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Accompagnt au soin soc/méd-soc" ]
      ] [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement au soin" ]
      ] ) ;
@@ -371,13 +385,19 @@
      fhir:display [ fhir:v "Encadrement et organisation de l'accompagnement social/médico-social" ] ;
      fhir:definition [ fhir:v "Activité de professionnel du social et médico-social exerçant des fonctions d'encadrement et d'organisation de l'accompagnement" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Encadrement soc/médico-soc" ]
      ] [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Activité de professionnel du social et médico-social exerçant des fonctions d'encadrement et d'organisation de l'accompagnement" ]
      ] ) ;
@@ -398,15 +418,13 @@
      fhir:code [ fhir:v "GENR13" ] ;
      fhir:display [ fhir:v "Activité médico-administrative" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médico-administratif" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Activité médico-administrative" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
@@ -425,15 +443,13 @@
      fhir:code [ fhir:v "GENR99" ] ;
      fhir:display [ fhir:v "Autre activité" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Autre" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Autre activité" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;

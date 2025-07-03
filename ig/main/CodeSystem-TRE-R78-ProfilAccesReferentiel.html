@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>ANS.FR.NOS\TRE_R78-ProfilAccesReferentiel - FHIR v4.0.1</title>
+    <title>ANS.FR.NOS\TRE_R78_ProfilAccesReferentiel - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"12.489"}
-    h3,h4,h5,h6{--heading-prefix:"12.489"}</style>
+    <style type="text/css">h2{--heading-prefix:"12.490"}
+    h3,h4,h5,h6{--heading-prefix:"12.490"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -135,7 +135,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>TRE_R78-ProfilAccesReferentiel</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>TRE_R78_ProfilAccesReferentiel</b></li>
 
           <span style="float:right;">
 
@@ -210,7 +210,7 @@
   <a name="root"> </a>
   <h2 id="root">CodeSystem: 
 	
-	  TRE_R78-ProfilAccesReferentiel
+	  TRE_R78_ProfilAccesReferentiel
 	
 	  
 
@@ -247,12 +247,12 @@
 
 
 
-      <td><i>Computable Name</i>: <span style="font-family: monospace;">TRE_R78-ProfilAccesReferentiel</span></td>
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">TRE_R78_ProfilAccesReferentiel</span></td>
     </tr>
 
     <tr>
       <td colspan="5">
-        <i>Other Identifiers:</i> urn:oid:1.2.250.1.213.1.6.1.66
+        <i>Other Identifiers:</i> OID:1.2.250.1.213.1.6.1.66
       </td>
     </tr>
 
@@ -279,145 +279,224 @@
 
   
 <ul>
- <li><a href="ValueSet-JDV-J68-ProfilAccesReferentiel-ROR.html">JDV_J68-ProfilAccesReferentiel-ROR</a></li>
+ <li><a href="ValueSet-JDV-J68-ProfilAccesReferentiel-ROR.html">JDV_J68_ProfilAccesReferentiel_ROR</a></li>
 </ul>
 
 <hr aria-hidden="true"/>
-  <div><p class="res-header-id"></p><a name="TRE-R78-ProfilAccesReferentiel"> </a><a name="hcTRE-R78-ProfilAccesReferentiel"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p>
-<table class="grid"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
+  <div><p class="res-header-id"></p><a name="TRE-R78-ProfilAccesReferentiel"> </a><a name="hcTRE-R78-ProfilAccesReferentiel"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 5; Last updated: 2025-05-26 18:11:18+0000</p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p>
+<table class="grid"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
 <tr><td>dateValid</td>
 <td>dateValid</td>
+<td></td>
 <td>dateTime</td>
 <td>date de validité d'un code concept</td></tr>
 <tr><td>dateMaj</td>
 <td>dateMaj</td>
+<td></td>
 <td>dateTime</td>
 <td>Date de mise à jour d'un code concept</td></tr>
 <tr><td>dateFin</td>
 <td>dateFin</td>
+<td></td>
 <td>dateTime</td>
-<td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R78-ProfilAccesReferentiel/FHIR/TRE-R78-ProfilAccesReferentiel</code> defines the following codes:</p>
-<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr>
+<td>Date de fin d'exploitation d'un code concept</td></tr>
+<tr><td>deprecationDate</td>
+<td>deprecationDate</td>
+<td>http://hl7.org/fhir/concept-properties#deprecationDate</td>
+<td>dateTime</td>
+<td>Date Concept was deprecated</td></tr>
+<tr><td>status</td>
+<td>status</td>
+<td>http://hl7.org/fhir/concept-properties#status</td>
+<td>code</td>
+<td>A property that indicates the status of the concept.</td></tr>
+<tr><td>retirementDate</td>
+<td>retirementDate</td>
+<td>http://hl7.org/fhir/concept-properties#retirementDate</td>
+<td>dateTime</td>
+<td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R78-ProfilAccesReferentiel/FHIR/TRE-R78-ProfilAccesReferentiel</code> defines the following codes:</p>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr>
 <tr><td style="white-space:nowrap">CU01<a name="TRE-R78-ProfilAccesReferentiel-CU01"> </a></td>
 <td>Services du ministère chargé de la santé</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU02<a name="TRE-R78-ProfilAccesReferentiel-CU02"> </a></td>
 <td>Agences régionales de santé</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU03<a name="TRE-R78-ProfilAccesReferentiel-CU03"> </a></td>
 <td>SSA et autres autorités employeurs</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU04<a name="TRE-R78-ProfilAccesReferentiel-CU04"> </a></td>
 <td>Conseils des Ordres</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU05<a name="TRE-R78-ProfilAccesReferentiel-CU05"> </a></td>
 <td>Autorités et représentants Etat dans COM</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU06<a name="TRE-R78-ProfilAccesReferentiel-CU06"> </a></td>
 <td>CNAMTS</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU07<a name="TRE-R78-ProfilAccesReferentiel-CU07"> </a></td>
 <td>Régimes d'AMO dans les COM</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU08<a name="TRE-R78-ProfilAccesReferentiel-CU08"> </a></td>
 <td>ASIP Santé</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU09<a name="TRE-R78-ProfilAccesReferentiel-CU09"> </a></td>
 <td>CPAM et CGSS</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU10<a name="TRE-R78-ProfilAccesReferentiel-CU10"> </a></td>
 <td>Autres services de l'Etat</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU11<a name="TRE-R78-ProfilAccesReferentiel-CU11"> </a></td>
 <td>Etabs, servs santé 6è partie CSP, Collecs territ, Assos gest service san ou soc</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td>Etablissements et services de santé 6ème partie CSP, Collectivités territoriales et Associations gestionnaires d'un service sanitaire ou social</td></tr>
 <tr><td style="white-space:nowrap">CU12<a name="TRE-R78-ProfilAccesReferentiel-CU12"> </a></td>
 <td>Etablissements médico-sociaux ou sociaux</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU13<a name="TRE-R78-ProfilAccesReferentiel-CU13"> </a></td>
 <td>Autres étab pub, groupmts, orgs créés par loi ou règlement ds dom san et soc</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td>Autres établissements publics, groupements, organismes créés par la loi ou le règlement dans le domaine sanitaire et social</td></tr>
 <tr><td style="white-space:nowrap">CU14<a name="TRE-R78-ProfilAccesReferentiel-CU14"> </a></td>
 <td>Hébergeurs, éditeurs, imprimeurs d'ordonnances</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU15<a name="TRE-R78-ProfilAccesReferentiel-CU15"> </a></td>
 <td>Orgs, étabs scient mission agir dévt, diffusion connaissances domaine san et soc</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td>Organismes et établissements scientifiques avec mission d'agir pour développement et diffusion des connaissances dans le domaine sanitaire et social</td></tr>
 <tr><td style="white-space:nowrap">CU16<a name="TRE-R78-ProfilAccesReferentiel-CU16"> </a></td>
 <td>Autres régimes d'AMO et organismes d'AMC</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU17<a name="TRE-R78-ProfilAccesReferentiel-CU17"> </a></td>
 <td>Professionnel de santé</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td></tr>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU18<a name="TRE-R78-ProfilAccesReferentiel-CU18"> </a></td>
 <td>Orientation sanitaire et médico-sociale</td>
 <td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td></tr>
+<td>2019-03-29T12:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU19<a name="TRE-R78-ProfilAccesReferentiel-CU19"> </a></td>
 <td>Orientation médico-sociale</td>
 <td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td></tr>
+<td>2019-03-29T12:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU20<a name="TRE-R78-ProfilAccesReferentiel-CU20"> </a></td>
 <td>Coordination sanitaire et médico-sociale</td>
 <td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td></tr>
+<td>2019-03-29T12:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU21<a name="TRE-R78-ProfilAccesReferentiel-CU21"> </a></td>
 <td>Coordination médico-sociale</td>
 <td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td></tr>
+<td>2019-03-29T12:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU22<a name="TRE-R78-ProfilAccesReferentiel-CU22"> </a></td>
 <td>Régulation de soins non programmés</td>
 <td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td></tr>
+<td>2019-03-29T12:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU23<a name="TRE-R78-ProfilAccesReferentiel-CU23"> </a></td>
 <td>Accès public</td>
 <td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td></tr>
+<td>2019-03-29T12:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU24<a name="TRE-R78-ProfilAccesReferentiel-CU24"> </a></td>
 <td>Gestionnaire de DAC (MAIA, …)</td>
 <td>2023-01-27T12:00:00+01:00</td>
-<td>2023-01-27T12:00:00+01:00</td></tr>
+<td>2023-01-27T12:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU25<a name="TRE-R78-ProfilAccesReferentiel-CU25"> </a></td>
 <td>Gestion de crise</td>
 <td>2023-01-27T12:00:00+01:00</td>
-<td>2023-01-27T12:00:00+01:00</td></tr>
+<td>2023-01-27T12:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU26<a name="TRE-R78-ProfilAccesReferentiel-CU26"> </a></td>
 <td>Gestion de l'offre sanitaire et médico-sociale</td>
 <td>2023-01-27T12:00:00+01:00</td>
-<td>2023-01-27T12:00:00+01:00</td></tr>
+<td>2023-01-27T12:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU27<a name="TRE-R78-ProfilAccesReferentiel-CU27"> </a></td>
 <td>Gestion de l'offre médico-sociale</td>
 <td>2023-01-27T12:00:00+01:00</td>
-<td>2023-01-27T12:00:00+01:00</td></tr>
+<td>2023-01-27T12:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU28<a name="TRE-R78-ProfilAccesReferentiel-CU28"> </a></td>
 <td>Pilotage de l'offre sanitaire</td>
 <td>2025-05-23T12:00:00+01:00</td>
-<td>2025-05-23T12:00:00+01:00</td></tr>
+<td>2025-05-23T12:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU29<a name="TRE-R78-ProfilAccesReferentiel-CU29"> </a></td>
 <td>Pilotage de l'offre médico-sociale</td>
 <td>2025-05-23T12:00:00+01:00</td>
-<td>2025-05-23T12:00:00+01:00</td></tr>
+<td>2025-05-23T12:00:00+01:00</td>
+<td>active</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">CU30<a name="TRE-R78-ProfilAccesReferentiel-CU30"> </a></td>
 <td>Orientation sanitaire et médico-sociale sans disponibilité en lit</td>
 <td>2025-05-23T12:00:00+01:00</td>
-<td>2025-05-23T12:00:00+01:00</td></tr></table></div>
+<td>2025-05-23T12:00:00+01:00</td>
+<td>active</td>
+<td></td></tr></table></div>
 
 </div>
 <div style="display:none" id="download">
@@ -425,16 +504,16 @@
 	<tbody>
 	
 		<tr>
-			<td><a name="l962">​</a><a href="./NOS/CodeSystem-TRE-R78-ProfilAccesReferentiel.tabs">csv</a> </td>
+			<td><a name="l1186">​</a><a href="./NOS/CodeSystem-TRE-R78-ProfilAccesReferentiel.tabs">csv</a> </td>
 			<td> Fichier csv (.tabs) </td>
 		</tr>
 		<tr>
-			<td><a name="l973">​</a><a href="./NOS/CodeSystem-TRE-R78-ProfilAccesReferentiel.pdf" class="file-link">Pdf</a> </td>
+			<td><a name="l1197">​</a><a href="./NOS/CodeSystem-TRE-R78-ProfilAccesReferentiel.pdf" class="file-link">Pdf</a> </td>
 			<td> Fichier PDF </td>
 		</tr>	
 		
 		<tr>
-			<td><a name="l984">​</a><a href="./NOS/CodeSystem-TRE-R78-ProfilAccesReferentiel.xml">svs</a> </td>
+			<td><a name="l1208">​</a><a href="./NOS/CodeSystem-TRE-R78-ProfilAccesReferentiel.xml">svs</a> </td>
 			<td>  Fichier xml (Sharing Value Sets) </td>
 		</tr>
 		<tr>
@@ -521,7 +600,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.nos#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jul 2, 2025 04:35+0000">2025-07-02</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.nos#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 3, 2025 04:37+0000">2025-07-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

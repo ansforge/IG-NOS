@@ -2,6 +2,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # - resource -------------------------------------------------------------------
@@ -9,9 +10,17 @@
 <https://interop.esante.gouv.fr/ig/nos/CodeSystem/TRE-R33-StatutInscription> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-R33-StatutInscription"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "4" ] ;
+     fhir:lastUpdated [ fhir:v "2024-08-28T05:13:32.236+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ] )
+  ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R33-StatutInscription</b></p><a name=\"TRE-R33-StatutInscription\"> </a><a name=\"hcTRE-R33-StatutInscription\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R33-StatutInscription/FHIR/TRE-R33-StatutInscription</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">D<a name=\"TRE-R33-StatutInscription-D\"> </a></td><td>Définitif</td><td>2007-07-25T15:04:44+01:00</td><td>2007-07-25T15:04:44+01:00</td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"TRE-R33-StatutInscription-N\"> </a></td><td>Non inscrit</td><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"TRE-R33-StatutInscription-P\"> </a></td><td>Provisoire</td><td>2007-07-25T15:04:44+01:00</td><td>2007-07-25T15:04:44+01:00</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"TRE-R33-StatutInscription-T\"> </a></td><td>Transfert dossier</td><td>2007-07-25T00:00:00+01:00</td><td>2009-04-06T00:00:00+01:00</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R33-StatutInscription</b></p><a name=\"TRE-R33-StatutInscription\"> </a><a name=\"hcTRE-R33-StatutInscription\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Dernière mise à jour : 2024-08-28 05:13:32+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R33-StatutInscription/FHIR/TRE-R33-StatutInscription</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">D<a name=\"TRE-R33-StatutInscription-D\"> </a></td><td>Définitif</td><td>2007-07-25T15:04:44+01:00</td><td>2007-07-25T15:04:44+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">N<a name=\"TRE-R33-StatutInscription-N\"> </a></td><td>Non inscrit</td><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">P<a name=\"TRE-R33-StatutInscription-P\"> </a></td><td>Provisoire</td><td>2007-07-25T15:04:44+01:00</td><td>2007-07-25T15:04:44+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">T<a name=\"TRE-R33-StatutInscription-T\"> </a></td><td>Transfert dossier</td><td>2007-07-25T00:00:00+01:00</td><td>2009-04-06T00:00:00+01:00</td><td>Transfert</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -22,11 +31,13 @@
   ] ) ; # 
   fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R33-StatutInscription/FHIR/TRE-R33-StatutInscription"^^xsd:anyURI] ; # 
   fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.12" ]
   ] ) ; # 
   fhir:version [ fhir:v "1.5.0"] ; # 
-  fhir:name [ fhir:v "TRE_R33-StatutInscription"] ; # 
+  fhir:name [ fhir:v "TRE_R33_StatutInscription"] ; # 
   fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2023-12-15T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
@@ -37,6 +48,7 @@
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Statut de l'inscription"] ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "dateValid" ] ;
@@ -54,17 +66,6 @@
   fhir:concept ( [
      fhir:code [ fhir:v "D" ] ;
      fhir:display [ fhir:v "Définitif" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
-       ] ;
-       fhir:value [ fhir:v "Définitif" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Définitif" ]
-     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -81,17 +82,6 @@
   ] [
      fhir:code [ fhir:v "N" ] ;
      fhir:display [ fhir:v "Non inscrit" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
-       ] ;
-       fhir:value [ fhir:v "Non inscrit" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Non inscrit" ]
-     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -108,17 +98,6 @@
   ] [
      fhir:code [ fhir:v "P" ] ;
      fhir:display [ fhir:v "Provisoire" ] ;
-     fhir:designation ( [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
-       ] ;
-       fhir:value [ fhir:v "Provisoire" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Provisoire" ]
-     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -136,15 +115,13 @@
      fhir:code [ fhir:v "T" ] ;
      fhir:display [ fhir:v "Transfert dossier" ] ;
      fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
-         fhir:code [ fhir:v "LibelleCourt" ]
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Transfert" ]
-     ] [
-       fhir:use [
-         fhir:code [ fhir:v "LibelleAdapte" ]
-       ] ;
-       fhir:value [ fhir:v "Transfert dossier" ]
      ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
