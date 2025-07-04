@@ -449,6 +449,50 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms"/>
+      </reference>
+      <name value="Jdv J366 Statut Bilan Projet Personnalise Ms"/>
+      <description value="Statut du bilan du projet personnalisé."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j367-type-projet-personnalise-ms"/>
+      </reference>
+      <name value="Jdv J367 Type Projet Personnalise Ms"/>
+      <description value="Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j368-categorie-etablissement-cisis"/>
+      </reference>
+      <name value="Jdv J368 Categorie Etablissement Cisis"/>
+      <description value="JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j370-type-contrat-sejour-ms"/>
+      </reference>
+      <name value="Jdv J370 Type Contrat Sejour Ms"/>
+      <description value="Type de contrat conclu entre l’établissement/service et la personne/son représentant légal."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/JDV-J01-XdsAuthorSpecialty-CISIS"/>
       </reference>
       <name value="JDV_J01_XdsAuthorSpecialty_CISIS"/>
@@ -3214,6 +3258,50 @@
       </reference>
       <name value="JDV_J99_InseeNAFrav2Niveau5_RASS"/>
       <description value="Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r389-statut-bilan-projet-personnalise"/>
+      </reference>
+      <name value="Tre R389 Statut Bilan Projet Personnalise"/>
+      <description value="Statut du bilan du projet personnalisé."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r390-type-projet-personnalise"/>
+      </reference>
+      <name value="Tre R390 Type Projet Personnalise"/>
+      <description value="Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r393-type-contrat-sejour"/>
+      </reference>
+      <name value="Tre R393 Type Contrat Sejour"/>
+      <description value="Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r394-competence-metier"/>
+      </reference>
+      <name value="Tre R394 Competence Metier"/>
+      <description value="Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

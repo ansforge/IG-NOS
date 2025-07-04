@@ -604,6 +604,54 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms"
+      },
+      "name" : "Jdv J366 Statut Bilan Projet Personnalise Ms",
+      "description" : "Statut du bilan du projet personnalisé.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j367-type-projet-personnalise-ms"
+      },
+      "name" : "Jdv J367 Type Projet Personnalise Ms",
+      "description" : "Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j368-categorie-etablissement-cisis"
+      },
+      "name" : "Jdv J368 Categorie Etablissement Cisis",
+      "description" : "JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j370-type-contrat-sejour-ms"
+      },
+      "name" : "Jdv J370 Type Contrat Sejour Ms",
+      "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J01-XdsAuthorSpecialty-CISIS"
       },
       "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
@@ -3620,6 +3668,54 @@
       },
       "name" : "JDV_J99_InseeNAFrav2Niveau5_RASS",
       "description" : "Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r389-statut-bilan-projet-personnalise"
+      },
+      "name" : "Tre R389 Statut Bilan Projet Personnalise",
+      "description" : "Statut du bilan du projet personnalisé.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r390-type-projet-personnalise"
+      },
+      "name" : "Tre R390 Type Projet Personnalise",
+      "description" : "Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r393-type-contrat-sejour"
+      },
+      "name" : "Tre R393 Type Contrat Sejour",
+      "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r394-competence-metier"
+      },
+      "name" : "Tre R394 Competence Metier",
+      "description" : "Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue.",
       "exampleBoolean" : false
     },
     {
